@@ -23,15 +23,15 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
-![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
 # Goals of This Section
 
 ## Goals of This Section
 
-Today we will:
+In this section we will:
 
 - Bring together demand and supply to determine wages and employment
 - Discuss the effect of market power in the goods market on equilibrium wages and employment

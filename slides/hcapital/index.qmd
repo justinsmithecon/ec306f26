@@ -23,15 +23,15 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
-![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
 # Goals of This Section
 
 ## Goals of This Section
 
-Today we will:
+In this section we will:
 
 - Discuss trends in educational attainment in Canada
 - Introduce Human Capital Theory of education investment

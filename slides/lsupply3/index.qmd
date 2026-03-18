@@ -23,7 +23,7 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
 ![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
@@ -33,7 +33,7 @@ editor: visual
 
 ## Goals of This Section
 
-Today we will:
+In this section we will:
 
 - Show patterns of labour supply over a person's lifetime
 - Discuss issues comparing labour supply of people at different ages

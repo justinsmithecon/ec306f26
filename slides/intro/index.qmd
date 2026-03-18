@@ -1,5 +1,5 @@
 ---
-format: 
+format:
   revealjs:
     theme: [default, hygge.scss]
     center-title-slide: false
@@ -22,113 +22,102 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
-![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
 # Goals of This Section
 
 ## Goals of This Section
 
--   Define **Labour Economics**
+In this section we will:
 
--   Describe basic facts about the labour market
-
--   Introduce the main economic model used in labour economics
-
--   Discuss some current policy issues
+- Define [**Labour Economics**]{.fg style="color: #2780e3;"}
+- Describe basic facts about the labour market
+- Introduce the main economic model used in labour economics
+- Discuss some current policy issues
 
 # What is Labour Economics?
 
 ## Defining Labour Economics
 
--   **Labour Economics** is the study of the interaction between workers, employers, and government that determine outcomes like wages and employment
+::: {.callout-important}
+## Key Definition
+**Labour Economics** is the study of the interaction between workers, employers, and government that determine outcomes like wages and employment
+:::
 
--   Key aspects of labour economics
+[Key aspects of labour economics:]{.fg style="color: #2780e3;"}
 
-    -   Labour supply: decisions by individuals about how much to work
-    -   Labour demand: decisions by firms about how many workers to hire
-    -   Labour market: the interaction of labour supply and demand that determines wages and employment
-    -   Other determinants of wages: human capital, discrimination, unions, minimum wage, etc.
-    -   Inequality and poverty: the distribution of income and wealth
-    -   Unemployment: causes and consequences
+- [Labour supply:]{.fg style="color: #555;"} decisions by individuals about how much to work
+- [Labour demand:]{.fg style="color: #555;"} decisions by firms about how many workers to hire
+- [Labour market:]{.fg style="color: #555;"} the interaction of labour supply and demand that determines wages and employment
+- [Other determinants of wages:]{.fg style="color: #555;"} human capital, discrimination, unions, minimum wage, etc.
+- [Inequality and poverty:]{.fg style="color: #555;"} the distribution of income and wealth
+- [Unemployment:]{.fg style="color: #555;"} causes and consequences
 
 ## Labour Supply
 
--   Studies decisions by individuals about how much to work
-
--   There are many key determinants
-
-    -   Wages: higher wages increase the opportunity cost of leisure, leading to more work
-        -   Can also lead to *less* work if wages are already very high
-    -   Non-labour income: higher non-labour income reduces the need to work, leading to less work
-    -   Preferences: some people may prefer more leisure or more work
-    -   Public policy: taxes, transfers, and regulations can affect labour supply
-        -   Examples: income tax, welfare programs, minimum wage, pension, workers compensation
+- Studies decisions by individuals about how much to work
+- There are many key determinants
+  - [Wages:]{.fg style="color: #555;"} higher wages increase the opportunity cost of leisure, leading to more work
+    - Can also lead to *less* work if wages are already very high
+  - [Non-labour income:]{.fg style="color: #555;"} higher non-labour income reduces the need to work, leading to less work
+  - [Preferences:]{.fg style="color: #555;"} some people may prefer more leisure or more work
+  - [Public policy:]{.fg style="color: #555;"} taxes, transfers, and regulations can affect labour supply
+    - Examples: income tax, welfare programs, minimum wage, pension, workers compensation
 
 ## Labour Demand
 
--   Studies decision by firms about how many workers to hire
-
--   Key determinants
-
-    -   Wages: higher wages increase the cost of labour, leading to less hiring
-    -   Other labour costs: benefits, training, and other costs increase the cost of labour, leading to less hiring
-    -   Productivity: more productive workers are more valuable, leading to more hiring
-    -   Output prices: higher output prices increase revenue, leading to more hiring
-    -   Technology: new technology can change the demand for different types of workers
-    -   Public policy: taxes, subsidies, and regulations can affect labour demand
-        -   Examples: corporate tax, employment subsidies, minimum wage, occupational licensing
+- Studies decision by firms about how many workers to hire
+- Key determinants
+  - [Wages:]{.fg style="color: #555;"} higher wages increase the cost of labour, leading to less hiring
+  - [Other labour costs:]{.fg style="color: #555;"} benefits, training, and other costs increase the cost of labour, leading to less hiring
+  - [Productivity:]{.fg style="color: #555;"} more productive workers are more valuable, leading to more hiring
+  - [Output prices:]{.fg style="color: #555;"} higher output prices increase revenue, leading to more hiring
+  - [Technology:]{.fg style="color: #555;"} new technology can change the demand for different types of workers
+  - [Public policy:]{.fg style="color: #555;"} taxes, subsidies, and regulations can affect labour demand
+    - Examples: corporate tax, employment subsidies, minimum wage, occupational licensing
 
 ## Relative Wages
 
--   Across the economy, different groups of workers earn different wages
-
-    -   Men earn more than women
-    -   Education is positively related to wages
-    -   More dangerous jobs tend to pay more
-    -   Public sector jobs pay differently than private sector ones
-    -   Immigrants earn less than non-immigrants
-
--   Labour economics uses supply, demand and other models to explain these differences
-
-    -   Returns to schooling explained by **human capital theory**
-    -   Gender and immigrant wage gaps partly explained by discrimination
+- Across the economy, different groups of workers earn different wages
+  - [Men earn more than women]{.fg style="color: #c7254e;"}
+  - Education is positively related to wages
+  - More dangerous jobs tend to pay more
+  - Public sector jobs pay differently than private sector ones
+  - [Immigrants earn less than non-immigrants]{.fg style="color: #c7254e;"}
+- [Labour Economics]{.fg style="color: #2780e3;"} uses supply, demand and other models to explain these differences
+  - Returns to schooling explained by [**human capital theory**]{.fg style="color: #2780e3;"}
+  - Gender and immigrant wage gaps partly explained by [discrimination]{.fg style="color: #c7254e;"}
 
 ## Unions
 
--   Unions are organizations that represent workers in collective bargaining with employers
-
--   Unions increase worker power, and can affect wages and employment
-
--   Typically wages of unionized workers are determined by **collective bargaining**
-
-    -   Leads to a collective bargaining agreement, renegotiated every few years
-
--   To study unionized workers, labour economists incorporate bargaining theory into their models
-
--   Unions can also affect non-wage aspects of jobs, such as benefits, working conditions, and job security
+- [Unions]{.fg style="color: #2780e3;"} are organizations that represent workers in collective bargaining with employers
+- Unions increase worker power, and can affect wages and employment
+- Typically wages of unionized workers are determined by [**collective bargaining**]{.fg style="color: #2780e3;"}
+  - Leads to a collective bargaining agreement, renegotiated every few years
+- To study unionized workers, labour economists incorporate bargaining theory into their models
+- Unions can also affect non-wage aspects of jobs, such as benefits, working conditions, and job security
 
 ## Unemployment
 
--   Most topics in labour economics use **microeconomic** models to explain behaviour
+- Most topics in labour economics use [**microeconomic**]{.fg style="color: #2780e3;"} models to explain behaviour
+- Unemployment is studied using both microeconomic and macroeconomic models
 
--   Unemployment is studied using both microeconomic and macroeconomic models
+[Typical microeconomic topics include:]{.fg style="color: #2780e3;"}
 
--   Typical microeconomic topics include:
-
-    -   Job search: how workers find jobs and how firms find workers
-    -   Implicit contracts: agreements between workers and firms that are not formal contracts
-    -   Efficiency wages: wages that are above the market-clearing level to increase productivity and reduce turnover
-    -   Employment insurance: government programs that provide income support to unemployed workers
+- [Job search:]{.fg style="color: #555;"} how workers find jobs and how firms find workers
+- [Implicit contracts:]{.fg style="color: #555;"} agreements between workers and firms that are not formal contracts
+- [Efficiency wages:]{.fg style="color: #555;"} wages that are above the market-clearing level to increase productivity and reduce turnover
+- [Employment insurance:]{.fg style="color: #555;"} government programs that provide income support to unemployed workers
 
 ## Unemployment
 
--   Typical macroeconomic topics include:
+[Typical macroeconomic topics include:]{.fg style="color: #2780e3;"}
 
-    -   Business cycles: fluctuations in economic activity that affect employment
-    -   Inflation: the general increase in prices that can affect real wages and employment
-    -   Productivity: the amount of output produced per worker that can affect wages and employment
+- [Business cycles:]{.fg style="color: #555;"} fluctuations in economic activity that affect employment
+- [Inflation:]{.fg style="color: #555;"} the general increase in prices that can affect real wages and employment
+- [Productivity:]{.fg style="color: #555;"} the amount of output produced per worker that can affect wages and employment
 
 # Statistics on Labour Market Outcomes
 
@@ -144,16 +133,16 @@ library(here)
 
 
 
-maindata <- read_csv(here("slides", "intro", "CIS2022_PUMF.csv")) %>%  clean_names() %>% 
+maindata <- read_csv(here("slides", "intro", "CIS2022_PUMF.csv")) %>%  clean_names() %>%
   filter(between(as.numeric(agegp), 5, 13)) %>%
   select(personid, earng, inva, othinc, ottxm, gtr, inctx, alhrwk, fsemp, prpen, oas, cpqpp, fweight, sex, fworked, wgsal, hlev2g, agegp, immst) %>%
-  mutate(pension = prpen + oas + cpqpp, 
-         other = othinc + ottxm, 
+  mutate(pension = prpen + oas + cpqpp,
+         other = othinc + ottxm,
          alhrwk = case_when(alhrwk == 9996 ~ 0,
                             alhrwk != 9995 ~ alhrwk),
          wage = case_when(fworked == 1 ~ wgsal/alhrwk,
-                          fworked != 1 ~ 0),) %>% 
-  select(-c(prpen, oas, cpqpp, othinc, ottxm)) 
+                          fworked != 1 ~ 0),) %>%
+  select(-c(prpen, oas, cpqpp, othinc, ottxm))
 
 
 
@@ -214,7 +203,7 @@ final_table <- bind_rows(overall, by_sex) %>%
     mean_All,  share_All,
     mean_Men,  share_Men,
     mean_Women, share_Women
-  ) 
+  )
 
 # 5) Optional: pretty variable labels for the deck
 var_labels <- c(
@@ -390,114 +379,88 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 
 ## Introduction
 
--   The basic economic model of the labour market is based on **supply and demand**
-
--   The labour market is an **input market**
-
-    -   Firms demand labour to produce goods and services
-    -   Workers supply labour in exchange for wages
-    -   Different from **output markets** where firms supply goods and services, and consumers demand them
-
--   The interaction of labour supply and demand determines the equilibrium wage and employment level
-
--   We will cover the basics here, and fill in details through the course
+- The basic economic model of the labour market is based on [**supply and demand**]{.fg style="color: #2780e3;"}
+- The labour market is an [**input market**]{.fg style="color: #2780e3;"}
+  - Firms demand labour to produce goods and services
+  - Workers supply labour in exchange for wages
+  - Different from [**output markets**]{.fg style="color: #2780e3;"} where firms supply goods and services, and consumers demand them
+- The interaction of [labour supply]{.fg style="color: #2780e3;"} and [labour demand]{.fg style="color: #2780e3;"} determines the [equilibrium]{.fg style="color: #2780e3;"} wage and employment level
+- We will cover the basics here, and fill in details through the course
 
 ## Competitive Labour Market
 
-:::::: columns
+:::: columns
 :::: {.column width="50%"}
 ::: {layout="[[-1], [1], [-1]]"}
 ![](images/clipboard-3179551450.png){width="796"}
 :::
 ::::
 
-::: {.column width="50%"}
--   Graph shows demand curve (ND) and supply curve (NS) for labour
-
--   Supply curve is upward sloping
-
-    -   Shows how much labour people will sell at each wage **all else equal**
-
-    -   The higher the wage, the higher the quantity of labour supplied
-
--   Demand curve is downward sloping
-
-    -   Shows how much labour a firm wants to hire at each wage **all else equal**
-
-    -   The higher the wage, the lower the quantity of labour demanded
-:::
-::::::
+:::: {.column width="50%"}
+- Graph shows [demand curve]{.fg style="color: #2780e3;"} (ND) and [supply curve]{.fg style="color: #2780e3;"} (NS) for labour
+- [Supply curve]{.fg style="color: #2780e3;"} is upward sloping
+  - Shows how much labour people will sell at each wage **all else equal**
+  - The higher the wage, the higher the quantity of labour supplied
+- [Demand curve]{.fg style="color: #2780e3;"} is downward sloping
+  - Shows how much labour a firm wants to hire at each wage **all else equal**
+  - The higher the wage, the lower the quantity of labour demanded
+::::
+::::
 
 ## Competitive Labour Market
 
-:::::: columns
+:::: columns
 :::: {.column width="50%"}
 ::: {layout="[[-1], [1], [-1]]"}
 ![](images/clipboard-1926083579.png){width="796"}
 :::
 ::::
 
-::: {.column width="50%"}
--   Equilibrium is where demand and supply intersect
+:::: {.column width="50%"}
+- [Equilibrium]{.fg style="color: #2780e3;"} is where demand and supply intersect
+  - Wage is W\* and level of employment is N\*
+- Why is this equilibrium?
+  - If W \> W\*, [excess supply]{.fg style="color: #c7254e;"} of labour
+    - Unemployed workers willing to work for less
+    - Puts downward pressure on wage
+  - If W \< W\*, [excess demand]{.fg style="color: #c7254e;"} for labour
+    - Firms cannot find enough workers
+    - Puts upward pressure on wage
+::::
+::::
 
-    -   Wage is W\* and level of employment is N\*
+## Competitive Labour Market
 
--   Why is this equilibrium?
+- There are some key considerations of this model
 
-    -   If W \> W\*, excess supply of labour
-
-        -   Unemployed workers willing to work for less
-
-        -   Puts downward pressure on wage
-
-    -   If W \< W\*, excess demand for labour
-
-        -   Firms cannot find enough workers
-
-        -   Puts upward pressure on wage
+::: {.callout-note}
+## Key Assumptions
+1. Assumes many buyers and sellers
+   - No single firm or worker can influence the wage
+   - Need a different model for labour markets with a single buyer (monopsony)
+2. Implies no [**involuntary unemployment**]{.fg style="color: #c7254e;"}
+   - Everyone who wants to work at the equilibrium wage can find a job
+   - People who are unemployed are choosing to be
+   - Not very realistic because we know the involuntary unemployed exist
+3. Assumes homogeneous set of workers
+   - Same in terms of their productive characteristics
 :::
-::::::
 
 ## Competitive Labour Market
 
--   There are some key considerations of this model
-
-1.  Assumes many buyers and sellers
-
-    -   No single firm or worker can influence the wage
-    -   Need a different model for labour markets with a single buyer (monopsony)
-
-2.  Implies no **involuntary unemployment**
-
-    -   Everyone who wants to work at the equilibrium wage can find a job
-    -   People who are unemployed are choosing to be
-    -   Not very realistic because we know the involuntary unemployed exist
-
-3.  Assumes homogeneous set of workers
-
-    -   Same in terms of their productive characteristics
+- An implication of homogeneous labour is that different sectors that hire the same labour pay them the same
+- Example: Nurses
+  - Nurses in hospitals and long-term care facilities have similar skills and training
+  - If hospitals pay more, nurses will leave long-term care to work in hospitals
+  - This will continue until wages are equalized
+- Other examples
+  - Teachers in public and private schools
+  - Electricians in construction and manufacturing
+  - Data scientists in tech firms and banks
 
 ## Competitive Labour Market
 
--   An implication of homogeneous labour is that different sectors that hire the same labour pay them the same
-
--   Example: Nurses
-
-    -   Nurses in hospitals and long-term care facilities have similar skills and training
-
-    -   If hospitals pay more, nurses will leave long-term care to work in hospitals
-
-    -   This will continue until wages are equalized
-
--   Other examples
-
-    -   Teachers in public and private schools
-    -   Electricians in construction and manufacturing
-    -   Data scientists in tech firms and banks
-
-## Competitive Labour Market
-
-::::::: columns
+:::: columns
 :::: {.column width="50%"}
 ::: {layout="[[-1], [1], [-1]]"}
 ![](images/clipboard-2225138658.png){width="796"}
@@ -509,11 +472,11 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 ![](images/clipboard-3912571601.png){width="796"}
 :::
 ::::
-:::::::
+::::
 
 ## Competitive Labour Market
 
-::::::: columns
+:::: columns
 :::: {.column width="50%"}
 ::: {layout="[[-1], [1], [-1]]"}
 ![](images/clipboard-22361513.png){width="796"}
@@ -525,99 +488,72 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 ![](images/clipboard-1947457777.png){width="796"}
 :::
 ::::
-:::::::
+::::
 
 ## Competitive Labour Market
 
--   Graphs show a temprary imbalance in pay between hospitals and long-term care in the market for nurses
+- Graphs show a temprary imbalance in pay between hospitals and long-term care in the market for nurses
+- Right graph shows long term care paying more
+- Over time nurses move from long term care to hospitals
+  - Movement stops when wages are equalized
+- Employment in long term care increases, employment in hospitals decreases
 
--   Right graph shows long term care paying more
+::: {.callout-warning}
+This depends on key assumptions:
 
--   Over time nurses move from long term care to hospitals
+- No barriers to moving between sectors
+- No differences in non-wage aspects of jobs
+- Homogeneous labour
+:::
 
-    -   Movement stops when wages are equalized
-
--   Employment in long term care increases, employment in hospitals decreases
-
--   Note that this depends on key assumptions
-
-    -   No barriers to moving between sectors
-    -   No differences in non-wage aspects of jobs
-    -   Homogeneous labour
-
--   We will explore situation in course where these assumptions do not hold
+- We will explore situation in course where these assumptions do not hold
 
 # Current Policy Issues
 
 ## Introduction
 
--   Most researchers in labour economics analyze various policy issues
-
-    -   Use data to estimate their effects
-    -   Some do experiments
-    -   Others (not many) create theoretical models
-
--   There are many policies that affect workers and firms with respect to labour
-
-    -   In Canada they can be at the federal, provincial, or municipal level
-    -   Can be policies from other countries (e.g. U.S. tariffs)
-
--   Below we outline some current issues
-
-    -   Helpful for the future if you want to write a 481 paper in this area
-
--   Textbook has an extremely long list; we will cover a few here
+- Most researchers in labour economics analyze various policy issues
+  - Use data to estimate their effects
+  - Some do experiments
+  - Others (not many) create theoretical models
+- There are many policies that affect workers and firms with respect to labour
+  - In Canada they can be at the federal, provincial, or municipal level
+  - Can be policies from other countries (e.g. U.S. tariffs)
+- Below we outline some current issues
+  - Helpful for the future if you want to write a 481 paper in this area
+- Textbook has an extremely long list; we will cover a few here
 
 ## Issues in Labour Supply
 
--   How does income tax affect employment?
-
--   Do income support programs (e.g. welfare, Canada Worker Benefit) affect employment?
-
--   How has the labour force participation of women changed over time?
-
--   How do child care costs affect employment of mothers?
-
--   How do pension programs affect retirement decisions?
-
--   Do temporary foreign workers affect the wages of domestic workers?
+- How does income tax affect employment?
+- Do income support programs (e.g. welfare, Canada Worker Benefit) affect employment?
+- How has the [Labour Force Participation Rate]{.fg style="color: #2780e3;"} of women changed over time?
+- How do child care costs affect employment of mothers?
+- How do pension programs affect retirement decisions?
+- Do temporary foreign workers affect the wages of domestic workers?
 
 ## Issues in Labour Demand
 
--   How do minimum wages affect employment?
-
--   Do unions affect wages and employment?
-
--   Does technological change (e.g. Automation, AI) reduce employment?
-
--   Does uncertainty (e.g. Trump tariffs, Brexit) affect hiring/firing decisions?
-
--   Do employment subsidies (e.g. Canada Summer Jobs program) increase employment?
+- How do [minimum wages]{.fg style="color: #2780e3;"} affect employment?
+- Do [unions]{.fg style="color: #2780e3;"} affect wages and employment?
+- Does technological change (e.g. Automation, AI) reduce employment?
+- Does uncertainty (e.g. Trump tariffs, Brexit) affect hiring/firing decisions?
+- Do employment subsidies (e.g. Canada Summer Jobs program) increase employment?
 
 ## Issues in Wage Structures
 
--   Why do men and women earn different wages?
-
--   Why do immigrants earn lower wages on entry?
-
--   Do immigrant wages catch up after being in Canada for a while?
-
--   What is the return to additional schooling?
-
--   Do public sector workers earn more than private sector workers?
-
--   Do workers in more dangerous jobs earn more?
-
--   Why are CEOs paid so much?
+- Why do men and women earn different wages?
+- Why do immigrants earn lower wages on entry?
+- Do immigrant wages catch up after being in Canada for a while?
+- What is the return to additional schooling?
+- Do public sector workers earn more than private sector workers?
+- Do workers in more dangerous jobs earn more?
+- Why are CEOs paid so much?
 
 ## Issues in Unemployment
 
--   What are the main causes of unemployment?
-
--   How do unemployment insurance programs affect unemployment?
-
--   How quickly does unemployment fall after a recession?
-
--   How long to people typically stay unemployed
-
--   Does long term unemployment hurt future job prospects?
+- What are the main causes of unemployment?
+- How do [unemployment insurance]{.fg style="color: #2780e3;"} programs affect unemployment?
+- How quickly does unemployment fall after a recession?
+- How long to people typically stay unemployed
+- Does [long term unemployment]{.fg style="color: #c7254e;"} hurt future job prospects?

@@ -59,75 +59,10 @@ Use the previous semester's edited versions as the reference. The patterns below
 
 ## Formatting Conventions for Edited Decks
 
-### Goals section
-Replace the plain bullet list at the start of each deck with a compact "Today we will:" format:
-```markdown
-Today we will:
-
-- Goal one
-- Goal two
-- Goal three
-```
-(no blank lines between items)
-
-### Bullet point formatting
-Remove blank lines between bullet points and their sub-bullets. Use compact nesting:
-```markdown
-- Main point
-  - Sub-point (no blank line above)
-  - Another sub-point
-```
-
-### Highlighted key terms
-Colour-code key terms using inline spans:
-```markdown
-[Key Term]{.fg style="color: #2780e3;"}   ← blue: main concepts / section headers
-[positive concept]{.fg style="color: #5cb85c;"}  ← green: competitive/good outcomes
-[warning concept]{.fg style="color: #c7254e;"}   ← red: negative/warning outcomes
-[sub-item label]{.fg style="color: #555;"}        ← gray: sub-item labels in lists
-```
-
-### Callout boxes
-Wrap key definitions, assumptions, and important results in callout blocks:
-```markdown
-::: {.callout-note}
-## Label (optional)
-Content here
-:::
-
-::: {.callout-important}
-## Key Definition
-Content here
-:::
-
-::: {.callout-tip}
-Content here
-:::
-
-::: {.callout-warning}
-Content here
-:::
-```
-
-### Column layout
-Use simple 4-colon column syntax (not deeply nested):
-```markdown
-:::: columns
-:::: {.column width="50%"}
-Left content
-::::
-
-:::: {.column width="50%"}
-Right content
-::::
-::::
-```
+See the shared formatting guide at `../../shared/slide-formatting.md` for all style rules (goals sections, bullet formatting, highlighted key terms, callout boxes, column layouts).
 
 ---
 
 ## Previous Semester Reference
-The previous semester's slides are at:
-```
-../ec306f25/slides/
-```
-Use `diff` to compare if you need to check what was changed between semesters.
+The previous semester's slides are on the `main` branch of this repository (Winter 2026).
+Use `git diff main -- slides/` to compare what has changed between semesters.

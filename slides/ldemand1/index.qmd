@@ -23,7 +23,7 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
 ![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
@@ -32,7 +32,7 @@ editor: visual
 
 ## Goals of This Section
 
-Today we will:
+In this section we will:
 
 - Understand how firms decide how much labour to employ
 - Compare short-run vs. long-run labour demand decisions
