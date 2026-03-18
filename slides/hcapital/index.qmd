@@ -68,13 +68,13 @@ attain <- read_csv("attain.csv")
 
 
 ggplot(filter(attain, labour_force_characteristics == "Population"), aes(x = ref_date, y = percent, group = educational_attainment, color = educational_attainment)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   labs(
     title = "Educational Attainment of Canadians Aged 25 to 44",
     x = "Year",
     y = "Percentage of Population",
     color = "Educational Attainment",
-    caption = "Data Source: Statistics Canada Table 141-00020"
+    caption = "Data Source: Statistics Canada Table 14-10-0020-01"
   ) +
   theme_minimal() +
   theme(
@@ -94,13 +94,13 @@ ggplot(filter(attain, labour_force_characteristics == "Population"), aes(x = ref
 
 ```{r}
 ggplot(filter(attain, labour_force_characteristics == "Unemployment rate"), aes(x = ref_date, y = value, group = educational_attainment, color = educational_attainment)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   labs(
     title = "Unemployment Rate by Educational Attainment of Canadians Aged 25 to 44",
     x = "Year",
     y = "Unemployment Rate (%)",
     color = "Educational Attainment",
-    caption = "Data Source: Statistics Canada Table 141-00020"
+    caption = "Data Source: Statistics Canada Table 14-10-0020-01"
   ) +
   theme_minimal() +
   theme(
@@ -119,13 +119,13 @@ ggplot(filter(attain, labour_force_characteristics == "Unemployment rate"), aes(
 
 ```{r}
 ggplot(filter(attain, labour_force_characteristics == "Participation rate"), aes(x = ref_date, y = value, group = educational_attainment, color = educational_attainment)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   labs(
     title = "Participation Rate by Educational Attainment of Canadians Aged 25 to 44",
     x = "Year",
     y = "Participation Rate (%)",
     color = "Educational Attainment",
-    caption = "Data Source: Statistics Canada Table 141-00020"
+    caption = "Data Source: Statistics Canada Table 14-10-0020-01"
   ) +
   theme_minimal() +
   theme(
@@ -557,7 +557,7 @@ Sometimes everyone is [worse off]{.fg style="color: #c7254e;"} under the separat
 - Recall in the pooling equilibrium, nobody gets education — everyone is paid $\bar{w} = 2 - q$
 - Under the separating equilibrium:
   - [Type L are paid $1$]{.fg style="color: #c7254e;"} — worse off unless $q = 1$
-  - [Type H are paid $2 - \frac{s^*}{2}$]{.fg style="color: #c7254e;"} — worse off unless $s^* > 2q$
+  - [Type H have a net payoff of $2 - \frac{s^*}{2}$]{.fg style="color: #c7254e;"} — worse off if $s^* > 2q$
 - In our previous example where $q = 0.5$: Type H individuals are worse off for any $s^* > 1$
 
 ## Model
@@ -682,7 +682,7 @@ eq_label <- paste0(
 
 ggplot(filter(lfs, age_12 == "05"), aes(x = educyrs, y = log(hrlyearn))) +
   geom_point(alpha = 0.3) +
-  geom_smooth(method = "lm", color = "blue", size = 1.2) +
+  geom_smooth(method = "lm", color = "blue", linewidth = 1.2) +
   annotate("text",
            x = min(lfs$educyrs, na.rm = TRUE),
            y = max(log(lfs$hrlyearn), na.rm = TRUE),

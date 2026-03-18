@@ -636,7 +636,7 @@ Effect on work is [unambiguously negative]{.fg style="color: #d9534f;"}
 
 ::: {.nonincremental}
 - Must work [14 weeks]{.fg style="color: #c7254e;"} in the year to qualify
-- Benefit is [60% of weekly wage]{.fg style="color: #c7254e;"}
+- Benefit is [60% of weekly wage]{.fg style="color: #c7254e;"} (we use 60% for simplicity)
 - Maximum of [20 weeks]{.fg style="color: #c7254e;"} of benefits
 - Can work up to 32 weeks and get full benefits
 - Each week worked beyond 32 → lose benefits for that week
@@ -676,7 +676,7 @@ Effect on work is [unambiguously negative]{.fg style="color: #d9534f;"}
 ::: {.column width="50%"}
 ::: {.callout-tip}
 ## Effect on Non-Workers
-A non-participant might start working due to large increase in non-labour income after 14 hours of work. Induces labour force entry.
+A non-participant might start working due to large increase in non-labour income after 14 weeks of work. Induces labour force entry.
 :::
 :::
 :::
@@ -995,7 +995,7 @@ Had $10/day child care since 1997. Provides useful evidence on effects.
 :::
 
 ::: {.column width="50%"}
-[Person with reservation wage above wage + costs:]{.fg style="color: #2780e3;"}
+[Person with reservation wage below wage + costs:]{.fg style="color: #2780e3;"}
 
 - Works positive hours
 - Child care costs = [negative pure income effect]{.fg style="color: #d9534f;"}

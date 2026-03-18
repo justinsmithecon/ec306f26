@@ -509,7 +509,7 @@ minwage <- read_csv("canada_minimum_wage_2000_2025.csv") %>%
          rminimum_wage = 100*minimum_wage / cpi2025)
 
 ggplot(minwage, aes(x = year, y = minimum_wage, color = province)) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(
     title = "Nominal Minimum Wage by Province (2000-2025)",
     x = "Year",
@@ -532,7 +532,7 @@ ggplot(minwage, aes(x = year, y = minimum_wage, color = province)) +
 
 ```{r}
 ggplot(minwage, aes(x = year, y = rminimum_wage, color = province)) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(
     title = "Real Minimum Wage by Province (2000-2025)",
     x = "Year",

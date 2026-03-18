@@ -492,9 +492,9 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 
 ## Competitive Labour Market
 
-- Graphs show a temprary imbalance in pay between hospitals and long-term care in the market for nurses
+- Graphs show a temporary imbalance in pay between hospitals and long-term care in the market for nurses
 - Right graph shows long term care paying more
-- Over time nurses move from long term care to hospitals
+- Over time nurses move from hospitals to long term care
   - Movement stops when wages are equalized
 - Employment in long term care increases, employment in hospitals decreases
 
@@ -506,7 +506,7 @@ This depends on key assumptions:
 - Homogeneous labour
 :::
 
-- We will explore situation in course where these assumptions do not hold
+- We will explore situations in the course where these assumptions do not hold
 
 # Current Policy Issues
 
@@ -555,5 +555,5 @@ This depends on key assumptions:
 - What are the main causes of unemployment?
 - How do [unemployment insurance]{.fg style="color: #2780e3;"} programs affect unemployment?
 - How quickly does unemployment fall after a recession?
-- How long to people typically stay unemployed
+- How long do people typically stay unemployed?
 - Does [long term unemployment]{.fg style="color: #c7254e;"} hurt future job prospects?

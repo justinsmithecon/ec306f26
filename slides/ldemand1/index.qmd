@@ -83,7 +83,7 @@ In this section we examine [perfect competition]{.fg style="color: #5cb85c;"} in
 
 [As labour demand is derived from production, the model starts with a production function:]{.fg style="color: #2780e3;"}
 
-$$ Q = f(K, N)$$
+$$ Q = F(K, N)$$
 
 Where:
 
@@ -105,7 +105,7 @@ Output prices are given (perfect competition)
 
 Profit: 
 $$\pi(N)= pQ - wN - rK_{0}$$ 
-$$= pF(K,N) - wN - rK_{0} $$
+$$= pF(K_0,N) - wN - rK_{0} $$
 
 
 

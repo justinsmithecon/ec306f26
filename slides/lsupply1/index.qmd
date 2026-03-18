@@ -102,7 +102,7 @@ lfstats <- read_csv("lfstats.csv") %>% clean_names() %>%
                    "Women+" = "Women"),
     group = factor(group, levels = c("All", "Men", "Women")) # legend order
   )
-lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(size = 1.5) +
+lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(linewidth = 1.5) +
     theme_minimal(base_size = 16) +
   labs(x = "Year", y = "Percent in Labour Force", title = "Labour Force Participation Rate - Canada", caption = "Source: CANSIM Table 14-01-0327-02",
         color = NULL) +
@@ -155,7 +155,7 @@ lfstats <- read_csv("lfstats.csv") %>% clean_names() %>%
                    "Women+" = "Women"),
     group = factor(group, levels = c("All", "Men", "Women")) # legend order
   )
-lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(size = 1.5) +
+lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(linewidth = 1.5) +
     theme_minimal(base_size = 16) +
   labs(x = "Year", y = "Percent Employed", title = "Employment Rate - Canada", caption = "Source: CANSIM Table 14-01-0327-02",
         color = NULL) +
@@ -183,7 +183,7 @@ lfstats <- read_csv("lfstats.csv") %>% clean_names() %>%
                    "Women+" = "Women"),
     group = factor(group, levels = c("All", "Men", "Women")) # legend order
   )
-lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(size = 1.5) +
+lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(linewidth = 1.5) +
     theme_minimal(base_size = 16) +
   labs(x = "Year", y = "Percent Unemployed", title = "Unemployment Rate - Canada", caption = "Source: CANSIM Table 14-01-0327-02",
         color = NULL) +
@@ -409,7 +409,7 @@ $$C = w(T - L) + Y_{n}$$
 
 :::: {.column width="50%"}
 - Often people cannot adjust their work hours freely
-- They make only be able to work full time or part time
+- They may only be able to work full time or part time
 - Budget constraint is no longer a line, but a set of points
 - Suppose an individual chooses [part time work]{.fg style="color: #2780e3;"}
   - Work hours are $h_{p} = T-L_{p}$
@@ -661,7 +661,7 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 - Changing the wage can also affect [participation]{.fg style="color: #2780e3;"}
 - Recall that workers do not work if the wage is below their [reservation wage]{.fg style="color: #2780e3;"}
 - If an increase in the wage moves it above the reservation wage, they will [start working]{.fg style="color: #5cb85c;"}
-- Graph to the right shows how this would happen
+- Graph to the left shows how this would happen
 ::::
 ::::
 
@@ -714,7 +714,7 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 - We have used the labour supply model to examine changes in the wage
 - For people participating, wage changes alter leisure and work hours
 - If the wage goes up then
-  - Work hours go up if the [substition effect]{.fg style="color: #5cb85c;"} is strongest
+  - Work hours go up if the [substitution effect]{.fg style="color: #5cb85c;"} is strongest
   - Work hours go down if the [income effect]{.fg style="color: #c7254e;"} is strongest
 - For non-participants, a wage increase can induce them to enter the labour force
   - If the wage goes above their [reservation wage]{.fg style="color: #2780e3;"}
@@ -839,7 +839,7 @@ This is not a perfect way to examine this relationship — there could be other 
 - Happens because the fall in income reduces the [reservation wage]{.fg style="color: #2780e3;"}
   - If the wage is now above the reservation wage, they will start working
 - Graph to the left shows how this happens
-  - The slope if reservation wage $R_{1}$ is smaller than $R_{0}$ after the drop in non-laboir income
+  - The slope of reservation wage $R_{1}$ is smaller than $R_{0}$ after the drop in non-labour income
   - Person enters the labour market in response because wage is now above reservation wage
 ::::
 ::::
@@ -884,7 +884,7 @@ This is not a perfect way to examine this relationship — there could be other 
 :::
 
 - Bit of an old term where main jobs were generally 9-5
-- Extra work occured after that
+- Extra work occurred after that
 - In 2025 secondary jobs can happen at any time
 - Happens when people have a fixed hours constraint
   - Example: working full time, but wishing to work longer
@@ -982,9 +982,9 @@ This is not a perfect way to examine this relationship — there could be other 
   - Makes sense for a firm if they are constantly paying overtime
 - That does not generate the same optimal work hours as overtime pay
   - Income effect is larger with straight time equivalent
-  - Becauses wage increase applies to *all* hours worked
+  - Because wage increase applies to *all* hours worked
   - In overtime, income effect only applies to extra hours worked
-- Worker chooses to less with straight time equivalent pay
+- Worker chooses to work less with straight time equivalent pay
 
 ## Overtime
 

@@ -106,7 +106,7 @@ These all cause a fall in the [demand for women]{.fg style="color: #c7254e;"} re
 
 - Firms produce according to: $y = f(N_m + N_w)$
 - In a competitive market, profits are:
-  $$ \pi = p \cdot f(N_m + N_w) - w_m N_m - w_w N_w $$
+  $$ \pi = p \cdot f(N_m + N_w) - w_m N_m - w_f N_w $$
 - Firms do not maximize profit strictly, but instead maximize:
   $$ U = \pi - d \cdot N_w $$
   - $d$ measures the [degree of discrimination]{.fg style="color: #c7254e;"}
@@ -117,7 +117,7 @@ These all cause a fall in the [demand for women]{.fg style="color: #c7254e;"} re
 The first order conditions for utility maximization are:
 
 $$ p \cdot MP_{N_m} = w_m $$
-$$ p \cdot MP_{N_w} = w_w + d $$
+$$ p \cdot MP_{N_w} = w_f + d $$
 
 - For both men and women, firms hire up to where VMP equals the [effective cost]{.fg style="color: #2780e3;"} of hiring
 - But for women, there is an [additional cost $d$]{.fg style="color: #c7254e;"} due to discrimination
@@ -202,9 +202,7 @@ $$ p \cdot MP_{N_w} = w_w + d $$
 
 - Contrast with [taste-based discrimination]{.fg style="color: #555;"}, which relies on employers having overt prejudice
 
-## Statistical Discrimination
-
-## Theory
+## Statistical Discrimination: Theory
 
 Assume that the abilities of male and female workers are distributed with means $\bar{a}_{m}$ and $\bar{a}_{f}$. The firm has access to a signal of ability $x$ for each person. Expected ability is:
 
@@ -484,19 +482,19 @@ Method to decompose differences in average earnings between two groups into:
 
 Suppose we estimate a regression of log earnings on observed characteristics for men and women:
 
-$$ \ln(Y_m) =\hat\beta_m  \bar{X}_m $$
+$$ \ln(Y_m) =\hat\beta_m \cdot \bar{X}_m $$
 
-$$ \ln(Y_f) =\hat\beta_f  \bar{X}_f $$
+$$ \ln(Y_f) =\hat\beta_f \cdot \bar{X}_f $$
 
 ## Blinder-Oaxaca Decomposition
 
 The difference in average log earnings is:
 
-$$ \ln(Y_m) - \ln(Y_f) = \hat\beta_m  \bar{X}_m - \hat\beta_f  \bar{X}_f $$
+$$ \ln(Y_m) - \ln(Y_f) = \hat\beta_m \cdot \bar{X}_m - \hat\beta_f \cdot \bar{X}_f $$
 
-Add and subtract $\hat\beta_m  \bar{X}_f$:
+Add and subtract $\hat\beta_m \cdot \bar{X}_f$:
 
-$$ \ln(Y_m) - \ln(Y_f) = \underbrace{\hat\beta_m  (\bar{X}_m - \bar{X}_f)}_{\text{explained}} + \underbrace{\bar{X}_f (\hat\beta_m - \hat\beta_f)}_{\text{unexplained}} $$
+$$ \ln(Y_m) - \ln(Y_f) = \underbrace{\hat\beta_m \cdot (\bar{X}_m - \bar{X}_f)}_{\text{explained}} + \underbrace{\bar{X}_f \cdot (\hat\beta_m - \hat\beta_f)}_{\text{unexplained}} $$
 
 - [Explained:]{.fg style="color: #555;"} holds slope constant at $\hat\beta_m$, looks at differences in average $X$
 - [Unexplained:]{.fg style="color: #c7254e;"} holds average characteristics constant at $\bar{X}_f$, looks at differences in slopes (returns)
@@ -543,7 +541,7 @@ The wage gap is therefore:
 
 $$\bar{\ln Y}_M - \bar{\ln Y}_F = 3.70 - 3.02 = 0.68$$
 
-This says that the wage gap is about [0.68 log points — roughly 68% higher wages for men]{.fg style="color: #c7254e;"}
+This says that the wage gap is about [0.68 log points — roughly 97% higher wages for men]{.fg style="color: #c7254e;"}
 
 ## Blinder-Oaxaca Decomposition
 
@@ -662,7 +660,7 @@ ggplot(lfs, aes(x = educ, y = hrlyearn, fill = gender)) +
 ggplot(lfs, aes(x = as.factor(prov), y = hrlyearn, fill = gender)) +
   geom_boxplot(position = position_dodge(width = 0.8), outliers = FALSE) +
   labs(
-    x = "Schooling Level",
+    x = "Province",
     y = "Wage",
     title = "Wage Distribution by Province and Gender",
     fill = "Gender"
