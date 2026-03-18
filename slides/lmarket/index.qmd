@@ -375,10 +375,7 @@ Compared to competitive equilibrium, monopsony results in:
 - [Wage below competitive wage]{.fg style="color: #c7254e;"}
 - [Employment below competitive level]{.fg style="color: #c7254e;"}
 
-Monopsony profit = $(VMP_m - W_m) \times N_m$
-
-- Wage bill is $W_m \times N_m$
-- Revenue contributed by workers is $VMP_m \times N_m$
+The rectangle $(VMP_m - W_m) \times N_m$ represents [surplus transferred to the monopsonist]{.fg style="color: #c7254e;"} — the gap between what workers produce at the margin and what they are paid
 :::
 ::::::
 
