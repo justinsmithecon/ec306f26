@@ -5,8 +5,8 @@ set -euo pipefail
 PROJECT_ROOT="${QUARTO_PROJECT_DIR:-$(pwd)}"
 DOCS_SLIDES="$PROJECT_ROOT/docs/slides"
 DOCS_QUESTIONS="$PROJECT_ROOT/docs/questions"
-CHECKSUM_DIR="$PROJECT_ROOT/.decktape-checksums"
-mkdir -p "$CHECKSUM_DIR"
+CACHE_DIR="$PROJECT_ROOT/.decktape-cache"
+mkdir -p "$CACHE_DIR"
 
 # Gather outputs from Quarto if present; else scan docs/slides and docs/questions
 declare -a htmls
@@ -34,28 +34,36 @@ for f in "${htmls[@]}"; do
   case "$f" in
     "$DOCS_SLIDES"/*.html|"$DOCS_SLIDES"/*/*.html|"$DOCS_SLIDES"/*/*/*.html|\
     "$DOCS_QUESTIONS"/*.html|"$DOCS_QUESTIONS"/*/*.html|"$DOCS_QUESTIONS"/*/*/*.html)
+      pdf="${f%.html}.pdf"
+
       # Derive source .qmd path from output HTML path (docs/slides/X/Y.html → slides/X/Y.qmd)
       rel_path="${f#"$PROJECT_ROOT"/docs/}"
       src_qmd="$PROJECT_ROOT/${rel_path%.html}.qmd"
 
-      # Skip if source .qmd hasn't changed since last PDF generation
+      # Cache key based on source .qmd path
+      cache_key="$(echo "$src_qmd" | shasum -a 256 | cut -d' ' -f1)"
+      cached_hash_file="$CACHE_DIR/${cache_key}.hash"
+      cached_pdf_file="$CACHE_DIR/${cache_key}.pdf"
+
+      # If source .qmd exists and hasn't changed, restore cached PDF
       if [[ -f "$src_qmd" ]]; then
-        checksum_file="$CHECKSUM_DIR/$(echo "$src_qmd" | shasum -a 256 | cut -d' ' -f1)"
         current_hash=$(shasum -a 256 "$src_qmd" | cut -d' ' -f1)
-        if [[ -f "$checksum_file" ]] && [[ "$(cat "$checksum_file")" == "$current_hash" ]] && [[ -f "${f%.html}.pdf" ]]; then
-          echo "Decktape: skipped ${f%.html}.pdf (source unchanged)"
+        if [[ -f "$cached_hash_file" ]] && [[ "$(cat "$cached_hash_file")" == "$current_hash" ]] && [[ -f "$cached_pdf_file" ]]; then
+          cp "$cached_pdf_file" "$pdf"
+          echo "Decktape: restored $pdf from cache (source unchanged)"
           continue
         fi
       fi
 
-      decktape "$f" "${f%.html}.pdf"
-      echo "Decktape: wrote ${f%.html}.pdf"
+      # Run decktape
+      decktape "$f" "$pdf"
+      echo "Decktape: wrote $pdf"
 
-      # Save source checksum for next run
+      # Cache the PDF and source hash
       if [[ -f "$src_qmd" ]]; then
-        echo "$current_hash" > "$checksum_file"
+        cp "$pdf" "$cached_pdf_file"
+        echo "$current_hash" > "$cached_hash_file"
       fi
       ;;
   esac
 done
-

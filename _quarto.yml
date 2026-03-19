@@ -1,11 +1,11 @@
 project:
   type: website
   output-dir: docs
-  post-render: "scripts/decktape.sh"   
+  post-render: "scripts/decktape.sh"
   render:
     - "*.qmd"
     - "!assignments/files/"
-    - "!files/tutorials/"  
+    - "!files/tutorials/"
  
 
 website:
