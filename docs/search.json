@@ -830,7 +830,7 @@
     "href": "slides/lmarket/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nBring together demand and supply to determine wages and employment\nDiscuss the effect of market power in the goods market on equilibrium wages and employment\nDiscuss the effect of market power in the labour market on equilibrium wages and employment\nAnalyze minimum wages"
+    "text": "Goals of This Section\nIn this section we will:\n\nBring together demand and supply to determine wages and employment\nDiscuss the effect of market power in the goods market on equilibrium wages and employment\nDiscuss the effect of market power in the labour market on equilibrium wages and employment\nAnalyze minimum wages"
   },
   {
     "objectID": "slides/lmarket/index.html#introduction-1",
@@ -1033,7 +1033,7 @@
     "href": "slides/lmarket/index.html#simple-monopsony-2",
     "title": "EC306 - Wages and Employment",
     "section": "Simple Monopsony",
-    "text": "Simple Monopsony\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nCompared to competitive equilibrium, monopsony results in:\n\nWage below VMP\nWage below competitive wage\nEmployment below competitive level\n\nMonopsony profit = \\((VMP_m - W_m) \\times N_m\\)\n\nWage bill is \\(W_m \\times N_m\\)\nRevenue contributed by workers is \\(VMP_m \\times N_m\\)"
+    "text": "Simple Monopsony\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nCompared to competitive equilibrium, monopsony results in:\n\nWage below VMP\nWage below competitive wage\nEmployment below competitive level\n\nThe rectangle \\((VMP_m - W_m) \\times N_m\\) represents surplus transferred to the monopsonist — the gap between what workers produce at the margin and what they are paid"
   },
   {
     "objectID": "slides/lmarket/index.html#simple-monopsony-3",
@@ -3383,14 +3383,14 @@
     "href": "slides/intro/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\n\nDefine Labour Economics\nDescribe basic facts about the labour market\nIntroduce the main economic model used in labour economics\nDiscuss some current policy issues"
+    "text": "Goals of This Section\nIn this section we will:\n\nDefine Labour Economics\nDescribe basic facts about the labour market\nIntroduce the main economic model used in labour economics\nDiscuss some current policy issues"
   },
   {
     "objectID": "slides/intro/index.html#defining-labour-economics",
     "href": "slides/intro/index.html#defining-labour-economics",
     "title": "EC306 - Wages and Employment",
     "section": "Defining Labour Economics",
-    "text": "Defining Labour Economics\n\nLabour Economics is the study of the interaction between workers, employers, and government that determine outcomes like wages and employment\nKey aspects of labour economics\n\nLabour supply: decisions by individuals about how much to work\nLabour demand: decisions by firms about how many workers to hire\nLabour market: the interaction of labour supply and demand that determines wages and employment\nOther determinants of wages: human capital, discrimination, unions, minimum wage, etc.\nInequality and poverty: the distribution of income and wealth\nUnemployment: causes and consequences"
+    "text": "Defining Labour Economics\n\n\n\n\n\n\nKey Definition\n\n\nLabour Economics is the study of the interaction between workers, employers, and government that determine outcomes like wages and employment\n\n\n\nKey aspects of labour economics:\n\nLabour supply: decisions by individuals about how much to work\nLabour demand: decisions by firms about how many workers to hire\nLabour market: the interaction of labour supply and demand that determines wages and employment\nOther determinants of wages: human capital, discrimination, unions, minimum wage, etc.\nInequality and poverty: the distribution of income and wealth\nUnemployment: causes and consequences"
   },
   {
     "objectID": "slides/intro/index.html#labour-supply",
@@ -3411,7 +3411,7 @@
     "href": "slides/intro/index.html#relative-wages",
     "title": "EC306 - Wages and Employment",
     "section": "Relative Wages",
-    "text": "Relative Wages\n\nAcross the economy, different groups of workers earn different wages\n\nMen earn more than women\nEducation is positively related to wages\nMore dangerous jobs tend to pay more\nPublic sector jobs pay differently than private sector ones\nImmigrants earn less than non-immigrants\n\nLabour economics uses supply, demand and other models to explain these differences\n\nReturns to schooling explained by human capital theory\nGender and immigrant wage gaps partly explained by discrimination"
+    "text": "Relative Wages\n\nAcross the economy, different groups of workers earn different wages\n\nMen earn more than women\nEducation is positively related to wages\nMore dangerous jobs tend to pay more\nPublic sector jobs pay differently than private sector ones\nImmigrants earn less than non-immigrants\n\nLabour Economics uses supply, demand and other models to explain these differences\n\nReturns to schooling explained by human capital theory\nGender and immigrant wage gaps partly explained by discrimination"
   },
   {
     "objectID": "slides/intro/index.html#unions",
@@ -3425,14 +3425,14 @@
     "href": "slides/intro/index.html#unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Unemployment",
-    "text": "Unemployment\n\nMost topics in labour economics use microeconomic models to explain behaviour\nUnemployment is studied using both microeconomic and macroeconomic models\nTypical microeconomic topics include:\n\nJob search: how workers find jobs and how firms find workers\nImplicit contracts: agreements between workers and firms that are not formal contracts\nEfficiency wages: wages that are above the market-clearing level to increase productivity and reduce turnover\nEmployment insurance: government programs that provide income support to unemployed workers"
+    "text": "Unemployment\n\nMost topics in labour economics use microeconomic models to explain behaviour\nUnemployment is studied using both microeconomic and macroeconomic models\n\nTypical microeconomic topics include:\n\nJob search: how workers find jobs and how firms find workers\nImplicit contracts: agreements between workers and firms that are not formal contracts\nEfficiency wages: wages that are above the market-clearing level to increase productivity and reduce turnover\nEmployment insurance: government programs that provide income support to unemployed workers"
   },
   {
     "objectID": "slides/intro/index.html#unemployment-1",
     "href": "slides/intro/index.html#unemployment-1",
     "title": "EC306 - Wages and Employment",
     "section": "Unemployment",
-    "text": "Unemployment\n\nTypical macroeconomic topics include:\n\nBusiness cycles: fluctuations in economic activity that affect employment\nInflation: the general increase in prices that can affect real wages and employment\nProductivity: the amount of output produced per worker that can affect wages and employment"
+    "text": "Unemployment\nTypical macroeconomic topics include:\n\nBusiness cycles: fluctuations in economic activity that affect employment\nInflation: the general increase in prices that can affect real wages and employment\nProductivity: the amount of output produced per worker that can affect wages and employment"
   },
   {
     "objectID": "slides/intro/index.html#income-sources",
@@ -3488,7 +3488,7 @@
     "href": "slides/intro/index.html#introduction",
     "title": "EC306 - Wages and Employment",
     "section": "Introduction",
-    "text": "Introduction\n\nThe basic economic model of the labour market is based on supply and demand\nThe labour market is an input market\n\nFirms demand labour to produce goods and services\nWorkers supply labour in exchange for wages\nDifferent from output markets where firms supply goods and services, and consumers demand them\n\nThe interaction of labour supply and demand determines the equilibrium wage and employment level\nWe will cover the basics here, and fill in details through the course"
+    "text": "Introduction\n\nThe basic economic model of the labour market is based on supply and demand\nThe labour market is an input market\n\nFirms demand labour to produce goods and services\nWorkers supply labour in exchange for wages\nDifferent from output markets where firms supply goods and services, and consumers demand them\n\nThe interaction of labour supply and labour demand determines the equilibrium wage and employment level\nWe will cover the basics here, and fill in details through the course"
   },
   {
     "objectID": "slides/intro/index.html#competitive-labour-market",
@@ -3509,7 +3509,7 @@
     "href": "slides/intro/index.html#competitive-labour-market-2",
     "title": "EC306 - Wages and Employment",
     "section": "Competitive Labour Market",
-    "text": "Competitive Labour Market\n\nThere are some key considerations of this model\n\n\nAssumes many buyers and sellers\n\nNo single firm or worker can influence the wage\nNeed a different model for labour markets with a single buyer (monopsony)\n\nImplies no involuntary unemployment\n\nEveryone who wants to work at the equilibrium wage can find a job\nPeople who are unemployed are choosing to be\nNot very realistic because we know the involuntary unemployed exist\n\nAssumes homogeneous set of workers\n\nSame in terms of their productive characteristics"
+    "text": "Competitive Labour Market\n\nThere are some key considerations of this model\n\n\n\n\n\n\n\nKey Assumptions\n\n\n\nAssumes many buyers and sellers\n\nNo single firm or worker can influence the wage\nNeed a different model for labour markets with a single buyer (monopsony)\n\nImplies no involuntary unemployment\n\nEveryone who wants to work at the equilibrium wage can find a job\nPeople who are unemployed are choosing to be\nNot very realistic because we know the involuntary unemployed exist\n\nAssumes homogeneous set of workers\n\nSame in terms of their productive characteristics"
   },
   {
     "objectID": "slides/intro/index.html#competitive-labour-market-3",
@@ -3537,7 +3537,7 @@
     "href": "slides/intro/index.html#competitive-labour-market-6",
     "title": "EC306 - Wages and Employment",
     "section": "Competitive Labour Market",
-    "text": "Competitive Labour Market\n\nGraphs show a temprary imbalance in pay between hospitals and long-term care in the market for nurses\nRight graph shows long term care paying more\nOver time nurses move from long term care to hospitals\n\nMovement stops when wages are equalized\n\nEmployment in long term care increases, employment in hospitals decreases\nNote that this depends on key assumptions\n\nNo barriers to moving between sectors\nNo differences in non-wage aspects of jobs\nHomogeneous labour\n\nWe will explore situation in course where these assumptions do not hold"
+    "text": "Competitive Labour Market\n\nGraphs show a temporary imbalance in pay between hospitals and long-term care in the market for nurses\nRight graph shows long term care paying more\nOver time nurses move from hospitals to long term care\n\nMovement stops when wages are equalized\n\nEmployment in long term care increases, employment in hospitals decreases\n\n\n\n\n\n\n\nWarning\n\n\nThis depends on key assumptions:\n\nNo barriers to moving between sectors\nNo differences in non-wage aspects of jobs\nHomogeneous labour\n\n\n\n\n\nWe will explore situations in the course where these assumptions do not hold"
   },
   {
     "objectID": "slides/intro/index.html#introduction-1",
@@ -3551,7 +3551,7 @@
     "href": "slides/intro/index.html#issues-in-labour-supply",
     "title": "EC306 - Wages and Employment",
     "section": "Issues in Labour Supply",
-    "text": "Issues in Labour Supply\n\nHow does income tax affect employment?\nDo income support programs (e.g. welfare, Canada Worker Benefit) affect employment?\nHow has the labour force participation of women changed over time?\nHow do child care costs affect employment of mothers?\nHow do pension programs affect retirement decisions?\nDo temporary foreign workers affect the wages of domestic workers?"
+    "text": "Issues in Labour Supply\n\nHow does income tax affect employment?\nDo income support programs (e.g. welfare, Canada Worker Benefit) affect employment?\nHow has the Labour Force Participation Rate of women changed over time?\nHow do child care costs affect employment of mothers?\nHow do pension programs affect retirement decisions?\nDo temporary foreign workers affect the wages of domestic workers?"
   },
   {
     "objectID": "slides/intro/index.html#issues-in-labour-demand",
@@ -3572,7 +3572,7 @@
     "href": "slides/intro/index.html#issues-in-unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Issues in Unemployment",
-    "text": "Issues in Unemployment\n\nWhat are the main causes of unemployment?\nHow do unemployment insurance programs affect unemployment?\nHow quickly does unemployment fall after a recession?\nHow long to people typically stay unemployed\nDoes long term unemployment hurt future job prospects?"
+    "text": "Issues in Unemployment\n\nWhat are the main causes of unemployment?\nHow do unemployment insurance programs affect unemployment?\nHow quickly does unemployment fall after a recession?\nHow long do people typically stay unemployed?\nDoes long term unemployment hurt future job prospects?"
   },
   {
     "objectID": "slides/ldemand2/index.html#goals-of-this-section-1",
@@ -4924,5 +4924,75 @@
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
     "text": "Summary\nFertility decisions are affected by:\nIncome, prices, tastes, and technology\nRetirement decisions are affected by:\nAge, wealth, health, family, and pensions"
+  },
+  {
+    "objectID": "slides/intro/index.html#section",
+    "href": "slides/intro/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf labour economics studies the interaction between workers, employers, and government, what would happen to wages and employment if one of these three players was removed entirely?"
+  },
+  {
+    "objectID": "slides/intro/index.html#section-1",
+    "href": "slides/intro/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might we observe that men earn more than women on average, even in the same occupation? What are some possible explanations — both economic and non-economic?"
+  },
+  {
+    "objectID": "slides/intro/index.html#section-2",
+    "href": "slides/intro/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to wages and employment in long-term care facilities if the government made it difficult for nurses to switch between the hospital and long-term care sectors?"
+  },
+  {
+    "objectID": "slides/intro/index.html#section-3",
+    "href": "slides/intro/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nPick one of the policy issues listed above. How would you design a study to measure its effect on the labour market? What data would you need?"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section",
+    "href": "slides/lmarket/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf a new technology increases labour demand in a competitive market, what happens to wages and employment in the short run versus the long run? Why do the outcomes differ?"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-1",
+    "href": "slides/lmarket/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might a monopolist pay lower wages than a competitive firm, even if both firms hire workers from the same labour market?"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-2",
+    "href": "slides/lmarket/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA payroll tax is legally imposed on employers, yet economists say workers bear most of the burden in the long run. What mechanism causes the tax burden to shift from employers to workers over time?"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-3",
+    "href": "slides/lmarket/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to wages and employment if a monopsonist suddenly faced competition from a new firm entering the same labour market?"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-4",
+    "href": "slides/lmarket/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might monopsony power be more common than we think? Consider industries where workers have few alternative employers, even if the employer is not literally the only firm in town."
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-5",
+    "href": "slides/lmarket/index.html#section-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nIf minimum wages do not effectively reduce poverty, what alternative policies might be more effective at helping low-income workers, and why?"
   }
 ]

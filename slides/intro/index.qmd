@@ -55,6 +55,14 @@ In this section we will:
 - [Inequality and poverty:]{.fg style="color: #555;"} the distribution of income and wealth
 - [Unemployment:]{.fg style="color: #555;"} causes and consequences
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If labour economics studies the interaction between workers, employers, and government, what would happen to wages and employment if one of these three players was removed entirely?
+:::
+
 ## Labour Supply
 
 - Studies decisions by individuals about how much to work
@@ -375,6 +383,14 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 
 ```
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might we observe that men earn more than women on average, even in the same occupation? What are some possible explanations — both economic and non-economic?
+:::
+
 # Basic Economic Model of the Labour Market
 
 ## Introduction
@@ -508,6 +524,14 @@ This depends on key assumptions:
 
 - We will explore situations in the course where these assumptions do not hold
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+What would happen to wages and employment in long-term care facilities if the government made it difficult for nurses to switch between the hospital and long-term care sectors?
+:::
+
 # Current Policy Issues
 
 ## Introduction
@@ -557,3 +581,11 @@ This depends on key assumptions:
 - How quickly does unemployment fall after a recession?
 - How long do people typically stay unemployed?
 - Does [long term unemployment]{.fg style="color: #c7254e;"} hurt future job prospects?
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Pick one of the policy issues listed above. How would you design a study to measure its effect on the labour market? What data would you need?
+:::

@@ -99,6 +99,14 @@ In 2017, [83% of families]{.fg style="color: #c7254e;"} received some form of go
 - Temporary layoff → short-term support
 - Long-term disability → longer support + reintegration costs
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If 83% of Canadian families receive some form of government transfer, why is program design so important? What happens if a program is too generous or too stingy?
+:::
+
 # Demogrants, Welfare, Wage Subsidies
 
 ## Four Standard Income Support Programs
@@ -236,6 +244,14 @@ Creates negative work incentives for some, but must balance against need for inc
 
 ::: {.callout-warning}
 This is the problematic effect of welfare programs
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might someone who was working 20 hours per week before welfare was introduced choose to stop working entirely, while someone working 40 hours per week continues to work the same amount?
 :::
 
 ## Combating Work Disincentives
@@ -500,6 +516,14 @@ Overall effect on work hours is [ambiguous]{.fg style="color: #c7254e;"}
 - Pure wage subsidies mostly go to [employers]{.fg style="color: #c7254e;"}
 - Unclear if any benefits passed on to workers
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A negative income tax reduces the benefit as you earn more, while a wage subsidy increases your pay for each hour worked. Which program would you expect to have a larger positive effect on labour force participation among non-workers, and why?
+:::
+
 ## Tax Credits: Overview
 
 [Two types of tax credits:]{.fg style="color: #2780e3;"}
@@ -664,6 +688,14 @@ Effect on work is [unambiguously negative]{.fg style="color: #d9534f;"}
    - Work paid at 100% of wage
    - [Keep 40% of wage]{.fg style="color: #c7254e;"} in this range
 :::
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+The EI budget constraint has a segment where the effective wage is only 40% of the market wage. Why might a seasonal worker in the Maritimes choose to work exactly 14 weeks per year under this system?
 :::
 
 ## EI: Effect on Non-Participants
@@ -1071,6 +1103,14 @@ Unfortunately also found negative effects on child mental health, non-cognitive 
 ## Evidence: Visual Summary
 
 ![Source: Fortin (2019)](images/clipboard-2237171618.png){fig-align="center" width="85%"}
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Quebec's $5/day child care program increased mothers' labour force participation by 7.7 percentage points but was associated with negative child outcomes. What does this trade-off suggest about how we should evaluate the success of a child care subsidy policy?
+:::
 
 # Summary
 

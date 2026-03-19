@@ -118,6 +118,14 @@ These benefits and costs complicate the labour demand decision
 With all these reasons, it is not surprising that non-wage benefits are common
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+If non-wage benefits are so advantageous for both firms and workers, why do some firms still offer minimal benefits and rely almost entirely on wage compensation?
+:::
+
 # Quasi-fixed Costs
 
 ## Introduction
@@ -217,6 +225,14 @@ Firms invest in workers when the present value of future returns exceeds the pre
 
 ![](images/ben54842_untb0601.jpg){fig-align="center" width="85%"}
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+What would happen to firm hiring behaviour if the government introduced a large new per-worker tax that does not vary with hours worked?
+:::
+
 # Things Explained by Quasi-Fixed Costs
 
 ## Overtime
@@ -309,6 +325,14 @@ This also explains why [highly educated workers]{.fg style="color: #5cb85c;"} te
 ::: {.callout-note}
 ## Example
 Big law firms work associates long hours instead of hiring new associates
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Why might we observe that highly skilled workers are more likely to work overtime, while lower-skilled positions are more likely to be filled by temp or gig workers?
 :::
 
 ## Work Sharing
@@ -425,6 +449,14 @@ Employees need to also buy in for work sharing to be successful — it is not cl
 - Prefer to keep full-time jobs with benefits
 - May see work sharing as a threat to job security
 - May also see it as a way for employers to reduce wages and benefits
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Given what we know about the lump of labour fallacy, why do politicians and the public still frequently argue that reducing work hours or restricting immigration will create more jobs?
+:::
 
 # Summary
 

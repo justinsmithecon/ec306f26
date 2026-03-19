@@ -234,6 +234,14 @@ People are in part defined by their generation:
 Important to separate these from effects of pure aging
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose you observe that 50-year-olds have higher labour force participation than 25-year-olds in 2025. Can you conclude that people work more as they age? Why or why not?
+:::
+
 # Dynamic Life Cycle Models
 
 ## Introduction
@@ -480,6 +488,14 @@ Labour supply effect is [ambiguous]{.fg style="color: #c7254e;"}
 Messengers shift labour supply to periods with higher wage
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+A government announces today that the minimum wage will increase by 20% starting in two years. Using the life cycle model, how would you expect workers near the minimum wage to adjust their labour supply now versus after the increase takes effect?
+:::
+
 # Household Production
 
 ## Introduction
@@ -650,6 +666,14 @@ We explicitly account for substituting time between various uses:
 Different households have different abilities to produce goods. This can affect their choices and responses to changes in prices.
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+What would happen to a household's use of home-cooked meals versus takeout food if one partner receives a large raise at work? Explain using the household production model.
+:::
+
 # Fertility and Childbearing
 
 ## Introduction
@@ -788,6 +812,14 @@ A simple correlation between income and fertility tends to be negative. Importan
 - Income tends to be positively related to fertility
 - Consistent with children being a normal good
 - Tax incentives also tend to increase fertility
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might we observe that countries with the most generous parental leave policies do not necessarily have the highest fertility rates?
+:::
 
 # Retirement and Pensions
 
@@ -985,6 +1017,14 @@ Studies find that pensions affect retirement in expected ways
 - Increase in retirement age increases working-age disability claims in UK
 - Increasing public pension participation improves health behaviours (less smoking)
 - Pension reform allowing Japanese spouses to claim half of pension earnings increased divorce
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If the government reduced CPP benefits but simultaneously eliminated the clawback on OAS for high earners, what would be the combined effect on the retirement age of high-income workers?
+:::
 
 # Summary
 

@@ -109,6 +109,14 @@ We start with firms that are [competitive in both goods and labour markets]{.fg 
 
 ![](images/srun.png){fig-align="center"}
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If a new technology increases labour demand in a competitive market, what happens to wages and employment in the short run versus the long run? Why do the outcomes differ?
+:::
+
 # Imperfect Competition in the Product Market
 
 ## Monopoly
@@ -168,6 +176,14 @@ In both cases, demand for labour is based on marginal revenue product — which 
   - Firms may hire a large number of the market's workers
 - In these cases, firms may not face a perfectly elastic supply curve for labour
 - Later we will analyze imperfect competition in the labour market
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might a monopolist pay lower wages than a competitive firm, even if both firms hire workers from the same labour market?
+:::
 
 # Math of Labour Market Equilibrium
 
@@ -305,6 +321,14 @@ Economic incidence depends on [elasticities of supply and demand]{.fg style="col
 - Employment effects are [small]{.fg style="color: #5cb85c;"}
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A payroll tax is legally imposed on employers, yet economists say workers bear most of the burden in the long run. What mechanism causes the tax burden to shift from employers to workers over time?
+:::
+
 # Monopsony in the Labour Market
 
 ## Introduction
@@ -403,6 +427,14 @@ At wage $W_m$:
 :::
 ::::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+What would happen to wages and employment if a monopsonist suddenly faced competition from a new firm entering the same labour market?
+:::
+
 ## Characteristics of Monopsonies
 
 Monopsonies tend to be:
@@ -471,6 +503,14 @@ To do this, firms try to make wages secret:
 
 ::: {.callout-note}
 Some academics argue that monopsonies are relatively common — firms can set wages only if they have some market power, and evidence suggests this is widespread
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might monopsony power be more common than we think? Consider industries where workers have few alternative employers, even if the employer is not literally the only firm in town.
 :::
 
 # Minimum Wages
@@ -689,6 +729,14 @@ Minimum wages are generally [not effective at reducing poverty]{.fg style="color
 - Many people on minimum wages are not poor (e.g., youth living in high-income families)
 
 Both Canadian and US studies show no link between minimum wages and poverty reduction
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+If minimum wages do not effectively reduce poverty, what alternative policies might be more effective at helping low-income workers, and why?
 :::
 
 # Summary

@@ -260,6 +260,14 @@ ggplot(lfsapr %>%
 
 ```
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A full-time student who is 22 years old and not looking for work is excluded from the labour force. What would have to change about their situation for them to be counted as unemployed rather than out of the labour force?
+:::
+
 # Labour Supply Model
 
 ## Introduction
@@ -519,6 +527,14 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 ::::
 ::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Suppose a person receives a large inheritance, increasing their non-labour income substantially. Using the budget constraint and indifference curve framework, what would you predict happens to their reservation wage, and why?
+:::
+
 # Comparative Statics
 
 ## Introduction
@@ -665,6 +681,14 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 ::::
 ::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect -- income or substitution -- must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?
+:::
+
 ## The Individual Labour Supply Curve
 
 - The [labour supply curve]{.fg style="color: #2780e3;"} shows the relationship between the wage rate and hours worked
@@ -720,6 +744,14 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
   - If the wage goes above their [reservation wage]{.fg style="color: #2780e3;"}
 - The labour supply curve maps different wages to work hours
 - It slopes up at lower wages, but can [bend backwards]{.fg style="color: #c7254e;"} at higher wages
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might we observe that high-income professionals (doctors, lawyers, executives) often work very long hours, even though the backward-bending supply curve predicts that higher wages should eventually lead to fewer hours worked?
+:::
 
 # Empirical Evidence
 
@@ -928,6 +960,14 @@ This is not a perfect way to examine this relationship — there could be other 
   - But not as much as if they could extend hours in main job
 ::::
 ::::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+During the COVID-19 pandemic, many households experienced both job losses (added worker effect) and falling wages in available jobs (discouraged worker effect) at the same time. What would the model predict about labour force participation for secondary earners in these households, and why might the two effects work against each other?
+:::
 
 ## Overtime
 

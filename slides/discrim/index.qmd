@@ -83,6 +83,14 @@ Methods that can help:
 - [Audit studies]{.fg style="color: #2780e3;"}
 - [Field experiments]{.fg style="color: #2780e3;"}
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+The gender earnings gap has narrowed over time but has not closed. Why might we observe a persistent gap even as women's educational attainment has surpassed men's in many countries?
+:::
+
 # Demand Theories of Discrimination
 
 ## Demand-Side Theories
@@ -189,6 +197,14 @@ $$ p \cdot MP_{N_w} = w_f + d $$
 :::
 ::::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+In Becker's model, discriminating firms sacrifice profits by not hiring equally productive women at lower wages. What would happen to taste-based discrimination in the long run if product markets are perfectly competitive?
+:::
+
 ## Statistical Discrimination
 
 ::: {.callout-important}
@@ -263,6 +279,14 @@ Differences arise between workers who score the same on the signal:
 - Wage differences do not necessarily arise from overt discrimination
   - They may originate in differences in information signals or average productivity
   - But it is difficult to explain why such differences in signal quality exist
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Under statistical discrimination, a high-ability woman and a high-ability man both score well on an employment test, but the signal is noisier for women. What would happen to the wage gap between these two workers if the employer could conduct a longer, more thorough evaluation of all candidates?
+:::
 
 ## Statistical Discrimination
 
@@ -772,6 +796,14 @@ How to avoid collider bias:
 Instead include only [predetermined characteristics]{.fg style="color: #5cb85c;"}: things that are not affected by discrimination — mainly basic demographics, possibly education and experience
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+In a Blinder-Oaxaca decomposition, the unexplained component is often interpreted as discrimination. Why might this interpretation overstate or understate the true amount of discrimination?
+:::
+
 # Additional Evidence on Gender Pay Gaps
 
 ## Introduction
@@ -849,6 +881,14 @@ Additional findings:
   - Pre-market discrimination also plays a large role
   - Large component of discrimination remains
 - Gaps [favour Chinese and Southeast Asian workers]{.fg style="color: #5cb85c;"} — not the same in Canada
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+If you were designing a single policy to reduce the gender pay gap, would you target demand-side discrimination (e.g., employer behaviour) or supply-side factors (e.g., occupational choice, human capital accumulation)? Why?
+:::
 
 # Policies to Combat Gender Discrimination
 

@@ -140,6 +140,14 @@ ggplot(filter(attain, labour_force_characteristics == "Participation rate"), aes
   )
 ```
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+The data show that university degree holders have higher participation rates and lower unemployment rates than those with less education. Why might we observe these patterns even during economic downturns --- is it purely a productivity story, or could other factors be at play?
+:::
+
 # Human Capital Theory
 
 ## Human Capital Theory
@@ -387,6 +395,14 @@ A major complication is [financing]{.fg style="color: #c7254e;"}:
 - Leads to [under-investment in schooling]{.fg style="color: #c7254e;"} compared to the optimal level
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose the government introduces a large tuition subsidy that covers 80% of university costs, but simultaneously raises the top marginal income tax rate. What is the net effect on optimal schooling in the human capital model?
+:::
+
 # Signalling
 
 ## Introduction
@@ -568,6 +584,14 @@ Sometimes everyone is [worse off]{.fg style="color: #c7254e;"} under the separat
 - Depending on firm beliefs about the relationship between education and ability, it may be worthwhile to acquire education
 - There must be a difference in the [cost of acquiring education]{.fg style="color: #2780e3;"} for high- and low-ability workers
 - If firms' beliefs are not confirmed, they are not sustainable in equilibrium
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+In the signalling model, what would happen if a new technology made it costless for employers to observe worker productivity before hiring? Would anyone still invest in education under the signalling framework?
 :::
 
 # Estimating Returns to Schooling
@@ -870,6 +894,14 @@ Economists have developed methods to address ability bias:
   - E.g., someone with a high school diploma versus someone with the same years but did not graduate
 - [Find that obtaining the credential does matter]{.fg style="color: #5cb85c;"} — consistent with some signalling
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Twin studies and IV studies both estimate returns to schooling of about 7--10%, which is lower than the OLS estimate. Does this mean ability bias is the whole story, or could there be biases working in the opposite direction that partially offset it?
+:::
+
 # Social Returns to Education
 
 ## Social Returns to Education
@@ -1107,6 +1139,14 @@ Program evaluation uses econometric techniques to address selection issues:
 - U.S. training programs have [positive results]{.fg style="color: #5cb85c;"} for young women from poorer backgrounds
 - But [no effect for men]{.fg style="color: #c7254e;"}
 - More successful programs emphasize [human capital investment]{.fg style="color: #2780e3;"} over job search assistance
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A tech company pays for an employee's MBA degree. Under the general vs. specific training framework, who should pay for this training, and why? What does it suggest if the firm requires the employee to stay for two years after completing the degree?
 :::
 
 # Summary

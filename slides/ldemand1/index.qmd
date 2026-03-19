@@ -184,6 +184,14 @@ As wage falls, firm is willing to use more labour
 With less competition in product market, labour demand is lower and falls faster with more $N$
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A firm currently employs workers where $pMP_N = w$. Suppose the government introduces a per-unit subsidy on the firm's output, raising the effective price the firm receives. What happens to the firm's short-run demand for labour, and why?
+:::
+
 # Demand in the Long Run
 
 ## Introduction
@@ -514,6 +522,14 @@ I will not ask you to recreate this derivation on exams
   - Output depends on product price and input prices
   - Changes in input prices change both optimal inputs and output level
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A firm currently satisfies $\frac{MP_N}{w} = \frac{MP_K}{r}$. Suppose the rental rate of capital $r$ suddenly doubles while the wage $w$ stays the same. In what direction will the firm adjust its mix of labour and capital, and what happens to the isocost line?
+:::
+
 # Deriving Labour Demand in Long Run
 
 ## Deriving Labour Demand
@@ -680,6 +696,14 @@ Long-run labour demand is [more elastic]{.fg style="color: #5cb85c;"} than short
 :::
 :::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+When wages rise, the substitution and scale effects both reduce labour demand, but they have opposing effects on capital demand. Can you think of a real-world industry where the substitution effect on capital would clearly dominate the scale effect, and one where the scale effect might dominate? What makes those industries different?
+:::
+
 # Elasticity of Demand for Labour
 
 ## Elasticity of Demand
@@ -735,6 +759,14 @@ In this case, responsiveness of labour demanded to changes in wage rate
 ::: {.callout-tip}
 ## Key Result
 Studies confirm that labour demand does slope down
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Why might we observe that labour demand has become more elastic over time in both Canada and the USA? Which of the four factors affecting elasticity do you think has changed the most, and why?
 :::
 
 # Globalization and Offshoring
@@ -867,6 +899,14 @@ These present opportunities to study effects of trade on labour demand
 - Technology
 - Consumer preferences
 - Demographics
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose a Canadian auto parts manufacturer faces a drop in wages in Mexico. Under what conditions would this actually *increase* demand for Canadian auto workers rather than decrease it?
+:::
 
 # Summary
 
