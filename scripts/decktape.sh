@@ -34,19 +34,27 @@ for f in "${htmls[@]}"; do
   case "$f" in
     "$DOCS_SLIDES"/*.html|"$DOCS_SLIDES"/*/*.html|"$DOCS_SLIDES"/*/*/*.html|\
     "$DOCS_QUESTIONS"/*.html|"$DOCS_QUESTIONS"/*/*.html|"$DOCS_QUESTIONS"/*/*/*.html)
-      # Skip if HTML hasn't changed since last PDF generation
-      checksum_file="$CHECKSUM_DIR/$(echo "$f" | shasum -a 256 | cut -d' ' -f1)"
-      current_hash=$(shasum -a 256 "$f" | cut -d' ' -f1)
-      if [[ -f "$checksum_file" ]] && [[ "$(cat "$checksum_file")" == "$current_hash" ]] && [[ -f "${f%.html}.pdf" ]]; then
-        echo "Decktape: skipped ${f%.html}.pdf (HTML unchanged)"
-        continue
+      # Derive source .qmd path from output HTML path (docs/slides/X/Y.html → slides/X/Y.qmd)
+      rel_path="${f#"$PROJECT_ROOT"/docs/}"
+      src_qmd="$PROJECT_ROOT/${rel_path%.html}.qmd"
+
+      # Skip if source .qmd hasn't changed since last PDF generation
+      if [[ -f "$src_qmd" ]]; then
+        checksum_file="$CHECKSUM_DIR/$(echo "$src_qmd" | shasum -a 256 | cut -d' ' -f1)"
+        current_hash=$(shasum -a 256 "$src_qmd" | cut -d' ' -f1)
+        if [[ -f "$checksum_file" ]] && [[ "$(cat "$checksum_file")" == "$current_hash" ]] && [[ -f "${f%.html}.pdf" ]]; then
+          echo "Decktape: skipped ${f%.html}.pdf (source unchanged)"
+          continue
+        fi
       fi
 
       decktape "$f" "${f%.html}.pdf"
       echo "Decktape: wrote ${f%.html}.pdf"
 
-      # Save checksum for next run
-      echo "$current_hash" > "$checksum_file"
+      # Save source checksum for next run
+      if [[ -f "$src_qmd" ]]; then
+        echo "$current_hash" > "$checksum_file"
+      fi
       ;;
   esac
 done
