@@ -5,6 +5,8 @@ set -euo pipefail
 PROJECT_ROOT="${QUARTO_PROJECT_DIR:-$(pwd)}"
 DOCS_SLIDES="$PROJECT_ROOT/docs/slides"
 DOCS_QUESTIONS="$PROJECT_ROOT/docs/questions"
+CHECKSUM_DIR="$PROJECT_ROOT/.decktape-checksums"
+mkdir -p "$CHECKSUM_DIR"
 
 # Gather outputs from Quarto if present; else scan docs/slides and docs/questions
 declare -a htmls
@@ -32,8 +34,19 @@ for f in "${htmls[@]}"; do
   case "$f" in
     "$DOCS_SLIDES"/*.html|"$DOCS_SLIDES"/*/*.html|"$DOCS_SLIDES"/*/*/*.html|\
     "$DOCS_QUESTIONS"/*.html|"$DOCS_QUESTIONS"/*/*.html|"$DOCS_QUESTIONS"/*/*/*.html)
+      # Skip if HTML hasn't changed since last PDF generation
+      checksum_file="$CHECKSUM_DIR/$(echo "$f" | shasum -a 256 | cut -d' ' -f1)"
+      current_hash=$(shasum -a 256 "$f" | cut -d' ' -f1)
+      if [[ -f "$checksum_file" ]] && [[ "$(cat "$checksum_file")" == "$current_hash" ]] && [[ -f "${f%.html}.pdf" ]]; then
+        echo "Decktape: skipped ${f%.html}.pdf (HTML unchanged)"
+        continue
+      fi
+
       decktape "$f" "${f%.html}.pdf"
       echo "Decktape: wrote ${f%.html}.pdf"
+
+      # Save checksum for next run
+      echo "$current_hash" > "$checksum_file"
       ;;
   esac
 done

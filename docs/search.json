@@ -4,7 +4,7 @@
     "href": "syllabus.html",
     "title": "EC306 Syllabus",
     "section": "",
-    "text": "Prof. Justin Smith\n   Lazaridis Hall 3091\n   jusmith@wlu.ca\n   + 1 (548) 889-4624\n\n\n\n\n\n\n   Tue/Thr\n   Jan-Apr 2026\n   2:30 - 3:50 PM\n   2C15\n\n\n\n\n\n   Thur 12:30 PM - 2:30 PM\n   Schedule an appointment"
+    "text": "Prof. Justin Smith\n   Lazaridis Hall 3091\n   jusmith@wlu.ca\n   + 1 (548) 889-4624\n\n\n\n\n\n\n   TBD\n   Sep-Dec 2026\n   TBD\n   TBD\n\n\n\n\n\n   Thur 12:30 PM - 2:30 PM\n   Schedule an appointment"
   },
   {
     "objectID": "syllabus.html#course-description",
@@ -84,6 +84,13 @@
     "text": "Issues in Program Design\n\n\nUniversal vs. Targeted Programs\n\nUniversal: easy to implement but expensive\nTargeted: benefits only those in need but costly to administer\n\n\nWork Disincentives\n\nSome programs reduce incentive to work\nExample: welfare benefits can encourage labour force dropout for those with strong preference for leisure\n\n\nPermanent vs. Transitory Income Loss\n\nDifferent situations require different program designs\nTemporary layoff → short-term support\nLong-term disability → longer support + reintegration costs"
   },
   {
+    "objectID": "slides/lsupply2/index.html#section",
+    "href": "slides/lsupply2/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf 83% of Canadian families receive some form of government transfer, why is program design so important? What happens if a program is too generous or too stingy?"
+  },
+  {
     "objectID": "slides/lsupply2/index.html#four-standard-income-support-programs",
     "href": "slides/lsupply2/index.html#four-standard-income-support-programs",
     "title": "EC306 - Wages and Employment",
@@ -131,6 +138,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Welfare: Work Disincentive Case",
     "text": "Welfare: Work Disincentive Case\n\n\n\n\nOthers face strong work disincentive:\n\nPerson chooses zero hours after welfare benefit\n\nThis occurs when:\n\nWelfare benefit is generous\nIndividual places high value on leisure\n\n\n\n\n\n\n\n\nWarning\n\n\nThis is the problematic effect of welfare programs"
+  },
+  {
+    "objectID": "slides/lsupply2/index.html#section-1",
+    "href": "slides/lsupply2/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might someone who was working 20 hours per week before welfare was introduced choose to stop working entirely, while someone working 40 hours per week continues to work the same amount?"
   },
   {
     "objectID": "slides/lsupply2/index.html#combating-work-disincentives",
@@ -217,6 +231,13 @@
     "text": "Wage Subsidies: Policy Implications\n\n\n\n\n\n\n\n\nAdvantages\n\n\n\nLess negative work incentives than welfare or NIT\nNo reduction in effective wage rate\n\n\n\n\n\n\n\n\n\n\n\nDisadvantages\n\n\n\nDo not provide income support to non-workers\nMay not help those in most need\n\n\n\n\n\nIn Canada:\n\nPure wage subsidies mostly go to employers\nUnclear if any benefits passed on to workers"
   },
   {
+    "objectID": "slides/lsupply2/index.html#section-2",
+    "href": "slides/lsupply2/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA negative income tax reduces the benefit as you earn more, while a wage subsidy increases your pay for each hour worked. Which program would you expect to have a larger positive effect on labour force participation among non-workers, and why?"
+  },
+  {
     "objectID": "slides/lsupply2/index.html#tax-credits-overview",
     "href": "slides/lsupply2/index.html#tax-credits-overview",
     "title": "EC306 - Wages and Employment",
@@ -270,7 +291,7 @@
     "href": "slides/lsupply2/index.html#ei-simplified-model-parameters",
     "title": "EC306 - Wages and Employment",
     "section": "EI: Simplified Model Parameters",
-    "text": "EI: Simplified Model Parameters\nTo analyze with income-leisure diagram:\n\nMust work 14 weeks in the year to qualify\nBenefit is 60% of weekly wage\nMaximum of 20 weeks of benefits\nCan work up to 32 weeks and get full benefits\nEach week worked beyond 32 → lose benefits for that week\n60% benefit = 60% tax on earnings beyond 32 weeks\nCannot work and collect EI simultaneously"
+    "text": "EI: Simplified Model Parameters\nTo analyze with income-leisure diagram:\n\nMust work 14 weeks in the year to qualify\nBenefit is 60% of weekly wage (we use 60% for simplicity)\nMaximum of 20 weeks of benefits\nCan work up to 32 weeks and get full benefits\nEach week worked beyond 32 → lose benefits for that week\n60% benefit = 60% tax on earnings beyond 32 weeks\nCannot work and collect EI simultaneously"
   },
   {
     "objectID": "slides/lsupply2/index.html#ei-budget-constraint",
@@ -280,11 +301,18 @@
     "text": "EI: Budget Constraint\n\n\n\n\nThree segments:\n\nFirst 14 weeks: Paid at usual wage \\(w_0\\)\nWeeks 14-32 of work: Get 20 weeks of benefits\n\nBenefit = \\(0.6 \\times 20 \\times w_0\\)\n\nMore than 32 weeks of work: Benefits reduced week-for-week\n\nBenefits paid at 60% of wage\nWork paid at 100% of wage\nKeep 40% of wage in this range"
   },
   {
+    "objectID": "slides/lsupply2/index.html#section-3",
+    "href": "slides/lsupply2/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nThe EI budget constraint has a segment where the effective wage is only 40% of the market wage. Why might a seasonal worker in the Maritimes choose to work exactly 14 weeks per year under this system?"
+  },
+  {
     "objectID": "slides/lsupply2/index.html#ei-effect-on-non-participants",
     "href": "slides/lsupply2/index.html#ei-effect-on-non-participants",
     "title": "EC306 - Wages and Employment",
     "section": "EI: Effect on Non-Participants",
-    "text": "EI: Effect on Non-Participants\n\n\n\n\n\n\n\n\n\n\nEffect on Non-Workers\n\n\nA non-participant might start working due to large increase in non-labour income after 14 hours of work. Induces labour force entry."
+    "text": "EI: Effect on Non-Participants\n\n\n\n\n\n\n\n\n\n\nEffect on Non-Workers\n\n\nA non-participant might start working due to large increase in non-labour income after 14 weeks of work. Induces labour force entry."
   },
   {
     "objectID": "slides/lsupply2/index.html#ei-effect-in-middle-range",
@@ -396,7 +424,7 @@
     "href": "slides/lsupply2/index.html#child-care-costs-working-case",
     "title": "EC306 - Wages and Employment",
     "section": "Child Care Costs: Working Case",
-    "text": "Child Care Costs: Working Case\n\n\n\n\nPerson with reservation wage above wage + costs:\n\nWorks positive hours\nChild care costs = negative pure income effect\nChoose less leisure, more work\nMust work more to offset income loss"
+    "text": "Child Care Costs: Working Case\n\n\n\n\nPerson with reservation wage below wage + costs:\n\nWorks positive hours\nChild care costs = negative pure income effect\nChoose less leisure, more work\nMust work more to offset income loss"
   },
   {
     "objectID": "slides/lsupply2/index.html#child-care-costs-labour-supply-gap",
@@ -432,6 +460,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Evidence: Visual Summary",
     "text": "Evidence: Visual Summary\n\nSource: Fortin (2019)"
+  },
+  {
+    "objectID": "slides/lsupply2/index.html#section-4",
+    "href": "slides/lsupply2/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nQuebec’s $5/day child care program increased mothers’ labour force participation by 7.7 percentage points but was associated with negative child outcomes. What does this trade-off suggest about how we should evaluate the success of a child care subsidy policy?"
   },
   {
     "objectID": "slides/lsupply2/index.html#key-takeaways",
@@ -875,6 +910,13 @@
     "text": "Firm Demand and Supply in the Short Run"
   },
   {
+    "objectID": "slides/lmarket/index.html#section",
+    "href": "slides/lmarket/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf a new technology increases labour demand in a competitive market, what happens to wages and employment in the short run versus the long run? Why do the outcomes differ?"
+  },
+  {
     "objectID": "slides/lmarket/index.html#monopoly",
     "href": "slides/lmarket/index.html#monopoly",
     "title": "EC306 - Wages and Employment",
@@ -915,6 +957,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Additional Details",
     "text": "Additional Details\n\nAll of the previous analysis assumes that labour markets are perfectly competitive\n\nFirms can hire all labour they want at the given wage\n\nThat is not always the case in reality when firms have power in the product market\n\nEmployees may unionize\nFirms may hire a large number of the market’s workers\n\nIn these cases, firms may not face a perfectly elastic supply curve for labour\nLater we will analyze imperfect competition in the labour market"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-1",
+    "href": "slides/lmarket/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might a monopolist pay lower wages than a competitive firm, even if both firms hire workers from the same labour market?"
   },
   {
     "objectID": "slides/lmarket/index.html#introduction-3",
@@ -1008,6 +1057,13 @@
     "text": "Evidence\n\n\n\n\n\n\nEmpirical Findings on Payroll Taxes\n\n\n\nIn the long run, workers bear most of the burden through lower wages\nEmployment effects are small"
   },
   {
+    "objectID": "slides/lmarket/index.html#section-2",
+    "href": "slides/lmarket/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA payroll tax is legally imposed on employers, yet economists say workers bear most of the burden in the long run. What mechanism causes the tax burden to shift from employers to workers over time?"
+  },
+  {
     "objectID": "slides/lmarket/index.html#introduction-4",
     "href": "slides/lmarket/index.html#introduction-4",
     "title": "EC306 - Wages and Employment",
@@ -1043,6 +1099,13 @@
     "text": "Simple Monopsony\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\nMonopsonies also leave jobs vacant:\n\nThey restrict employment to maintain low wages\nThis creates inefficiency in the labour market\nVacancies are \\(V_m - S_m\\)\n\nAt wage \\(W_m\\):\n\nVMP is above wage\nFirms would like to hire more\nBut to hire, must raise wages — so it is optimal to not hire more"
   },
   {
+    "objectID": "slides/lmarket/index.html#section-3",
+    "href": "slides/lmarket/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to wages and employment if a monopsonist suddenly faced competition from a new firm entering the same labour market?"
+  },
+  {
     "objectID": "slides/lmarket/index.html#characteristics-of-monopsonies",
     "href": "slides/lmarket/index.html#characteristics-of-monopsonies",
     "title": "EC306 - Wages and Employment",
@@ -1076,6 +1139,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Evidence of Monopsonies",
     "text": "Evidence of Monopsonies\nPro sports:\n\nBaseball: free agency increased wages significantly — increases competition among teams\nHockey: not much evidence of monopsony power\n\nAcademia and nursing:\n\nSome evidence of monopsony power\nIn Canada, a bargaining model may be more appropriate given these labour markets are unionized\n\n\n\n\n\n\n\nNote\n\n\nSome academics argue that monopsonies are relatively common — firms can set wages only if they have some market power, and evidence suggests this is widespread"
+  },
+  {
+    "objectID": "slides/lmarket/index.html#section-4",
+    "href": "slides/lmarket/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might monopsony power be more common than we think? Consider industries where workers have few alternative employers, even if the employer is not literally the only firm in town."
   },
   {
     "objectID": "slides/lmarket/index.html#introduction-5",
@@ -1197,6 +1267,13 @@
     "text": "Evidence\n\n\n\n\n\n\nWarning\n\n\nMinimum wages are generally not effective at reducing poverty\n\nMany poor individuals do not work\nMany people on minimum wages are not poor (e.g., youth living in high-income families)\n\nBoth Canadian and US studies show no link between minimum wages and poverty reduction"
   },
   {
+    "objectID": "slides/lmarket/index.html#section-5",
+    "href": "slides/lmarket/index.html#section-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nIf minimum wages do not effectively reduce poverty, what alternative policies might be more effective at helping low-income workers, and why?"
+  },
+  {
     "objectID": "slides/lmarket/index.html#summary-1",
     "href": "slides/lmarket/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
@@ -1208,7 +1285,7 @@
     "href": "slides/ldemand1/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nUnderstand how firms decide how much labour to employ\nCompare short-run vs. long-run labour demand decisions\nExplain why labour demand is downward sloping\nLearn factors that affect the elasticity of labour demand\nUnderstand the impact of free trade and international competition on the Canadian labour market"
+    "text": "Goals of This Section\nIn this section we will:\n\nUnderstand how firms decide how much labour to employ\nCompare short-run vs. long-run labour demand decisions\nExplain why labour demand is downward sloping\nLearn factors that affect the elasticity of labour demand\nUnderstand the impact of free trade and international competition on the Canadian labour market"
   },
   {
     "objectID": "slides/ldemand1/index.html#background-1",
@@ -1229,14 +1306,14 @@
     "href": "slides/ldemand1/index.html#model",
     "title": "EC306 - Wages and Employment",
     "section": "Model",
-    "text": "Model\nAs labour demand is derived from production, the model starts with a production function:\n\\[ Q = f(K, N)\\]\nWhere:\n\n\\(Q\\) is quantity of output\n\\(K\\) is capital (fixed in short run at \\(K_{0}\\))\n\\(N\\) is labour (variable in short run)\n\nFirm’s objective: maximize profit\nIn the short run this means choosing \\(N\\) given fixed \\(K_0\\)"
+    "text": "Model\nAs labour demand is derived from production, the model starts with a production function:\n\\[ Q = F(K, N)\\]\nWhere:\n\n\\(Q\\) is quantity of output\n\\(K\\) is capital (fixed in short run at \\(K_{0}\\))\n\\(N\\) is labour (variable in short run)\n\nFirm’s objective: maximize profit\nIn the short run this means choosing \\(N\\) given fixed \\(K_0\\)"
   },
   {
     "objectID": "slides/ldemand1/index.html#model-1",
     "href": "slides/ldemand1/index.html#model-1",
     "title": "EC306 - Wages and Employment",
     "section": "Model",
-    "text": "Model\nTo see this mathematically:\nOutput prices are given (perfect competition)\nProfit: \\[\\pi(N)= pQ - wN - rK_{0}\\] \\[= pF(K,N) - wN - rK_{0} \\]\nDifferentiate \\(\\pi(N)\\) w.r.t. \\(N\\):\n\\[\\frac{d\\pi}{dN} = p\\frac{\\partial F}{\\partial N}(K_{0},N) - w = p MP_N - w\\]"
+    "text": "Model\nTo see this mathematically:\nOutput prices are given (perfect competition)\nProfit: \\[\\pi(N)= pQ - wN - rK_{0}\\] \\[= pF(K_0,N) - wN - rK_{0} \\]\nDifferentiate \\(\\pi(N)\\) w.r.t. \\(N\\):\n\\[\\frac{d\\pi}{dN} = p\\frac{\\partial F}{\\partial N}(K_{0},N) - w = p MP_N - w\\]"
   },
   {
     "objectID": "slides/ldemand1/index.html#model-2",
@@ -1265,6 +1342,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Demand Curve and Competition in Product Market",
     "text": "Demand Curve and Competition in Product Market\n\nLabour demand depends on demand for the product being produced\nAlso depends on structure of the product market\nFirm always maximizes profit by choosing labour where \\(MRP_N = w\\)\n\nBut marginal revenue differs across market structures:\n\nIn perfect competition: \\(MR = p\\), and \\(MR\\) does not fall with more \\(N\\)\nIn monopoly: \\(MR &lt; p\\), and \\(MR\\) falls as \\(N\\) increases\n\n\n\n\n\n\n\nWarning\n\n\nWith less competition in product market, labour demand is lower and falls faster with more \\(N\\)"
+  },
+  {
+    "objectID": "slides/ldemand1/index.html#section",
+    "href": "slides/ldemand1/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA firm currently employs workers where \\(pMP_N = w\\). Suppose the government introduces a per-unit subsidy on the firm’s output, raising the effective price the firm receives. What happens to the firm’s short-run demand for labour, and why?"
   },
   {
     "objectID": "slides/ldemand1/index.html#introduction",
@@ -1407,6 +1491,13 @@
     "text": "Cost Minimization – Math\n\n\n\n\n\n\nDon’t Get Bogged Down\n\n\nI will not ask you to recreate this derivation on exams\n\n\n\nKey points:\n\nFirst minimize cost → optimal inputs as function of output and input prices\n\nAs you vary any of those three things, the inputs change\n\nGiven cost function, choose output to maximize profit\n\nOutput depends on product price and input prices\nChanges in input prices change both optimal inputs and output level"
   },
   {
+    "objectID": "slides/ldemand1/index.html#section-1",
+    "href": "slides/ldemand1/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA firm currently satisfies \\(\\frac{MP_N}{w} = \\frac{MP_K}{r}\\). Suppose the rental rate of capital \\(r\\) suddenly doubles while the wage \\(w\\) stays the same. In what direction will the firm adjust its mix of labour and capital, and what happens to the isocost line?"
+  },
+  {
     "objectID": "slides/ldemand1/index.html#deriving-labour-demand",
     "href": "slides/ldemand1/index.html#deriving-labour-demand",
     "title": "EC306 - Wages and Employment",
@@ -1477,6 +1568,13 @@
     "text": "Relationship to Short-Run Demand\n\n\n\n\nGraph shows short-run and long-run labour demand curves\n\nStart with capital fixed at \\(K_0\\)\nWage goes from \\(w_0\\) to \\(w_1\\)\nIn short run: move along SR demand curve from \\(N_0\\) to \\(N_{'}\\)\nIn long run: firm substitutes capital for labour\nShort run curve shifts left\nEquilibrium at intersection of wage and new short run demand"
   },
   {
+    "objectID": "slides/ldemand1/index.html#section-2",
+    "href": "slides/ldemand1/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhen wages rise, the substitution and scale effects both reduce labour demand, but they have opposing effects on capital demand. Can you think of a real-world industry where the substitution effect on capital would clearly dominate the scale effect, and one where the scale effect might dominate? What makes those industries different?"
+  },
+  {
     "objectID": "slides/ldemand1/index.html#elasticity-of-demand",
     "href": "slides/ldemand1/index.html#elasticity-of-demand",
     "title": "EC306 - Wages and Employment",
@@ -1496,6 +1594,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Evidence on Elasticity",
     "text": "Evidence on Elasticity\nIn the USA:\n\nElasticity between -0.15 and -0.75 (relatively inelastic)\nElasticities have increased over time\nLong run elasticities are larger\n\nIn Canada:\n\nElasticity between -0.1 and -0.6\nDepends on geography and industry\n\n\n\n\n\n\n\nKey Result\n\n\nStudies confirm that labour demand does slope down"
+  },
+  {
+    "objectID": "slides/ldemand1/index.html#section-3",
+    "href": "slides/ldemand1/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might we observe that labour demand has become more elastic over time in both Canada and the USA? Which of the four factors affecting elasticity do you think has changed the most, and why?"
   },
   {
     "objectID": "slides/ldemand1/index.html#introduction-1",
@@ -1568,6 +1673,13 @@
     "text": "Non-Trade Demand Factors\nAt the same time trade is changing, the Canadian labour market is changing:\n\nJobs have shifted away from manufacturing over long term\nProfessional, managerial, and administrative service jobs have been increasing\nFlex or “gig” jobs have been increasing\n\nAll changing for various reasons:\n\nTechnology\nConsumer preferences\nDemographics"
   },
   {
+    "objectID": "slides/ldemand1/index.html#section-4",
+    "href": "slides/ldemand1/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nSuppose a Canadian auto parts manufacturer faces a drop in wages in Mexico. Under what conditions would this actually increase demand for Canadian auto workers rather than decrease it?"
+  },
+  {
     "objectID": "slides/ldemand1/index.html#summary-1",
     "href": "slides/ldemand1/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
@@ -1586,7 +1698,7 @@
     "href": "slides/hcapital/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nDiscuss trends in educational attainment in Canada\nIntroduce Human Capital Theory of education investment\nIntroduce the Signalling Model of education investment\nDiscuss empirical methods to estimate returns to schooling\nReview empirical evidence on returns to schooling\nDiscuss job training"
+    "text": "Goals of This Section\nIn this section we will:\n\nDiscuss trends in educational attainment in Canada\nIntroduce Human Capital Theory of education investment\nIntroduce the Signalling Model of education investment\nDiscuss empirical methods to estimate returns to schooling\nReview empirical evidence on returns to schooling\nDiscuss job training"
   },
   {
     "objectID": "slides/hcapital/index.html#educational-attainment",
@@ -1608,6 +1720,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Participation Rate",
     "text": "Participation Rate"
+  },
+  {
+    "objectID": "slides/hcapital/index.html#section",
+    "href": "slides/hcapital/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nThe data show that university degree holders have higher participation rates and lower unemployment rates than those with less education. Why might we observe these patterns even during economic downturns — is it purely a productivity story, or could other factors be at play?"
   },
   {
     "objectID": "slides/hcapital/index.html#human-capital-theory-1",
@@ -1736,6 +1855,13 @@
     "text": "Complications\n\n\n\n\n\n\nCredit Constraints\n\n\nA major complication is financing:\n\nMany students cannot afford the upfront costs of schooling\nMay not be able to borrow against future earnings\nLeads to under-investment in schooling compared to the optimal level"
   },
   {
+    "objectID": "slides/hcapital/index.html#section-1",
+    "href": "slides/hcapital/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nSuppose the government introduces a large tuition subsidy that covers 80% of university costs, but simultaneously raises the top marginal income tax rate. What is the net effect on optimal schooling in the human capital model?"
+  },
+  {
     "objectID": "slides/hcapital/index.html#introduction-2",
     "href": "slides/hcapital/index.html#introduction-2",
     "title": "EC306 - Wages and Employment",
@@ -1831,7 +1957,7 @@
     "href": "slides/hcapital/index.html#model-12",
     "title": "EC306 - Wages and Employment",
     "section": "Model",
-    "text": "Model\nSometimes everyone is worse off under the separating equilibrium:\n\nRecall in the pooling equilibrium, nobody gets education — everyone is paid \\(\\bar{w} = 2 - q\\)\nUnder the separating equilibrium:\n\nType L are paid \\(1\\) — worse off unless \\(q = 1\\)\nType H are paid \\(2 - \\frac{s^*}{2}\\) — worse off unless \\(s^* &gt; 2q\\)\n\nIn our previous example where \\(q = 0.5\\): Type H individuals are worse off for any \\(s^* &gt; 1\\)"
+    "text": "Model\nSometimes everyone is worse off under the separating equilibrium:\n\nRecall in the pooling equilibrium, nobody gets education — everyone is paid \\(\\bar{w} = 2 - q\\)\nUnder the separating equilibrium:\n\nType L are paid \\(1\\) — worse off unless \\(q = 1\\)\nType H have a net payoff of \\(2 - \\frac{s^*}{2}\\) — worse off if \\(s^* &gt; 2q\\)\n\nIn our previous example where \\(q = 0.5\\): Type H individuals are worse off for any \\(s^* &gt; 1\\)"
   },
   {
     "objectID": "slides/hcapital/index.html#model-13",
@@ -1839,6 +1965,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Model",
     "text": "Model\n\n\n\n\n\n\nKey Ideas of the Signalling Model\n\n\n\nDepending on firm beliefs about the relationship between education and ability, it may be worthwhile to acquire education\nThere must be a difference in the cost of acquiring education for high- and low-ability workers\nIf firms’ beliefs are not confirmed, they are not sustainable in equilibrium"
+  },
+  {
+    "objectID": "slides/hcapital/index.html#section-2",
+    "href": "slides/hcapital/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIn the signalling model, what would happen if a new technology made it costless for employers to observe worker productivity before hiring? Would anyone still invest in education under the signalling framework?"
   },
   {
     "objectID": "slides/hcapital/index.html#introduction-3",
@@ -1974,6 +2107,13 @@
     "text": "Signalling\n\nAll studies cited so far have attributed returns to schooling to human capital accumulation\nSome studies have attempted to separate human capital from signalling effects\nFerrer and Riddell (2002) use Canadian data to estimate credential effects\n\nLook at people with same years of schooling, but different credentials\nE.g., someone with a high school diploma versus someone with the same years but did not graduate\n\nFind that obtaining the credential does matter — consistent with some signalling"
   },
   {
+    "objectID": "slides/hcapital/index.html#section-3",
+    "href": "slides/hcapital/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nTwin studies and IV studies both estimate returns to schooling of about 7–10%, which is lower than the OLS estimate. Does this mean ability bias is the whole story, or could there be biases working in the opposite direction that partially offset it?"
+  },
+  {
     "objectID": "slides/hcapital/index.html#social-returns-to-education-1",
     "href": "slides/hcapital/index.html#social-returns-to-education-1",
     "title": "EC306 - Wages and Employment",
@@ -2100,6 +2240,13 @@
     "text": "Training and Government\nProgram evaluation uses econometric techniques to address selection issues:\n\nDifference-in-Differences (DiD): compare changes in outcomes over time between treatment and control groups\nPropensity Score Matching (PSM): match individuals in treatment and control groups based on observable characteristics\nInstrumental Variables (IV): use external factors that affect training participation but not outcomes directly\n\n\n\n\n\n\n\nEvidence from Program Evaluation\n\n\n\nU.S. training programs have positive results for young women from poorer backgrounds\nBut no effect for men\nMore successful programs emphasize human capital investment over job search assistance"
   },
   {
+    "objectID": "slides/hcapital/index.html#section-4",
+    "href": "slides/hcapital/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA tech company pays for an employee’s MBA degree. Under the general vs. specific training framework, who should pay for this training, and why? What does it suggest if the firm requires the employee to stay for two years after completing the degree?"
+  },
+  {
     "objectID": "slides/hcapital/index.html#summary-1",
     "href": "slides/hcapital/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
@@ -2181,7 +2328,7 @@
     "href": "index.html",
     "title": "\n            Wages and Employment\n        ",
     "section": "",
-    "text": "Labour Market Economics\n        \n        \n            EC306 • Winter 2026Department of EconomicsLazaridis School of Business and EconomicsWilfrid Laurier University\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Prof. Justin Smith\n   Lazaridis Hall 3091\n   jusmith@wlu.ca\n   + 1 (548) 889-4624\n\n\n\n\nCourse details\n\n   Tue/Thr\n   Jan-Apr 2026\n   2:30 - 3:50 PM\n   2C15\n\n\n\nOffice Hours\n\n   Thur 12:30 PM - 2:30 PM\n   Schedule an appointment"
+    "text": "Labour Market Economics\n        \n        \n            EC306 • Winter 2026Department of EconomicsLazaridis School of Business and EconomicsWilfrid Laurier University\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Prof. Justin Smith\n   Lazaridis Hall 3091\n   jusmith@wlu.ca\n   + 1 (548) 889-4624\n\n\n\n\nCourse details\n\n   TBD\n   Sep-Dec 2026\n   TBD\n   TBD\n\n\n\nOffice Hours\n\n   Thur 12:30 PM - 2:30 PM\n   Schedule an appointment"
   },
   {
     "objectID": "content/lsupply2.html",
@@ -2788,7 +2935,7 @@
     "href": "slides/discrim/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nDiscuss trends in male-female earnings differentials in Canada\nIntroduce taste-based and statistical discrimination theories\nExplain supply-side and non-competitive theories of discrimination\nLearn the Oaxaca-Blinder decomposition to measure discrimination\nReview policies to address gender discrimination"
+    "text": "Goals of This Section\nIn this section we will:\n\nDiscuss trends in male-female earnings differentials in Canada\nIntroduce taste-based and statistical discrimination theories\nExplain supply-side and non-competitive theories of discrimination\nLearn the Oaxaca-Blinder decomposition to measure discrimination\nReview policies to address gender discrimination"
   },
   {
     "objectID": "slides/discrim/index.html#male-and-female-earnings",
@@ -2833,6 +2980,13 @@
     "text": "Male and Female Earnings\nMethods that can help:\n\nOaxaca-Blinder decomposition\nAudit studies\nField experiments"
   },
   {
+    "objectID": "slides/discrim/index.html#section",
+    "href": "slides/discrim/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nThe gender earnings gap has narrowed over time but has not closed. Why might we observe a persistent gap even as women’s educational attainment has surpassed men’s in many countries?"
+  },
+  {
     "objectID": "slides/discrim/index.html#demand-side-theories",
     "href": "slides/discrim/index.html#demand-side-theories",
     "title": "EC306 - Wages and Employment",
@@ -2844,14 +2998,14 @@
     "href": "slides/discrim/index.html#taste-based-discrimination",
     "title": "EC306 - Wages and Employment",
     "section": "Taste-Based Discrimination",
-    "text": "Taste-Based Discrimination\n\n\n\n\n\n\nBecker (1957)\n\n\nTaste-based discrimination: employers have a “taste” for discrimination — they behave as if hiring women is more costly than it actually is\n\n\n\n\nFirms produce according to: \\(y = f(N_m + N_w)\\)\nIn a competitive market, profits are: \\[ \\pi = p \\cdot f(N_m + N_w) - w_m N_m - w_w N_w \\]\nFirms do not maximize profit strictly, but instead maximize: \\[ U = \\pi - d \\cdot N_w \\]\n\n\\(d\\) measures the degree of discrimination\nIf \\(d = 0\\): no discrimination; if \\(d &gt; 0\\): firms get disutility from hiring women"
+    "text": "Taste-Based Discrimination\n\n\n\n\n\n\nBecker (1957)\n\n\nTaste-based discrimination: employers have a “taste” for discrimination — they behave as if hiring women is more costly than it actually is\n\n\n\n\nFirms produce according to: \\(y = f(N_m + N_w)\\)\nIn a competitive market, profits are: \\[ \\pi = p \\cdot f(N_m + N_w) - w_m N_m - w_f N_w \\]\nFirms do not maximize profit strictly, but instead maximize: \\[ U = \\pi - d \\cdot N_w \\]\n\n\\(d\\) measures the degree of discrimination\nIf \\(d = 0\\): no discrimination; if \\(d &gt; 0\\): firms get disutility from hiring women"
   },
   {
     "objectID": "slides/discrim/index.html#taste-based-discrimination-1",
     "href": "slides/discrim/index.html#taste-based-discrimination-1",
     "title": "EC306 - Wages and Employment",
     "section": "Taste-Based Discrimination",
-    "text": "Taste-Based Discrimination\nThe first order conditions for utility maximization are:\n\\[ p \\cdot MP_{N_m} = w_m \\] \\[ p \\cdot MP_{N_w} = w_w + d \\]\n\nFor both men and women, firms hire up to where VMP equals the effective cost of hiring\nBut for women, there is an additional cost \\(d\\) due to discrimination\nIf \\(w_m = w_f\\) and men and women are equally productive, this implies firms hire fewer women\n\nDiscrimination drives a wedge between wages and the MRP"
+    "text": "Taste-Based Discrimination\nThe first order conditions for utility maximization are:\n\\[ p \\cdot MP_{N_m} = w_m \\] \\[ p \\cdot MP_{N_w} = w_f + d \\]\n\nFor both men and women, firms hire up to where VMP equals the effective cost of hiring\nBut for women, there is an additional cost \\(d\\) due to discrimination\nIf \\(w_m = w_f\\) and men and women are equally productive, this implies firms hire fewer women\n\nDiscrimination drives a wedge between wages and the MRP"
   },
   {
     "objectID": "slides/discrim/index.html#taste-based-discrimination-2",
@@ -2882,6 +3036,13 @@
     "text": "Taste-Based Discrimination\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf the supply of female labour is small enough, they can work at non-discriminating firms\n\nWage ratio is 1\n\nWith a larger supply, some will have to work at discriminating firms\n\nWage ratio falls below 1\nThis is where the demand curve slopes downwards\nWage gap emerges"
   },
   {
+    "objectID": "slides/discrim/index.html#section-1",
+    "href": "slides/discrim/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIn Becker’s model, discriminating firms sacrifice profits by not hiring equally productive women at lower wages. What would happen to taste-based discrimination in the long run if product markets are perfectly competitive?"
+  },
+  {
     "objectID": "slides/discrim/index.html#statistical-discrimination",
     "href": "slides/discrim/index.html#statistical-discrimination",
     "title": "EC306 - Wages and Employment",
@@ -2889,50 +3050,50 @@
     "text": "Statistical Discrimination\n\n\n\n\n\n\nStatistical Discrimination\n\n\nStatistical discrimination: firms use group characteristics to infer individual productivity\n\nArises because of imperfect information — employers do not know individual worker productivity perfectly\nInstead they use signals to infer worker quality\nIf one group has lower average productivity (or a noisier signal), firms may pay them less on average\n\n\n\n\n\nContrast with taste-based discrimination, which relies on employers having overt prejudice"
   },
   {
+    "objectID": "slides/discrim/index.html#statistical-discrimination-theory",
+    "href": "slides/discrim/index.html#statistical-discrimination-theory",
+    "title": "EC306 - Wages and Employment",
+    "section": "Statistical Discrimination: Theory",
+    "text": "Statistical Discrimination: Theory\nAssume that the abilities of male and female workers are distributed with means \\(\\bar{a}_{m}\\) and \\(\\bar{a}_{f}\\). The firm has access to a signal of ability \\(x\\) for each person. Expected ability is:\n\\[a(x) = \\bar{a} + \\alpha (x - \\bar{a})\\]\nWhere \\(\\alpha\\) is the reliability of the signal:\n\nIf \\(\\alpha = 0\\): the signal provides no information beyond the average\nIf \\(\\alpha = 1\\): the signal is perfectly informative\n\nWorkers are paid a wage equal to their marginal revenue product"
+  },
+  {
     "objectID": "slides/discrim/index.html#statistical-discrimination-2",
     "href": "slides/discrim/index.html#statistical-discrimination-2",
     "title": "EC306 - Wages and Employment",
     "section": "Statistical Discrimination",
-    "text": "Statistical Discrimination"
-  },
-  {
-    "objectID": "slides/discrim/index.html#theory",
-    "href": "slides/discrim/index.html#theory",
-    "title": "EC306 - Wages and Employment",
-    "section": "Theory",
-    "text": "Theory\nAssume that the abilities of male and female workers are distributed with means \\(\\bar{a}_{m}\\) and \\(\\bar{a}_{f}\\). The firm has access to a signal of ability \\(x\\) for each person. Expected ability is:\n\\[a(x) = \\bar{a} + \\alpha (x - \\bar{a})\\]\nWhere \\(\\alpha\\) is the reliability of the signal:\n\nIf \\(\\alpha = 0\\): the signal provides no information beyond the average\nIf \\(\\alpha = 1\\): the signal is perfectly informative\n\nWorkers are paid a wage equal to their marginal revenue product"
+    "text": "Statistical Discrimination\nPaying workers their marginal revenue product implies:\n\\[w(x) = p a(x) = p \\bar{a} + p \\alpha (x - \\bar{a})\\]\nAssume \\(\\bar{a}_{m} = \\bar{a}_{f}\\) (men and women are equally productive on average), but the signal is more reliable for men: \\(\\alpha_m &gt; \\alpha_f\\)\nDifferences arise between workers who score the same on the signal:\n\nIf a man and woman score above average (\\(x - \\bar{a} &gt; 0\\)), then men are paid more\nIf a man and woman score below average (\\(x - \\bar{a} &lt; 0\\)), then women are paid more"
   },
   {
     "objectID": "slides/discrim/index.html#statistical-discrimination-3",
     "href": "slides/discrim/index.html#statistical-discrimination-3",
     "title": "EC306 - Wages and Employment",
     "section": "Statistical Discrimination",
-    "text": "Statistical Discrimination\nPaying workers their marginal revenue product implies:\n\\[w(x) = p a(x) = p \\bar{a} + p \\alpha (x - \\bar{a})\\]\nAssume \\(\\bar{a}_{m} = \\bar{a}_{f}\\) (men and women are equally productive on average), but the signal is more reliable for men: \\(\\alpha_m &gt; \\alpha_f\\)\nDifferences arise between workers who score the same on the signal:\n\nIf a man and woman score above average (\\(x - \\bar{a} &gt; 0\\)), then men are paid more\nIf a man and woman score below average (\\(x - \\bar{a} &lt; 0\\)), then women are paid more"
+    "text": "Statistical Discrimination\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nMale line is steeper because the signal is more reliable (\\(\\alpha_m &gt; \\alpha_f\\))\nFor test scores above average: men are paid more\nFor test scores below average: women are paid more\nAt the average: they are paid the same"
   },
   {
     "objectID": "slides/discrim/index.html#statistical-discrimination-4",
     "href": "slides/discrim/index.html#statistical-discrimination-4",
     "title": "EC306 - Wages and Employment",
     "section": "Statistical Discrimination",
-    "text": "Statistical Discrimination\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nMale line is steeper because the signal is more reliable (\\(\\alpha_m &gt; \\alpha_f\\))\nFor test scores above average: men are paid more\nFor test scores below average: women are paid more\nAt the average: they are paid the same"
+    "text": "Statistical Discrimination\n\nThere are no underlying differences between males and females\n\nDifferences in wages arise because of differences in the quality of the signal\nFirms place more weight on average ability for female workers\nFirms place more weight on the actual signal for male workers\n\nBut where does the assumption \\(\\alpha_m &gt; \\alpha_f\\) come from?\n\nPossibly related to prejudicial attitudes of firms\nSome believe standardized tests favour males"
   },
   {
     "objectID": "slides/discrim/index.html#statistical-discrimination-5",
     "href": "slides/discrim/index.html#statistical-discrimination-5",
     "title": "EC306 - Wages and Employment",
     "section": "Statistical Discrimination",
-    "text": "Statistical Discrimination\n\nThere are no underlying differences between males and females\n\nDifferences in wages arise because of differences in the quality of the signal\nFirms place more weight on average ability for female workers\nFirms place more weight on the actual signal for male workers\n\nBut where does the assumption \\(\\alpha_m &gt; \\alpha_f\\) come from?\n\nPossibly related to prejudicial attitudes of firms\nSome believe standardized tests favour males"
+    "text": "Statistical Discrimination\n\nThere may also be differences in \\(\\bar{a}_m\\) and \\(\\bar{a}_f\\)\n\nPossibly due to pre-market discrimination leading to lower human capital among women\n\nIn this case, males are paid more at every signal level\nWage differences do not necessarily arise from overt discrimination\n\nThey may originate in differences in information signals or average productivity\nBut it is difficult to explain why such differences in signal quality exist"
+  },
+  {
+    "objectID": "slides/discrim/index.html#section-2",
+    "href": "slides/discrim/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nUnder statistical discrimination, a high-ability woman and a high-ability man both score well on an employment test, but the signal is noisier for women. What would happen to the wage gap between these two workers if the employer could conduct a longer, more thorough evaluation of all candidates?"
   },
   {
     "objectID": "slides/discrim/index.html#statistical-discrimination-6",
     "href": "slides/discrim/index.html#statistical-discrimination-6",
-    "title": "EC306 - Wages and Employment",
-    "section": "Statistical Discrimination",
-    "text": "Statistical Discrimination\n\nThere may also be differences in \\(\\bar{a}_m\\) and \\(\\bar{a}_f\\)\n\nPossibly due to pre-market discrimination leading to lower human capital among women\n\nIn this case, males are paid more at every signal level\nWage differences do not necessarily arise from overt discrimination\n\nThey may originate in differences in information signals or average productivity\nBut it is difficult to explain why such differences in signal quality exist"
-  },
-  {
-    "objectID": "slides/discrim/index.html#statistical-discrimination-7",
-    "href": "slides/discrim/index.html#statistical-discrimination-7",
     "title": "EC306 - Wages and Employment",
     "section": "Statistical Discrimination",
     "text": "Statistical Discrimination\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph the quality of the signal is the same (equal slopes)\nBut there are differences in average productivity\n\nMale line lies above female line\n\nMen will be paid more because of the average difference"
@@ -3068,14 +3229,14 @@
     "href": "slides/discrim/index.html#blinder-oaxaca-decomposition",
     "title": "EC306 - Wages and Employment",
     "section": "Blinder-Oaxaca Decomposition",
-    "text": "Blinder-Oaxaca Decomposition\n\n\n\n\n\n\nBlinder-Oaxaca Decomposition\n\n\nMethod to decompose differences in average earnings between two groups into:\n\nExplained part: due to differences in characteristics (endowments)\nUnexplained part: due to differences in returns to those characteristics (potentially discrimination)\n\n\n\n\nSuppose we estimate a regression of log earnings on observed characteristics for men and women:\n\\[ \\ln(Y_m) =\\hat\\beta_m  \\bar{X}_m \\]\n\\[ \\ln(Y_f) =\\hat\\beta_f  \\bar{X}_f \\]"
+    "text": "Blinder-Oaxaca Decomposition\n\n\n\n\n\n\nBlinder-Oaxaca Decomposition\n\n\nMethod to decompose differences in average earnings between two groups into:\n\nExplained part: due to differences in characteristics (endowments)\nUnexplained part: due to differences in returns to those characteristics (potentially discrimination)\n\n\n\n\nSuppose we estimate a regression of log earnings on observed characteristics for men and women:\n\\[ \\ln(Y_m) =\\hat\\beta_m \\cdot \\bar{X}_m \\]\n\\[ \\ln(Y_f) =\\hat\\beta_f \\cdot \\bar{X}_f \\]"
   },
   {
     "objectID": "slides/discrim/index.html#blinder-oaxaca-decomposition-2",
     "href": "slides/discrim/index.html#blinder-oaxaca-decomposition-2",
     "title": "EC306 - Wages and Employment",
     "section": "Blinder-Oaxaca Decomposition",
-    "text": "Blinder-Oaxaca Decomposition\nThe difference in average log earnings is:\n\\[ \\ln(Y_m) - \\ln(Y_f) = \\hat\\beta_m  \\bar{X}_m - \\hat\\beta_f  \\bar{X}_f \\]\nAdd and subtract \\(\\hat\\beta_m  \\bar{X}_f\\):\n\\[ \\ln(Y_m) - \\ln(Y_f) = \\underbrace{\\hat\\beta_m  (\\bar{X}_m - \\bar{X}_f)}_{\\text{explained}} + \\underbrace{\\bar{X}_f (\\hat\\beta_m - \\hat\\beta_f)}_{\\text{unexplained}} \\]\n\nExplained: holds slope constant at \\(\\hat\\beta_m\\), looks at differences in average \\(X\\)\nUnexplained: holds average characteristics constant at \\(\\bar{X}_f\\), looks at differences in slopes (returns)"
+    "text": "Blinder-Oaxaca Decomposition\nThe difference in average log earnings is:\n\\[ \\ln(Y_m) - \\ln(Y_f) = \\hat\\beta_m \\cdot \\bar{X}_m - \\hat\\beta_f \\cdot \\bar{X}_f \\]\nAdd and subtract \\(\\hat\\beta_m \\cdot \\bar{X}_f\\):\n\\[ \\ln(Y_m) - \\ln(Y_f) = \\underbrace{\\hat\\beta_m \\cdot (\\bar{X}_m - \\bar{X}_f)}_{\\text{explained}} + \\underbrace{\\bar{X}_f \\cdot (\\hat\\beta_m - \\hat\\beta_f)}_{\\text{unexplained}} \\]\n\nExplained: holds slope constant at \\(\\hat\\beta_m\\), looks at differences in average \\(X\\)\nUnexplained: holds average characteristics constant at \\(\\bar{X}_f\\), looks at differences in slopes (returns)"
   },
   {
     "objectID": "slides/discrim/index.html#blinder-oaxaca-decomposition-3",
@@ -3110,7 +3271,7 @@
     "href": "slides/discrim/index.html#blinder-oaxaca-decomposition-7",
     "title": "EC306 - Wages and Employment",
     "section": "Blinder-Oaxaca Decomposition",
-    "text": "Blinder-Oaxaca Decomposition\nAverage predicted log wage for women:\n\\[\\bar{\\ln Y}_F = 1.8 + 0.08 \\cdot 13 + 0.015 \\cdot 12 = 1.8 + 1.04 + 0.18 = 3.02\\]\nThe wage gap is therefore:\n\\[\\bar{\\ln Y}_M - \\bar{\\ln Y}_F = 3.70 - 3.02 = 0.68\\]\nThis says that the wage gap is about 0.68 log points — roughly 68% higher wages for men"
+    "text": "Blinder-Oaxaca Decomposition\nAverage predicted log wage for women:\n\\[\\bar{\\ln Y}_F = 1.8 + 0.08 \\cdot 13 + 0.015 \\cdot 12 = 1.8 + 1.04 + 0.18 = 3.02\\]\nThe wage gap is therefore:\n\\[\\bar{\\ln Y}_M - \\bar{\\ln Y}_F = 3.70 - 3.02 = 0.68\\]\nThis says that the wage gap is about 0.68 log points — roughly 97% higher wages for men"
   },
   {
     "objectID": "slides/discrim/index.html#blinder-oaxaca-decomposition-8",
@@ -3211,6 +3372,13 @@
     "text": "Collider Bias\nHow to avoid collider bias:\n\n\n\n\n\n\nBest Practice\n\n\nDo not add variables that are outcomes of discrimination to the regression\n\nOccupation is often an outcome of discrimination\nIndustry may also be an outcome\n\nInstead include only predetermined characteristics: things that are not affected by discrimination — mainly basic demographics, possibly education and experience"
   },
   {
+    "objectID": "slides/discrim/index.html#section-3",
+    "href": "slides/discrim/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nIn a Blinder-Oaxaca decomposition, the unexplained component is often interpreted as discrimination. Why might this interpretation overstate or understate the true amount of discrimination?"
+  },
+  {
     "objectID": "slides/discrim/index.html#introduction-3",
     "href": "slides/discrim/index.html#introduction-3",
     "title": "EC306 - Wages and Employment",
@@ -3265,6 +3433,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Evidence for Other Groups",
     "text": "Evidence for Other Groups\nEvidence in the U.S.:\n\nLarge literature on Black-white wage gaps — about 68% of white wages\n\nShrinks when controlling for past test scores (measure of pre-market productivity)\nPre-market discrimination also plays a large role\nLarge component of discrimination remains\n\nGaps favour Chinese and Southeast Asian workers — not the same in Canada"
+  },
+  {
+    "objectID": "slides/discrim/index.html#section-4",
+    "href": "slides/discrim/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nIf you were designing a single policy to reduce the gender pay gap, would you target demand-side discrimination (e.g., employer behaviour) or supply-side factors (e.g., occupational choice, human capital accumulation)? Why?"
   },
   {
     "objectID": "slides/discrim/index.html#introduction-5",
@@ -3393,6 +3568,13 @@
     "text": "Defining Labour Economics\n\n\n\n\n\n\nKey Definition\n\n\nLabour Economics is the study of the interaction between workers, employers, and government that determine outcomes like wages and employment\n\n\n\nKey aspects of labour economics:\n\nLabour supply: decisions by individuals about how much to work\nLabour demand: decisions by firms about how many workers to hire\nLabour market: the interaction of labour supply and demand that determines wages and employment\nOther determinants of wages: human capital, discrimination, unions, minimum wage, etc.\nInequality and poverty: the distribution of income and wealth\nUnemployment: causes and consequences"
   },
   {
+    "objectID": "slides/intro/index.html#section",
+    "href": "slides/intro/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf labour economics studies the interaction between workers, employers, and government, what would happen to wages and employment if one of these three players was removed entirely?"
+  },
+  {
     "objectID": "slides/intro/index.html#labour-supply",
     "href": "slides/intro/index.html#labour-supply",
     "title": "EC306 - Wages and Employment",
@@ -3484,6 +3666,13 @@
     "text": "Earnings by Immigration Status"
   },
   {
+    "objectID": "slides/intro/index.html#section-1",
+    "href": "slides/intro/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might we observe that men earn more than women on average, even in the same occupation? What are some possible explanations — both economic and non-economic?"
+  },
+  {
     "objectID": "slides/intro/index.html#introduction",
     "href": "slides/intro/index.html#introduction",
     "title": "EC306 - Wages and Employment",
@@ -3540,6 +3729,13 @@
     "text": "Competitive Labour Market\n\nGraphs show a temporary imbalance in pay between hospitals and long-term care in the market for nurses\nRight graph shows long term care paying more\nOver time nurses move from hospitals to long term care\n\nMovement stops when wages are equalized\n\nEmployment in long term care increases, employment in hospitals decreases\n\n\n\n\n\n\n\nWarning\n\n\nThis depends on key assumptions:\n\nNo barriers to moving between sectors\nNo differences in non-wage aspects of jobs\nHomogeneous labour\n\n\n\n\n\nWe will explore situations in the course where these assumptions do not hold"
   },
   {
+    "objectID": "slides/intro/index.html#section-2",
+    "href": "slides/intro/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to wages and employment in long-term care facilities if the government made it difficult for nurses to switch between the hospital and long-term care sectors?"
+  },
+  {
     "objectID": "slides/intro/index.html#introduction-1",
     "href": "slides/intro/index.html#introduction-1",
     "title": "EC306 - Wages and Employment",
@@ -3575,11 +3771,18 @@
     "text": "Issues in Unemployment\n\nWhat are the main causes of unemployment?\nHow do unemployment insurance programs affect unemployment?\nHow quickly does unemployment fall after a recession?\nHow long do people typically stay unemployed?\nDoes long term unemployment hurt future job prospects?"
   },
   {
+    "objectID": "slides/intro/index.html#section-3",
+    "href": "slides/intro/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nPick one of the policy issues listed above. How would you design a study to measure its effect on the labour market? What data would you need?"
+  },
+  {
     "objectID": "slides/ldemand2/index.html#goals-of-this-section-1",
     "href": "slides/ldemand2/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nDistinguish between workers and hours as an input into production\nIncorporate non-wage benefits into the labour demand model\nAdd costs that are independent of hours worked (quasi-fixed costs)\nDiscuss the implications of quasi-fixed costs for labour demand"
+    "text": "Goals of This Section\nIn this section we will:\n\nDistinguish between workers and hours as an input into production\nIncorporate non-wage benefits into the labour demand model\nAdd costs that are independent of hours worked (quasi-fixed costs)\nDiscuss the implications of quasi-fixed costs for labour demand"
   },
   {
     "objectID": "slides/ldemand2/index.html#background-1",
@@ -3631,6 +3834,13 @@
     "text": "Non-wage Benefits\nGovernments also prefer and mandate them:\n\nFirm pensions reduce need for public pensions\nBetter health outcomes reduce public health care costs\nImprove social safety net through sick leave and unemployment insurance\n\n\n\n\n\n\n\nTip\n\n\nWith all these reasons, it is not surprising that non-wage benefits are common"
   },
   {
+    "objectID": "slides/ldemand2/index.html#section",
+    "href": "slides/ldemand2/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nIf non-wage benefits are so advantageous for both firms and workers, why do some firms still offer minimal benefits and rely almost entirely on wage compensation?"
+  },
+  {
     "objectID": "slides/ldemand2/index.html#introduction",
     "href": "slides/ldemand2/index.html#introduction",
     "title": "EC306 - Wages and Employment",
@@ -3680,6 +3890,13 @@
     "text": "Effects of Quasi-fixed Costs"
   },
   {
+    "objectID": "slides/ldemand2/index.html#section-1",
+    "href": "slides/ldemand2/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to firm hiring behaviour if the government introduced a large new per-worker tax that does not vary with hours worked?"
+  },
+  {
     "objectID": "slides/ldemand2/index.html#overtime",
     "href": "slides/ldemand2/index.html#overtime",
     "title": "EC306 - Wages and Employment",
@@ -3720,6 +3937,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Segmentation",
     "text": "Segmentation\nHiring costs mean trained and untrained employees are different\n\nFirms reluctant to hire untrained workers because of high training costs\nWhen quasi-fixed costs are high, firms prefer to retain or hire trained workers\nLeads to a segmentation into protected and unprotected workers\n\nAlso leads firms to work employees more intensively rather than hire new workers\n\n\n\n\n\n\nExample\n\n\nBig law firms work associates long hours instead of hiring new associates"
+  },
+  {
+    "objectID": "slides/ldemand2/index.html#section-2",
+    "href": "slides/ldemand2/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhy might we observe that highly skilled workers are more likely to work overtime, while lower-skilled positions are more likely to be filled by temp or gig workers?"
   },
   {
     "objectID": "slides/ldemand2/index.html#work-sharing",
@@ -3771,6 +3995,13 @@
     "text": "Employee Demand for Work Sharing\n\n\n\n\n\n\nKey Point\n\n\nEmployees need to also buy in for work sharing to be successful — it is not clear that they do in many cases\n\n\n\nExample: union jobs\n\nUnions often resist work sharing programs\nPrefer to keep full-time jobs with benefits\nMay see work sharing as a threat to job security\nMay also see it as a way for employers to reduce wages and benefits"
   },
   {
+    "objectID": "slides/ldemand2/index.html#section-3",
+    "href": "slides/ldemand2/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nGiven what we know about the lump of labour fallacy, why do politicians and the public still frequently argue that reducing work hours or restricting immigration will create more jobs?"
+  },
+  {
     "objectID": "slides/ldemand2/index.html#summary-1",
     "href": "slides/ldemand2/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
@@ -3789,7 +4020,7 @@
     "href": "slides/lsupply1/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\n\nIntroduce common labour market concepts\nBuild the labour supply model\nDerive labour supply curve\nExamine effects of labour market policies within that model"
+    "text": "Goals of This Section\nIn this section we will:\n\nIntroduce common labour market concepts\nBuild the labour supply model\nDerive labour supply curve\nExamine effects of labour market policies within that model"
   },
   {
     "objectID": "slides/lsupply1/index.html#introduction",
@@ -3803,14 +4034,14 @@
     "href": "slides/lsupply1/index.html#labour-force-participation",
     "title": "EC306 - Wages and Employment",
     "section": "Labour Force Participation",
-    "text": "Labour Force Participation\n\nThe first decision is whether to make yourself available for work\nLabour Force: people in the eligible population who participate in labour market activities as either employed or unemployed\n\nA measure of the people that could work or are working\n\nEligible population includes\n\nPopulation 15 years and over\nNon-institutionalized\nPeople not living on reserve\nCivilians (non-military)"
+    "text": "Labour Force Participation\n\nThe first decision is whether to make yourself available for work\n\n\n\n\n\n\n\nKey Definition\n\n\nLabour Force: people in the eligible population who participate in labour market activities as either employed or unemployed\n\n\n\n\nEligible population includes\n\nPopulation 15 years and over\nNon-institutionalized\nPeople not living on reserve\nCivilians (non-military)"
   },
   {
     "objectID": "slides/lsupply1/index.html#labour-force-participation-1",
     "href": "slides/lsupply1/index.html#labour-force-participation-1",
     "title": "EC306 - Wages and Employment",
     "section": "Labour Force Participation",
-    "text": "Labour Force Participation\n\nEligible people who are not part of the labour force include\n\nRetired people\nPeople who do only unpaid work in the home\nFull time students (who are 15 years old and over)\nPeople who just give up on looking for work\n\nLabour Force Participation Rate (LFPR): The share of the eligible population (POP) in the labour force (LF)\n\n\\[\nLFPR = LF/POP\n\\]\n\nThe LFPR is a common statistic reported in the news"
+    "text": "Labour Force Participation\n\nEligible people who are not part of the labour force include\n\nRetired people\nPeople who do only unpaid work in the home\nFull time students (who are 15 years old and over)\nPeople who just give up on looking for work\n\n\n\n\n\n\n\n\nKey Definition\n\n\nLabour Force Participation Rate (LFPR): The share of the eligible population (POP) in the labour force (LF)\n\n\n\n\\[\nLFPR = LF/POP\n\\]\n\nThe LFPR is a common statistic reported in the news"
   },
   {
     "objectID": "slides/lsupply1/index.html#labour-force-participation-2",
@@ -3831,7 +4062,7 @@
     "href": "slides/lsupply1/index.html#employment-and-unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Employment and Unemployment",
-    "text": "Employment and Unemployment\n\nPeople in the labour force are either employed or unemployed\nEmployed (E): people who worked during the reference period\n\nIncludes people normally employed but temporarily absent\n\nUnemployed (U): people who did not work during the reference period but\n\nwere available for work and actively looked for work in the past four weeks\nwere waiting to start a new job within the next four weeks\non temporary layoff and expecting to be recalled to that job\n\nThe employment rate (ER) and unemployment rate (UR) are\n\n\\[ER = E/POP\\] \\[UR = U/LF\\]"
+    "text": "Employment and Unemployment\n\nPeople in the labour force are either employed or unemployed\n\n\n\n\n\n\n\nKey Definitions\n\n\nEmployed (E): people who worked during the reference period\n\nIncludes people normally employed but temporarily absent\n\nUnemployed (U): people who did not work during the reference period but\n\nwere available for work and actively looked for work in the past four weeks\nwere waiting to start a new job within the next four weeks\non temporary layoff and expecting to be recalled to that job\n\n\n\n\n\nThe employment rate (ER) and unemployment rate (UR) are\n\n\\[ER = E/POP\\] \\[UR = U/LF\\]"
   },
   {
     "objectID": "slides/lsupply1/index.html#employment-and-unemployment-1",
@@ -3869,6 +4100,13 @@
     "text": "Hours Worked"
   },
   {
+    "objectID": "slides/lsupply1/index.html#section",
+    "href": "slides/lsupply1/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA full-time student who is 22 years old and not looking for work is excluded from the labour force. What would have to change about their situation for them to be counted as unemployed rather than out of the labour force?"
+  },
+  {
     "objectID": "slides/lsupply1/index.html#introduction-1",
     "href": "slides/lsupply1/index.html#introduction-1",
     "title": "EC306 - Wages and Employment",
@@ -3887,7 +4125,7 @@
     "href": "slides/lsupply1/index.html#preferences-1",
     "title": "EC306 - Wages and Employment",
     "section": "Preferences",
-    "text": "Preferences\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOn the left is a single indifference curve\nAny point represents equal utility (\\(U_{0}\\))\nMarginal Rate of Substitution (MRS): the rate at which a person is willing to trade consumption for leisure while remaining equally happy\nThe MRS is the slope of the indifference curve at a point\nIndividuals have diminishing MRS\n\nWilling to give up less consumption for additional leisure the more leisure they already have\nSlope gets shallower with more leisure"
+    "text": "Preferences\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOn the left is a single indifference curve\nAny point represents equal utility (\\(U_{0}\\))\n\n\n\n\n\n\n\nKey Definition\n\n\nMarginal Rate of Substitution (MRS): the rate at which a person is willing to trade consumption for leisure while remaining equally happy\n\n\n\n\nThe MRS is the slope of the indifference curve at a point\nIndividuals have diminishing MRS\n\nWilling to give up less consumption for additional leisure the more leisure they already have\nSlope gets shallower with more leisure"
   },
   {
     "objectID": "slides/lsupply1/index.html#preferences-2",
@@ -3915,7 +4153,7 @@
     "href": "slides/lsupply1/index.html#constraints-1",
     "title": "EC306 - Wages and Employment",
     "section": "Constraints",
-    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows a linear budget constraint\nAssume no saving, so consumption = income\nThere are \\(T\\) total hours to allocate to work or leisure\nIndividual earns \\(Y_{n}\\) non-labour income\n\nEarned even with zero work hours (full leisure hours)\n\nEach hour worked gets wage of \\(w\\)\nPerson working \\(T\\) hours (no leisure) earns \\(wT+Y_{n}\\) income\n\nCalled “full income”"
+    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows a linear budget constraint\nAssume no saving, so consumption = income\nThere are \\(T\\) total hours to allocate to work or leisure\nIndividual earns \\(Y_{n}\\) non-labour income\n\nEarned even with zero work hours (full leisure hours)\n\nEach hour worked gets wage of \\(w\\)\nPerson working \\(T\\) hours (no leisure) earns \\(wT+Y_{n}\\) income\n\nCalled \"full income\""
   },
   {
     "objectID": "slides/lsupply1/index.html#constraints-2",
@@ -3936,7 +4174,7 @@
     "href": "slides/lsupply1/index.html#constraints-4",
     "title": "EC306 - Wages and Employment",
     "section": "Constraints",
-    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOften people cannot adjust their work hours freely\nThey make only be able to work full time or part time\nBudget constraint is no longer a line, but a set of points\nSuppose an individual chooses part time work\n\nWork hours are \\(h_{p} = T-L_{p}\\)\nLabour earnings are \\(I_{p} = w*h_{p}\\)\nTotal consumption (and income) is \\(C_{p} = I_{p} + Y_{n}\\)"
+    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOften people cannot adjust their work hours freely\nThey may only be able to work full time or part time\nBudget constraint is no longer a line, but a set of points\nSuppose an individual chooses part time work\n\nWork hours are \\(h_{p} = T-L_{p}\\)\nLabour earnings are \\(I_{p} = w*h_{p}\\)\nTotal consumption (and income) is \\(C_{p} = I_{p} + Y_{n}\\)"
   },
   {
     "objectID": "slides/lsupply1/index.html#constraints-5",
@@ -3950,21 +4188,21 @@
     "href": "slides/lsupply1/index.html#consumer-optimum",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\nWork hours are chosen using the combination of preferences and constraints\nThe consumer optimum is the point that maximizes utility subject to the budget constraint\nThe optimum occurs where the budget constraint is tangent to an indifference curve\nThere are two possibilities for the optimum\n\nNon-participation: optimum occurs at the end of the budget constraint (full leisure)\nParticipation: optimum occurs at an interior point (some leisure, some work)\n\nModel also defines the reservation wage\n\nLowest wage rate at which a person will choose to work"
+    "text": "Consumer Optimum\n\nWork hours are chosen using the combination of preferences and constraints\nThe consumer optimum is the point that maximizes utility subject to the budget constraint\nThe optimum occurs where the budget constraint is tangent to an indifference curve\n\n\n\n\n\n\n\nNote\n\n\nThere are two possibilities for the optimum:\n\nNon-participation: optimum occurs at the end of the budget constraint (full leisure)\nParticipation: optimum occurs at an interior point (some leisure, some work)\n\n\n\n\n\nModel also defines the reservation wage\n\nLowest wage rate at which a person will choose to work"
   },
   {
     "objectID": "slides/lsupply1/index.html#consumer-optimum-1",
     "href": "slides/lsupply1/index.html#consumer-optimum-1",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an optimum with participation\nOptimum is where indifference curve is tangent to budget constraint\nAt the optimum, MRS = wage rate\n\nWillingness to trade leisure for consumption (MRS) equals ability to trade them (wage)\n\nOptimal work hours are \\(h_{0} = T - L_{0}\\)\nOptimal consumption is \\(C_{0} = W_{0}h_{0}+Y_{n}\\)"
+    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an optimum with participation\nOptimum is where indifference curve is tangent to budget constraint\n\n\n\n\n\n\n\nTip\n\n\nAt the optimum, MRS = wage rate\n\nWillingness to trade leisure for consumption (MRS) equals ability to trade them (wage)\n\n\n\n\n\nOptimal work hours are \\(h_{0} = T - L_{0}\\)\nOptimal consumption is \\(C_{0} = W_{0}h_{0}+Y_{n}\\)"
   },
   {
     "objectID": "slides/lsupply1/index.html#consumer-optimum-2",
     "href": "slides/lsupply1/index.html#consumer-optimum-2",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nThe reservation wage is the lowest wage at which a person will choose to work\nIt occurs where the budget constraint is tangent to the indifference curve at full leisure\n\nAt that point, MRS = reservation wage\n\nIf the wage is any lower, the person will choose not to work\nIf it is any higher, they will work positive hours\nThe red line shows the hypothetical reservation wage\n\nIn this case, it is \\(w_{r}\\)"
+    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nReservation wage: the lowest wage at which a person will choose to work\n\n\n\n\nIt occurs where the budget constraint is tangent to the indifference curve at full leisure\n\nAt that point, MRS = reservation wage\n\nIf the wage is any lower, the person will choose not to work\nIf it is any higher, they will work positive hours\nThe red line shows the hypothetical reservation wage\n\nIn this case, it is \\(w_{r}\\)"
   },
   {
     "objectID": "slides/lsupply1/index.html#consumer-optimum-3",
@@ -3972,6 +4210,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
     "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph to the left shows a non-participation optimum\nThe slope of the indifference curve is steeper than the budget constraint at full leisure\n\nThe extra consumption you want from one less hour of leisure (MRS) is more than you can get from working an hour (wage)\n\nSo your optimal choice is to not work at all\nIndifference curve touches the budget constraint at the kink\nNotice the wage \\(w_{0}\\) is lower than the reservation wage \\(w_{r}\\)"
+  },
+  {
+    "objectID": "slides/lsupply1/index.html#section-1",
+    "href": "slides/lsupply1/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nSuppose a person receives a large inheritance, increasing their non-labour income substantially. Using the budget constraint and indifference curve framework, what would you predict happens to their reservation wage, and why?"
   },
   {
     "objectID": "slides/lsupply1/index.html#introduction-2",
@@ -3992,7 +4237,7 @@
     "href": "slides/lsupply1/index.html#increase-in-non-labour-income-1",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in Non-Labour Income",
-    "text": "Increase in Non-Labour Income\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an increase in non-labour income from \\(Y_{n0}\\) to \\(Y_{n1}\\)\nBudget line shifts up vertically but parallel\n\nNo change in slope because wage is the same\n\n\n-If leisure is a normal good, optimal leisure increases from \\(L_{0}\\) to \\(L_{1}\\)\n\nMeans work hours decrease by the same amount\nConsumption also increases\nThis illustrates a pure income effect\n\nIncreases in income increase demand for normal goods"
+    "text": "Increase in Non-Labour Income\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an increase in non-labour income from \\(Y_{n0}\\) to \\(Y_{n1}\\)\nBudget line shifts up vertically but parallel\n\nNo change in slope because wage is the same\n\nIf leisure is a normal good, optimal leisure increases from \\(L_{0}\\) to \\(L_{1}\\)\nMeans work hours decrease by the same amount\nConsumption also increases\nThis illustrates a pure income effect\n\nIncreases in income increase demand for normal goods"
   },
   {
     "objectID": "slides/lsupply1/index.html#increase-in-the-wage",
@@ -4006,14 +4251,14 @@
     "href": "slides/lsupply1/index.html#increase-in-the-wage-1",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nSubstitution Effect: change in leisure when wage changes but utility is held constant\n\nWhen wage increases, leisure becomes more expensive\nPeople substitute away from leisure and towards consumption\nTo measure this, draw a hypothetical budget line with the new slope but tangent to the original indifference curve\nDifference in leisure measures substitution effect"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nSubstitution Effect: change in leisure when wage changes but utility is held constant\n\n\n\n\nWhen wage increases, leisure becomes more expensive\nPeople substitute away from leisure and towards consumption\nTo measure this, draw a hypothetical budget line with the new slope but tangent to the original indifference curve\nDifference in leisure measures substitution effect"
   },
   {
     "objectID": "slides/lsupply1/index.html#increase-in-the-wage-2",
     "href": "slides/lsupply1/index.html#increase-in-the-wage-2",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIncome Effect: change in leisure when income changes but wage is held constant\n\nWhen wage increases, workers become richer at same hours of work\nWant to consume more of all normal goods\nTo measure this, move from hypothetical budget line to new budget line\nDifference in leisure measures income effect"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nIncome Effect: change in leisure when income changes but wage is held constant\n\n\n\n\nWhen wage increases, workers become richer at same hours of work\nWant to consume more of all normal goods\nTo measure this, move from hypothetical budget line to new budget line\nDifference in leisure measures income effect"
   },
   {
     "objectID": "slides/lsupply1/index.html#increase-in-the-wage-3",
@@ -4027,7 +4272,14 @@
     "href": "slides/lsupply1/index.html#increase-in-the-wage-4",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nChanging the wage can also affect participation\nRecall that workers do not work if the wage is below their reservation wage\nIf an increase in the wage moves it above the reservation wage, they will start working\nGraph to the right shows how this would happen"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nChanging the wage can also affect participation\nRecall that workers do not work if the wage is below their reservation wage\nIf an increase in the wage moves it above the reservation wage, they will start working\nGraph to the left shows how this would happen"
+  },
+  {
+    "objectID": "slides/lsupply1/index.html#section-2",
+    "href": "slides/lsupply1/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nA worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect – income or substitution – must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?"
   },
   {
     "objectID": "slides/lsupply1/index.html#the-individual-labour-supply-curve",
@@ -4055,7 +4307,14 @@
     "href": "slides/lsupply1/index.html#summary",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\n\nWe have used the labour supply model to examine changes in the wage\nFor people participating, wage changes alter leisure and work hours\nIf the wage goes up then\n\nWork hours go up if the substition effect is strongest\nWork hours go down if the income effect is strongest\n\nFor non-participants, a wage increase can induce them to enter the labour force\n\nIf the wage goes above their reservation wage\n\nThe labour supply curve maps different wages to work hours\nIt slopes up at lower wages, but can bend backwards at higher wages"
+    "text": "Summary\n\nWe have used the labour supply model to examine changes in the wage\nFor people participating, wage changes alter leisure and work hours\nIf the wage goes up then\n\nWork hours go up if the substitution effect is strongest\nWork hours go down if the income effect is strongest\n\nFor non-participants, a wage increase can induce them to enter the labour force\n\nIf the wage goes above their reservation wage\n\nThe labour supply curve maps different wages to work hours\nIt slopes up at lower wages, but can bend backwards at higher wages"
+  },
+  {
+    "objectID": "slides/lsupply1/index.html#section-3",
+    "href": "slides/lsupply1/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might we observe that high-income professionals (doctors, lawyers, executives) often work very long hours, even though the backward-bending supply curve predicts that higher wages should eventually lead to fewer hours worked?"
   },
   {
     "objectID": "slides/lsupply1/index.html#introduction-3",
@@ -4069,7 +4328,7 @@
     "href": "slides/lsupply1/index.html#participation",
     "title": "EC306 - Wages and Employment",
     "section": "Participation",
-    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, children, education, spousal income\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\nThis is not a perfect way to examine this relationship\n\nThere could be other related factors that drive participation"
+    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, children, education, spousal income\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\n\n\n\n\n\n\n\nWarning\n\n\nThis is not a perfect way to examine this relationship — there could be other related factors that drive participation"
   },
   {
     "objectID": "slides/lsupply1/index.html#participation-1",
@@ -4083,7 +4342,7 @@
     "href": "slides/lsupply1/index.html#elasticity-of-labour-supply",
     "title": "EC306 - Wages and Employment",
     "section": "Elasticity of Labour Supply",
-    "text": "Elasticity of Labour Supply\n\nThe elasticity of labour supply is the percentage change in labour supply from a 1% change in the wage\nMeasures how responsive work hours are to changes in the wage\nThere are different ways of measuring elasticity\n\nUncompensated Elasticity: measures total change in work hours from a wage change\n\nIncludes both income and substitution effects\nEffect is theoretically ambiguous\n\nCompensated Elasticity: measures change in work hours after removing income effect\n\nIsolates the substitution effect\nShould be positive"
+    "text": "Elasticity of Labour Supply\n\n\n\n\n\n\nKey Definition\n\n\nElasticity of labour supply: the percentage change in labour supply from a 1% change in the wage\n\n\n\n\nMeasures how responsive work hours are to changes in the wage\nThere are different ways of measuring elasticity\n\nUncompensated Elasticity: measures total change in work hours from a wage change\n\nIncludes both income and substitution effects\nEffect is theoretically ambiguous\n\nCompensated Elasticity: measures change in work hours after removing income effect\n\nIsolates the substitution effect\nShould be positive"
   },
   {
     "objectID": "slides/lsupply1/index.html#elasticity-of-labour-supply-1",
@@ -4104,14 +4363,14 @@
     "href": "slides/lsupply1/index.html#introduction-4",
     "title": "EC306 - Wages and Employment",
     "section": "Introduction",
-    "text": "Introduction\n\nWe can use the model to analyze various situations faced by workers\nIn this section we will look at\n\nChanges in family income (added worker effects)\nDiscouraged workers\nMoonlighting (holding multiple jobs)\nOvertime\nFlex work\n\nThe list is not exhaustive\nIn the next chapter we will look at government policies"
+    "text": "Introduction\n\nWe can use the model to analyze various situations faced by workers\nIn this section we will look at\n\nAdded worker effects\nDiscouraged workers\nMoonlighting (holding multiple jobs)\nOvertime\nFlex work\n\nThe list is not exhaustive\nIn the next chapter we will look at government policies"
   },
   {
     "objectID": "slides/lsupply1/index.html#added-worker-effect",
     "href": "slides/lsupply1/index.html#added-worker-effect",
     "title": "EC306 - Wages and Employment",
     "section": "Added Worker Effect",
-    "text": "Added Worker Effect\n\nThe added worker effect occurs when a negative income shock to a family leads to increased labour supply from secondary earners\n\ne.g. husband loses job, wife enters labour force or increases work hours\n\nExplicitly considers the family unit rather than treating labour supply as purely individual\nSpousal income is treated as a person’s non-labour income\nIn the model we can look at what happens when this amount falls"
+    "text": "Added Worker Effect\n\n\n\n\n\n\nKey Definition\n\n\nAdded worker effect: occurs when a negative income shock to a family leads to increased labour supply from secondary earners\n\n\n\n\ne.g. husband loses job, wife enters labour force or increases work hours\nExplicitly considers the family unit rather than treating labour supply as purely individual\nSpousal income is treated as a person’s non-labour income\nIn the model we can look at what happens when this amount falls"
   },
   {
     "objectID": "slides/lsupply1/index.html#added-worker-effect-1",
@@ -4125,14 +4384,14 @@
     "href": "slides/lsupply1/index.html#added-worker-effect-2",
     "title": "EC306 - Wages and Employment",
     "section": "Added Worker Effect",
-    "text": "Added Worker Effect\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the spouse was not already working, the fall in income can induce participation\nHappens because the fall in income reduces the reservation wage\n\nIf the wage is now above the reservation wage, they will start working\n\nGraph to the left shows how this happens\n\nThe slope if reservation wage \\(R_{1}\\) is smaller than \\(R_{0}\\) after the drop in non-laboir income\nPerson enters the labour market in response because wage is now above reservation wage"
+    "text": "Added Worker Effect\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the spouse was not already working, the fall in income can induce participation\nHappens because the fall in income reduces the reservation wage\n\nIf the wage is now above the reservation wage, they will start working\n\nGraph to the left shows how this happens\n\nThe slope of reservation wage \\(R_{1}\\) is smaller than \\(R_{0}\\) after the drop in non-labour income\nPerson enters the labour market in response because wage is now above reservation wage"
   },
   {
     "objectID": "slides/lsupply1/index.html#hidden-unemployment",
     "href": "slides/lsupply1/index.html#hidden-unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Hidden Unemployment",
-    "text": "Hidden Unemployment\n\nWe discussed a problem with the unemployment rate in that it does not include discouraged workers\nDiscouraged workers: people who could work but have given up looking and dropped out of the labour force\nOur model can explain this behaviour\nIn bad times, the wage falls\nIf the wage falls below a person’s reservation wage, they will drop out of the labour force"
+    "text": "Hidden Unemployment\n\nWe discussed a problem with the unemployment rate in that it does not include discouraged workers\n\n\n\n\n\n\n\nKey Definition\n\n\nDiscouraged workers: people who could work but have given up looking and dropped out of the labour force\n\n\n\n\nOur model can explain this behaviour\nIn bad times, the wage falls\nIf the wage falls below a person’s reservation wage, they will drop out of the labour force"
   },
   {
     "objectID": "slides/lsupply1/index.html#hidden-unemployment-1",
@@ -4146,7 +4405,7 @@
     "href": "slides/lsupply1/index.html#moonlighting",
     "title": "EC306 - Wages and Employment",
     "section": "Moonlighting",
-    "text": "Moonlighting\n\nMoonlighting: working additional jobs at night or on weekends\n\nBit of an old term where main jobs were generally 9-5\nExtra work occured after that\nIn 2025 secondary jobs can happen at any time\n\nHappens when people have a fixed hours constraint\n\nExample: working full time, but wishing to work longer\nPeople with fixed hours can be underemployed\n\nPeople may take a second job, possibly at a lower wage"
+    "text": "Moonlighting\n\n\n\n\n\n\nKey Definition\n\n\nMoonlighting: working additional jobs at night or on weekends\n\n\n\n\nBit of an old term where main jobs were generally 9-5\nExtra work occurred after that\nIn 2025 secondary jobs can happen at any time\nHappens when people have a fixed hours constraint\n\nExample: working full time, but wishing to work longer\nPeople with fixed hours can be underemployed\n\nPeople may take a second job, possibly at a lower wage"
   },
   {
     "objectID": "slides/lsupply1/index.html#moonlighting-1",
@@ -4161,6 +4420,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Moonlighting",
     "text": "Moonlighting\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine they can take a second job at a lower wage rate\nThe budget constraint pivots out from the fixed hours point\nBeyond those hours, the wage falls\nAllows worker to access higher utility curve\n\nThey can increase hours worked\nBut not as much as if they could extend hours in main job"
+  },
+  {
+    "objectID": "slides/lsupply1/index.html#section-4",
+    "href": "slides/lsupply1/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nDuring the COVID-19 pandemic, many households experienced both job losses (added worker effect) and falling wages in available jobs (discouraged worker effect) at the same time. What would the model predict about labour force participation for secondary earners in these households, and why might the two effects work against each other?"
   },
   {
     "objectID": "slides/lsupply1/index.html#overtime",
@@ -4188,7 +4454,7 @@
     "href": "slides/lsupply1/index.html#overtime-3",
     "title": "EC306 - Wages and Employment",
     "section": "Overtime",
-    "text": "Overtime\n\nAn alternative to overtime is for the firm to just pay more for all hours\n\nMakes sense for a firm if they are constantly paying overtime\n\nThat does not generate the same optimal work hours as overtime pay\n\nIncome effect is larger with straight time equivalent\nBecauses wage increase applies to all hours worked\nIn overtime, income effect only applies to extra hours worked\n\nWorker chooses to less with straight time equivalent pay"
+    "text": "Overtime\n\nAn alternative to overtime is for the firm to just pay more for all hours\n\nMakes sense for a firm if they are constantly paying overtime\n\nThat does not generate the same optimal work hours as overtime pay\n\nIncome effect is larger with straight time equivalent\nBecause wage increase applies to all hours worked\nIn overtime, income effect only applies to extra hours worked\n\nWorker chooses to work less with straight time equivalent pay"
   },
   {
     "objectID": "slides/lsupply1/index.html#overtime-4",
@@ -4538,7 +4804,7 @@
     "href": "slides/lsupply3/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nToday we will:\n\nShow patterns of labour supply over a person’s lifetime\nDiscuss issues comparing labour supply of people at different ages\nIntroduce lifetime labour supply model\nDiscuss household production\nAnalyze retirement decisions"
+    "text": "Goals of This Section\nIn this section we will:\n\nShow patterns of labour supply over a person’s lifetime\nDiscuss issues comparing labour supply of people at different ages\nIntroduce lifetime labour supply model\nDiscuss household production\nAnalyze retirement decisions"
   },
   {
     "objectID": "slides/lsupply3/index.html#introduction",
@@ -4608,7 +4874,14 @@
     "href": "slides/lsupply3/index.html#cohort-effects-vs-age-effects-6",
     "title": "EC306 - Wages and Employment",
     "section": "Cohort Effects vs Age Effects",
-    "text": "Cohort Effects vs Age Effects\nWhere do cohort effects come from?\nPeople are in part defined by their generation:\n\nSocial attitudes, cconomic conditions and policies change over time\nGenerations experience different significant events (e.g. wars, disease)\n\nWe therefore expect cohorts to differ:\n\nWomen born in early 1930s had higher labour supply than previous generations\nThey were influenced by their mothers working during war\nMale children also more likely to be married to working women later in life\n\n\n\n\n\n\n\nImportant\n\n\nImportant to separate these from effects of pure aging"
+    "text": "Cohort Effects vs Age Effects\nWhere do cohort effects come from?\nPeople are in part defined by their generation:\n\nSocial attitudes, economic conditions and policies change over time\nGenerations experience different significant events (e.g. wars, disease)\n\nWe therefore expect cohorts to differ:\n\nWomen born in early 1930s had higher labour supply than previous generations\nThey were influenced by their mothers working during war\nMale children also more likely to be married to working women later in life\n\n\n\n\n\n\n\nImportant\n\n\nImportant to separate these from effects of pure aging"
+  },
+  {
+    "objectID": "slides/lsupply3/index.html#section",
+    "href": "slides/lsupply3/index.html#section",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nSuppose you observe that 50-year-olds have higher labour force participation than 25-year-olds in 2025. Can you conclude that people work more as they age? Why or why not?"
   },
   {
     "objectID": "slides/lsupply3/index.html#introduction-1",
@@ -4636,7 +4909,7 @@
     "href": "slides/lsupply3/index.html#model-2",
     "title": "EC306 - Wages and Employment",
     "section": "Model",
-    "text": "Model\nThe ability to borrow and save means a person can consume more than their income in a period\nRearranging the future value of the budget:\n\\[\nC_2 = (1+r)(W_1 H_1 - C1) + W_2 H_2\n\\]\nTwo cases:\n\nIf \\(W_1 H_1 &gt; C_1\\): person saved some income in period 1\n\nSavings grows with interest: \\((1+r)(W_1 H_1 - C1)\\) to spend in period 2\n\nIf \\(W_1 H_1 &lt; C_1\\): person borrowed to consume more than income\n\n\\((1+r)(W_1 H_1 - C1)\\) is negative and reduces income in period 2"
+    "text": "Model\nThe ability to borrow and save means a person can consume more than their income in a period\nRearranging the future value of the budget:\n\\[\nC_2 = (1+r)(W_1 H_1 - C_1) + W_2 H_2\n\\]\nTwo cases:\n\nIf \\(W_1 H_1 &gt; C_1\\): person saved some income in period 1\n\nSavings grows with interest: \\((1+r)(W_1 H_1 - C_1)\\) to spend in period 2\n\nIf \\(W_1 H_1 &lt; C_1\\): person borrowed to consume more than income\n\n\\((1+r)(W_1 H_1 - C_1)\\) is negative and reduces income in period 2"
   },
   {
     "objectID": "slides/lsupply3/index.html#model-3",
@@ -4686,6 +4959,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Evidence on Life Cycle Labour Supply",
     "text": "Evidence on Life Cycle Labour Supply\nInteresting experiment on bike messengers in Zurich:\n\nMessengers paid a percentage of daily revenues\nCan choose their own total work hours\n\nResearch design:\n\nResearchers randomly assigned messengers to:\n\nGroup A: 25% higher wage for one month in September\nGroup B: 25% higher wage for one month in November\n\nEach acted as control group for the other\nBoth get same increase in lifetime income, so difference is substitution effect\n\n\n\n\n\n\n\nFinding\n\n\nMessengers shift labour supply to periods with higher wage"
+  },
+  {
+    "objectID": "slides/lsupply3/index.html#section-1",
+    "href": "slides/lsupply3/index.html#section-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nA government announces today that the minimum wage will increase by 20% starting in two years. Using the life cycle model, how would you expect workers near the minimum wage to adjust their labour supply now versus after the increase takes effect?"
   },
   {
     "objectID": "slides/lsupply3/index.html#introduction-2",
@@ -4758,6 +5038,13 @@
     "text": "Discussion\nModel adds more real world complexity:\n\nMatches what people actually do\nEmphasizes that people do not just choose between work and leisure\nAlso emphasizes the role of the household relative to the individual\n\nHousehold members can specialize in different tasks\nChanges for one household member can affect others\n\n\n\n\n\n\n\n\nHousehold Production Function\n\n\nDifferent households have different abilities to produce goods. This can affect their choices and responses to changes in prices."
   },
   {
+    "objectID": "slides/lsupply3/index.html#section-2",
+    "href": "slides/lsupply3/index.html#section-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nWhat would happen to a household’s use of home-cooked meals versus takeout food if one partner receives a large raise at work? Explain using the household production model."
+  },
+  {
     "objectID": "slides/lsupply3/index.html#introduction-3",
     "href": "slides/lsupply3/index.html#introduction-3",
     "title": "EC306 - Wages and Employment",
@@ -4783,7 +5070,7 @@
     "href": "slides/lsupply3/index.html#variables-affecting-fertility---price-of-children-1",
     "title": "EC306 - Wages and Employment",
     "section": "Variables Affecting Fertility - Price of Children",
-    "text": "Variables Affecting Fertility - Price of Children\nA higher price (wage rate) creates income and substitution effects:\n\nIncome effect: higher price → higher lifetime income → more children\nSubstitution effect: higher price → time with children more expensive → fewer children\n\n\n\n\n\n\n\nNote\n\n\nEffect is theoretically ambiguous, but empirically substitution effect dominates"
+    "text": "Variables Affecting Fertility - Price of Children\nA higher price (wage rate) creates income and substitution effects:\n\nIncome effect: higher wage → higher lifetime income → more children\nSubstitution effect: higher price → time with children more expensive → fewer children\n\n\n\n\n\n\n\nNote\n\n\nEffect is theoretically ambiguous, but empirically substitution effect dominates"
   },
   {
     "objectID": "slides/lsupply3/index.html#variables-affecting-fertility---price-of-related-goods",
@@ -4819,6 +5106,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Empirical Evidence",
     "text": "Empirical Evidence\nEconomists have examined the relationship between income and fertility\n\n\n\n\n\n\nChallenge: Omitted Variables\n\n\nA simple correlation between income and fertility tends to be negative. Important to hold constant other variables that affect both income and fertility.\n\n\n\nExample:\n\nEducation levels are positively related to income and negatively related to fertility\n\nWhen other variables are held constant:\n\nIncome tends to be positively related to fertility\nConsistent with children being a normal good\nTax incentives also tend to increase fertility"
+  },
+  {
+    "objectID": "slides/lsupply3/index.html#section-3",
+    "href": "slides/lsupply3/index.html#section-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Discussion\nWhy might we observe that countries with the most generous parental leave policies do not necessarily have the highest fertility rates?"
   },
   {
     "objectID": "slides/lsupply3/index.html#introduction-4",
@@ -4912,6 +5206,13 @@
     "text": "Evidence on Effect of Pensions\n\n\n\n\n\n\nMain Finding\n\n\nStudies find that pensions affect retirement in expected ways\n\n\n\n\nPensions that increase non-labour income lead to earlier retirement\nPensions that create work incentives lead to later retirement\n\nMore recent work:\n\nIncrease in retirement age increases working-age disability claims in UK\nIncreasing public pension participation improves health behaviours (less smoking)\nPension reform allowing Japanese spouses to claim half of pension earnings increased divorce"
   },
   {
+    "objectID": "slides/lsupply3/index.html#section-4",
+    "href": "slides/lsupply3/index.html#section-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "",
+    "text": "Think About It\nIf the government reduced CPP benefits but simultaneously eliminated the clawback on OAS for high earners, what would be the combined effect on the retirement age of high-income workers?"
+  },
+  {
     "objectID": "slides/lsupply3/index.html#summary-1",
     "href": "slides/lsupply3/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
@@ -4924,75 +5225,5 @@
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
     "text": "Summary\nFertility decisions are affected by:\nIncome, prices, tastes, and technology\nRetirement decisions are affected by:\nAge, wealth, health, family, and pensions"
-  },
-  {
-    "objectID": "slides/intro/index.html#section",
-    "href": "slides/intro/index.html#section",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nIf labour economics studies the interaction between workers, employers, and government, what would happen to wages and employment if one of these three players was removed entirely?"
-  },
-  {
-    "objectID": "slides/intro/index.html#section-1",
-    "href": "slides/intro/index.html#section-1",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Discussion\nWhy might we observe that men earn more than women on average, even in the same occupation? What are some possible explanations — both economic and non-economic?"
-  },
-  {
-    "objectID": "slides/intro/index.html#section-2",
-    "href": "slides/intro/index.html#section-2",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nWhat would happen to wages and employment in long-term care facilities if the government made it difficult for nurses to switch between the hospital and long-term care sectors?"
-  },
-  {
-    "objectID": "slides/intro/index.html#section-3",
-    "href": "slides/intro/index.html#section-3",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Discussion\nPick one of the policy issues listed above. How would you design a study to measure its effect on the labour market? What data would you need?"
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section",
-    "href": "slides/lmarket/index.html#section",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nIf a new technology increases labour demand in a competitive market, what happens to wages and employment in the short run versus the long run? Why do the outcomes differ?"
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section-1",
-    "href": "slides/lmarket/index.html#section-1",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Discussion\nWhy might a monopolist pay lower wages than a competitive firm, even if both firms hire workers from the same labour market?"
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section-2",
-    "href": "slides/lmarket/index.html#section-2",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nA payroll tax is legally imposed on employers, yet economists say workers bear most of the burden in the long run. What mechanism causes the tax burden to shift from employers to workers over time?"
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section-3",
-    "href": "slides/lmarket/index.html#section-3",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nWhat would happen to wages and employment if a monopsonist suddenly faced competition from a new firm entering the same labour market?"
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section-4",
-    "href": "slides/lmarket/index.html#section-4",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Discussion\nWhy might monopsony power be more common than we think? Consider industries where workers have few alternative employers, even if the employer is not literally the only firm in town."
-  },
-  {
-    "objectID": "slides/lmarket/index.html#section-5",
-    "href": "slides/lmarket/index.html#section-5",
-    "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Discussion\nIf minimum wages do not effectively reduce poverty, what alternative policies might be more effective at helping low-income workers, and why?"
   }
 ]
