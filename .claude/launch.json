@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-built",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "/private/tmp/claude-501/-Users-jsmith-Library-CloudStorage-OneDrive-WilfridLaurierUniversity-Teaching-EC306-ec306w26/755da622-9822-45d2-8fad-9047cad5b429/scratchpad/serve_docs.py"
+      ],
+      "port": 4321
+    }
+  ]
+}

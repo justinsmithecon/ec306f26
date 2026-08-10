@@ -13,13 +13,13 @@ You can download the solutions using the links below
 
 ## Description
 
-In this assignment you are asked to manipulate data, estimate statistical relationships, and interpret the findings. The questions are based the relationship between labour supply and education.  The assignment is designed to give you practice with data analysis in Stata, and to help you understand how economists use data to answer questions about economic behavior.
+In this assignment you are asked to manipulate data, estimate statistical relationships, and interpret the findings. The questions are based the relationship between labour supply and education.  The assignment is designed to give you practice with data analysis in R, and to help you understand how economists use data to answer questions about economic behavior.
 
 ## Instructions
 
 ### Questions
 
-The document below contains the assignment questions. Please provide all answers in the space below each question.  If the question requires any Stata code, please include the code relevant to that question in the space provided.  Also include the relevant output.  Note: output must be reformatted into a professional-looking table or figure.  Do not simply copy and paste (or screenshot) the Stata output. 
+The document below contains the assignment questions. Please provide all answers in the space below each question.  If the question requires any R code, please include the code relevant to that question in the space provided.  Also include the relevant output.  Note: output must be reformatted into a professional-looking table or figure.  Do not simply copy and paste (or screenshot) the R console output.
 
 [{{< fa solid file-export >}} `ec306assign1.docx`](/assignments/files/ec306assign1.docx)
 
@@ -43,4 +43,4 @@ When you are finished, you are required to submit three documents according to t
 
 ### Plagiarism
 
-This is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else's work verbatim, which includes Stata code. Any work you submit should be yours only. However, you are encouraged to talk to each other to try to figure out how to do the assignment.
+This is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else's work verbatim, which includes R code. Any work you submit should be yours only. However, you are encouraged to talk to each other to try to figure out how to do the assignment.

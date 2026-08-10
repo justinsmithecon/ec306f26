@@ -23,15 +23,15 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
 ![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
 
-## BGLRS Chapter 5 Review Question 3
+## BFGLSS Chapter 5 Review Question 3
 
 The firm's demand schedule for labour is a negative function of the wage because as the firm uses more labour it has to utilize poorer-quality labour, and hence pays a lower wage. True or False? Explain
 
-## BGLRS Chapter 5 Problem 2
+## BFGLSS Chapter 5 Problem 2
 
 The provision of health services requires the labour of doctors and nurses. If the wage rate of nurses increases while the doctor's wages are unchanged, the demand for doctors will increase. True or False? Explain.
 

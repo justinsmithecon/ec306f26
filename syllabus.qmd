@@ -67,7 +67,7 @@ The scheduling details of the course are as follows
 
 | Section |      Time      | Location |
 |:-------:|:--------------:|:--------:|
-|    B    | TR 2:30-3:50pm |   2C15   |
+|    A    | MW 2:30-3:50pm |  LH2066  |
 
 ### Office Hours
 
@@ -92,49 +92,63 @@ sure neither of us forgets.
 
 The required textbook for the course is
 
-Benjamin, Dwayne, and Morley Gunderson, and Thomas Lemieux, and Craig
-Riddell, and Tammy Schirle. *Labour Market Economics.* 9th edition.
-McGraw-Hill Canada, 2021.
+Benjamin, Dwayne, Kelly Foley, Morley Gunderson, Thomas Lemieux, Tammy
+Schirle, and Mikal Skuterud. *Labour Market Economics*, 2026 Release.
+McGraw Hill, 2026. ISBN 978-1-26-665353-7.
 
-This book is available in various locations, including but not limited
-to the Laurier Bookstore, Amazon, and direct fom the publisher, McGraw
-Hill. Here are the approximate prices you can expect
+Throughout this syllabus and on the course website, readings from this
+book are abbreviated **BFGLSS**, after the authors' surnames.
 
-| Source        | Book Type              | Price |
-|:--------------|:-----------------------|:------|
-| WLU Bookstore | Physical, Paperback    | \$140 |
-| Amazon        | Physical, Paperback    | \$165 |
-| McGraw Hill   | Physical, Paperback    | \$140 |
-| McGraw Hill   | Online, 180 Day Rental | \$59  |
-| McGraw Hill   | Online, Lifetime       | \$99  |
+This edition is digital only — there is no print version. You can get it
+either through the Laurier Bookstore or directly from the publisher
 
-Make sure to buy the book on its own, and not the version that comes
-bundled with Connect, as we will not use Connect in this course
+| Source        | Book Type                  | Price                   |
+|:--------------|:---------------------------|:------------------------|
+| WLU Bookstore | Digital, perpetual access  | \$102.71, tax included  |
+| McGraw Hill   | Digital, 180 day access    | \$69, plus tax          |
+| McGraw Hill   | Digital, perpetual access  | \$99, plus tax          |
+
+The Bookstore option is part of Laurier's Digital Textbook Access (DTA)
+program. This means the material will be loaded into our MyLearningSpace
+site on the first day of class, and your student account will be billed
+automatically after an opt-out period once you enrol in the course.
+Watch your MyLaurier email for details about the program and the opt-out
+deadline. If you do opt out, you are responsible for obtaining the book
+on your own.
+
+Note that the Bookstore price includes tax while the publisher's prices
+do not, so compare them accordingly. The 180 day option is the cheapest
+way to get the book, but access ends partway through the following term;
+the perpetual options do not expire.
 
 ### Software
 
 The assignments will ask you to manipulate data with the statistical
-software Stata. The university has a site licence for this software,
-which you can access from the in-person or virtual computer labs. To
-access the virtual labs, follow the instructions outlined here
+software R, which you will use through RStudio. You will also write up
+your assignments in Quarto, a publishing system that runs inside
+RStudio and lets you combine your code, results, and written answers in
+a single document.
+
+All three are free and open source, and you can install them on your own
+computer. Download R from <https://cran.r-project.org>, and RStudio from
+<https://posit.co/download/rstudio-desktop/>. Quarto comes bundled with
+RStudio, so you do not need to download it separately. The first time
+you render a document, RStudio may prompt you to install the `rmarkdown`
+package; say yes. R and RStudio are also
+available in the in-person and virtual computer labs, if you would
+rather not install anything. To access the virtual labs, follow the
+instructions outlined here
 
 <https://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html>
 
-If you would like to purchase a copy of Stata for home use (not
-required), there are various options you can explore here:
-<https://www.stata.com/order/dl/>. The cheapest option is student
-license for Stata/BE, which costs USD 49.
+No prior programming experience is assumed. We will cover what you need
+in class, and there is an introduction to R on the course website.
 
-### Course GPT
+### Generative AI
 
-I have created a GPT specific to this course that you can use if you
-wish, [linked
-here](https://chatgpt.com/g/g-685c539cef888191b373a9a5601bcdef-ec306).
-While my opinion is that the best way to succeed in this course is to
-engage with the lectures, lecture notes, textbook, and to ask questions
-in office hours, I recognize that people will use AI. To make the AI
-experience as closely linked to EC306 as possible, I have trained a GPT
-on some of the course materials.
+My opinion is that the best way to succeed in this course is to engage
+with the lectures, lecture notes, textbook, and to ask questions in
+office hours. That said, I recognize that people will use AI.
 
 You are permitted to use generative AI for your assignments. In all
 submissions in which you use generative AI, you must [cite its
@@ -144,22 +158,30 @@ Academic Misconduct](#0) will be applied. Treat the AI as you would any
 other source, meaning that you cannot directly copy and paste AI output
 into your assignments.
 
-**Use this tool with caution.** As we all know, generative AI does not
+**Use these tools with caution.** As we all know, generative AI does not
 always produce reliable output, and as such you may get wrong answers to
-your questions even though it is trained on the course material.
+your questions.
 
 ## Evaluation
 
-You will be evaluated on two equally weighted assignments, one midterm,
-and one final exam. The weights and due dates for each assessment are as
-follows:
+You will be evaluated on in-class participation, two equally weighted
+assignments, one midterm, and one final exam. The weights and due dates
+for each assessment are as follows:
 
-| Assessment   | Due Date                           | Weight |
-|:-------------|:-----------------------------------|:-------|
-| Assignment 1 | Friday, January 30, 2026 at 9:00pm | 5%     |
-| Assignment 2 | Friday, March 27, 2026 at 9:00pm   | 5%     |
-| Midterm      | Tuesday, March 3, 2026, in class   | 40%    |
-| Final Exam   | TBA                                | 50%    |
+| Assessment    | Due Date                           | Weight |
+|:--------------|:-----------------------------------|:-------|
+| Participation | Throughout the term, in class      | 10%    |
+| Assignment 1  | Friday, October 9, 2026 at 9:00pm  | 5%     |
+| Assignment 2  | Friday, December 4, 2026 at 9:00pm | 5%     |
+| Midterm       | Monday, November 9, 2026, in class | 35%    |
+| Final Exam    | TBA                                | 45%    |
+
+Participation is measured with iClicker. During most lectures I will
+pose multiple choice questions that you answer in class using iClicker
+on your phone, tablet, or laptop. You are graded on answering the
+questions, not on getting them right, so there is no penalty for a wrong
+answer. Because the questions are answered live during class,
+participation marks cannot be made up afterward.
 
 Assignments will ask you to manipulate and interpret data, and answer
 some short answer or mathematical questions. Instructions will be posted
@@ -185,16 +207,16 @@ list for each topic is available at the end of this syllabus.
 
 | Topic | Readings |
 |------------------------------------|------------------------------------|
-| Introduction to Labour Market Economics | BGLRS Chapter 1 |
-| Labour Supply: Individual Attachment to the Labour Market | BGLRS Chapter 2 |
-| Labour Supply and Public Policy | BGLRS Chapter 3 |
-| Labour Supply Over the Life Cycle | BGLRS Chapter 4 |
-| Labour Demand in Competitive Labour Markets | BGLRS Chapter 5 |
-| Labour Demand, Nonwage Benefits, and Quasi-fixed Costs | BGLRS Chapter 6 |
-| Wages and Employment in a Single Market | BGLRS Chapter 7 |
-| Human Capital Theory | BGLRS Chapter 9 |
-| Discrimination and Male-Female Earning Differentials | BGLRS Chapter 12 |
-| Economics of Immigration | BGLRS Chapter 11 |
+| Introduction to Labour Market Economics | BFGLSS Chapters 1 and 2 |
+| Labour Supply: Individual Attachment to the Labour Market | BFGLSS Chapter 3 |
+| Labour Supply and Public Policy | BFGLSS Chapters 4 and 5 |
+| Labour Supply Over the Life Cycle | BFGLSS Chapters 6 and 7 |
+| Labour Demand in Competitive Labour Markets | BFGLSS Chapter 8 |
+| Labour Demand, Nonwage Benefits, and Quasi-fixed Costs | BFGLSS Chapter 6 |
+| Wages and Employment in a Single Market | BFGLSS Chapters 11 and 12 |
+| Human Capital Theory | BFGLSS Chapter 14 |
+| Discrimination and Male-Female Earning Differentials | BFGLSS Chapter 15 |
+| Economics of Immigration | BFGLSS Chapter 17 |
 
 ## Department Learning Outcomes
 

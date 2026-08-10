@@ -1,0 +1,501 @@
+id,age,female,educ,yrschool,lfp,wage
+1,58,0,University,16,0,47.43
+2,44,1,College,14,1,33.89
+3,58,1,High school,12,1,20.58
+4,60,1,High school,12,1,39.54
+5,64,1,High school,12,0,42.49
+6,28,0,High school,12,1,34.6
+7,33,1,University,16,1,27.17
+8,38,1,University,16,1,29.28
+9,21,0,High school,12,1,20.43
+10,33,0,High school,12,1,22.01
+11,53,1,University,16,1,36.63
+12,36,1,University,16,0,42.36
+13,24,0,Less than HS,10,0,19.48
+14,34,0,College,14,0,28.07
+15,39,1,Less than HS,10,1,20.13
+16,28,0,College,14,1,45.26
+17,47,1,High school,12,0,30.87
+18,20,0,College,14,1,31.03
+19,54,0,Less than HS,10,0,22.24
+20,56,1,College,14,1,37.71
+21,53,0,College,14,1,37.81
+22,58,1,Less than HS,10,1,25.04
+23,37,0,High school,12,0,51.11
+24,45,0,College,14,0,25.31
+25,38,1,University,16,1,38.73
+26,52,0,College,14,1,21.38
+27,54,1,High school,12,1,38.73
+28,41,1,College,14,0,31.72
+29,50,0,College,14,0,32.01
+30,38,0,Less than HS,10,0,23.82
+31,33,1,University,16,1,35.76
+32,31,1,High school,12,0,29.64
+33,38,1,University,16,1,36.75
+34,22,1,College,14,1,25.74
+35,36,0,High school,12,1,32.95
+36,36,0,High school,12,1,32.1
+37,27,0,High school,12,0,36.54
+38,48,1,High school,12,1,27.43
+39,29,1,College,14,1,28.23
+40,23,0,University,16,1,34.99
+41,21,0,College,14,1,37.38
+42,51,1,College,14,1,35.03
+43,27,1,College,14,0,41.44
+44,47,0,High school,12,1,26.66
+45,55,1,High school,12,1,34.14
+46,29,1,College,14,1,34.38
+47,39,0,High school,12,1,28.21
+48,48,0,Less than HS,10,0,40.66
+49,63,0,Less than HS,10,1,21.94
+50,25,1,High school,12,1,26.25
+51,44,0,Less than HS,10,1,35.82
+52,41,0,High school,12,1,34.01
+53,48,0,College,14,0,35.75
+54,40,0,High school,12,0,44.72
+55,51,0,High school,12,0,28.05
+56,38,1,High school,12,1,18.66
+57,33,1,College,14,1,32.98
+58,20,0,Less than HS,10,1,22.37
+59,58,0,High school,12,1,31.31
+60,62,1,College,14,1,38.9
+61,47,0,College,14,1,47.27
+62,53,1,University,16,1,40.21
+63,50,1,High school,12,0,27.01
+64,21,0,University,16,1,31.56
+65,60,1,University,16,0,49.74
+66,20,0,College,14,1,29.53
+67,33,1,College,14,0,28.67
+68,50,0,University,16,1,28.46
+69,59,0,High school,12,0,43.21
+70,32,1,College,14,1,30.57
+71,43,0,College,14,1,37.04
+72,58,1,University,16,1,64.65
+73,36,1,College,14,1,35.3
+74,36,1,University,16,0,41.08
+75,63,1,University,16,1,22.55
+76,64,0,High school,12,1,24.62
+77,23,1,High school,12,1,15.81
+78,21,1,University,16,0,24.22
+79,31,1,University,16,1,28.96
+80,58,0,University,16,0,48.82
+81,47,0,High school,12,1,42.12
+82,52,1,High school,12,0,26.43
+83,31,0,College,14,1,31.16
+84,62,0,College,14,0,35.25
+85,59,1,College,14,0,35.03
+86,23,1,College,14,1,36.88
+87,51,0,College,14,1,44.95
+88,28,0,Less than HS,10,1,19
+89,44,0,Less than HS,10,1,21.49
+90,48,0,College,14,1,36.27
+91,59,0,High school,12,0,27.76
+92,52,1,Less than HS,10,1,20.66
+93,35,0,University,16,1,38.11
+94,40,1,High school,12,1,18.41
+95,46,0,College,14,1,42.34
+96,54,0,High school,12,1,30.77
+97,39,0,University,16,1,54.53
+98,53,0,University,16,0,45.67
+99,62,1,College,14,1,20.1
+100,35,0,High school,12,1,33.44
+101,62,1,College,14,1,15.32
+102,37,1,Less than HS,10,1,18.66
+103,62,1,College,14,1,33.46
+104,33,1,University,16,1,32.56
+105,62,0,Less than HS,10,1,26.72
+106,22,0,University,16,1,47.65
+107,21,0,University,16,1,63.64
+108,23,1,College,14,1,18.98
+109,22,1,University,16,1,31.55
+110,31,1,University,16,1,52.74
+111,34,0,Less than HS,10,0,23.64
+112,45,1,College,14,1,27.83
+113,36,0,College,14,1,54.18
+114,34,0,High school,12,1,29.85
+115,53,1,College,14,0,28.23
+116,57,0,High school,12,0,30.23
+117,21,1,University,16,1,39.32
+118,55,0,High school,12,0,34.94
+119,61,1,University,16,1,31.06
+120,64,0,High school,12,1,24.34
+121,59,0,High school,12,1,26.82
+122,20,0,High school,12,1,19.5
+123,63,0,University,16,1,52.79
+124,35,1,High school,12,1,24.11
+125,28,1,College,14,0,31.27
+126,54,1,University,16,0,26.06
+127,63,0,College,14,1,38.03
+128,41,1,University,16,1,25.1
+129,63,0,University,16,1,46.57
+130,58,0,University,16,1,52.6
+131,28,0,High school,12,0,36.63
+132,31,0,University,16,1,47.55
+133,54,0,University,16,1,73.09
+134,54,0,College,14,0,34.85
+135,56,0,High school,12,1,32.79
+136,26,0,High school,12,0,31.73
+137,60,0,Less than HS,10,0,21.6
+138,28,0,College,14,0,31.92
+139,64,1,College,14,0,38.02
+140,54,0,University,16,1,40.01
+141,38,1,High school,12,1,28.21
+142,54,0,High school,12,1,20.92
+143,56,1,High school,12,1,22.29
+144,26,1,High school,12,0,20.67
+145,31,1,College,14,1,42.73
+146,45,0,University,16,1,38.5
+147,21,0,College,14,1,31.86
+148,64,0,College,14,1,50.45
+149,21,0,College,14,1,54.82
+150,61,0,High school,12,0,31.94
+151,34,0,College,14,1,27.53
+152,46,1,High school,12,1,41.9
+153,41,1,College,14,1,32.23
+154,37,0,College,14,1,35.14
+155,30,0,College,14,1,38.81
+156,48,0,University,16,1,33.28
+157,30,0,High school,12,1,25.56
+158,46,1,University,16,1,75.08
+159,28,0,College,14,1,43.47
+160,36,1,College,14,0,36.81
+161,35,1,College,14,1,39.41
+162,63,0,University,16,1,42.57
+163,41,0,University,16,1,42.9
+164,57,0,College,14,1,37.86
+165,60,1,College,14,1,19.18
+166,22,0,University,16,1,42.01
+167,59,0,High school,12,1,34.98
+168,51,0,High school,12,1,33.39
+169,42,1,High school,12,0,24.42
+170,51,1,University,16,1,35.88
+171,22,0,University,16,1,41.89
+172,59,0,University,16,0,45.27
+173,25,0,University,16,1,46.84
+174,51,1,University,16,1,55.85
+175,29,0,College,14,1,33.21
+176,23,0,High school,12,1,27.27
+177,45,0,Less than HS,10,0,24.02
+178,35,0,University,16,1,43.1
+179,58,0,College,14,0,28.19
+180,56,1,High school,12,1,25.32
+181,21,0,Less than HS,10,1,18.61
+182,54,1,High school,12,0,34.37
+183,40,1,University,16,1,37.76
+184,26,1,University,16,1,18.55
+185,53,0,University,16,1,115.85
+186,52,1,University,16,1,31.58
+187,62,1,University,16,0,33.23
+188,62,0,College,14,1,39.53
+189,38,1,College,14,0,35.14
+190,47,1,College,14,1,28.22
+191,52,0,College,14,0,39.86
+192,45,0,High school,12,1,48.99
+193,41,0,Less than HS,10,1,31.38
+194,25,0,College,14,0,27.56
+195,32,1,University,16,1,40.62
+196,20,0,University,16,1,33.57
+197,34,0,University,16,1,35.28
+198,37,1,High school,12,1,33.64
+199,61,1,College,14,1,25.61
+200,42,0,University,16,1,55.36
+201,38,0,Less than HS,10,0,26.53
+202,48,0,College,14,1,40.17
+203,27,0,College,14,1,46.07
+204,54,0,High school,12,1,41.78
+205,28,1,High school,12,0,21.32
+206,20,1,College,14,1,42.7
+207,25,1,High school,12,1,26.79
+208,57,1,University,16,1,25.44
+209,47,1,College,14,1,42.89
+210,23,0,College,14,1,29.71
+211,36,0,College,14,1,36.83
+212,62,1,College,14,0,32.21
+213,23,0,University,16,1,39.15
+214,52,0,University,16,1,50.74
+215,37,1,College,14,0,24.98
+216,51,0,High school,12,1,25.96
+217,35,1,College,14,0,35.22
+218,51,1,Less than HS,10,0,20.66
+219,39,0,College,14,1,30.38
+220,35,0,University,16,0,44.25
+221,48,0,University,16,1,49.59
+222,22,0,High school,12,1,24.98
+223,22,1,University,16,1,30.82
+224,58,0,College,14,1,62.59
+225,59,1,University,16,0,27.64
+226,62,0,College,14,1,41.48
+227,40,1,University,16,1,25.93
+228,45,0,High school,12,1,31.94
+229,49,1,High school,12,0,32.2
+230,41,0,College,14,1,23.84
+231,51,1,High school,12,0,32.23
+232,63,0,College,14,0,37.2
+233,51,0,College,14,1,34.67
+234,29,0,College,14,0,36.42
+235,58,0,High school,12,1,49.12
+236,48,1,High school,12,1,26.9
+237,57,0,University,16,1,56.28
+238,61,0,College,14,1,21.07
+239,28,0,High school,12,1,19.68
+240,38,0,College,14,1,49.79
+241,41,0,University,16,1,47.71
+242,46,1,High school,12,1,28.86
+243,38,1,High school,12,1,26.76
+244,47,1,Less than HS,10,0,17.25
+245,46,0,High school,12,1,22.78
+246,33,1,College,14,0,44.42
+247,54,1,University,16,0,38.52
+248,61,1,College,14,1,31.44
+249,56,0,High school,12,1,35.61
+250,37,1,High school,12,0,26.14
+251,60,1,Less than HS,10,1,13.8
+252,62,1,College,14,0,35.72
+253,47,1,University,16,0,44.29
+254,53,1,University,16,1,44.23
+255,59,1,High school,12,1,38.11
+256,30,1,University,16,1,37.3
+257,35,0,High school,12,1,44.7
+258,38,0,College,14,1,29.34
+259,41,0,High school,12,0,33.74
+260,61,0,College,14,1,55.76
+261,45,0,High school,12,0,33.92
+262,36,1,High school,12,1,19.73
+263,62,0,University,16,1,40.1
+264,57,1,Less than HS,10,0,15.2
+265,43,1,University,16,1,40.54
+266,35,0,High school,12,1,26.68
+267,35,0,College,14,1,30.71
+268,40,0,Less than HS,10,1,38.1
+269,34,1,Less than HS,10,1,18.26
+270,60,1,College,14,1,28.07
+271,42,1,College,14,1,35.65
+272,21,0,University,16,1,31.9
+273,59,0,High school,12,0,33.54
+274,60,1,College,14,1,52.11
+275,25,0,High school,12,1,31.07
+276,36,0,University,16,1,41.09
+277,26,0,High school,12,1,26.48
+278,40,0,College,14,1,45.98
+279,55,0,College,14,0,38.86
+280,23,0,University,16,1,40.77
+281,35,1,High school,12,1,36.71
+282,23,1,College,14,1,22.39
+283,30,0,High school,12,0,23.33
+284,28,1,College,14,1,41.57
+285,34,1,College,14,1,39.85
+286,61,0,College,14,0,57.92
+287,39,0,Less than HS,10,0,34.53
+288,23,1,University,16,1,35.22
+289,22,1,University,16,0,37.63
+290,32,0,University,16,0,47.99
+291,56,1,College,14,1,42.41
+292,56,1,High school,12,1,31.71
+293,34,0,University,16,1,60.2
+294,43,1,High school,12,1,45.45
+295,48,1,College,14,1,24.32
+296,23,0,University,16,0,20.95
+297,42,1,University,16,0,25.2
+298,53,1,University,16,1,26.25
+299,54,1,College,14,1,32.99
+300,61,0,College,14,1,34.85
+301,34,1,College,14,1,22.85
+302,24,1,University,16,1,37.75
+303,60,0,High school,12,1,19.74
+304,31,1,High school,12,0,20.7
+305,53,1,High school,12,0,31.49
+306,22,1,College,14,1,27.87
+307,60,1,College,14,0,29
+308,49,0,College,14,1,39.29
+309,21,0,College,14,0,22
+310,33,1,Less than HS,10,1,19.27
+311,21,1,University,16,1,32.51
+312,31,0,High school,12,0,35.46
+313,37,0,College,14,1,23.3
+314,37,0,University,16,1,41.57
+315,21,1,College,14,1,18.78
+316,28,0,College,14,1,52.62
+317,25,0,College,14,1,40.44
+318,47,0,College,14,0,53.18
+319,41,1,High school,12,1,37.54
+320,37,0,University,16,1,39.12
+321,39,0,University,16,1,53.14
+322,42,0,College,14,1,41.38
+323,28,0,College,14,1,44.77
+324,36,1,Less than HS,10,0,23.18
+325,50,1,University,16,1,44.24
+326,63,0,University,16,1,43.01
+327,53,0,College,14,1,39.95
+328,40,1,University,16,1,50.58
+329,50,0,College,14,1,34.64
+330,56,0,College,14,1,35.49
+331,64,1,College,14,1,44.79
+332,44,0,High school,12,0,33.63
+333,52,0,College,14,1,24.5
+334,37,1,High school,12,1,24.89
+335,62,1,High school,12,0,40.71
+336,63,1,University,16,1,43.6
+337,52,1,College,14,1,24.77
+338,56,0,High school,12,1,40.96
+339,27,1,College,14,1,26.8
+340,54,1,College,14,1,40.92
+341,44,1,High school,12,0,23.2
+342,38,1,College,14,1,33.92
+343,42,0,High school,12,1,33.76
+344,36,1,High school,12,1,28.08
+345,36,1,High school,12,1,20.6
+346,34,1,University,16,1,36.97
+347,57,0,High school,12,1,23.74
+348,35,0,College,14,1,24.19
+349,56,0,University,16,1,27.76
+350,44,0,College,14,1,36.43
+351,47,1,College,14,1,36.22
+352,20,0,College,14,1,35.74
+353,61,0,College,14,1,51.66
+354,46,1,High school,12,1,27.78
+355,40,1,University,16,1,34.61
+356,41,0,High school,12,0,60.62
+357,32,1,University,16,0,42.95
+358,33,0,High school,12,1,39.26
+359,36,0,College,14,1,26.47
+360,38,0,College,14,1,25.93
+361,47,0,University,16,1,31.98
+362,31,1,College,14,0,40.33
+363,33,1,High school,12,1,20.96
+364,27,1,University,16,1,40.5
+365,42,0,College,14,1,28.66
+366,38,0,High school,12,0,32.14
+367,60,0,University,16,1,48.81
+368,64,0,University,16,1,52.96
+369,42,0,High school,12,1,28.19
+370,29,1,College,14,1,46.91
+371,46,0,College,14,1,34.72
+372,41,1,University,16,0,28.8
+373,25,0,High school,12,1,31.55
+374,21,1,College,14,0,27.15
+375,29,0,University,16,0,44.33
+376,39,1,University,16,1,37.35
+377,33,0,High school,12,1,29.37
+378,26,1,College,14,1,26.85
+379,42,1,University,16,1,35.61
+380,55,0,University,16,1,39.43
+381,55,1,College,14,1,33.74
+382,30,1,College,14,1,32.27
+383,60,0,University,16,1,25.26
+384,46,0,University,16,1,37.01
+385,20,0,High school,12,1,28.14
+386,25,1,High school,12,1,23.23
+387,36,0,University,16,1,48
+388,58,0,College,14,1,50.23
+389,54,1,College,14,1,27.41
+390,31,0,College,14,1,41.21
+391,36,0,College,14,1,56.2
+392,47,1,University,16,1,22.57
+393,56,0,University,16,0,33.39
+394,64,0,College,14,1,46.2
+395,38,1,High school,12,0,32.19
+396,30,0,High school,12,1,54.97
+397,47,0,High school,12,1,32.89
+398,64,0,High school,12,1,22.37
+399,55,0,Less than HS,10,1,24.82
+400,57,1,High school,12,1,24
+401,34,0,University,16,1,47.47
+402,49,1,College,14,1,49.18
+403,27,0,Less than HS,10,0,25.22
+404,35,0,University,16,0,37.35
+405,38,0,College,14,1,21.62
+406,33,1,High school,12,0,25.45
+407,35,0,College,14,1,23.05
+408,34,1,University,16,1,45.88
+409,21,0,High school,12,1,19.44
+410,61,0,High school,12,0,26.87
+411,30,1,College,14,1,26.59
+412,43,1,College,14,1,22.15
+413,54,1,High school,12,1,25.75
+414,51,1,High school,12,1,33
+415,52,1,University,16,0,42.19
+416,48,0,High school,12,1,26.18
+417,36,0,Less than HS,10,0,26.71
+418,30,1,University,16,0,28.6
+419,27,0,High school,12,1,46.09
+420,35,0,High school,12,1,50.09
+421,26,1,Less than HS,10,1,32.41
+422,63,1,University,16,1,49.82
+423,39,0,College,14,1,25.99
+424,39,1,University,16,0,28.66
+425,33,0,University,16,1,44.71
+426,28,1,High school,12,0,33.68
+427,24,0,College,14,1,23.88
+428,25,0,College,14,0,32.02
+429,20,0,College,14,1,30.15
+430,41,1,University,16,1,36.32
+431,36,1,College,14,1,26.1
+432,61,1,University,16,1,30.03
+433,45,1,University,16,1,37.85
+434,58,0,High school,12,1,28.59
+435,55,1,College,14,1,24.62
+436,53,1,College,14,1,29.19
+437,50,1,University,16,1,25.35
+438,29,0,High school,12,0,24.05
+439,35,0,University,16,1,41.94
+440,27,0,Less than HS,10,0,28.19
+441,47,0,College,14,1,34.83
+442,48,0,College,14,1,50.69
+443,44,1,Less than HS,10,1,26.21
+444,38,1,Less than HS,10,1,21.71
+445,58,1,College,14,1,21.37
+446,42,0,High school,12,0,26.1
+447,34,1,High school,12,1,30.19
+448,61,1,High school,12,1,24.63
+449,58,1,University,16,1,56.37
+450,21,0,College,14,1,39.95
+451,61,1,University,16,1,35.01
+452,39,1,Less than HS,10,1,14.71
+453,57,0,Less than HS,10,1,21.01
+454,27,1,High school,12,0,28.3
+455,50,0,University,16,1,34.94
+456,38,1,High school,12,0,18.63
+457,33,0,College,14,1,43.13
+458,64,0,High school,12,1,18.31
+459,51,1,University,16,1,31.49
+460,40,0,High school,12,1,29.08
+461,52,0,Less than HS,10,1,30.11
+462,25,1,High school,12,1,23.41
+463,26,0,College,14,1,30.05
+464,40,1,High school,12,1,26.62
+465,42,1,College,14,1,26.08
+466,60,1,College,14,1,20.66
+467,48,1,High school,12,1,25.75
+468,36,0,College,14,1,30.06
+469,21,0,College,14,1,43.28
+470,45,1,University,16,1,38.65
+471,36,1,College,14,1,32.61
+472,59,1,University,16,0,20
+473,38,0,University,16,0,29.48
+474,44,1,University,16,1,51.21
+475,35,0,High school,12,0,24.87
+476,35,0,College,14,1,36.13
+477,47,1,College,14,0,27.76
+478,35,1,College,14,1,20.85
+479,49,0,College,14,1,42.09
+480,56,0,High school,12,1,21.7
+481,29,1,College,14,0,20.04
+482,48,1,College,14,1,28.57
+483,60,0,College,14,1,28.06
+484,47,1,University,16,1,61.42
+485,40,0,High school,12,1,32.73
+486,46,0,High school,12,0,37.14
+487,50,1,High school,12,0,21.67
+488,53,1,High school,12,1,23.63
+489,26,0,High school,12,1,25.78
+490,56,0,College,14,1,25.4
+491,31,1,College,14,1,34.5
+492,58,0,Less than HS,10,1,23.79
+493,45,0,College,14,1,35.71
+494,42,0,University,16,1,29.01
+495,38,0,High school,12,0,32.27
+496,38,1,High school,12,1,33.58
+497,52,0,High school,12,1,37.12
+498,28,1,University,16,1,43.98
+499,47,0,University,16,1,44.98
+500,22,1,College,14,1,36.23

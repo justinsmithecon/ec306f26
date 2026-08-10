@@ -28,12 +28,12 @@ editor: visual
 ![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
 
 
-## BGLRS Chapter 2 Problem 3
+## BFGLSS Chapter 2 Problem 3
 
 Consider two individuals with endowments of $T=60$ hours (per week) if leisure, nonlabour income of Y, and a wage of $7.50 per hour.  At this wage, assume that workers are constrained by their employers to work 40 hours per week, or not at all.
 
 a. On a carefully labelled diagram, show the equilibrium for a worker for whom 40 hours is the optimum labour supply and a worker who would like to work 20 hours, but still prefers the 40 hour week to not working.  Compare the marginal rates of substitution for these two workers at 40 hours per week.
 
 
-## BGLRS Chapter 2 Problem 3
+## BFGLSS Chapter 2 Problem 3
 b. The average part-time wage is $7 per hour, in contrast to $7.50 for full-time workers.  Using the above model, provide an explanation for this difference in wage rates.

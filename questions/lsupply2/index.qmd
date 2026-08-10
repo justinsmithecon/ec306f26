@@ -23,43 +23,43 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Winter 2026</h2>
+<h2>Fall 2026</h2>
 
 ![](/files/img/hexEC306.png){.absolute top="300" left="900" width="550"}
 
-## BGLRS Chapter 3 Review Question 3
+## BFGLSS Chapter 3 Review Question 3
 
 Use the work-leisure choice diagram to illustrate the following cases where an individual is
 
 a\) Unwilling to go on welfare because the welfare payment is too low
 
-## BGLRS Chapter 3 Review Question 3
+## BFGLSS Chapter 3 Review Question 3
 
 b\) Indifferent between welfare and work
 
-## BGLRS Chapter 3 Review Question 3
+## BFGLSS Chapter 3 Review Question 3
 
 c\) Induced to move off welfare because of an increase in wages
 
-## BGLRS Chapter 3 Review Question 3
+## BFGLSS Chapter 3 Review Question 3
 
 d\) Induced to move off welfare because of a change in preferences between income and leisure
 
-## BGLRS Chapter 3 Review Question 3
+## BFGLSS Chapter 3 Review Question 3
 
 e\) Induced to move off welfare by a reduction of the 100 percent implicit tax on earnings
 
-## BGLRS Chapter 3 Problem 7
+## BFGLSS Chapter 3 Problem 7
 
 The different programs discussed in this chapter often have ambiguous effects on work effort. It is, nonetheless, possible to compare the work incentives of two programs by looking at what happens when the individual is indifferent between two programs. Use this approach to compare the work incentives of the following two pairs of programs. In both cases use graphs to show the hours of work chosen under the two programs by an individual who is indifferent between them:
 
 a\) EITC compared to welfare
 
-## BGLRS Chapter 3 Problem 7
+## BFGLSS Chapter 3 Problem 7
 
 b\) Wage subsidy compared to a negative income tax
 
-## BGLRS Chapter 3 Problem 3
+## BFGLSS Chapter 3 Problem 3
 
 Use the work-leisure framework to illustrate that if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant, a negative income tax will involve more adverse work incentives than a wage subsidy would.
 

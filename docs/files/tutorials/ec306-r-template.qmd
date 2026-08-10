@@ -1,0 +1,171 @@
+---
+title: "EC306 — R and Quarto Practice File"
+author: "Your name, your student number"
+date: today
+format: pdf
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Download BOTH this file and the data file ec306lfs.csv from the
+     course website, and put them in the SAME folder — for example a
+     folder called EC306 on your Desktop. Keep the .qmd extension.
+  2. Open this file in RStudio (File > Open File).
+  3. Press the Render button at the top of the editor. RStudio will run
+     every code chunk and produce a PDF next to this one.
+  4. Once that works, read through and change things. Break it, fix it.
+     That is how you learn this.
+
+  IF RENDERING FAILS with an error mentioning LaTeX, tlmgr, or a
+  missing .sty file, the PDF machinery is not installed yet. Run this
+  once in the Console, then render again:
+
+      install.packages("tinytex")
+      tinytex::install_tinytex()
+-->
+
+## Before you start
+
+This file is a working example of a Quarto document. It contains three
+kinds of content, and it is worth learning to recognise them:
+
+1.  The **YAML header** at the very top, between the `---` lines. It
+    sets the title, the author, and the output format.
+2.  **Text**, like this paragraph, written in Markdown.
+3.  **Code chunks**, which start with ```` ```{r} ```` and end with
+    ```` ``` ````. Everything inside is R code and gets run when you
+    render.
+
+To make a new chunk, press **Ctrl+Alt+I** (**Cmd+Option+I** on a Mac).
+
+To run a single chunk without rendering the whole document, press the
+small green arrow at its top right.
+
+## Setup
+
+Every document starts by loading the packages it needs. If this chunk
+gives you an error saying there is no package called 'tidyverse', run
+`install.packages("tidyverse")` once in the Console, then try again.
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+```
+
+## The data
+
+Now read in the data. This is the same Labour Force Survey extract used
+in the tutorial: 500 working-age people, with their age, sex, education,
+labour force participation, and hourly wage.
+
+`read_csv()` looks for the file in the same folder as this document, so
+if you get an error saying the file cannot be opened, that is almost
+certainly the problem.
+
+```{r}
+#| label: load-data
+#| message: false
+lfs <- read_csv("ec306lfs.csv")
+```
+
+## Look at the data first
+
+Never analyse data you have not looked at.
+
+```{r}
+glimpse(lfs)
+```
+
+```{r}
+head(lfs)
+```
+
+A continuous variable like `wage` is summarised with means and
+percentiles:
+
+```{r}
+summary(lfs$wage)
+```
+
+A categorical variable like `educ` is summarised by counting:
+
+```{r}
+count(lfs, educ)
+```
+
+## Summarise by group
+
+This is the workhorse of applied work: an average, computed separately
+for each group.
+
+```{r}
+lfs |>
+  group_by(educ) |>
+  summarise(
+    n         = n(),
+    mean_wage = mean(wage)
+  )
+```
+
+## Make a graph
+
+Remember to label your axes. Unlabelled graphs lose marks.
+
+```{r}
+#| label: fig-wage-educ
+#| fig-cap: "Hourly wages by education level"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(lfs, aes(x = educ, y = wage)) +
+  geom_boxplot() +
+  labs(x = NULL, y = "Hourly wage ($)")
+```
+
+## Run a regression
+
+Labour economists usually model the log of wages, so that coefficients
+read as approximate percentage effects.
+
+```{r}
+lfs <- lfs |>
+  mutate(lnwage = log(wage))
+
+model <- lm(lnwage ~ yrschool + age, data = lfs)
+
+summary(model)
+```
+
+And present it as a table rather than as console output:
+
+```{r}
+#| message: false
+library(modelsummary)
+
+modelsummary(model, stars = TRUE)
+```
+
+## Your turn
+
+Try each of these by adding a chunk underneath. If something breaks,
+read the first line of the error message, then check spelling,
+capitalisation, and brackets.
+
+1.  Count how many people in the data are under 30. (Hint: `filter()`,
+    then `nrow()`.)
+2.  Compute the mean wage separately for men and women, using the
+    `female` variable.
+3.  Make a histogram of `wage` using `geom_histogram()`.
+4.  Add `female` to the regression and look at what happens to the
+    coefficients.
+
+```{r}
+# your code here
+
+```
+
+## When you are finished
+
+Press Render one last time and check that it completes without errors.
+A document that will not render is a document you cannot submit.

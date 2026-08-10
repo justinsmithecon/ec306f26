@@ -2,7 +2,7 @@
 title: "Wages and Employment"
 subtitle: "Labour Market Economics"
 details: |
-  EC306 • Winter 2026<br>Department of Economics<br>Lazaridis School of Business and Economics<br>Wilfrid Laurier University
+  EC306 • Fall 2026<br>Department of Economics<br>Lazaridis School of Business and Economics<br>Wilfrid Laurier University
 sidebar: false
 toc: false
 page-layout: full
