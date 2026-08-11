@@ -1,0 +1,97 @@
+---
+format: 
+  revealjs:
+    theme: [default, hygge.scss]
+    center-title-slide: false
+    slide-number: true
+    height: 900
+    width: 1600
+    chalkboard:
+      theme: whiteboard
+      src: drawings.json
+    post-render: "scripts/decktape.sh"
+editor: visual
+---
+
+<h1>Labour Demand and Technology</h1>
+
+<hr>
+
+<h2>EC306- Wages and Employment</h2>
+
+<h2>Justin Smith</h2>
+
+<h2>Wilfrid Laurier University</h2>
+
+<h2>Fall 2026</h2>
+
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+
+
+# Goals of This Section
+
+## Goals of This Section
+
+In this section we will:
+
+- Describe how technology changes the jobs we do
+- Model capital-labour substitution with two and three factors
+- Examine the evidence on skill-biased technological change and job polarization
+- Discuss emerging technologies and their effect on labour demand
+
+# Technology and the Jobs We Do
+
+## TODO — Technology and the Jobs We Do {background-color="#fff8e1"}
+
+::: {.callout-warning}
+## Not yet written
+
+BFGLSS 2026 covers:
+
+- The framing section for the chapter. No slides exist.
+:::
+
+# Capital Labour Substitution
+
+## TODO — Capital Labour Substitution {background-color="#fff8e1"}
+
+::: {.callout-warning}
+## Not yet written
+
+BFGLSS 2026 covers:
+
+- Two-Factor Model — *the Chapter 8 cost-minimization machinery is a two-factor
+  K/L model already; it needs the technology framing*
+- Three-Factor Model
+:::
+
+# Empirical Evidence
+
+## TODO — Skill-Biased Technological Change and Job Polarization {background-color="#fff8e1"}
+
+::: {.callout-warning}
+## Not yet written
+
+BFGLSS 2026 covers:
+
+- Skill-Biased Technological Change — *one slide exists in the Chapter 14 deck
+  under Education and Inequality*
+- Job Polarization
+:::
+
+# Emerging Technologies
+
+## TODO — Emerging Technologies {background-color="#fff8e1"}
+
+::: {.callout-warning}
+## Not yet written
+
+BFGLSS 2026 covers:
+
+- Broadband Internet
+- Robotics
+- Gig Job Platforms — *Chapter 8 has a Temp and Gig Workers slide, framed as
+  quasi-fixed costs rather than technology*
+- Artificial Intelligence
+:::
+

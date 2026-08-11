@@ -201,22 +201,26 @@ of the grade.
 
 ## Topics
 
-Below is a list of tentative topics covered in the course. I may add or
-remove items depending on how quickly the course proceeds. A reading
-list for each topic is available at the end of this syllabus.
+Below is a list of tentative topics covered in the course, with the textbook
+chapter that goes with each. I may add or remove items depending on how quickly
+the course proceeds.
 
 | Topic | Readings |
 |------------------------------------|------------------------------------|
-| Introduction to Labour Market Economics | BFGLSS Chapters 1 and 2 |
-| Labour Supply: Individual Attachment to the Labour Market | BFGLSS Chapter 3 |
-| Labour Supply and Public Policy | BFGLSS Chapters 4 and 5 |
-| Labour Supply Over the Life Cycle | BFGLSS Chapters 6 and 7 |
-| Labour Demand in Competitive Labour Markets | BFGLSS Chapter 8 |
-| Labour Demand, Nonwage Benefits, and Quasi-fixed Costs | BFGLSS Chapter 6 |
-| Wages and Employment in a Single Market | BFGLSS Chapters 11 and 12 |
-| Human Capital Theory | BFGLSS Chapter 14 |
-| Discrimination and Male-Female Earning Differentials | BFGLSS Chapter 15 |
-| Economics of Immigration | BFGLSS Chapter 17 |
+| Introduction to Labour Market Economics | BFGLSS Chapter 1 |
+| Introduction to the Canadian Labour Market, Measurement, and Research | BFGLSS Chapter 2 |
+| Labour Supply | BFGLSS Chapter 3 |
+| Labour Supply and Income Support Programs | BFGLSS Chapter 4 |
+| Labour Supply and Social Insurance Programs | BFGLSS Chapter 5 |
+| Labour Supply and Early Career Decisions | BFGLSS Chapter 6 |
+| Labour Supply and Later Career Decisions | BFGLSS Chapter 7 |
+| Labour Demand | BFGLSS Chapter 8 |
+| Labour Demand in Global Markets | BFGLSS Chapter 9 |
+| Labour Demand and Technology | BFGLSS Chapter 10 |
+| Competitive Labour Markets | BFGLSS Chapter 11 |
+| Imperfectly Competitive Labour Markets | BFGLSS Chapter 12 |
+| Human Capital Theory: Applications to Education and Training | BFGLSS Chapter 14 |
+| Wage Differentials Among Diverse Population Groups | BFGLSS Chapter 15 |
 
 ## Department Learning Outcomes
 

@@ -1,0 +1,84 @@
+---
+format: 
+  revealjs:
+    theme: [default, hygge.scss]
+    center-title-slide: false
+    slide-number: true
+    height: 900
+    width: 1600
+    chalkboard:
+      theme: whiteboard
+      src: drawings.json
+    post-render: "scripts/decktape.sh"
+editor: visual
+---
+
+<h1>Chapter 4: Labour Supply and Income Support Programs — In-Class Questions</h1>
+
+<hr>
+
+<h2>EC306- Wages and Employment</h2>
+
+<h2>Justin Smith</h2>
+
+<h2>Wilfrid Laurier University</h2>
+
+<h2>Fall 2026</h2>
+
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+
+<!-- NOTE: problem and review-question numbers below are 9th-edition numbering.
+     The chapter number has been updated to the 2026 release, but the problem
+     numbers themselves have NOT been verified against the new edition. -->
+
+
+## BFGLSS Chapter 4 Review Question 3
+
+Use the work-leisure choice diagram to illustrate the following cases where an individual is
+
+a\) Unwilling to go on welfare because the welfare payment is too low
+
+## BFGLSS Chapter 4 Review Question 3
+
+b\) Indifferent between welfare and work
+
+## BFGLSS Chapter 4 Review Question 3
+
+c\) Induced to move off welfare because of an increase in wages
+
+## BFGLSS Chapter 4 Review Question 3
+
+d\) Induced to move off welfare because of a change in preferences between income and leisure
+
+## BFGLSS Chapter 4 Review Question 3
+
+e\) Induced to move off welfare by a reduction of the 100 percent implicit tax on earnings
+
+## BFGLSS Chapter 4 Problem 7
+
+The different programs discussed in this chapter often have ambiguous effects on work effort. It is, nonetheless, possible to compare the work incentives of two programs by looking at what happens when the individual is indifferent between two programs. Use this approach to compare the work incentives of the following two pairs of programs. In both cases use graphs to show the hours of work chosen under the two programs by an individual who is indifferent between them:
+
+a\) EITC compared to welfare
+
+## BFGLSS Chapter 4 Problem 7
+
+b\) Wage subsidy compared to a negative income tax
+
+## BFGLSS Chapter 4 Problem 3
+
+Use the work-leisure framework to illustrate that if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant, a negative income tax will involve more adverse work incentives than a wage subsidy would.
+
+## MC1
+
+Suppose that a worker says that due to a refundable tax benefit, it appears to her that working pays more than it used to, and so she wants to work longer hours. What type of effect is involved?
+
+a\) Only a substitution effect
+
+b\) Only an income effect
+
+c\) Both a substitution and an income effect
+
+d\) A reservation wage effect
+
+e\) No impact on incentives at all
+

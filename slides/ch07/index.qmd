@@ -1,0 +1,270 @@
+---
+format: 
+  revealjs:
+    theme: [default, hygge.scss]
+    center-title-slide: false
+    slide-number: true
+    height: 900
+    width: 1600
+    chalkboard:
+      theme: whiteboard
+      src: drawings.json
+    post-render: "scripts/decktape.sh"
+editor: visual
+---
+
+<h1>Labour Supply and Later Career Decisions</h1>
+
+<hr>
+
+<h2>EC306- Wages and Employment</h2>
+
+<h2>Justin Smith</h2>
+
+<h2>Wilfrid Laurier University</h2>
+
+<h2>Fall 2026</h2>
+
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+
+
+
+# Goals of This Section
+
+## Goals of This Section
+
+In this section we will:
+
+- Describe how labour supply changes with age
+- Discuss retirement policies in Canada
+- Analyze how public and employer pensions affect retirement decisions
+- Examine the evidence on pensions and retirement
+
+# Retirement and Pensions
+
+## Introduction
+
+[Retirement is a key life event that affects labour supply]{.fg style="color: #2780e3;"}
+
+- Most people retire at some point
+- Retirement age has been changing over time
+
+
+
+[It can mean many things:]{.fg style="color: #2780e3;"}
+
+- Permanent exit from the labour force
+- A reduction to part-time work
+- Retiring from one full-time job and taking another
+
+
+
+[For most people:]{.fg style="color: #c7254e;"}
+
+Retirement means permanent exit from the labour force
+
+## Determinants of Retirement - Age
+
+::: {.callout-important}
+## Most Important Determinant
+Age is the most important determinant of retirement
+:::
+
+- Most people retire between ages [60 and 70]{.fg style="color: #c7254e;"}
+- Very few people retire before age 50 or after age 75
+
+
+
+[Mandatory retirement:]{.fg style="color: #2780e3;"}
+
+- In Canada it is generally illegal to force retirement based on age
+- Except if deemed a bona fide occupational requirement (BFOR)
+  - Like for pilots, police, firefighters, air traffic controllers
+- Still exists in other parts of the world (e.g. Japan, China, parts of Europe)
+
+## Determinants of Retirement - Wealth/Earnings
+
+[Wealth in our model entered as non-labour earnings:]{.fg style="color: #2780e3;"}
+
+- Higher wealth → higher non-labour income
+- Higher non-labour income → more leisure (less work)
+
+
+
+[Earnings changes have income and substitution effects:]{.fg style="color: #2780e3;"}
+
+- [Income effect:]{.fg style="color: #f0ad4e;"} higher earnings → higher lifetime income → more leisure (less work)
+- [Substitution effect:]{.fg style="color: #5cb85c;"} higher earnings → leisure more expensive → less leisure (more work)
+
+
+
+Can also think of this in a lifecycle model
+
+## Determinants of Retirement - Other
+
+[Health is an important determinant:]{.fg style="color: #2780e3;"}
+
+- Poor health can force people to retire early
+- Good health can allow people to work longer
+- Health of family members can also play a role
+- Might operate through non-labour income or preferences
+
+## Determinants of Retirement - Other
+
+[Changing nature of work:]{.fg style="color: #2780e3;"}
+
+- Move towards less physically demanding jobs can prolong work life
+- More flexible work arrangements can allow people to work longer
+- Alternatively, more stressful jobs can lead to earlier retirement
+- Automation might force early retirement
+- Could affect the budget constraint or preferences
+
+## Determinants of Retirement - Other
+
+[Changing nature of family:]{.fg style="color: #2780e3;"}
+
+- Many more two-earner families now
+  - Can lead to earlier retirement for one spouse
+  - Or could prolong work if spouses want to work together longer
+- Children living at home for longer can affect retirement timing
+- Increase in caring for elderly parents can lead to earlier or later retirement
+- Might affect budget constraint or preferences
+
+## Retirement Income
+
+::: {.callout-important}
+## Major Effect on Retirement Decisions
+Public and private pension plans determine most income in retirement
+:::
+
+[The pension system in Canada consists of:]{.fg style="color: #2780e3;"}
+
+[1. Old Age Security (OAS)]{.fg style="color: #5cb85c;"}
+
+- A flat rate pension available to most Canadians over age 65
+- Funded out of general tax revenues
+- Monthly max is $740 for those aged 65-74, $814 for those 75+
+- Clawback for high income earners (above $148,000 in 2024)
+- Supplemented by the Guaranteed Income Supplement (GIS) for low income seniors
+
+## Retirement Income
+
+[2. Canada/Quebec Pension Plan (CPP/QPP)]{.fg style="color: #f0ad4e;"}
+
+- Earnings-related pension available to those who have contributed
+- Funded by contributions from employees, employers, and self-employed
+- Monthly max is $1,433 in 2025 (age 65)
+- Can start receiving as early as age 60 (reduced) or as late as age 70 (increased)
+- Based on average earnings over working life, up to a maximum limit
+
+## Retirement Income
+
+[3. Employer Pension Plans]{.fg style="color: #2780e3;"}
+
+- Many employers offer pension plans to employees
+- Can be defined benefit or defined contribution plans
+- Vary widely in terms of benefits and eligibility
+- Includes private savings from RRSPs
+
+## Old Age Security
+
+[What effect does OAS have on retirement decisions?]{.fg style="color: #2780e3;"}
+
+[Operates as a lump sum transfer:]{.fg style="color: #5cb85c;"}
+
+- Increases non-labour income
+- Creates income effect: more leisure (less work)
+- No substitution effect because it does not change the wage rate
+
+
+
+[GIS operates like a negative income tax:]{.fg style="color: #f0ad4e;"}
+
+- People get the lump sum payment
+- Payments reduced by $0.50 for each dollar of work income
+- Has work incentives equal to a negative income tax
+
+## Canada/Quebec Pension Plan
+
+[The effect of pension income on retirement depends on how it is structured]{.fg style="color: #2780e3;"}
+
+[In Canada currently, it is simply a fixed payment:]{.fg style="color: #5cb85c;"}
+
+- Increases non-labour income
+- Creates income effect: more leisure (less work)
+- No substitution effect because it does not change the wage rate
+
+
+
+[In the past, there was a provision that reduced benefits if you worked:]{.fg style="color: #c7254e;"}
+
+- Similar to a negative income tax
+- If the tax back rate is 100%, then it is like pure welfare
+- Could also not tax back until a certain income level
+
+## Employer Pension Plan
+
+[Generally involve a fixed payment based on years of service and earnings]{.fg style="color: #2780e3;"}
+
+- Increases non-labour income
+- Creates income effect: more leisure (less work)
+- No substitution effect because it does not change the wage rate
+
+
+
+[Over time the parameters that determine the fixed payment can change:]{.fg style="color: #2780e3;"}
+
+- This can alter work incentives at retirement
+- Example: if the benefit formula is changed to require more years of service
+  - Would reduce the income effect of the pension
+  - Could also create a substitution effect to work more to get the pension
+
+## Evidence on Effect of Pensions
+
+::: {.callout-note}
+## Main Finding
+Studies find that pensions affect retirement in expected ways
+:::
+
+- Pensions that increase non-labour income lead to [earlier retirement]{.fg style="color: #c7254e;"}
+- Pensions that create work incentives lead to [later retirement]{.fg style="color: #5cb85c;"}
+
+
+
+[More recent work:]{.fg style="color: #2780e3;"}
+
+- Increase in retirement age increases working-age disability claims in UK
+- Increasing public pension participation improves health behaviours (less smoking)
+- Pension reform allowing Japanese spouses to claim half of pension earnings increased divorce
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If the government reduced CPP benefits but simultaneously eliminated the clawback on OAS for high earners, what would be the combined effect on the retirement age of high-income workers?
+:::
+
+## TODO — Health Capacity to Work {background-color="#fff8e1"}
+
+::: {.callout-warning}
+## Not yet written
+
+BFGLSS 2026 covers:
+
+- Chapter 7 treats health capacity to work as a full section. The deck currently
+  has four bullets on health inside *Determinants of Retirement*.
+:::
+
+# Summary
+
+## Summary
+
+[Retirement is a labour supply decision:]{.fg style="color: #2780e3;"}
+
+::: {.nonincremental}
+- Age is the strongest determinant, but wealth, health, and policy all matter
+- Old Age Security, CPP/QPP, and employer pensions each change the budget constraint
+- Pension design affects when people retire, not just how much they receive
+:::
+

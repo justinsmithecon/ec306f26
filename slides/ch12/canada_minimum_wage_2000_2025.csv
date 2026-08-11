@@ -1,0 +1,339 @@
+Province,Year,Minimum_Wage
+Alberta,2000,5.9
+British Columbia,2000,7.15
+Manitoba,2000,6.0
+New Brunswick,2000,5.75
+Newfoundland & Labrador,2000,5.5
+Northwest,2000,7.0
+Nova Scotia,2000,5.6
+Nunavut,2000,7.0
+Ontario,2000,6.85
+Prince Edward Island,2000,5.6
+Quebec,2000,6.9
+Saskatchewan,2000,6.0
+Yukon,2000,7.2
+Alberta,2001,5.9
+British Columbia,2001,7.6
+Manitoba,2001,6.0
+New Brunswick,2001,5.75
+Newfoundland & Labrador,2001,5.5
+Northwest,2001,7.0
+Nova Scotia,2001,5.7
+Nunavut,2001,7.0
+Ontario,2001,6.85
+Prince Edward Island,2001,5.8
+Quebec,2001,6.9
+Saskatchewan,2001,6.0
+Yukon,2001,7.2
+Alberta,2002,5.9
+British Columbia,2002,8.0
+Manitoba,2002,6.25
+New Brunswick,2002,5.9
+Newfoundland & Labrador,2002,5.5
+Northwest,2002,7.0
+Nova Scotia,2002,5.8
+Nunavut,2002,7.0
+Ontario,2002,6.85
+Prince Edward Island,2002,6.0
+Quebec,2002,7.0
+Saskatchewan,2002,6.0
+Yukon,2002,7.2
+Alberta,2003,5.9
+British Columbia,2003,8.0
+Manitoba,2003,6.5
+New Brunswick,2003,6.0
+Newfoundland & Labrador,2003,6.0
+Northwest,2003,7.0
+Nova Scotia,2003,6.0
+Nunavut,2003,7.0
+Ontario,2003,6.85
+Prince Edward Island,2003,6.25
+Quebec,2003,7.2
+Saskatchewan,2003,6.65
+Yukon,2003,7.2
+Alberta,2004,5.9
+British Columbia,2004,8.0
+Manitoba,2004,6.75
+New Brunswick,2004,6.2
+Newfoundland & Labrador,2004,6.0
+Northwest,2004,8.25
+Nova Scotia,2004,6.25
+Nunavut,2004,8.5
+Ontario,2004,6.85
+Prince Edward Island,2004,6.5
+Quebec,2004,7.3
+Saskatchewan,2004,6.65
+Yukon,2004,7.2
+Alberta,2005,5.9
+British Columbia,2005,8.0
+Manitoba,2005,7.0
+New Brunswick,2005,6.3
+Newfoundland & Labrador,2005,6.25
+Northwest,2005,8.25
+Nova Scotia,2005,6.5
+Nunavut,2005,8.5
+Ontario,2005,7.15
+Prince Edward Island,2005,6.8
+Quebec,2005,7.45
+Saskatchewan,2005,6.65
+Yukon,2005,7.2
+Alberta,2006,7.0
+British Columbia,2006,8.0
+Manitoba,2006,7.25
+New Brunswick,2006,6.5
+Newfoundland & Labrador,2006,6.5
+Northwest,2006,8.25
+Nova Scotia,2006,6.8
+Nunavut,2006,8.5
+Ontario,2006,7.45
+Prince Edward Island,2006,6.8
+Quebec,2006,7.6
+Saskatchewan,2006,7.05
+Yukon,2006,7.2
+Alberta,2007,7.0
+British Columbia,2007,8.0
+Manitoba,2007,7.6
+New Brunswick,2007,7.0
+Newfoundland & Labrador,2007,7.0
+Northwest,2007,8.25
+Nova Scotia,2007,7.15
+Nunavut,2007,8.5
+Ontario,2007,7.75
+Prince Edward Island,2007,7.15
+Quebec,2007,7.75
+Saskatchewan,2007,7.55
+Yukon,2007,8.25
+Alberta,2008,8.0
+British Columbia,2008,8.0
+Manitoba,2008,8.0
+New Brunswick,2008,7.0
+Newfoundland & Labrador,2008,7.5
+Northwest,2008,8.25
+Nova Scotia,2008,7.6
+Nunavut,2008,8.5
+Ontario,2008,8.0
+Prince Edward Island,2008,7.5
+Quebec,2008,8.0
+Saskatchewan,2008,7.95
+Yukon,2008,8.37
+Alberta,2009,8.4
+British Columbia,2009,8.0
+Manitoba,2009,8.5
+New Brunswick,2009,7.75
+Newfoundland & Labrador,2009,8.5
+Northwest,2009,8.25
+Nova Scotia,2009,8.1
+Nunavut,2009,10.0
+Ontario,2009,8.75
+Prince Edward Island,2009,8.0
+Quebec,2009,8.5
+Saskatchewan,2009,8.6
+Yukon,2009,8.59
+Alberta,2010,8.8
+British Columbia,2010,8.0
+Manitoba,2010,9.0
+New Brunswick,2010,8.0
+Newfoundland & Labrador,2010,9.5
+Northwest,2010,8.25
+Nova Scotia,2010,8.6
+Nunavut,2010,10.0
+Ontario,2010,9.5
+Prince Edward Island,2010,8.4
+Quebec,2010,9.0
+Saskatchewan,2010,9.25
+Yukon,2010,8.89
+Alberta,2011,8.8
+British Columbia,2011,8.0
+Manitoba,2011,9.5
+New Brunswick,2011,9.0
+Newfoundland & Labrador,2011,10.0
+Northwest,2011,9.0
+Nova Scotia,2011,9.65
+Nunavut,2011,11.0
+Ontario,2011,10.25
+Prince Edward Island,2011,9.0
+Quebec,2011,9.5
+Saskatchewan,2011,9.25
+Yukon,2011,8.93
+Alberta,2012,9.4
+British Columbia,2012,9.5
+Manitoba,2012,10.0
+New Brunswick,2012,9.5
+Newfoundland & Labrador,2012,10.0
+Northwest,2012,10.0
+Nova Scotia,2012,10.0
+Nunavut,2012,11.0
+Ontario,2012,10.25
+Prince Edward Island,2012,9.6
+Quebec,2012,9.65
+Saskatchewan,2012,9.5
+Yukon,2012,9.0
+Alberta,2013,9.75
+British Columbia,2013,10.25
+Manitoba,2013,10.25
+New Brunswick,2013,10.0
+Newfoundland & Labrador,2013,10.0
+Northwest,2013,10.0
+Nova Scotia,2013,10.15
+Nunavut,2013,11.0
+Ontario,2013,10.25
+Prince Edward Island,2013,10.0
+Quebec,2013,9.9
+Saskatchewan,2013,9.5
+Yukon,2013,10.3
+Alberta,2014,9.95
+British Columbia,2014,10.25
+Manitoba,2014,10.45
+New Brunswick,2014,10.0
+Newfoundland & Labrador,2014,10.0
+Northwest,2014,10.0
+Nova Scotia,2014,10.3
+Nunavut,2014,11.0
+Ontario,2014,10.25
+Prince Edward Island,2014,10.0
+Quebec,2014,10.15
+Saskatchewan,2014,10.0
+Yukon,2014,10.54
+Alberta,2015,10.2
+British Columbia,2015,10.25
+Manitoba,2015,10.7
+New Brunswick,2015,10.3
+Newfoundland & Labrador,2015,10.25
+Northwest,2015,10.0
+Nova Scotia,2015,10.4
+Nunavut,2015,11.0
+Ontario,2015,11.0
+Prince Edward Island,2015,10.35
+Quebec,2015,10.35
+Saskatchewan,2015,10.2
+Yukon,2015,10.72
+Alberta,2016,11.2
+British Columbia,2016,10.45
+Manitoba,2016,11.0
+New Brunswick,2016,10.3
+Newfoundland & Labrador,2016,10.5
+Northwest,2016,12.5
+Nova Scotia,2016,10.6
+Nunavut,2016,11.0
+Ontario,2016,11.25
+Prince Edward Island,2016,10.5
+Quebec,2016,10.55
+Saskatchewan,2016,10.5
+Yukon,2016,10.86
+Alberta,2017,12.2
+British Columbia,2017,10.85
+Manitoba,2017,11.0
+New Brunswick,2017,10.65
+Newfoundland & Labrador,2017,10.5
+Northwest,2017,12.5
+Nova Scotia,2017,10.7
+Nunavut,2017,13.0
+Ontario,2017,11.4
+Prince Edward Island,2017,11.0
+Quebec,2017,10.75
+Saskatchewan,2017,10.72
+Yukon,2017,11.07
+Alberta,2018,13.6
+British Columbia,2018,11.35
+Manitoba,2018,11.15
+New Brunswick,2018,11.0
+Newfoundland & Labrador,2018,10.75
+Northwest,2018,12.5
+Nova Scotia,2018,10.85
+Nunavut,2018,13.0
+Ontario,2018,11.6
+Prince Edward Island,2018,11.25
+Quebec,2018,11.25
+Saskatchewan,2018,10.96
+Yukon,2018,11.32
+Alberta,2019,15.0
+British Columbia,2019,12.65
+Manitoba,2019,11.35
+New Brunswick,2019,11.25
+Newfoundland & Labrador,2019,11.15
+Northwest,2019,13.46
+Nova Scotia,2019,11.0
+Nunavut,2019,13.0
+Ontario,2019,14.0
+Prince Edward Island,2019,11.55
+Quebec,2019,12.0
+Saskatchewan,2019,11.06
+Yukon,2019,11.51
+Alberta,2020,15.0
+British Columbia,2020,13.85
+Manitoba,2020,11.65
+New Brunswick,2020,11.5
+Newfoundland & Labrador,2020,11.15
+Northwest,2020,13.46
+Nova Scotia,2020,11.55
+Nunavut,2020,13.0
+Ontario,2020,14.0
+Prince Edward Island,2020,12.25
+Quebec,2020,12.5
+Saskatchewan,2020,11.32
+Yukon,2020,12.71
+Alberta,2021,15.0
+British Columbia,2021,14.6
+Manitoba,2021,11.9
+New Brunswick,2021,11.7
+Newfoundland & Labrador,2021,12.15
+Northwest,2021,13.46
+Nova Scotia,2021,12.55
+Nunavut,2021,16.0
+Ontario,2021,14.25
+Prince Edward Island,2021,12.85
+Quebec,2021,13.1
+Saskatchewan,2021,11.45
+Yukon,2021,13.71
+Alberta,2022,15.0
+British Columbia,2022,15.2
+Manitoba,2022,11.95
+New Brunswick,2022,11.75
+Newfoundland & Labrador,2022,12.75
+Northwest,2022,15.2
+Nova Scotia,2022,12.95
+Nunavut,2022,16.0
+Ontario,2022,15.0
+Prince Edward Island,2022,13.0
+Quebec,2022,13.5
+Saskatchewan,2022,11.81
+Yukon,2022,15.2
+Alberta,2023,15.0
+British Columbia,2023,15.65
+Manitoba,2023,13.5
+New Brunswick,2023,13.75
+Newfoundland & Labrador,2023,13.7
+Northwest,2023,15.2
+Nova Scotia,2023,13.6
+Nunavut,2023,16.0
+Ontario,2023,15.5
+Prince Edward Island,2023,14.5
+Quebec,2023,14.25
+Saskatchewan,2023,13.0
+Yukon,2023,15.7
+Alberta,2024,15.0
+British Columbia,2024,16.75
+Manitoba,2024,15.3
+New Brunswick,2024,14.75
+Newfoundland & Labrador,2024,15.0
+Northwest,2024,16.05
+Nova Scotia,2024,15.0
+Nunavut,2024,16.0
+Ontario,2024,16.55
+Prince Edward Island,2024,15.0
+Quebec,2024,15.25
+Saskatchewan,2024,14.0
+Yukon,2024,16.77
+Alberta,2025,15.0
+British Columbia,2025,17.4
+Manitoba,2025,15.8
+New Brunswick,2025,15.3
+Newfoundland & Labrador,2025,15.6
+Northwest,2025,16.7
+Nova Scotia,2025,15.2
+Nunavut,2025,19.0
+Ontario,2025,17.2
+Prince Edward Island,2025,16.0
+Quebec,2025,15.75
+Saskatchewan,2025,15.0
+Yukon,2025,17.59

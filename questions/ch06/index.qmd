@@ -1,0 +1,77 @@
+---
+format: 
+  revealjs:
+    theme: [default, hygge.scss]
+    center-title-slide: false
+    slide-number: true
+    height: 900
+    width: 1600
+    chalkboard:
+      theme: whiteboard
+      src: drawings.json
+    post-render: "scripts/decktape.sh"
+editor: visual
+---
+
+<h1>Chapter 6: Labour Supply and Early Career Decisions — In-Class Questions</h1>
+
+<hr>
+
+<h2>EC306- Wages and Employment</h2>
+
+<h2>Justin Smith</h2>
+
+<h2>Wilfrid Laurier University</h2>
+
+<h2>Fall 2026</h2>
+
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+
+<!-- NOTE: problem and review-question numbers below are 9th-edition numbering.
+     The chapter number has been updated to the 2026 release, but the problem
+     numbers themselves have NOT been verified against the new edition. -->
+
+
+## BFGLSS Chapter 6 Problem 1
+
+The evaluation of the labour supply response to a tax cut can be quite different in a dynamic setting from what it is in a static setting. Discuss the relative impact of a permanent versus transitory tax cut on labour supply, and compare the analysis to the static model.
+
+## BFGLSS Chapter 6 Problem 2
+
+Consider the two-period dynamic labour supply model discussed in this chapter. What, if anything, happens to current labour supply if the interest rate rises from 2 percent to 10 percent?
+
+## BFGLSS Chapter 6 Problem 4
+
+Use your knowledge of household production theory to indicate the following
+
+a\) The expected effect of a wage increase on the wife's labour supply
+
+## BFGLSS Chapter 6 Problem 4
+
+b\) The expected effect on the demand for children of an increase in the wage of a wife
+
+## BFGLSS Chapter 6 Problem 4
+
+c\) Why the substitution effect for labour supply may be larger for women than men
+
+## BFGLSS Chapter 6 Problem 4
+
+d\) The effect on one spouse's labour supply of his or her spouse's disability where the spouse requires home care
+
+## BFGLSS Chapter 6 Problem 4
+
+e\) The effect on this same spouse's labour supply if the government provided financial compensation to the family
+
+## MC1
+
+Which of the following statements concerning subsidies for child care expenses is true?
+
+a\) They change the slope of the budget line.
+
+b\) They reduce the fixed costs of working.
+
+c\) They discourage labour force participation.
+
+d\) They tend to increase the reservation wage of working.
+
+e\) They cause a strong substitution effect toward more working activity.

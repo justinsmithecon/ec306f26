@@ -1,0 +1,44 @@
+---
+format: 
+  revealjs:
+    theme: [default, hygge.scss]
+    center-title-slide: false
+    slide-number: true
+    height: 900
+    width: 1600
+    chalkboard:
+      theme: whiteboard
+      src: drawings.json
+    post-render: "scripts/decktape.sh"
+editor: visual
+---
+
+<h1>Chapter 3: Labour Supply — In-Class Questions</h1>
+
+<hr>
+
+<h2>EC306- Wages and Employment</h2>
+
+<h2>Justin Smith</h2>
+
+<h2>Wilfrid Laurier University</h2>
+
+<h2>Fall 2026</h2>
+
+![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+
+<!-- VERIFIED against the 2026 release (Chapter 3, Problems, pp. 62-63).
+     Still Problem 3. Wording and dollar figures updated: the wage is now $20/hr
+     (was $7.50) and the part-time wage $18 (was $7). -->
+
+
+
+## BFGLSS Chapter 3 Problem 3
+
+Consider two individuals with endowments of $T=60$ hours (per week) of leisure time, nonlabour income of Y, and a wage of \$20 per hour.  At this wage, assume that workers are constrained by their employers to work 40 hours per week or not at all.
+
+a. On a carefully labelled diagram, show the equilibrium for a worker for whom 40 hours is the optimum labour supply and a worker who would like to work 20 hours, but still prefers the 40-hour week to not working.  Compare the marginal rates of substitution for these individuals at 40 hours per week.
+
+
+## BFGLSS Chapter 3 Problem 3
+b. The average part-time wage is \$18 per hour (with flexible hours), in contrast to the \$20 wage for full-time workers.  Using the above model, provide an explanation for this difference in wage rates.
