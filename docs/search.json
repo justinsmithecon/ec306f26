@@ -5058,7 +5058,7 @@
     "href": "slides/ch03/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nIntroduce common labour market concepts\nBuild the labour supply model\nDerive labour supply curve\nExamine effects of labour market policies within that model"
+    "text": "Goals of This Section\nIn this section we will:\n\nBuild the labour supply model\nDerive the labour supply curve\nExamine effects of labour market policies within that model"
   },
   {
     "objectID": "slides/ch03/index.html#introduction",
@@ -5163,7 +5163,7 @@
     "href": "slides/ch03/index.html#preferences-1",
     "title": "EC306 - Wages and Employment",
     "section": "Preferences",
-    "text": "Preferences\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOn the left is a single indifference curve\nAny point represents equal utility (\\(U_{0}\\))\n\n\n\n\n\n\n\nKey Definition\n\n\nMarginal Rate of Substitution (MRS): the rate at which a person is willing to trade consumption for leisure while remaining equally happy\n\n\n\n\nThe MRS is the slope of the indifference curve at a point\nIndividuals have diminishing MRS\n\nWilling to give up less consumption for additional leisure the more leisure they already have\nSlope gets shallower with more leisure"
+    "text": "Preferences\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOn the left is a single indifference curve\nAny point represents equal utility (\\(U_{0}\\))\n\n\n\n\n\n\n\nKey Definition\n\n\nMarginal Rate of Substitution (MRS): the rate at which a person is willing to trade consumption for leisure while remaining equally happy\n\n\n\n\nThe MRS is the slope of the indifference curve at a point\nIndividuals have diminishing MRS\n\nWilling to give up less consumption for additional leisure the more leisure they already have\nSlope gets shallower with more leisure"
   },
   {
     "objectID": "slides/ch03/index.html#preferences-2",
@@ -5191,7 +5191,7 @@
     "href": "slides/ch03/index.html#constraints-1",
     "title": "EC306 - Wages and Employment",
     "section": "Constraints",
-    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows a linear budget constraint\nAssume no saving, so consumption = income\nThere are \\(T\\) total hours to allocate to work or leisure\nIndividual earns \\(Y_{n}\\) non-labour income\n\nEarned even with zero work hours (full leisure hours)\n\nEach hour worked gets wage of \\(w\\)\nPerson working \\(T\\) hours (no leisure) earns \\(wT+Y_{n}\\) income\n\nCalled \"full income\""
+    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows a linear budget constraint\nAssume no saving, so consumption = income\nThere are \\(T\\) total hours to allocate to work or leisure\nIndividual earns \\(Y_{n}\\) non-labour income\n\nEarned even with zero work hours (full leisure hours)\n\nEach hour worked gets wage of \\(w\\)\nPerson working \\(T\\) hours (no leisure) earns \\(wT+Y_{n}\\) income\n\nCalled \"full income\""
   },
   {
     "objectID": "slides/ch03/index.html#constraints-2",
@@ -5205,14 +5205,14 @@
     "href": "slides/ch03/index.html#constraints-3",
     "title": "EC306 - Wages and Employment",
     "section": "Constraints",
-    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nSlope is the negative of the wage rate \\(w\\)\nA lower wage means shallower slope\n\nIf \\(w_{1} &lt; w_{0}\\), the budget line swivels down\nThey intersect at leisure = \\(T\\) because there are no work hours\n\nLower wage also means full income is lower\n\nWorking all hours leads to less total labour earnings"
+    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nSlope is the negative of the wage rate \\(w\\)\nA lower wage means shallower slope\n\nIf \\(w_{1} &lt; w_{0}\\), the budget line swivels down\nThey intersect at leisure = \\(T\\) because there are no work hours\n\nLower wage also means full income is lower\n\nWorking all hours leads to less total labour earnings"
   },
   {
     "objectID": "slides/ch03/index.html#constraints-4",
     "href": "slides/ch03/index.html#constraints-4",
     "title": "EC306 - Wages and Employment",
     "section": "Constraints",
-    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOften people cannot adjust their work hours freely\nThey may only be able to work full time or part time\nBudget constraint is no longer a line, but a set of points\nSuppose an individual chooses part time work\n\nWork hours are \\(h_{p} = T-L_{p}\\)\nLabour earnings are \\(I_{p} = w*h_{p}\\)\nTotal consumption (and income) is \\(C_{p} = I_{p} + Y_{n}\\)"
+    "text": "Constraints\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nOften people cannot adjust their work hours freely\nThey may only be able to work full time or part time\nBudget constraint is no longer a line, but a set of points\nSuppose an individual chooses part time work\n\nWork hours are \\(h_{p} = T-L_{p}\\)\nLabour earnings are \\(I_{p} = w*h_{p}\\)\nTotal consumption (and income) is \\(C_{p} = I_{p} + Y_{n}\\)"
   },
   {
     "objectID": "slides/ch03/index.html#constraints-5",
@@ -5240,14 +5240,14 @@
     "href": "slides/ch03/index.html#consumer-optimum-2",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nReservation wage: the lowest wage at which a person will choose to work\n\n\n\n\nIt occurs where the budget constraint is tangent to the indifference curve at full leisure\n\nAt that point, MRS = reservation wage\n\nIf the wage is any lower, the person will choose not to work\nIf it is any higher, they will work positive hours\nThe red line shows the hypothetical reservation wage\n\nIn this case, it is \\(w_{r}\\)"
+    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nReservation wage: the lowest wage at which a person will choose to work\n\n\n\n\nIt occurs where the budget constraint is tangent to the indifference curve at full leisure\n\nAt that point, MRS = reservation wage\n\nIf the wage is any lower, the person will choose not to work\nIf it is any higher, they will work positive hours\nThe red line shows the hypothetical reservation wage\n\nIn this case, it is \\(w_{r}\\)"
   },
   {
     "objectID": "slides/ch03/index.html#consumer-optimum-3",
     "href": "slides/ch03/index.html#consumer-optimum-3",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph to the left shows a non-participation optimum\nThe slope of the indifference curve is steeper than the budget constraint at full leisure\n\nThe extra consumption you want from one less hour of leisure (MRS) is more than you can get from working an hour (wage)\n\nSo your optimal choice is to not work at all\nIndifference curve touches the budget constraint at the kink\nNotice the wage \\(w_{0}\\) is lower than the reservation wage \\(w_{r}\\)"
+    "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph to the left shows a non-participation optimum\nThe slope of the indifference curve is steeper than the budget constraint at full leisure\n\nThe extra consumption you want from one less hour of leisure (MRS) is more than you can get from working an hour (wage)\n\nSo your optimal choice is to not work at all\nIndifference curve touches the budget constraint at the kink\nNotice the wage \\(w_{0}\\) is lower than the reservation wage \\(w_{r}\\)"
   },
   {
     "objectID": "slides/ch03/index.html#section-1",
@@ -5275,21 +5275,21 @@
     "href": "slides/ch03/index.html#increase-in-non-labour-income-1",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in Non-Labour Income",
-    "text": "Increase in Non-Labour Income\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an increase in non-labour income from \\(Y_{n0}\\) to \\(Y_{n1}\\)\nBudget line shifts up vertically but parallel\n\nNo change in slope because wage is the same\n\nIf leisure is a normal good, optimal leisure increases from \\(L_{0}\\) to \\(L_{1}\\)\nMeans work hours decrease by the same amount\nConsumption also increases\nThis illustrates a pure income effect\n\nIncreases in income increase demand for normal goods"
+    "text": "Increase in Non-Labour Income\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows an increase in non-labour income from \\(Y_{n0}\\) to \\(Y_{n1}\\)\nBudget line shifts up vertically but parallel\n\nNo change in slope because wage is the same\n\nIf leisure is a normal good, optimal leisure increases from \\(L_{0}\\) to \\(L_{1}\\)\nMeans work hours decrease by the same amount\nConsumption also increases\nThis illustrates a pure income effect\n\nIncreases in income increase demand for normal goods"
   },
   {
     "objectID": "slides/ch03/index.html#increase-in-the-wage",
     "href": "slides/ch03/index.html#increase-in-the-wage",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the wage changes, the budget constraint pivots\nIn graph to the left, the wage increases from \\(w_{0}\\) to \\(w_{1}\\)\nThe slope becomes steeper\nFull income also increases because working all hours earns more\nGraph is drawn such that leisure falls from \\(L_{0}\\) to \\(L_{1}\\) at the new wage rate\nThere are two effects underlying this change\n\nSubstitution effect\nIncome effect"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the wage changes, the budget constraint pivots\nIn graph to the left, the wage increases from \\(w_{0}\\) to \\(w_{1}\\)\nThe slope becomes steeper\nFull income also increases because working all hours earns more\nGraph is drawn such that leisure falls from \\(L_{0}\\) to \\(L_{1}\\) at the new wage rate\nThere are two effects underlying this change\n\nSubstitution effect\nIncome effect"
   },
   {
     "objectID": "slides/ch03/index.html#increase-in-the-wage-1",
     "href": "slides/ch03/index.html#increase-in-the-wage-1",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nSubstitution Effect: change in leisure when wage changes but utility is held constant\n\n\n\n\nWhen wage increases, leisure becomes more expensive\nPeople substitute away from leisure and towards consumption\nTo measure this, draw a hypothetical budget line with the new slope but tangent to the original indifference curve\nDifference in leisure measures substitution effect"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nSubstitution Effect: change in leisure when wage changes but utility is held constant\n\n\n\n\nWhen wage increases, leisure becomes more expensive\nPeople substitute away from leisure and towards consumption\nTo measure this, draw a hypothetical budget line with the new slope but tangent to the original indifference curve\nDifference in leisure measures substitution effect"
   },
   {
     "objectID": "slides/ch03/index.html#increase-in-the-wage-2",
@@ -5303,14 +5303,14 @@
     "href": "slides/ch03/index.html#increase-in-the-wage-3",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nThe income and substitution effects move in opposite directions\nFor a wage increase\n\nSubstitution effect encourages more work (less leisure)\nIncome effect encourages less work (more leisure)\n\nThe overall effect on work hours depends on which effect is stronger\nGraph on the left shows a stronger substitution effect"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nThe income and substitution effects move in opposite directions\nFor a wage increase\n\nSubstitution effect encourages more work (less leisure)\nIncome effect encourages less work (more leisure)\n\nThe overall effect on work hours depends on which effect is stronger\nGraph on the left shows a stronger substitution effect"
   },
   {
     "objectID": "slides/ch03/index.html#increase-in-the-wage-4",
     "href": "slides/ch03/index.html#increase-in-the-wage-4",
     "title": "EC306 - Wages and Employment",
     "section": "Increase in the Wage",
-    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nChanging the wage can also affect participation\nRecall that workers do not work if the wage is below their reservation wage\nIf an increase in the wage moves it above the reservation wage, they will start working\nGraph to the left shows how this would happen"
+    "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nChanging the wage can also affect participation\nRecall that workers do not work if the wage is below their reservation wage\nIf an increase in the wage moves it above the reservation wage, they will start working\nGraph to the left shows how this would happen"
   },
   {
     "objectID": "slides/ch03/index.html#section-2",
@@ -5366,7 +5366,7 @@
     "href": "slides/ch03/index.html#participation",
     "title": "EC306 - Wages and Employment",
     "section": "Participation",
-    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, children, education, spousal income\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\n\n\n\n\n\n\n\nWarning\n\n\nThis is not a perfect way to examine this relationship — there could be other related factors that drive participation"
+    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, children, education, spousal income\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\n\n\n\n\n\n\n\nWarning\n\n\nThis is not a perfect way to examine this relationship — there could be other related factors that drive participation"
   },
   {
     "objectID": "slides/ch03/index.html#participation-1",
@@ -5394,7 +5394,7 @@
     "href": "slides/ch03/index.html#elasticity-of-labour-supply-2",
     "title": "EC306 - Wages and Employment",
     "section": "Elasticity of Labour Supply",
-    "text": "Elasticity of Labour Supply\n\nTable above shows summary of uncompensated and compensated elasticities from different studies\nSeparates by gender\n\nWe might expect men and women to respond differently to wage changes\nWomen potentially have more flexibility in work hours and respond more\n\nTable shows uniformly inelastic labour supply\n\nElasticity less than 1 in absolute value\nA 1% increase in wage leads to roughly 0.1% to 0.3% change in work hours\n\nCompensated elasticity is positive\n\nWomen respond more to wage changes\n\nIncome effect is generally negative or small"
+    "text": "Elasticity of Labour Supply\n\nTable above shows summary of uncompensated and compensated elasticities from different studies\nSeparates by gender\n\nWe might expect men and women to respond differently to wage changes\nWomen potentially have more flexibility in work hours and respond more\n\nTable shows uniformly inelastic labour supply\n\nElasticity less than 1 in absolute value\nA 1% increase in wage leads to roughly 0.1% to 0.3% change in work hours\n\nCompensated elasticity is positive\n\nWomen respond more to wage changes\n\nIncome effect is generally negative or small"
   },
   {
     "objectID": "slides/ch03/index.html#introduction-4",
@@ -5422,21 +5422,21 @@
     "href": "slides/ch03/index.html#added-worker-effect-2",
     "title": "EC306 - Wages and Employment",
     "section": "Added Worker Effect",
-    "text": "Added Worker Effect\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the spouse was not already working, the fall in income can induce participation\nHappens because the fall in income reduces the reservation wage\n\nIf the wage is now above the reservation wage, they will start working\n\nGraph to the left shows how this happens\n\nThe slope of reservation wage \\(R_{1}\\) is smaller than \\(R_{0}\\) after the drop in non-labour income\nPerson enters the labour market in response because wage is now above reservation wage"
+    "text": "Added Worker Effect\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the spouse was not already working, the fall in income can induce participation\nHappens because the fall in income reduces the reservation wage\n\nIf the wage is now above the reservation wage, they will start working\n\nGraph to the left shows how this happens\n\nThe slope of reservation wage \\(R_{1}\\) is smaller than \\(R_{0}\\) after the drop in non-labour income\nPerson enters the labour market in response because wage is now above reservation wage"
   },
   {
     "objectID": "slides/ch03/index.html#hidden-unemployment",
     "href": "slides/ch03/index.html#hidden-unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Hidden Unemployment",
-    "text": "Hidden Unemployment\n\nWe discussed a problem with the unemployment rate in that it does not include discouraged workers\n\n\n\n\n\n\n\nKey Definition\n\n\nDiscouraged workers: people who could work but have given up looking and dropped out of the labour force\n\n\n\n\nOur model can explain this behaviour\nIn bad times, the wage falls\nIf the wage falls below a person’s reservation wage, they will drop out of the labour force"
+    "text": "Hidden Unemployment\n\nWe discussed a problem with the unemployment rate in that it does not include discouraged workers\n\n\n\n\n\n\n\nKey Definition\n\n\nDiscouraged workers: people who could work but have given up looking and dropped out of the labour force\n\n\n\n\nOur model can explain this behaviour\nIn bad times, the wage falls\nIf the wage falls below a person’s reservation wage, they will drop out of the labour force"
   },
   {
     "objectID": "slides/ch03/index.html#hidden-unemployment-1",
     "href": "slides/ch03/index.html#hidden-unemployment-1",
     "title": "EC306 - Wages and Employment",
     "section": "Hidden Unemployment",
-    "text": "Hidden Unemployment\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows worker initially working positive hours\nWage falls from \\(w_{0}\\) to \\(w_{1}\\)\n\\(w_{1}\\) is below the reservation wage \\(w_{r}\\)\n\nThe person will drop out of the labour force\n\nNow use all their time for leisure\n\nConsume non-labour income \\(Y_{n}\\)"
+    "text": "Hidden Unemployment\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows worker initially working positive hours\nWage falls from \\(w_{0}\\) to \\(w_{1}\\)\n\\(w_{1}\\) is below the reservation wage \\(w_{r}\\)\n\nThe person will drop out of the labour force\n\nNow use all their time for leisure\n\nConsume non-labour income \\(Y_{n}\\)"
   },
   {
     "objectID": "slides/ch03/index.html#moonlighting",
@@ -5450,7 +5450,7 @@
     "href": "slides/ch03/index.html#moonlighting-1",
     "title": "EC306 - Wages and Employment",
     "section": "Moonlighting",
-    "text": "Moonlighting\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph people ideally would work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nCan only work \\(h_f = T- L_f\\) hours at their main job\n\nEmployer does not allow more hours\n\nThis puts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
+    "text": "Moonlighting\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph people ideally would work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nCan only work \\(h_f = T- L_f\\) hours at their main job\n\nEmployer does not allow more hours\n\nThis puts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
   },
   {
     "objectID": "slides/ch03/index.html#moonlighting-2",
@@ -5478,7 +5478,7 @@
     "href": "slides/ch03/index.html#overtime-1",
     "title": "EC306 - Wages and Employment",
     "section": "Overtime",
-    "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph, people would ideally work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nBut employer requires them to work \\(h_f = T- L_f\\) hours\n\nEmployer does not allow fewer hours\n\nPuts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
+    "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph, people would ideally work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nBut employer requires them to work \\(h_f = T- L_f\\) hours\n\nEmployer does not allow fewer hours\n\nPuts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
   },
   {
     "objectID": "slides/ch03/index.html#overtime-2",
