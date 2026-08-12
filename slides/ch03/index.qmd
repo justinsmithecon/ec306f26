@@ -200,6 +200,22 @@ Ask what is wrong with this before moving on. Two people is not a sample. They a
 ::::
 ::::
 
+## Preferences
+
+- We cannot compare [utility levels]{.fg style="color: #2780e3;"} across two people
+  - Nothing says A's $U_{1}$ is more happiness than B's $U_{1}$
+- We can compare the [MRS]{.fg style="color: #2780e3;"} at the same bundle
+- Take one consumption-leisure bundle $J$ and hand it to individual A and individual B
+  - A's curve is steeper through $J$, so A has the higher MRS there
+  - A values an extra hour of leisure more than B does at that point
+- Moving A from $L_{0}$ to $L_{1}$ takes more consumption than moving B the same distance
+- This is how [differing tastes for leisure]{.fg style="color: #2780e3;"} get into the model
+  - Whatever makes non-work time valuable, like unpaid work at home, shows up in the MRS
+
+::: {.notes}
+Two people, one bundle, different curve running through it — that is the whole device. Lead with the first line, because students assume utility numbers are comparable across people and they are not. The MRS is a rate, and rates we can compare. Worth saying why we bother: this is the only place heterogeneity lives in a model that otherwise has one representative person. Every later claim about who participates and who does not is a claim about somebody's MRS at full leisure.
+:::
+
 ## Constraints
 
 - Individuals do not choose consumption and leisure bundles on preference alone
@@ -302,6 +318,24 @@ $$C = w(T - L) + Y_{n}$$
 - In theory wage could also be different for full time work
 ::::
 ::::
+
+## Constraints
+
+- The potential income constraint does not have to be a straight line
+- A straight line assumes every extra hour pays the same $w$
+- That fails for the [self-employed]{.fg style="color: #2780e3;"} — think of a doctor or a lawyer
+  - They sell the output they produce, not their hours
+  - Income is a function of hours worked, $I = F(h)$
+- Past some point they run into [diminishing marginal productivity]{.fg style="color: #2780e3;"}
+  - Each extra hour adds less output than the one before it
+  - So the constraint curves, flattening out as work hours rise
+- The wage here is what the market pays for an hour's worth of what they produce
+- Nothing about the model changes — the optimum is still a tangency
+  - It is only harder to work with algebraically
+
+::: {.notes}
+Ask them where the straight line came from. It came from assuming the wage is a constant, which is a fine description of an hourly job and a poor one for anybody selling output. The self-employed case is the natural counterexample, and it is worth saying that the curvature is diminishing marginal product showing up in the budget set rather than anything new about preferences. Reassure them on the last point: we are not going to solve these, we just want them to recognise a curved constraint when they meet one.
+:::
 
 ## Consumer Optimum
 
@@ -522,6 +556,23 @@ Suppose a person receives a large inheritance, increasing their non-labour incom
 - Graph on the left shows a stronger substitution effect
 ::::
 ::::
+
+## Evidence from Taxi and Uber Drivers
+
+- Theory will not say which effect wins, so we need workers who really do pick their hours
+  - The [self-employed]{.fg style="color: #2780e3;"} do, which is why cab drivers keep turning up here
+- A cold, rainy day in New York is a high-wage day — is it a good day to knock off early?
+- Early studies said yes: hours fell when returns rose, so the [income effect]{.fg style="color: #2780e3;"} was winning
+  - But they built the wage by dividing earnings by hours, which biases the estimate
+- Farber redid it on complete records of New York taxi trips, 2009 to 2013
+  - Fix the wage measure and the elasticities turn positive — better day, longer hours
+- Uber is a cleaner test, because [surge pricing]{.fg style="color: #2780e3;"} moves the wage hour by hour
+  - Chen and coauthors find very large short-run elasticities, a strong [substitution&nbsp;effect]{.fg style="color: #2780e3;"}
+- [Source: Farber (2015); Chen et al. (2019)]{.fg style="color: #555;"}
+
+::: {.notes}
+This is where the ambiguity we flagged at the start stops being abstract. The old story about cabbies is that they drive until they hit their number for the day and then go home, which is the income effect taken to its extreme. Farber's point is subtler and worth spelling out: if you measure the wage as earnings divided by hours, then any measurement error in hours pushes the wage and hours in opposite directions and manufactures a negative elasticity. Clean that up and drivers behave the way the model says. Uber is the better laboratory because surge pricing changes the wage while nothing else about the day changes.
+:::
 
 ## Increase in the Wage
 
@@ -800,6 +851,24 @@ Generalization 4 is the interesting one. Married women's labour supply used to b
 ::::
 ::::
 
+## Mortgages and Participation
+
+- The added worker effect starts from a shock nobody planned for
+- A mortgage runs through the same channel, except the household signed up for it
+  - The payment is committed in advance, outside this month's choices
+  - So a larger payment behaves like [lower non-labour income]{.fg style="color: #2780e3;"}
+- That pushes the [reservation wage]{.fg style="color: #2780e3;"} down and can pull a spouse into work
+- Fortin sorted Canadian women in 1986 by the household's mortgage position
+  - The closer payments sat to the bank's limit, the sharper the rise in participation
+  - As large an effect as two preschool children, pointing the other way
+- Del Boca and Lusardi found the same in Italy when mortgage access widened
+- The caveat is that buying the house was itself a choice
+- [Source: Fortin (1995); Del Boca and Lusardi (2003)]{.fg style="color: #555;"}
+
+::: {.notes}
+The reason this sits next to the added worker effect is that both work by lowering income the household can spend on everything else, and both raise participation without anybody being better off. Do not let the caveat slide past. The job loss was done to the family; the mortgage was chosen by it, so the same rise in participation carries a different welfare reading. Fortin's own paper models the housing and labour supply decisions jointly for exactly this reason. The preschool children comparison is the line that lands — same magnitude, opposite sign.
+:::
+
 ## Rigid Schedules and Flexible Work Hours
 
 ::: {.callout-important}
@@ -921,7 +990,14 @@ During the COVID-19 pandemic, many households experienced both job losses (added
 
 - Benjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). *Labour Market Economics*, 2026 Release. McGraw Hill. Chapter 3.
 - Blau, F. D., & Kahn, L. M. (2007). Changes in the labor supply behavior of married women: 1980–2000. *Journal of Labor Economics*, 25(3), 393–438.
+- Chen, M. K., Chevalier, J. A., Rossi, P. E., & Oehlsen, E. (2019). The value of flexible work: Evidence from Uber drivers. *Journal of Political Economy*, 127(6), 2735–2794.
+- Del Boca, D., & Lusardi, A. (2003). Credit market constraints and labor market decisions. *Labour Economics*, 10(6), 681–703.
 - Dostie, B., & Kromann, L. (2013). Canadian estimates of married women's labour supply elasticities.
+- Farber, H. S. (2015). Why you can't find a taxi in the rain and other labor supply lessons from cab drivers. *Quarterly Journal of Economics*, 130(4), 1975–2026.
+
+## References (cont.) {.smaller}
+
+- Fortin, N. M. (1995). Allocation inflexibilities, female labor supply, and housing assets accumulation: Are women working to pay the mortgage? *Journal of Labor Economics*, 13(3), 524–557.
 - McClelland, R., & Mok, S. (2012). *A review of recent research on labor supply elasticities*. Congressional Budget Office Working Paper 2012-12.
 - Morissette, R., & Hou, F. (2008). Does the labour supply of wives respond to husbands' wages? Canadian evidence from micro data and grouped data. *Canadian Journal of Economics*, 41(4), 1185–1210.
 - Robbins, L. (1930). On the elasticity of demand for income in terms of effort. *Economica*, 29, 123–129.
