@@ -44,7 +44,7 @@ In this section we will:
 
 - Labour economics has a strongly [empirical]{.fg style="color: #2780e3;"} tilt
 - Comparing outcomes across regions tells us how differences in economic structure or policy matter for people's well-being
-- The first thing to describe is how [attached]{.fg style="color: #c7254e;"} people are to the labour market
+- The first thing to describe is how [attached]{.fg style="color: #2780e3;"} people are to the labour market
   - Do they participate in paid work, or spend time on unpaid work at home, retirement, volunteering, or school?
 
 ::: {.callout-important}
@@ -54,17 +54,17 @@ The [labour force participation decision]{.fg style="color: #2780e3;"} is whethe
 
 ## Participation Across Countries
 
-- There is [huge variation]{.fg style="color: #c7254e;"} across countries
+- There is huge variation across countries
   - From about 41% in Jordan to 87% in Iceland
-- Canada is relatively high at [80.3%]{.fg style="color: #555;"} in 2023 — nearly 7 points above the United States
+- Canada is relatively high at 80.3% in 2023 — nearly 7 points above the United States
 - Most of the cross-country variation comes from differences in [women's]{.fg style="color: #2780e3;"} participation
 - Countries with the largest gaps between men and women tend to have lower average incomes
   - Though there are important exceptions
 
 ## Participation and Economic Development
 
-- Plotting participation against log national income per capita, participation generally [rises]{.fg style="color: #5cb85c;"} with income for both men and women
-- But there is far more variation among [women]{.fg style="color: #c7254e;"} across countries with similar income
+- Plotting participation against log national income per capita, participation generally rises with income for both men and women
+- But there is far more variation among [women]{.fg style="color: #2780e3;"} across countries with similar income
   - Mozambique and Madagascar are low-income with very high women's participation
   - The gender gap in Mozambique is only 1.1 percentage points
 
@@ -78,11 +78,11 @@ The reasons are complex. We expect the availability of high-paying opportunities
 
 ## Differences Within Canada
 
-- Nearly [21 million]{.fg style="color: #c7254e;"} people were employed in Canada in 2024, unevenly distributed
+- Nearly 21 million people were employed in Canada in 2024, unevenly distributed
   - Ontario largest at about 8 million; Prince Edward Island smallest at 93,000
 - Most people work in [service]{.fg style="color: #2780e3;"} industries — about 80% nationally
   - Alberta is lower, because resource industries are a larger share of jobs
-- Populations differ too: median age is highest in Newfoundland and Labrador, lowest in&nbsp;Alberta
+- Populations differ too: median age is highest in Newfoundland and Labrador, lowest in&nbsp;Manitoba
 
 Both labour demand and supply differ by province, given who lives there.
 
@@ -117,7 +117,7 @@ Answer: B. Men's participation is relatively similar across countries; women's v
 
 - Before analyzing any market, we need the [context]{.fg style="color: #2780e3;"} in which people and firms decide
 - Institutions and legislation shape the employer–employee relationship
-- Rules do not just constrain behaviour — they change [wages and employment]{.fg style="color: #c7254e;"}
+- Rules do not just constrain behaviour — they change [wages and employment]{.fg style="color: #2780e3;"}
 
 ## Canada and Indigenous Peoples
 
@@ -133,7 +133,7 @@ We look at contemporary effects of Canada's historical policies in [Chapter 15]{
 
 [Which rules apply at work?]{.fg style="color: #2780e3;"}
 
-- Employment relationships follow the same legislation as everyone else, depending on [industry]{.fg style="color: #555;"}
+- Employment relationships follow the same legislation as everyone else, depending on [industry]{.fg style="color: #2780e3;"}
   - Federal jurisdiction covers band councils and Indigenous self-governments
 
 [Taxation:]{.fg style="color: #2780e3;"}
@@ -144,7 +144,7 @@ We look at contemporary effects of Canada's historical policies in [Chapter 15]{
 ## Federal and Provincial Jurisdiction
 
 - The *British North America Act* of 1867 divided power between the two levels of government
-- Which government regulates your job depends on [what industry you work in]{.fg style="color: #c7254e;"}, not where you&nbsp;live
+- Which government regulates your job depends on [what industry you work in]{.fg style="color: #2780e3;"}, not where you&nbsp;live
 
 [Federal jurisdiction]{.fg style="color: #2780e3;"} covers the federal public service plus a short list of industries:
 
@@ -153,7 +153,7 @@ We look at contemporary effects of Canada's historical policies in [Chapter 15]{
 - Banks — but [not]{.fg style="color: #c7254e;"} credit unions
 - Postal and courier services
 
-The provinces have [everything else]{.fg style="color: #5cb85c;"} — the large majority of workers.
+The provinces have everything else — the large majority of workers.
 
 ## The Canada Labour Code
 
@@ -174,7 +174,7 @@ Not every part applies to every worker: federal private sector gets all four, th
 - Each province has an [*Employment Standards Act*]{.fg style="color: #2780e3;"} or *Code* setting rules on:
   - Minimum wages, vacation time, parental and sick leave
   - Termination of employment, limits on hours
-- We care because these rules change the decisions of workers and firms — and therefore [wages and employment]{.fg style="color: #c7254e;"}
+- We care because these rules change the decisions of workers and firms — and therefore [wages and employment]{.fg style="color: #2780e3;"}
 
 ## Minimum Wages in Canada, 2025
 
@@ -215,7 +215,7 @@ We analyze minimum wages properly in [Chapter 12]{.fg style="color: #555;"}.
 ## Employment Equity vs. Pay Equity
 [Employment equity]{.fg style="color: #2780e3;"} removes barriers to employment for designated groups — women, Indigenous Peoples, persons with disabilities, and members of visible minorities.
 
-[Pay equity]{.fg style="color: #5cb85c;"} requires that women and men receive the same pay for work of [equal value]{.fg style="color: #555;"}.
+[Pay equity]{.fg style="color: #2780e3;"} requires that women and men receive the same pay for work of [equal value]{.fg style="color: #2780e3;"}.
 :::
 
 - The *Canadian Human Rights Act* protects against discrimination on grounds including race, religion, age, sex, sexual orientation, gender identity, disability, and family status
@@ -242,12 +242,12 @@ Answer: B. Banks are federal, but credit unions are explicitly not. This is the 
 Labour economists catalogue data by the [unit of observation]{.fg style="color: #2780e3;"}.
 
 - [Aggregate (time-series)]{.fg style="color: #555;"} — economy-wide measures like the unemployment rate, inflation, or GDP, reported over time
-- [Cross-section microdata]{.fg style="color: #555;"} — earnings, hours, or education at the [individual level]{.fg style="color: #c7254e;"} at one point in&nbsp;time
+- [Cross-section microdata]{.fg style="color: #555;"} — earnings, hours, or education at the [individual level]{.fg style="color: #2780e3;"} at one point in&nbsp;time
 - [Panel (longitudinal)]{.fg style="color: #555;"} — the *same* individuals followed over several periods
 
 ## Why Panel Data Matter
 
-- Panel data let us study [dynamics]{.fg style="color: #c7254e;"} — transitions into and out of the labour market
+- Panel data let us study [dynamics]{.fg style="color: #2780e3;"} — transitions into and out of the labour market
 - They also let us control for things we normally cannot observe but that are [fixed]{.fg style="color: #2780e3;"} within a person, like motivation
 - Few Canadian surveys are longitudinal, and access is restricted for privacy
   - The [Longitudinal Administrative Database]{.fg style="color: #555;"} follows income through tax records
@@ -263,7 +263,7 @@ Increasingly researchers combine sources, including "big data" like online job a
   - Monthly, about 68,000 households and 100,000 individuals aged 15+
   - Its main purpose is the official unemployment rate used to administer EI
   - Coverage excludes reserves and extremely remote areas
-- The [Census]{.fg style="color: #2780e3;"} runs every five years — most recently 2021, next in May 2026
+- The [Census]{.fg style="color: #2780e3;"} runs every five years — most recently in May&nbsp;2026
   - Adds characteristics the LFS does not have: ethnicity, language, country of birth
 - The [Canadian Income Survey (CIS)]{.fg style="color: #2780e3;"} is annual, with much more detail on earnings and family&nbsp;circumstances
 
@@ -292,7 +292,7 @@ $$LFPR = LF/POP$$
 
 :::: columns
 :::: {.column width="50%"}
-[Eligible population (POP)]{.fg style="color: #5cb85c;"}
+[Eligible population (POP)]{.fg style="color: #2780e3;"}
 
 - Aged 15 and over
 - Non-institutionalized
@@ -301,7 +301,7 @@ $$LFPR = LF/POP$$
 ::::
 
 :::: {.column width="50%"}
-[Not in the labour force]{.fg style="color: #c7254e;"}
+[Not in the labour force]{.fg style="color: #2780e3;"}
 
 - Retired people
 - Unpaid work in the home
@@ -322,7 +322,7 @@ People in the labour force are either [employed]{.fg style="color: #5cb85c;"} or
 
 $$ER = E/POP \qquad UR = U/LF$$
 
-- People also choose [how intensively]{.fg style="color: #c7254e;"} to work — full time or part time — which we measure with hours worked
+- People also choose [how intensively]{.fg style="color: #2780e3;"} to work — full time or part time — which we measure with hours worked
 
 ## The Labour Force Hierarchy
 
@@ -344,16 +344,18 @@ Answer: D. They are in the eligible population — 15+, civilian, non-institutio
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-In early 2025 the eligible population was 34.3 million, the labour force 22.5 million, employment 21.0 million, and unemployment 1.5 million. What was the unemployment rate?
+In January 2025 the eligible population was 34.34 million, the labour force 22.48 million, employment 20.99 million, and unemployment 1.49 million. What was the unemployment&nbsp;rate?
 
-A\) 4.4%\
-B) 6.7%\
-C) 61.2%\
-D) 65.6%\
-E) 93.3%
+A\) 4.3%\
+B) 6.6%\
+C) 61.1%\
+D) 65.5%\
+E) 93.4%
 
 ::: {.notes}
-Answer: B — 1.5 / 22.5. The wrong answers are each a specific slip: A divides by the population instead of the labour force; C is the employment rate (21.0 / 34.3); D is the participation rate (22.5 / 34.3); E is employment as a share of the labour force. Worth noting: these figures cannot tell you Canada's total population — the eligible population excludes under-15s, institutional residents, and others.
+Answer: B — 1.49 / 22.48. The wrong answers are each a specific slip: A divides by the population instead of the labour force; C is the employment rate (20.99 / 34.34); D is the participation rate (22.48 / 34.34); E is employment as a share of the labour force. Worth noting: these figures cannot tell you Canada's total population — the eligible population excludes under-15s, institutional residents, and others.
+
+These are Figure 2.2's own numbers, so students checking against the text will find an exact match.
 :::
 
 ## What the Data Look Like
@@ -364,7 +366,7 @@ With the concepts and the sources in hand, let's look at real Canadian data.
 - Then the [Canadian Income Survey]{.fg style="color: #555;"} — where income comes from, and how earnings differ across people
 
 ::: {.callout-note}
-None of this is causal — these are [descriptions]{.fg style="color: #c7254e;"}. They are the facts the rest of the course sets out to explain.
+None of this is causal — these are [descriptions]{.fg style="color: #2780e3;"}. They are the facts the rest of the course sets out to explain.
 :::
 
 ## Labour Force Participation Rate, Canada
@@ -404,7 +406,7 @@ lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(line
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Which statistic is the best proxy for the [demand]{.fg style="color: #c7254e;"} side of the labour market?
+Which statistic is the best proxy for the [demand]{.fg style="color: #2780e3;"} side of the labour market?
 
 A\) The participation rate\
 B) The employment rate\
@@ -823,7 +825,7 @@ ggplot(filter(maindata, between(percent_rank(earng), .01, 0.98), immst %in% c(1,
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-The charts show men earning more than women on average. Based on these data alone, we can conclude:
+The charts show men earning more than women on average. Based on these data alone, we can&nbsp;conclude:
 
 A\) Discrimination causes the gap\
 B) Women choose lower-paying occupations\
@@ -853,8 +855,8 @@ The [correlation coefficient]{.fg style="color: #2780e3;"} describes the relatio
 
 $$\text{Participation rate} = a + b \times \ln(GNI) + e$$
 
-- [Ordinary least squares]{.fg style="color: #555;"} chooses the line minimizing the sum of squared residuals
-- Estimating across 168 countries gives a slope of [4.12]{.fg style="color: #c7254e;"} for women
+- [Ordinary least squares]{.fg style="color: #2780e3;"} chooses the line minimizing the sum of squared residuals
+- Estimating across 168 countries gives a slope of 4.12 for women
   - A one unit increase in log income is associated with a 4.12 percentage point higher participation rate
 - [R-squared]{.fg style="color: #2780e3;"} measures goodness of fit — income explains only 7.85% of the variation in women's participation
 
@@ -865,10 +867,10 @@ $$\text{Participation rate} = a + b \times \ln(GNI) + e$$
 $$\text{Weekly Earnings} = a + b\,\text{Unionized} + e$$
 
 - Adding controls for education, gender, age, and industry shrinks the differential
-- Adding [job tenure]{.fg style="color: #c7254e;"} shrinks it further — even negative in some provinces
+- Adding [job tenure]{.fg style="color: #2780e3;"} shrinks it further — even negative in some provinces
 
 ::: {.callout-warning}
-But if a main role of unions is [job security]{.fg style="color: #c7254e;"} — letting people stay in higher-paying jobs — then controlling for tenure [understates]{.fg style="color: #555;"} how much unions matter. Be careful what you control for.
+But if a main role of unions is [job security]{.fg style="color: #5cb85c;"} — letting people stay in higher-paying jobs — then controlling for tenure understates how much unions matter. Be careful what you control for.
 :::
 
 ## Correlation versus Causation
@@ -885,7 +887,7 @@ These are [spurious correlations]{.fg style="color: #c7254e;"}. A strong correla
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Adding job tenure as a control shrinks the estimated union wage differential. Why should we be cautious?
+Adding job tenure as a control shrinks the estimated union wage differential. Why should we be&nbsp;cautious?
 
 A\) Job tenure is measured with error\
 B) If unions raise wages partly by increasing job security, controlling for tenure removes part of the effect\
@@ -914,7 +916,7 @@ The [counterfactual outcome]{.fg style="color: #2780e3;"} is what would have hap
 
 You injure your ankle, your doctor prescribes physiotherapy, and six weeks later it is healed.
 
-Did the physiotherapy [cause]{.fg style="color: #c7254e;"} it to heal? Or would it have healed anyway?
+Did the physiotherapy [cause]{.fg style="color: #2780e3;"} it to heal? Or would it have healed anyway?
 
 - You cannot answer this, because you cannot observe the healing that would have happened without treatment
 - [Research designs]{.fg style="color: #2780e3;"} are strategies for estimating that missing counterfactual
@@ -927,10 +929,11 @@ To design policy that addresses causes rather than symptoms, to predict what hap
 ## Experimental Methods
 
 ::: {.callout-important}
-[Random assignment]{.fg style="color: #5cb85c;"} to treatment and control groups. The gold standard.
+## Key Definition
+[Random assignment]{.fg style="color: #2780e3;"} to treatment and control groups. The gold standard.
 :::
 
-- We simply compare the [mean outcomes]{.fg style="color: #555;"} of the two groups
+- We simply compare the mean outcomes of the two groups
 - Easy to explain to, and be understood by, policymakers and the public
 - Everything else is [nonexperimental]{.fg style="color: #2780e3;"}, using observational data
 
@@ -945,7 +948,7 @@ In 2021 the Canadian labour economist [David Card]{.fg style="color: #2780e3;"} 
 [Audit studies]{.fg style="color: #2780e3;"} approximate random assignment by comparing outcomes where the treatment is manipulated or hidden.
 :::
 
-- [Resumé studies]{.fg style="color: #555;"} submit artificially manipulated resumés to real job ads and record which get [call backs]{.fg style="color: #c7254e;"}
+- [Resumé studies]{.fg style="color: #555;"} submit artificially manipulated resumés to real job ads and record which get [call backs]{.fg style="color: #5cb85c;"}
 - Resumés are varied to signal demographic differences — common foreign versus domestic names, volunteer work signalling child care responsibilities, activities signalling sexual&nbsp;orientation
 
 Several examples appear in [Chapter 15]{.fg style="color: #555;"}.
@@ -967,7 +970,7 @@ Several examples appear in [Chapter 15]{.fg style="color: #555;"}.
 
 ::: {.callout-important}
 ## Key Definition
-Take both groups, [before and after]{.fg style="color: #2780e3;"}. Contrast each group's change over time; the [difference in those two differences]{.fg style="color: #c7254e;"} estimates the causal effect.
+Take both groups, [before and after]{.fg style="color: #2780e3;"}. Contrast each group's change over time; the [difference in those two differences]{.fg style="color: #2780e3;"} estimates the causal effect.
 :::
 
 - This fixes the main limitations of both simpler designs
@@ -984,7 +987,7 @@ We use this twice: Maine vs New Brunswick in [Chapter 5]{.fg style="color: #555;
 [Selection bias]{.fg style="color: #c7254e;"} — unobserved factors that determine who gets treated *and* affect the outcome. Regression cannot control for what you cannot see.
 :::
 
-- Training program participants [chose]{.fg style="color: #555;"} to apply, perhaps because of motivation the researcher never observes
+- Training program participants chose to apply, perhaps because of motivation the researcher never observes
 
 ::: {.callout-important}
 ## Key Definition
@@ -1014,12 +1017,12 @@ Find an [instrument]{.fg style="color: #2780e3;"} that shifts the treatment exog
 
 ::: {.callout-important}
 ## Matching and propensity scores
-[Construct]{.fg style="color: #2780e3;"} a control group that looks like the treated. The [propensity score]{.fg style="color: #c7254e;"} is each person's estimated probability of being treated; match treated and untreated people with the same score.
+[Construct]{.fg style="color: #2780e3;"} a control group that looks like the treated. The [propensity score]{.fg style="color: #2780e3;"} is each person's estimated probability of being treated; match treated and untreated people with the same score.
 :::
 
 ::: {.callout-important}
 ## Synthetic comparison groups
-With one treated group and several imperfect candidates, [build]{.fg style="color: #5cb85c;"} a weighted comparison group matching the treated group's pre-treatment path.
+With one treated group and several imperfect candidates, build a weighted comparison group matching the treated group's pre-treatment path.
 :::
 
 ## Research Designs: Summary
@@ -1057,10 +1060,10 @@ Answer: C. Two groups, two periods. Not B, which uses only the treated group; no
 
 ::: {.nonincremental}
 - Participation varies enormously across countries, and most of that variation is in [women's]{.fg style="color: #2780e3;"}&nbsp;participation
-- Which employment law applies to you depends on your employer's [industry]{.fg style="color: #555;"}, not where you&nbsp;live
+- Which employment law applies to you depends on your employer's [industry]{.fg style="color: #2780e3;"}, not where you&nbsp;live
 - The LFS, Census, and CIS are the workhorses; the LFS defines every unemployment number you hear
-- A regression coefficient is not automatically a [causal effect]{.fg style="color: #c7254e;"}
+- A regression coefficient is not automatically a [causal effect]{.fg style="color: #2780e3;"}
 - Estimating a causal effect means estimating a [counterfactual]{.fg style="color: #2780e3;"} we can never observe — every research design is a different way of building one
 :::
 
-When you see evidence in this course, ask what the [comparison group]{.fg style="color: #c7254e;"} is, and whether you believe it.
+When you see evidence in this course, ask what the [comparison group]{.fg style="color: #2780e3;"} is, and whether you believe it.

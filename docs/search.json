@@ -9886,7 +9886,7 @@
     "href": "slides/ch02/index.html#differences-within-canada",
     "title": "EC306 - Wages and Employment",
     "section": "Differences Within Canada",
-    "text": "Differences Within Canada\n\nNearly 21 million people were employed in Canada in 2024, unevenly distributed\n\nOntario largest at about 8 million; Prince Edward Island smallest at 93,000\n\nMost people work in service industries — about 80% nationally\n\nAlberta is lower, because resource industries are a larger share of jobs\n\nPopulations differ too: median age is highest in Newfoundland and Labrador, lowest in Alberta\n\nBoth labour demand and supply differ by province, given who lives there."
+    "text": "Differences Within Canada\n\nNearly 21 million people were employed in Canada in 2024, unevenly distributed\n\nOntario largest at about 8 million; Prince Edward Island smallest at 93,000\n\nMost people work in service industries — about 80% nationally\n\nAlberta is lower, because resource industries are a larger share of jobs\n\nPopulations differ too: median age is highest in Newfoundland and Labrador, lowest in Manitoba\n\nBoth labour demand and supply differ by province, given who lives there."
   },
   {
     "objectID": "slides/ch02/index.html#two-more-indicators",
@@ -9914,7 +9914,7 @@
     "href": "slides/ch02/index.html#where-the-numbers-come-from",
     "title": "EC306 - Wages and Employment",
     "section": "Where the Numbers Come From",
-    "text": "Where the Numbers Come From\n\nThe Labour Force Survey (LFS) measures all of the concepts above\n\nMonthly, about 68,000 households and 100,000 individuals aged 15+\nIts main purpose is the official unemployment rate used to administer EI\nCoverage excludes reserves and extremely remote areas\n\nThe Census runs every five years — most recently 2021, next in May 2026\n\nAdds characteristics the LFS does not have: ethnicity, language, country of birth\n\nThe Canadian Income Survey (CIS) is annual, with much more detail on earnings and family circumstances"
+    "text": "Where the Numbers Come From\n\nThe Labour Force Survey (LFS) measures all of the concepts above\n\nMonthly, about 68,000 households and 100,000 individuals aged 15+\nIts main purpose is the official unemployment rate used to administer EI\nCoverage excludes reserves and extremely remote areas\n\nThe Census runs every five years — most recently in May 2026\n\nAdds characteristics the LFS does not have: ethnicity, language, country of birth\n\nThe Canadian Income Survey (CIS) is annual, with much more detail on earnings and family circumstances"
   },
   {
     "objectID": "slides/ch02/index.html#where-the-numbers-come-from-1",
@@ -9928,7 +9928,7 @@
     "href": "slides/ch02/index.html#experimental-methods",
     "title": "EC306 - Wages and Employment",
     "section": "Experimental Methods",
-    "text": "Experimental Methods\n\n\n\n\n\n\nImportant\n\n\nRandom assignment to treatment and control groups. The gold standard.\n\n\n\n\nWe simply compare the mean outcomes of the two groups\nEasy to explain to, and be understood by, policymakers and the public\nEverything else is nonexperimental, using observational data\n\n\n\n\n\n\n\nTip\n\n\nIn 2021 the Canadian labour economist David Card won the Nobel Prize for his empirical contributions to labour economics, sharing it with Joshua Angrist and Guido Imbens for their work on analyzing causal relationships."
+    "text": "Experimental Methods\n\n\n\n\n\n\nKey Definition\n\n\nRandom assignment to treatment and control groups. The gold standard.\n\n\n\n\nWe simply compare the mean outcomes of the two groups\nEasy to explain to, and be understood by, policymakers and the public\nEverything else is nonexperimental, using observational data\n\n\n\n\n\n\n\nTip\n\n\nIn 2021 the Canadian labour economist David Card won the Nobel Prize for his empirical contributions to labour economics, sharing it with Joshua Angrist and Guido Imbens for their work on analyzing causal relationships."
   },
   {
     "objectID": "slides/ch02/index.html#simple-comparisons-and-their-problems",
@@ -10166,7 +10166,7 @@
     "href": "slides/ch02/index.html#iclicker-question-3",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nIn early 2025 the eligible population was 34.3 million, the labour force 22.5 million, employment 21.0 million, and unemployment 1.5 million. What was the unemployment rate?\nA) 4.4%\nB) 6.7%\nC) 61.2%\nD) 65.6%\nE) 93.3%\n\nAnswer: B — 1.5 / 22.5. The wrong answers are each a specific slip: A divides by the population instead of the labour force; C is the employment rate (21.0 / 34.3); D is the participation rate (22.5 / 34.3); E is employment as a share of the labour force. Worth noting: these figures cannot tell you Canada’s total population — the eligible population excludes under-15s, institutional residents, and others."
+    "text": "iClicker Question\nIn January 2025 the eligible population was 34.34 million, the labour force 22.48 million, employment 20.99 million, and unemployment 1.49 million. What was the unemployment rate?\nA) 4.3%\nB) 6.6%\nC) 61.1%\nD) 65.5%\nE) 93.4%\n\nAnswer: B — 1.49 / 22.48. The wrong answers are each a specific slip: A divides by the population instead of the labour force; C is the employment rate (20.99 / 34.34); D is the participation rate (22.48 / 34.34); E is employment as a share of the labour force. Worth noting: these figures cannot tell you Canada’s total population — the eligible population excludes under-15s, institutional residents, and others.\nThese are Figure 2.2’s own numbers, so students checking against the text will find an exact match."
   },
   {
     "objectID": "slides/ch02/index.html#iclicker-question-4",
@@ -10187,14 +10187,14 @@
     "href": "slides/ch02/index.html#iclicker-question-6",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nThe charts show men earning more than women on average. Based on these data alone, we can conclude:\nA) Discrimination causes the gap\nB) Women choose lower-paying occupations\nC) The gap is real, but these data cannot tell us why\nD) The gap is fully explained by differences in hours worked\nE) There is no meaningful gap\n\nAnswer: C. Everything so far is descriptive. Sorting out why is what the rest of the chapter — and much of the course — is for."
+    "text": "iClicker Question\nThe charts show men earning more than women on average. Based on these data alone, we can conclude:\nA) Discrimination causes the gap\nB) Women choose lower-paying occupations\nC) The gap is real, but these data cannot tell us why\nD) The gap is fully explained by differences in hours worked\nE) There is no meaningful gap\n\nAnswer: C. Everything so far is descriptive. Sorting out why is what the rest of the chapter — and much of the course — is for."
   },
   {
     "objectID": "slides/ch02/index.html#iclicker-question-7",
     "href": "slides/ch02/index.html#iclicker-question-7",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nAdding job tenure as a control shrinks the estimated union wage differential. Why should we be cautious?\nA) Job tenure is measured with error\nB) If unions raise wages partly by increasing job security, controlling for tenure removes part of the effect\nC) Job tenure is unrelated to earnings\nD) Adding more controls always biases estimates downward\nE) The sample becomes too small\n\nAnswer: B. Tenure is partly an outcome of unionization, so controlling for it absorbs some of the very effect we want to measure."
+    "text": "iClicker Question\nAdding job tenure as a control shrinks the estimated union wage differential. Why should we be cautious?\nA) Job tenure is measured with error\nB) If unions raise wages partly by increasing job security, controlling for tenure removes part of the effect\nC) Job tenure is unrelated to earnings\nD) Adding more controls always biases estimates downward\nE) The sample becomes too small\n\nAnswer: B. Tenure is partly an outcome of unionization, so controlling for it absorbs some of the very effect we want to measure."
   },
   {
     "objectID": "slides/ch02/index.html#iclicker-question-8",
