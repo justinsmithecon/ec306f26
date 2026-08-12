@@ -169,7 +169,7 @@ Ask what is wrong with this before moving on. Two people is not a sample. They a
 :::
 
 - The MRS is the slope of the indifference curve at a&nbsp;point
-- Individuals have [diminishing MRS]{.fg style="color: #c7254e;"}
+- Individuals have [diminishing MRS]{.fg style="color: #2780e3;"}
   - Willing to give up less consumption for additional leisure the more leisure they already have
   - Slope gets shallower with more leisure
 ::::
@@ -229,7 +229,7 @@ Ask what is wrong with this before moving on. Two people is not a sample. They a
   - Earned even with zero work hours (full leisure hours)
 - Each hour worked gets wage of $w$
 - Person working $T$ hours (no leisure) earns $wT+Y_{n}$ income
-  - Called [\"full income\"]{.fg style="color: #5cb85c;"}
+  - Called [\"full income\"]{.fg style="color: #2780e3;"}
 ::::
 ::::
 
@@ -241,7 +241,7 @@ $$C = w(T - L) + Y_{n}$$
 
 - Consumption is equal to income from working $(w(T - L))$ plus non-labour income $(Y_{n})$
 - The slope of the budget constraint is $-w$
-  - The [opportunity cost]{.fg style="color: #c7254e;"} of leisure is the wage rate
+  - The [opportunity cost]{.fg style="color: #2780e3;"} of leisure is the wage rate
   - Each hour of leisure means one less hour worked, which means $w$ less income
 - Someone who works zero hours has $T$ leisure hours and $Y_{n}$ consumption
 - Someone who works $T$ hours has zero leisure hours and $wT + Y_{n}$ consumption
@@ -329,7 +329,7 @@ There are two possibilities for the optimum:
 ::::
 
 :::: {.column width="50%"}
-- Graph shows an optimum with [participation]{.fg style="color: #5cb85c;"}
+- Graph shows an optimum with [participation]{.fg style="color: #2780e3;"}
 - Optimum is where indifference curve is tangent to budget constraint
 
 ::: {.callout-tip}
@@ -377,7 +377,7 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 ::::
 
 :::: {.column width="50%"}
-- Graph to the left shows a [non-participation]{.fg style="color: #c7254e;"}&nbsp;optimum
+- Graph to the left shows a [non-participation]{.fg style="color: #2780e3;"}&nbsp;optimum
 - The slope of the indifference curve is steeper than the budget constraint at full leisure
   - The extra consumption you want from one less hour of leisure (MRS) is more than you can get from working an hour (wage)
 - So your optimal choice is to not work at all
@@ -514,7 +514,7 @@ Suppose a person receives a large inheritance, increasing their non-labour incom
 ::::
 
 :::: {.column width="50%"}
-- The income and substitution effects move in [opposite directions]{.fg style="color: #c7254e;"}
+- The income and substitution effects move in [opposite directions]{.fg style="color: #2780e3;"}
 - For a wage increase
   - [Substitution effect]{.fg style="color: #2780e3;"} encourages more work (less leisure)
   - [Income effect]{.fg style="color: #2780e3;"} encourages less work (more&nbsp;leisure)
@@ -552,7 +552,7 @@ A worker currently earning $20/hour gets a raise to $25/hour and decides to work
 
 - The [labour supply curve]{.fg style="color: #2780e3;"} shows the relationship between the wage rate and hours worked
 - It is derived from the consumer optimum at different wage rates
-- We will see that the labour supply curve can be [backward bending]{.fg style="color: #c7254e;"}
+- We will see that the labour supply curve can be [backward bending]{.fg style="color: #2780e3;"}
   - It is [upward sloping]{.fg style="color: #2780e3;"} when the substitution effect is stronger
   - It is [downward sloping]{.fg style="color: #2780e3;"} when the income effect is stronger
   - The curve tends to bend backwards at higher wage rates
@@ -605,7 +605,7 @@ A worker currently earning $20/hour gets a raise to $25/hour and decides to work
 
 - At \$6 the wage sits below the \$7 [reservation wage]{.fg style="color: #2780e3;"}, so hours are zero
 - From \$8 to \$10 the [substitution effect]{.fg style="color: #2780e3;"} dominates and hours rise
-- At \$14 the [income effect]{.fg style="color: #2780e3;"} dominates and the curve [bends back]{.fg style="color: #c7254e;"}
+- At \$14 the [income effect]{.fg style="color: #2780e3;"} dominates and the curve [bends back]{.fg style="color: #2780e3;"}
 
 ::: {.notes}
 Four wages, four points on the supply curve. Worth walking the \$8 row out loud: eight hours at \$8 is \$64 of earnings, plus the \$10 they get regardless, so \$74 of consumption for the day. Everything is per day here, which is why the hours look small.
@@ -621,7 +621,7 @@ Four wages, four points on the supply curve. Worth walking the \$8 row out loud:
 - For non-participants, a wage increase can induce them to enter the labour force
   - If the wage goes above their [reservation wage]{.fg style="color: #2780e3;"}
 - The labour supply curve maps different wages to work hours
-- It slopes up at lower wages, but can [bend backwards]{.fg style="color: #c7254e;"} at higher wages
+- It slopes up at lower wages, but can [bend backwards]{.fg style="color: #2780e3;"} at higher wages
 
 ## {background-color="#f0f4f8"}
 
@@ -673,7 +673,7 @@ This is not a perfect way to examine this relationship — there could be other 
     - Effect is theoretically ambiguous
   - [Compensated Elasticity]{.fg style="color: #2780e3;"}: measures change in work hours after removing income effect
     - Isolates the substitution effect
-    - Should be [positive]{.fg style="color: #5cb85c;"}
+    - Should be [positive]{.fg style="color: #2780e3;"}
 
 ## Elasticity of Labour Supply
 
@@ -710,7 +710,7 @@ Source is McClelland and Mok (2012), a review of the US literature done for the 
 3. For women it is [more strongly forward sloping]{.fg style="color: #2780e3;"}
 :::
 
-- Point 2 is the [backward-bending]{.fg style="color: #c7254e;"} case we built earlier
+- Point 2 is the [backward-bending]{.fg style="color: #2780e3;"} case we built earlier
   - A negative uncompensated elasticity means the income effect wins
   - The effect is small and could plausibly be zero
 - Women's stronger response is a bigger substitution effect
@@ -776,7 +776,7 @@ Generalization 4 is the interesting one. Married women's labour supply used to b
 :::: {.column width="50%"}
 - When non-labour income falls, the budget constraint shifts down
 - If leisure is a normal good, optimal leisure falls from $L_{0}$ to $L_{1}$
-- Work hours [increase]{.fg style="color: #5cb85c;"} from $h_{0}$ to $h_{1}$
+- Work hours increase from $h_{0}$ to $h_{1}$
 - Means that the spouse increases work hours to compensate for lost family income
 ::::
 ::::
@@ -892,7 +892,7 @@ During the COVID-19 pandemic, many households experienced both job losses (added
 ::::
 
 :::: {.column width="50%"}
-- If the employer offers [overtime wages]{.fg style="color: #5cb85c;"}, the budget constraint pivots out from the fixed hours point
+- If the employer offers [overtime wages]{.fg style="color: #2780e3;"}, the budget constraint pivots out from the fixed hours point
   - Beyond those hours, the wage increases from $w_{0}$ to $w_{1}$
 - Allows worker to access [higher utility curve]{.fg style="color: #5cb85c;"}
 - Also increases hours worked even though they are initially overemployed
@@ -910,7 +910,7 @@ During the COVID-19 pandemic, many households experienced both job losses (added
 - The model is based on utility maximization subject to a budget constraint
 - The model can explain both participation and work hours decisions
 - Changes in non-labour income and the wage affect work decisions
-- The labour supply curve can be [backward bending]{.fg style="color: #c7254e;"}
+- The labour supply curve can be [backward bending]{.fg style="color: #2780e3;"}
 - The model can be used to analyze various situations faced by workers
   - [Added worker effects]{.fg style="color: #555;"}
   - [Side hustles]{.fg style="color: #555;"}
