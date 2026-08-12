@@ -5058,7 +5058,7 @@
     "href": "slides/ch03/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nBuild the labour supply model\nDerive the labour supply curve\nExamine effects of labour market policies within that model"
+    "text": "Goals of This Section\nIn this section we will:\n\nBuild market labour supply from individual choices\nBuild the labour supply model and derive the supply curve\nLook at evidence on how responsive labour supply is to wages\nApply the model to situations workers face"
   },
   {
     "objectID": "slides/ch03/index.html#introduction",
@@ -5226,7 +5226,7 @@
     "href": "slides/ch03/index.html#consumer-optimum",
     "title": "EC306 - Wages and Employment",
     "section": "Consumer Optimum",
-    "text": "Consumer Optimum\n\nWork hours are chosen using the combination of preferences and constraints\nThe consumer optimum is the point that maximizes utility subject to the budget constraint\nThe optimum occurs where the budget constraint is tangent to an indifference curve\n\n\n\n\n\n\n\nNote\n\n\nThere are two possibilities for the optimum:\n\nNon-participation: optimum occurs at the end of the budget constraint (full leisure)\nParticipation: optimum occurs at an interior point (some leisure, some work)\n\n\n\n\n\nModel also defines the reservation wage\n\nLowest wage rate at which a person will choose to work"
+    "text": "Consumer Optimum\n\nWork hours are chosen using the combination of preferences and constraints\nThe consumer optimum is the point that maximizes utility subject to the budget constraint\nThe optimum occurs where the budget constraint is tangent to an indifference curve\n\n\n\n\n\n\n\nNote\n\n\nThere are two possibilities for the optimum:\n\nNon-participation: optimum occurs at the end of the budget constraint (full leisure) — a corner solution\nParticipation: optimum occurs at an interior point (some leisure, some work) — an interior solution\n\n\n\n\n\nModel also defines the reservation wage\n\nLowest wage rate at which a person will choose to work"
   },
   {
     "objectID": "slides/ch03/index.html#consumer-optimum-1",
@@ -5359,7 +5359,7 @@
     "href": "slides/ch03/index.html#introduction-3",
     "title": "EC306 - Wages and Employment",
     "section": "Introduction",
-    "text": "Introduction\n\nWe can use the model to analyze various situations faced by workers\nIn this section we will look at\n\nAdded worker effects\nDiscouraged workers\nMoonlighting (holding multiple jobs)\nOvertime\nFlex work\n\nThe list is not exhaustive\nIn the next chapter we will look at government policies"
+    "text": "Introduction\n\nWe can use the model to analyze various situations faced by workers\nIn this section we will look at\n\nAdded worker effects\nSide hustles (holding multiple jobs)\nOvertime\n\nThe list is not exhaustive\nThe same reservation wage logic explains discouraged workers, which we covered in Chapter 2\nIn the next chapter we will look at government policies"
   },
   {
     "objectID": "slides/ch03/index.html#participation",
@@ -5394,7 +5394,7 @@
     "href": "slides/ch03/index.html#elasticity-of-labour-supply-2",
     "title": "EC306 - Wages and Employment",
     "section": "Elasticity of Labour Supply",
-    "text": "Elasticity of Labour Supply\n\nTable above shows summary of uncompensated and compensated elasticities from different studies\nSeparates by gender\n\nWe might expect men and women to respond differently to wage changes\nWomen potentially have more flexibility in work hours and respond more\n\nTable shows uniformly inelastic labour supply\n\nElasticity less than 1 in absolute value\nA 1% increase in wage leads to roughly 0.1% to 0.3% change in work hours\n\nCompensated elasticity is positive\n\nWomen respond more to wage changes\n\nIncome effect is generally negative or small"
+    "text": "Elasticity of Labour Supply\n\nThe text collects a range of estimates from a review of the literature\n\n\n\n\nGroup\nUncompensated\nCompensated\nIncome\n\n\n\n\nMen and women\n0.0 to 0.2\n0.1 to 0.3\n−0.1 to 0.0\n\n\nMen and single women\n−0.1 to 0.2\n0.1 to 0.3\n−0.1 to 0.0\n\n\nMarried women\n0.1 to 0.3\n0.2 to 0.4\n−0.1 to 0.0\n\n\n\n\nRows split by marital status, not simply by gender\n\nMen and single women are assumed to decide on their own\nMarried women’s choices are tied to a spouse’s, and to entry costs like child care\n\nEstimates are inelastic throughout — well under 1 in absolute value\nCompensated elasticity is positive everywhere, as theory requires\nSource: McClelland and Mok (2012), for the Congressional Budget Office\n\n\nSource is McClelland and Mok (2012), a review of the US literature done for the Congressional Budget Office. The married-women estimates line up with Canadian work, so we are not importing something foreign. Worth stressing that the split is a modelling assumption about who decides jointly, not a claim about ability."
   },
   {
     "objectID": "slides/ch03/index.html#introduction-4",
@@ -5471,14 +5471,14 @@
     "href": "slides/ch03/index.html#overtime",
     "title": "EC306 - Wages and Employment",
     "section": "Overtime",
-    "text": "Overtime\n\nSometimes people are working too much at the main job\nAlso happens with a fixed hours constraint\n\nPeople want to work less at given wage\nEmployer does not allow less hours\nThey are overemployed\n\nAt given wage they cannot maximize utility subject to constraints"
+    "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph, people would ideally work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nBut employer requires them to work \\(h_f = T- L_f\\) hours\n\nEmployer does not allow fewer hours\n\nPuts them on a lower indifference curve \\(U_f\\)\nThey are overemployed — working more than they would choose at that wage"
   },
   {
     "objectID": "slides/ch03/index.html#overtime-1",
     "href": "slides/ch03/index.html#overtime-1",
     "title": "EC306 - Wages and Employment",
     "section": "Overtime",
-    "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph, people would ideally work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nBut employer requires them to work \\(h_f = T- L_f\\) hours\n\nEmployer does not allow fewer hours\n\nPuts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
+    "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the employer offers overtime wages, the budget constraint pivots out from the fixed hours point\n\nBeyond those hours, the wage increases from \\(w_{0}\\) to \\(w_{1}\\)\n\nAllows worker to access higher utility curve\nAlso increases hours worked even though they are initially overemployed\n\nThe higher wage induces a substitution effect to work more\nThere is a small income effect that only applies to the extra hours\n\nThe alternative — paying more for all hours — is Review Questions 7 and 8"
   },
   {
     "objectID": "slides/ch03/index.html#overtime-2",
@@ -5506,7 +5506,7 @@
     "href": "slides/ch03/index.html#summary-2",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\n\nWe have explored the labour-leisure model for labour supply\nThe model is based on utility maximization subject to a budget constraint\nThe model can explain both participation and work hours decisions\nChanges in non-labour income and the wage affect work decisions\nThe labour supply curve can be backward bending\nThe model can be used to analyze various situations faced by workers\n\nAdded worker effects\nDiscouraged workers\nMoonlighting\nOvertime\n\nNext chapter we will analyze government policy within this model"
+    "text": "Summary\n\nWe have explored the labour-leisure model for labour supply\nThe model is based on utility maximization subject to a budget constraint\nThe model can explain both participation and work hours decisions\nChanges in non-labour income and the wage affect work decisions\nThe labour supply curve can be backward bending\nThe model can be used to analyze various situations faced by workers\n\nAdded worker effects\nSide hustles\nOvertime\n\nNext chapter we will analyze government policy within this model"
   },
   {
     "objectID": "slides/ch04/index.html#goals-of-this-section-1",
@@ -10202,5 +10202,89 @@
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
     "text": "iClicker Question\nYou have earnings before and after a new training program, for participants and for a comparable group of non-participants. Which design does this support?\nA) A randomized experiment\nB) Before-and-after comparison of those treated\nC) Difference-in-differences\nD) A regression discontinuity design\nE) Instrumental variables\n\nAnswer: C. Two groups, two periods. Not B, which uses only the treated group; not A, since nobody was randomly assigned."
+  },
+  {
+    "objectID": "slides/ch03/index.html#why-we-supply-labour",
+    "href": "slides/ch03/index.html#why-we-supply-labour",
+    "title": "EC306 - Wages and Employment",
+    "section": "Why We Supply Labour",
+    "text": "Why We Supply Labour\n\nAlmost everything we enjoy as consumers has to be bought\n\nConsuming goods and services requires income\nFor most people, income requires a job\n\nSo labour supply is derived from wanting to consume\n\nWe sell labour services to get the income that pays for consumption\n\nThe basic model assumes work itself yields no utility\n\nUtility comes only from what the wage lets you buy\n\nNot literally true, but it keeps the first model clean\n\n\nPush back on the assumption before they do. People work for lots of reasons other than the paycheque — satisfaction from being productive or creative, the status attached to certain jobs, the people they work with. The text says this outright. We are not denying any of that; we are setting it aside so the first model has one clear motive. Later models can add these benefits back in."
+  },
+  {
+    "objectID": "slides/ch03/index.html#leisure-and-nonmarket-time",
+    "href": "slides/ch03/index.html#leisure-and-nonmarket-time",
+    "title": "EC306 - Wages and Employment",
+    "section": "Leisure and Nonmarket Time",
+    "text": "Leisure and Nonmarket Time\n\n\n\n\n\n\nKey Definition\n\n\nNonmarket time: all time not sold to an employer — not just fun, but chores, cooking, cleaning, education, and other unpaid production\n\n\n\n\nWe will say leisure as shorthand for all of it\n\nThe phrasing goes back to Robbins (1930) and stuck in the literature\nWorth flagging, because “leisure” makes it sound like the beach\n\nTime is limited, so leisure is never free\nEvery hour of leisure is an hour not earning\n\nThe opportunity cost of leisure is the wage\n\n\n\nThe naming matters more than it looks. Students hear “leisure” and picture doing nothing, then conclude the model says unemployed people are relaxing. Nonmarket time includes a parent doing childcare and a student studying. The model is about time not sold to an employer, not time spent idle."
+  },
+  {
+    "objectID": "slides/ch03/index.html#two-decisions",
+    "href": "slides/ch03/index.html#two-decisions",
+    "title": "EC306 - Wages and Employment",
+    "section": "Two Decisions",
+    "text": "Two Decisions\n\nLabour supply is really two separate choices\n\n\n\n\n\n\n\nNote\n\n\n\nExtensive margin: whether to work at all\nIntensive margin: how many hours, once you do\n\n\n\n\n\nThe extensive margin is governed by the reservation wage\n\nThe lowest wage that gets you to work even a small amount\n\nThe intensive margin is not so tidy\n\nA higher wage pulls hours in two opposing directions\nTheory alone cannot say which one wins\n\n\n\nThis is the setup for comparative statics. Flag now that the hours answer is genuinely ambiguous — students expect economics to deliver a sign, and here it does not. That ambiguity is the whole reason the empirical evidence section exists."
+  },
+  {
+    "objectID": "slides/ch03/index.html#from-individual-to-market-supply",
+    "href": "slides/ch03/index.html#from-individual-to-market-supply",
+    "title": "EC306 - Wages and Employment",
+    "section": "From Individual to Market Supply",
+    "text": "From Individual to Market Supply\n\nEvery individual has their own labour supply curve\nTo get the market, we add them up\nFocus on a homogeneous group of workers\n\nSame skills and effort offered to employers\nKeeps us comparing like with like\n\nAt each wage, sum the hours all potential employees will supply\n\n\n\n\n\n\n\nKey Definition\n\n\nMarket labour supply curve: the total hours all potential workers are willing to supply at each wage rate"
+  },
+  {
+    "objectID": "slides/ch03/index.html#building-a-market-supply-curve",
+    "href": "slides/ch03/index.html#building-a-market-supply-curve",
+    "title": "EC306 - Wages and Employment",
+    "section": "Building a Market Supply Curve",
+    "text": "Building a Market Supply Curve\n\nSurvey two typical students, Robin and Sam, in a neighbourhood of 10,000\nTake each to represent 5,000 students\n\n\nHours per week\n\n\n\n\n\n\n\n\n\nWage\nRobin\nSam\nCombined\nMarket (×5,000)\n\n\n\n\n$10\n4\n10\n14\n70,000\n\n\n$20\n15\n25\n40\n200,000\n\n\n$30\n25\n35\n60\n300,000\n\n\n$40\n30\n40\n70\n350,000\n\n\n$50\n33\n43\n76\n380,000\n\n\n\n\nBoth individuals slope up, so the market curve does too\n\n\nAsk what is wrong with this before moving on. Two people is not a sample. They are stating what they would do, not doing it, and stated intentions and actual behaviour come apart badly on questions like this. Statistics Canada does this properly with large probability samples. The point of the exercise is the mechanics of scaling up, not the numbers."
+  },
+  {
+    "objectID": "slides/ch03/index.html#the-individual-labour-supply-curve-3",
+    "href": "slides/ch03/index.html#the-individual-labour-supply-curve-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Individual Labour Supply Curve",
+    "text": "The Individual Labour Supply Curve\n\nThe text runs the numbers for one person with $10 of non-labour income\n\n\n\n\nWage\nHours/day\nEarnings\nTotal income\n\n\n\n\n$6\n0\n$0\n$10\n\n\n$8\n8\n$64\n$74\n\n\n$10\n12\n$120\n$130\n\n\n$14\n10\n$140\n$150\n\n\n\n\nAt $6 the wage sits below the $7 reservation wage, so hours are zero\nFrom $8 to $10 the substitution effect dominates and hours rise\nAt $14 the income effect dominates and the curve bends back\n\n\nFour wages, four points on the supply curve. Worth walking the $8 row out loud: eight hours at $8 is $64 of earnings, plus the $10 they get regardless, so $74 of consumption for the day. Everything is per day here, which is why the hours look small."
+  },
+  {
+    "objectID": "slides/ch03/index.html#elasticity-of-labour-supply-3",
+    "href": "slides/ch03/index.html#elasticity-of-labour-supply-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "Elasticity of Labour Supply",
+    "text": "Elasticity of Labour Supply\n\nThree generalizations come out of this literature\n\n\n\n\n\n\n\nNote\n\n\n\nOverall supply for men and women is slightly upward sloping\nFor men it may be slightly backward bending\nFor women it is more strongly forward sloping\n\n\n\n\n\nPoint 2 is the backward-bending case we built earlier\n\nA negative uncompensated elasticity means the income effect wins\nThe effect is small and could plausibly be zero\n\nWomen’s stronger response is a bigger substitution effect\n\n\nThis is the payoff for the theory. We drew a backward-bending curve and it looked like a classroom curiosity. Here it is in the estimates: men’s uncompensated elasticity can come out negative. Do not oversell it — the range straddles zero, so vertical supply is just as consistent with the evidence."
+  },
+  {
+    "objectID": "slides/ch03/index.html#elasticity-of-labour-supply-4",
+    "href": "slides/ch03/index.html#elasticity-of-labour-supply-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "Elasticity of Labour Supply",
+    "text": "Elasticity of Labour Supply\n\nTwo more generalizations, both about who and when\n\n\n\n\n\n\n\nNote\n\n\n\nMarried women’s elasticities have fallen substantially since the 1980s\nLow-income workers are more elastic than high-income workers\n\n\n\n\n\nEvidence on the decline: Blau and Kahn (2007), Dostie and Kromann (2013), Morissette and Hou (2008)\nMen’s elasticities went the other way, rising slightly\n\n\n\n\n\n\n\nWarning\n\n\nThese numbers describe responses in the early 2000s, and magnitudes vary a lot across studies — use them with caution\n\n\n\n\nGeneralization 4 is the interesting one. Married women’s labour supply used to be highly responsive to wages because participation was still very much in play; as participation rose toward men’s, the responsiveness fell toward men’s too. Point 5 matters for policy — minimum wages and transfers hit exactly the group whose hours move most."
+  },
+  {
+    "objectID": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours",
+    "href": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours",
+    "title": "EC306 - Wages and Employment",
+    "section": "Rigid Schedules and Flexible Work Hours",
+    "text": "Rigid Schedules and Flexible Work Hours\n\n\n\n\n\n\nKey Definition\n\n\nSide hustle: a second job with flexible hours, usually at a lower wage, taken because hours at the main job are fixed\n\n\n\n\nThe older term for the same thing is moonlighting\n\nFrom a time when main jobs ran 9-5 and extra work happened after dark\n\nHours really are fixed for a lot of people\n\nIn the 2024 LFS, over a third of working Canadians report exactly 40 or 37.5 hours a week\n\nSomeone who wants more hours than the main job allows is underemployed\n\n\nThe 40 and 37.5 figures are the anchor. Those two numbers are not what a third of Canadians independently decided was optimal — they are what employers offer. Private sector tends to be Monday to Friday, eight hours a day; public sector reports 37.5 because an eight-hour day carries a half hour of unpaid breaks."
+  },
+  {
+    "objectID": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours-1",
+    "href": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "Rigid Schedules and Flexible Work Hours",
+    "text": "Rigid Schedules and Flexible Work Hours\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIn this graph people ideally would work \\(h^* = T-L^*\\) hours\n\nMaximizes utility subject to budget constraint\n\nCan only work \\(h_f = T- L_f\\) hours at their main job\n\nEmployer does not allow more hours\n\nThis puts them on a lower indifference curve \\(U_f\\)\nThe outcome is not optimal"
+  },
+  {
+    "objectID": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours-2",
+    "href": "slides/ch03/index.html#rigid-schedules-and-flexible-work-hours-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "Rigid Schedules and Flexible Work Hours",
+    "text": "Rigid Schedules and Flexible Work Hours\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine they can take a second job at a lower wage rate\nThe budget constraint pivots out from the fixed hours point\nBeyond those hours, the wage falls\nAllows worker to access higher utility curve\n\nThey can increase hours worked\nBut not as much as if they could extend hours in main job"
+  },
+  {
+    "objectID": "slides/ch03/index.html#references",
+    "href": "slides/ch03/index.html#references",
+    "title": "EC306 - Wages and Employment",
+    "section": "References",
+    "text": "References\n\nBenjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). Labour Market Economics, 2026 Release. McGraw Hill. Chapter 3.\nBlau, F. D., & Kahn, L. M. (2007). Changes in the labor supply behavior of married women: 1980–2000. Journal of Labor Economics, 25(3), 393–438.\nDostie, B., & Kromann, L. (2013). Canadian estimates of married women’s labour supply elasticities.\nMcClelland, R., & Mok, S. (2012). A review of recent research on labor supply elasticities. Congressional Budget Office Working Paper 2012-12.\nMorissette, R., & Hou, F. (2008). Does the labour supply of wives respond to husbands’ wages? Canadian evidence from micro data and grouped data. Canadian Journal of Economics, 41(4), 1185–1210.\nRobbins, L. (1930). On the elasticity of demand for income in terms of effort. Economica, 29, 123–129."
   }
 ]
