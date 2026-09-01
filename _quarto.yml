@@ -44,30 +44,31 @@ website:
               file: content/ch02.qmd
             - text: "3. Labour Supply"
               file: content/ch03.qmd
-            - text: "4. Labour Supply and Income Support Programs"
-              file: content/ch04.qmd
-            - text: "5. Labour Supply and Social Insurance Programs"
-              file: content/ch05.qmd
             - text: "Introduction to R and Quarto"
               file: content/introtor.qmd
-            - text: "6. Labour Supply and Early Career Decisions"
-              file: content/ch06.qmd
-            - text: "7. Labour Supply and Later Career Decisions"
-              file: content/ch07.qmd
-            - text: "8. Labour Demand"
-              file: content/ch08.qmd
-            - text: "9. Labour Demand in Global Markets"
-              file: content/ch09.qmd
-            - text: "10. Labour Demand and Technology"
-              file: content/ch10.qmd
-            - text: "11. Competitive Labour Markets"
-              file: content/ch11.qmd
-            - text: "12. Imperfectly Competitive Labour Markets"
-              file: content/ch12.qmd
-            - text: "14. Human Capital Theory"
-              file: content/ch14.qmd
-            - text: "15. Wage Differentials Among Diverse Population Groups"
-              file: content/ch15.qmd
+            # Hidden until material is checked — uncomment to restore
+            # - text: "4. Labour Supply and Income Support Programs"
+            #   file: content/ch04.qmd
+            # - text: "5. Labour Supply and Social Insurance Programs"
+            #   file: content/ch05.qmd
+            # - text: "6. Labour Supply and Early Career Decisions"
+            #   file: content/ch06.qmd
+            # - text: "7. Labour Supply and Later Career Decisions"
+            #   file: content/ch07.qmd
+            # - text: "8. Labour Demand"
+            #   file: content/ch08.qmd
+            # - text: "9. Labour Demand in Global Markets"
+            #   file: content/ch09.qmd
+            # - text: "10. Labour Demand and Technology"
+            #   file: content/ch10.qmd
+            # - text: "11. Competitive Labour Markets"
+            #   file: content/ch11.qmd
+            # - text: "12. Imperfectly Competitive Labour Markets"
+            #   file: content/ch12.qmd
+            # - text: "14. Human Capital Theory"
+            #   file: content/ch14.qmd
+            # - text: "15. Wage Differentials Among Diverse Population Groups"
+            #   file: content/ch15.qmd
               
     - title: "Assignments"
       style: "docked"
