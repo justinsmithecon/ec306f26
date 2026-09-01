@@ -23,8 +23,9 @@ website:
         file: syllabus.qmd
       - text: "Content"
         file: content/index.qmd
-      - text: "Assignments"
-        file: assignments/index.qmd
+      # Hidden for now — uncomment to restore
+      # - text: "Assignments"
+      #   file: assignments/index.qmd
 
   sidebar:
     - title: "Content"

@@ -4032,11 +4032,11 @@
     "text": "Provincial Employment Standards\n\nEach province has an Employment Standards Act or Code setting rules on:\n\nMinimum wages, vacation time, parental and sick leave\nTermination of employment, limits on hours\n\nWe care because these rules change the decisions of workers and firms — and therefore wages and employment"
   },
   {
-    "objectID": "slides/ch02/index.html#minimum-wages-in-canada-2025",
-    "href": "slides/ch02/index.html#minimum-wages-in-canada-2025",
+    "objectID": "slides/ch02/index.html#minimum-wages-in-canada-september-2026",
+    "href": "slides/ch02/index.html#minimum-wages-in-canada-september-2026",
     "title": "EC306 - Wages and Employment",
-    "section": "Minimum Wages in Canada, 2025",
-    "text": "Minimum Wages in Canada, 2025\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nCanada (federal)\n$17.30\n\n\nNewfoundland and Labrador\n$16.00\n\n\nPrince Edward Island\n$17.20\n\n\nNova Scotia\n$16.50\n\n\nNew Brunswick\n$15.65\n\n\nQuebec\n$16.10\n\n\nOntario\n$17.20\n\n\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nManitoba\n$15.80\n\n\nSaskatchewan\n$17.20\n\n\nAlberta\n$15.00\n\n\nBritish Columbia\n$17.85\n\n\nNunavut\n$19.00\n\n\nNorthwest Territories\n$16.70\n\n\nYukon\n$17.59\n\n\n\n\nWe analyze minimum wages properly in Chapter 12."
+    "section": "Minimum Wages in Canada, September 2026",
+    "text": "Minimum Wages in Canada, September 2026\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nCanada (federal)\n$18.15\n\n\nNewfoundland and Labrador\n$16.35\n\n\nPrince Edward Island\n$17.00\n\n\nNova Scotia\n$16.75\n\n\nNew Brunswick\n$15.90\n\n\nQuebec\n$16.60\n\n\nOntario\n$17.60\n\n\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nManitoba\n$16.00\n\n\nSaskatchewan\n$15.35\n\n\nAlberta\n$15.00\n\n\nBritish Columbia\n$18.25\n\n\nNunavut\n$20.17\n\n\nNorthwest Territories\n$17.20\n\n\nYukon\n$18.51\n\n\n\n\n\nMost jurisdictions now index annually — Ontario, Manitoba, Nova Scotia, and PEI all adjust on October 1, 2026, partway through this course\nAlberta has not changed since 2019, the longest freeze in the country\n\nWe analyze minimum wages properly in Chapter 12."
   },
   {
     "objectID": "slides/ch02/index.html#labour-relations-equity-and-human-rights",
@@ -4123,6 +4123,20 @@
     "text": "What the Data Look Like\nWith the concepts and the sources in hand, let’s look at real Canadian data.\n\nFirst the Labour Force Survey — how participation, employment, unemployment, and hours have moved over time\nThen the Canadian Income Survey — where income comes from, and how earnings differ across people\n\n\n\n\n\n\n\nNote\n\n\nNone of this is causal — these are descriptions. They are the facts the rest of the course sets out to explain."
   },
   {
+    "objectID": "slides/ch02/index.html#a-century-of-participation",
+    "href": "slides/ch02/index.html#a-century-of-participation",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Century of Participation",
+    "text": "A Century of Participation\n\nThe census lets us push the participation story back to 1901\nMen’s participation has drifted down the whole century — from just over 90% to about 70% by 2024\nWomen’s participation was below 30% as recently as 1961, then rose sharply before levelling out in the 2000s at around 61%\nThe rise of women’s participation is one of the biggest changes in the Canadian labour market on record\n\nCandidate explanations — wages, education, contraception, social attitudes, life expectancy — are questions this course comes back to\n\n\n\nThe two lines converging is the story of the twentieth-century labour market in one picture. Worth pausing on the men’s line too — students expect it flat, and it is not: earlier retirement and longer schooling both pull it down. The figure splices census years 1901–1971 with annual LFS data from 1976, which is why our own chart on the next slide starts in 1976."
+  },
+  {
+    "objectID": "slides/ch02/index.html#a-century-of-participation-1",
+    "href": "slides/ch02/index.html#a-century-of-participation-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Century of Participation",
+    "text": "A Century of Participation"
+  },
+  {
     "objectID": "slides/ch02/index.html#labour-force-participation-rate-canada",
     "href": "slides/ch02/index.html#labour-force-participation-rate-canada",
     "title": "EC306 - Wages and Employment",
@@ -4156,6 +4170,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
     "text": "iClicker Question\nSomeone who has been unemployed for a year stops looking for work. Holding everything else constant, what happens to the measured statistics?\nA) The unemployment rate rises; the participation rate is unchanged\nB) The unemployment rate falls; the participation rate falls\nC) The unemployment rate falls; the participation rate is unchanged\nD) Neither changes, because the person is still jobless\nE) The unemployment rate rises; the participation rate falls\n\nAnswer: B. They leave the labour force entirely, so both the numerator and the denominator of the unemployment rate fall by one — and because the rate is well below 50%, the ratio falls. The participation rate falls too, since the labour force shrinks while the eligible population does not. D is the intuitive trap: joblessness only counts if you are searching. This is the discouraged-worker problem, and it is why the unemployment rate can improve in a bad labour market."
+  },
+  {
+    "objectID": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
+    "href": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
+    "title": "EC306 - Wages and Employment",
+    "section": "Discouraged Workers and Hidden Unemployment",
+    "text": "Discouraged Workers and Hidden Unemployment\n\n\n\n\n\n\nKey Definitions\n\n\nDiscouraged workers: people who want a job but have stopped searching because they believe no work is available\nHidden unemployment: joblessness the unemployment rate misses, because non-searchers are counted as outside the labour force\n\n\n\n\nThe previous question is exactly this mechanism — discouragement makes the unemployment rate look better as the labour market gets worse\nPeople who want work but are not searching have marginal labour force attachment\n\nJones and Riddell (1999) find they behave more like the unemployed than like others outside the labour force\n\nSo “unemployed” versus “not in the labour force” is a measurement line, not a bright line in behaviour\n\n\nThe payoff line is the last one. The survey has to draw the line somewhere, and search activity is where it draws it — but the marginally attached straddle it. When discouragement is widespread, the unemployment rate understates slack, which is why Statistics Canada also publishes supplementary measures that fold these people back in."
   },
   {
     "objectID": "slides/ch02/index.html#usual-weekly-hours-men-vs-women",
@@ -4529,13 +4550,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/lsupply2.html#sample-questions",
-    "href": "content/lsupply2.html#sample-questions",
-    "title": "Labour Supply 2: Labour Supply and Public Policy",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/lmarket.html",
     "href": "content/lmarket.html",
     "title": "Wages and Employment in a Single Labour Market",
@@ -4557,13 +4571,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/lmarket.html#sample-questions",
-    "href": "content/lmarket.html#sample-questions",
-    "title": "Wages and Employment in a Single Labour Market",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/ldemand1.html",
     "href": "content/ldemand1.html",
     "title": "Labour Demand 1: Competitive Labour Markets",
@@ -4583,13 +4590,6 @@
     "title": "Labour Demand 1: Competitive Labour Markets",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
-  },
-  {
-    "objectID": "content/ldemand1.html#sample-questions",
-    "href": "content/ldemand1.html#sample-questions",
-    "title": "Labour Demand 1: Competitive Labour Markets",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "content/introtor.html",
@@ -4814,13 +4814,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/ch14.html#sample-questions",
-    "href": "content/ch14.html#sample-questions",
-    "title": "Human Capital Theory: Applications to Education and Training",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/ch11.html",
     "href": "content/ch11.html",
     "title": "Competitive Labour Markets",
@@ -4840,13 +4833,6 @@
     "title": "Competitive Labour Markets",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
-  },
-  {
-    "objectID": "content/ch11.html#sample-questions",
-    "href": "content/ch11.html#sample-questions",
-    "title": "Competitive Labour Markets",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "content/ch09.html",
@@ -4941,18 +4927,6 @@
     "title": "Labour Supply",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "3. Labour Supply"
-    ]
-  },
-  {
-    "objectID": "content/ch03.html#sample-questions",
-    "href": "content/ch03.html#sample-questions",
-    "title": "Labour Supply",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here.",
     "crumbs": [
       "Content",
       "Course content",
@@ -5056,7 +5030,6 @@
     "section": "",
     "text": "Here you will find the problem sets for all your assignments, and any other information related to your assignments.",
     "crumbs": [
-      "Assignments",
       "Overview",
       "Summary"
     ]
@@ -5119,13 +5092,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/ch04.html#sample-questions",
-    "href": "content/ch04.html#sample-questions",
-    "title": "Labour Supply and Income Support Programs",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/ch06.html",
     "href": "content/ch06.html",
     "title": "Labour Supply and Early Career Decisions",
@@ -5147,13 +5113,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/ch06.html#sample-questions",
-    "href": "content/ch06.html#sample-questions",
-    "title": "Labour Supply and Early Career Decisions",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/ch08.html",
     "href": "content/ch08.html",
     "title": "Labour Demand",
@@ -5173,13 +5132,6 @@
     "title": "Labour Demand",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
-  },
-  {
-    "objectID": "content/ch08.html#sample-questions",
-    "href": "content/ch08.html#sample-questions",
-    "title": "Labour Demand",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "content/ch10.html",
@@ -5224,13 +5176,6 @@
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
-    "objectID": "content/ch12.html#sample-questions",
-    "href": "content/ch12.html#sample-questions",
-    "title": "Imperfectly Competitive Labour Markets",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
-  },
-  {
     "objectID": "content/ch15.html",
     "href": "content/ch15.html",
     "title": "Wage Differentials Among Diverse Population Groups",
@@ -5250,13 +5195,6 @@
     "title": "Wage Differentials Among Diverse Population Groups",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
-  },
-  {
-    "objectID": "content/ch15.html#sample-questions",
-    "href": "content/ch15.html#sample-questions",
-    "title": "Wage Differentials Among Diverse Population Groups",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "content/hcapital.html",
@@ -5397,13 +5335,6 @@
     "title": "Labour Supply 3: Labour Supply Over the Life Cycle",
     "section": "Slides",
     "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
-  },
-  {
-    "objectID": "content/lsupply3.html#sample-questions",
-    "href": "content/lsupply3.html#sample-questions",
-    "title": "Labour Supply 3: Labour Supply Over the Life Cycle",
-    "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "questions/ch03/index.html#bfglss-chapter-3-problem-3",
@@ -5791,6 +5722,13 @@
     "text": "Building a Market Supply Curve\n\nSurvey two typical students, Robin and Sam, in a neighbourhood of 10,000\nTake each to represent 5,000 students\n\n\nHours per week\n\n\n\n\n\n\n\n\n\nWage\nRobin\nSam\nCombined\nMarket (×5,000)\n\n\n\n\n$10\n4\n10\n14\n70,000\n\n\n$20\n15\n25\n40\n200,000\n\n\n$30\n25\n35\n60\n300,000\n\n\n$40\n30\n40\n70\n350,000\n\n\n$50\n33\n43\n76\n380,000\n\n\n\n\nBoth individuals slope up, so the market curve does too\n\n\nAsk what is wrong with this before moving on. Two people is not a sample. They are stating what they would do, not doing it, and stated intentions and actual behaviour come apart badly on questions like this. Statistics Canada does this properly with large probability samples. The point of the exercise is the mechanics of scaling up, not the numbers."
   },
   {
+    "objectID": "slides/ch03/index.html#iclicker-question",
+    "href": "slides/ch03/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich of the following is a change on the extensive margin of labour supply?\nA) A nurse picks up two extra shifts a month after a pay raise\nB) A retired teacher returns to part-time tutoring when tutoring rates rise\nC) A student cuts back from 20 to 12 hours a week during exams\nD) A full-time worker starts refusing overtime\nE) A contractor raises her hourly rate\n\nAnswer: B. The extensive margin is whether to work at all; moving from retired to tutoring crosses that line.\nA, C, and D are all hours adjustments by people already working — the intensive margin. Anyone picking them has the two margins swapped, which is worth pausing on because it is exactly the confusion that decides which questions the reservation wage can answer. E is not a labour supply decision at all — it is a price change."
+  },
+  {
     "objectID": "slides/ch03/index.html#introduction",
     "href": "slides/ch03/index.html#introduction",
     "title": "EC306 - Wages and Employment",
@@ -5882,6 +5820,13 @@
     "text": "Constraints\n\nThe potential income constraint does not have to be a straight line\nA straight line assumes every extra hour pays the same \\(w\\)\nThat fails for the self-employed — think of a doctor or a lawyer\n\nThey sell the output they produce, not their hours\nIncome is a function of hours worked, \\(I = F(h)\\)\n\nPast some point they run into diminishing marginal productivity\n\nEach extra hour adds less output than the one before it\nSo the constraint curves, flattening out as work hours rise\n\nThe wage here is what the market pays for an hour’s worth of what they produce\nNothing about the model changes — the optimum is still a tangency\n\nIt is only harder to work with algebraically\n\n\n\nAsk them where the straight line came from. It came from assuming the wage is a constant, which is a fine description of an hourly job and a poor one for anybody selling output. The self-employed case is the natural counterexample, and it is worth saying that the curvature is diminishing marginal product showing up in the budget set rather than anything new about preferences. Reassure them on the last point: we are not going to solve these, we just want them to recognise a curved constraint when they meet one."
   },
   {
+    "objectID": "slides/ch03/index.html#iclicker-question-1",
+    "href": "slides/ch03/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA worker’s employer cuts the wage from $25 to $20 per hour. Which point on the budget constraint does not move?\nA) The full-income point, where leisure is zero\nB) The zero-work point, where leisure = \\(T\\) and consumption = \\(Y_{n}\\)\nC) The current optimum\nD) Every point on the constraint moves\nE) None moves individually — the whole line shifts down in parallel\n\nAnswer: B. Non-labour income is there whether or not you work, so the zero-work endpoint is nailed down; a wage change swivels the line around it.\nE is the one to chase — it treats a price change like an income change. A parallel shift is what a change in \\(Y_{n}\\) does; a wage change alters the slope, so the line pivots. A is picking the wrong anchor: full income is \\(wT + Y_{n}\\), which falls with the wage."
+  },
+  {
     "objectID": "slides/ch03/index.html#consumer-optimum",
     "href": "slides/ch03/index.html#consumer-optimum",
     "title": "EC306 - Wages and Employment",
@@ -5910,11 +5855,11 @@
     "text": "Consumer Optimum\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph to the left shows a non-participation optimum\nThe slope of the indifference curve is steeper than the budget constraint at full leisure\n\nThe extra consumption you want from one less hour of leisure (MRS) is more than you can get from working an hour (wage)\n\nSo your optimal choice is to not work at all\nIndifference curve touches the budget constraint at the kink\nNotice the wage \\(w_{0}\\) is lower than the reservation wage \\(w_{r}\\)"
   },
   {
-    "objectID": "slides/ch03/index.html#iclicker-question",
-    "href": "slides/ch03/index.html#iclicker-question",
+    "objectID": "slides/ch03/index.html#iclicker-question-2",
+    "href": "slides/ch03/index.html#iclicker-question-2",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nWhich of the following is a change on the extensive margin of labour supply?\nA) A nurse picks up two extra shifts a month after a pay raise\nB) A retired teacher returns to part-time tutoring when tutoring rates rise\nC) A student cuts back from 20 to 12 hours a week during exams\nD) A full-time worker starts refusing overtime\nE) A contractor raises her hourly rate\n\nAnswer: B. The extensive margin is whether to work at all; moving from retired to tutoring crosses that line.\nA, C, and D are all hours adjustments by people already working — the intensive margin. Anyone picking them has the two margins swapped, which is worth pausing on because it is exactly the confusion that decides which questions the reservation wage can answer. E is not a labour supply decision at all — it is a price change."
+    "text": "iClicker Question\nA person receives a large inheritance, substantially increasing their non-labour income. Leisure is a normal good. What happens to their reservation wage?\nA) It rises — the value of their time at home goes up, so they are less likely to participate\nB) It falls — with more income they need less from a job, so they will accept a lower wage\nC) It is unchanged — the reservation wage is determined by the market wage\nD) It is unchanged — non-labour income shifts the budget constraint without changing its slope\nE) It rises, but only if they were already employed\n\nAnswer: A. More non-labour income raises the value of time at home, so the wage needed to pull them into work goes up.\nD is the one to watch for. Its premise is true — the constraint does shift up in parallel — but the conclusion does not follow. The reservation wage is the slope of the indifference curve at zero hours of work, not the slope of the budget line. If a lot of the room picks D, go back to the kink diagram and mark the two slopes separately.\nC is the students who have collapsed “reservation wage” into “market wage” — they are two different objects, and the whole participation decision is the comparison between them."
   },
   {
     "objectID": "slides/ch03/index.html#introduction-1",
@@ -5980,11 +5925,11 @@
     "text": "Increase in the Wage\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nChanging the wage can also affect participation\nRecall that workers do not work if the wage is below their reservation wage\nIf an increase in the wage moves it above the reservation wage, they will start working\nGraph to the left shows how this would happen"
   },
   {
-    "objectID": "slides/ch03/index.html#section",
-    "href": "slides/ch03/index.html#section",
+    "objectID": "slides/ch03/index.html#iclicker-question-3",
+    "href": "slides/ch03/index.html#iclicker-question-3",
     "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nA worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect – income or substitution – must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA worker earning $20/hour gets a raise to $25/hour and chooses to work fewer hours per week. Which must be true?\nA) The income effect outweighs the substitution effect\nB) The substitution effect outweighs the income effect\nC) Leisure must be an inferior good for this worker\nD) The wage must be below their reservation wage\nE) The worker is behaving irrationally — hours should rise with the wage\n\nAnswer: A. Hours fell after a wage increase, so the income effect won.\nC is the subtle trap: the income effect only pushes hours down if leisure is normal. If leisure were inferior, extra income would mean less leisure — more work — and both effects would point the same way. So the observed behaviour requires leisure to be normal, the opposite of C.\nE flags anyone who thinks supply must slope up; this worker is on the backward-bending part. D confuses the participation decision with the hours decision — they are clearly above the reservation wage, since they are working."
   },
   {
     "objectID": "slides/ch03/index.html#the-individual-labour-supply-curve",
@@ -6022,11 +5967,11 @@
     "text": "Summary\n\nWe have used the labour supply model to examine changes in the wage\nFor people participating, wage changes alter leisure and work hours\nIf the wage goes up then\n\nWork hours go up if the substitution effect is strongest\nWork hours go down if the income effect is strongest\n\nFor non-participants, a wage increase can induce them to enter the labour force\n\nIf the wage goes above their reservation wage\n\nThe labour supply curve maps different wages to work hours\nIt slopes up at lower wages, but can bend backwards at higher wages"
   },
   {
-    "objectID": "slides/ch03/index.html#iclicker-question-1",
-    "href": "slides/ch03/index.html#iclicker-question-1",
+    "objectID": "slides/ch03/index.html#iclicker-question-4",
+    "href": "slides/ch03/index.html#iclicker-question-4",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nA worker’s employer cuts the wage from $25 to $20 per hour. Which point on the budget constraint does not move?\nA) The full-income point, where leisure is zero\nB) The zero-work point, where leisure = \\(T\\) and consumption = \\(Y_{n}\\)\nC) The current optimum\nD) Every point on the constraint moves\nE) None moves individually — the whole line shifts down in parallel\n\nAnswer: B. Non-labour income is there whether or not you work, so the zero-work endpoint is nailed down; a wage change swivels the line around it.\nE is the one to chase — it treats a price change like an income change. A parallel shift is what a change in \\(Y_{n}\\) does; a wage change alters the slope, so the line pivots. A is picking the wrong anchor: full income is \\(wT + Y_{n}\\), which falls with the wage."
+    "text": "iClicker Question\nDoctors, lawyers, and executives earn high wages and often work very long hours. Does this contradict the backward-bending labour supply curve?\nA) No — the curve describes how one person responds to a change in their own wage, not how hours compare across different people\nB) Yes — it shows the income effect never dominates the substitution effect\nC) No — it shows the substitution effect always dominates at high wages\nD) Yes — labour supply must therefore slope upward throughout\nE) No — high earners have less non-labour income, so they must work more\n\nAnswer: A. The backward-bending curve is a comparative static on one person: change that person’s wage, hold their preferences fixed, see how their hours move. Comparing doctors to other workers is a different exercise entirely.\nC is the trap, and it will pull a lot of the room because it reaches the right verdict by the wrong route. It treats a comparison across people as if it were a comparison within one person. The people who become surgeons are not a random draw — a strong taste for income and work is part of why they chose that career and endured the training. That is selection, not a substitution effect.\nWorth saying out loud: getting A rather than C is the difference between knowing what the curve is a statement about and just knowing it does not contradict."
   },
   {
     "objectID": "slides/ch03/index.html#introduction-2",
@@ -6085,6 +6030,13 @@
     "text": "Elasticity of Labour Supply\n\nTwo more generalizations, both about who and when\n\n\n\n\n\n\n\nNote\n\n\n\nMarried women’s elasticities have fallen substantially since the 1980s\nLow-income workers are more elastic than high-income workers\n\n\n\n\n\nEvidence on the decline: Blau and Kahn (2007), Dostie and Kromann (2013), Morissette and Hou (2008)\nMen’s elasticities went the other way, rising slightly\n\n\n\n\n\n\n\nWarning\n\n\nThese numbers describe responses in the early 2000s, and magnitudes vary a lot across studies — use them with caution\n\n\n\n\nGeneralization 4 is the interesting one. Married women’s labour supply used to be highly responsive to wages because participation was still very much in play; as participation rose toward men’s, the responsiveness fell toward men’s too. Point 5 matters for policy — minimum wages and transfers hit exactly the group whose hours move most."
   },
   {
+    "objectID": "slides/ch03/index.html#iclicker-question-5",
+    "href": "slides/ch03/index.html#iclicker-question-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nFor men, the uncompensated elasticity of labour supply is estimated at slightly negative to zero, while the compensated elasticity is positive. What does this pair of estimates tell us?\nA) The income effect slightly outweighs the substitution effect — supply is mildly backward bending\nB) The substitution effect dominates for men\nC) The two estimates contradict each other, so at least one must be wrong\nD) Men’s labour supply does not respond to wages at all\nE) Leisure is an inferior good for men\n\nAnswer: A. The compensated elasticity strips out the income effect and comes out positive, exactly as theory requires. Adding the income effect back in drags the total slightly below zero — the income effect wins by a little, which is the backward-bending case.\nC is the important wrong answer: the two elasticities answer different experiments — one holds utility constant, one does not — so they can disagree in sign without either being wrong. That distinction is the entire reason both get estimated."
+  },
+  {
     "objectID": "slides/ch03/index.html#introduction-3",
     "href": "slides/ch03/index.html#introduction-3",
     "title": "EC306 - Wages and Employment",
@@ -6111,6 +6063,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Added Worker Effect",
     "text": "Added Worker Effect\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the spouse was not already working, the fall in income can induce participation\nHappens because the fall in income reduces the reservation wage\n\nIf the wage is now above the reservation wage, they will start working\n\nGraph to the left shows how this happens\n\nThe slope of reservation wage \\(R_{1}\\) is smaller than \\(R_{0}\\) after the drop in non-labour income\nPerson enters the labour market in response because wage is now above reservation wage"
+  },
+  {
+    "objectID": "slides/ch03/index.html#does-the-added-worker-effect-show-up-in-the-data",
+    "href": "slides/ch03/index.html#does-the-added-worker-effect-show-up-in-the-data",
+    "title": "EC306 - Wages and Employment",
+    "section": "Does the Added Worker Effect Show Up in the Data?",
+    "text": "Does the Added Worker Effect Show Up in the Data?\n\nThe theory says a spouse’s job loss should pull the other partner toward work — the Canadian evidence says a little, and not for everyone\nMorissette and Ostrovsky tracked families through layoffs in the 1990s\n\nNo added-worker response in the aggregate; a modest one among wives without teenagers at home\nWives’ earnings made up only about one-fifth of the husband’s earnings loss five years on\n\nFerrer, Pan, and Schirle revisit the question with recent data\n\nMarried women do move into employment quickly when a spouse is laid off\nThere is no comparable response among men\nPart of the response looks anticipated — families that can see the layoff coming are ready for it\n\nSource: Morissette and Ostrovsky (2008); Ferrer, Pan and Schirle (2025)\n\n\nThe model predicts the direction, not the size, and the size turns out to be small. Worth asking the room why before telling them: the shock to non-labour income is smaller than the layoff itself, because EI replaces a chunk of the lost earnings — so the reservation wage does not fall as far as the job loss suggests. The anticipation finding is the subtle one: the women most likely to enter employment are in families where the layoff was foreseeable, which blurs the line between a response to the shock and preparation for it. The gender asymmetry connects back to the elasticity table — married women’s labour supply is the margin that moves."
   },
   {
     "objectID": "slides/ch03/index.html#mortgages-and-participation",
@@ -6141,11 +6100,11 @@
     "text": "Rigid Schedules and Flexible Work Hours\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine they can take a second job at a lower wage rate\nThe budget constraint pivots out from the fixed hours point\nBeyond those hours, the wage falls\nAllows worker to access higher utility curve\n\nThey can increase hours worked\nBut not as much as if they could extend hours in main job"
   },
   {
-    "objectID": "slides/ch03/index.html#section-1",
-    "href": "slides/ch03/index.html#section-1",
+    "objectID": "slides/ch03/index.html#iclicker-question-6",
+    "href": "slides/ch03/index.html#iclicker-question-6",
     "title": "EC306 - Wages and Employment",
-    "section": "",
-    "text": "Think About It\nDuring the COVID-19 pandemic, many households experienced both job losses (added worker effect) and falling wages in available jobs (discouraged worker effect) at the same time. What would the model predict about labour force participation for secondary earners in these households, and why might the two effects work against each other?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn a recession, a household’s primary earner loses their job while wages fall in the jobs available to the second earner. What does the model predict for the second earner’s participation?\nA) The income loss pushes them toward entering, the lower wage pushes them away — the net effect is ambiguous\nB) They will certainly enter — the household needs the income\nC) They will certainly stay out — the available wage is too low\nD) Participation is unchanged, because the two effects cancel exactly\nE) The model can say nothing about participation, only about hours\n\nAnswer: A. The lost spousal income lowers the second earner’s reservation wage (the added worker effect), while the falling market wage makes it less likely the offer clears that bar (the discouraged worker channel). The two forces genuinely oppose, and the model does not rank them.\nD is the trap: “ambiguous” means we cannot sign the net effect, not that the effects offset exactly — that would be a knife-edge coincidence. E is margin confusion; participation is precisely what the reservation-wage comparison decides."
   },
   {
     "objectID": "slides/ch03/index.html#overtime",
@@ -6160,6 +6119,13 @@
     "title": "EC306 - Wages and Employment",
     "section": "Overtime",
     "text": "Overtime\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf the employer offers overtime wages, the budget constraint pivots out from the fixed hours point\n\nBeyond those hours, the wage increases from \\(w_{0}\\) to \\(w_{1}\\)\n\nAllows worker to access higher utility curve\nAlso increases hours worked even though they are initially overemployed\n\nThe higher wage induces a substitution effect to work more\nThere is a small income effect that only applies to the extra hours\n\nThe alternative — paying more for all hours — is Review Questions 7 and 8"
+  },
+  {
+    "objectID": "slides/ch03/index.html#iclicker-question-7",
+    "href": "slides/ch03/index.html#iclicker-question-7",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhy does an overtime premium raise hours more effectively than an equally costly raise on all hours?\nA) The premium changes the return only on marginal hours, so it delivers a substitution effect with almost no income effect\nB) An across-the-board raise creates a larger substitution effect\nC) The income effect from the premium encourages more work\nD) The premium raises full income by more than the across-the-board raise\nE) It doesn’t — both change hours by the same amount\n\nAnswer: A. The premium only pays on hours beyond the current schedule, so it raises the opportunity cost of leisure at the margin while barely making the worker richer overall — a substitution effect with the income effect mostly stripped out. The across-the-board raise pays mostly for hours already being worked, and that windfall is pure income effect pushing toward leisure.\nD is factually backwards — for the same hours response the across-the-board raise costs more and raises full income by more — and it tests whether they can rank the income effects, which is the whole mechanism. This is Review Questions 7 and 8 in the text."
   },
   {
     "objectID": "slides/ch03/index.html#summary-2",
@@ -9296,82 +9262,5 @@
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
     "text": "Summary\nFertility decisions are affected by:\nIncome, prices, tastes, and technology\nRetirement decisions are affected by:\nAge, wealth, health, family, and pensions"
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-2",
-    "href": "slides/ch03/index.html#iclicker-question-2",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nA person receives a large inheritance, substantially increasing their non-labour income. Leisure is a normal good. What happens to their reservation wage?\nA) It rises — the value of their time at home goes up, so they are less likely to participate\nB) It falls — with more income they need less from a job, so they will accept a lower wage\nC) It is unchanged — the reservation wage is determined by the market wage\nD) It is unchanged — non-labour income shifts the budget constraint without changing its slope\nE) It rises, but only if they were already employed\n\nAnswer: A. More non-labour income raises the value of time at home, so the wage needed to pull them into work goes up.\nD is the one to watch for. Its premise is true — the constraint does shift up in parallel — but the conclusion does not follow. The reservation wage is the slope of the indifference curve at zero hours of work, not the slope of the budget line. If a lot of the room picks D, go back to the kink diagram and mark the two slopes separately.\nC is the students who have collapsed “reservation wage” into “market wage” — they are two different objects, and the whole participation decision is the comparison between them."
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-3",
-    "href": "slides/ch03/index.html#iclicker-question-3",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nA worker earning $20/hour gets a raise to $25/hour and chooses to work fewer hours per week. Which must be true?\nA) The income effect outweighs the substitution effect\nB) The substitution effect outweighs the income effect\nC) Leisure must be an inferior good for this worker\nD) The wage must be below their reservation wage\nE) The worker is behaving irrationally — hours should rise with the wage\n\nAnswer: A. Hours fell after a wage increase, so the income effect won.\nC is the subtle trap: the income effect only pushes hours down if leisure is normal. If leisure were inferior, extra income would mean less leisure — more work — and both effects would point the same way. So the observed behaviour requires leisure to be normal, the opposite of C.\nE flags anyone who thinks supply must slope up; this worker is on the backward-bending part. D confuses the participation decision with the hours decision — they are clearly above the reservation wage, since they are working."
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-4",
-    "href": "slides/ch03/index.html#iclicker-question-4",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nDoctors, lawyers, and executives earn high wages and often work very long hours. Does this contradict the backward-bending labour supply curve?\nA) No — the curve describes how one person responds to a change in their own wage, not how hours compare across different people\nB) Yes — it shows the income effect never dominates the substitution effect\nC) No — it shows the substitution effect always dominates at high wages\nD) Yes — labour supply must therefore slope upward throughout\nE) No — high earners have less non-labour income, so they must work more\n\nAnswer: A. The backward-bending curve is a comparative static on one person: change that person’s wage, hold their preferences fixed, see how their hours move. Comparing doctors to other workers is a different exercise entirely.\nC is the trap, and it will pull a lot of the room because it reaches the right verdict by the wrong route. It treats a comparison across people as if it were a comparison within one person. The people who become surgeons are not a random draw — a strong taste for income and work is part of why they chose that career and endured the training. That is selection, not a substitution effect.\nWorth saying out loud: getting A rather than C is the difference between knowing what the curve is a statement about and just knowing it does not contradict."
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-5",
-    "href": "slides/ch03/index.html#iclicker-question-5",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nFor men, the uncompensated elasticity of labour supply is estimated at slightly negative to zero, while the compensated elasticity is positive. What does this pair of estimates tell us?\nA) The income effect slightly outweighs the substitution effect — supply is mildly backward bending\nB) The substitution effect dominates for men\nC) The two estimates contradict each other, so at least one must be wrong\nD) Men’s labour supply does not respond to wages at all\nE) Leisure is an inferior good for men\n\nAnswer: A. The compensated elasticity strips out the income effect and comes out positive, exactly as theory requires. Adding the income effect back in drags the total slightly below zero — the income effect wins by a little, which is the backward-bending case.\nC is the important wrong answer: the two elasticities answer different experiments — one holds utility constant, one does not — so they can disagree in sign without either being wrong. That distinction is the entire reason both get estimated."
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-6",
-    "href": "slides/ch03/index.html#iclicker-question-6",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nIn a recession, a household’s primary earner loses their job while wages fall in the jobs available to the second earner. What does the model predict for the second earner’s participation?\nA) The income loss pushes them toward entering, the lower wage pushes them away — the net effect is ambiguous\nB) They will certainly enter — the household needs the income\nC) They will certainly stay out — the available wage is too low\nD) Participation is unchanged, because the two effects cancel exactly\nE) The model can say nothing about participation, only about hours\n\nAnswer: A. The lost spousal income lowers the second earner’s reservation wage (the added worker effect), while the falling market wage makes it less likely the offer clears that bar (the discouraged worker channel). The two forces genuinely oppose, and the model does not rank them.\nD is the trap: “ambiguous” means we cannot sign the net effect, not that the effects offset exactly — that would be a knife-edge coincidence. E is margin confusion; participation is precisely what the reservation-wage comparison decides."
-  },
-  {
-    "objectID": "slides/ch03/index.html#iclicker-question-7",
-    "href": "slides/ch03/index.html#iclicker-question-7",
-    "title": "EC306 - Wages and Employment",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nWhy does an overtime premium raise hours more effectively than an equally costly raise on all hours?\nA) The premium changes the return only on marginal hours, so it delivers a substitution effect with almost no income effect\nB) An across-the-board raise creates a larger substitution effect\nC) The income effect from the premium encourages more work\nD) The premium raises full income by more than the across-the-board raise\nE) It doesn’t — both change hours by the same amount\n\nAnswer: A. The premium only pays on hours beyond the current schedule, so it raises the opportunity cost of leisure at the margin while barely making the worker richer overall — a substitution effect with the income effect mostly stripped out. The across-the-board raise pays mostly for hours already being worked, and that windfall is pure income effect pushing toward leisure.\nD is factually backwards — for the same hours response the across-the-board raise costs more and raises full income by more — and it tests whether they can rank the income effects, which is the whole mechanism. This is Review Questions 7 and 8 in the text."
-  },
-  {
-    "objectID": "slides/ch03/index.html#does-the-added-worker-effect-show-up-in-the-data",
-    "href": "slides/ch03/index.html#does-the-added-worker-effect-show-up-in-the-data",
-    "title": "EC306 - Wages and Employment",
-    "section": "Does the Added Worker Effect Show Up in the Data?",
-    "text": "Does the Added Worker Effect Show Up in the Data?\n\nThe theory says a spouse’s job loss should pull the other partner toward work — the Canadian evidence says a little, and not for everyone\nMorissette and Ostrovsky tracked families through layoffs in the 1990s\n\nNo added-worker response in the aggregate; a modest one among wives without teenagers at home\nWives’ earnings made up only about one-fifth of the husband’s earnings loss five years on\n\nFerrer, Pan, and Schirle revisit the question with recent data\n\nMarried women do move into employment quickly when a spouse is laid off\nThere is no comparable response among men\nPart of the response looks anticipated — families that can see the layoff coming are ready for it\n\nSource: Morissette and Ostrovsky (2008); Ferrer, Pan and Schirle (2025)\n\n\nThe model predicts the direction, not the size, and the size turns out to be small. Worth asking the room why before telling them: the shock to non-labour income is smaller than the layoff itself, because EI replaces a chunk of the lost earnings — so the reservation wage does not fall as far as the job loss suggests. The anticipation finding is the subtle one: the women most likely to enter employment are in families where the layoff was foreseeable, which blurs the line between a response to the shock and preparation for it. The gender asymmetry connects back to the elasticity table — married women’s labour supply is the margin that moves."
-  },
-  {
-    "objectID": "slides/ch02/index.html#minimum-wages-in-canada-september-2026",
-    "href": "slides/ch02/index.html#minimum-wages-in-canada-september-2026",
-    "title": "EC306 - Wages and Employment",
-    "section": "Minimum Wages in Canada, September 2026",
-    "text": "Minimum Wages in Canada, September 2026\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nCanada (federal)\n$18.15\n\n\nNewfoundland and Labrador\n$16.35\n\n\nPrince Edward Island\n$17.00\n\n\nNova Scotia\n$16.75\n\n\nNew Brunswick\n$15.90\n\n\nQuebec\n$16.60\n\n\nOntario\n$17.60\n\n\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nManitoba\n$16.00\n\n\nSaskatchewan\n$15.35\n\n\nAlberta\n$15.00\n\n\nBritish Columbia\n$18.25\n\n\nNunavut\n$20.17\n\n\nNorthwest Territories\n$17.20\n\n\nYukon\n$18.51\n\n\n\n\n\nMost jurisdictions now index annually — Ontario, Manitoba, Nova Scotia, and PEI all adjust on October 1, 2026, partway through this course\nAlberta has not changed since 2019, the longest freeze in the country\n\nWe analyze minimum wages properly in Chapter 12."
-  },
-  {
-    "objectID": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
-    "href": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
-    "title": "EC306 - Wages and Employment",
-    "section": "Discouraged Workers and Hidden Unemployment",
-    "text": "Discouraged Workers and Hidden Unemployment\n\n\n\n\n\n\nKey Definitions\n\n\nDiscouraged workers: people who want a job but have stopped searching because they believe no work is available\nHidden unemployment: joblessness the unemployment rate misses, because non-searchers are counted as outside the labour force\n\n\n\n\nThe previous question is exactly this mechanism — discouragement makes the unemployment rate look better as the labour market gets worse\nPeople who want work but are not searching have marginal labour force attachment\n\nJones and Riddell (1999) find they behave more like the unemployed than like others outside the labour force\n\nSo “unemployed” versus “not in the labour force” is a measurement line, not a bright line in behaviour\n\n\nThe payoff line is the last one. The survey has to draw the line somewhere, and search activity is where it draws it — but the marginally attached straddle it. When discouragement is widespread, the unemployment rate understates slack, which is why Statistics Canada also publishes supplementary measures that fold these people back in."
-  },
-  {
-    "objectID": "slides/ch02/index.html#a-century-of-participation",
-    "href": "slides/ch02/index.html#a-century-of-participation",
-    "title": "EC306 - Wages and Employment",
-    "section": "A Century of Participation",
-    "text": "A Century of Participation\n\nThe census lets us push the participation story back to 1901\nMen’s participation has drifted down the whole century — from just over 90% to about 70% by 2024\nWomen’s participation was below 30% as recently as 1961, then rose sharply before levelling out in the 2000s at around 61%\nThe rise of women’s participation is one of the biggest changes in the Canadian labour market on record\n\nCandidate explanations — wages, education, contraception, social attitudes, life expectancy — are questions this course comes back to\n\n\n\nThe two lines converging is the story of the twentieth-century labour market in one picture. Worth pausing on the men’s line too — students expect it flat, and it is not: earlier retirement and longer schooling both pull it down. The figure splices census years 1901–1971 with annual LFS data from 1976, which is why our own chart on the next slide starts in 1976."
-  },
-  {
-    "objectID": "slides/ch02/index.html#a-century-of-participation-1",
-    "href": "slides/ch02/index.html#a-century-of-participation-1",
-    "title": "EC306 - Wages and Employment",
-    "section": "A Century of Participation",
-    "text": "A Century of Participation"
   }
 ]
