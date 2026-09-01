@@ -19,7 +19,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - syllabus.qmd
+      - text: "Syllabus"
+        file: syllabus.qmd
       - text: "Content"
         file: content/index.qmd
       - text: "Assignments"
