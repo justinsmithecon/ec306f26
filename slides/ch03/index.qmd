@@ -929,6 +929,22 @@ C is the important wrong answer: the two elasticities answer different experimen
 ::::
 ::::
 
+## Does the Added Worker Effect Show Up in the Data?
+
+- The theory says a spouse's job loss should pull the other partner toward work — the Canadian evidence says [a little, and not for everyone]{.fg style="color: #2780e3;"}
+- Morissette and Ostrovsky tracked families through layoffs in the 1990s
+  - [No added-worker response in the aggregate]{.fg style="color: #2780e3;"}; a modest one among wives without teenagers at&nbsp;home
+  - Wives' earnings made up only about [one-fifth]{.fg style="color: #2780e3;"} of the husband's earnings loss five years&nbsp;on
+- Ferrer, Pan, and Schirle revisit the question with recent data
+  - [Married women]{.fg style="color: #2780e3;"} do move into employment quickly when a spouse is laid&nbsp;off
+  - There is [no comparable response among men]{.fg style="color: #c7254e;"}
+  - Part of the response looks [anticipated]{.fg style="color: #2780e3;"} — families that can see the layoff coming are ready for&nbsp;it
+- [Source: Morissette and Ostrovsky (2008); Ferrer, Pan and Schirle (2025)]{.fg style="color: #555;"}
+
+::: {.notes}
+The model predicts the direction, not the size, and the size turns out to be small. Worth asking the room why before telling them: the shock to non-labour income is smaller than the layoff itself, because EI replaces a chunk of the lost earnings — so the reservation wage does not fall as far as the job loss suggests. The anticipation finding is the subtle one: the women most likely to enter employment are in families where the layoff was foreseeable, which blurs the line between a response to the shock and preparation for it. The gender asymmetry connects back to the elasticity table — married women's labour supply is the margin that moves.
+:::
+
 ## Mortgages and Participation
 
 - The added worker effect starts from a shock nobody planned for
@@ -1059,7 +1075,7 @@ D is the trap: "ambiguous" means we cannot sign the net effect, not that the eff
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Why does an [overtime premium]{.fg style="color: #2780e3;"} raise hours more effectively than an equally costly raise on **all** hours?
+Why does an [overtime premium]{.fg style="color: #2780e3;"} raise hours more effectively than an equally costly raise on **all**&nbsp;hours?
 
 A\) The premium changes the return only on marginal hours, so it delivers a substitution effect with almost no income&nbsp;effect\
 B) An across-the-board raise creates a larger substitution effect\
@@ -1096,10 +1112,12 @@ D is factually backwards — for the same hours response the across-the-board ra
 - Del Boca, D., & Lusardi, A. (2003). Credit market constraints and labor market decisions. *Labour Economics*, 10(6), 681–703.
 - Dostie, B., & Kromann, L. (2013). Canadian estimates of married women's labour supply elasticities.
 - Farber, H. S. (2015). Why you can't find a taxi in the rain and other labor supply lessons from cab drivers. *Quarterly Journal of Economics*, 130(4), 1975–2026.
+- Ferrer, A., Pan, Y., & Schirle, T. (2025). Added worker effects in Canada: The effect of spousal job loss on transitions into employment. *Canadian Public Policy*.
 
 ## References (cont.) {.smaller}
 
 - Fortin, N. M. (1995). Allocation inflexibilities, female labor supply, and housing assets accumulation: Are women working to pay the mortgage? *Journal of Labor Economics*, 13(3), 524–557.
 - McClelland, R., & Mok, S. (2012). *A review of recent research on labor supply elasticities*. Congressional Budget Office Working Paper 2012-12.
 - Morissette, R., & Hou, F. (2008). Does the labour supply of wives respond to husbands' wages? Canadian evidence from micro data and grouped data. *Canadian Journal of Economics*, 41(4), 1185–1210.
+- Morissette, R., & Ostrovsky, Y. (2008). *How do families and unattached individuals respond to layoffs? Evidence from Canada.* Statistics Canada, Analytical Studies Branch Research Paper No. 304.
 - Robbins, L. (1930). On the elasticity of demand for income in terms of effort. *Economica*, 29, 123–129.

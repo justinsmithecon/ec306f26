@@ -176,33 +176,36 @@ Not every part applies to every worker: federal private sector gets all four, th
   - Termination of employment, limits on hours
 - We care because these rules change the decisions of workers and firms — and therefore [wages and employment]{.fg style="color: #2780e3;"}
 
-## Minimum Wages in Canada, 2025
+## Minimum Wages in Canada, September 2026
 
 :::: columns
 :::: {.column width="50%"}
 | Jurisdiction | Wage |
 |:---|---:|
-| Canada (federal) | \$17.30 |
-| Newfoundland and Labrador | \$16.00 |
-| Prince Edward Island | \$17.20 |
-| Nova Scotia | \$16.50 |
-| New Brunswick | \$15.65 |
-| Quebec | \$16.10 |
-| Ontario | \$17.20 |
+| Canada (federal) | \$18.15 |
+| Newfoundland and Labrador | \$16.35 |
+| Prince Edward Island | \$17.00 |
+| Nova Scotia | \$16.75 |
+| New Brunswick | \$15.90 |
+| Quebec | \$16.60 |
+| Ontario | \$17.60 |
 ::::
 
 :::: {.column width="50%"}
 | Jurisdiction | Wage |
 |:---|---:|
-| Manitoba | \$15.80 |
-| Saskatchewan | \$17.20 |
+| Manitoba | \$16.00 |
+| Saskatchewan | \$15.35 |
 | Alberta | \$15.00 |
-| British Columbia | \$17.85 |
-| Nunavut | \$19.00 |
-| Northwest Territories | \$16.70 |
-| Yukon | \$17.59 |
+| British Columbia | \$18.25 |
+| Nunavut | \$20.17 |
+| Northwest Territories | \$17.20 |
+| Yukon | \$18.51 |
 ::::
 ::::
+
+- Most jurisdictions now [index annually]{.fg style="color: #2780e3;"} — Ontario, Manitoba, Nova Scotia, and PEI all adjust on [October 1, 2026]{.fg style="color: #2780e3;"}, partway through this course
+- Alberta has not changed since 2019, the longest freeze in the country
 
 We analyze minimum wages properly in [Chapter 12]{.fg style="color: #555;"}.
 
