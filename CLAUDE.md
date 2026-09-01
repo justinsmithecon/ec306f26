@@ -64,5 +64,7 @@ See the shared formatting guide at `../../shared/slide-formatting.md` for all st
 ---
 
 ## Previous Semester Reference
-The previous semester's slides are on the `main` branch of this repository (Winter 2026).
-Use `git diff main -- slides/` to compare what has changed between semesters.
+The previous semester's site (Winter 2026) is the sibling repo/folder `../ec306w26`. This repo began as the `ec306f26` branch of that repo, so histories are shared up to the branch point. The branch point is tagged `winter2026`, so to compare slides between semesters use:
+```bash
+git diff winter2026 -- slides/
+```
