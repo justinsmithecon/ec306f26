@@ -127,6 +127,22 @@ This is the setup for comparative statics. Flag now that the hours answer is gen
 Ask what is wrong with this before moving on. Two people is not a sample. They are stating what they would do, not doing it, and stated intentions and actual behaviour come apart badly on questions like this. Statistics Canada does this properly with large probability samples. The point of the exercise is the mechanics of scaling up, not the numbers.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+Which of the following is a change on the [extensive margin]{.fg style="color: #2780e3;"} of labour supply?
+
+A\) A nurse picks up two extra shifts a month after a pay raise\
+B) A retired teacher returns to part-time tutoring when tutoring rates rise\
+C) A student cuts back from 20 to 12 hours a week during exams\
+D) A full-time worker starts refusing overtime\
+E) A contractor raises her hourly rate
+
+::: {.notes}
+Answer: B. The extensive margin is whether to work at all; moving from retired to tutoring crosses that line.
+
+A, C, and D are all hours adjustments by people already working — the intensive margin. Anyone picking them has the two margins swapped, which is worth pausing on because it is exactly the confusion that decides which questions the reservation wage can answer. E is not a labour supply decision at all — it is a price change.
+:::
+
 # Labour Supply Model
 
 ## Introduction
@@ -335,6 +351,22 @@ $$C = w(T - L) + Y_{n}$$
 
 ::: {.notes}
 Ask them where the straight line came from. It came from assuming the wage is a constant, which is a fine description of an hourly job and a poor one for anybody selling output. The self-employed case is the natural counterexample, and it is worth saying that the curvature is diminishing marginal product showing up in the budget set rather than anything new about preferences. Reassure them on the last point: we are not going to solve these, we just want them to recognise a curved constraint when they meet one.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+A worker's employer cuts the wage from \$25 to \$20 per hour. Which point on the [budget constraint]{.fg style="color: #2780e3;"} does **not** move?
+
+A\) The full-income point, where leisure is zero\
+B) The zero-work point, where leisure = $T$ and consumption = $Y_{n}$\
+C) The current optimum\
+D) Every point on the constraint moves\
+E) None moves individually — the whole line shifts down in parallel
+
+::: {.notes}
+Answer: B. Non-labour income is there whether or not you work, so the zero-work endpoint is nailed down; a wage change swivels the line around it.
+
+E is the one to chase — it treats a price change like an income change. A parallel shift is what a change in $Y_{n}$ does; a wage change alters the slope, so the line pivots. A is picking the wrong anchor: full income is $wT + Y_{n}$, which falls with the wage.
 :::
 
 ## Consumer Optimum
@@ -601,12 +633,22 @@ This is where the ambiguity we flagged at the start stops being abstract. The ol
 ::::
 ::::
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
+A worker earning \$20/hour gets a raise to \$25/hour and chooses to work *fewer* hours per week. Which must be true?
 
-A worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect -- income or substitution -- must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?
+A\) The [income effect]{.fg style="color: #2780e3;"} outweighs the [substitution effect]{.fg style="color: #2780e3;"}\
+B) The substitution effect outweighs the income effect\
+C) Leisure must be an inferior good for this worker\
+D) The wage must be below their reservation wage\
+E) The worker is behaving irrationally — hours should rise with the wage
+
+::: {.notes}
+Answer: A. Hours fell after a wage increase, so the income effect won.
+
+C is the subtle trap: the income effect only pushes hours *down* if leisure is normal. If leisure were inferior, extra income would mean less leisure — more work — and both effects would point the same way. So the observed behaviour requires leisure to be normal, the opposite of C.
+
+E flags anyone who thinks supply must slope up; this worker is on the backward-bending part. D confuses the participation decision with the hours decision — they are clearly above the reservation wage, since they are working.
 :::
 
 ## The Individual Labour Supply Curve
@@ -810,6 +852,22 @@ These numbers describe responses in the early 2000s, and magnitudes vary a lot a
 Generalization 4 is the interesting one. Married women's labour supply used to be highly responsive to wages because participation was still very much in play; as participation rose toward men's, the responsiveness fell toward men's too. Point 5 matters for policy — minimum wages and transfers hit exactly the group whose hours move most.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+For men, the [uncompensated elasticity]{.fg style="color: #2780e3;"} of labour supply is estimated at slightly negative to zero, while the [compensated elasticity]{.fg style="color: #2780e3;"} is positive. What does this pair of estimates tell us?
+
+A\) The income effect slightly outweighs the substitution effect — supply is mildly backward&nbsp;bending\
+B) The substitution effect dominates for men\
+C) The two estimates contradict each other, so at least one must be wrong\
+D) Men's labour supply does not respond to wages at all\
+E) Leisure is an inferior good for men
+
+::: {.notes}
+Answer: A. The compensated elasticity strips out the income effect and comes out positive, exactly as theory requires. Adding the income effect back in drags the total slightly below zero — the income effect wins by a little, which is the backward-bending case.
+
+C is the important wrong answer: the two elasticities answer different experiments — one holds utility constant, one does not — so they can disagree in sign without either being wrong. That distinction is the entire reason both get estimated.
+:::
+
 # Applications
 
 ## Introduction
@@ -944,12 +1002,20 @@ The 40 and 37.5 figures are the anchor. Those two numbers are not what a third o
 ::::
 ::::
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
+In a recession, a household's primary earner loses their job while wages fall in the jobs available to the second earner. What does the model predict for the second earner's [participation]{.fg style="color: #2780e3;"}?
 
-During the COVID-19 pandemic, many households experienced both job losses (added worker effect) and falling wages in available jobs (discouraged worker effect) at the same time. What would the model predict about labour force participation for secondary earners in these households, and why might the two effects work against each other?
+A\) The income loss pushes them toward entering, the lower wage pushes them away — the net effect is&nbsp;ambiguous\
+B) They will certainly enter — the household needs the income\
+C) They will certainly stay out — the available wage is too low\
+D) Participation is unchanged, because the two effects cancel exactly\
+E) The model can say nothing about participation, only about hours
+
+::: {.notes}
+Answer: A. The lost spousal income lowers the second earner's reservation wage (the added worker effect), while the falling market wage makes it less likely the offer clears that bar (the discouraged worker channel). The two forces genuinely oppose, and the model does not rank them.
+
+D is the trap: "ambiguous" means we cannot sign the net effect, not that the effects offset exactly — that would be a knife-edge coincidence. E is margin confusion; participation is precisely what the reservation-wage comparison decides.
 :::
 
 ## Overtime
@@ -990,6 +1056,22 @@ During the COVID-19 pandemic, many households experienced both job losses (added
 - The alternative — paying more for *all* hours — is [Review Questions 7 and 8]{.fg style="color: #555;"}
 ::::
 ::::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+Why does an [overtime premium]{.fg style="color: #2780e3;"} raise hours more effectively than an equally costly raise on **all** hours?
+
+A\) The premium changes the return only on marginal hours, so it delivers a substitution effect with almost no income&nbsp;effect\
+B) An across-the-board raise creates a larger substitution effect\
+C) The income effect from the premium encourages more work\
+D) The premium raises full income by more than the across-the-board raise\
+E) It doesn't — both change hours by the same amount
+
+::: {.notes}
+Answer: A. The premium only pays on hours beyond the current schedule, so it raises the opportunity cost of leisure at the margin while barely making the worker richer overall — a substitution effect with the income effect mostly stripped out. The across-the-board raise pays mostly for hours already being worked, and that windfall is pure income effect pushing toward leisure.
+
+D is factually backwards — for the same hours response the across-the-board raise costs more and raises full income by more — and it tests whether they can rank the income effects, which is the whole mechanism. This is Review Questions 7 and 8 in the text.
+:::
 
 # Summary
 
