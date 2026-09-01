@@ -3952,7 +3952,7 @@
     "href": "slides/ch02/index.html#participation-across-countries",
     "title": "EC306 - Wages and Employment",
     "section": "Participation Across Countries",
-    "text": "Participation Across Countries\n\nThere is huge variation across countries\n\nFrom about 41% in Jordan to 87% in Iceland\n\nCanada is relatively high at 80.3% in 2023 — nearly 7 points above the United States\nMost of the cross-country variation comes from differences in women’s participation\nCountries with the largest gaps between men and women tend to have lower average incomes\n\nThough there are important exceptions"
+    "text": "Participation Across Countries\n\nThere is huge variation across countries\n\nFrom about 41% in Jordan to 87% in Iceland\n\nCanada is relatively high at 80.3% in 2023 — nearly 7 points above the United States\n\nThese comparisons cover ages 15–64, which is why they run well above the 15-and-over rates in our Canadian charts later\n\nMost of the cross-country variation comes from differences in women’s participation\nCountries with the largest gaps between men and women tend to have lower average incomes\n\nThough there are important exceptions"
   },
   {
     "objectID": "slides/ch02/index.html#participation-and-economic-development",
@@ -4092,7 +4092,7 @@
     "href": "slides/ch02/index.html#key-definitions-employment-and-unemployment",
     "title": "EC306 - Wages and Employment",
     "section": "Key Definitions: Employment and Unemployment",
-    "text": "Key Definitions: Employment and Unemployment\nPeople in the labour force are either employed or unemployed.\n\n\n\n\n\n\nImportant\n\n\nEmployed (E): worked during the reference period — including those normally employed but temporarily absent\nUnemployed (U): did not work, but were available and actively looked in the past four weeks, are waiting to start a job within four weeks, or are on temporary layoff expecting recall\n\n\n\n\\[ER = E/POP \\qquad UR = U/LF\\]\n\nPeople also choose how intensively to work — full time or part time — which we measure with hours worked"
+    "text": "Key Definitions: Employment and Unemployment\nPeople in the labour force are either employed or unemployed.\n\n\n\n\n\n\nImportant\n\n\nEmployed (E): worked during the reference period — including those normally employed but temporarily absent\nUnemployed (U): did not work, but were available and actively looked in the past four weeks, are waiting to start a job within four weeks, or are on temporary layoff expecting recall\n\n\n\n\\[ER = E/POP \\qquad UR = U/LF\\]\n\nEconomists split the choice in two: the extensive margin is whether to work at all, the intensive margin is how many hours once you do\n\nWe measure the intensive margin with hours worked — full time or part time"
   },
   {
     "objectID": "slides/ch02/index.html#the-labour-force-hierarchy",
@@ -4134,7 +4134,7 @@
     "href": "slides/ch02/index.html#iclicker-question-4",
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
-    "text": "iClicker Question\nWhich statistic is the best proxy for the demand side of the labour market?\nA) The participation rate\nB) The employment rate\nC) The unemployment rate\nD) The size of the eligible population\nE) None — all three are supply-side measures\n\nAnswer: B. Participation tells us who is willing to work, so it proxies supply. The employment rate tells us how many of them firms actually hired, so it proxies demand. The unemployment rate mixes the two — it moves when either side moves, which is exactly why it is harder to interpret."
+    "text": "iClicker Question\nWhich statistic is the best proxy for the demand side of the labour market?\nA) The participation rate\nB) The job vacancy rate\nC) The employment rate\nD) The unemployment rate\nE) The size of the eligible population\n\nAnswer: B. Participation reflects supply — it counts people offering their labour. Vacancies are firms’ unfilled hiring plans, so they proxy demand directly.\nC is the tempting one, and the distinction is worth making out loud: the employment rate is the outcome of supply and demand interacting — a hire needs both a willing worker and a willing firm — so it proxies neither side on its own. The unemployment rate is worse still: it mixes the two and moves when either side moves. This is exactly how the text sorts the indicators."
   },
   {
     "objectID": "slides/ch02/index.html#employment-rate-canada",
@@ -4232,7 +4232,7 @@
     "href": "slides/ch02/index.html#regression-analysis",
     "title": "EC306 - Wages and Employment",
     "section": "Regression Analysis",
-    "text": "Regression Analysis\n\nRegression fits the line that best fits the data, rather than eyeballing it\n\n\\[\\text{Participation rate} = a + b \\times \\ln(GNI) + e\\]\n\nOrdinary least squares chooses the line minimizing the sum of squared residuals\nEstimating across 168 countries gives a slope of 4.12 for women\n\nA one unit increase in log income is associated with a 4.12 percentage point higher participation rate\n\nR-squared measures goodness of fit — income explains only 7.85% of the variation in women’s participation"
+    "text": "Regression Analysis\n\nRegression fits the line that best fits the data, rather than eyeballing it\n\n\\[\\text{Participation rate} = a + b \\times \\ln(GNI) + e\\]\n\nOrdinary least squares chooses the line minimizing the sum of squared residuals\nEstimating across 168 countries gives a slope of 4.12 for women\n\nA one unit increase in log income is associated with a 4.12 percentage point higher participation rate\n\nR-squared measures goodness of fit — income explains only 7.85% of the variation in women’s participation\nEvery estimate comes with a standard error measuring its precision\n\nRule of thumb: a coefficient at least twice its standard error is statistically significant — unlikely to be zero"
   },
   {
     "objectID": "slides/ch02/index.html#multiple-regression",
@@ -9352,5 +9352,12 @@
     "title": "EC306 - Wages and Employment",
     "section": "Minimum Wages in Canada, September 2026",
     "text": "Minimum Wages in Canada, September 2026\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nCanada (federal)\n$18.15\n\n\nNewfoundland and Labrador\n$16.35\n\n\nPrince Edward Island\n$17.00\n\n\nNova Scotia\n$16.75\n\n\nNew Brunswick\n$15.90\n\n\nQuebec\n$16.60\n\n\nOntario\n$17.60\n\n\n\n\n\n\n\nJurisdiction\nWage\n\n\n\n\nManitoba\n$16.00\n\n\nSaskatchewan\n$15.35\n\n\nAlberta\n$15.00\n\n\nBritish Columbia\n$18.25\n\n\nNunavut\n$20.17\n\n\nNorthwest Territories\n$17.20\n\n\nYukon\n$18.51\n\n\n\n\n\nMost jurisdictions now index annually — Ontario, Manitoba, Nova Scotia, and PEI all adjust on October 1, 2026, partway through this course\nAlberta has not changed since 2019, the longest freeze in the country\n\nWe analyze minimum wages properly in Chapter 12."
+  },
+  {
+    "objectID": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
+    "href": "slides/ch02/index.html#discouraged-workers-and-hidden-unemployment",
+    "title": "EC306 - Wages and Employment",
+    "section": "Discouraged Workers and Hidden Unemployment",
+    "text": "Discouraged Workers and Hidden Unemployment\n\n\n\n\n\n\nKey Definitions\n\n\nDiscouraged workers: people who want a job but have stopped searching because they believe no work is available\nHidden unemployment: joblessness the unemployment rate misses, because non-searchers are counted as outside the labour force\n\n\n\n\nThe previous question is exactly this mechanism — discouragement makes the unemployment rate look better as the labour market gets worse\nPeople who want work but are not searching have marginal labour force attachment\n\nJones and Riddell (1999) find they behave more like the unemployed than like others outside the labour force\n\nSo “unemployed” versus “not in the labour force” is a measurement line, not a bright line in behaviour\n\n\nThe payoff line is the last one. The survey has to draw the line somewhere, and search activity is where it draws it — but the marginally attached straddle it. When discouragement is widespread, the unemployment rate understates slack, which is why Statistics Canada also publishes supplementary measures that fold these people back in."
   }
 ]

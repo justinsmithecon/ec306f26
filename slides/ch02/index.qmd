@@ -57,6 +57,7 @@ The [labour force participation decision]{.fg style="color: #2780e3;"} is whethe
 - There is huge variation across countries
   - From about 41% in Jordan to 87% in Iceland
 - Canada is relatively high at 80.3% in 2023 — nearly 7 points above the United States
+  - These comparisons cover ages [15--64]{.fg style="color: #2780e3;"}, which is why they run well above the 15-and-over rates in our Canadian charts later
 - Most of the cross-country variation comes from differences in [women's]{.fg style="color: #2780e3;"} participation
 - Countries with the largest gaps between men and women tend to have lower average incomes
   - Though there are important exceptions
@@ -325,7 +326,8 @@ People in the labour force are either [employed]{.fg style="color: #5cb85c;"} or
 
 $$ER = E/POP \qquad UR = U/LF$$
 
-- People also choose [how intensively]{.fg style="color: #2780e3;"} to work — full time or part time — which we measure with hours worked
+- Economists split the choice in two: the [extensive margin]{.fg style="color: #2780e3;"} is whether to work at all, the [intensive margin]{.fg style="color: #2780e3;"} is how many hours once you do
+  - We measure the intensive margin with hours worked — full time or part&nbsp;time
 
 ## The Labour Force Hierarchy
 
@@ -412,13 +414,15 @@ lfstats %>% ggplot(aes(x = ref_date, y = value, color = group)) + geom_line(line
 Which statistic is the best proxy for the [demand]{.fg style="color: #2780e3;"} side of the labour market?
 
 A\) The participation rate\
-B) The employment rate\
-C) The unemployment rate\
-D) The size of the eligible population\
-E) None — all three are supply-side measures
+B) The job vacancy rate\
+C) The employment rate\
+D) The unemployment rate\
+E) The size of the eligible population
 
 ::: {.notes}
-Answer: B. Participation tells us who is willing to work, so it proxies supply. The employment rate tells us how many of them firms actually hired, so it proxies demand. The unemployment rate mixes the two — it moves when either side moves, which is exactly why it is harder to interpret.
+Answer: B. Participation reflects supply — it counts people offering their labour. Vacancies are firms' unfilled hiring plans, so they proxy demand directly.
+
+C is the tempting one, and the distinction is worth making out loud: the employment rate is the *outcome* of supply and demand interacting — a hire needs both a willing worker and a willing firm — so it proxies neither side on its own. The unemployment rate is worse still: it mixes the two and moves when either side moves. This is exactly how the text sorts the indicators.
 :::
 
 ## Employment Rate, Canada
@@ -489,6 +493,24 @@ E) The unemployment rate rises; the participation rate falls
 
 ::: {.notes}
 Answer: B. They leave the labour force entirely, so both the numerator and the denominator of the unemployment rate fall by one — and because the rate is well below 50%, the ratio falls. The participation rate falls too, since the labour force shrinks while the eligible population does not. D is the intuitive trap: joblessness only counts if you are searching. This is the discouraged-worker problem, and it is why the unemployment rate can improve in a bad labour market.
+:::
+
+## Discouraged Workers and Hidden Unemployment
+
+::: {.callout-important}
+## Key Definitions
+**[Discouraged workers]{.fg style="color: #2780e3;"}**: people who want a job but have stopped searching because they believe no work is&nbsp;available
+
+**[Hidden unemployment]{.fg style="color: #2780e3;"}**: joblessness the unemployment rate misses, because non-searchers are counted as outside the labour&nbsp;force
+:::
+
+- The previous question is exactly this mechanism — discouragement makes the unemployment rate [look better]{.fg style="color: #c7254e;"} as the labour market gets worse
+- People who want work but are not searching have [marginal labour force attachment]{.fg style="color: #2780e3;"}
+  - Jones and Riddell (1999) find they behave more like the [unemployed]{.fg style="color: #2780e3;"} than like others outside the labour force
+- So "unemployed" versus "not in the labour force" is a [measurement line]{.fg style="color: #2780e3;"}, not a bright line in&nbsp;behaviour
+
+::: {.notes}
+The payoff line is the last one. The survey has to draw the line somewhere, and search activity is where it draws it — but the marginally attached straddle it. When discouragement is widespread, the unemployment rate understates slack, which is why Statistics Canada also publishes supplementary measures that fold these people back in.
 :::
 
 ## Usual Weekly Hours: Men vs Women
@@ -862,6 +884,8 @@ $$\text{Participation rate} = a + b \times \ln(GNI) + e$$
 - Estimating across 168 countries gives a slope of 4.12 for women
   - A one unit increase in log income is associated with a 4.12 percentage point higher participation rate
 - [R-squared]{.fg style="color: #2780e3;"} measures goodness of fit — income explains only 7.85% of the variation in women's participation
+- Every estimate comes with a [standard error]{.fg style="color: #2780e3;"} measuring its precision
+  - Rule of thumb: a coefficient at least [twice its standard error]{.fg style="color: #2780e3;"} is [statistically significant]{.fg style="color: #2780e3;"} — unlikely to be zero
 
 ## Multiple Regression
 
