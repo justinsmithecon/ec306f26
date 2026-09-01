@@ -374,6 +374,22 @@ With the concepts and the sources in hand, let's look at real Canadian data.
 None of this is causal — these are [descriptions]{.fg style="color: #2780e3;"}. They are the facts the rest of the course sets out to explain.
 :::
 
+## A Century of Participation
+
+- The census lets us push the participation story back to [1901]{.fg style="color: #2780e3;"}
+- Men's participation has [drifted down]{.fg style="color: #2780e3;"} the whole century — from just over 90% to about 70% by&nbsp;2024
+- Women's participation was [below 30% as recently as 1961]{.fg style="color: #2780e3;"}, then rose sharply before levelling out in the 2000s at around&nbsp;61%
+- The rise of women's participation is one of the [biggest changes in the Canadian labour market]{.fg style="color: #2780e3;"} on record
+  - Candidate explanations — wages, education, contraception, social attitudes, life expectancy — are questions this course comes back&nbsp;to
+
+::: {.notes}
+The two lines converging is the story of the twentieth-century labour market in one picture. Worth pausing on the men's line too — students expect it flat, and it is not: earlier retirement and longer schooling both pull it down. The figure splices census years 1901–1971 with annual LFS data from 1976, which is why our own chart on the next slide starts in 1976.
+:::
+
+## A Century of Participation
+
+![](images/Benjamin_FIG_2.3.jpg)
+
 ## Labour Force Participation Rate, Canada
 
 ```{r echo=FALSE}
