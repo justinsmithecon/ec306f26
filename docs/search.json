@@ -5142,7 +5142,7 @@
     "href": "slides/ch03/index.html#section",
     "title": "EC306 - Wages and Employment",
     "section": "",
-    "text": "Discussion\nSuppose a person receives a large inheritance, increasing their non-labour income substantially. Using the budget constraint and indifference curve framework, what would you predict happens to their reservation wage, and why?"
+    "text": "Think About It\nA worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect – income or substitution – must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?"
   },
   {
     "objectID": "slides/ch03/index.html#introduction-1",
@@ -5254,7 +5254,7 @@
     "href": "slides/ch03/index.html#section-1",
     "title": "EC306 - Wages and Employment",
     "section": "",
-    "text": "Think About It\nA worker currently earning $20/hour gets a raise to $25/hour and decides to work fewer hours per week. Which effect – income or substitution – must be dominant for this worker? What does this tell you about how they value leisure relative to consumption at the margin?"
+    "text": "Think About It\nDuring the COVID-19 pandemic, many households experienced both job losses (added worker effect) and falling wages in available jobs (discouraged worker effect) at the same time. What would the model predict about labour force participation for secondary earners in these households, and why might the two effects work against each other?"
   },
   {
     "objectID": "slides/ch03/index.html#introduction-2",
@@ -5366,7 +5366,7 @@
     "href": "slides/ch03/index.html#participation",
     "title": "EC306 - Wages and Employment",
     "section": "Participation",
-    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, children, education, spousal income\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\n\n\n\n\n\n\n\nWarning\n\n\nThis is not a perfect way to examine this relationship — there could be other related factors that drive participation"
+    "text": "Participation\n\nTable below shows participation rates for married women\nBroken down by age, age of youngest child at home, and education\nEach of these demographic factors are related to wage\n\ne.g. higher education -&gt; higher wage\n\nWe expect to see that where wage is higher, participation is also higher\n\n\n\n\n\n\n\nWarning\n\n\nThis is not a perfect way to examine this relationship — there could be other related factors that drive participation"
   },
   {
     "objectID": "slides/ch03/index.html#participation-1",
@@ -6703,14 +6703,14 @@
     "href": "slides/ch08/index.html#layoffs-1",
     "title": "EC306 - Wages and Employment",
     "section": "Layoffs",
-    "text": "Layoffs\n\n\n\n\nTop panel — without quasi-fixed costs:\n\nFirm hires to point where \\(VMP = w\\)\nIn downturn, \\(VMP\\) shifts down (lower demand for output)\nWith same wage, firms hire fewer workers"
+    "text": "Layoffs\n\n\n\n\nTop panel — without quasi-fixed costs:\n\nFirm hires to point where \\(MRP = w\\)\nIn downturn, \\(MRP\\) shifts down (lower demand for output)\nWith same wage, firms hire fewer workers"
   },
   {
     "objectID": "slides/ch08/index.html#layoffs-2",
     "href": "slides/ch08/index.html#layoffs-2",
     "title": "EC306 - Wages and Employment",
     "section": "Layoffs",
-    "text": "Layoffs\n\n\n\n\nBottom panel — with quasi-fixed costs:\n\nQuasi-fixed costs shift \\(VMP\\) curve down prior to downturn\n\nFirm hires to point where \\(VMP - (H + T) = w\\)\n\nCreates wedge between \\(VMP\\) and wage\nAfter downturn, \\(VMP\\) shifts down\n\nBut because of wedge, firm may not change employment"
+    "text": "Layoffs\n\n\n\n\nBottom panel — with quasi-fixed costs:\n\nQuasi-fixed costs shift \\(MRP\\) curve down prior to downturn\n\nFirm hires to point where \\(MRP - H = w\\)\n\nCreates wedge between \\(MRP\\) and wage\nAfter downturn, \\(MRP\\) shifts down\n\nBut because of wedge, firm may not change employment"
   },
   {
     "objectID": "slides/ch08/index.html#segmentation",
@@ -10321,5 +10321,19 @@
     "title": "EC306 - Wages and Employment",
     "section": "References (cont.)",
     "text": "References (cont.)\n\nFortin, N. M. (1995). Allocation inflexibilities, female labor supply, and housing assets accumulation: Are women working to pay the mortgage? Journal of Labor Economics, 13(3), 524–557.\nMcClelland, R., & Mok, S. (2012). A review of recent research on labor supply elasticities. Congressional Budget Office Working Paper 2012-12.\nMorissette, R., & Hou, F. (2008). Does the labour supply of wives respond to husbands’ wages? Canadian evidence from micro data and grouped data. Canadian Journal of Economics, 41(4), 1185–1210.\nRobbins, L. (1930). On the elasticity of demand for income in terms of effort. Economica, 29, 123–129."
+  },
+  {
+    "objectID": "slides/ch03/index.html#iclicker-question",
+    "href": "slides/ch03/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA person receives a large inheritance, substantially increasing their non-labour income. Leisure is a normal good. What happens to their reservation wage?\nA) It rises — the value of their time at home goes up, so they are less likely to participate\nB) It falls — with more income they need less from a job, so they will accept a lower wage\nC) It is unchanged — the reservation wage is determined by the market wage\nD) It is unchanged — non-labour income shifts the budget constraint without changing its slope\nE) It rises, but only if they were already employed\n\nAnswer: A. More non-labour income raises the value of time at home, so the wage needed to pull them into work goes up.\nD is the one to watch for. Its premise is true — the constraint does shift up in parallel — but the conclusion does not follow. The reservation wage is the slope of the indifference curve at zero hours of work, not the slope of the budget line. If a lot of the room picks D, go back to the kink diagram and mark the two slopes separately.\nC is the students who have collapsed “reservation wage” into “market wage” — they are two different objects, and the whole participation decision is the comparison between them."
+  },
+  {
+    "objectID": "slides/ch03/index.html#iclicker-question-1",
+    "href": "slides/ch03/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nDoctors, lawyers, and executives earn high wages and often work very long hours. Does this contradict the backward-bending labour supply curve?\nA) No — the curve describes how one person responds to a change in their own wage, not how hours compare across different people\nB) Yes — it shows the income effect never dominates the substitution effect\nC) No — it shows the substitution effect always dominates at high wages\nD) Yes — labour supply must therefore slope upward throughout\nE) No — high earners have less non-labour income, so they must work more\n\nAnswer: A. The backward-bending curve is a comparative static on one person: change that person’s wage, hold their preferences fixed, see how their hours move. Comparing doctors to other workers is a different exercise entirely.\nC is the trap, and it will pull a lot of the room because it reaches the right verdict by the wrong route. It treats a comparison across people as if it were a comparison within one person. The people who become surgeons are not a random draw — a strong taste for income and work is part of why they chose that career and endured the training. That is selection, not a substitution effect.\nWorth saying out loud: getting A rather than C is the difference between knowing what the curve is a statement about and just knowing it does not contradict."
   }
 ]

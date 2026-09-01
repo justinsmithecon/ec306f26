@@ -114,11 +114,11 @@ Next slides show international comparisons for OECD countries:
 
 ## Effect of Trade on Single Market
 
-![](images/ben54842_tb0501.jpg){fig-align="center" width="85%"}
+![](images/Benjamin_TAB_9.1.jpg){fig-align="center" width="85%"}
 
 ## Effect of Trade on Single Market
 
-![](images/ben54842_0508.jpg){fig-align="center" width="85%"}
+![](images/Benjamin_FIG_9.1.jpg){fig-align="center" width="85%"}
 
 ## Effect of Trade Across Sectors
 

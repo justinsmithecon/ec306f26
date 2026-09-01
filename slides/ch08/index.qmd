@@ -941,14 +941,14 @@ This also explains why [highly educated workers]{.fg style="color: #5cb85c;"} te
 
 ::: columns
 ::: {.column width="50%"}
-![](images/clipboard-769987477.jpeg){width="500"}
+![](images/Benjamin_FIG_8.7.jpg){width="500"}
 :::
 
 ::: {.column width="50%"}
 [Top panel — without quasi-fixed costs:]{.fg style="color: #2780e3;"}
 
-- Firm hires to point where $VMP = w$
-- In downturn, $VMP$ shifts down (lower demand for output)
+- Firm hires to point where $MRP = w$
+- In downturn, $MRP$ shifts down (lower demand for output)
 - With same wage, firms hire fewer workers
 
 
@@ -959,17 +959,17 @@ This also explains why [highly educated workers]{.fg style="color: #5cb85c;"} te
 
 ::: columns
 ::: {.column width="50%"}
-![](images/clipboard-769987477.jpeg){width="500"}
+![](images/Benjamin_FIG_8.7.jpg){width="500"}
 :::
 
 ::: {.column width="50%"}
 
 [Bottom panel — with quasi-fixed costs:]{.fg style="color: #2780e3;"}
 
-- Quasi-fixed costs shift $VMP$ curve down prior to downturn
-  - Firm hires to point where $VMP - (H + T) = w$
-- Creates wedge between $VMP$ and wage
-- After downturn, $VMP$ shifts down
+- Quasi-fixed costs shift $MRP$ curve down prior to downturn
+  - Firm hires to point where $MRP - H = w$
+- Creates wedge between $MRP$ and wage
+- After downturn, $MRP$ shifts down
   - But because of wedge, firm may not change employment
 :::
 :::

@@ -420,12 +420,22 @@ At the optimum, [MRS = wage rate]{.fg style="color: #2780e3;"}
 ::::
 ::::
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Discussion**
+A person receives a large inheritance, substantially increasing their non-labour income. Leisure is a normal good. What happens to their [reservation wage]{.fg style="color: #2780e3;"}?
 
-Suppose a person receives a large inheritance, increasing their non-labour income substantially. Using the budget constraint and indifference curve framework, what would you predict happens to their reservation wage, and why?
+A\) It rises — the value of their time at home goes up, so they are less likely to&nbsp;participate\
+B) It falls — with more income they need less from a job, so they will accept a lower&nbsp;wage\
+C) It is unchanged — the reservation wage is determined by the market wage\
+D) It is unchanged — non-labour income shifts the budget constraint without changing its&nbsp;slope\
+E) It rises, but only if they were already employed
+
+::: {.notes}
+Answer: A. More non-labour income raises the value of time at home, so the wage needed to pull them into work goes up.
+
+D is the one to watch for. Its premise is true — the constraint does shift up in parallel — but the conclusion does not follow. The reservation wage is the slope of the indifference curve at zero hours of work, not the slope of the budget line. If a lot of the room picks D, go back to the kink diagram and mark the two slopes separately.
+
+C is the students who have collapsed "reservation wage" into "market wage" — they are two different objects, and the whole participation decision is the comparison between them.
 :::
 
 # Comparative Statics
@@ -674,12 +684,22 @@ Four wages, four points on the supply curve. Worth walking the \$8 row out loud:
 - The labour supply curve maps different wages to work hours
 - It slopes up at lower wages, but can [bend backwards]{.fg style="color: #2780e3;"} at higher wages
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Discussion**
+Doctors, lawyers, and executives earn high wages and often work very long hours. Does this contradict the [backward-bending]{.fg style="color: #2780e3;"} labour supply curve?
 
-Why might we observe that high-income professionals (doctors, lawyers, executives) often work very long hours, even though the backward-bending supply curve predicts that higher wages should eventually lead to fewer hours worked?
+A\) No — the curve describes how one person responds to a change in their own wage, not how hours compare across different&nbsp;people\
+B) Yes — it shows the income effect never dominates the substitution&nbsp;effect\
+C) No — it shows the substitution effect always dominates at high&nbsp;wages\
+D) Yes — labour supply must therefore slope upward throughout\
+E) No — high earners have less non-labour income, so they must work more
+
+::: {.notes}
+Answer: A. The backward-bending curve is a comparative static on one person: change that person's wage, hold their preferences fixed, see how their hours move. Comparing doctors to other workers is a different exercise entirely.
+
+C is the trap, and it will pull a lot of the room because it reaches the right verdict by the wrong route. It treats a comparison across people as if it were a comparison within one person. The people who become surgeons are not a random draw — a strong taste for income and work is part of why they chose that career and endured the training. That is selection, not a substitution effect.
+
+Worth saying out loud: getting A rather than C is the difference between knowing what the curve is a statement about and just knowing it does not contradict.
 :::
 
 # Empirical Evidence
@@ -697,7 +717,7 @@ Why might we observe that high-income professionals (doctors, lawyers, executive
 ## Participation
 
 - Table below shows participation rates for married women
-- Broken down by age, children, education, spousal income
+- Broken down by age, age of youngest child at home, and education
 - Each of these demographic factors are related to wage
   - e.g. higher education -> higher wage
 - We expect to see that where wage is higher, participation is also higher
@@ -708,7 +728,7 @@ This is not a perfect way to examine this relationship — there could be other 
 
 ## Participation
 
-![](images/clipboard-1310882249.jpeg)
+![](images/Benjamin_TAB_3.1.jpg)
 
 ## Elasticity of Labour Supply
 
@@ -728,7 +748,7 @@ This is not a perfect way to examine this relationship — there could be other 
 
 ## Elasticity of Labour Supply
 
-![](images/clipboard-2220222113.jpeg)
+![](images/Benjamin_TAB_3.2.jpg)
 
 ## Elasticity of Labour Supply
 
