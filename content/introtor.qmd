@@ -16,6 +16,19 @@ you go. Reading code is not the same as writing it.
 
 No prior programming experience is assumed.
 
+::: callout-important
+## Before you start: download two files
+
+Download both of these now, and save them in the **same folder** — for
+example a folder called EC306 on your Desktop.
+
+[{{< fa solid file-export >}} `ec306lfs.csv`](/files/tutorials/ec306lfs.csv){download="ec306lfs.csv"}
+— the data used throughout this page
+
+[{{< fa solid file-export >}} `ec306-r-template.qmd`](/files/tutorials/ec306-r-template.qmd){download="ec306-r-template.qmd"}
+— a practice Quarto document that runs the main steps on this page
+:::
+
 ## The three pieces
 
 It helps to be clear about what each piece of software does, because
@@ -435,17 +448,19 @@ assignments, and it is already loaded here.
 ### Reading data from a file
 
 In an assignment you would not be handed a dataset — you would read one
-in from a file you downloaded. Put the file in the same folder as your
-Quarto document, then read it with the function matching its format:
+in from a file you downloaded. The `lfs` data on this page is the file
+`ec306lfs.csv` that you downloaded at the start. Put the file in the
+same folder as your Quarto document, then read it with the function
+matching its format:
 
 ```{r}
 #| eval: false
 # comma-separated values
-lfs <- read_csv("ec306assign1.csv")
+lfs <- read_csv("ec306lfs.csv")
 
-# Stata format, using the haven package
+# Stata format (a .dta file), using the haven package
 library(haven)
-lfs <- read_dta("ec306assign1.dta")
+lfs <- read_dta("filename.dta")
 ```
 
 Reading a file gives you a data frame, which you then work with exactly
@@ -871,12 +886,13 @@ To create one in RStudio: File → New File → Quarto Document.
 
 Rather than starting from a blank document, start from this one. It is
 a working Quarto file containing everything on this page: it loads
-packages, creates practice data, summarises it, draws a graph, and runs
-a regression.
+packages, reads in the practice data, summarises it, draws a graph, and
+runs a regression. If you downloaded both files at the start, you
+already have them.
 
-[{{< fa solid file-export >}} `ec306-r-template.qmd`](/files/tutorials/ec306-r-template.qmd)
+[{{< fa solid file-export >}} `ec306-r-template.qmd`](/files/tutorials/ec306-r-template.qmd){download="ec306-r-template.qmd"}
 
-[{{< fa solid file-export >}} `ec306lfs.csv`](/files/tutorials/ec306lfs.csv)
+[{{< fa solid file-export >}} `ec306lfs.csv`](/files/tutorials/ec306lfs.csv){download="ec306lfs.csv"}
 
 Download **both** files into the same folder, open the `.qmd` in
 RStudio, and press **Render**. You should get a PDF. Then start changing
