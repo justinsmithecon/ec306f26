@@ -2,45 +2,131 @@
 title: "Assignment 1"
 ---
 
-
-::: {.callout-warning title="Answer Key"}
-You can download the solutions using the links below
-
-[{{< fa solid file-export >}} `ec306assign1key.do`](/assignments/files/ec306assign1key.do)
-
-[{{< fa solid file-export >}} `ec306assign1key.docx`](/assignments/files/ec306assign1key.docx)
-:::
-
 ## Description
 
-In this assignment you are asked to manipulate data, estimate statistical relationships, and interpret the findings. The questions are based the relationship between labour supply and education.  The assignment is designed to give you practice with data analysis in R, and to help you understand how economists use data to answer questions about economic behavior.
+Since 1997, Quebec has offered regulated child care at a low fixed daily
+fee, while until 2021 parents in the rest of Canada mostly paid market
+prices. In this assignment you will use data from the Labour Force
+Survey to compare the labour force participation of mothers of young
+children in Quebec and the rest of Canada, and to think about whether
+the difference tells us what cheap child care does to mothers' labour
+supply.
+
+The assignment is designed to give you practice analysing data in R and
+writing up your results in Quarto, and to show how economists use data
+to test a prediction of the labour supply model.
+
+**Due: Friday, October 9, 2026 at 9:00pm.**
+
+::: callout-important
+## Download both files into the same folder
+
+[{{< fa solid file-export >}} `ec306assign1.qmd`](/assignments/files/ec306assign1.qmd){download="ec306assign1.qmd"}
+— the assignment questions, as a Quarto document you write your answers
+into
+
+[{{< fa solid file-export >}} `ec306assign1.csv`](/assignments/files/ec306assign1.csv){download="ec306assign1.csv"}
+— the data
+:::
 
 ## Instructions
 
-### Questions
+The questions are in the Quarto document above. Open it in RStudio and
+press **Render** before you change anything: it should produce a PDF. If
+it does not, fix that first, using the [Introduction to R and
+Quarto](/content/introtor.qmd) page.
 
-The document below contains the assignment questions. Please provide all answers in the space below each question.  If the question requires any R code, please include the code relevant to that question in the space provided.  Also include the relevant output.  Note: output must be reformatted into a professional-looking table or figure.  Do not simply copy and paste (or screenshot) the R console output.
+Then work through the questions, writing your R code in the chunks
+provided and your answers in the text below each question. The hints
+under each question point to sections of the [Introduction to R and
+Quarto](/content/introtor.qmd) page, which has a worked example of each
+step. Wherever a
+written answer is needed, the question has a **Comment on the results**
+prompt, just above the answer space, that says what to cover. Tables must
+be made with `modelsummary()`, `datasummary()` or `datasummary_df()`,
+and graphs must have readable axis labels. Do not print a data frame as
+a table, and do not copy and paste, or screenshot, console output.
 
-[{{< fa solid file-export >}} `ec306assign1.docx`](/assignments/files/ec306assign1.docx)
+::: callout-warning
+## Some of your answers are marked by computer
 
-When you save the file to your computer, please rename it with your family name and student number, with no spaces.
+Several questions ask you to store a result under a particular name,
+such as `q2` or `gap_u6`. Those objects are checked automatically, so:
 
-### Data analysis
+-   use exactly the names given in the question;
+-   do not change the code in the `setup` and `load-data` chunks;
+-   do not round the numbers you store (round only when displaying them).
 
-The data come from the Canadian Labour Force Survey (LFS).  It contains a host of information, but for this assignment the important variables are labour force participation, education level, and age.  The sample for this assignment contains data from March 2025.
+The last chunk in the document tells you whether any of the required
+objects are missing.
+:::
 
+## The data
 
-The data file is linked below. 
+The data come from the Labour Force Survey public use microdata file for
+March 2019. The sample is everyone aged 25 to 54, which is 46,808
+people. The data are from 2019 because in 2021 the other provinces began
+cutting their child care fees toward Quebec's level, which makes later
+comparisons harder to interpret.
 
-[{{< fa solid file-export >}} `ec306assign1.dta`](/assignments/files/ec306assign1.dta)
+| Variable | Description |
+|:----------------|:------------------------------------------------------|
+| `id` | Person identifier |
+| `province` | Province of residence |
+| `gender` | "Women+" or "Men+". Statistics Canada uses these labels because the small number of non-binary respondents are distributed between the two categories to protect confidentiality. |
+| `agegroup` | Five-year age group |
+| `educ` | Highest level of education |
+| `lfsstat` | Labour force status: "Employed, at work", "Employed, absent from work", "Unemployed", or "Not in labour force" |
+| `kidage` | Age of the person's youngest child living with them: "Under 6", "6 to 12", "13 to 17", "18 to 24", or "None under 25" |
+| `hours` | Usual weekly hours at all jobs. Missing for people who are not employed. |
 
-### Submission
+## Submission
 
-When you are finished, you are required to submit three documents according to the following instructions:
+Submit two files on Gradescope, both by the due date:
 
--   Your .do and .log file. **Submit this in MyLearningSpace only.**
--   A rendered PDF of your answers to the questions. **Submit this in both MyLearningSpace and Gradescope.**
+1.  **Your `.qmd` file**, to the assignment called **Assignment 1 -
+    Code**. This is the file that is marked by computer.
+2.  **The PDF produced by rendering it**, to the assignment called
+    **Assignment 1 - Written**. When you upload it, match each question
+    to the page it is on. Your tables, graphs, and written answers are
+    marked from this file.
 
-### Plagiarism
+Results from the computer marking are released after the due date, not
+when you submit, so use the check at the end of the document before you
+submit.
 
-This is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else's work verbatim, which includes R code. Any work you submit should be yours only. However, you are encouraged to talk to each other to try to figure out how to do the assignment.
+A document that does not render cannot produce a PDF, so render after
+every question, not only at the end.
+
+## Marking
+
+The assignment is marked out of 30.
+
+-   **Each of the five questions is marked out of 5** from your PDF,
+    using the rubric below. The mark reflects the whole answer: code,
+    tables, graphs, and writing.
+-   **Your code is marked out of 5 by computer**, from how many of the
+    objects you were asked to create are correct.
+
+| Points | Rubric                                                                                            |
+|:------:|:--------------------------------------------------------------------------------------------------|
+|   5    | Fully correct                                                                                     |
+|   4    | Mostly correct with a minor mistake, or slightly lacking detail                                  |
+|   3    | Mostly correct with multiple minor mistakes, a more substantial mistake, or a more significant lack of detail |
+|   2    | Mostly incorrect with a major mistake or several minor mistakes                                  |
+|   1    | Mostly incorrect with multiple major and minor mistakes                                           |
+|   0    | Blank or entirely incorrect                                                                       |
+
+## Generative AI
+
+You may use generative AI for this assignment, but you must say how you
+used it. The document has a section at the end for this. Failing to
+disclose its use is academic misconduct.
+
+## Plagiarism
+
+This is an independent assignment, which I expect you to complete on
+your own. It is plagiarism to copy someone else's work verbatim, which
+includes R code. Any work you submit should be yours only. However, you
+are encouraged to talk to each other to try to figure out how to do the
+assignment.

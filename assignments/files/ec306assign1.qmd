@@ -1,0 +1,392 @@
+---
+title: "EC306 Assignment 1: Child Care and Mothers' Labour Supply"
+author: "Your name, your student number"
+date: today
+format:
+  pdf:
+    fig-width: 6
+    fig-height: 3.5
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \floatplacement{figure}{H}
+execute:
+  message: false
+  warning: false
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Put this file and ec306assign1.csv in the SAME folder.
+  2. Open this file in RStudio and press Render. It should produce a PDF
+     before you have written anything. If it does not, fix that first.
+  3. Write your code in the chunks provided and your answers where it
+     says "Write your answer here." Render after every question.
+  4. When you are finished, upload THIS .qmd file to the Gradescope
+     assignment "Assignment 1 - Code", and the PDF it produces to
+     "Assignment 1 - Written".
+
+  Some answers are checked by computer. The computer looks for the
+  objects named in each question, so use exactly those names, and do not
+  change the code in the "setup" and "load-data" chunks.
+-->
+
+## Background
+
+Since 1997, Quebec has offered regulated child care at a low fixed daily
+fee: originally \$5 a day, and still under \$10 a day in 2019. Until
+2021, parents in the rest of Canada mostly paid market prices that were
+many times higher. In 2021 the federal government began signing
+agreements with the other provinces and territories to bring average
+fees down to \$10 a day by 2026. Because the rest of Canada has been
+catching up since then, this assignment uses data from 2019.
+
+In the labour supply model, child care is a cost of working: a parent
+who takes a job has to pay for care during the hours they are away.
+Cheaper child care raises the net return to working, so we would expect
+it to draw parents of young children, and mothers especially, into the
+labour force. In this assignment you will look at whether the data are
+consistent with that prediction, and then think about whether the
+comparison you make can be read as causal.
+
+## The data
+
+The data come from the Labour Force Survey public use microdata file for
+March 2019. The sample is everyone aged 25 to 54.
+
+| Variable   | Description                                                     |
+|:-----------|:----------------------------------------------------------------|
+| `id`       | Person identifier                                               |
+| `province` | Province of residence                                           |
+| `gender`   | "Women+" or "Men+"                                              |
+| `agegroup` | Five-year age group                                             |
+| `educ`     | Highest level of education                                      |
+| `lfsstat`  | Labour force status: "Employed, at work", "Employed, absent from work", "Unemployed", or "Not in labour force" |
+| `kidage`   | Age of youngest child living with the person: "Under 6", "6 to 12", "13 to 17", "18 to 24", or "None under 25" |
+| `hours`    | Usual weekly hours at all jobs (missing if not employed)        |
+
+## Instructions
+
+-   Write your R code in the chunks provided. You can add more chunks if
+    you need them.
+-   When a question tells you to store a result under a particular name,
+    such as `q2` or `gap_u6`, use exactly that name. Those objects are
+    marked by computer, and a different name counts as missing.
+-   Do not round the numbers you store. Round only when you display them.
+-   Tables and graphs must be presentable: use `modelsummary()`,
+    `datasummary()` or `datasummary_df()` for tables, and give every
+    graph readable axis labels. Do not show a table by just printing a
+    data frame.
+-   The hints under each question point to sections of the R tutorial,
+    the Introduction to R and Quarto page on the course website. Each
+    section has a worked example of the step the hint describes, using
+    different data.
+-   Render the document after each question, not only at the end.
+-   Every written answer goes under **Answer:**, and what it must cover is
+    set out just above, under **Comment on the results**.
+-   Each question is marked out of 5 from your PDF, using the rubric on
+    the assignment page. The objects you are told to create are also
+    checked by computer, for another 5 marks, so the assignment is out
+    of 30.
+
+## Setup
+
+Do not change this chunk or the next one.
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(modelsummary)
+```
+
+```{r}
+#| label: load-data
+lfs <- read_csv("ec306assign1.csv")
+
+# Put the categories of kidage in their natural order, so tables and
+# graphs list them from youngest to oldest instead of alphabetically.
+lfs <- lfs |>
+  mutate(kidage = factor(kidage, levels = c("Under 6", "6 to 12", "13 to 17",
+                                            "18 to 24", "None under 25")))
+
+glimpse(lfs)
+```
+
+## Question 1 (5 marks)
+
+Create the following dummy variables and add them to `lfs`:
+
+-   `lfp`: 1 if the person is in the labour force (employed and at work,
+    employed but absent from work, or unemployed), 0 otherwise
+-   `woman`: 1 if `gender` is "Women+", 0 otherwise
+-   `quebec`: 1 if `province` is "Quebec", 0 otherwise
+-   `kid_u6`: 1 if the person's youngest child is under 6 (`kidage` is
+    "Under 6"), 0 otherwise
+
+Then make a table showing the mean, standard deviation, minimum, and
+maximum of the four dummy variables.
+
+*Hints.*
+
+-   Create the dummies with `mutate()`, and save the result back into
+    `lfs`; otherwise the new variables are not kept. A comparison such
+    as `province == "Ontario"` gives `TRUE` or `FALSE` for each person,
+    and wrapping it in `as.numeric()` turns that into 1 or 0. See
+    "Dummy variables" in the R tutorial.
+-   Three of the four categories of `lfsstat` count as being in the
+    labour force. You can join comparisons with `|` (or), or use `!=`
+    (is not equal to) on the one category that does not count. See
+    "Dummy variables" and "`filter()` — keep some rows" in the R
+    tutorial.
+-   Text has to match exactly, capitals and punctuation included. Run
+    `count(lfs, lfsstat)` to see the exact spellings.
+-   For the table, use `datasummary()` with the statistics `Mean`, `SD`,
+    `Min` and `Max`. See "Tables" in the R tutorial.
+
+```{r}
+#| label: q1-dummies
+# Add lfp, woman, quebec and kid_u6 to lfs here.
+
+```
+
+```{r}
+#| label: q1-table
+
+```
+
+**Comment on the results.** What does the table tell you about the
+people in the sample? Before you write, review how to interpret the
+mean of a dummy variable.
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 2 (5 marks)
+
+Keep only women. For each combination of `kidage` and `quebec`,
+calculate the labour force participation rate. That gives 10 rates: five
+child age groups, in Quebec and in the rest of Canada. Store the result
+in a data frame called `q2`, with the rates in a column called
+`lfp_rate`.
+
+Then make a bar chart of the participation rates, with the age of the
+youngest child on the horizontal axis and the Quebec and rest-of-Canada
+bars side by side. You do not need a table for this question: the graph
+presents the rates.
+
+*Hints.*
+
+-   Do not overwrite `lfs` with the women-only data, because later
+    questions need everyone. Use `filter()` to save the women in a new
+    data frame called `women`; you will use it again in Questions 3
+    and 4. See "`filter()` — keep some rows" in the R tutorial.
+-   The rates come from `group_by()` followed by `summarise()`, with
+    both variables in `group_by()`. See "Grouping by two variables" in
+    the R tutorial.
+-   Give `q2` to `ggplot()`, not `women`. `geom_col()` draws the bars,
+    `position = "dodge"` puts them side by side, and mapping
+    `factor(quebec)` to `fill` colours them by province. Replace the 0
+    and 1 in the legend with words. See "Bar charts of results you have
+    calculated" in the R tutorial.
+
+```{r}
+#| label: q2-rates
+
+```
+
+```{r}
+#| label: q2-graph
+
+```
+
+**Comment on the results.** What does the graph show? Describe how
+participation changes as the youngest child gets older, and how the gap
+between Quebec and the rest of Canada changes.
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 3 (5 marks)
+
+Participation is only one way to adjust labour supply. The other is how
+many hours to work. Keep only women who are employed (at work or absent
+from work) and whose youngest child is under 6. Make a box plot of usual
+weekly hours (`hours`) for Quebec and for the rest of Canada.
+
+*Hints.*
+
+-   Start from `women`, and save the filtered data as a new data frame
+    to give to `ggplot()`. Conditions in `filter()` separated by commas
+    must all hold, so you can write the condition on employment and the
+    condition on the child separately. Two categories of `lfsstat` count
+    as employed. See "`filter()` — keep some rows" in the R tutorial.
+-   Put `factor(quebec)` on the horizontal axis and replace the 0 and 1
+    on the axis with words. Adding `outliers = FALSE` to
+    `geom_boxplot()` leaves out the individual points beyond the
+    whiskers, which otherwise crowd the graph. See the boxplot of men's
+    and women's wages under "Graphs" in the R tutorial.
+
+```{r}
+#| label: q3-graph
+
+```
+
+**Comment on the results.** Do employed mothers of young children in
+Quebec work more hours than those in the rest of Canada? How does the
+difference compare with the difference in participation you found in
+Question 2?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 4 (5 marks)
+
+The Quebec gap for mothers of young children in Question 2 may not all
+be due to child care. Quebec could differ from the rest of Canada in
+other ways, such as its labour market or attitudes toward women working,
+that raise participation for *all* Quebec women. Women whose youngest
+child is not under 6 rarely need daycare, so the Quebec gap for them
+estimates that general difference. Subtracting it from the gap for
+mothers of young children gives a **difference-in-differences** estimate
+of the effect of child care. For example, with made-up numbers:
+
+| Participation rate            | Quebec | Rest of Canada | Quebec minus rest of Canada |
+|:------------------------------|-------:|---------------:|----------------------------:|
+| Youngest child under 6        |    80% |            70% |                   10 points |
+| All other women               |    85% |            81% |                    4 points |
+| **Difference in differences** |        |                |               **6 points** |
+
+**(a)** Using women only, calculate the four participation rates by
+`quebec` and `kid_u6`, the same way as in Question 2, and present them
+in a table. Then calculate the following, and store each as a single
+number without rounding:
+
+-   `gap_u6`: the Quebec minus rest-of-Canada participation gap for women
+    whose youngest child is under 6
+-   `gap_other`: the same gap for all other women (`kid_u6 == 0`)
+-   `did`: `gap_u6 - gap_other`
+
+*Hints.*
+
+-   `datasummary_df()` turns a data frame of results, such as your four
+    rates, into a presentable table. See "Tables" in the R tutorial.
+-   For `gap_u6`, `gap_other` and `did`, store each of the four rates as
+    its own object first, under a name of your choosing, then subtract.
+-   Each rate is the mean of `lfp` for one group of women. Square
+    brackets pick out a group: `women$lfp[women$quebec == 1]` is `lfp`
+    for every Quebec woman, and `&` adds a second condition. See
+    "Picking out elements" and "Functions" in the R tutorial.
+
+```{r}
+#| label: q4a-table
+
+```
+
+```{r}
+#| label: q4a
+
+```
+
+**Comment on the results.** Report the three numbers in percentage
+points (0.05 is 5 percentage points) and explain what each one means.
+What has to be true for `did` to measure the effect of Quebec's child
+care policy?
+
+**Answer:**
+
+*Write your answer here.*
+
+**(b)** Using women only, estimate the regression
+
+$$
+lfp_i = \beta_0 + \beta_1 quebec_i + \beta_2 kid\_u6_i + \beta_3 (quebec_i \times kid\_u6_i) + \epsilon_i
+$$
+
+and store it as `q4_model`. Present the results in a table with
+`modelsummary()`.
+
+*Hint.* Estimate it with `lm()`, using `women` as the data. In an R
+formula, `quebec * kid_u6` includes both variables and their product.
+See "Interactions" in the R tutorial.
+
+```{r}
+#| label: q4b
+
+```
+
+**Comment on the results.** Interpret each of the four coefficients.
+How does $\beta_3$ compare with `did` from part (a)?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 5 (5 marks)
+
+**(a)** Estimate the same regression for men, and store it as
+`q5_model`. Present both regressions side by side in one table, with
+the columns labelled "Women" and "Men". Part (a) needs no written
+answer; you will use the results in part (b).
+
+*Hints.*
+
+-   You need a men-only data frame, made the same way as `women`.
+-   `modelsummary()` accepts a list of models, and the names you give
+    the elements of the list become the column headings. See
+    "Presenting results" in the R tutorial.
+
+```{r}
+#| label: q5
+
+```
+
+**(b)** **Comment on the results.** Is `did` a causal estimate of the
+effect of Quebec's child care policy on mothers' participation? In your
+answer, consider:
+
+-   what the result for men tells you;
+-   other ways Quebec differs from the rest of Canada that could affect
+    parents of young children. One example: the LFS counts a parent on
+    parental leave, with a job to return to, as "employed, absent from
+    work";
+-   in 2021 the other provinces began cutting their child care fees
+    toward \$10 a day. If you repeated this analysis with data from
+    2025, what would you expect to happen to `did`, and why?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Use of generative AI
+
+If you used a generative AI tool for any part of this assignment, name
+the tool and describe what you used it for. If you did not use one, say
+so.
+
+*Write your statement here.*
+
+## Before you submit
+
+This chunk lists any required objects that are still missing. It should
+say "All required objects found" before you submit.
+
+```{r}
+#| label: check
+#| echo: false
+required <- c("lfs", "q2", "gap_u6", "gap_other", "did", "q4_model", "q5_model")
+missing  <- required[!sapply(required, exists)]
+if (exists("lfs")) {
+  missing_cols <- setdiff(c("lfp", "woman", "quebec", "kid_u6"), names(lfs))
+  if (length(missing_cols) > 0) missing <- c(missing, paste0("lfs$", missing_cols))
+}
+if (length(missing) == 0) {
+  cat("All required objects found\n")
+} else {
+  cat("Still missing:", missing, sep = "\n  ")
+}
+```

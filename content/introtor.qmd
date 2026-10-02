@@ -255,6 +255,14 @@ workers$wage[2]
 workers$wage[workers$wage > 25]
 ```
 
+The condition can be about a different column from the one you are
+picking from, and `&` (and) combines two conditions. Here are the wages
+of university graduates under 40:
+
+```{r}
+workers$wage[workers$age < 40 & workers$educ == "University"]
+```
+
 Picking out whole rows and columns of a data frame works a little
 differently, and we will do it with two much friendlier functions,
 `filter()` and `select()`, once the tidyverse is loaded.
@@ -295,6 +303,16 @@ number:
 mean(earnings)
 median(earnings)
 length(earnings)
+```
+
+Combine one of these with the square brackets from earlier and you get a
+summary for just one group. The average wage of university graduates
+under 40 is a single number, which you can store and compute with like
+any other scalar:
+
+```{r}
+uni_under40 <- mean(workers$wage[workers$age < 40 & workers$educ == "University"])
+uni_under40
 ```
 
 ::: callout-tip
@@ -628,6 +646,34 @@ lfs |>
   nrow()
 ```
 
+`!=` means "is not equal to":
+
+```{r}
+lfs |>
+  filter(educ != "University") |>
+  nrow()
+```
+
+Conditions separated by commas must all hold, the same as joining them
+with `&`. This is the easiest way to combine an "or" condition with
+others, because it keeps each condition separate. People with a college
+or university education who are under 30:
+
+```{r}
+lfs |>
+  filter(educ == "College" | educ == "University", age < 30) |>
+  nrow()
+```
+
+To keep the rows you filtered, store them under a **new** name.
+Storing them as `lfs` would throw away everyone else for the rest of
+your document.
+
+```{r}
+under30 <- lfs |>
+  filter(age < 30)
+```
+
 ### `select()` — keep some columns
 
 ```{r}
@@ -645,6 +691,40 @@ because coefficients then read as approximate percentage effects:
 lfs <- lfs |>
   mutate(lnwage = log(wage))
 ```
+
+Note the `lfs <-` at the start. `mutate()` hands back a new version of
+the data, and unless you store it, the new variable is gone the moment
+the line finishes.
+
+#### Dummy variables
+
+A **dummy variable** is 1 if something is true of a person and 0 if it
+is not. To make one, write the "something" as a comparison. A comparison
+gives `TRUE` or `FALSE` for every person, and `as.numeric()` turns
+`TRUE` into 1 and `FALSE` into 0. You can create several variables in
+one `mutate()`, separated by commas:
+
+```{r}
+lfs <- lfs |>
+  mutate(
+    university = as.numeric(educ == "University"),
+    postsec    = as.numeric(educ == "College" | educ == "University"),
+    over40     = as.numeric(age > 40)
+  )
+```
+
+Always check a new dummy against the variable it came from. `count()`
+with two variables shows every combination that occurs:
+
+```{r}
+count(lfs, educ, postsec)
+```
+
+Only college and university graduates have `postsec` equal to 1, as
+intended. When you compare text, it has to match exactly, capitals,
+spaces and punctuation included: `"university"` would match nobody. Run
+`count()` on the original variable first to see how its categories are
+spelled.
 
 ### `summarise()` — boil the data down
 
@@ -723,6 +803,56 @@ count(lfs, educ)
 ```
 :::
 
+### Grouping by two variables
+
+`group_by()` can take more than one variable, separated by commas.
+`summarise()` then produces one row for every combination. Here is the
+participation rate for each education level, separately for men and
+women, stored as `rates` so we can use it below:
+
+```{r}
+#| message: false
+rates <- lfs |>
+  group_by(educ, female) |>
+  summarise(lfp_rate = mean(lfp))
+
+rates
+```
+
+Four education levels times two sexes gives eight rows. When you run
+this, R also prints a message about how the result is grouped. It is
+harmless and you can ignore it.
+
+## Tables
+
+Printing a data frame, as above, is fine while you work, but in
+submitted work it counts as console output and is not acceptable. The
+**modelsummary** package makes presentable tables. You will also use it
+for regressions, below.
+
+```{r}
+#| message: false
+library(modelsummary)
+```
+
+`datasummary()` makes a table of summary statistics. Its formula lists
+the variables on the left of the `~` and the statistics on the right,
+each joined by `+`, and `data =` says which data frame to use:
+
+```{r}
+datasummary(wage + age + lfp ~ N + Mean + SD, data = lfs)
+```
+
+`N`, `Mean` and `SD` are built-in statistics. Others include `Median`,
+`Min`, `Max`, `P25` and `P75`.
+
+`datasummary_df()` presents a data frame of results you have already
+calculated, such as `rates`. `fmt = 3` shows three decimal places:
+
+```{r}
+datasummary_df(rates, fmt = 3)
+```
+
 ## Graphs
 
 Graphs in R are built with **ggplot2**, loaded as part of the tidyverse.
@@ -756,6 +886,25 @@ ggplot(lfs, aes(x = educ, y = wage)) +
   labs(x = NULL, y = "Hourly wage ($)")
 ```
 
+Grouping by a 0/1 variable such as `female` needs two extra steps.
+ggplot treats a number as continuous, so wrap the variable in
+`factor()` to tell it the values are categories. The axis then reads 0
+and 1, which is not a readable label: the `labels` argument of
+`scale_x_discrete()` replaces them with words, in order.
+`outliers = FALSE` leaves out the individual points beyond the
+whiskers, which can crowd the graph:
+
+```{r}
+#| label: fig-wage-female
+#| fig-cap: "Wages of men and women"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(lfs, aes(x = factor(female), y = wage)) +
+  geom_boxplot(outliers = FALSE) +
+  scale_x_discrete(labels = c("Men", "Women")) +
+  labs(x = NULL, y = "Hourly wage ($)")
+```
+
 And a scatterplot shows how two continuous variables move together.
 Adding `geom_smooth(method = "lm")` draws the regression line through
 the points:
@@ -774,6 +923,31 @@ ggplot(lfs, aes(x = age, y = wage)) +
 
 With this many points the cloud is dense, which is normal for survey
 microdata. The line is what carries the message.
+
+### Bar charts of results you have calculated
+
+The graphs above start from the people in `lfs`. Often you have already
+calculated the numbers you want to show, like the participation rates
+in `rates`. Then give ggplot that data frame, and use `geom_col()`,
+which draws one bar per row with the height you calculated.
+
+To compare men and women within each education level, map `female` to
+`fill`, the colour of the bars, wrapped in `factor()` as before. By
+default the bars for men and women are stacked on top of each other;
+`position = "dodge"` puts them side by side. `scale_fill_discrete()`
+replaces the 0 and 1 in the legend with words, and in `labs()`,
+`fill =` sets the legend title (`NULL` leaves it out):
+
+```{r}
+#| label: fig-lfp-educ
+#| fig-cap: "Labour force participation by education and sex"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(rates, aes(x = educ, y = lfp_rate, fill = factor(female))) +
+  geom_col(position = "dodge") +
+  scale_fill_discrete(labels = c("Men", "Women")) +
+  labs(x = "Education", y = "Participation rate", fill = NULL)
+```
 
 ::: callout-important
 ## Assignment graphs need labels
@@ -844,15 +1018,31 @@ coef(model4)
 Now everything is relative to high school graduates, and the "Less than
 HS" coefficient is negative, as you would expect.
 
+### Interactions
+
+Sometimes the effect of one variable may depend on another: is the
+gender wage gap the same for university graduates as for everyone else?
+In a formula, `female * university` includes `female`, `university`,
+and their product. The product is called an **interaction**, and R
+names it `female:university`:
+
+```{r}
+model5 <- lm(lnwage ~ female * university, data = lfs)
+coef(model5)
+```
+
+`data =` can be any data frame, including one you made with `filter()`.
+That is how you run a regression on only some of the people, such as
+those under 30.
+
 ### Presenting results
 
 Console output is not acceptable in submitted work. Use
-**modelsummary** to produce a proper table:
+`modelsummary()`, from the package you loaded for tables, to produce a
+proper table. Give it a list of models, and the names in the list become
+the column headings:
 
 ```{r}
-#| message: false
-library(modelsummary)
-
 modelsummary(
   list("Schooling only" = model1, "With controls" = model2),
   stars = TRUE

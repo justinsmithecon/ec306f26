@@ -9,6 +9,8 @@ project:
   resources:
     - files/tutorials/ec306-r-template.qmd
     - files/tutorials/ec306lfs.csv
+    - assignments/files/ec306assign1.qmd
+    - assignments/files/ec306assign1.csv
  
 
 website:
@@ -23,9 +25,8 @@ website:
         file: syllabus.qmd
       - text: "Content"
         file: content/index.qmd
-      # Hidden for now — uncomment to restore
-      # - text: "Assignments"
-      #   file: assignments/index.qmd
+      - text: "Assignments"
+        file: assignments/index.qmd
 
   sidebar:
     - title: "Content"
