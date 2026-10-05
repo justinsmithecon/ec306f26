@@ -48,9 +48,9 @@ website:
               file: content/ch03.qmd
             - text: "Introduction to R and Quarto"
               file: content/introtor.qmd
+            - text: "4. Labour Supply and Income Support Programs"
+              file: content/ch04.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "4. Labour Supply and Income Support Programs"
-            #   file: content/ch04.qmd
             # - text: "5. Labour Supply and Social Insurance Programs"
             #   file: content/ch05.qmd
             # - text: "6. Labour Supply and Early Career Decisions"
