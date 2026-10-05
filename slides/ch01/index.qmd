@@ -299,7 +299,7 @@ Answer: B. Equalization depends on the no-barriers-to-mobility assumption in the
 ## Issues in Labour Supply
 
 - How does income tax affect employment?
-- Do income support programs (e.g. welfare, Canada Worker Benefit) affect employment?
+- Do income support programs (e.g. welfare, Canada Workers Benefit) affect employment?
 - How has the [Labour Force Participation Rate]{.fg style="color: #2780e3;"} of women changed over time?
 - How do child care costs affect employment of mothers?
 - How do pension programs affect retirement decisions?
