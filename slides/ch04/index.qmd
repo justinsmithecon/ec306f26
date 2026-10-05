@@ -14,7 +14,6 @@ format:
 editor: visual
 ---
 
-
 <h1>Labour Supply and Income Support Programs</h1>
 
 <hr>
@@ -116,7 +115,7 @@ transfers %>%
 ```
 
 ::: {.notes}
-This is the book's Table 4.1, rebuilt from the same public-use microdata we used in Chapter 2, and it matches the published table. Point at the spread. Refundable credits like the GST credit reach about half of all families but pay a few hundred dollars. Social assistance reaches 8% of families and pays over \$11,000 to those who get it. The EI and CPP rows from earlier versions of this table are gone on purpose: those are social insurance, and they belong to Chapter 5.
+This is the book's Table 4.1, rebuilt from the same public-use microdata we used in Chapter 2. Every cell matches the published table except the OAS share, 26.4% here against the book's 26.3%, a rounding difference. Point at the spread. Refundable credits like the GST credit reach about half of all families but pay a few hundred dollars. Social assistance reaches 8% of families and pays over \$11,000 to those who get it. The EI and CPP rows from earlier versions of this table are gone on purpose: those are social insurance, and they belong to Chapter 5.
 :::
 
 ## Issues in Program Design
@@ -144,12 +143,18 @@ This is the book's Table 4.1, rebuilt from the same public-use microdata we used
 - Temporary layoff → short-term support
 - Long-term disability → longer support + reintegration costs
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
+Which of these is a [means-tested]{.fg style="color: #2780e3;"} income support program, rather than social insurance or a universal payment?
 
-If 95% of Canadian families receive some form of government transfer, why is program design so important? What happens if a program is too generous or too stingy?
+A\) Ontario Works payments to a single adult with no other income\
+B) EI benefits for a worker laid off from a plant\
+C) A CPP retirement pension\
+D) The UCCB's \$100 a month for a child under 6\
+E) Workers' compensation after a workplace injury
+
+::: {.notes}
+Answer: A. Ontario Works is social assistance: eligibility depends on current income and assets, which is what means-tested means. B, C, and E are social insurance. They pay because you contributed and an insured event happened (a layoff, retirement, an injury), not because your income is low now, and they belong to Chapter 5. D is the trap for anyone who equates income support with any government cash: the UCCB went to every family with a young child regardless of income, so it is a demogrant.
 :::
 
 # Demogrants and Social Assistance Programs
@@ -166,7 +171,7 @@ If 95% of Canadian families receive some form of government transfer, why is pro
 
 ::: {.callout-important}
 ## Key Definitions
-**[Partial equilibrium effects]{.fg style="color: #2780e3;"}**: how the people a program reaches respond, holding wages and everything else fixed
+**[Partial equilibrium effects]{.fg style="color: #2780e3;"}**: how the people a program reaches respond, holding wages and everything else&nbsp;fixed
 
 **[General equilibrium effects]{.fg style="color: #2780e3;"}**: the knock-on effects once the program works its way through the whole economy
 :::
@@ -179,10 +184,10 @@ We stay in partial equilibrium for the whole chapter, and it is worth saying wha
 
 We will examine four policy approaches:
 
-1. [Demogrants]{.fg style="color: #2780e3;"} - Fixed payment to a demographic group, such as everyone over 65, not means-tested
-2. [Social assistance (welfare)]{.fg style="color: #2780e3;"} - Tops up income to a threshold for those with little else, clawed back dollar-for-dollar with earnings
-3. [Negative Income Tax (NIT)]{.fg style="color: #2780e3;"} - A guarantee clawed back at a rate < 100% as earnings rise
-4. [Wage Subsidies]{.fg style="color: #2780e3;"} - Addition to the wage rate
+1. [Demogrants]{.fg style="color: #2780e3;"} – Fixed payment to a demographic group, such as everyone over 65, [not means-tested]{style="white-space: nowrap;"}
+2. [Social assistance (welfare)]{.fg style="color: #2780e3;"} – Tops up income to a threshold for those with little else, clawed back dollar-for-dollar with earnings
+3. [Negative Income Tax (NIT)]{.fg style="color: #2780e3;"} – A guarantee clawed back at a rate < 100% as earnings rise
+4. [Wage Subsidies]{.fg style="color: #2780e3;"} – Addition to the wage rate
 
 ## Demogrant: Theory
 
@@ -229,6 +234,20 @@ We will examine four policy approaches:
 
 ::: {.notes}
 Pure demogrants are rare. Both of Canada's examples are taxed, so higher-income recipients keep less. They are still worth the diagram, because most programs share the demogrant's income effect. Hold the UCCB in mind: the research on what it did to parents' work is in the evidence section, and Figure 4.2 is exactly the prediction those studies test.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+The UCCB paid families \$100 a month per child under 6, whatever their income and whether or not they worked. Assuming leisure is a normal good, what does the labour supply model predict for a working mother's hours?
+
+A\) More hours, because the money helps pay for child care\
+B) Ambiguous, because the income and substitution effects pull in opposite directions\
+C) No change, because the payment does not depend on whether she works\
+D) Fewer hours, through an income effect only\
+E) Fewer hours, through a substitution effect
+
+::: {.notes}
+Answer: D. The UCCB did not change her wage, so there is no substitution effect. It only raised her income, and with leisure a normal good she works less. A is the misconception worth naming: the program's name says child care, but an unconditional cash payment is not a child-care price subsidy, since she gets it whether or not she buys child care or works. A subsidy tied to child care lowers the cost of working and can raise hours; that is the Quebec \$5/day program from Assignment 1. B is the wage-subsidy answer, C assumes an unconditional payment changes nothing, and E has the right sign for the wrong reason. This is the prediction Schirle (2015) tests in the evidence section.
 :::
 
 ## Social Assistance: Overview
@@ -298,7 +317,7 @@ The reality check matters for how students read the next three diagrams. Drawn w
 :::: {.column width="50%"}
 [Others face strong work disincentive:]{.fg style="color: #2780e3;"}
 
-- Person chooses [zero hours]{.fg style="color: #c7254e;"} after welfare benefit
+- Person chooses [zero hours]{.fg style="color: #c7254e;"} after welfare&nbsp;benefit
 
 [This occurs when:]{.fg style="color: #2780e3;"}
 
@@ -312,12 +331,18 @@ The reality check matters for how students read the next three diagrams. Drawn w
 This is the problematic effect of welfare programs
 :::
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Discussion**
+Social assistance guarantees \$733 a month, clawed back dollar for dollar with earnings. Maya earns \$600 a month working part time. If she qualifies, what does the model predict?
 
-Why might someone who was working 20 hours per week before welfare was introduced choose to stop working entirely, while someone working 40 hours per week continues to work the same amount?
+A\) She keeps working and gets a \$133 top-up, so her income rises to \$733\
+B) Nothing changes, because she was already working\
+C) She works more hours, to earn her way off assistance\
+D) We can't tell without knowing whether leisure is a normal good\
+E) She stops working entirely
+
+::: {.notes}
+Answer: E. With the program, Maya's income is \$733 whether she works zero hours or her current hours, because every dollar she earns is clawed back. Same income, more leisure, so she quits. A is the most common pick: she would get a \$133 top-up if she kept working, but that top-up is exactly what makes working pointless. D sounds careful, but there is nothing to trade off. The zero-hours bundle dominates her current one, so anyone who values leisure at all chooses it. This is the work disincentive case from the previous slide with numbers attached.
 :::
 
 ## Negative Income Tax: Overview
@@ -331,12 +356,12 @@ Why might someone who was working 20 hours per week before welfare was introduce
 
 ::: {.callout-tip}
 ## Advantages
-Provides income support with fewer work disincentives. Still maintains incentive to work since benefit reduces slowly.
+Provides income support with fewer work disincentives. Still maintains incentive to work since benefit reduces&nbsp;slowly.
 :::
 
 [How it relates to basic income:]{.fg style="color: #2780e3;"}
 
-- A targeted [basic income guarantee (BIG)]{.fg style="color: #2780e3;"} is an NIT: a guarantee plus a clawback
+- A targeted [basic income guarantee (BIG)]{.fg style="color: #2780e3;"} works like an NIT (or like welfare, if the clawback is&nbsp;100%)
 - A [universal basic income (UBI)]{.fg style="color: #2780e3;"} pays everyone the same amount, so it works like a demogrant
 
 ## Negative Income Tax: Budget Constraint
@@ -362,7 +387,7 @@ Provides income support with fewer work disincentives. Still maintains incentive
 
 ::: {.callout-note}
 ## Work Incentive Effect
-Work disincentive [less than pure welfare]{.fg style="color: #5cb85c;"}
+[Smaller disincentive than welfare]{.fg style="color: #5cb85c;"} for those welfare would push to zero hours
 :::
 
 ## Negative Income Tax: Income and Substitution Effects
@@ -373,7 +398,7 @@ Work disincentive [less than pure welfare]{.fg style="color: #5cb85c;"}
 
 - Benefit increases non-labour income → increases leisure ↑
 - Tax has negative income effect → reduces leisure ↓
-- [Net:]{.fg style="color: #2780e3;"} benefit effect dominates → leisure ↑
+- [Net:]{.fg style="color: #555;"} benefit effect dominates → leisure ↑
 ::::
 
 :::: {.column width="50%"}
@@ -386,7 +411,7 @@ Work disincentive [less than pure welfare]{.fg style="color: #5cb85c;"}
 
 ::: {.callout-note}
 ## Overall Effect
-Negative effect on work hours, but [smaller than pure welfare]{.fg style="color: #5cb85c;"}
+Negative effect on work hours; it also reaches earners whom welfare leaves alone
 :::
 
 ## Negative Income Tax: Math
@@ -409,6 +434,20 @@ $$
 
 [Breakeven point $B$:]{.fg style="color: #2780e3;"} the benefit reaches zero when $wH = \frac{z}{t}$
 
+## iClicker Question {background-color="#f0f4f8"}
+
+A negative income tax guarantees \$12,000 a year and claws back 40% of earnings. Priya earns \$20,000. What is her total income?
+
+A\) \$12,000\
+B) \$20,000\
+C) \$24,000\
+D) \$27,200\
+E) \$32,000
+
+::: {.notes}
+Answer: C. Her benefit is 12,000 − 0.4 × 20,000 = \$4,000, so her income is 20,000 + 4,000 = \$24,000. Equivalently, I = z + (1 − t)wH = 12,000 + 0.6 × 20,000. E forgets the clawback. B applies a 100% clawback, which is social assistance, not an NIT. D applies the 40% to the guarantee instead of to earnings. A is the guarantee alone. If there is time, ask for the breakeven: z/t = \$30,000.
+:::
+
 ## Basic Income in Canada: MINCOME
 
 [Manitoba Basic Annual Income Experiment, 1975–1979]{.fg style="color: #2780e3;"}
@@ -429,7 +468,7 @@ Be careful with Dauphin. Everyone in town was eligible, not everyone received a 
 :::: {.column width="50%"}
 [Labour supply effects:]{.fg style="color: #2780e3;"}
 
-- Hours fell, but not by much (Hum & Simpson 1991)
+- Hours fell, but not by much (Hum & Simpson&nbsp;1991)
   - Men: 0.8–1.6%
   - Married women: 2.4–3%
 - The US income maintenance experiments found much larger drops for husbands and wives (Hum & Simpson 1993)
@@ -438,7 +477,7 @@ Be careful with Dauphin. Everyone in town was eligible, not everyone received a 
 :::: {.column width="50%"}
 [The debate continues:]{.fg style="color: #2780e3;"}
 
-- Basic income is back on the policy agenda in Canada
+- Basic income is back on the policy agenda in&nbsp;Canada
 - Koebel & Pohler (2019): grow the Canada Workers Benefit into a basic income run through the tax system
 - Open questions: cost, financing, and federal–provincial cooperation
 ::::
@@ -465,7 +504,7 @@ The model says an NIT cuts hours; MINCOME says yes, by a little. Why the Canadia
    - Stigma, or support for getting into work: flatter indifference curves
    - Difficult to achieve
 4. [Raise the wage]{.fg style="color: #555;"}
-   - Training, job information, minimum wages, unions
+   - Training, job information, minimum wages,&nbsp;unions
    - Or subsidize the wage directly: next section
 ::::
 ::::
@@ -552,12 +591,18 @@ Overall effect on work hours is [ambiguous]{.fg style="color: #2780e3;"}
 The textbook's point is that a pure wage subsidy has the demogrant's problem in a different form: everyone who works collects, including people who need nothing. Targeting it on low earnings is what makes it affordable, and that is the design of the CWB. Subsidies paid to employers, like the pandemic wage subsidy, come up later when we get to labour demand.
 :::
 
-## {background-color="#f0f4f8"}
+## iClicker Question {background-color="#f0f4f8"}
 
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
+Which program does more to draw people who are **not working** into the labour force?
 
-A negative income tax reduces the benefit as you earn more, while a wage subsidy increases your pay for each hour worked. Which program would you expect to have a larger positive effect on labour force participation among non-workers, and why?
+A\) A negative income tax, because it gives low-income people more money\
+B) A wage subsidy, because it pays only when you work, raising the return to the first hour\
+C) They are the same, because both raise the incomes of low earners\
+D) Neither, because both create income effects that reduce work\
+E) A negative income tax, because its clawback is below 100%
+
+::: {.notes}
+Answer: B. For someone at zero hours, an NIT pays the full guarantee without any work, an income effect that makes staying out more attractive. A wage subsidy pays nothing at zero hours and raises the return to the first hour worked, so it can only pull people in. A is the intuition that more money means more help, which is true for income but backwards for participation. E is a real advantage of an NIT over social assistance, not over a wage subsidy. Tax Credits and Participation, with Figure 4.8(b), comes back to this.
 :::
 
 ## Refundable Tax Credits
@@ -569,11 +614,11 @@ A negative income tax reduces the benefit as you earn more, while a wage subsidy
 **[Refundable]{.fg style="color: #2780e3;"}**: can reduce tax owed below zero (results in payment)
 :::
 
-[Income-Tested Wage Subsidies Paid as Refundable Credits:]{.fg style="color: #2780e3;"}
+[Income-tested wage subsidies paid as refundable credits:]{.fg style="color: #2780e3;"}
 
-- [Canada Workers Benefit (CWB)]{.fg style="color: #2780e3;"} - Canada, since 2007 (first called the WITB)
-- [Earned Income Tax Credit (EITC)]{.fg style="color: #2780e3;"} - US, since 1975, now one of the largest US income supports
-- Similar programs in the UK (Working Families Tax Credit) and New Zealand (In-Work Tax Credit)
+- [Canada Workers Benefit (CWB)]{.fg style="color: #2780e3;"} – Canada, since 2007 (first called the WITB)
+- [Earned Income Tax Credit (EITC)]{.fg style="color: #2780e3;"} – US, since 1975, now one of the largest US income supports
+- Similar programs: the UK's former Working Families Tax Credit and New Zealand's In-Work Tax&nbsp;Credit
 
 - Popular across the political spectrum: targeted, pro-work, and cheap to run through the tax system, with no caseworkers
 - [Source: Nichols & Rothstein (2015); Blundell (2006)]{.fg style="color: #555;"}
@@ -595,7 +640,7 @@ tibble(earnings = seq(0, 40000, by = 25)) %>%
   mutate(benefit = cwb(earnings)) %>%
   ggplot(aes(earnings, benefit)) +
   geom_line(colour = "#2780e3", linewidth = 1.6) +
-  annotate("text", x = c(5000, 17500, 33500), y = c(1150, 1700, 1150),
+  annotate("text", x = c(3600, 17500, 33500), y = c(1250, 1700, 1150),
            label = c("phase-in\n27%", "flat range", "phase-out\n15%"), size = 5.5) +
   scale_x_continuous(labels = dollar, breaks = seq(0, 40000, 10000)) +
   scale_y_continuous(labels = dollar, limits = c(0, 1850), breaks = seq(0, 1500, 500)) +
@@ -606,7 +651,7 @@ tibble(earnings = seq(0, 40000, by = 25)) %>%
 
 :::: {.column width="50%"}
 - Nothing until earnings pass \$3,000
-- [Phase-in:]{.fg style="color: #2780e3;"} 27 cents per dollar earned above \$3,000
+- [Phase-in:]{.fg style="color: #2780e3;"} 27 cents per dollar earned above&nbsp;\$3,000
 - [Flat range:]{.fg style="color: #2780e3;"} the \$1,590 maximum, reached at about \$8,900 of earnings
 - [Phase-out:]{.fg style="color: #2780e3;"} clawed back at 15% of earnings above \$26,149
 - Gone entirely at \$36,749
@@ -652,7 +697,7 @@ These are the book's example parameters, and the publisher's own CWB example fil
 
 - Sees increase in effective wage
 - Acts like [pure wage subsidy]{.fg style="color: #2780e3;"}
-- Income and substitution effects in opposite directions
+- Income and substitution effects in opposite&nbsp;directions
 ::::
 ::::
 
@@ -716,12 +761,26 @@ Effect on hours is ambiguous, but the incentive to [participate]{.fg style="colo
 - For a non-worker, the phase-in raises the return to the first hours of work
 - Against social assistance with a 100% clawback, the contrast is sharper
   - Without the credit: no work, collect assistance ($E_0$)
-  - With it: work, and reach a higher indifference curve ($E_1$)
+  - With it, if the benefit is large enough: work, on a higher indifference curve ($E_1$)
 ::::
 ::::
 
 ::: {.notes}
-This is the answer to the Think About It from the wage subsidy section, and it is the result in this chapter most worth remembering. The intensive margin is a mess of competing effects; the extensive margin is not. Problem 6(a) asks them to compare the CWB with perfectly targeted social assistance for someone indifferent between the two, so describe this picture but do not work that version through.
+This is the answer to the clicker question from the wage subsidy section, and it is the result in this chapter most worth remembering. The intensive margin is a mess of competing effects; the extensive margin is not. Problem 6(a) asks them to compare the CWB with perfectly targeted social assistance for someone indifferent between the two, so describe this picture but do not work that version through.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+Ali is single, lives in Ontario, and earns \$30,000 a year. Compared with no CWB, what does the CWB do to his incentive to work **more hours**?
+
+A\) Reduces it: the income and substitution effects both cut hours\
+B) Reduces it, through an income effect only\
+C) Ambiguous: a higher effective wage, but also an income effect\
+D) No effect: he earns too much to qualify\
+E) Increases it: the clawback raises the payoff to each extra hour
+
+::: {.notes}
+Answer: A. At \$30,000 Ali is in the phase-out range, between \$26,149 and \$36,749. The benefit he still receives raises his income, an income effect toward less work, and the 15% clawback lowers his take-home pay on each extra hour, a substitution effect toward less work. Both point the same way. C is the phase-in answer and B is the flat-range answer, so wrong picks show who misplaced him on the schedule. E gets the sign of the clawback backwards: it lowers the payoff to an extra hour. D misreads the cutoff.
 :::
 
 # Empirical Evidence of Incentive Effects
@@ -745,7 +804,7 @@ ggplot(ontario_sa, aes(Year)) +
   geom_line(aes(y = 6000 + BenefitRate * k), colour = "#c7254e", linewidth = 1.4) +
   geom_line(aes(y = 6000 + UnemploymentRate * k), colour = "#f0ad4e", linewidth = 1.3,
             linetype = "dashed") +
-  annotate("text", x = c(1999.5, 2003, 2004), y = c(6000 + 10.2 * k, 6000 + 8.6 * k, 17100),
+  annotate("text", x = c(1999.5, 2009.5, 2004), y = c(6000 + 10.2 * k, 6000 + 9.6 * k, 17100),
            label = c("Recipiency rate", "Unemployment rate",
                      "Maximum benefit, single employable (bars)"),
            colour = c("#c7254e", "#c08a2e", "#2780e3"), size = 5.5, hjust = 0) +
@@ -766,9 +825,9 @@ Walk the picture left to right before asking anything. The share of Ontarians on
 ## Correlation Is Not Causation
 
 - Benefits and recipiency move together, but which way does causation run? We saw this problem in [Chapter 2]{.fg style="color: #555;"}
-- [Reverse causation:]{.fg style="color: #2780e3;"} a big caseload is a big constituency, and governments raised benefits to match
+- [Reverse causation:]{.fg style="color: #2780e3;"} a big caseload is a big constituency, and governments raised benefits to&nbsp;match
 - [Confounding:]{.fg style="color: #2780e3;"} unemployment drives both; recessions push people onto assistance, booms pull them off
-- Berg & Gabel (2015): across provinces, work requirements did the most to cut caseloads, 1986–2009
+- Berg & Gabel (2015): across provinces, work requirements did the most to cut caseloads,&nbsp;1986–2009
 
 ::: {.callout-important}
 ## Key Definitions
@@ -783,11 +842,11 @@ Look back at the figure for the confounding story: unemployment spikes in the ea
 
 ## Quebec: A Discontinuity at Age 30
 
-- [Until August 1989:]{.fg style="color: #2780e3;"} Quebec paid singles and couples without children far less if they were under 30
+- [Until August 1989:]{.fg style="color: #555;"} Quebec paid singles and couples without children far less if they were under 30
   - Age 29: \$185 a month; age 30: \$507 a month
 - Someone a few months short of 30 is otherwise much like someone a few months past it
   - Comparing the two is a [regression discontinuity design]{.fg style="color: #2780e3;"}, as in [Chapter 2]{.fg style="color: #555;"}
-- [Results:]{.fg style="color: #2780e3;"}
+- [Results:]{.fg style="color: #555;"}
   - Fortin et al. (2004): the higher benefit led to much longer spells on assistance
   - Lemieux & Milligan (2008): employment of male high-school dropouts fell about 4 percentage points past age 30 (1986)
 
@@ -800,14 +859,28 @@ Two [nonexperimental]{.fg style="color: #2780e3;"} studies, one conclusion: high
 Some of the young claimants sued under the Charter for age discrimination, and the Supreme Court upheld the rule in a split decision (Gosselin v. Quebec, 2002). A policy that was hard on young people turned out to be very good for research. Nobody can choose their birthday to qualify, so people just either side of 30 differ in almost nothing except the benefit they could get. That is what makes the jump at 30 believable as a cause.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+Which comparison gives the most credible estimate of how a higher welfare benefit affects&nbsp;work?
+
+A\) Employment in provinces with high benefits versus provinces with low benefits\
+B) Employment in one province before and after it raised benefits\
+C) Hours worked by welfare recipients versus non-recipients\
+D) People just under versus just over an age cutoff where benefits jump\
+E) Asking recipients whether the benefit made them work less
+
+::: {.notes}
+Answer: D. Just under and just over the cutoff, people are alike except for the benefit, so the jump in outcomes at the cutoff is the benefit's effect. That is the Quebec age-30 design. A compares provinces that differ in labour markets and much else (confounding). B credits the benefit with everything else that changed over the period, like a recession. C compares people who chose to be on assistance with people who did not (selection). E relies on self-reports. A randomized experiment would be more credible still, but it is not an option here, and the SSP, coming up, is one.
+:::
+
 ## Child Benefits and Work
 
-- [National Child Benefit, 1998:]{.fg style="color: #2780e3;"} some provinces effectively cut the clawback for welfare recipients
-  - Work incentives improved, explaining much of the fall in caseloads from 1997 to 2000
-- [UCCB, 2006:]{.fg style="color: #2780e3;"} compare parents of children 5 and under to parents of older children, before and after
+- [National Child Benefit, 1998:]{.fg style="color: #2780e3;"} some provinces effectively cut the clawback for welfare&nbsp;recipients
+  - Work incentives improved, which could explain much of the 1997–2000 caseload fall
+- [UCCB, 2006:]{.fg style="color: #2780e3;"} compare parents of children 5 and under to parents of older children, before and&nbsp;after
   - A [difference-in-differences]{.fg style="color: #2780e3;"} design, as in [Chapter 2]{.fg style="color: #555;"}
   - Married mothers cut both participation and hours, as the demogrant model predicts
-  - From the paper itself: participation of lower-educated married mothers fell 3.2 percentage points
+  - From the paper itself: participation of lower-educated married mothers fell 3.2 percentage&nbsp;points
   - Divorced mothers worked *more*
 - [UCCB expansion and the CCB:]{.fg style="color: #2780e3;"} large cuts in poverty, no sign of lower labour supply
 - [Source: Milligan & Stabile (2007); Schirle (2015); Koebel & Schirle (2016); Baker et al. (2023)]{.fg style="color: #555;"}
@@ -826,7 +899,7 @@ Child benefits have been redesigned several times, and each redesign is a natura
 - [Who:]{.fg style="color: #555;"} about 5,600 single parents, mostly mothers, on assistance for at least a year
 - [Where and when:]{.fg style="color: #555;"} New Brunswick and British Columbia, 1992–1999
 - [Design:]{.fg style="color: #555;"} random assignment to a program group or a control group
-- [The offer:]{.fg style="color: #555;"} leave assistance for a job of 30+ hours a week within a year, and collect a supplement
+- [The offer:]{.fg style="color: #555;"} leave assistance for a job of 30+ hours a week within a year, and collect a&nbsp;supplement
   - Half the gap between earnings and a benchmark of \$30,000 (NB) or \$37,000 (BC)
   - Paid for up to three years, as long as the work stays full time
   - Roughly doubled what assistance paid
@@ -872,7 +945,7 @@ ggplot(ssp, aes(time, pct, fill = group)) +
 :::: {.column width="45%"}
 - [Naive estimate:]{.fg style="color: #2780e3;"} full-time work in the program group went from 6% to 30%, so 24 points
 - But the control group got to 15% with no offer at all
-- [Experimental estimate:]{.fg style="color: #2780e3;"} 30 − 15 = 15 points
+- [Experimental estimate:]{.fg style="color: #2780e3;"} 30 − 15 = 15&nbsp;points
 - The gap closed after the offer ended
   - 9 points at 36 months
   - Gone by 54 months; assistance receipt equal by month 69
@@ -926,11 +999,11 @@ Riddell and Riddell's framing is worth repeating: both groups built up their ear
 
 ## References {.smaller}
 
-- Atkinson, A. B. (1998). Social exclusion, poverty and unemployment. In A. B. Atkinson & J. Hills (Eds.), *Exclusion, employment and opportunity* (CASEpaper 4). Centre for Analysis of Social Exclusion, London School of Economics.
+- Atkinson, A. B. (1998). Social exclusion, poverty and unemployment. In A. B. Atkinson & J. Hills (Eds.), *Exclusion, employment and opportunity* (CASEpaper 4, pp. 1–20). Centre for Analysis of Social Exclusion, London School of&nbsp;Economics.
 - Baker, M., Messacar, D., & Stabile, M. (2023). Effects of child tax benefits on poverty and labor supply: Evidence from the Canada Child Benefit and Universal Child Care Benefit. *Journal of Labor Economics*, 41(4), 1129–1182.
 - Benjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). *Labour Market Economics*, 2026 Release. McGraw Hill. Chapter 4.
 - Berg, N., & Gabel, T. (2015). Did Canadian welfare reform work? The effects of new reform strategies on social assistance participation. *Canadian Journal of Economics*, 48(2), 494–528.
-- Blundell, R. (2006). Earned income tax credit policies: Impact and optimality. *Labour Economics*, 13(4), 423–443.
+- Blundell, R. (2006). Earned income tax credit policies: Impact and optimality. *Labour Economics*, [13(4), 423–443.]{style="white-space: nowrap;"}
 - Card, D., & Hyslop, D. R. (2005). Estimating the effects of a time-limited earnings subsidy for welfare-leavers. *Econometrica*, 73(6), 1723–1770.
 - Fortin, B., Lacroix, G., & Drolet, S. (2004). Welfare benefits and the duration of welfare spells: Evidence from a natural experiment in Canada. *Journal of Public Economics*, 88(7–8), 1495–1520.
 
@@ -940,14 +1013,14 @@ Riddell and Riddell's framing is worth repeating: both groups built up their ear
 - Hum, D., & Simpson, W. (1993). Economic response to a guaranteed annual income: Experience from Canada and the United States. *Journal of Labor Economics*, 11(1, Part 2), S263–S296.
 - Koebel, K., & Pohler, D. (2019). Expanding the Canada Workers Benefit to design a guaranteed basic income. *Canadian Public Policy*, 45(3), 283–309.
 - Koebel, K., & Schirle, T. (2016). The differential impact of universal child benefits on the labour supply of married and single mothers. *Canadian Public Policy*, 42(1), 49–64.
-- Laidley, J., & Tabbara, M. (2024). *Welfare in Canada, 2023*. Maytree.
+- Laidley, J., & Tabbara, M.-D. (2024). *Welfare in Canada, 2023*. Maytree.
 - Lemieux, T., & Milligan, K. (2008). Incentive effects of social assistance: A regression discontinuity approach. *Journal of Econometrics*, 142(2), 807–828.
 
 ## References (cont.) {.smaller}
 
 - Milligan, K., & Stabile, M. (2007). The integration of child tax credits and welfare: Evidence from the Canadian National Child Benefit program. *Journal of Public Economics*, 91(1–2), 305–326.
 - Nichols, A., & Rothstein, J. (2015). *The Earned Income Tax Credit (EITC)*. NBER Working Paper No. 21211.
-- Riddell, C., & Riddell, W. C. (2014). The pitfalls of work requirements in welfare-to-work policies: Experimental evidence on human capital accumulation in the Self-Sufficiency Project. *Journal of Public Economics*, 117, 39–49.
+- Riddell, C., & Riddell, W. C. (2014). The pitfalls of work requirements in welfare-to-work policies: Experimental evidence on human capital accumulation in the Self-Sufficiency Project. *Journal of Public Economics*, [117, 39–49.]{style="white-space: nowrap;"}
 - Royal Commission on the Economic Union and Development Prospects for Canada. (1985). *Report*. Minister of Supply and Services Canada.
-- Schirle, T. (2015). The effect of universal child benefits on labour supply. *Canadian Journal of Economics*, 48(2), 437–463.
+- Schirle, T. (2015). The effect of universal child benefits on labour supply. *Canadian Journal of Economics*, 48(2),&nbsp;437–463.
 - Statistics Canada. *Canadian Income Survey, 2022*: Public Use Microdata File.
