@@ -287,7 +287,7 @@ The reality check matters for how students read the next three diagrams. Drawn w
 - Reduced \$1 for each \$1 earned
   - Equivalent to [100% tax rate]{.fg style="color: #2780e3;"} on earnings
 - Income stays at $z$ until earnings reach $z$
-- After that, earn wage $w_0$ per hour worked
+- After that, earn wage $w$ per hour worked
 ::::
 ::::
 

@@ -9357,7 +9357,7 @@
     "href": "slides/ch04/index.html#social-assistance-budget-constraint",
     "title": "EC306 - Wages and Employment",
     "section": "Social Assistance: Budget Constraint",
-    "text": "Social Assistance: Budget Constraint\n\n\n\n\nBudget line structure:\n\nBlack line: original budget (leisure at \\(L_0\\))\nRed then black: with social assistance up to the threshold \\(z\\)\n\nKey features:\n\nGrant \\(G = z\\) at zero hours of work\nReduced $1 for each $1 earned\n\nEquivalent to 100% tax rate on earnings\n\nIncome stays at \\(z\\) until earnings reach \\(z\\)\nAfter that, earn wage \\(w_0\\) per hour worked"
+    "text": "Social Assistance: Budget Constraint\n\n\n\n\nBudget line structure:\n\nBlack line: original budget (leisure at \\(L_0\\))\nRed then black: with social assistance up to the threshold \\(z\\)\n\nKey features:\n\nGrant \\(G = z\\) at zero hours of work\nReduced $1 for each $1 earned\n\nEquivalent to 100% tax rate on earnings\n\nIncome stays at \\(z\\) until earnings reach \\(z\\)\nAfter that, earn wage \\(w\\) per hour worked"
   },
   {
     "objectID": "slides/ch04/index.html#social-assistance-no-effect-case",
