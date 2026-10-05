@@ -3812,21 +3812,21 @@
     "href": "slides/ch04/index.html#negative-income-tax-overview",
     "title": "EC306 - Wages and Employment",
     "section": "Negative Income Tax: Overview",
-    "text": "Negative Income Tax: Overview\nWhat is NIT?\n\nWelfare program where benefit reduced at rate &lt; 100% of earnings\nExample: guarantee \\(z\\) of $10,000, reduced by 50¢ per dollar earned\n\n\n\n\n\n\n\nAdvantages\n\n\nProvides income support with fewer work disincentives. Still maintains incentive to work since benefit reduces slowly.\n\n\n\nHow it relates to basic income:\n\nA targeted basic income guarantee (BIG) is an NIT: a guarantee plus a clawback\nA universal basic income (UBI) pays everyone the same amount, so it works like a demogrant"
+    "text": "Negative Income Tax: Overview\n\n\n\n\n\n\nKey Definition\n\n\nNegative income tax (NIT): welfare program where benefit reduced at rate &lt; 100% of earnings\n\n\n\n\nExample: guarantee \\(z\\) of $10,000, reduced by 50¢ per dollar earned\n\n\n\n\n\n\n\nAdvantages\n\n\nProvides income support with fewer work disincentives. Still maintains incentive to work since benefit reduces slowly.\n\n\n\nHow it relates to basic income:\n\nA targeted basic income guarantee (BIG) is an NIT: a guarantee plus a clawback\nA universal basic income (UBI) pays everyone the same amount, so it works like a demogrant"
   },
   {
     "objectID": "slides/ch04/index.html#negative-income-tax-budget-constraint",
     "href": "slides/ch04/index.html#negative-income-tax-budget-constraint",
     "title": "EC306 - Wages and Employment",
     "section": "Negative Income Tax: Budget Constraint",
-    "text": "Negative Income Tax: Budget Constraint\n\n\n\n\nNIT has two components:\n\nGuarantee \\(z\\) at zero hours of work\nImplicit tax rate \\(t\\) on earnings, until the benefit is gone at the breakeven point \\(B\\)\n\nEffect on labour supply:\n\nPivots budget line up vs. pure welfare\nWork hours reduced from \\(H_0\\) to \\(H_1\\)\nPerson still works some hours\n\n\n\n\n\n\n\n\nImportant\n\n\nWork disincentive less than pure welfare"
+    "text": "Negative Income Tax: Budget Constraint\n\n\n\n\nNIT has two components:\n\nGuarantee \\(z\\) at zero hours of work\nImplicit tax rate \\(t\\) on earnings, until the benefit is gone at the breakeven point \\(B\\)\n\nEffect on labour supply:\n\nPivots budget line up vs. pure welfare\nWork hours reduced from \\(H_0\\) to \\(H_1\\)\nPerson still works some hours\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nWork disincentive less than pure welfare"
   },
   {
     "objectID": "slides/ch04/index.html#negative-income-tax-income-and-substitution-effects",
     "href": "slides/ch04/index.html#negative-income-tax-income-and-substitution-effects",
     "title": "EC306 - Wages and Employment",
     "section": "Negative Income Tax: Income and Substitution Effects",
-    "text": "Negative Income Tax: Income and Substitution Effects\nIncome effects:\n\nBenefit increases non-labour income → increases leisure ↑\nTax has negative income effect → reduces leisure ↓\nNet: benefit effect dominates → leisure ↑\n\nSubstitution effect:\n\nTax rate reduces effective wage\nMakes leisure relatively cheaper → reduces work hours ↓\n\n\n\n\n\n\n\nOverall Effect\n\n\nNegative effect on work hours, but smaller than pure welfare"
+    "text": "Negative Income Tax: Income and Substitution Effects\n\n\nIncome effects:\n\nBenefit increases non-labour income → increases leisure ↑\nTax has negative income effect → reduces leisure ↓\nNet: benefit effect dominates → leisure ↑\n\n\nSubstitution effect:\n\nTax rate reduces effective wage\nMakes leisure relatively cheaper → reduces work hours ↓\n\n\n\n\n\n\n\n\nOverall Effect\n\n\nNegative effect on work hours, but smaller than pure welfare"
   },
   {
     "objectID": "slides/ch04/index.html#negative-income-tax-math",
@@ -3861,7 +3861,7 @@
     "href": "slides/ch04/index.html#wage-subsidies-theory",
     "title": "EC306 - Wages and Employment",
     "section": "Wage Subsidies: Theory",
-    "text": "Wage Subsidies: Theory\nWhat is a wage subsidy?\n\nPayment to workers that increases their wage rate\nExample: $5/hour subsidy increases $15/hour wage to $20/hour\n\nEffect on budget constraint:\n\nBudget line pivots upward\n\nLabour supply effects:\n\n\n\nIncome effect → increases leisure ↑\n\n\n\nSubstitution effect → decreases leisure ↓\n\n\n\n\n\n\n\n\nWarning\n\n\nOverall effect on work hours is ambiguous"
+    "text": "Wage Subsidies: Theory\n\n\n\n\n\n\nKey Definition\n\n\nWage subsidy: payment to workers that increases their wage rate\n\n\n\n\nExample: $5/hour subsidy increases $15/hour wage to $20/hour\n\nEffect on budget constraint:\n\nBudget line pivots upward\n\nLabour supply effects:\n\n\n\nIncome effect → increases leisure ↑\n\n\n\nSubstitution effect → decreases leisure ↓\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nOverall effect on work hours is ambiguous"
   },
   {
     "objectID": "slides/ch04/index.html#wage-subsidies-diagram",
@@ -3910,14 +3910,14 @@
     "href": "slides/ch04/index.html#tax-credits-effect-in-phase-in-range",
     "title": "EC306 - Wages and Employment",
     "section": "Tax Credits: Effect in Phase-In Range",
-    "text": "Tax Credits: Effect in Phase-In Range\n\n\n\n\nPerson in phase-in range:\n\nSees increase in effective wage\nActs like pure wage subsidy\nIncome and substitution effects in opposite directions\n\n\n\n\n\n\n\n\nWarning\n\n\nEffect on hours is ambiguous"
+    "text": "Tax Credits: Effect in Phase-In Range\n\n\n\n\nPerson in phase-in range:\n\nSees increase in effective wage\nActs like pure wage subsidy\nIncome and substitution effects in opposite directions\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nEffect on hours is ambiguous"
   },
   {
     "objectID": "slides/ch04/index.html#tax-credits-effect-in-phase-out-range",
     "href": "slides/ch04/index.html#tax-credits-effect-in-phase-out-range",
     "title": "EC306 - Wages and Employment",
     "section": "Tax Credits: Effect in Phase-Out Range",
-    "text": "Tax Credits: Effect in Phase-Out Range\n\n\n\n\nPerson in phase-out range:\n\nSimilar to negative income tax\nIncome effect → reduce hours ↓\nSubstitution effect → reduce hours ↓\n\n\n\n\n\n\n\n\nImportant\n\n\nEffect on work is unambiguously negative"
+    "text": "Tax Credits: Effect in Phase-Out Range\n\n\n\n\nPerson in phase-out range:\n\nSimilar to negative income tax\nIncome effect → reduce hours ↓\nSubstitution effect → reduce hours ↓\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nEffect on work is unambiguously negative"
   },
   {
     "objectID": "slides/ch04/index.html#todo-the-self-sufficiency-project",
@@ -9371,7 +9371,7 @@
     "href": "slides/ch04/index.html#social-assistance-work-disincentive-case",
     "title": "EC306 - Wages and Employment",
     "section": "Social Assistance: Work Disincentive Case",
-    "text": "Social Assistance: Work Disincentive Case\n\n\n\n\nOthers face strong work disincentive:\n\nPerson chooses zero hours after welfare benefit\n\nThis occurs when:\n\nWelfare benefit is generous\nIndividual places high value on leisure\n\n\n\n\n\n\n\n\nWarning\n\n\nThis is the problematic effect of welfare programs"
+    "text": "Social Assistance: Work Disincentive Case\n\n\n\n\nOthers face strong work disincentive:\n\nPerson chooses zero hours after welfare benefit\n\nThis occurs when:\n\nWelfare benefit is generous\nIndividual places high value on leisure\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nThis is the problematic effect of welfare programs"
   },
   {
     "objectID": "slides/ch04/index.html#basic-income-in-canada-mincome",
@@ -9392,7 +9392,7 @@
     "href": "slides/ch04/index.html#refundable-tax-credits",
     "title": "EC306 - Wages and Employment",
     "section": "Refundable Tax Credits",
-    "text": "Refundable Tax Credits\nTwo types of tax credits:\n\nNon-refundable: Can reduce tax owed to zero (but not below)\nRefundable: Can reduce tax owed below zero (results in payment)\n\n\n\n\n\n\n\nIncome-Tested Wage Subsidies Paid as Refundable Credits\n\n\n\nCanada Workers Benefit (CWB) - Canada, since 2007 (first called the WITB)\nEarned Income Tax Credit (EITC) - US, since 1975, now one of the largest US income supports\nSimilar programs in the UK (Working Families Tax Credit) and New Zealand (In-Work Tax Credit)\n\n\n\n\n\nPopular across the political spectrum: targeted, pro-work, and cheap to run through the tax system, with no caseworkers\nSource: Nichols & Rothstein (2015); Blundell (2006)"
+    "text": "Refundable Tax Credits\n\n\n\n\n\n\nKey Definitions\n\n\nNon-refundable: can reduce tax owed to zero (but not below)\nRefundable: can reduce tax owed below zero (results in payment)\n\n\n\nIncome-Tested Wage Subsidies Paid as Refundable Credits:\n\nCanada Workers Benefit (CWB) - Canada, since 2007 (first called the WITB)\nEarned Income Tax Credit (EITC) - US, since 1975, now one of the largest US income supports\nSimilar programs in the UK (Working Families Tax Credit) and New Zealand (In-Work Tax Credit)\nPopular across the political spectrum: targeted, pro-work, and cheap to run through the tax system, with no caseworkers\nSource: Nichols & Rothstein (2015); Blundell (2006)"
   },
   {
     "objectID": "slides/ch04/index.html#the-canada-workers-benefit-2024",
@@ -9434,7 +9434,7 @@
     "href": "slides/ch04/index.html#quebec-a-discontinuity-at-age-30",
     "title": "EC306 - Wages and Employment",
     "section": "Quebec: A Discontinuity at Age 30",
-    "text": "Quebec: A Discontinuity at Age 30\n\nUntil August 1989: Quebec paid singles and couples without children far less if they were under 30\n\nAge 29: $185 a month; age 30: $507 a month\n\nSomeone a few months short of 30 is otherwise much like someone a few months past it\n\nComparing the two is a regression discontinuity design, as in Chapter 2\n\nResults:\n\nFortin et al. (2004): the higher benefit led to much longer spells on assistance\nLemieux & Milligan (2008): employment of male high-school dropouts fell about 4 percentage points past age 30 (1986)\n\n\n\n\n\n\n\n\nNote\n\n\nTwo nonexperimental studies, one conclusion: higher benefits reduce work\n\n\n\n\nSome of the young claimants sued under the Charter for age discrimination, and the Supreme Court upheld the rule in a split decision (Gosselin v. Quebec, 2002). A policy that was hard on young people turned out to be very good for research. Nobody can choose their birthday to qualify, so people just either side of 30 differ in almost nothing except the benefit they could get. That is what makes the jump at 30 believable as a cause."
+    "text": "Quebec: A Discontinuity at Age 30\n\nUntil August 1989: Quebec paid singles and couples without children far less if they were under 30\n\nAge 29: $185 a month; age 30: $507 a month\n\nSomeone a few months short of 30 is otherwise much like someone a few months past it\n\nComparing the two is a regression discontinuity design, as in Chapter 2\n\nResults:\n\nFortin et al. (2004): the higher benefit led to much longer spells on assistance\nLemieux & Milligan (2008): employment of male high-school dropouts fell about 4 percentage points past age 30 (1986)\n\n\n\n\n\n\n\n\nKey Result\n\n\nTwo nonexperimental studies, one conclusion: higher benefits reduce work\n\n\n\n\nSome of the young claimants sued under the Charter for age discrimination, and the Supreme Court upheld the rule in a split decision (Gosselin v. Quebec, 2002). A policy that was hard on young people turned out to be very good for research. Nobody can choose their birthday to qualify, so people just either side of 30 differ in almost nothing except the benefit they could get. That is what makes the jump at 30 believable as a cause."
   },
   {
     "objectID": "slides/ch04/index.html#child-benefits-and-work",
@@ -9462,7 +9462,7 @@
     "href": "slides/ch04/index.html#ssp-why-the-effect-faded",
     "title": "EC306 - Wages and Employment",
     "section": "SSP: Why the Effect Faded",
-    "text": "SSP: Why the Effect Faded\n\nCard & Hyslop (2005): the time limits created two incentives\n\nEstablishment incentive: find full-time work within 12 months to qualify\nEntitlement incentive: once qualified, keep working to keep collecting\nBoth end when the program ends\n\nRiddell & Riddell (2014): the program group went back to school less\n\nLess high-school completion, college or trade school, and university\nWork-first policies can trade long-run earning power for short-run jobs\n\n\n\n\n\n\n\n\nNote\n\n\nThe SSP sped up the move from assistance to work while it ran; it did not change where people ended up\n\n\n\n\nSource: Card & Hyslop (2005); Riddell & Riddell (2014)\n\n\nRiddell and Riddell’s framing is worth repeating: both groups built up their earning power during the experiment, the program group on the job and the control group in the classroom, which is part of why the gap closed. Do not let them leave thinking the SSP failed. It moved people into work faster, and the control group’s behaviour is itself a finding: a slow but large exit from assistance, much of it through finishing high school. That tells us something about how people get off assistance when nobody pays them to."
+    "text": "SSP: Why the Effect Faded\n\nCard & Hyslop (2005): the time limits created two incentives\n\nEstablishment incentive: find full-time work within 12 months to qualify\nEntitlement incentive: once qualified, keep working to keep collecting\nBoth end when the program ends\n\nRiddell & Riddell (2014): the program group went back to school less\n\nLess high-school completion, college or trade school, and university\nWork-first policies can trade long-run earning power for short-run jobs\n\n\n\n\n\n\n\n\nKey Result\n\n\nThe SSP sped up the move from assistance to work while it ran; it did not change where people ended up\n\n\n\n\nSource: Card & Hyslop (2005); Riddell & Riddell (2014)\n\n\nRiddell and Riddell’s framing is worth repeating: both groups built up their earning power during the experiment, the program group on the job and the control group in the classroom, which is part of why the gap closed. Do not let them leave thinking the SSP failed. It moved people into work faster, and the control group’s behaviour is itself a finding: a slow but large exit from assistance, much of it through finishing high school. That tells us something about how people get off assistance when nobody pays them to."
   },
   {
     "objectID": "slides/ch04/index.html#references",

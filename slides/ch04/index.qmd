@@ -35,13 +35,11 @@ editor: visual
 
 In this section we will:
 
-::: {.nonincremental}
 - Describe the main income support programs in Canada
 - Use the labour supply model to evaluate a policy, step by step
 - Analyze the work incentives of demogrants, social assistance, and negative income taxes
 - Analyze wage subsidies and refundable tax credits like the Canada Workers Benefit
 - Examine how economists measure these effects, including with experiments
-:::
 
 # Income Support Programs in Canada
 
@@ -123,24 +121,22 @@ This is the book's Table 4.1, rebuilt from the same public-use microdata we used
 
 ## Issues in Program Design
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 [Universal vs. Targeted Programs]{.fg style="color: #2780e3;"}
 
 - Universal: easy to implement but expensive
 - Targeted: benefits only those in need but costly to administer
 - Canada swapped the universal UCCB for the income-tested CCB in 2016
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Work Disincentives]{.fg style="color: #2780e3;"}
 
 - Some programs reduce incentive to work
 - Example: welfare benefits can encourage labour force dropout for those with strong preference for leisure
-:::
-:::
-
-
+::::
+::::
 
 [Permanent vs. Transitory Income Loss]{.fg style="color: #2780e3;"}
 
@@ -160,7 +156,7 @@ If 95% of Canadian families receive some form of government transfer, why is pro
 
 ## Using the Model to Evaluate a Policy
 
-- Same tool as Chapter 3: [comparative statics]{.fg style="color: #2780e3;"}, comparing choices before and after a change
+- Same tool as [Chapter 3]{.fg style="color: #555;"}: [comparative statics]{.fg style="color: #2780e3;"}, comparing choices before and after a change
 - Policy rarely changes what people like; it changes what they can have
   - So the action is in the [potential income constraint]{.fg style="color: #2780e3;"}, not the indifference curves
 - Every program in this chapter gets the same three steps:
@@ -183,40 +179,36 @@ We stay in partial equilibrium for the whole chapter, and it is worth saying wha
 
 We will examine four policy approaches:
 
-::: {.nonincremental}
 1. [Demogrants]{.fg style="color: #2780e3;"} - Fixed payment to a demographic group, such as everyone over 65, not means-tested
 2. [Social assistance (welfare)]{.fg style="color: #2780e3;"} - Tops up income to a threshold for those with little else, clawed back dollar-for-dollar with earnings
 3. [Negative Income Tax (NIT)]{.fg style="color: #2780e3;"} - A guarantee clawed back at a rate < 100% as earnings rise
 4. [Wage Subsidies]{.fg style="color: #2780e3;"} - Addition to the wage rate
-:::
 
 ## Demogrant: Theory
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-77876364.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [How it works:]{.fg style="color: #2780e3;"}
 
 - Unconditional lump sum transfer $G$
 - Shifts budget line up parallel
-- Wage unchanged → [pure income effect]{.fg style="color: #c7254e;"}
+- Wage unchanged → [pure income effect]{.fg style="color: #2780e3;"}
 
 [Labour supply impact:]{.fg style="color: #2780e3;"}
 
 - If leisure is normal → optimal leisure rises
 - Reduces hours worked
 - Raises reservation wage → some may quit
-:::
-:::
+::::
+::::
 
-
-
-::: {.callout-warning}
+::: {.callout-note}
 ## Work Incentive Effect
-Unambiguously negative
+[Unambiguously negative]{.fg style="color: #c7254e;"}
 :::
 
 ## Demogrants in Canada
@@ -259,12 +251,12 @@ The reality check matters for how students read the next three diagrams. Drawn w
 
 ## Social Assistance: Budget Constraint
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-2002953472.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Budget line structure:]{.fg style="color: #2780e3;"}
 
 - [Black line:]{.fg style="color: #555;"} original budget (leisure at $L_0$)
@@ -274,36 +266,36 @@ The reality check matters for how students read the next three diagrams. Drawn w
 
 - Grant $G = z$ at zero hours of work
 - Reduced \$1 for each \$1 earned
-  - Equivalent to [100% tax rate]{.fg style="color: #c7254e;"} on earnings
+  - Equivalent to [100% tax rate]{.fg style="color: #2780e3;"} on earnings
 - Income stays at $z$ until earnings reach $z$
 - After that, earn wage $w_0$ per hour worked
-:::
-:::
+::::
+::::
 
 ## Social Assistance: No Effect Case
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-366250763.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [For some workers, welfare has no effect:]{.fg style="color: #2780e3;"}
 
 - Person working $H_0$ hours before benefit
 - Still maximizes utility at $H_0$ hours after
 - Generally occurs with people already working many hours
-:::
-:::
+::::
+::::
 
 ## Social Assistance: Work Disincentive Case
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-3642856784.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Others face strong work disincentive:]{.fg style="color: #2780e3;"}
 
 - Person chooses [zero hours]{.fg style="color: #c7254e;"} after welfare benefit
@@ -312,12 +304,11 @@ The reality check matters for how students read the next three diagrams. Drawn w
 
 - Welfare benefit is generous
 - Individual places high value on leisure
-:::
-:::
-
-
+::::
+::::
 
 ::: {.callout-warning}
+## Work Incentive Effect
 This is the problematic effect of welfare programs
 :::
 
@@ -331,19 +322,17 @@ Why might someone who was working 20 hours per week before welfare was introduce
 
 ## Negative Income Tax: Overview
 
-[What is NIT?]{.fg style="color: #2780e3;"}
+::: {.callout-important}
+## Key Definition
+**[Negative income tax (NIT)]{.fg style="color: #2780e3;"}**: welfare program where benefit reduced at rate [< 100%]{.fg style="color: #2780e3;"} of earnings
+:::
 
-- Welfare program where benefit reduced at rate [< 100%]{.fg style="color: #c7254e;"} of earnings
 - Example: guarantee $z$ of \$10,000, reduced by 50¢ per dollar earned
-
-
 
 ::: {.callout-tip}
 ## Advantages
 Provides income support with fewer work disincentives. Still maintains incentive to work since benefit reduces slowly.
 :::
-
-
 
 [How it relates to basic income:]{.fg style="color: #2780e3;"}
 
@@ -352,12 +341,12 @@ Provides income support with fewer work disincentives. Still maintains incentive
 
 ## Negative Income Tax: Budget Constraint
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-795578817.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [NIT has two components:]{.fg style="color: #2780e3;"}
 
 - Guarantee $z$ at zero hours of work
@@ -368,35 +357,32 @@ Provides income support with fewer work disincentives. Still maintains incentive
 - Pivots budget line up vs. pure welfare
 - Work hours reduced from $H_0$ to $H_1$
 - Person still works some hours
-:::
-:::
+::::
+::::
 
-
-
-::: {.callout-important}
+::: {.callout-note}
+## Work Incentive Effect
 Work disincentive [less than pure welfare]{.fg style="color: #5cb85c;"}
 :::
 
 ## Negative Income Tax: Income and Substitution Effects
 
+:::: columns
+:::: {.column width="50%"}
 [Income effects:]{.fg style="color: #2780e3;"}
 
-::: {.nonincremental}
 - Benefit increases non-labour income → increases leisure ↑
 - Tax has negative income effect → reduces leisure ↓
-- [Net:]{.fg style="color: #c7254e;"} benefit effect dominates → leisure ↑
-:::
+- [Net:]{.fg style="color: #2780e3;"} benefit effect dominates → leisure ↑
+::::
 
-
-
+:::: {.column width="50%"}
 [Substitution effect:]{.fg style="color: #2780e3;"}
 
-::: {.nonincremental}
 - Tax rate reduces effective wage
 - Makes leisure relatively cheaper → reduces work hours ↓
-:::
-
-
+::::
+::::
 
 ::: {.callout-note}
 ## Overall Effect
@@ -415,15 +401,11 @@ wH, & \text{otherwise}
 \end{cases}
 $$
 
-
-
 [Interpretation:]{.fg style="color: #2780e3;"}
 
 - Income = earnings ($wH$) + net benefit $G = z - twH$, as long as $z - twH \geq 0$
 - Otherwise just earnings ($wH$)
 - The same thing in one line: $I = z + (1-t)wH$, with $G = \max(z - twH,\, 0)$
-
-
 
 [Breakeven point $B$:]{.fg style="color: #2780e3;"} the benefit reaches zero when $wH = \frac{z}{t}$
 
@@ -496,71 +478,69 @@ Options 3 and 4 are the two panels of Figure 4.6: flatten the indifference curve
 
 ## Wage Subsidies: Theory
 
-[What is a wage subsidy?]{.fg style="color: #2780e3;"}
+::: {.callout-important}
+## Key Definition
+**[Wage subsidy]{.fg style="color: #2780e3;"}**: payment to workers that increases their wage rate
+:::
 
-- Payment to workers that increases their wage rate
 - Example: \$5/hour subsidy increases \$15/hour wage to \$20/hour
-
-
 
 [Effect on budget constraint:]{.fg style="color: #2780e3;"}
 
 - Budget line pivots upward
 
-
-
 [Labour supply effects:]{.fg style="color: #2780e3;"}
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 - Income effect → increases leisure ↑
-:::
-::: {.column width="50%"}
-- Substitution effect → decreases leisure ↓
-:::
-:::
+::::
 
-::: {.callout-warning}
-Overall effect on work hours is [ambiguous]{.fg style="color: #c7254e;"}
+:::: {.column width="50%"}
+- Substitution effect → decreases leisure ↓
+::::
+::::
+
+::: {.callout-note}
+## Work Incentive Effect
+Overall effect on work hours is [ambiguous]{.fg style="color: #2780e3;"}
 :::
 
 ## Wage Subsidies: Diagram
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-4160848271.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Budget line pivots up with subsidy]{.fg style="color: #2780e3;"}
 
 - Graph shows person working more
 - But effect is theoretically ambiguous
 - Income and substitution effects work in opposite directions
-:::
-:::
+::::
+::::
 
 ## Wage Subsidies: Policy Implications
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ::: {.callout-tip}
 ## Advantages
 - Less negative work incentives than welfare or NIT
 - No reduction in effective wage rate
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: {.callout-warning}
 ## Disadvantages
 - Do not provide income support to non-workers
 - High earners qualify too, so it is a very expensive way to reach those in need
 :::
-:::
-:::
-
-
+::::
+::::
 
 [In practice:]{.fg style="color: #2780e3;"}
 
@@ -582,19 +562,18 @@ A negative income tax reduces the benefit as you earn more, while a wage subsidy
 
 ## Refundable Tax Credits
 
-[Two types of tax credits:]{.fg style="color: #2780e3;"}
+::: {.callout-important}
+## Key Definitions
+**[Non-refundable]{.fg style="color: #2780e3;"}**: can reduce tax owed to zero (but not below)
 
-1. [Non-refundable:]{.fg style="color: #555;"} Can reduce tax owed to zero (but not below)
-2. [Refundable:]{.fg style="color: #555;"} Can reduce tax owed below zero (results in payment)
+**[Refundable]{.fg style="color: #2780e3;"}**: can reduce tax owed below zero (results in payment)
+:::
 
+[Income-Tested Wage Subsidies Paid as Refundable Credits:]{.fg style="color: #2780e3;"}
 
-
-::: {.callout-note}
-## Income-Tested Wage Subsidies Paid as Refundable Credits
 - [Canada Workers Benefit (CWB)]{.fg style="color: #2780e3;"} - Canada, since 2007 (first called the WITB)
 - [Earned Income Tax Credit (EITC)]{.fg style="color: #2780e3;"} - US, since 1975, now one of the largest US income supports
 - Similar programs in the UK (Working Families Tax Credit) and New Zealand (In-Work Tax Credit)
-:::
 
 - Popular across the political spectrum: targeted, pro-work, and cheap to run through the tax system, with no caseworkers
 - [Source: Nichols & Rothstein (2015); Blundell (2006)]{.fg style="color: #555;"}
@@ -641,85 +620,82 @@ These are the book's example parameters, and the publisher's own CWB example fil
 
 ## Tax Credits: Budget Constraint
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-479908668.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Three segments:]{.fg style="color: #2780e3;"}
 
-1. [Phase-in:]{.fg style="color: #5cb85c;"} Subsidy proportional to earned income, up to income $I_L$
-2. [Flat range:]{.fg style="color: #f0ad4e;"} Maximum benefit level, between $I_L$ and $I_H$
-3. [Phase-out:]{.fg style="color: #d9534f;"} Benefit reduced with earned income above $I_H$
-
+1. [Phase-in:]{.fg style="color: #2780e3;"} Subsidy proportional to earned income, up to income $I_L$
+2. [Flat range:]{.fg style="color: #2780e3;"} Maximum benefit level, between $I_L$ and $I_H$
+3. [Phase-out:]{.fg style="color: #2780e3;"} Benefit reduced with earned income above $I_H$
 
 [Combines elements of:]{.fg style="color: #2780e3;"}
 
 - Wage subsidy (phase-in)
 - Demogrant (flat range)
 - NIT (phase-out)
-:::
-:::
+::::
+::::
 
 ## Tax Credits: Effect in Phase-In Range
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-1125348181.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Person in phase-in range:]{.fg style="color: #2780e3;"}
 
 - Sees increase in effective wage
-- Acts like [pure wage subsidy]{.fg style="color: #5cb85c;"}
+- Acts like [pure wage subsidy]{.fg style="color: #2780e3;"}
 - Income and substitution effects in opposite directions
-:::
-:::
+::::
+::::
 
-
-
-::: {.callout-warning}
-Effect on hours is [ambiguous]{.fg style="color: #c7254e;"}
+::: {.callout-note}
+## Work Incentive Effect
+Effect on hours is [ambiguous]{.fg style="color: #2780e3;"}
 :::
 
 ## Tax Credits: Effect in Flat Range
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-4273926113.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Person initially in the flat range:]{.fg style="color: #2780e3;"}
 
 - Tax credit gives maximum benefit
-- Acts like [pure income effect]{.fg style="color: #c7254e;"}
+- Acts like [pure income effect]{.fg style="color: #2780e3;"}
 - If leisure is normal good → reduce work hours
-:::
-:::
+::::
+::::
 
 ## Tax Credits: Effect in Phase-Out Range
 
-::: columns
-::: {.column width="50%"}
+:::: columns
+:::: {.column width="50%"}
 ![](images/clipboard-2441762854.png)
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 [Person in phase-out range:]{.fg style="color: #2780e3;"}
 
-- Similar to [negative income tax]{.fg style="color: #d9534f;"}
+- Similar to [negative income tax]{.fg style="color: #2780e3;"}
 - Income effect → reduce hours ↓
 - Substitution effect → reduce hours ↓
-:::
-:::
+::::
+::::
 
-
-
-::: {.callout-important}
-Effect on work is [unambiguously negative]{.fg style="color: #d9534f;"}
+::: {.callout-note}
+## Work Incentive Effect
+Effect on work is [unambiguously negative]{.fg style="color: #c7254e;"}
 :::
 
 ## Tax Credits and Participation
@@ -816,6 +792,7 @@ Look back at the figure for the confounding story: unemployment spikes in the ea
   - Lemieux & Milligan (2008): employment of male high-school dropouts fell about 4 percentage points past age 30 (1986)
 
 ::: {.callout-note}
+## Key Result
 Two [nonexperimental]{.fg style="color: #2780e3;"} studies, one conclusion: higher benefits reduce work
 :::
 
@@ -917,6 +894,7 @@ The naive number is a before-and-after comparison, and it is wrong because singl
   - [Work-first]{.fg style="color: #2780e3;"} policies can trade long-run earning power for short-run jobs
 
 ::: {.callout-note}
+## Key Result
 The SSP sped up the move from assistance to work while it ran; it did not change where people ended up
 :::
 
@@ -932,11 +910,9 @@ Riddell and Riddell's framing is worth repeating: both groups built up their ear
 
 [Income support programs:]{.fg style="color: #2780e3;"}
 
-::: {.nonincremental}
 - Provide crucial income support to various groups
 - Can create work disincentives in some cases
 - Must balance support needs against incentive effects
-:::
 
 [We examined several programs through the labour supply model:]{.fg style="color: #2780e3;"}
 
