@@ -4986,7 +4986,7 @@
     "href": "assignments/assign1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "Since 1997, Quebec has offered regulated child care at a low fixed daily fee, while until 2021 parents in the rest of Canada mostly paid market prices. In this assignment you will use data from the Labour Force Survey to compare the labour force participation of mothers of young children in Quebec and the rest of Canada, and to think about whether the difference tells us what cheap child care does to mothers’ labour supply.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use data to test a prediction of the labour supply model.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec306assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec306assign1.csv — the data",
+    "text": "Answer Key\n\n\n\nYou can download the solutions using the links below\n ec306assign1-key.qmd\n ec306assign1-key.pdf",
     "crumbs": [
       "Assignments",
       "Assignment 1"
@@ -4996,8 +4996,8 @@
     "objectID": "assignments/assign1.html#description",
     "href": "assignments/assign1.html#description",
     "title": "Assignment 1",
-    "section": "",
-    "text": "Since 1997, Quebec has offered regulated child care at a low fixed daily fee, while until 2021 parents in the rest of Canada mostly paid market prices. In this assignment you will use data from the Labour Force Survey to compare the labour force participation of mothers of young children in Quebec and the rest of Canada, and to think about whether the difference tells us what cheap child care does to mothers’ labour supply.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use data to test a prediction of the labour supply model.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec306assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec306assign1.csv — the data",
+    "section": "Description",
+    "text": "Description\nSince 1997, Quebec has offered regulated child care at a low fixed daily fee, while until 2021 parents in the rest of Canada mostly paid market prices. In this assignment you will use data from the Labour Force Survey to compare the labour force participation of mothers of young children in Quebec and the rest of Canada, and to think about whether the difference tells us what cheap child care does to mothers’ labour supply.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use data to test a prediction of the labour supply model.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec306assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec306assign1.csv — the data",
     "crumbs": [
       "Assignments",
       "Assignment 1"

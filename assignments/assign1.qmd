@@ -2,6 +2,14 @@
 title: "Assignment 1"
 ---
 
+::: {.callout-warning title="Answer Key"}
+You can download the solutions using the links below
+
+[{{< fa solid file-export >}} `ec306assign1-key.qmd`](/assignments/files/ec306assign1-key.qmd){download="ec306assign1-key.qmd"}
+
+[{{< fa solid file-export >}} `ec306assign1-key.pdf`](/assignments/files/ec306assign1-key.pdf)
+:::
+
 ## Description
 
 Since 1997, Quebec has offered regulated child care at a low fixed daily

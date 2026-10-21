@@ -11,6 +11,8 @@ project:
     - files/tutorials/ec306lfs.csv
     - assignments/files/ec306assign1.qmd
     - assignments/files/ec306assign1.csv
+    - assignments/files/ec306assign1-key.qmd
+    - assignments/files/ec306assign1-key.pdf
  
 
 website:
