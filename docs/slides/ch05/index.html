@@ -157,409 +157,1376 @@ Fall 2026
 <h2>Goals of This Section</h2>
 <p>In this section we will:</p>
 <ul>
-<li>Describe the main social insurance programs in Canada</li>
-<li>Show the effect of Employment Insurance on work decisions</li>
-<li>Analyze disability insurance and workers’ compensation</li>
-<li>Examine statistical evidence for the model predictions</li>
+<li>Describe Canada’s main social insurance programs and how they differ from income support</li>
+<li>Use the labour supply model to show how EI changes work incentives, and for whom</li>
+<li>Analyze how a disability changes the potential income constraint</li>
+<li>Analyze the work incentives of workers’ compensation, and the problem of setting the compensation level</li>
+<li>Examine the evidence, much of it from natural experiments</li>
 </ul>
+</section></section>
+<section>
+<section id="social-insurance-programs-in-canada" class="title-slide slide level1">
+<h1>Social Insurance Programs in Canada</h1>
+
+</section>
+<section id="social-insurance-vs.-income-support" class="slide level2">
+<h2>Social Insurance vs.&nbsp;Income Support</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Social insurance programs</span></strong>: programs that insure workers against income losses from events like job loss or disability, with eligibility and benefits tied to past contributions and work history</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Part of the social safety net, like the income support programs of <span class="fg" style="color: #555;">Chapter 4</span>
+<ul>
+<li>The losses they cover can be temporary or permanent</li>
+</ul></li>
+<li>Unlike income support, the major Canadian programs are <span class="fg" style="color: #2780e3;">not means-tested</span>
+<ul>
+<li>Eligibility depends on your own contributions, not your family’s income or wealth</li>
+</ul></li>
+<li>Same method as <span class="fg" style="color: #555;">Chapter 4</span>: draw the constraint without the program, draw it with the program, compare the choices</li>
+</ul>
+<aside class="notes">
+<p>The authors make a point worth saying out loud before we draw a single diagram. Losing a job or becoming disabled brings hardships that matter far more than anything we will say about work incentives. We focus on incentives because that is the part the labour supply model can speak to, not because it is the most important part of the story.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="social-insurance-transfers-in-canada-2022" class="slide level2">
+<h2>Social Insurance Transfers in Canada, 2022</h2>
+<p>In 2022, 82% of individuals received a government transfer; far fewer collected EI or workers’&nbsp;compensation</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="crjpqlyxwt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#crjpqlyxwt table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#crjpqlyxwt thead, #crjpqlyxwt tbody, #crjpqlyxwt tfoot, #crjpqlyxwt tr, #crjpqlyxwt td, #crjpqlyxwt th {
+  border-style: none;
+}
+
+#crjpqlyxwt p {
+  margin: 0;
+  padding: 0;
+}
+
+#crjpqlyxwt .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 80%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#crjpqlyxwt .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#crjpqlyxwt .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#crjpqlyxwt .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#crjpqlyxwt .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#crjpqlyxwt .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#crjpqlyxwt .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#crjpqlyxwt .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#crjpqlyxwt .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#crjpqlyxwt .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#crjpqlyxwt .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#crjpqlyxwt .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#crjpqlyxwt .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#crjpqlyxwt .gt_row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#crjpqlyxwt .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#crjpqlyxwt .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#crjpqlyxwt .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#crjpqlyxwt .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#crjpqlyxwt .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#crjpqlyxwt .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#crjpqlyxwt .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#crjpqlyxwt .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#crjpqlyxwt .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#crjpqlyxwt .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#crjpqlyxwt .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#crjpqlyxwt .gt_left {
+  text-align: left;
+}
+
+#crjpqlyxwt .gt_center {
+  text-align: center;
+}
+
+#crjpqlyxwt .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#crjpqlyxwt .gt_font_normal {
+  font-weight: normal;
+}
+
+#crjpqlyxwt .gt_font_bold {
+  font-weight: bold;
+}
+
+#crjpqlyxwt .gt_font_italic {
+  font-style: italic;
+}
+
+#crjpqlyxwt .gt_super {
+  font-size: 65%;
+}
+
+#crjpqlyxwt .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#crjpqlyxwt .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#crjpqlyxwt .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#crjpqlyxwt .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#crjpqlyxwt .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#crjpqlyxwt .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#crjpqlyxwt .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#crjpqlyxwt .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#crjpqlyxwt div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="a::stub" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="pct" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Percent of individuals</th>
+<th id="avg" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Average amount</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="gt_group_heading_row odd">
+<td colspan="3" id="Benefits" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Benefits</td>
+</tr>
+<tr class="gt_row_group_first even">
+<td id="stub_1_1" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row" style="font-weight: bold">All government transfers</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_1 pct" style="font-weight: bold">82.4</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_1 avg" style="font-weight: bold">$9,023</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_2" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Employment Insurance</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_2 pct">8.9</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_2 avg">$7,866</td>
+</tr>
+<tr class="even">
+<td id="stub_1_3" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Workers' compensation</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_3 pct">2.2</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_3 avg">$9,786</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_4" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Canada/Quebec Pension Plan</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_4 pct">25.4</td>
+<td class="gt_row gt_right" headers="Benefits stub_1_4 avg">$8,299</td>
+</tr>
+<tr class="gt_group_heading_row even">
+<td colspan="3" id="Contributions" class="gt_group_heading" data-quarto-table-cell-role="th" scope="colgroup">Contributions</td>
+</tr>
+<tr class="gt_row_group_first odd">
+<td id="stub_1_5" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Employment Insurance</td>
+<td class="gt_row gt_right" headers="Contributions stub_1_5 pct">59.4</td>
+<td class="gt_row gt_right" headers="Contributions stub_1_5 avg">$644</td>
+</tr>
+<tr class="even">
+<td id="stub_1_6" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Canada/Quebec Pension Plan</td>
+<td class="gt_row gt_right" headers="Contributions stub_1_6 pct">59.8</td>
+<td class="gt_row gt_right" headers="Contributions stub_1_6 avg">$2,439</td>
+</tr>
+</tbody><tfoot>
+<tr class="gt_sourcenotes odd">
+<td colspan="3" class="gt_sourcenote">Source: Canadian Income Survey (2022). Individuals aged 15 and older; average amount in 2022 dollars among those receiving or contributing. EI includes regular, maternity, parental, and sickness benefits; C/QPP includes retirement, disability, and survivor benefits.</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This is the book’s Table 5.1, rebuilt from the same microdata as Table 4.1, and every cell matches. It counts individuals rather than families, because eligibility for social insurance is individual. The insurance logic is in the EI rows: almost 60% of people paid premiums in 2022, but fewer than 9% collected anything. Most people who pay in never claim in a given year, which is exactly what insurance looks like. Two rows include programs we hold for later: the EI row includes maternity and parental benefits (Chapter 6), and most of the C/QPP row is retirement pensions (Chapter 7).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="employment-insurance" class="slide level2">
+<h2>Employment Insurance</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Financing</span></p>
+<ul>
+<li>Premiums from employees and employers, on earnings up to $65,700 (2025)</li>
+<li>Employees pay 1.64% of insurable earnings; employers pay 1.4 times that, about&nbsp;2.30%</li>
+<li>Rates differ in Quebec, which runs its own maternity and parental benefits</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Regular benefits</span></p>
+<ul>
+<li>For job loss through no fault of your own; quitting doesn’t qualify</li>
+<li>Self-employment earnings are not insured</li>
+<li>55% of insurable earnings, up to $695 a week&nbsp;(2025)</li>
+<li>420 to 700 hours of work to qualify, then 14 to 45 weeks of benefits
+<ul>
+<li>Fewer hours needed, and more weeks paid, where unemployment is high</li>
+</ul></li>
+<li>Must be actively looking for work</li>
+</ul>
+</div></div>
+<ul>
+<li>Maternity and parental benefits come in <span class="fg" style="color: #555;">Chapter 6</span></li>
+</ul>
+<aside class="notes">
+<p>Canada’s unemployment insurance has been called Employment Insurance since 1996, and it is the largest social insurance program for people under 65. These are the book’s 2025 figures, so they match what students are reading; the 2026 values are slightly different. One correction to the book: it gives the premium rates the wrong way round. In 2025 employees paid 1.64% and employers paid 1.4 times the employee rate, about 2.30%.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="insurance-for-illness-and-disability" class="slide level2 smaller">
+<h2>Insurance for Illness and Disability</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Disability</span></strong>: an umbrella term for impairments, activity limitations, and restrictions on participation, arising from the interaction between a health condition and a person’s surroundings and circumstances (World Health Organization)</p>
+</div>
+</div>
+</div>
+<ul>
+<li><span class="fg" style="color: #555;">A few days:</span> job-protected sick leave under provincial employment standards, usually unpaid</li>
+<li><span class="fg" style="color: #555;">Up to 26 weeks:</span> <span class="fg" style="color: #2780e3;">EI sickness benefits</span>
+<ul>
+<li>55% of earnings, up to $695 a week; needs a medical certificate; one-week wait</li>
+<li>Only if the employer offers no paid sick leave or short-term disability coverage</li>
+</ul></li>
+<li><span class="fg" style="color: #555;">Long term or permanent:</span> <span class="fg" style="color: #2780e3;">C/QPP disability benefits</span>
+<ul>
+<li>Must have contributed in 4 of the 6 years before the disability</li>
+<li>CPP pays $598 to $1,673 a month in 2025; converts to a retirement pension at 65</li>
+<li>Private long-term disability insurance can top it up</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The people we have in mind are mostly those whose disability arrives unexpectedly, temporarily or permanently, and leaves them unable to work as much as before. The same tools work for someone whose disability has limited their work since early adulthood. People with a disability who can’t earn enough to live on can also qualify for the income support programs from Chapter 4. As with EI, the dollar figures are the book’s 2025 values.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="workers-compensation" class="slide level2">
+<h2>Workers’ Compensation</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Workers’ compensation</span></strong>: income support for people who can’t work because of a work-related injury or occupational disease</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Each province and territory runs its own program, as does the federal government for its own&nbsp;workers</li>
+<li>The main difference between them is generosity
+<ul>
+<li><span class="fg" style="color: #555;">Ontario (WSIB):</span> 85% of earnings</li>
+<li><span class="fg" style="color: #555;">Saskatchewan:</span> 90%</li>
+<li><span class="fg" style="color: #555;">Nova Scotia:</span> 75% for the first 26 weeks, then 85%</li>
+<li>Each also sets its own maximum benefit</li>
+</ul></li>
+<li>The largest program of all, the C/QPP retirement pension, comes in <span class="fg" style="color: #555;">Chapter 7</span></li>
+</ul>
+<aside class="notes">
+<p>The C/QPP retirement pension is longevity insurance: you can outlive your savings, but you can’t outlive your CPP. Survivor benefits insure against the loss of a spouse’s income. Both belong with the retirement decisions in Chapter 7.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iclicker-question" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Ana and Ben are laid off from the same plant. Both earned $50,000 a year and worked the same hours. Ana’s spouse earns $150,000; Ben lives alone with no savings. Under EI regular benefits:</p>
+<p>A) Both receive the same weekly benefit<br>
+B) Only Ben qualifies, because Ana’s family income is too high<br>
+C) Both qualify, but Ben gets more because his need is greater<br>
+D) Ana gets more, because her household paid more in premiums<br>
+E) Ana must use up her family’s savings before she qualifies</p>
+<aside class="notes">
+<p>Answer: A. EI is social insurance: the benefit is 55% of your own insurable earnings, about $529 a week for each of them. A spouse’s income, family income, and savings never enter. B, C, and E all carry the Chapter 4 means-testing logic over to a program that doesn’t use it, and E adds an asset test, which is a feature of social assistance. D gets premiums wrong: they are paid on each person’s own earnings and insure that person, so the spouse’s premiums do nothing for Ana. If someone raises the EI Family Supplement, it does top up the rate for low-income families with children, but neither of these two fits.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="unemployment-insurance" class="title-slide slide level1">
 <h1>Unemployment Insurance</h1>
 
 </section>
-<section id="employment-insurance-overview" class="slide level2">
-<h2>Employment Insurance: Overview</h2>
-<p><span class="fg" style="color: #2780e3;">Purpose:</span></p>
-<ul>
-<li>Safety net for workers who lose their job</li>
-<li>Collect income while unemployed</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Funding:</span></p>
-<ul>
-<li>Payroll taxes on employers and employees</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Two main components:</span></p>
-<ol type="1">
-<li><span class="fg" style="color: #555;">Regular benefits</span> - for those unemployed through no fault of their own</li>
-<li><span class="fg" style="color: #555;">Special benefits</span> - sickness, maternity, parental leave, caregiving</li>
-</ol>
-</section>
-<section id="employment-insurance-benefits" class="slide level2">
-<h2>Employment Insurance: Benefits</h2>
-<div class="callout callout-note callout-titled callout-style-default">
+<section id="unemployment-insurance-and-work-incentives" class="slide level2">
+<h2>Unemployment Insurance and Work Incentives</h2>
+<div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Regular Benefits Structure</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Unemployment insurance (UI)</span></strong>: benefits paid to workers who lose their job, much higher than social assistance, to support them while they look for work</p>
+</div>
+</div>
+</div>
+<p>Three features shape the potential income constraint:</p>
+<ol type="1">
+<li><span class="fg" style="color: #555;">Entrance requirement (ER):</span> how long you must work before you qualify</li>
+<li><span class="fg" style="color: #555;">Replacement rate:</span> the share of earnings that benefits replace</li>
+<li><span class="fg" style="color: #555;">Maximum duration:</span> how many weeks you can collect</li>
+</ol>
 <ul>
-<li><span class="fg" style="color: #c7254e;">55%</span> of average insurable weekly earnings</li>
-<li>Up to a maximum amount</li>
-<li>Duration: <span class="fg" style="color: #c7254e;">14 to 45 weeks</span>
+<li>The model assumes jobs are there for anyone who wants more work
 <ul>
-<li>Depends on unemployment rate and hours worked in last year</li>
+<li>Where jobs are scarce, stronger incentives to work don’t create jobs (Phipps 1990, 1991)</li>
 </ul></li>
 </ul>
-</div>
-</div>
-</div>
+<aside class="notes">
+<p>Phipps’s point is about the demand side. Everything in the next few diagrams is about the incentive to supply labour. In a region or a recession with no jobs, a reform that sharpens that incentive mostly makes the unemployed poorer, because the jobs it is meant to push them into aren’t there. Keep the caveat in mind for every diagram that follows. The book returns to job search and unemployment in Chapter 19, which we don’t cover.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ei-simplified-model-parameters" class="slide level2">
-<h2>EI: Simplified Model Parameters</h2>
-<p><span class="fg" style="color: #2780e3;">To analyze with income-leisure diagram:</span></p>
+<section id="a-simplified-ui-system" class="slide level2">
+<h2>A Simplified UI System</h2>
+<p>The book’s example, over one year, with leisure measured in weeks:</p>
 <ul>
-<li>Must work <span class="fg" style="color: #c7254e;">14 weeks</span> in the year to qualify</li>
-<li>Benefit is <span class="fg" style="color: #c7254e;">60% of weekly wage</span> (we use 60% for simplicity)</li>
-<li>Maximum of <span class="fg" style="color: #c7254e;">20 weeks</span> of benefits</li>
-<li>Can work up to 32 weeks and get full benefits</li>
-<li>Each week worked beyond 32 → lose benefits for that week</li>
-<li>60% benefit = <span class="fg" style="color: #c7254e;">60% tax</span> on earnings beyond 32 weeks</li>
-<li><span class="fg" style="color: #d9534f;">Cannot work and collect EI simultaneously</span></li>
+<li><span class="fg" style="color: #555;">Entrance requirement:</span> 14 weeks of work</li>
+<li><span class="fg" style="color: #555;">Replacement rate:</span> 60% of the weekly wage <span class="math inline">\(w\)</span></li>
+<li><span class="fg" style="color: #555;">Maximum duration:</span> 20 weeks of benefits</li>
+<li>You can’t work and collect in the same week</li>
 </ul>
+<p>Work 14 weeks, then collect for 20:</p>
+<p><span class="math display">\[
+Y = 14w + (0.6)20w
+\]</span></p>
+<ul>
+<li>Work up to 32 weeks and there are still 20 weeks left to collect</li>
+<li>Beyond 32 weeks, each extra week of work costs a week of benefits</li>
+</ul>
+<aside class="notes">
+<p>Real EI replaces 55% and the entrance requirement varies by region; 60% and 14 weeks keep the arithmetic clean. The 32 is just 52 minus 20: it is where weeks of work start eating into weeks of collecting. Review Question 1 and Problem 1 ask for other parameter sets, so don’t draw alternatives here.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ei-budget-constraint" class="slide level2">
-<h2>EI: Budget Constraint</h2>
+<section id="ui-the-potential-income-constraint" class="slide level2">
+<h2>UI: The Potential Income Constraint</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-2817365693.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Three segments:</span></p>
-<ol type="1">
-<li><p><span class="fg" style="color: #555;">First 14 weeks:</span> Paid at usual wage <span class="math inline">\(w_0\)</span></p></li>
-<li><p><span class="fg" style="color: #555;">Weeks 14-32 of work:</span> Get 20 weeks of benefits</p>
 <ul>
-<li>Benefit = <span class="math inline">\(0.6 \times 20 \times w_0\)</span></li>
+<li><span class="fg" style="color: #555;">AF:</span> the constraint without UI, slope <span class="math inline">\(-w\)</span></li>
+<li><span class="fg" style="color: #555;">DF:</span> fewer than 14 weeks of work, so no UI</li>
+<li><span class="fg" style="color: #555;">D to C:</span> qualifying adds the full 20-week benefit, <span class="math inline">\((0.6)20w\)</span></li>
+<li><span class="fg" style="color: #555;">CB:</span> 14 to 32 weeks of work: full benefits, plus <span class="math inline">\(w\)</span> for each extra week</li>
+<li><span class="fg" style="color: #555;">BA:</span> past 32 weeks, a week of work earns <span class="math inline">\(w\)</span> but gives up <span class="math inline">\(0.6w\)</span> of&nbsp;benefits
+<ul>
+<li>You keep only <span class="math inline">\((1-0.6)w = 0.4w\)</span></li>
 </ul></li>
-<li><p><span class="fg" style="color: #555;">More than 32 weeks of work:</span> Benefits reduced week-for-week</p>
-<ul>
-<li>Benefits paid at 60% of wage</li>
-<li>Work paid at 100% of wage</li>
-<li><span class="fg" style="color: #c7254e;">Keep 40% of wage</span> in this range</li>
-</ul></li>
-</ol>
-</div></div>
-</section>
-<section id="section" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Discussion</strong></p>
-<p>The EI budget constraint has a segment where the effective wage is only 40% of the market wage. Why might a seasonal worker in the Maritimes choose to work exactly 14 weeks per year under this system?</p>
-</div>
-</section>
-<section id="ei-effect-on-non-participants" class="slide level2">
-<h2>EI: Effect on Non-Participants</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/clipboard-869943131.png"></p>
-</div><div class="column" style="width:50%;">
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Effect on Non-Workers</strong></p>
-</div>
-<div class="callout-content">
-<p>A non-participant might start working due to large increase in non-labour income after 14 weeks of work. Induces labour force entry.</p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="ei-effect-in-middle-range" class="slide level2">
-<h2>EI: Effect in Middle Range</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/clipboard-1593181295.png"></p>
-</div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Person getting full benefits:</span></p>
-<ul>
-<li>Acts like <span class="fg" style="color: #c7254e;">pure income effect</span></li>
-<li>Will reduce work weeks</li>
 </ul>
 </div></div>
 </section>
-<section id="ei-effect-on-high-hour-workers" class="slide level2">
-<h2>EI: Effect on High-Hour Workers</h2>
+<section id="iclicker-question-1" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>In the book’s UI system (14-week ER, 60% replacement, at most 20 weeks of benefits), Sam earns <span class="math inline">\(w = \$1{,}000\)</span> a week. What is Sam’s annual income from working 40 weeks?</p>
+<p>A) $26,000<br>
+B) $40,000<br>
+C) $44,800<br>
+D) $47,200<br>
+E) $52,000</p>
+<aside class="notes">
+<p>Answer: D. Forty weeks of work leaves 12 weeks, and all 12 can be collected: 40 × 1,000 + 12 × 600 = $47,200. That point is on segment BA. E is the most common slip: it adds the full 20 weeks of benefits to 40 weeks of work, which takes a 60-week year. C uses 0.4w, the net return to a week of work on BA, as if it were the weekly benefit. B assumes UI disappears once you work past 32 weeks; it shrinks, it doesn’t vanish. A is income at point C, after 14 weeks of work.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ui-effect-working-more-than-32-weeks" class="slide level2">
+<h2>UI Effect: Working More Than 32 Weeks</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-2763805097.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">In phase-out range:</span></p>
+<p><span class="fg" style="color: #2780e3;">Someone who worked more than 32 weeks (at&nbsp;a):</span></p>
 <ul>
-<li>Acts like <span class="fg" style="color: #d9534f;">negative income tax</span></li>
-<li>Income effect → reduce hours ↓</li>
-<li>Substitution effect → reduce hours ↓</li>
+<li>Now on segment BA: benefits raise income, and a week of work pays only <span class="math inline">\(0.4w\)</span></li>
+<li>Income effect → less work</li>
+<li>Substitution effect → less work</li>
+<li>Moves to b: fewer weeks of work, some weeks of UI</li>
 </ul>
 </div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Work Incentive Effect</strong></p>
+</div>
+<div class="callout-content">
+<p><span class="fg" style="color: #c7254e;">Unambiguously negative</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="ui-effect-working-14-to-32-weeks" class="slide level2">
+<h2>UI Effect: Working 14 to 32 Weeks</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/clipboard-1593181295.png"></p>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Someone who worked 14 to 32 weeks (at c):</span></p>
+<ul>
+<li>Already qualifies, and working a little more doesn’t cut benefits</li>
+<li>The constraint shifts up in parallel: a <span class="fg" style="color: #2780e3;">pure income effect</span></li>
+<li>With leisure a normal good → fewer weeks of work (moves to d)</li>
+</ul>
+</div></div>
+</section>
+<section id="ui-effect-non-participants" class="slide level2 smaller">
+<h2>UI Effect: Non-Participants</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/clipboard-869943131.png"></p>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Someone out of the labour force (at F):</span></p>
+<ul>
+<li>Values non-market time highly, so works zero weeks without UI</li>
+<li>Now 14 weeks of work brings a large jump in income</li>
+<li>Some will enter, work exactly 14 weeks, and collect&nbsp;(C)
+<ul>
+<li>Others will still stay out</li>
+</ul></li>
+<li>Same logic for anyone who worked fewer than 14 weeks (on DF)</li>
+</ul>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Work Incentive Effect</strong></p>
+</div>
+<div class="callout-content">
+<p>Participation <span class="fg" style="color: #5cb85c;">rises</span>: UI draws people into the labour force</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ui-what-the-model-predicts" class="slide level2">
+<h2>UI: What the Model Predicts</h2>
+<ul>
+<li>UI <span class="fg" style="color: #5cb85c;">raises</span> work for some and <span class="fg" style="color: #c7254e;">lowers</span> it for others
+<ul>
+<li>Out of the labour force, or below the ER → may work up to the ER</li>
+<li>Above the ER → fewer weeks of work, more weeks of UI</li>
+</ul></li>
+<li>Both responses <span class="fg" style="color: #c7254e;">raise the unemployment rate</span>
+<ul>
+<li>Weakly attached workers enter for short spells; strongly attached workers spend more weeks unemployed</li>
+</ul></li>
+<li>Strongest where seasonal and part-year work is common</li>
+<li>These effects are <span class="fg" style="color: #2780e3;">potential</span>
+<ul>
+<li>Most workers never claim, and few would give up a good job for a few weeks of UI</li>
+<li>The incentive bites for those with a job they can count on returning to, and for those laid off in a recession</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The diagrams are static, and this is where that matters. Someone with a good job risks not getting it back once their UI runs out, so the a-to-b move is not something most workers would make. The people who respond are those who know the job will be there: seasonal work, a job with family or friends, or a low-paid job nobody else wants. People who have already lost their job in a recession, with poor alternatives, face the same incentive.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iclicker-question-2" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>The book’s UI system is introduced (14-week ER, 20 weeks of benefits). Who is most likely to work <em>more</em> weeks as a result?</p>
+<p>A) Dana, who works 45 weeks a year in a steady job<br>
+B) Eli, who works 20 weeks a year in a seasonal job<br>
+C) Fran, who worked 10 weeks last year on short contracts<br>
+D) Gus, who works exactly 32 weeks a year<br>
+E) None of them: UI only ever reduces work</p>
+<aside class="notes">
+<p>Answer: C. Fran is on DF, below the entrance requirement: four more weeks of work bring 20 weeks of benefits, so Fran may well work up to 14. B is the trap. Seasonal workers are the group everyone associates with EI, and they do use it heavily, but at 20 weeks Eli already qualifies. For Eli, UI is a pure income effect (c to d), so Eli works fewer weeks, possibly dropping to exactly 14. Dana and Gus are on BA or at its corner, where both effects cut work. E is the view that UI is only ever a disincentive; the F-to-C move is the counterexample, and Kuhn and Riddell find it in the data.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="evidence-maine-vs.-new-brunswick" class="slide level2">
+<h2>Evidence: Maine vs.&nbsp;New Brunswick</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Important</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
-<p>Effect <span class="fg" style="color: #d9534f;">unambiguously negative</span></p>
+<p><strong><span class="fg" style="color: #2780e3;">Natural experiment</span></strong>: a policy change or other event that affects one group but not another, comparable group, so that comparing them works like an experiment</p>
 </div>
 </div>
 </div>
-</section>
-<section id="evidence-maine-vs.-new-brunswick" class="slide level2">
-<h2>Evidence: Maine vs.&nbsp;New Brunswick</h2>
-<p><span class="fg" style="color: #2780e3;">Natural experiment:</span></p>
 <ul>
-<li>Initially had very similar EI schemes</li>
-<li>Later, New Brunswick increased benefit generosity relative to Maine</li>
-<li><span class="fg" style="color: #2780e3;">Difference-in-differences approach:</span>
+<li>Kuhn &amp; Riddell (2010) compare New Brunswick and Maine, 1940–1991
 <ul>
-<li>Compare changes in NB before/after to Maine over same period</li>
-<li>Maine acts as control group</li>
-<li>Controls for other time-varying factors</li>
+<li>Similar economies, labour forces, and industries</li>
+<li>Similar UI programs, and similar rates of part-year work, before 1950</li>
+</ul></li>
+<li>New Brunswick’s UI became much more generous in the 1950s and again in the 1970s; Maine’s barely changed</li>
+<li>Maine shows what New Brunswick would have looked like without the expansions
+<ul>
+<li>A before-and-after comparison against a control group, like <span class="fg" style="color: #2780e3;">difference-in-differences</span> in <span class="fg" style="color: #555;">Chapter 2</span></li>
 </ul></li>
 </ul>
 </section>
-<section id="evidence-maine-vs.-new-brunswick-results" class="slide level2">
-<h2>Evidence: Maine vs.&nbsp;New Brunswick Results</h2>
+<section id="maine-vs.-new-brunswick-results" class="slide level2">
+<h2>Maine vs.&nbsp;New Brunswick: Results</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">New Brunswick experienced:</span></p>
+<p><span class="fg" style="color: #2780e3;">Weakly attached workers:</span></p>
 <ul>
-<li>Higher labour force participation for marginally-attached workers</li>
-<li>Lower hours for those with stronger attachments</li>
+<li>More participation, and more part-year work</li>
+<li>The F → C move from the diagram</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Strongly attached workers:</span></p>
+<ul>
+<li>Less work, and more part-year work</li>
+<li>The a → b and c → d moves</li>
 </ul>
 </div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">By 1990:</span></p>
+<ul>
+<li>Part-year work among working-age men: 13% in northern Maine, 26% in New Brunswick</li>
+<li>More than 75% of that gap comes from New Brunswick’s more generous UI</li>
+<li>New Brunswick’s unemployment rate <span class="fg" style="color: #c7254e;">rose substantially</span> as a result</li>
+</ul>
+</div></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Interpretation</strong></p>
+<p><strong>Key Result</strong></p>
 </div>
 <div class="callout-content">
+<p>Both responses the model predicts show up in the data</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>The comparison counties are Maine’s northern ones, the parts of the state most like New Brunswick. Doubling the share of part-year workers is a large effect, and most of it is UI.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="bunching-at-the-entrance-requirement" class="slide level2">
+<h2>Bunching at the Entrance Requirement</h2>
 <ul>
-<li>Corresponds exactly to model predictions</li>
-<li>Highlights work disincentive effects of income maintenance programs</li>
+<li>The model predicts <span class="fg" style="color: #2780e3;">bunching</span>: many jobs lasting exactly as long as the ER</li>
+<li>In Canada the ER varies by region with the local unemployment rate
+<ul>
+<li><span class="fg" style="color: #2780e3;">Variable entrance requirements (VERs)</span> are <em>lower</em> where unemployment is higher</li>
+</ul></li>
+<li>Christofides &amp; McKenna (1996): job durations bunch at each region’s own ER</li>
+<li>But causation could run backwards
+<ul>
+<li>The VER is set from local labour market conditions, which reflect how long jobs last</li>
+</ul></li>
 </ul>
+<aside class="notes">
+<p>The book says VERs are set higher where unemployment is higher. That is backwards, and the next slide shows why it can’t be right: moving every region to 14 weeks was an increase for the high-unemployment regions. It is the same rule as the 420-to-700 hours on the EI slide: high unemployment, fewer hours to qualify. What a clean test needs is an ER that changes for reasons unrelated to local conditions; let the clicker ask for that before the next slide shows it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iclicker-question-3" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Which comparison would give the most credible test of whether the entrance requirement changes how long jobs last?</p>
+<p>A) Job durations across regions with different ERs, in the same year<br>
+B) Job durations in one region, before and after its ER fell because its unemployment rate rose<br>
+C) Regions where a national change, unrelated to local conditions, raised the ER a lot, against those where it barely changed<br>
+D) A survey asking workers whether they timed the end of their job to qualify for UI<br>
+E) Job durations of UI claimants compared with those of workers who never claim</p>
+<aside class="notes">
+<p>Answer: C, and the next slide is exactly that experiment: in 1990 the ER went to 14 weeks everywhere, a large increase in high-unemployment regions and little or none elsewhere, for reasons that had nothing to do with local labour markets. A is the Christofides and McKenna comparison, with the reverse causality problem from the last slide. B is the tempting one: a before-and-after comparison feels like an experiment, but the ER fell because local conditions changed, and those same conditions affect how long jobs last. The change has to come from outside the local labour market. D relies on people admitting they gamed the system. E compares people who chose to claim with people who didn’t, so the two groups differ before UI enters the picture at all.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="an-accidental-experiment" class="slide level2">
+<h2>1990: An Accidental Experiment</h2>
+<ul>
+<li>Unless the Senate renewed them by January 1990, the VERs would revert to 14 weeks&nbsp;everywhere</li>
+<li>The Senate and the House of Commons were fighting over the GST, and the bill stalled</li>
+<li>For most of 1990, every region had a 14-week ER
+<ul>
+<li>A large increase for the high-unemployment regions</li>
+</ul></li>
+<li>Green &amp; Riddell (1997) and Baker &amp; Rea (1998): job durations shifted with the new ER</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Result</strong></p>
+</div>
+<div class="callout-content">
+<p>Labour supply responds to the details of UI design, not just to how generous it is</p>
 </div>
 </div>
 </div>
-</div></div>
+<aside class="notes">
+<p>A fight over a sales tax produced exactly what the researchers needed: a change in the entrance requirement that had nothing to do with local labour markets. Nobody chose the 1990 rules because of how long jobs lasted in Cape Breton. That is what makes the shift in job durations believable as a response to the ER.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="working-while-on-claim" class="slide level2">
+<h2>Working While on Claim</h2>
+<ul>
+<li>Lluis &amp; McCall (2019) study EI pilot projects in the 2000s
+<ul>
+<li>In some provinces, claimants could earn more while on claim without losing benefits</li>
+</ul></li>
+<li>More <span class="fg" style="color: #2780e3;">marginal employment</span>: claimants took more part-time and temporary work</li>
+<li>But <span class="fg" style="color: #c7254e;">worse job search</span>: more time on passive methods like reading job ads, less on contacting employers or former coworkers</li>
+<li>The potential income constraint can’t see job search at all</li>
+</ul>
+<aside class="notes">
+<p>This is the limit of the diagram. The pilots changed the constraint in a way the model handles easily, and the hours response went the way you’d expect. The cost showed up somewhere the model doesn’t look: in how people searched for their next job. The book takes up job search in Chapter 19, which we don’t cover.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="disability-and-workers-compensation" class="title-slide slide level1">
-<h1>Disability and Workers Compensation</h1>
+<section id="illness-and-disability-insurance" class="title-slide slide level1">
+<h1>Illness and Disability Insurance</h1>
 
 </section>
-<section id="introduction" class="slide level2">
-<h2>Introduction</h2>
-<p><span class="fg" style="color: #2780e3;">What are these programs?</span></p>
+<section id="disability-and-work-incentives" class="slide level2">
+<h2>Disability and Work Incentives</h2>
 <ul>
-<li>Provide income support to injured/ill workers</li>
-<li>Come from public and private sources</li>
-<li>Premiums paid by employers and employees</li>
-</ul>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Work Incentive Considerations</strong></p>
-</div>
-<div class="callout-content">
+<li>Many programs replace income lost to disability
 <ul>
-<li><span class="fg" style="color: #555;">Severe injury/disability:</span> work incentives not a concern (unable to work)</li>
-<li><span class="fg" style="color: #555;">Partial disability:</span> people may still be able to work</li>
+<li>Workers’ compensation, public and private disability pensions, long-term disability insurance, and court awards for personal injury</li>
+</ul></li>
+<li>Often, work incentives don’t matter at all
+<ul>
+<li>Benefits are paid precisely because the disability prevents work</li>
+</ul></li>
+<li>Sometimes people do have a choice: whether to work, how much, or when to go back
+<ul>
+<li>Then the program’s incentive effects are a <span class="fg" style="color: #2780e3;">legitimate policy concern</span></li>
+</ul></li>
 </ul>
-</div>
-</div>
-</div>
 </section>
-<section id="effect-of-disability-on-labour-supply" class="slide level2">
-<h2>Effect of Disability on Labour Supply</h2>
+<section id="disability-that-limits-hours" class="slide level2">
+<h2>Disability That Limits Hours</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-1381248606.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Three scenarios:</span></p>
-<ol type="1">
-<li><p><span class="fg" style="color: #555;">Initially:</span> Choose <span class="math inline">\(L_0\)</span> leisure, work <span class="math inline">\(H_0\)</span> hours</p></li>
-<li><p><span class="fg" style="color: #f0ad4e;">Injured but can work:</span> Choose <span class="math inline">\(L_1\)</span> leisure, work <span class="math inline">\(H_1\)</span> hours</p>
+<p><span class="fg" style="color: #555;">Before:</span> choose <span class="math inline">\(E_0\)</span>, working <span class="math inline">\(H_0\)</span> hours, on <span class="math inline">\(U_0\)</span></p>
+<p><span class="fg" style="color: #555;">Partial disability:</span> can work at most <span class="math inline">\(H_p\)</span> hours</p>
 <ul>
-<li>Lower (non-optimal) indifference curve</li>
-</ul></li>
-<li><p><span class="fg" style="color: #d9534f;">Completely disabled:</span> Choose <span class="math inline">\(T\)</span> leisure, zero work</p>
+<li>Same wage, but only the segment from <span class="math inline">\(E_p\)</span> to <span class="math inline">\(H_f\)</span> is available</li>
+<li>Best choice is <span class="math inline">\(E_p\)</span>, on a lower curve <span class="math inline">\(U_p\)</span></li>
+</ul>
+<p><span class="fg" style="color: #555;">Full disability:</span> no work possible</p>
 <ul>
-<li>Even lower indifference curve</li>
-</ul></li>
-</ol>
+<li>Stuck at <span class="math inline">\(H_f\)</span> with no earnings, on <span class="math inline">\(U_f\)</span></li>
+</ul>
 </div></div>
+<aside class="notes">
+<p>Leisure has always been a catch-all for time outside paid work. Here it includes time spent unable to work or in treatment, which is nobody’s idea of leisure.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="disability-and-preferences" class="slide level2">
-<h2>Disability and Preferences</h2>
+<section id="medical-costs-and-lower-wages" class="slide level2">
+<h2>Medical Costs and Lower Wages</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Medical expenses</span></p>
+<ul>
+<li>Cut income by the same amount at every level of hours, like losing non-labour income</li>
+<li>The constraint shifts down in parallel: a <span class="fg" style="color: #2780e3;">pure income effect</span></li>
+<li>With leisure a normal good → more hours of&nbsp;work</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">A lower wage</span></p>
+<ul>
+<li>A disability can also reduce what someone earns per hour</li>
+<li>A flatter constraint: income and substitution effects pull in opposite directions</li>
+<li>Effect on hours is <span class="fg" style="color: #2780e3;">ambiguous</span></li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>The medical cost result surprises people: the disability makes them work more, not less. It is the same income effect as everywhere else in the course, running in reverse. The lower wage is a Chapter 3 wage cut, and the answer is the usual one.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="disability-that-makes-work-harder" class="slide level2 smaller">
+<h2>Disability That Makes Work Harder</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-655917126.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Disability may change preferences:</span></p>
 <ul>
-<li>Work becomes more difficult</li>
-<li>Preferences tilt toward leisure</li>
-<li>Indifference curve becomes steeper</li>
-<li>MRS increases at each point</li>
-<li>More willing to give up consumption for leisure</li>
-</ul>
-<p><span class="fg" style="color: #c7254e;">Result:</span></p>
+<li>Constraint unchanged: same wage, same hours&nbsp;available</li>
+<li>But work is now harder relative to other activities</li>
+<li>Indifference curves get <span class="fg" style="color: #2780e3;">steeper</span>: it takes more income to make up for an hour of work
 <ul>
-<li>Even if unconstrained, choose more leisure</li>
-<li>Person moves from <span class="math inline">\(L_0\)</span> to <span class="math inline">\(L_2\)</span></li>
+<li><span class="math inline">\(U_d'\)</span> is the new curve through the old choice</li>
+</ul></li>
+<li>A substitution toward non-market time: hours fall from <span class="math inline">\(H_0\)</span> to <span class="math inline">\(H_d\)</span></li>
 </ul>
 </div></div>
-</section>
-<section id="compensation-schemes" class="slide level2">
-<h2>Compensation Schemes</h2>
-<p><span class="fg" style="color: #2780e3;">Typical disability insurance structure:</span></p>
-<ul>
-<li>Pays a fraction of previous earnings</li>
-</ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Example: Ontario WSIB</strong></p>
+<p><strong>In Practice</strong></p>
 </div>
 <div class="callout-content">
-<ul>
-<li><span class="fg" style="color: #c7254e;">85%</span> of net earnings (up to maximum)</li>
-<li>Lasts until return to work or age 65</li>
-</ul>
+<p>A real disability often combines all four effects: fewer possible hours, a lower wage, medical costs, and harder work</p>
 </div>
 </div>
 </div>
-<p><span class="fg" style="color: #2780e3;">Two schemes we’ll examine:</span></p>
-<ol type="1">
-<li>Two-thirds income replacement</li>
-<li>Full income replacement</li>
-</ol>
 </section>
-<section id="two-thirds-compensation" class="slide level2">
-<h2>Two-Thirds Compensation</h2>
+<section id="iclicker-question-4" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Jordan’s injury leaves the wage and possible hours unchanged, but adds $400 a month in physiotherapy costs. The province then starts covering those costs, whatever Jordan’s hours. With leisure a normal good, compared with just before the province covers them, Jordan’s hours of work:</p>
+<p>A) Fall, through a pure income effect<br>
+B) Rise, because Jordan can now afford to work more<br>
+C) Are ambiguous, because the income and substitution effects pull in opposite directions<br>
+D) Don’t change, because the wage hasn’t changed<br>
+E) Fall, through a substitution effect</p>
+<aside class="notes">
+<p>Answer: A. The medical costs shifted the constraint down in parallel; covering them shifts it back up. The wage hasn’t changed, so there is no substitution effect, only an income effect, and Jordan works less. It is the medical cost slide run in reverse: the costs raised Jordan’s hours, and the coverage brings them back down. That is why the stem fixes the comparison: measured against before the injury, hours end up where they started. C and E treat this as a wage change. D assumes only a wage change can move hours. Keep this in mind for the next few slides: any payment that doesn’t depend on hours has an income effect that cuts work.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="workers-compensation-the-constraint" class="slide level2 smaller">
+<h2>Workers’ Compensation: The Constraint</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-2891228753.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Looks like negative income tax:</span></p>
 <ul>
-<li>At zero hours: get 2/3 of previous income</li>
-<li>For each hour worked:
+<li>Suppose it pays two-thirds of lost earnings: at full disability, <span class="math inline">\(I_d = \frac{2}{3}I_0\)</span></li>
+<li>Each hour worked earns <span class="math inline">\(w\)</span> but cuts benefits by <span class="math inline">\(\frac{2}{3}w\)</span>
 <ul>
-<li>Gain full wage</li>
-<li>Lose 2/3 of wage in benefits</li>
-<li><span class="fg" style="color: #c7254e;">Keep 1/3 of wage</span></li>
+<li>Net gain from an hour of work: <span class="math inline">\(\frac{1}{3}w\)</span></li>
 </ul></li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">For workers with flexible hours:</span></p>
+<li>The same shape as a negative income tax from <span class="fg" style="color: #555;">Chapter 4</span>
 <ul>
-<li>Effects match NIT</li>
-<li>Negative effect on hours worked</li>
+<li>Income effect → less work</li>
+<li>Substitution effect → less work</li>
+</ul></li>
+<li>Someone free to choose their hours moves from <span class="math inline">\(H_0\)</span> to <span class="math inline">\(H_1\)</span></li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>The book’s figure caption says benefits fall by a third of the wage for each hour worked. A third of the wage is the net gain from working, not the cut in benefits: with two-thirds replacement, each hour of work costs two-thirds of a wage in benefits and leaves one-third. For people with no choice about their hours, none of this matters.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="restricted-hours-generous-compensation" class="slide level2">
-<h2>Restricted Hours: Generous Compensation</h2>
+<section id="when-compensation-is-all-or-nothing" class="slide level2">
+<h2>When Compensation Is All or Nothing</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-2133115874.png"></p>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">What if worker can only work <span class="math inline">\(H_0\)</span> hours or zero?</span></p>
 <ul>
-<li>If scheme generous enough → choose zero hours</li>
-<li>Utility at zero hours &gt; utility at <span class="math inline">\(H_0\)</span> hours</li>
+<li>The full constraint assumes partial disabilities get partial compensation</li>
+<li>If only proven <span class="fg" style="color: #2780e3;">full disability</span> is compensated, there are two choices: <span class="math inline">\(E_0\)</span> (work as before) or <span class="math inline">\(E_c\)</span> (stop and collect)</li>
+<li>Here <span class="math inline">\(U_c &gt; U_0\)</span>: the worker is better off not&nbsp;working
+<ul>
+<li>Working pays more, but not enough to make up for the effort of working</li>
+</ul></li>
+<li><span class="fg" style="color: #c7254e;">No incentive to return to work</span>, even where it is possible</li>
 </ul>
 </div></div>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Implication</strong></p>
-</div>
-<div class="callout-content">
-<p>Strong work disincentives of generous scheme</p>
-</div>
-</div>
-</div>
+<aside class="notes">
+<p>Problem 2 works through restricted hours with numbers for Juan, so leave the arithmetic to them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="no-compensation-case" class="slide level2">
-<h2>No Compensation Case</h2>
+<section id="the-cost-of-not-compensating" class="slide level2">
+<h2>The Cost of Not Compensating</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/clipboard-3682704295.png"></p>
 </div><div class="column" style="width:50%;">
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Not Providing Compensation is Problematic</strong></p>
-</div>
-<div class="callout-content">
 <ul>
-<li>Person who can work chooses <span class="math inline">\(H_0\)</span> hours</li>
-<li>Person who cannot work gets lower utility</li>
-<li>End up substantially worse off</li>
+<li>With no compensation, someone who truly can’t work falls to <span class="math inline">\(U_f\)</span> at <span class="math inline">\(H_f\)</span></li>
+<li>Cutting benefits until <span class="math inline">\(U_c &lt; U_0\)</span> would bring back those able to work…</li>
+<li>…but it <span class="fg" style="color: #c7254e;">penalizes those who can’t</span></li>
+<li>With medical costs, and pain and suffering, replacing lost earnings rarely leaves anyone better off than before the injury</li>
 </ul>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="medical-expenses-case" class="slide level2">
-<h2>Medical Expenses Case</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/clipboard-1350737678.png"></p>
-</div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Medical expenses worsen situation:</span></p>
-<ul>
-<li>Act like reduction in non-labour income</li>
-<li>If large enough, non-labour income could go negative</li>
-<li>Occurs with no/very low compensation</li>
-</ul>
-<p><span class="fg" style="color: #d9534f;">This is an extreme scenario</span></p>
-</div></div>
-</section>
-<section id="optimal-compensation-level" class="slide level2">
-<h2>Optimal Compensation Level</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/clipboard-2397031445.png"></p>
-</div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">How much to compensate non-workers?</span></p>
-<p><span class="fg" style="color: #2780e3;">Two options:</span></p>
-<ol type="1">
-<li><span class="fg" style="color: #5cb85c;">Full income replacement</span>
-<ul>
-<li>Higher indifference curve (<span class="math inline">\(U_1\)</span>) than working</li>
-</ul></li>
-<li><span class="fg" style="color: #f0ad4e;">Same satisfaction as working</span>
-<ul>
-<li>Same indifference curve as working</li>
-<li>Lower compensation (<span class="math inline">\(Y_p\)</span>)</li>
-</ul></li>
-</ol>
 </div></div>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -567,49 +1534,178 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>The Policy Trade-off</strong></p>
 </div>
 <div class="callout-content">
-<p>The optimal level is a policy question</p>
+<p>Compensate those who need it, while keeping an incentive to return to work where that is feasible</p>
 </div>
 </div>
 </div>
 </section>
-<section id="todo-empirical-evidence-of-work-incentives-disability" class="slide level2" data-background-color="#fff8e1">
-<h2>TODO — Empirical Evidence of Work Incentives (Disability)</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Not yet written</strong></p>
-</div>
-<div class="callout-content">
-<p>BFGLSS 2026 covers:</p>
+<section id="restoring-income-or-restoring-utility" class="slide level2">
+<h2>Restoring Income or Restoring Utility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/Benjamin_FIG_5.3c.jpg"></p>
+<p><span class="fg" style="color: #555;">Source: Benjamin et al.&nbsp;(2026), Figure 5.3(c)</span></p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li>Chapter 5 closes with evidence on disability insurance and workers’ compensation and work incentives. The deck has the theory but no evidence slides.</li>
+<li>A fully disabling injury: no work, plus medical costs <span class="math inline">\(H_fM\)</span></li>
+<li>Utility falls from <span class="math inline">\(U_0\)</span> to <span class="math inline">\(U_d\)</span></li>
+<li><span class="fg" style="color: #555;">Restore income:</span> pay lost earnings <span class="math inline">\(AH_f\)</span> plus medical costs <span class="math inline">\(H_fM\)</span>, an award of <span class="math inline">\(AM\)</span>
+<ul>
+<li>Utility <span class="math inline">\(U_A &gt; U_0\)</span>, because there is no work to do: overcompensated, ignoring pain and&nbsp;suffering</li>
+</ul></li>
+<li><span class="fg" style="color: #555;">Restore utility:</span> pay <span class="math inline">\(CM\)</span>, back to <span class="math inline">\(U_0\)</span>
+<ul>
+<li>But <span class="math inline">\(AC\)</span>, the income they’d have given up to stop working, can’t be observed</li>
+</ul></li>
 </ul>
-</div>
-</div>
-</div>
+</div></div>
+<aside class="notes">
+<p>This is the dilemma for any court or tribunal trying to make someone whole. What they can see is lost income, AH_f.&nbsp;A utility-based award needs AC as well, the income the person would willingly have traded to stop working, and nobody observes that. And if the injury brings pain and suffering, even AM might leave the person below U_0.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iclicker-question-5" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Kim and Lee suffer the same fully disabling injury, with the same lost earnings and the same medical costs. Before the injury, Kim would have accepted a much lower income in exchange for not working; Lee would have accepted only a slightly lower one. A tribunal awards each of them lost earnings plus medical costs (<span class="math inline">\(AM\)</span>). Ignoring pain and suffering:</p>
+<p>A) The award restores both to their pre-injury utility<br>
+B) Kim is overcompensated by more than Lee<br>
+C) Lee is overcompensated by more than Kim<br>
+D) Both are left worse off than before, because of the medical costs<br>
+E) Both are overcompensated by the same amount, since their lost earnings are equal</p>
+<aside class="notes">
+<p>Answer: B. The income Kim would have given up to stop working is AC in the diagram, and for Kim it is large: C sits well below A, so AM is far more than the CM that would restore U_0. For Lee, AC is small and AM is close to right. E is the income-only view, which is the one the tribunal is stuck with: it sees equal lost earnings and assumes equal losses. A is the same mistake taken all the way. D forgets that AM includes the medical costs. The catch is that the tribunal can’t tell Kim from Lee, and that is the point of the slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="evidence-on-workers-compensation" class="slide level2">
+<h2>Evidence on Workers’ Compensation</h2>
+<ul>
+<li>Hard to measure: if fitness to work is assessed strictly and accurately, incentives don’t matter
+<ul>
+<li>Where disability is hard to assess, program effects mix with local job prospects</li>
+</ul></li>
+<li>Most research studies <span class="fg" style="color: #2780e3;">claims</span>: how often, how long, what kind (Fortin &amp; Lanoie 2000)
+<ul>
+<li>Program design affects how safely workers and firms behave, and whether accidents get&nbsp;reported</li>
+<li>Some substitution between EI and workers’ compensation</li>
+</ul></li>
+<li>Biddle &amp; Roberts (2003): in Michigan, more generous benefits made eligible workers more likely to file a claim</li>
+<li>Hyatt (1996): before 1990, Ontario paid lump sums for permanent partial disabilities, based on the injury and not on later earnings
+<ul>
+<li>A pure income effect: more generous awards made work after the injury less likely</li>
+</ul></li>
+</ul>
+</section>
+<section id="evidence-on-disability-insurance" class="slide level2">
+<h2>Evidence on Disability Insurance</h2>
+<ul>
+<li>Around the world, disability insurance can be a <span class="fg" style="color: #2780e3;">pathway to retirement</span> (Coile et al.&nbsp;2016)</li>
+<li>C/QPP disability gives weaker incentives than most (Milligan &amp; Schirle 2016)
+<ul>
+<li>Less generous, strict medical tests, and it converts to a pension at 65</li>
+</ul></li>
+<li>Campolieti &amp; Riddell (2012): CPP disability added an earnings exemption; QPP did not
+<ul>
+<li>More CPP beneficiaries worked, with no change in how many received benefits</li>
+</ul></li>
+<li>Milligan &amp; Schirle (2019), Canada vs.&nbsp;the United States
+<ul>
+<li>Both the <span class="fg" style="color: #2780e3;">pull</span> of generous benefits and the <span class="fg" style="color: #2780e3;">push</span> of worsening wages drive take-up</li>
+<li>Together they help explain the large rise in US disability claims</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Campolieti and Riddell is another natural experiment with a built-in control group: Quebec’s program didn’t change, so it plays the role Maine played for New Brunswick.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="summary" class="title-slide slide level1">
 <h1>Summary</h1>
 
 </section>
-<section id="summary-1" class="slide level2">
+<section id="summary-1" class="slide level2 smaller">
 <h2>Summary</h2>
 <p><span class="fg" style="color: #2780e3;">Social insurance programs:</span></p>
 <ul>
-<li>Insure workers against job loss, illness, and workplace injury</li>
-<li>Change both the budget constraint and the incentive to work</li>
+<li>Insure against income lost to job loss, illness, and injury</li>
+<li>Pay according to past contributions and work history, not current need</li>
 </ul>
-<p><span class="fg" style="color: #2780e3;">We examined:</span></p>
+<p><span class="fg" style="color: #2780e3;">Work incentives:</span></p>
 <ul>
-<li>Employment Insurance, and its effect across the hours distribution</li>
-<li>Disability insurance and workers’ compensation, and the trade-off in setting the compensation rate</li>
+<li>Matter only when people have a choice about how much to work</li>
+<li>EI raises work for some, up to the entrance requirement, and lowers it for others</li>
+<li>Disability programs can discourage a return to work, especially with high replacement rates</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Setting compensation:</span></p>
+<ul>
+<li>Restoring income can overcompensate; restoring utility needs something nobody can observe</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Evidence:</span></p>
+<ul>
+<li>Natural experiments show people respond to the details of program design</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller">
+<h2>References</h2>
+<ul>
+<li>Baker, M., &amp; Rea, S. (1998). Employment spells and unemployment insurance eligibility requirements. <em>Review of Economics and Statistics</em>, 80(1), 80–94.</li>
+<li>Benjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., &amp; Skuterud, M. (2026). <em>Labour Market Economics</em>, 2026 Release. McGraw Hill. Chapter 5.</li>
+<li>Biddle, J., &amp; Roberts, K. (2003). Claiming behavior in workers’ compensation. <em>Journal of Risk and Insurance</em>, 70(4), 759–780.</li>
+<li>Campolieti, M., &amp; Riddell, C. (2012). Disability policy and the labor market: Evidence from a natural experiment in Canada, 1998–2006. <em>Journal of Public Economics</em>, 96(3), 306–316.</li>
+<li>Christofides, L. N., &amp; McKenna, C. J. (1996). Unemployment insurance and job duration in Canada. <em>Journal of Labor Economics</em>, 14(2), 286–312.</li>
+<li>Coile, C., Milligan, K. S., &amp; Wise, D. A. (2016). Introduction. In D. A. Wise (Ed.), <em>Social security programs and retirement around the world: Disability insurance programs and retirement</em> (pp.&nbsp;1–44). University of Chicago&nbsp;Press.</li>
+</ul>
+</section>
+<section id="references-cont." class="slide level2 smaller">
+<h2>References (cont.)</h2>
+<ul>
+<li>Fortin, B., &amp; Lanoie, P. (2000). Incentive effects of workers’ compensation: A survey. In G. Dionne (Ed.), <em>Handbook of insurance</em>. Kluwer Academic Publishers.</li>
+<li>Green, D. A., &amp; Riddell, W. C. (1997). Qualifying for unemployment insurance: An empirical analysis. <em>Economic Journal</em>, 107(440), 67–84.</li>
+<li>Hyatt, D. (1996). Work disincentives of workers’ compensation permanent partial disability benefits: Evidence for Canada. <em>Canadian Journal of Economics</em>, 29(2), 289–308.</li>
+<li>Kuhn, P., &amp; Riddell, C. (2010). The long-term effects of unemployment insurance: Evidence from New Brunswick and Maine, 1940–1991. <em>Industrial and Labor Relations Review</em>, 63(2), 183–204.</li>
+<li>Lluis, S., &amp; McCall, B. (2019). Employment and job search implications of the Extended Weeks and Working While on Claim pilot initiatives. <em>Canadian Public Policy</em>, 45(2). https://doi.org/10.3138/cpp.2018-031</li>
+<li>Milligan, K., &amp; Schirle, T. (2016). Option value of disability insurance in Canada. In D. A. Wise (Ed.), <em>Social security programs and retirement around the world: Disability insurance programs and retirement</em> (pp.&nbsp;137–178). University of Chicago Press.</li>
+</ul>
+</section>
+<section id="references-cont.-1" class="slide level2 smaller">
+<h2>References (cont.)</h2>
+<ul>
+<li>Milligan, K., &amp; Schirle, T. (2019). Push and pull: Disability insurance, regional labour markets, and benefit generosity in Canada and the United States. <em>Journal of Labor Economics</em>, 37(S2), S289–S323.</li>
+<li>Phipps, S. (1990). Quantity-constrained household responses to UI reform. <em>Economic Journal</em>, 100(399), 124–140.</li>
+<li>Phipps, S. (1991). Behavioural response to UI reform in constrained and unconstrained models of labour supply. <em>Canadian Journal of Economics</em>, 24(1), 34–54.</li>
+<li>Statistics Canada. <em>Canadian Income Survey, 2022</em>: Public Use Microdata File.</li>
+<li>World Health Organization. <em>Disability</em> [Health topic]. https://www.who.int/health-topics/disability</li>
 </ul>
 
 
@@ -831,6 +1927,44 @@ Fall 2026
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

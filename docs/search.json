@@ -6215,7 +6215,7 @@
     "href": "slides/ch05/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nDescribe the main social insurance programs in Canada\nShow the effect of Employment Insurance on work decisions\nAnalyze disability insurance and workers’ compensation\nExamine statistical evidence for the model predictions"
+    "text": "Goals of This Section\nIn this section we will:\n\nDescribe Canada’s main social insurance programs and how they differ from income support\nUse the labour supply model to show how EI changes work incentives, and for whom\nAnalyze how a disability changes the potential income constraint\nAnalyze the work incentives of workers’ compensation, and the problem of setting the compensation level\nExamine the evidence, much of it from natural experiments"
   },
   {
     "objectID": "slides/ch05/index.html#employment-insurance-overview",
@@ -6278,7 +6278,7 @@
     "href": "slides/ch05/index.html#evidence-maine-vs.-new-brunswick",
     "title": "EC306 - Wages and Employment",
     "section": "Evidence: Maine vs. New Brunswick",
-    "text": "Evidence: Maine vs. New Brunswick\nNatural experiment:\n\nInitially had very similar EI schemes\nLater, New Brunswick increased benefit generosity relative to Maine\nDifference-in-differences approach:\n\nCompare changes in NB before/after to Maine over same period\nMaine acts as control group\nControls for other time-varying factors"
+    "text": "Evidence: Maine vs. New Brunswick\n\n\n\n\n\n\nKey Definition\n\n\nNatural experiment: a policy change or other event that affects one group but not another, comparable group, so that comparing them works like an experiment\n\n\n\n\nKuhn & Riddell (2010) compare New Brunswick and Maine, 1940–1991\n\nSimilar economies, labour forces, and industries\nSimilar UI programs, and similar rates of part-year work, before 1950\n\nNew Brunswick’s UI became much more generous in the 1950s and again in the 1970s; Maine’s barely changed\nMaine shows what New Brunswick would have looked like without the expansions\n\nA before-and-after comparison against a control group, like difference-in-differences in Chapter 2"
   },
   {
     "objectID": "slides/ch05/index.html#evidence-maine-vs.-new-brunswick-results",
@@ -6362,7 +6362,7 @@
     "href": "slides/ch05/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\nSocial insurance programs:\n\nInsure workers against job loss, illness, and workplace injury\nChange both the budget constraint and the incentive to work\n\nWe examined:\n\nEmployment Insurance, and its effect across the hours distribution\nDisability insurance and workers’ compensation, and the trade-off in setting the compensation rate"
+    "text": "Summary\nSocial insurance programs:\n\nInsure against income lost to job loss, illness, and injury\nPay according to past contributions and work history, not current need\n\nWork incentives:\n\nMatter only when people have a choice about how much to work\nEI raises work for some, up to the entrance requirement, and lowers it for others\nDisability programs can discourage a return to work, especially with high replacement rates\n\nSetting compensation:\n\nRestoring income can overcompensate; restoring utility needs something nobody can observe\n\nEvidence:\n\nNatural experiments show people respond to the details of program design"
   },
   {
     "objectID": "slides/ch07/index.html#goals-of-this-section-1",
@@ -9548,5 +9548,250 @@
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
     "text": "iClicker Question\nWhich comparison gives the most credible estimate of how a higher welfare benefit affects work?\nA) Employment in provinces with high benefits versus provinces with low benefits\nB) Employment in one province before and after it raised benefits\nC) Hours worked by welfare recipients versus non-recipients\nD) People just under versus just over an age cutoff where benefits jump\nE) Asking recipients whether the benefit made them work less\n\nAnswer: D. Just under and just over the cutoff, people are alike except for the benefit, so the jump in outcomes at the cutoff is the benefit’s effect. That is the Quebec age-30 design. A compares provinces that differ in labour markets and much else (confounding). B credits the benefit with everything else that changed over the period, like a recession. C compares people who chose to be on assistance with people who did not (selection). E relies on self-reports. A randomized experiment would be more credible still, but it is not an option here, and the SSP, coming up, is one."
+  },
+  {
+    "objectID": "slides/ch05/index.html#social-insurance-vs.-income-support",
+    "href": "slides/ch05/index.html#social-insurance-vs.-income-support",
+    "title": "EC306 - Wages and Employment",
+    "section": "Social Insurance vs. Income Support",
+    "text": "Social Insurance vs. Income Support\n\n\n\n\n\n\nKey Definition\n\n\nSocial insurance programs: programs that insure workers against income losses from events like job loss or disability, with eligibility and benefits tied to past contributions and work history\n\n\n\n\nPart of the social safety net, like the income support programs of Chapter 4\n\nThe losses they cover can be temporary or permanent\n\nUnlike income support, the major Canadian programs are not means-tested\n\nEligibility depends on your own contributions, not your family’s income or wealth\n\nSame method as Chapter 4: draw the constraint without the program, draw it with the program, compare the choices\n\n\nThe authors make a point worth saying out loud before we draw a single diagram. Losing a job or becoming disabled brings hardships that matter far more than anything we will say about work incentives. We focus on incentives because that is the part the labour supply model can speak to, not because it is the most important part of the story."
+  },
+  {
+    "objectID": "slides/ch05/index.html#social-insurance-transfers-in-canada-2022",
+    "href": "slides/ch05/index.html#social-insurance-transfers-in-canada-2022",
+    "title": "EC306 - Wages and Employment",
+    "section": "Social Insurance Transfers in Canada, 2022",
+    "text": "Social Insurance Transfers in Canada, 2022\nIn 2022, 82% of individuals received a government transfer; far fewer collected EI or workers’ compensation\n\n\n\n\n\n\n\n\n\nPercent of individuals\nAverage amount\n\n\n\n\nBenefits\n\n\nAll government transfers\n82.4\n$9,023\n\n\nEmployment Insurance\n8.9\n$7,866\n\n\nWorkers' compensation\n2.2\n$9,786\n\n\nCanada/Quebec Pension Plan\n25.4\n$8,299\n\n\nContributions\n\n\nEmployment Insurance\n59.4\n$644\n\n\nCanada/Quebec Pension Plan\n59.8\n$2,439\n\n\n\nSource: Canadian Income Survey (2022). Individuals aged 15 and older; average amount in 2022 dollars among those receiving or contributing. EI includes regular, maternity, parental, and sickness benefits; C/QPP includes retirement, disability, and survivor benefits.\n\n\n\n\n\n\n\n\n\nThis is the book’s Table 5.1, rebuilt from the same microdata as Table 4.1, and every cell matches. It counts individuals rather than families, because eligibility for social insurance is individual. The insurance logic is in the EI rows: almost 60% of people paid premiums in 2022, but fewer than 9% collected anything. Most people who pay in never claim in a given year, which is exactly what insurance looks like. Two rows include programs we hold for later: the EI row includes maternity and parental benefits (Chapter 6), and most of the C/QPP row is retirement pensions (Chapter 7)."
+  },
+  {
+    "objectID": "slides/ch05/index.html#employment-insurance",
+    "href": "slides/ch05/index.html#employment-insurance",
+    "title": "EC306 - Wages and Employment",
+    "section": "Employment Insurance",
+    "text": "Employment Insurance\n\n\nFinancing\n\nPremiums from employees and employers, on earnings up to $65,700 (2025)\nEmployees pay 1.64% of insurable earnings; employers pay 1.4 times that, about 2.30%\nRates differ in Quebec, which runs its own maternity and parental benefits\n\n\nRegular benefits\n\nFor job loss through no fault of your own; quitting doesn’t qualify\nSelf-employment earnings are not insured\n55% of insurable earnings, up to $695 a week (2025)\n420 to 700 hours of work to qualify, then 14 to 45 weeks of benefits\n\nFewer hours needed, and more weeks paid, where unemployment is high\n\nMust be actively looking for work\n\n\n\nMaternity and parental benefits come in Chapter 6\n\n\nCanada’s unemployment insurance has been called Employment Insurance since 1996, and it is the largest social insurance program for people under 65. These are the book’s 2025 figures, so they match what students are reading; the 2026 values are slightly different. One correction to the book: it gives the premium rates the wrong way round. In 2025 employees paid 1.64% and employers paid 1.4 times the employee rate, about 2.30%."
+  },
+  {
+    "objectID": "slides/ch05/index.html#insurance-for-illness-and-disability",
+    "href": "slides/ch05/index.html#insurance-for-illness-and-disability",
+    "title": "EC306 - Wages and Employment",
+    "section": "Insurance for Illness and Disability",
+    "text": "Insurance for Illness and Disability\n\n\n\n\n\n\nKey Definition\n\n\nDisability: an umbrella term for impairments, activity limitations, and restrictions on participation, arising from the interaction between a health condition and a person’s surroundings and circumstances (World Health Organization)\n\n\n\n\nA few days: job-protected sick leave under provincial employment standards, usually unpaid\nUp to 26 weeks: EI sickness benefits\n\n55% of earnings, up to $695 a week; needs a medical certificate; one-week wait\nOnly if the employer offers no paid sick leave or short-term disability coverage\n\nLong term or permanent: C/QPP disability benefits\n\nMust have contributed in 4 of the 6 years before the disability\nCPP pays $598 to $1,673 a month in 2025; converts to a retirement pension at 65\nPrivate long-term disability insurance can top it up\n\n\n\nThe people we have in mind are mostly those whose disability arrives unexpectedly, temporarily or permanently, and leaves them unable to work as much as before. The same tools work for someone whose disability has limited their work since early adulthood. People with a disability who can’t earn enough to live on can also qualify for the income support programs from Chapter 4. As with EI, the dollar figures are the book’s 2025 values."
+  },
+  {
+    "objectID": "slides/ch05/index.html#workers-compensation",
+    "href": "slides/ch05/index.html#workers-compensation",
+    "title": "EC306 - Wages and Employment",
+    "section": "Workers’ Compensation",
+    "text": "Workers’ Compensation\n\n\n\n\n\n\nKey Definition\n\n\nWorkers’ compensation: income support for people who can’t work because of a work-related injury or occupational disease\n\n\n\n\nEach province and territory runs its own program, as does the federal government for its own workers\nThe main difference between them is generosity\n\nOntario (WSIB): 85% of earnings\nSaskatchewan: 90%\nNova Scotia: 75% for the first 26 weeks, then 85%\nEach also sets its own maximum benefit\n\nThe largest program of all, the C/QPP retirement pension, comes in Chapter 7\n\n\nThe C/QPP retirement pension is longevity insurance: you can outlive your savings, but you can’t outlive your CPP. Survivor benefits insure against the loss of a spouse’s income. Both belong with the retirement decisions in Chapter 7."
+  },
+  {
+    "objectID": "slides/ch05/index.html#unemployment-insurance-and-work-incentives",
+    "href": "slides/ch05/index.html#unemployment-insurance-and-work-incentives",
+    "title": "EC306 - Wages and Employment",
+    "section": "Unemployment Insurance and Work Incentives",
+    "text": "Unemployment Insurance and Work Incentives\n\n\n\n\n\n\nKey Definition\n\n\nUnemployment insurance (UI): benefits paid to workers who lose their job, much higher than social assistance, to support them while they look for work\n\n\n\nThree features shape the potential income constraint:\n\nEntrance requirement (ER): how long you must work before you qualify\nReplacement rate: the share of earnings that benefits replace\nMaximum duration: how many weeks you can collect\n\n\nThe model assumes jobs are there for anyone who wants more work\n\nWhere jobs are scarce, stronger incentives to work don’t create jobs (Phipps 1990, 1991)\n\n\n\nPhipps’s point is about the demand side. Everything in the next few diagrams is about the incentive to supply labour. In a region or a recession with no jobs, a reform that sharpens that incentive mostly makes the unemployed poorer, because the jobs it is meant to push them into aren’t there. Keep the caveat in mind for every diagram that follows. The book returns to job search and unemployment in Chapter 19, which we don’t cover."
+  },
+  {
+    "objectID": "slides/ch05/index.html#a-simplified-ui-system",
+    "href": "slides/ch05/index.html#a-simplified-ui-system",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Simplified UI System",
+    "text": "A Simplified UI System\nThe book’s example, over one year, with leisure measured in weeks:\n\nEntrance requirement: 14 weeks of work\nReplacement rate: 60% of the weekly wage \\(w\\)\nMaximum duration: 20 weeks of benefits\nYou can’t work and collect in the same week\n\nWork 14 weeks, then collect for 20:\n\\[\nY = 14w + (0.6)20w\n\\]\n\nWork up to 32 weeks and there are still 20 weeks left to collect\nBeyond 32 weeks, each extra week of work costs a week of benefits\n\n\nReal EI replaces 55% and the entrance requirement varies by region; 60% and 14 weeks keep the arithmetic clean. The 32 is just 52 minus 20: it is where weeks of work start eating into weeks of collecting. Review Question 1 and Problem 1 ask for other parameter sets, so don’t draw alternatives here."
+  },
+  {
+    "objectID": "slides/ch05/index.html#ui-the-potential-income-constraint",
+    "href": "slides/ch05/index.html#ui-the-potential-income-constraint",
+    "title": "EC306 - Wages and Employment",
+    "section": "UI: The Potential Income Constraint",
+    "text": "UI: The Potential Income Constraint\n\n\n\n\n\nAF: the constraint without UI, slope \\(-w\\)\nDF: fewer than 14 weeks of work, so no UI\nD to C: qualifying adds the full 20-week benefit, \\((0.6)20w\\)\nCB: 14 to 32 weeks of work: full benefits, plus \\(w\\) for each extra week\nBA: past 32 weeks, a week of work earns \\(w\\) but gives up \\(0.6w\\) of benefits\n\nYou keep only \\((1-0.6)w = 0.4w\\)"
+  },
+  {
+    "objectID": "slides/ch05/index.html#ui-effect-working-more-than-32-weeks",
+    "href": "slides/ch05/index.html#ui-effect-working-more-than-32-weeks",
+    "title": "EC306 - Wages and Employment",
+    "section": "UI Effect: Working More Than 32 Weeks",
+    "text": "UI Effect: Working More Than 32 Weeks\n\n\n\n\nSomeone who worked more than 32 weeks (at a):\n\nNow on segment BA: benefits raise income, and a week of work pays only \\(0.4w\\)\nIncome effect → less work\nSubstitution effect → less work\nMoves to b: fewer weeks of work, some weeks of UI\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nUnambiguously negative"
+  },
+  {
+    "objectID": "slides/ch05/index.html#ui-effect-working-14-to-32-weeks",
+    "href": "slides/ch05/index.html#ui-effect-working-14-to-32-weeks",
+    "title": "EC306 - Wages and Employment",
+    "section": "UI Effect: Working 14 to 32 Weeks",
+    "text": "UI Effect: Working 14 to 32 Weeks\n\n\n\n\nSomeone who worked 14 to 32 weeks (at c):\n\nAlready qualifies, and working a little more doesn’t cut benefits\nThe constraint shifts up in parallel: a pure income effect\nWith leisure a normal good → fewer weeks of work (moves to d)"
+  },
+  {
+    "objectID": "slides/ch05/index.html#ui-effect-non-participants",
+    "href": "slides/ch05/index.html#ui-effect-non-participants",
+    "title": "EC306 - Wages and Employment",
+    "section": "UI Effect: Non-Participants",
+    "text": "UI Effect: Non-Participants\n\n\n\n\nSomeone out of the labour force (at F):\n\nValues non-market time highly, so works zero weeks without UI\nNow 14 weeks of work brings a large jump in income\nSome will enter, work exactly 14 weeks, and collect (C)\n\nOthers will still stay out\n\nSame logic for anyone who worked fewer than 14 weeks (on DF)\n\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nParticipation rises: UI draws people into the labour force"
+  },
+  {
+    "objectID": "slides/ch05/index.html#ui-what-the-model-predicts",
+    "href": "slides/ch05/index.html#ui-what-the-model-predicts",
+    "title": "EC306 - Wages and Employment",
+    "section": "UI: What the Model Predicts",
+    "text": "UI: What the Model Predicts\n\nUI raises work for some and lowers it for others\n\nOut of the labour force, or below the ER → may work up to the ER\nAbove the ER → fewer weeks of work, more weeks of UI\n\nBoth responses raise the unemployment rate\n\nWeakly attached workers enter for short spells; strongly attached workers spend more weeks unemployed\n\nStrongest where seasonal and part-year work is common\nThese effects are potential\n\nMost workers never claim, and few would give up a good job for a few weeks of UI\nThe incentive bites for those with a job they can count on returning to, and for those laid off in a recession\n\n\n\nThe diagrams are static, and this is where that matters. Someone with a good job risks not getting it back once their UI runs out, so the a-to-b move is not something most workers would make. The people who respond are those who know the job will be there: seasonal work, a job with family or friends, or a low-paid job nobody else wants. People who have already lost their job in a recession, with poor alternatives, face the same incentive."
+  },
+  {
+    "objectID": "slides/ch05/index.html#maine-vs.-new-brunswick-results",
+    "href": "slides/ch05/index.html#maine-vs.-new-brunswick-results",
+    "title": "EC306 - Wages and Employment",
+    "section": "Maine vs. New Brunswick: Results",
+    "text": "Maine vs. New Brunswick: Results\n\n\nWeakly attached workers:\n\nMore participation, and more part-year work\nThe F → C move from the diagram\n\nStrongly attached workers:\n\nLess work, and more part-year work\nThe a → b and c → d moves\n\n\nBy 1990:\n\nPart-year work among working-age men: 13% in northern Maine, 26% in New Brunswick\nMore than 75% of that gap comes from New Brunswick’s more generous UI\nNew Brunswick’s unemployment rate rose substantially as a result\n\n\n\n\n\n\n\n\nKey Result\n\n\nBoth responses the model predicts show up in the data\n\n\n\n\nThe comparison counties are Maine’s northern ones, the parts of the state most like New Brunswick. Doubling the share of part-year workers is a large effect, and most of it is UI."
+  },
+  {
+    "objectID": "slides/ch05/index.html#bunching-at-the-entrance-requirement",
+    "href": "slides/ch05/index.html#bunching-at-the-entrance-requirement",
+    "title": "EC306 - Wages and Employment",
+    "section": "Bunching at the Entrance Requirement",
+    "text": "Bunching at the Entrance Requirement\n\nThe model predicts bunching: many jobs lasting exactly as long as the ER\nIn Canada the ER varies by region with the local unemployment rate\n\nVariable entrance requirements (VERs) are lower where unemployment is higher\n\nChristofides & McKenna (1996): job durations bunch at each region’s own ER\nBut causation could run backwards\n\nThe VER is set from local labour market conditions, which reflect how long jobs last\n\n\n\nThe book says VERs are set higher where unemployment is higher. That is backwards, and the next slide shows why it can’t be right: moving every region to 14 weeks was an increase for the high-unemployment regions. It is the same rule as the 420-to-700 hours on the EI slide: high unemployment, fewer hours to qualify. What a clean test needs is an ER that changes for reasons unrelated to local conditions; let the clicker ask for that before the next slide shows it."
+  },
+  {
+    "objectID": "slides/ch05/index.html#an-accidental-experiment",
+    "href": "slides/ch05/index.html#an-accidental-experiment",
+    "title": "EC306 - Wages and Employment",
+    "section": "1990: An Accidental Experiment",
+    "text": "1990: An Accidental Experiment\n\nUnless the Senate renewed them by January 1990, the VERs would revert to 14 weeks everywhere\nThe Senate and the House of Commons were fighting over the GST, and the bill stalled\nFor most of 1990, every region had a 14-week ER\n\nA large increase for the high-unemployment regions\n\nGreen & Riddell (1997) and Baker & Rea (1998): job durations shifted with the new ER\n\n\n\n\n\n\n\nKey Result\n\n\nLabour supply responds to the details of UI design, not just to how generous it is\n\n\n\n\nA fight over a sales tax produced exactly what the researchers needed: a change in the entrance requirement that had nothing to do with local labour markets. Nobody chose the 1990 rules because of how long jobs lasted in Cape Breton. That is what makes the shift in job durations believable as a response to the ER."
+  },
+  {
+    "objectID": "slides/ch05/index.html#working-while-on-claim",
+    "href": "slides/ch05/index.html#working-while-on-claim",
+    "title": "EC306 - Wages and Employment",
+    "section": "Working While on Claim",
+    "text": "Working While on Claim\n\nLluis & McCall (2019) study EI pilot projects in the 2000s\n\nIn some provinces, claimants could earn more while on claim without losing benefits\n\nMore marginal employment: claimants took more part-time and temporary work\nBut worse job search: more time on passive methods like reading job ads, less on contacting employers or former coworkers\nThe potential income constraint can’t see job search at all\n\n\nThis is the limit of the diagram. The pilots changed the constraint in a way the model handles easily, and the hours response went the way you’d expect. The cost showed up somewhere the model doesn’t look: in how people searched for their next job. The book takes up job search in Chapter 19, which we don’t cover."
+  },
+  {
+    "objectID": "slides/ch05/index.html#disability-and-work-incentives",
+    "href": "slides/ch05/index.html#disability-and-work-incentives",
+    "title": "EC306 - Wages and Employment",
+    "section": "Disability and Work Incentives",
+    "text": "Disability and Work Incentives\n\nMany programs replace income lost to disability\n\nWorkers’ compensation, public and private disability pensions, long-term disability insurance, and court awards for personal injury\n\nOften, work incentives don’t matter at all\n\nBenefits are paid precisely because the disability prevents work\n\nSometimes people do have a choice: whether to work, how much, or when to go back\n\nThen the program’s incentive effects are a legitimate policy concern"
+  },
+  {
+    "objectID": "slides/ch05/index.html#disability-that-limits-hours",
+    "href": "slides/ch05/index.html#disability-that-limits-hours",
+    "title": "EC306 - Wages and Employment",
+    "section": "Disability That Limits Hours",
+    "text": "Disability That Limits Hours\n\n\n\n\nBefore: choose \\(E_0\\), working \\(H_0\\) hours, on \\(U_0\\)\nPartial disability: can work at most \\(H_p\\) hours\n\nSame wage, but only the segment from \\(E_p\\) to \\(H_f\\) is available\nBest choice is \\(E_p\\), on a lower curve \\(U_p\\)\n\nFull disability: no work possible\n\nStuck at \\(H_f\\) with no earnings, on \\(U_f\\)\n\n\n\nLeisure has always been a catch-all for time outside paid work. Here it includes time spent unable to work or in treatment, which is nobody’s idea of leisure."
+  },
+  {
+    "objectID": "slides/ch05/index.html#medical-costs-and-lower-wages",
+    "href": "slides/ch05/index.html#medical-costs-and-lower-wages",
+    "title": "EC306 - Wages and Employment",
+    "section": "Medical Costs and Lower Wages",
+    "text": "Medical Costs and Lower Wages\n\n\nMedical expenses\n\nCut income by the same amount at every level of hours, like losing non-labour income\nThe constraint shifts down in parallel: a pure income effect\nWith leisure a normal good → more hours of work\n\n\nA lower wage\n\nA disability can also reduce what someone earns per hour\nA flatter constraint: income and substitution effects pull in opposite directions\nEffect on hours is ambiguous\n\n\n\nThe medical cost result surprises people: the disability makes them work more, not less. It is the same income effect as everywhere else in the course, running in reverse. The lower wage is a Chapter 3 wage cut, and the answer is the usual one."
+  },
+  {
+    "objectID": "slides/ch05/index.html#disability-that-makes-work-harder",
+    "href": "slides/ch05/index.html#disability-that-makes-work-harder",
+    "title": "EC306 - Wages and Employment",
+    "section": "Disability That Makes Work Harder",
+    "text": "Disability That Makes Work Harder\n\n\n\n\n\nConstraint unchanged: same wage, same hours available\nBut work is now harder relative to other activities\nIndifference curves get steeper: it takes more income to make up for an hour of work\n\n\\(U_d'\\) is the new curve through the old choice\n\nA substitution toward non-market time: hours fall from \\(H_0\\) to \\(H_d\\)\n\n\n\n\n\n\n\n\nIn Practice\n\n\nA real disability often combines all four effects: fewer possible hours, a lower wage, medical costs, and harder work"
+  },
+  {
+    "objectID": "slides/ch05/index.html#workers-compensation-the-constraint",
+    "href": "slides/ch05/index.html#workers-compensation-the-constraint",
+    "title": "EC306 - Wages and Employment",
+    "section": "Workers’ Compensation: The Constraint",
+    "text": "Workers’ Compensation: The Constraint\n\n\n\n\n\nSuppose it pays two-thirds of lost earnings: at full disability, \\(I_d = \\frac{2}{3}I_0\\)\nEach hour worked earns \\(w\\) but cuts benefits by \\(\\frac{2}{3}w\\)\n\nNet gain from an hour of work: \\(\\frac{1}{3}w\\)\n\nThe same shape as a negative income tax from Chapter 4\n\nIncome effect → less work\nSubstitution effect → less work\n\nSomeone free to choose their hours moves from \\(H_0\\) to \\(H_1\\)\n\n\n\nThe book’s figure caption says benefits fall by a third of the wage for each hour worked. A third of the wage is the net gain from working, not the cut in benefits: with two-thirds replacement, each hour of work costs two-thirds of a wage in benefits and leaves one-third. For people with no choice about their hours, none of this matters."
+  },
+  {
+    "objectID": "slides/ch05/index.html#when-compensation-is-all-or-nothing",
+    "href": "slides/ch05/index.html#when-compensation-is-all-or-nothing",
+    "title": "EC306 - Wages and Employment",
+    "section": "When Compensation Is All or Nothing",
+    "text": "When Compensation Is All or Nothing\n\n\n\n\n\nThe full constraint assumes partial disabilities get partial compensation\nIf only proven full disability is compensated, there are two choices: \\(E_0\\) (work as before) or \\(E_c\\) (stop and collect)\nHere \\(U_c &gt; U_0\\): the worker is better off not working\n\nWorking pays more, but not enough to make up for the effort of working\n\nNo incentive to return to work, even where it is possible\n\n\n\nProblem 2 works through restricted hours with numbers for Juan, so leave the arithmetic to them."
+  },
+  {
+    "objectID": "slides/ch05/index.html#the-cost-of-not-compensating",
+    "href": "slides/ch05/index.html#the-cost-of-not-compensating",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Cost of Not Compensating",
+    "text": "The Cost of Not Compensating\n\n\n\n\n\nWith no compensation, someone who truly can’t work falls to \\(U_f\\) at \\(H_f\\)\nCutting benefits until \\(U_c &lt; U_0\\) would bring back those able to work…\n…but it penalizes those who can’t\nWith medical costs, and pain and suffering, replacing lost earnings rarely leaves anyone better off than before the injury\n\n\n\n\n\n\n\n\nThe Policy Trade-off\n\n\nCompensate those who need it, while keeping an incentive to return to work where that is feasible"
+  },
+  {
+    "objectID": "slides/ch05/index.html#restoring-income-or-restoring-utility",
+    "href": "slides/ch05/index.html#restoring-income-or-restoring-utility",
+    "title": "EC306 - Wages and Employment",
+    "section": "Restoring Income or Restoring Utility",
+    "text": "Restoring Income or Restoring Utility\n\n\n\nSource: Benjamin et al. (2026), Figure 5.3(c)\n\n\nA fully disabling injury: no work, plus medical costs \\(H_fM\\)\nUtility falls from \\(U_0\\) to \\(U_d\\)\nRestore income: pay lost earnings \\(AH_f\\) plus medical costs \\(H_fM\\), an award of \\(AM\\)\n\nUtility \\(U_A &gt; U_0\\), because there is no work to do: overcompensated, ignoring pain and suffering\n\nRestore utility: pay \\(CM\\), back to \\(U_0\\)\n\nBut \\(AC\\), the income they’d have given up to stop working, can’t be observed\n\n\n\n\nThis is the dilemma for any court or tribunal trying to make someone whole. What they can see is lost income, AH_f. A utility-based award needs AC as well, the income the person would willingly have traded to stop working, and nobody observes that. And if the injury brings pain and suffering, even AM might leave the person below U_0."
+  },
+  {
+    "objectID": "slides/ch05/index.html#evidence-on-workers-compensation",
+    "href": "slides/ch05/index.html#evidence-on-workers-compensation",
+    "title": "EC306 - Wages and Employment",
+    "section": "Evidence on Workers’ Compensation",
+    "text": "Evidence on Workers’ Compensation\n\nHard to measure: if fitness to work is assessed strictly and accurately, incentives don’t matter\n\nWhere disability is hard to assess, program effects mix with local job prospects\n\nMost research studies claims: how often, how long, what kind (Fortin & Lanoie 2000)\n\nProgram design affects how safely workers and firms behave, and whether accidents get reported\nSome substitution between EI and workers’ compensation\n\nBiddle & Roberts (2003): in Michigan, more generous benefits made eligible workers more likely to file a claim\nHyatt (1996): before 1990, Ontario paid lump sums for permanent partial disabilities, based on the injury and not on later earnings\n\nA pure income effect: more generous awards made work after the injury less likely"
+  },
+  {
+    "objectID": "slides/ch05/index.html#evidence-on-disability-insurance",
+    "href": "slides/ch05/index.html#evidence-on-disability-insurance",
+    "title": "EC306 - Wages and Employment",
+    "section": "Evidence on Disability Insurance",
+    "text": "Evidence on Disability Insurance\n\nAround the world, disability insurance can be a pathway to retirement (Coile et al. 2016)\nC/QPP disability gives weaker incentives than most (Milligan & Schirle 2016)\n\nLess generous, strict medical tests, and it converts to a pension at 65\n\nCampolieti & Riddell (2012): CPP disability added an earnings exemption; QPP did not\n\nMore CPP beneficiaries worked, with no change in how many received benefits\n\nMilligan & Schirle (2019), Canada vs. the United States\n\nBoth the pull of generous benefits and the push of worsening wages drive take-up\nTogether they help explain the large rise in US disability claims\n\n\n\nCampolieti and Riddell is another natural experiment with a built-in control group: Quebec’s program didn’t change, so it plays the role Maine played for New Brunswick."
+  },
+  {
+    "objectID": "slides/ch05/index.html#references",
+    "href": "slides/ch05/index.html#references",
+    "title": "EC306 - Wages and Employment",
+    "section": "References",
+    "text": "References\n\nBaker, M., & Rea, S. (1998). Employment spells and unemployment insurance eligibility requirements. Review of Economics and Statistics, 80(1), 80–94.\nBenjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). Labour Market Economics, 2026 Release. McGraw Hill. Chapter 5.\nBiddle, J., & Roberts, K. (2003). Claiming behavior in workers’ compensation. Journal of Risk and Insurance, 70(4), 759–780.\nCampolieti, M., & Riddell, C. (2012). Disability policy and the labor market: Evidence from a natural experiment in Canada, 1998–2006. Journal of Public Economics, 96(3), 306–316.\nChristofides, L. N., & McKenna, C. J. (1996). Unemployment insurance and job duration in Canada. Journal of Labor Economics, 14(2), 286–312.\nCoile, C., Milligan, K. S., & Wise, D. A. (2016). Introduction. In D. A. Wise (Ed.), Social security programs and retirement around the world: Disability insurance programs and retirement (pp. 1–44). University of Chicago Press."
+  },
+  {
+    "objectID": "slides/ch05/index.html#references-cont.",
+    "href": "slides/ch05/index.html#references-cont.",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nFortin, B., & Lanoie, P. (2000). Incentive effects of workers’ compensation: A survey. In G. Dionne (Ed.), Handbook of insurance. Kluwer Academic Publishers.\nGreen, D. A., & Riddell, W. C. (1997). Qualifying for unemployment insurance: An empirical analysis. Economic Journal, 107(440), 67–84.\nHyatt, D. (1996). Work disincentives of workers’ compensation permanent partial disability benefits: Evidence for Canada. Canadian Journal of Economics, 29(2), 289–308.\nKuhn, P., & Riddell, C. (2010). The long-term effects of unemployment insurance: Evidence from New Brunswick and Maine, 1940–1991. Industrial and Labor Relations Review, 63(2), 183–204.\nLluis, S., & McCall, B. (2019). Employment and job search implications of the Extended Weeks and Working While on Claim pilot initiatives. Canadian Public Policy, 45(2). https://doi.org/10.3138/cpp.2018-031\nMilligan, K., & Schirle, T. (2016). Option value of disability insurance in Canada. In D. A. Wise (Ed.), Social security programs and retirement around the world: Disability insurance programs and retirement (pp. 137–178). University of Chicago Press."
+  },
+  {
+    "objectID": "slides/ch05/index.html#references-cont.-1",
+    "href": "slides/ch05/index.html#references-cont.-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nMilligan, K., & Schirle, T. (2019). Push and pull: Disability insurance, regional labour markets, and benefit generosity in Canada and the United States. Journal of Labor Economics, 37(S2), S289–S323.\nPhipps, S. (1990). Quantity-constrained household responses to UI reform. Economic Journal, 100(399), 124–140.\nPhipps, S. (1991). Behavioural response to UI reform in constrained and unconstrained models of labour supply. Canadian Journal of Economics, 24(1), 34–54.\nStatistics Canada. Canadian Income Survey, 2022: Public Use Microdata File.\nWorld Health Organization. Disability [Health topic]. https://www.who.int/health-topics/disability"
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question",
+    "href": "slides/ch05/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAna and Ben are laid off from the same plant. Both earned $50,000 a year and worked the same hours. Ana’s spouse earns $150,000; Ben lives alone with no savings. Under EI regular benefits:\nA) Both receive the same weekly benefit\nB) Only Ben qualifies, because Ana’s family income is too high\nC) Both qualify, but Ben gets more because his need is greater\nD) Ana gets more, because her household paid more in premiums\nE) Ana must use up her family’s savings before she qualifies\n\nAnswer: A. EI is social insurance: the benefit is 55% of your own insurable earnings, about $529 a week for each of them. A spouse’s income, family income, and savings never enter. B, C, and E all carry the Chapter 4 means-testing logic over to a program that doesn’t use it, and E adds an asset test, which is a feature of social assistance. D gets premiums wrong: they are paid on each person’s own earnings and insure that person, so the spouse’s premiums do nothing for Ana. If someone raises the EI Family Supplement, it does top up the rate for low-income families with children, but neither of these two fits."
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question-1",
+    "href": "slides/ch05/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn the book’s UI system (14-week ER, 60% replacement, at most 20 weeks of benefits), Sam earns \\(w = \\$1{,}000\\) a week. What is Sam’s annual income from working 40 weeks?\nA) $26,000\nB) $40,000\nC) $44,800\nD) $47,200\nE) $52,000\n\nAnswer: D. Forty weeks of work leaves 12 weeks, and all 12 can be collected: 40 × 1,000 + 12 × 600 = $47,200. That point is on segment BA. E is the most common slip: it adds the full 20 weeks of benefits to 40 weeks of work, which takes a 60-week year. C uses 0.4w, the net return to a week of work on BA, as if it were the weekly benefit. B assumes UI disappears once you work past 32 weeks; it shrinks, it doesn’t vanish. A is income at point C, after 14 weeks of work."
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question-2",
+    "href": "slides/ch05/index.html#iclicker-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nThe book’s UI system is introduced (14-week ER, 20 weeks of benefits). Who is most likely to work more weeks as a result?\nA) Dana, who works 45 weeks a year in a steady job\nB) Eli, who works 20 weeks a year in a seasonal job\nC) Fran, who worked 10 weeks last year on short contracts\nD) Gus, who works exactly 32 weeks a year\nE) None of them: UI only ever reduces work\n\nAnswer: C. Fran is on DF, below the entrance requirement: four more weeks of work bring 20 weeks of benefits, so Fran may well work up to 14. B is the trap. Seasonal workers are the group everyone associates with EI, and they do use it heavily, but at 20 weeks Eli already qualifies. For Eli, UI is a pure income effect (c to d), so Eli works fewer weeks, possibly dropping to exactly 14. Dana and Gus are on BA or at its corner, where both effects cut work. E is the view that UI is only ever a disincentive; the F-to-C move is the counterexample, and Kuhn and Riddell find it in the data."
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question-3",
+    "href": "slides/ch05/index.html#iclicker-question-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich comparison would give the most credible test of whether the entrance requirement changes how long jobs last?\nA) Job durations across regions with different ERs, in the same year\nB) Job durations in one region, before and after its ER fell because its unemployment rate rose\nC) Regions where a national change, unrelated to local conditions, raised the ER a lot, against those where it barely changed\nD) A survey asking workers whether they timed the end of their job to qualify for UI\nE) Job durations of UI claimants compared with those of workers who never claim\n\nAnswer: C, and the next slide is exactly that experiment: in 1990 the ER went to 14 weeks everywhere, a large increase in high-unemployment regions and little or none elsewhere, for reasons that had nothing to do with local labour markets. A is the Christofides and McKenna comparison, with the reverse causality problem from the last slide. B is the tempting one: a before-and-after comparison feels like an experiment, but the ER fell because local conditions changed, and those same conditions affect how long jobs last. The change has to come from outside the local labour market. D relies on people admitting they gamed the system. E compares people who chose to claim with people who didn’t, so the two groups differ before UI enters the picture at all."
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question-4",
+    "href": "slides/ch05/index.html#iclicker-question-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nJordan’s injury leaves the wage and possible hours unchanged, but adds $400 a month in physiotherapy costs. The province then starts covering those costs, whatever Jordan’s hours. With leisure a normal good, compared with just before the province covers them, Jordan’s hours of work:\nA) Fall, through a pure income effect\nB) Rise, because Jordan can now afford to work more\nC) Are ambiguous, because the income and substitution effects pull in opposite directions\nD) Don’t change, because the wage hasn’t changed\nE) Fall, through a substitution effect\n\nAnswer: A. The medical costs shifted the constraint down in parallel; covering them shifts it back up. The wage hasn’t changed, so there is no substitution effect, only an income effect, and Jordan works less. It is the medical cost slide run in reverse: the costs raised Jordan’s hours, and the coverage brings them back down. That is why the stem fixes the comparison: measured against before the injury, hours end up where they started. C and E treat this as a wage change. D assumes only a wage change can move hours. Keep this in mind for the next few slides: any payment that doesn’t depend on hours has an income effect that cuts work."
+  },
+  {
+    "objectID": "slides/ch05/index.html#iclicker-question-5",
+    "href": "slides/ch05/index.html#iclicker-question-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nKim and Lee suffer the same fully disabling injury, with the same lost earnings and the same medical costs. Before the injury, Kim would have accepted a much lower income in exchange for not working; Lee would have accepted only a slightly lower one. A tribunal awards each of them lost earnings plus medical costs (\\(AM\\)). Ignoring pain and suffering:\nA) The award restores both to their pre-injury utility\nB) Kim is overcompensated by more than Lee\nC) Lee is overcompensated by more than Kim\nD) Both are left worse off than before, because of the medical costs\nE) Both are overcompensated by the same amount, since their lost earnings are equal\n\nAnswer: B. The income Kim would have given up to stop working is AC in the diagram, and for Kim it is large: C sits well below A, so AM is far more than the CM that would restore U_0. For Lee, AC is small and AM is close to right. E is the income-only view, which is the one the tribunal is stuck with: it sees equal lost earnings and assumes equal losses. A is the same mistake taken all the way. D forgets that AM includes the medical costs. The catch is that the tribunal can’t tell Kim from Lee, and that is the point of the slide."
   }
 ]
