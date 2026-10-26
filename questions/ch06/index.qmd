@@ -27,40 +27,18 @@ editor: visual
 
 ![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
-<!-- NOTE: problem and review-question numbers below are 9th-edition numbering.
-     The chapter number has been updated to the 2026 release, but the problem
-     numbers themselves have NOT been verified against the new edition. -->
+<!-- NOTE: problem numbers verified against the 2026 Solutions Manual. The
+     household production problem (2026 Problem 6, formerly 4) is dropped
+     along with household production in the slides. -->
 
-
-## BFGLSS Chapter 6 Problem 1
-
-The evaluation of the labour supply response to a tax cut can be quite different in a dynamic setting from what it is in a static setting. Discuss the relative impact of a permanent versus transitory tax cut on labour supply, and compare the analysis to the static model.
 
 ## BFGLSS Chapter 6 Problem 2
 
+The evaluation of the labour supply response to a tax cut can be quite different in a dynamic setting from what it is in a static setting. Discuss the relative impact of a permanent versus transitory tax cut on labour supply, and compare the analysis to the static model.
+
+## BFGLSS Chapter 6 Problem 3
+
 Consider the two-period dynamic labour supply model discussed in this chapter. What, if anything, happens to current labour supply if the interest rate rises from 2 percent to 10 percent?
-
-## BFGLSS Chapter 6 Problem 4
-
-Use your knowledge of household production theory to indicate the following
-
-a\) The expected effect of a wage increase on the wife's labour supply
-
-## BFGLSS Chapter 6 Problem 4
-
-b\) The expected effect on the demand for children of an increase in the wage of a wife
-
-## BFGLSS Chapter 6 Problem 4
-
-c\) Why the substitution effect for labour supply may be larger for women than men
-
-## BFGLSS Chapter 6 Problem 4
-
-d\) The effect on one spouse's labour supply of his or her spouse's disability where the spouse requires home care
-
-## BFGLSS Chapter 6 Problem 4
-
-e\) The effect on this same spouse's labour supply if the government provided financial compensation to the family
 
 ## MC1
 

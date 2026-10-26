@@ -27,46 +27,45 @@ editor: visual
 
 ![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
 
-<!-- NOTE: problem and review-question numbers below are 9th-edition numbering.
-     The chapter number has been updated to the 2026 release, but the problem
-     numbers themselves have NOT been verified against the new edition. -->
+<!-- NOTE: problem and review-question numbers verified against the 2026
+     Solutions Manual. -->
 
 
-## BFGLSS Chapter 4 Review Question 3
+## BFGLSS Chapter 4 Review Question 2
 
-Use the work-leisure choice diagram to illustrate the following cases where an individual is
+Use the basic model of labour supply diagram to illustrate the following cases where an individual is
 
-a\) Unwilling to go on welfare because the welfare payment is too low
+a\) Unwilling to go on social assistance because the benefit payment is too low
 
-## BFGLSS Chapter 4 Review Question 3
+## BFGLSS Chapter 4 Review Question 2
 
-b\) Indifferent between welfare and work
+b\) Indifferent between social assistance as their sole income and work
 
-## BFGLSS Chapter 4 Review Question 3
+## BFGLSS Chapter 4 Review Question 2
 
-c\) Induced to move off welfare because of an increase in wages
+c\) Induced to move off social assistance because of an increase in wages
 
-## BFGLSS Chapter 4 Review Question 3
+## BFGLSS Chapter 4 Review Question 2
 
-d\) Induced to move off welfare because of a change in preferences between income and leisure
+d\) Induced to move off social assistance because of a change in preferences between income and leisure
 
-## BFGLSS Chapter 4 Review Question 3
+## BFGLSS Chapter 4 Review Question 2
 
-e\) Induced to move off welfare by a reduction of the 100 percent implicit tax on earnings
+e\) Induced to move off social assistance by a reduction of the 100 percent implicit tax on earnings
 
-## BFGLSS Chapter 4 Problem 7
+## BFGLSS Chapter 4 Problem 6
 
 The different programs discussed in this chapter often have ambiguous effects on work effort. It is, nonetheless, possible to compare the work incentives of two programs by looking at what happens when the individual is indifferent between two programs. Use this approach to compare the work incentives of the following two pairs of programs. In both cases use graphs to show the hours of work chosen under the two programs by an individual who is indifferent between them:
 
-a\) EITC compared to welfare
+a\) Canada Workers Benefit compared to perfectly targeted social assistance
 
-## BFGLSS Chapter 4 Problem 7
+## BFGLSS Chapter 4 Problem 6
 
 b\) Wage subsidy compared to a negative income tax
 
 ## BFGLSS Chapter 4 Problem 3
 
-Use the work-leisure framework to illustrate that if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant, a negative income tax will involve more adverse work incentives than a wage subsidy would.
+Use the basic model of labour supply to illustrate that (if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant) a negative income tax will involve more adverse work incentives than a wage subsidy would.
 
 ## MC1
 
