@@ -545,7 +545,7 @@ A real disability often combines all four effects: fewer possible hours, a lower
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Jordan's injury leaves the wage and possible hours unchanged, but adds \$400 a month in physiotherapy costs. The province then starts covering those costs, whatever Jordan's hours. With leisure a normal good, compared with just before the province covers them, Jordan's hours of work:
+After an injury, Jordan pays \$400 a month for physiotherapy; the wage and possible hours are unchanged. The province then starts paying the \$400, whatever Jordan's hours. With leisure a normal good, compared with when Jordan was paying it, Jordan's hours of work:
 
 A\) Fall, through a pure income effect\
 B) Rise, because Jordan can now afford to work more\
