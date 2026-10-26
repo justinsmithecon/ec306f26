@@ -3308,7 +3308,7 @@
     "href": "slides/ch06/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nShow patterns of labour supply over a person’s lifetime\nDiscuss issues comparing labour supply of people at different ages\nIntroduce the lifetime labour supply model\nDiscuss household production\nAnalyze fertility decisions and family-related policy"
+    "text": "Goals of This Section\nIn this section we will:\n\nExplain why comparing people of different ages mixes up age effects and cohort effects\nDescribe what new graduates face when they enter the labour market, especially in a recession\nAnalyze how becoming a parent affects paid work, and how family leave and child care policy change the cost\nUse a life-cycle model to show why the response to a wage change depends on whether it is permanent, anticipated, or temporary\n\n\nEvery chapter so far has taken labour supply one moment at a time: a wage, some nonlabour income, a program, and a choice. But how much people work changes in predictable ways over a lifetime, and the decisions made early in a career are different in kind from the ones made later. This chapter is the early career: entering the labour market, becoming a parent, and planning work over a lifetime. Chapter 7 picks up the later career and retirement."
   },
   {
     "objectID": "slides/ch06/index.html#introduction",
@@ -3700,7 +3700,7 @@
     "href": "slides/ch06/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\nLabour supply changes over the life cycle:\n\nCross-sectional age profiles confound age effects with cohort effects\nThe dynamic model distinguishes anticipated, temporary, and permanent wage changes\nHousehold production widens the model beyond market work and leisure\nFertility responds to income, the price of children, and technology\nChild care subsidies shift both participation and hours"
+    "text": "Summary\nLife-cycle labour supply:\n\nParticipation follows an inverted U with age; a single-year snapshot mixes age effects with cohort effects, which matter most for women\n\nLabour market entry:\n\nYoung people’s unemployment and NEET rates rise and fall with the business cycle; graduating in a recession leaves scars that fade slowly\n\nParenthood and paid work:\n\nThe largest cost of having children is mothers’ forgone earnings\nFamily leave and ELCC subsidies lower that cost; subsidies raise participation but can cut the hours of parents already working\n\nDynamic life-cycle models:\n\nWith a lifetime budget constraint, the response to a wage change depends on whether it is permanent, anticipated, or temporary"
   },
   {
     "objectID": "slides/ch04/index.html#goals-of-this-section-1",
@@ -4512,7 +4512,7 @@
     "href": "questions/ch04/index.html#bfglss-chapter-4-problem-3",
     "title": "EC306 - Wages and Employment",
     "section": "BFGLSS Chapter 4 Problem 3",
-    "text": "BFGLSS Chapter 4 Problem 3\nUse the work-leisure framework to illustrate that if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant, a negative income tax will involve more adverse work incentives than a wage subsidy would."
+    "text": "BFGLSS Chapter 4 Problem 3\nUse the basic model of labour supply to illustrate that (if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant) a negative income tax will involve more adverse work incentives than a wage subsidy would."
   },
   {
     "objectID": "questions/ch04/index.html#mc1",
@@ -5439,7 +5439,7 @@
     "href": "questions/ch06/index.html#bfglss-chapter-6-problem-2",
     "title": "EC306 - Wages and Employment",
     "section": "BFGLSS Chapter 6 Problem 2",
-    "text": "BFGLSS Chapter 6 Problem 2\nConsider the two-period dynamic labour supply model discussed in this chapter. What, if anything, happens to current labour supply if the interest rate rises from 2 percent to 10 percent?"
+    "text": "BFGLSS Chapter 6 Problem 2\nThe evaluation of the labour supply response to a tax cut can be quite different in a dynamic setting from what it is in a static setting. Discuss the relative impact of a permanent versus transitory tax cut on labour supply, and compare the analysis to the static model."
   },
   {
     "objectID": "questions/ch06/index.html#bfglss-chapter-6-problem-4",
@@ -9808,5 +9808,362 @@
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
     "text": "iClicker Question\nKim and Lee suffer the same fully disabling injury, with the same lost earnings and the same medical costs. Before the injury, Kim would have accepted a much lower income in exchange for not working; Lee would have accepted only a slightly lower one. A tribunal awards each of them lost earnings plus medical costs (\\(AM\\)). Ignoring pain and suffering:\nA) The award restores both to their pre-injury utility\nB) Kim is overcompensated by more than Lee\nC) Lee is overcompensated by more than Kim\nD) Both are left worse off than before, because of the medical costs\nE) Both are overcompensated by the same amount, since their lost earnings are equal\n\nAnswer: B. The income Kim would have given up to stop working is AC in the diagram, and for Kim it is large: C sits well below A, so AM is far more than the CM that would restore U_0. For Lee, AC is small and AM is close to right. E is the income-only view, which is the one the tribunal is stuck with: it sees equal lost earnings and assumes equal losses. A is the same mistake taken all the way. D forgets that AM includes the medical costs. The catch is that the tribunal can’t tell Kim from Lee, and that is the point of the slide."
+  },
+  {
+    "objectID": "slides/ch06/index.html#comparing-people-at-different-ages",
+    "href": "slides/ch06/index.html#comparing-people-at-different-ages",
+    "title": "EC306 - Wages and Employment",
+    "section": "Comparing People at Different Ages",
+    "text": "Comparing People at Different Ages\n\nCompare the assets of 20-year-olds and 55-year-olds in 2026\n\nThe 55-year-olds have far more\nDoes that tell us who is better at saving? Not really\n\nOne group is just starting to earn and save; the other has been at it for decades\nA single snapshot mixes two things: stage of life and generation\nBetter: compare the generations at the same age\n\n\n\n\n\n\n\nKey Definition\n\n\nLife-cycle labour supply: how labour supply changes over a person’s lifetime, and how decisions made earlier in life shape it later\n\n\n\n\nAsk the class the assets question before showing the answer. Most will say the 55-year-olds are better savers. The point is that a single year’s data can’t separate the effect of being older from the effect of being a different generation, and the same problem comes up every time we line people up by age in one year. That is the whole of this section."
+  },
+  {
+    "objectID": "slides/ch06/index.html#ageparticipation-profiles-women",
+    "href": "slides/ch06/index.html#ageparticipation-profiles-women",
+    "title": "EC306 - Wages and Employment",
+    "section": "Age–Participation Profiles: Women",
+    "text": "Age–Participation Profiles: Women\nEach solid line follows one generation; the dashed line is all women in a single year\n\n\nStart with the dashed line, the snapshot. It has the inverted U that shows up in most countries: participation climbs steeply into the 20s, stays high from about 30 to 50, and falls as people approach retirement. Now the solid lines. Each one follows a single birth cohort, observed every five years, so it is a genuine life-cycle profile. The boomer women born 1956–60 sit well above the women born 1936–40 at every age they share. The youngest cohort only reaches 25–29 by 2025. The 1936–40 line starts at 40 because the LFS microdata only go back far enough to catch that cohort in middle age."
+  },
+  {
+    "objectID": "slides/ch06/index.html#age-effects-and-cohort-effects",
+    "href": "slides/ch06/index.html#age-effects-and-cohort-effects",
+    "title": "EC306 - Wages and Employment",
+    "section": "Age Effects and Cohort Effects",
+    "text": "Age Effects and Cohort Effects\n\n\n\n\n\n\nKey Definition\n\n\nCohort effect: a difference in behaviour that comes from belonging to a particular generation, born in the same years or entering the labour market at the same time, rather than from age itself\n\n\n\n\nIn 2025, women aged 25–29 participate 61 points more than women aged 65–69\n\nThe two groups differ in age and in generation, so the 61 points are age plus cohort\n\nCohort effect: at 45, Gen X women (born 1976–80) participate about 5 points more than boomer women (born 1956–60) did at 45\nAge effect: following the boomer women from 45 to 65, participation falls about 58 points\nSeparating the two means following cohorts over many years\n\nThe LFS goes back only to 1976, which is why the early ages are missing for older cohorts; the Census goes back further\n\n\n\nAll three numbers are on the last chart, or computed from the same data. The 61 points is 85.7% against 24.6% in 2025. Gen X women aged 45–49 in 2025 participated at 86.7%, while the boomer women were at 82.2% when they were 45–49 in 2005, a gap of about 5 points at the same age. And the boomers fell from 82.2% at 45 to 24.6% at 65. The trick in each case is to hold one thing fixed: the same age to see a cohort effect, the same cohort to see an age effect. A single cross-section holds neither."
+  },
+  {
+    "objectID": "slides/ch06/index.html#ageparticipation-profiles-men",
+    "href": "slides/ch06/index.html#ageparticipation-profiles-men",
+    "title": "EC306 - Wages and Employment",
+    "section": "Age–Participation Profiles: Men",
+    "text": "Age–Participation Profiles: Men\n\n\n\n\n\n\n\n\n\n\n\n\n\nWomen participate less than men, particularly at 20–35, partly because of caregiving, which comes later in this section\nLater cohorts of men work longer: a change in the timing of retirement (Chapter 7)\nRecent cohorts of men participate less before 30\n\nAt 20–24: 87% of the 1956–60 cohort, but 75% of the 1996–2000 cohort\nMore of them are in school (Chapter 14)\n\n\n\n\nFor men the cohort lines nearly sit on top of each other through the middle of life, which is why the snapshot is a better guide for men than for women. The differences are at the two ends. Young men stay in school longer than they used to, and older men retire later than the 1936–40 cohort did. Both are decisions we take up properly in later chapters."
+  },
+  {
+    "objectID": "slides/ch06/index.html#why-cohorts-differ",
+    "href": "slides/ch06/index.html#why-cohorts-differ",
+    "title": "EC306 - Wages and Employment",
+    "section": "Why Cohorts Differ",
+    "text": "Why Cohorts Differ\n\nCohort effects matter most for understanding women’s labour supply\n\nCanada: Beaudry & Lemieux (1999), Dooley (1994); the United States: Goldin (1990, 2021)\n\nEconomic variables alone can’t explain the shifts\n\nSocial norms and gender role attitudes, including attitudes toward mothers working, shape each generation’s preferences and constraints (Fortin 2005; Lundberg 2025)\n\n\n\n\n\n\n\n\nGoldin’s Insight\n\n\nClaudia Goldin, 2023 Nobel Prize in economics (NobelPrize.org 2023): later-life outcomes are largely set by early decisions about education and first jobs. A change in norms or policy reaches the young first, so women’s participation changes slowly, one cohort at a time\n\n\n\n\nGoldin’s work covers more than 200 years of US data, and it is where the cohort way of thinking about women’s work comes from. It also explains why aggregate change looks slow: today’s overall participation rate is largely the long-run effect of what shaped each generation’s early-career decisions. Chapter 15 comes back to her research on the gender gap."
+  },
+  {
+    "objectID": "slides/ch06/index.html#worked-example-two-cohorts",
+    "href": "slides/ch06/index.html#worked-example-two-cohorts",
+    "title": "EC306 - Wages and Employment",
+    "section": "Worked Example: Two Cohorts",
+    "text": "Worked Example: Two Cohorts\n\n\n\n\n\nObserved in\n2000\n2005\n2010\n\n\n\n\nBorn 1975\n\n\n\n\n\nAge\n25\n30\n35\n\n\nParticipation rate\n75%\n80%\n85%\n\n\nBorn 1980\n\n\n\n\n\nAge\n20\n25\n30\n\n\nParticipation rate\n75%\n80%\n85%\n\n\n\n\n\nThe truth: participation rises 1 point per year of age, or 5 points from 25 to 30, for both cohorts\nA researcher with only the 2005 data sees 80% at 25 and 80% at 30\n\nConclusion: no change with age, which is wrong\n\nThe younger cohort is 5 percentage points higher at every age: a cohort effect\nA third confounder is time effects\n\nIf 2005 was a boom year, even repeated observations of a cohort would mix the boom with the effect of age\n\n\n\n\nThis is the book’s worked example. The book calls the cohort effect “5 percent”; it means 5 percentage points. Note too that cohort effects need not be constant: two cohorts can differ at 30 and be identical at 50."
+  },
+  {
+    "objectID": "slides/ch06/index.html#early-career-unemployment-follows-the-business-cycle",
+    "href": "slides/ch06/index.html#early-career-unemployment-follows-the-business-cycle",
+    "title": "EC306 - Wages and Employment",
+    "section": "Early-Career Unemployment Follows the Business Cycle",
+    "text": "Early-Career Unemployment Follows the Business Cycle\n\n\nThe unemployment rate of 25 to 34 year olds is one sign of how hard it is to land that first job after school. Three things to point out. First, the business cycle: the peaks are the recessions of 1980–82, 1990–92, 2008–09 and the 2020 pandemic. Second, men’s rate has been above women’s since the early 1990s. Third, the rate was much higher in the 1980s and 1990s than it has been since 2000, so it is not obvious that young people today have it harder than earlier generations did. For comparison, over 2005–2025 the rate averaged 6.1% for women and 7.2% for men at 25–34, against 5.3% and 5.5% at 35–54. The book gives 7.3% for men; its own replication data give 7.24%. The book’s “mid-career” is ages 35–54, which its replication file confirms. Chapter 19, which we don’t cover, has the full treatment of unemployment and job search."
+  },
+  {
+    "objectID": "slides/ch06/index.html#graduating-in-a-recession",
+    "href": "slides/ch06/index.html#graduating-in-a-recession",
+    "title": "EC306 - Wages and Employment",
+    "section": "Graduating in a Recession",
+    "text": "Graduating in a Recession\n\nThe first year is hard: you may find work, but probably not the job you wanted\nOreopoulos, von Wachter & Heisz (2012): Canadian male college graduates, when unemployment at graduation is 5 points higher\n\nAbout 9% lower earnings at first, and still about half that 5 years on\nThe scarring persists after people find work and switch jobs, and takes about 10 years to fade\n\nMessacar, Handler & Frenette (2021): looking ahead to the COVID-19 graduates\n\nEach extra point of unemployment at graduation means 1.5–4% lower earnings, on average\nMore education reduces the scarring\n\n\n\nThe 2020s have been uncertain for new graduates: a pandemic early in the decade and worries about trade policy and recession later on. The message of this research is that the timing of graduation matters for years, not months. People who graduate into a recession start lower and spend a decade catching up. Whether you graduate into a recession is largely luck, which is what lets researchers treat it as a natural experiment. The book’s Exhibit 6.2 says unemployment 3–4 points higher means 10–15% lower first-year earnings. The paper’s own summary is different: a typical recession, with unemployment up about 5 points, means an initial earnings loss of about 9% that halves within 5 years and is gone after about 10. Their sample is male college graduates."
+  },
+  {
+    "objectID": "slides/ch06/index.html#not-in-employment-education-or-training",
+    "href": "slides/ch06/index.html#not-in-employment-education-or-training",
+    "title": "EC306 - Wages and Employment",
+    "section": "Not in Employment, Education, or Training",
+    "text": "Not in Employment, Education, or Training\n\n\n\n\n\n\nKey Definition\n\n\nNEET: the share of young people who are not employed and not in school or training\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRises in every recession, like the unemployment rate\nYoung men’s rate has been above young women’s since the early 1980s\nLayton, Latour & Wall (2025): when unemployment rises, young women are more likely to enrol in school, and young men are more likely to leave the labour force\n\n\n\nThe sample leaves out young people with a child at home, so parenthood doesn’t drive the trend. Two places where the book’s description and its figure don’t agree. The book says the NEET rate of these young women has stayed fairly steady since the 1970s; the data show it falling from about 16.5% in the late 1970s to about 10 to 12% in most years since the mid-2000s. The book also says the gender gap grows over time, and that holds up: young men were below young women in the late 1970s, and the gap has averaged 2 to 3 points since, edging up decade by decade, with spikes in recessions (6 points in 1991). The 2025 figure of 2 points covers only January to May. Part of the long fall for young women is the cohort effect from the last section: decisions about school, parenthood and careers changed a lot for young women over these decades. Review Question 1 asks how this would look for 25 to 29 year olds, with young parents included."
+  },
+  {
+    "objectID": "slides/ch06/index.html#total-fertility-in-canada-19212025",
+    "href": "slides/ch06/index.html#total-fertility-in-canada-19212025",
+    "title": "EC306 - Wages and Employment",
+    "section": "Total Fertility in Canada, 1921–2025",
+    "text": "Total Fertility in Canada, 1921–2025\nPartner, home, children, and career are decided together, often in the same few years. Parenthood is one of the biggest of those decisions\n\n\nThe total fertility rate is the number of children a woman would have over her lifetime if she had children at each age at the rates observed in that year. It fell through the 1920s and 1930s, rose through the baby boom to a peak of 3.94 in 1959, and fell sharply after 1960. It stayed between 1.5 and 1.7 from 1980 to 2008, and it has fallen since, to 1.26 in 2024 and 2025, the lowest on record. The book says the decline began after 2019. Its own figure shows it starting around 2009; it sped up after 2019. Hold the 1960 date for the technology slide."
+  },
+  {
+    "objectID": "slides/ch06/index.html#fertility-as-an-economic-decision",
+    "href": "slides/ch06/index.html#fertility-as-an-economic-decision",
+    "title": "EC306 - Wages and Employment",
+    "section": "Fertility as an Economic Decision",
+    "text": "Fertility as an Economic Decision\n\nEconomists analyze the decision to have children with consumer demand theory (Becker 1960; Mincer 1963; Dahl & Løken 2024)\nThe decision depends on market wages, the value of home production, how much parents want to invest in each child, and each partner’s bargaining power\n\nA full treatment would be dynamic: timing, spacing, future careers\nWe stick to the factors that bear most on early-career labour supply\n\nIncome: if children are like a normal good, more income means more children, other things equal\n\nWas the steep fall in the 1930s just the Depression cutting incomes?\nHard to say: “other things equal” is hard to hold, so the pure income effect is hard to isolate\n\n\n\n\n\n\n\n\nKey Definition\n\n\nTotal fertility rate: the number of children a woman would have over her lifetime if, at each age, she had children at that year’s birth rates\n\n\n\n\nThe framework treats children like any other good the household chooses, with an income and a price. The rest of the fertility half of this section goes through the factors one at a time: income, the cost of raising children, the prices of related goods, tastes, and technology."
+  },
+  {
+    "objectID": "slides/ch06/index.html#the-cost-of-children",
+    "href": "slides/ch06/index.html#the-cost-of-children",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Cost of Children",
+    "text": "The Cost of Children\n\n\n\n\n\n\nKey Definition\n\n\nChild penalty: the fall in a parent’s earnings or employment after having a child, compared with what they would otherwise have earned\n\n\n\n\nDemand for children falls as their cost rises\nDirect costs: Phipps (1998): a couple earning $60,000 needs about $9,300 more a year to be as well off with a first child\nTime costs: raising children takes time that could go to paid work, so the biggest cost is forgone earnings\nConnolly, Fontaine & Haeck (2023): mothers’ earnings are 49% lower in the year of the birth and still 34% lower 10 years on; fathers’ barely change\n\n\nPhipps measures the cost as the extra income it would take to put a family with a child back at the material well-being of a similar childless couple. Additional children cost a little less than the first. The time cost is the bigger one: food preparation, housework, teaching children, managing their activities. Most parents wouldn’t call that leisure. And in Canada that time cost has fallen mostly on mothers. Hold the wage question for the clicker at the end of the fertility slides: what a raise for each parent does to the demand for children is a homework question too (Review Question 2, Problem 8a), so let them reason it out."
+  },
+  {
+    "objectID": "slides/ch06/index.html#child-penalties-across-canada",
+    "href": "slides/ch06/index.html#child-penalties-across-canada",
+    "title": "EC306 - Wages and Employment",
+    "section": "Child Penalties Across Canada",
+    "text": "Child Penalties Across Canada\n\n\n\nSource: Benjamin et al. (2026), Figure 6.5, from Karademir et al. (2026)\n\n\nMothers’ earnings penalty in the 5 years after a birth (Karademir, Laliberté & Staubli 2026)\nShading: share of earnings lost, from 25–⁠35% (white) to 55–⁠60% (black)\nLargest in parts of the West, smallest in Quebec\nMuch of it is career choices made around caregiving: shorter or flexible hours, training and promotions passed up (Olivetti, Pan & Petrongolo 2024)\n\n\n\nThe shading is the penalty as a share of earnings, from about a quarter to about 60%. It covers women born between 1963 and 1985 who became parents before 40, between 1981 and 2016. Some of the penalty is simply working less after the birth. But Olivetti and coauthors stress the choices made around caregiving: sick days, summer holidays, before- and after-school care. Mothers choose occupations that allow them. Keep Quebec’s pale colour in mind; we come back to it at the end of this section."
+  },
+  {
+    "objectID": "slides/ch06/index.html#related-goods-tastes-and-technology",
+    "href": "slides/ch06/index.html#related-goods-tastes-and-technology",
+    "title": "EC306 - Wages and Employment",
+    "section": "Related Goods, Tastes, and Technology",
+    "text": "Related Goods, Tastes, and Technology\n\nRelated goods: child care, sports and activities, and postsecondary education are complements to children\n\nCheaper complements, say from public subsidies, could mean larger families; European expansions of child care for very young children raised fertility (Olivetti et al. 2024)\n\nTastes: norms constrain choices and shape preferences, and they pass from one generation to the next (Fernández & Fogli 2009)\n\nThey also respond to the economy: as more women work for pay, attitudes toward motherhood change\n\nTechnology: contraception, sterilization, and infertility treatment bring actual births closer to desired births\n\nLower infant mortality means fewer births for the same family size\n\n\n\nThe evidence on related goods is thin, and the book expects most of these prices to have little effect on family size. On tastes, the economics literature used to take preferences as given; the newer work treats norms as something people pay a price for breaking and also absorb as their own (Lundberg 2025; Olivetti et al. 2024). On technology: the book says the pill first became available in Canada in 1960, and that fertility dropped quickly as it spread. In 1960 it was authorized only to regulate the menstrual cycle. Selling contraceptives was a criminal offence until 1969. So broad access came later than 1960 suggests."
+  },
+  {
+    "objectID": "slides/ch06/index.html#the-pill-and-womens-careers",
+    "href": "slides/ch06/index.html#the-pill-and-womens-careers",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Pill and Women’s Careers",
+    "text": "The Pill and Women’s Careers\n\nThe pill was approved in the US in 1960 and quickly used by married women to limit births\n\nSingle women under 21 often couldn’t get it\n\nGoldin & Katz (2002): as states lowered the age of majority, state by state, young single women gained access\n\nWhere they did, more women entered professional programs like law and medicine, and married later\n\nTwo channels:\n\nAn unplanned pregnancy was less likely to derail a long education\nDelaying marriage became less costly: with more women delaying, the pool of potential partners was still there a few years later\n\nBailey (2006): in the US, early access delayed first births and permanently raised women’s labour supply: the kind of cohort effect seen in Figure 6.1\n\n\nThe book says the age of majority was lowered to 18 by a 1971 constitutional amendment, and that the amendment was adopted at different times in different states. That isn’t quite right. The 1971 amendment, the 26th, lowered the voting age to 18 and was ratified within a few months. The age of majority is set by each state, and states changed it, along with the rules on minors’ access to contraception, at different times from the late 1960s on. That staggered variation is what Goldin and Katz use. Bailey’s women are the ones reaching their 20s in the late 1960s and early 1970s."
+  },
+  {
+    "objectID": "slides/ch06/index.html#maternity-and-parental-leave",
+    "href": "slides/ch06/index.html#maternity-and-parental-leave",
+    "title": "EC306 - Wages and Employment",
+    "section": "Maternity and Parental Leave",
+    "text": "Maternity and Parental Leave\n\n\nJob-protected leave\n\nSet by each province, so the details vary\nMaternity leave: for those who are pregnant or have just given birth\nParental leave: for any parent caring for a newborn or newly adopted child\nOntario: 17 weeks of maternity leave and 61 of parental leave, after 13 weeks with the employer\nThe employer doesn’t have to pay wages during the leave\n\n\nBenefits while on leave\n\nQuebec: the Quebec Parental Insurance Plan\nRest of Canada: EI maternity and parental benefits (Chapter 5)\n\n600 hours of insured work in the year before the claim\nUp to 55% of earnings\nCan be spread over up to 18 months, at a lower rate\nProvisions for parents taking leave at the same time\n\n\n\n\nTwo separate pieces: provincial law protects the job, and a federal or Quebec program replaces part of the pay. Without job protection, the benefits would be much less useful, because the job might not be there to go back to."
+  },
+  {
+    "objectID": "slides/ch06/index.html#leave-and-the-cost-of-a-child",
+    "href": "slides/ch06/index.html#leave-and-the-cost-of-a-child",
+    "title": "EC306 - Wages and Employment",
+    "section": "Leave and the Cost of a Child",
+    "text": "Leave and the Cost of a Child\n\nJob protection makes returning to work after a birth more rewarding, so early-career work pays off more\nBaker & Milligan (2008): Canada’s introduction and expansion of job-protected leave\n\nLeaves of 17–18 weeks didn’t increase mothers’ time at home, but fewer quit and more returned to their pre-birth employer\nLonger leaves, up to 70 weeks, did increase time at home, along with job continuity\n\nPaid benefits soften the income loss in the months after a birth, which encourages longer leaves\n\nVery long leaves may slow career advancement (Dahl & Løken 2024)\n\nLeave policy also changes the payoff to education and training done before becoming a parent (Chapter 14)\n\n\nThe book cites this result as “Baker et al. (2008)” and says the short leaves did not change mothers’ behaviour. Two corrections. The paper is Baker and Milligan (2008) in the Journal of Labor Economics; the only Baker et al. (2008) in the book’s references is the Quebec child care paper on the last slide of this section. And according to Baker and Milligan’s abstract, the short leaves did change behaviour: they didn’t add time at home, because the physical demands of a birth and private arrangements made a short mandate mostly redundant, but they reduced quits, increased leave-taking, and raised the share of mothers going back to their pre-birth employer."
+  },
+  {
+    "objectID": "slides/ch06/index.html#early-learning-and-child-care",
+    "href": "slides/ch06/index.html#early-learning-and-child-care",
+    "title": "EC306 - Wages and Employment",
+    "section": "Early Learning and Child Care",
+    "text": "Early Learning and Child Care\n\n\n\n\n\n\nKey Definitions\n\n\nEarly learning and child care (ELCC): care and early education for young children outside the home, such as daycare centres and preschools\nChild care subsidies: public payments that lower what parents pay for ELCC\nFixed cost of working: a cost paid only if you work, the same however many hours you work\n\n\n\n\nOn the agenda for decades: the 1970 Royal Commission on the Status of Women recommended them\nSince 2021, federal agreements with the provinces and territories have aimed to bring average fees to $10 a day by March 2026\nIn the static model, ELCC is a fixed cost of working\n\n\nMost of the questions about parenthood are dynamic, but the static model of Chapter 3 does well here, and it shows why child care can cut both ways. Assuming the cost doesn’t depend on hours keeps the diagrams simple; letting it rise with hours is a straightforward extension. Quebec has had low-fee care since 1997, and you worked with that in Assignment 1."
+  },
+  {
+    "objectID": "slides/ch06/index.html#elcc-costs-and-participation",
+    "href": "slides/ch06/index.html#elcc-costs-and-participation",
+    "title": "EC306 - Wages and Employment",
+    "section": "ELCC Costs and Participation",
+    "text": "ELCC Costs and Participation\n\n\n\nSource: Benjamin et al. (2026), Figure 6.6(b)\n\n\nThe reservation wage rises from the slope of RR′ to the slope of MM′, where working at E0 is as good as staying home at E\nThis parent’s wage is above the slope of RR′ but below MM′: without the cost they would work; with it they stay home\n\n\n\n\n\n\n\nWork Incentive Effect\n\n\nFixed costs raise the reservation wage, so participation falls\n\n\n\n\n\nThis is panel (b). RR′ is the slope of the indifference curve at E, the reservation wage with no child care costs. MM′ is the line from M tangent to the same indifference curve, at \\(E_0\\). Its slope is steeper because of diminishing MRS, so the reservation wage is higher."
+  },
+  {
+    "objectID": "slides/ch06/index.html#elcc-costs-and-hours",
+    "href": "slides/ch06/index.html#elcc-costs-and-hours",
+    "title": "EC306 - Wages and Employment",
+    "section": "ELCC Costs and Hours",
+    "text": "ELCC Costs and Hours\n\n\n\nSource: Benjamin et al. (2026), Figure 6.6(c)\n\n\nA parent whose wage is above the reservation wage still works\nPaying for ELCC is like losing nonlabour income: the constraint shifts down by EM in parallel\nA pure income effect: with leisure a normal good, leisure falls from H0 to H1, so hours of work rise\nThe gap: at the reservation wage, the slope of M′M, working T − Hm hours at EM is only as good as staying home at E\n\nFewer hours can’t cover the fixed cost, so fixed costs discourage part-time work\n\n\n\n\nThis is the book’s panel (c). The H’s on the leisure axis are amounts of leisure, so hours of work are T minus each one. \\(U_m\\) passes through E, the point of not working, and the dashed line M′M, with slope \\(-w_{RM}\\), is tangent to it at \\(E_M\\). So \\(w_{RM}\\) is this parent’s reservation wage once ELCC costs are counted, and at that wage the best they can do by working is \\(E_M\\), at \\(T - H_m\\) hours. Fewer hours than that leave them worse off than staying home, so labour supply jumps from zero straight to \\(T - H_m\\). Notation warning: the book reuses symbols across panels. In panel (b), our last diagram, \\(E_0\\) and \\(U_0\\) are a different parent’s reservation-wage tangency, and \\(H_m\\) is the leisure there. In panel (c), \\(U_0\\) and \\(H_0\\) are this parent’s choice with no ELCC costs. The book’s text also writes \\(TH_M\\) and \\(U_M\\) where the figure has \\(H_m\\) and \\(U_m\\), and the axis label Y − ELCC means \\(Y_N\\) − ELCC. Problem 1, on commuting costs, uses exactly this diagram, so leave it to them."
+  },
+  {
+    "objectID": "slides/ch06/index.html#what-a-child-care-subsidy-does",
+    "href": "slides/ch06/index.html#what-a-child-care-subsidy-does",
+    "title": "EC306 - Wages and Employment",
+    "section": "What a Child Care Subsidy Does",
+    "text": "What a Child Care Subsidy Does\nThe simplest case: free public ELCC removes the fixed cost entirely (ignoring the taxes that pay for it)\n\nParents not working: the reservation wage falls, so some start working\n\nPart-time work becomes worthwhile, since a few hours no longer have to cover the cost\n\nParents already working: none quit, since their reservation wage was already below their wage\n\nBut the subsidy acts like a demogrant (Chapter 4): a pure income effect, so they work fewer hours\n\nFor a subsidy that doesn’t depend on hours, the effect on total hours is ambiguous\nOffer the subsidy only to parents not yet working and total hours must rise, but similar families get treated differently\n\n\nThis is the last two diagrams run in reverse. Removing the fixed cost moves the constraint back from EMB to AE. For people at E that brings the reservation wage back down to the slope of RR′. For people already working it is a parallel shift up, which is a demogrant. The book’s aside about the politics of a subsidy only for new entrants is worth a sentence: the family down the street that was already paying for care gets nothing."
+  },
+  {
+    "objectID": "slides/ch06/index.html#quebecs-5-a-day-child-care",
+    "href": "slides/ch06/index.html#quebecs-5-a-day-child-care",
+    "title": "EC306 - Wages and Employment",
+    "section": "Quebec’s $5-a-Day Child Care",
+    "text": "Quebec’s $5-a-Day Child Care\n\nFrom 1997, Quebec subsidized child care centres so parents paid $5 a day; most had charged over $20\nBaker, Gruber & Milligan (2008): Quebec against the other provinces, before and after\n\nEmployment of mothers in two-parent families with a child aged 0–4: up 7.7 percentage points\n\nStalker & Ornstein (2013): Census data to 2006 confirm the rise in women’s participation\nKarademir, Laliberté & Staubli (2026): mothers’ employment up about 4 points; the long-run earnings penalty about 8% smaller; grandmothers’ work changed too\n\n\n\n\n\n\n\nAssignment 1\n\n\nYou compared Quebec with the rest of Canada in a single year, 2019. These studies compare before and after the program, a more convincing test of cause and effect\n\n\n\n\nThe program was phased in: four-year-olds in September 1997, then one age group a year, until children under two became eligible in September 2000. That is why you will see both 1997 and 2000 given as start dates. The 7.7 points is the effect on whether mothers worked, for two-parent families with a child aged 0 to 4. The book calls it the participation rate of mothers with young children. Stalker and Ornstein also found fewer couples with a traditional division of labour. The book says the effect was especially large for married women. Their abstract reports the opposite comparison, larger effects for common-law than for married couples, and attaches it to the fall in the traditional division of labour, so the slide leaves the comparison out. Karademir and coauthors’ 8% is a share of the penalty, not 8 points of earnings: averaged over the ten years after a first birth, mothers’ earnings drop is about 3.3 points smaller than the pre-program drop of about 43 points, and 3.3/43 is about 8%. The 4-point rise in mothers’ employment is from the paper; the book doesn’t give it. These figures are from their 2023 working paper; the published version may differ slightly. Their map on the earlier slide shows Quebec with the smallest penalties."
+  },
+  {
+    "objectID": "slides/ch06/index.html#a-lifetime-model-of-labour-supply",
+    "href": "slides/ch06/index.html#a-lifetime-model-of-labour-supply",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Lifetime Model of Labour Supply",
+    "text": "A Lifetime Model of Labour Supply\n\nThe static model of Chapter 3 looks at one period at a time\nHere a person lives and can work for \\(N\\) periods, with no uncertainty about the future\nUtility depends on consumption and leisure in every period:\n\n\\[\nu = U(C_1, C_2, \\ldots, C_N, L_1, L_2, \\ldots, L_N) \\tag{6.1}\n\\]\n\nNo nonlabour income, a consumption price fixed at 1, and known wages \\(w_1, w_2, \\ldots, w_N\\)\nFrom here on, two periods (this year and next), with hours \\(H_1\\) and \\(H_2\\)\n\n\n\n\n\n\n\nKey Definition\n\n\nDynamic labour supply: labour supply planned over many periods at once, so hours in each period depend on the wages in every period\n\n\n\n\nThe person chooses consumption and leisure in each period to maximize this, subject to a lifetime constraint we build on the next slide. The book notes that adding uncertainty about the future changes very little, which is why we can leave it out."
+  },
+  {
+    "objectID": "slides/ch06/index.html#the-lifetime-budget-constraint",
+    "href": "slides/ch06/index.html#the-lifetime-budget-constraint",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Lifetime Budget Constraint",
+    "text": "The Lifetime Budget Constraint\n\nA first guess: lifetime consumption equals lifetime earnings\n\n\\[\nC_1 + C_2 = w_1H_1 + w_2H_2 \\tag{6.2}\n\\]\n\nThat means borrowing next year’s pay for free. No bank allows it\nWith borrowing and saving at interest rate \\(r\\), present values must balance:\n\n\\[\nC_1 + \\frac{C_2}{1+r} = w_1H_1 + \\frac{w_2H_2}{1+r} \\tag{6.3}\n\\]\n\n\n\n\n\n\nKey Definition\n\n\nPresent value: what a future amount is worth today; at interest rate \\(r\\), $1 next year is worth \\(\\frac{1}{1+r}\\) today\n\n\n\n\nThe general formula, from the book’s footnote: a stream \\(y_1, y_2, \\ldots, y_T\\) has present value \\(y_1 + \\frac{y_2}{1+r} + \\cdots + \\frac{y_T}{(1+r)^{T-1}}\\). Anyone who could borrow freely could consume the present value of their whole lifetime income in the first period, and spend the rest of their life paying it back."
+  },
+  {
+    "objectID": "slides/ch06/index.html#saving-borrowing-and-full-income",
+    "href": "slides/ch06/index.html#saving-borrowing-and-full-income",
+    "title": "EC306 - Wages and Employment",
+    "section": "Saving, Borrowing, and Full Income",
+    "text": "Saving, Borrowing, and Full Income\n\nA saver consumes next year’s earnings plus this year’s savings with interest:\n\n\\[\nC_2 = w_2H_2 + (1+r)(w_1H_1 - C_1) \\tag{6.4}\n\\]\n\nA borrower consumes next year’s earnings minus the loan with interest:\n\n\\[\nC_2 = w_2H_2 - (1+r)(C_1 - w_1H_1) \\tag{6.5}\n\\]\n\nBoth are rearrangements of (6.3). Using \\(H_t = T - L_t\\):\n\n\\[\nC_1 + \\frac{C_2}{1+r} + w_1L_1 + \\frac{w_2L_2}{1+r} = w_1T + \\frac{w_2T}{1+r} \\tag{6.6}\n\\]\n\nThe right side is the present value of the lifetime labour endowment; leisure in period \\(t\\) costs \\(w_t\\)\nLabour supply in each period depends on every period’s wage, \\(r\\), and lifetime resources (MaCurdy 1981)\n\n\nCorrection to the book: it prints (6.5) with a plus sign, which would make borrowing raise next year’s consumption. The loan has to be paid back, so it is a minus. With the sign fixed, (6.4) and (6.5) are the same equation, written once for a saver and once for a borrower. Equation (6.6) is the dynamic version of full income from Chapter 3: what you would earn working every available hour in both periods, discounted. MaCurdy worked through the income and substitution effects in this setting; they are more complicated than in the static model, and the next slide shows the simplest version."
+  },
+  {
+    "objectID": "slides/ch06/index.html#three-kinds-of-wage-change",
+    "href": "slides/ch06/index.html#three-kinds-of-wage-change",
+    "title": "EC306 - Wages and Employment",
+    "section": "Three Kinds of Wage Change",
+    "text": "Three Kinds of Wage Change\n\n\n\nSource: Benjamin et al. (2026), Figure 6.7\n\n\n\n\n\n\n\nKey Definitions\n\n\n\nA → B: a permanent, unanticipated difference, a higher wage at every age\nB → C: an evolutionary wage change, wages rising with age along a profile known in advance\nC → D: a transitory, unanticipated increase, a one-time blip at age \\(t\\), like overtime that won’t be repeated\n\n\n\n\n\nAll three are assumed to be the same size, so only the kind of change differs\n\n\n\nA and B can be read as two people whose wages differ by the same amount at every age. B to C is one person moving along their own profile. C and D are two people with the same high-wage profile, except that one gets a one-off bump at age t."
+  },
+  {
+    "objectID": "slides/ch06/index.html#why-the-responses-differ",
+    "href": "slides/ch06/index.html#why-the-responses-differ",
+    "title": "EC306 - Wages and Employment",
+    "section": "Why the Responses Differ",
+    "text": "Why the Responses Differ\n\n\n\n\n\n\n\n\n\nWage change\nIncome effect\nSubstitution effect\nLabour supply response\n\n\n\n\nB → C, evolutionary\nNone: an anticipated raise is no news\nWork more where wages peak\nLargest\n\n\nC → D, transitory\nSmall, spread over the whole life\nWork more at age \\(t\\)\nMiddle\n\n\nA → B, permanent\nLarge: lifetime income rises\nWork more at every age\nSmallest, possibly negative\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nIntertemporal substitution: shifting work toward the periods when it pays the most, and leisure toward the periods when it is cheapest\n\n\n\n\nThe evolutionary change gives the pure substitution effect, so it has the largest response: a forward-looking person takes leisure when it is cheap and works when the return is highest. The transitory blip has the usual substitution effect at age t, plus a small income effect spread across the whole life; the person with the bump works a lot more at t and slightly less everywhere else. The permanent difference has the largest income effect, which offsets the substitution effect, so the response is smallest and can even be negative. Problem 2, on permanent and temporary tax cuts, builds on this table, so leave it to them."
+  },
+  {
+    "objectID": "slides/ch06/index.html#how-well-does-the-model-work",
+    "href": "slides/ch06/index.html#how-well-does-the-model-work",
+    "title": "EC306 - Wages and Employment",
+    "section": "How Well Does the Model Work?",
+    "text": "How Well Does the Model Work?\n\nIn theory, an important step beyond the static model\n\nIncome and substitution effects depend on whether a wage change is permanent or temporary, and anticipated or not\n\nIn practice, its record is disappointing when it is asked to explain things like year-to-year swings in employment across the economy (Card 1994)\nStill, it tells us what to ask about any wage or tax change: is it news, and will it last?\n\n\nThe theory is important even if it fits the data poorly. When a policy changes wages or taxes, the first questions are whether people saw it coming and whether it is permanent. Card’s review is the standard reference on the evidence."
+  },
+  {
+    "objectID": "slides/ch06/index.html#references",
+    "href": "slides/ch06/index.html#references",
+    "title": "EC306 - Wages and Employment",
+    "section": "References",
+    "text": "References\n\nBailey, M. J. (2006). More power to the pill: The impact of contraceptive freedom on women’s life cycle labor supply. Quarterly Journal of Economics, 121(1), 289–320.\nBaker, M., Gruber, J., & Milligan, K. (2008). Universal child care, maternal labor supply, and family well-being. Journal of Political Economy, 116(4), 709–745.\nBaker, M., & Milligan, K. (2008). How does job-protected maternity leave affect mothers’ employment? Journal of Labor Economics, 26(4), 655–691.\nBeaudry, P., & Lemieux, T. (1999). Evolution of the female labour force participation rate in Canada, 1976–1994: A cohort analysis. Canadian Business Economics, 7, 57–70.\nBecker, G. S. (1960). An economic analysis of fertility. In Demographic and economic change in developed countries. Princeton University Press.\nBenjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). Labour Market Economics, 2026 Release. McGraw Hill. Chapter 6, figure bank, and replication files."
+  },
+  {
+    "objectID": "slides/ch06/index.html#references-cont.",
+    "href": "slides/ch06/index.html#references-cont.",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nCard, D. (1994). Intertemporal labour supply: An assessment. In C. A. Sims (Ed.), Advances in econometrics: Sixth World Congress. Cambridge University Press.\nConnolly, M., Fontaine, M., & Haeck, C. (2023). Child penalties in Canada. Canadian Public Policy, 49(4), 399–⁠420.\nDahl, G. B., & Løken, K. V. (2024). Families, public policies, and the labor market. In C. Dustmann & T. Lemieux (Eds.), Handbook of labor economics (Vol. 5, pp. 581–618). Elsevier.\nDooley, M. D. (1994). The converging market work patterns of married mothers and lone mothers in Canada. Journal of Human Resources, 29(2), 600–620.\nFernández, R., & Fogli, A. (2009). Culture: An empirical investigation of beliefs, work, and fertility. American Economic Journal: Macroeconomics, 1(1), 146–177.\nFortin, N. M. (2005). Gender role attitudes and the labour-market outcomes of women across OECD countries. Oxford Review of Economic Policy, 21(3), 416–438."
+  },
+  {
+    "objectID": "slides/ch06/index.html#references-cont.-1",
+    "href": "slides/ch06/index.html#references-cont.-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nGoldin, C. (1990). Understanding the gender gap: An economic history of American women. Oxford University Press.\nGoldin, C. (2021). Career and family: Women’s century-long journey toward equity. Princeton University Press.\nGoldin, C., & Katz, L. F. (2002). The power of the pill: Oral contraceptives and women’s career and marriage decisions. Journal of Political Economy, 110(4), 730–770.\nKarademir, S., Laliberté, J.-W., & Staubli, S. (2026). The multigenerational impact of children and childcare policies. Journal of Labor Economics, 44(1), 189–227. https://doi.org/10.1086/732358\nLayton, J., Latour, G., & Wall, K. (2025). Youth not in employment, education or training: Recent trends. Education, Learning and Training: Research Paper Series, Statistics Canada Catalogue no. 81-595-M.\nLundberg, S. (2025). The economics of gender norms. Scottish Journal of Political Economy, 72(2). https://doi.org/10.1111/sjpe.12407"
+  },
+  {
+    "objectID": "slides/ch06/index.html#references-cont.-2",
+    "href": "slides/ch06/index.html#references-cont.-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nMaCurdy, T. E. (1981). An empirical model of labor supply in a life-cycle setting. Journal of Political Economy, 89(6), 1059–1085.\nMessacar, D., Handler, T., & Frenette, M. (2021). Predicted earnings losses from graduating during COVID-19. Canadian Public Policy, 47(2), 301–315.\nMincer, J. (1963). Market prices, opportunity costs, and income effects. In C. Christ et al. (Eds.), Measurement in economics: Studies in mathematical economics and econometrics in memory of Yehuda Grunfeld. Stanford University Press.\nNobelPrize.org. (2023, October 9). Press release: The Prize in Economic Sciences 2023. https://www.nobelprize.org/prizes/economic-sciences/2023/press-release/\nOlivetti, C., Pan, J., & Petrongolo, B. (2024). The evolution of gender in the labor market. In C. Dustmann & T. Lemieux (Eds.), Handbook of labor economics (Vol. 5, pp. 619–677). Elsevier.\nOreopoulos, P., von Wachter, T., & Heisz, A. (2012). The short- and long-term career effects of graduating in a recession. American Economic Journal: Applied Economics, 4(1), 1–29."
+  },
+  {
+    "objectID": "slides/ch06/index.html#references-cont.-3",
+    "href": "slides/ch06/index.html#references-cont.-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nPhipps, S. (1998). What is the income “cost of a child”? Exact equivalence scales for Canadian two-parent families. Review of Economics and Statistics, 80(1), 157–164.\nProvencher, C., & Galbraith, N. (2024). Fertility in Canada, 1921 to 2022. Statistics Canada Catalogue no. 91F0015M2024001.\nRoyal Commission on the Status of Women in Canada. (1970). Report of the Royal Commission on the Status of Women in Canada. Information Canada. https://www.publications.gc.ca/site/eng/9.699583/publication.html\nStalker, G., & Ornstein, M. (2013). Quebec, daycare, and the household strategies of couples with young children. Canadian Public Policy, 39(2), 241–262.\nStatistics Canada. Table 13-10-0418-01, Crude birth rate, age-specific fertility rates and total fertility rate (live births).\nStatistics Canada. Labour Force Survey public use microdata files, 1976–2025, as tabulated in the Benjamin et al. (2026) replication files."
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-review-question-2",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-review-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Review Question 2",
+    "text": "BFGLSS Chapter 4 Review Question 2\nUse the basic model of labour supply diagram to illustrate the following cases where an individual is\na) Unwilling to go on social assistance because the benefit payment is too low"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-1",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Review Question 2",
+    "text": "BFGLSS Chapter 4 Review Question 2\nb) Indifferent between social assistance as their sole income and work"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-2",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Review Question 2",
+    "text": "BFGLSS Chapter 4 Review Question 2\nc) Induced to move off social assistance because of an increase in wages"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-3",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Review Question 2",
+    "text": "BFGLSS Chapter 4 Review Question 2\nd) Induced to move off social assistance because of a change in preferences between income and leisure"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-4",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-review-question-2-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Review Question 2",
+    "text": "BFGLSS Chapter 4 Review Question 2\ne) Induced to move off social assistance by a reduction of the 100 percent implicit tax on earnings"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-problem-6",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-problem-6",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Problem 6",
+    "text": "BFGLSS Chapter 4 Problem 6\nThe different programs discussed in this chapter often have ambiguous effects on work effort. It is, nonetheless, possible to compare the work incentives of two programs by looking at what happens when the individual is indifferent between two programs. Use this approach to compare the work incentives of the following two pairs of programs. In both cases use graphs to show the hours of work chosen under the two programs by an individual who is indifferent between them:\na) Canada Workers Benefit compared to perfectly targeted social assistance"
+  },
+  {
+    "objectID": "questions/ch04/index.html#bfglss-chapter-4-problem-6-1",
+    "href": "questions/ch04/index.html#bfglss-chapter-4-problem-6-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 4 Problem 6",
+    "text": "BFGLSS Chapter 4 Problem 6\nb) Wage subsidy compared to a negative income tax"
+  },
+  {
+    "objectID": "questions/ch06/index.html#bfglss-chapter-6-problem-3",
+    "href": "questions/ch06/index.html#bfglss-chapter-6-problem-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 6 Problem 3",
+    "text": "BFGLSS Chapter 6 Problem 3\nConsider the two-period dynamic labour supply model discussed in this chapter. What, if anything, happens to current labour supply if the interest rate rises from 2 percent to 10 percent?"
+  },
+  {
+    "objectID": "questions/ch08/index.html#bfglss-chapter-8-review-question-1",
+    "href": "questions/ch08/index.html#bfglss-chapter-8-review-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 8 Review Question 1",
+    "text": "BFGLSS Chapter 8 Review Question 1\nThe firm’s demand schedule for labour is a negative function of the wage because as the firm uses more labour it has to utilize poorer-quality labour, and hence pays a lower wage. True or False? Explain"
+  },
+  {
+    "objectID": "questions/ch08/index.html#bfglss-chapter-8-problem-3",
+    "href": "questions/ch08/index.html#bfglss-chapter-8-problem-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "BFGLSS Chapter 8 Problem 3",
+    "text": "BFGLSS Chapter 8 Problem 3\nThe provision of health services requires the labour of doctors and nurses. If the wage rate of nurses increases while the doctor’s wages are unchanged, the demand for doctors will increase. True or False? Explain."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question",
+    "href": "slides/ch06/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn a 2025 survey, women aged 50–54 participate at 80% and women aged 55–59 at 70%. Suppose each cohort participates 4 points more than the cohort born five years before it, at every age, and there are no time effects. For a given cohort, how does participation change from 50–54 to 55–59?\nA) Falls 10 points\nB) Falls 14 points\nC) Falls 4 points\nD) Falls 6 points\nE) Can’t be determined from a single year of data\n\nAnswer: D. The 55–59s are the older cohort. When they were 50–54 they were 4 points below today’s 50–54s, so 76%, and they are at 70% now: a fall of 6. A reads the snapshot as an age effect, the mistake in the worked example. B applies the cohort effect in the wrong direction. C mistakes the cohort effect for the age effect. E is right about a snapshot on its own, but once you know the cohort effect you can back out the age effect. The no-time-effects assumption matters here: the older group was 50–54 in 2020."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-1",
+    "href": "slides/ch06/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nTo measure scarring, researchers compare people who graduated when unemployment was high with people who graduated when it was low. Why is this more convincing than comparing graduates who were unemployed after graduating with graduates who weren’t?\nA) Timing is mostly luck; who ends up unemployed partly reflects their own traits\nB) There are more graduates in high-unemployment years, so the estimates are more precise\nC) Unemployment rates are measured more accurately than whether a person was unemployed\nD) Graduates who were unemployed can’t be followed in the data\nE) It isn’t more convincing: both comparisons measure the same thing\n\nAnswer: A. This is the correlation-versus-causation point from Chapter 4 and Assignment 1. Graduates who end up unemployed may differ in ability, field or effort, and that would show up as “scarring” even with no causal effect at all. E is the misconception: it treats a correlation as the causal effect. Strictly, timing isn’t pure luck: some students stay in school longer when jobs are scarce, as the next slide suggests for young women, and careful studies allow for that."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-2",
+    "href": "slides/ch06/index.html#iclicker-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn a couple where the mother does most of the child care, which change is more likely to lead them to have more children?\nA) A raise for the mother, because it adds more to family income\nB) An equal raise for the father, since it adds income but little time cost\nC) Either raise, equally, because family income rises by the same amount\nD) Neither, because a higher wage always means fewer children\nE) Neither, because both raises make the parents’ time more expensive\n\nAnswer: B. Both raises have an income effect toward more children. Only the mother’s also raises the main cost of a child, her own time, so it adds a substitution effect toward fewer. C counts only the income effect. D and E count only the substitution effect, and E puts it on the wrong parent’s time. This is the Becker–Mincer logic behind why rising wages for women go with falling fertility."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-3",
+    "href": "slides/ch06/index.html#iclicker-question-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA parent can earn $25 an hour. Child care costs $100 a day if they work at all, however many hours they work. Ignoring taxes, which statement is correct?\nA) If they work at all, they will work more than 4 hours a day\nB) They will never choose to work more than 4 hours a day\nC) If they work, they will work exactly 4 hours a day\nD) The cost doesn’t affect their hours, since it doesn’t depend on hours\nE) If they keep working, they will work fewer hours than before the cost\n\nAnswer: A. At 4 hours or fewer, earnings don’t cover the $100, so working leaves the parent no better off in income than staying home, with less leisure: that choice is dominated. This is the hours gap. The true minimum is above 4 hours, because the hours worked also cost leisure. C mistakes break-even for the optimum. D misses that a fixed cost still shifts the constraint. E gets the income effect backwards: losing income means less leisure and more hours."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-4",
+    "href": "slides/ch06/index.html#iclicker-question-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nQuebec’s low-fee child care raised the employment of mothers of young children by 7.7 percentage points. What does the model say about the total hours these mothers worked?\nA) They must have risen, since more mothers were working\nB) Can’t tell from this: mothers already working may have cut their hours\nC) They must have fallen, because the subsidy works like a demogrant\nD) They rose by 7.7 percent\nE) They rose for mothers already working too, because child care became cheaper\n\nAnswer: B. New workers add hours at the extensive margin. For mothers already working, the subsidy is a pure income effect, so they work fewer hours at the intensive margin. The net is ambiguous in theory, which makes it an empirical question. A collapses the two margins into one. C forgets the new entrants. D confuses percentage points with percent, and employment with hours. E treats the subsidy as a wage increase with a substitution effect, which a fixed-cost subsidy doesn’t have."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-5",
+    "href": "slides/ch06/index.html#iclicker-question-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nYou will earn $30,000 this year and $33,000 next year, and you can borrow or save at 10%. What is the present value of your lifetime earnings?\nA) $63,000\nB) $66,000\nC) $57,273\nD) $60,273\nE) $60,000\n\nAnswer: E. That is $30,000 + $33,000/1.1. Each wrong option is a slip you can name. A is equation (6.2), with no discounting. B compounds this year’s earnings forward, which gives a value next year, not today. C discounts both years. D discounts the wrong year."
+  },
+  {
+    "objectID": "slides/ch06/index.html#iclicker-question-6",
+    "href": "slides/ch06/index.html#iclicker-question-6",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nEach change below raises your wage by $3 an hour this year. According to the life-cycle model, which one raises your hours this year the most?\nA) An unexpected permanent raise, effective now and for the rest of your career\nB) An unexpected one-year bonus rate, after which your wage goes back to normal\nC) A raise you’ve long known was coming, from your firm’s pay scale\nD) All three equally, since this year’s wage rises by $3 in each case\nE) None of them: a higher wage always lowers hours through the income effect\n\nAnswer: C. An anticipated raise is no news about lifetime wealth, so it is pure intertemporal substitution: work more when it pays more. B is a close second, with the same substitution effect plus a small income effect spread over the whole life. A has the biggest income effect, so it has the smallest response. D is the static model. E forgets the substitution effect. The test bank asks this ranking several different ways."
+  },
+  {
+    "objectID": "slides/ch06/index.html#elcc-costs-and-the-budget-constraint",
+    "href": "slides/ch06/index.html#elcc-costs-and-the-budget-constraint",
+    "title": "EC306 - Wages and Employment",
+    "section": "ELCC Costs and the Budget Constraint",
+    "text": "ELCC Costs and the Budget Constraint\n\n\n\nSource: Benjamin et al. (2026), Figure 6.6(a)\n\n\nWithout ELCC costs: AE. With them: EMB, since working costs EM\nA parent who doesn’t work stays at E; one who works any hours at all is on MB\n\n\n\nThis is panel (a) of the book’s Figure 6.6. The drop from E to M is the cost of ELCC, paid in full as soon as the parent works at all. Where the book labels that lower level “Y − ELCC” it means nonlabour income minus the cost, \\(Y_N\\) − ELCC."
   }
 ]
