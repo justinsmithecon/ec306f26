@@ -54,9 +54,9 @@ website:
               file: content/ch04.qmd
             - text: "5. Labour Supply and Social Insurance Programs"
               file: content/ch05.qmd
+            - text: "6. Labour Supply and Early Career Decisions"
+              file: content/ch06.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "6. Labour Supply and Early Career Decisions"
-            #   file: content/ch06.qmd
             # - text: "7. Labour Supply and Later Career Decisions"
             #   file: content/ch07.qmd
             # - text: "8. Labour Demand"
