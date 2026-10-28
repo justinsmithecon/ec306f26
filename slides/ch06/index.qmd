@@ -534,7 +534,7 @@ This is panel (a) of the book's Figure 6.6. The drop from E to M is the cost of 
 
 :::: {.column width="45%"}
 - The reservation wage rises from the slope of RR′ to the slope of MM′, where working at E~0~ is as good as staying home at E
-- This parent's wage is above the slope of RR′ but below MM′: without the cost they would work; with it they stay home
+- A parent whose wage lies between the two slopes would work without the cost, but stays home with it
 
 ::: {.callout-note}
 ## Work Incentive Effect
@@ -544,7 +544,7 @@ Fixed costs raise the reservation wage, so participation&nbsp;[falls]{.fg style=
 ::::
 
 ::: {.notes}
-This is panel (b). RR′ is the slope of the indifference curve at E, the reservation wage with no child care costs. MM′ is the line from M tangent to the same indifference curve, at $E_0$. Its slope is steeper because of diminishing MRS, so the reservation wage is higher.
+This is panel (b). RR′ is the slope of the indifference curve at E, the reservation wage with no child care costs. MM′ is the line from M tangent to the same indifference curve, at $E_0$. Its slope is steeper because of diminishing MRS, so the reservation wage is higher. The figure draws no market wage, only the two reservation wages. To show the in-between case on the board, take one wage slope between the two and draw it twice. From E it is steeper than RR′, so it rises above $U_0$ and the parent works. From M it is flatter than MM′, so it stays below $U_0$ and staying home at E is better.
 :::
 
 ## ELCC Costs and Hours {.smaller}
@@ -560,8 +560,8 @@ This is panel (b). RR′ is the slope of the indifference curve at E, the reserv
 - A parent whose wage is above the reservation wage still works
 - Paying for ELCC is like losing nonlabour income: the constraint shifts down by EM in parallel
 - A [pure income effect]{.fg style="color: #2780e3;"}: with leisure a normal good, leisure falls from H~0~ to H~1~, so hours of work rise
-- The [gap]{.fg style="color: #2780e3;"}: at the reservation wage, the slope of M′M, working T − H~m~ hours at E~M~ is only as good as staying home at E
-  - Fewer hours can't cover the fixed cost, so fixed costs [discourage part-time work]{.fg style="color: #c7254e;"}
+- The [gap]{.fg style="color: #2780e3;"}: this parent either stays home or works at least T − H~m~ hours (H~m~ is leisure)
+  - Fewer hours can't earn back the fixed cost, so fixed costs [discourage part-time work]{.fg style="color: #c7254e;"}
 ::::
 ::::
 
