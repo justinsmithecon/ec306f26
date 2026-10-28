@@ -1,0 +1,50 @@
+---
+title: "Chapter 2: In-Class Questions"
+subtitle: "{{< var course.number >}} Wages and Employment, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 1.8cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
+---
+
+These questions cover Chapter 2, *Introduction to the Canadian Labour Market, Measurement, and Research*. They are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
+
+## Question 1
+
+A labour force survey of a small province produces the following estimates for people aged 15 and older:
+
+| Status | Thousands |
+|:-------|----------:|
+| Worked during the reference week | 1,150 |
+| Have a job, but were away on vacation or sick leave | 90 |
+| Did not work, and searched for work in the past four weeks | 80 |
+| Did not work, on temporary layoff and expecting recall | 20 |
+| Full-time students, not working or looking for work | 160 |
+| Retired | 380 |
+| Want a job, but stopped looking because they believe none is available | 30 |
+| Caring for family at home, not looking for work | 90 |
+| **Total** | **2,000** |
+
+: {tbl-colwidths="[80,20]"}
+
+a) Calculate the labour force participation rate, the employment rate, and the unemployment rate.
+
+b) The economy weakens, and 20,000 of the job searchers stop looking because they believe no work is available. Recalculate the three rates. Does the unemployment rate give an accurate picture of what happened? Explain.
+
+## Question 2
+
+Using a sample of employees aged 25 to 64, a researcher estimates two regressions of the hourly wage (in dollars). Standard errors are in parentheses.
+
+|                                     | (1)          | (2)          |
+|:------------------------------------|:------------:|:------------:|
+| Union member (1 = yes, 0 = no)      | 4.80 (0.30)  | 2.10 (0.40)  |
+| Years with current employer         |              | 0.55 (0.03)  |
+| Constant                            | 27.40 (0.15) | 23.90 (0.20) |
+
+a) Interpret the union coefficient in column (1). Can we be confident that the true coefficient is not zero? Explain.
+
+b) Adding years with the current employer shrinks the union coefficient to 2.10. A classmate concludes that unions raise wages by only \$2.10 an hour. Do you agree? Explain.

@@ -1,44 +1,30 @@
 ---
-format: 
-  revealjs:
-    theme: [default, hygge.scss]
-    center-title-slide: false
-    slide-number: true
-    height: 900
-    width: 1600
-    chalkboard:
-      theme: whiteboard
-      src: drawings.json
-    post-render: "scripts/decktape.sh"
-editor: visual
+title: "Chapter 3: In-Class Questions"
+subtitle: "{{< var course.number >}} Wages and Employment, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
 ---
 
-<h1>Chapter 3: Labour Supply — In-Class Questions</h1>
+These questions cover Chapter 3, *Labour Supply*. They are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
 
-<hr>
+## Question 1
 
-<h2>EC306- Wages and Employment</h2>
+Amira has \$4,000 a year of nonlabour income and 4,000 hours a year to divide between work and leisure. At a wage of \$20 an hour she works 1,800 hours. Her wage rises to \$25 an hour, and she now works 1,890 hours. If her income at the \$25 wage had been just enough to keep her on her original indifference curve, she would have worked 1,980 hours.
 
-<h2>Justin Smith</h2>
+a) Draw an income–leisure diagram showing Amira's choices before and after the raise. Use it to calculate the substitution effect and the income effect of the raise, in hours of work.
 
-<h2>Wilfrid Laurier University</h2>
+b) Calculate Amira's uncompensated and compensated elasticities of labour supply. Explain why the compensated elasticity is larger, and compare your answers with the estimates for married women discussed in class.
 
-<h2>Fall 2026</h2>
+## Question 2
 
-![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+For each of the following, state whether it is true, false, or uncertain, and provide an explanation (all marks come from the explanation).
 
-<!-- VERIFIED against the 2026 release (Chapter 3, Problems, pp. 62-63).
-     Still Problem 3. Wording and dollar figures updated: the wage is now $20/hr
-     (was $7.50) and the part-time wage $18 (was $7). -->
+a) A taxi driver who works each day until she has earned \$250 and then goes home does not fit the labour supply model, because her choices involve no income or substitution effects.
 
-
-
-## BFGLSS Chapter 3 Problem 3
-
-Consider two individuals with endowments of $T=60$ hours (per week) of leisure time, nonlabour income of Y, and a wage of \$20 per hour.  At this wage, assume that workers are constrained by their employers to work 40 hours per week or not at all.
-
-a. On a carefully labelled diagram, show the equilibrium for a worker for whom 40 hours is the optimum labour supply and a worker who would like to work 20 hours, but still prefers the 40-hour week to not working.  Compare the marginal rates of substitution for these individuals at 40 hours per week.
-
-
-## BFGLSS Chapter 3 Problem 3
-b. The average part-time wage is \$18 per hour (with flexible hours), in contrast to the \$20 wage for full-time workers.  Using the above model, provide an explanation for this difference in wage rates.
+b) If leisure is a normal good, an increase in nonlabour income can reduce someone's hours of work, but it cannot cause them to leave the labour force.

@@ -1,55 +1,38 @@
 ---
-format: 
-  revealjs:
-    theme: [default, hygge.scss]
-    center-title-slide: false
-    slide-number: true
-    height: 900
-    width: 1600
-    chalkboard:
-      theme: whiteboard
-      src: drawings.json
-    post-render: "scripts/decktape.sh"
-editor: visual
+title: "Chapter 6: In-Class Questions"
+subtitle: "{{< var course.number >}} Wages and Employment, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
 ---
 
-<h1>Chapter 6: Labour Supply and Early Career Decisions — In-Class Questions</h1>
+These questions cover Chapter 6, *Labour Supply and Early Career Decisions*. They are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
 
-<hr>
+## Question 1
 
-<h2>EC306- Wages and Employment</h2>
+Malik has 16 hours a day to divide between work, commuting, and leisure, and \$50 a day of nonlabour income. He can earn \$24 an hour at a job in the city. Getting there takes two hours a day, round trip, and costs \$30 a day for transit and parking, which he pays only on days he works.
 
-<h2>Justin Smith</h2>
+a) Draw Malik's budget constraint with the commuting costs, and compare it with the constraint he would face if the job were next door. Explain why the commuting costs raise his reservation wage, and why, if he works at all, he will not work just an hour or two a day.
 
-<h2>Wilfrid Laurier University</h2>
+b) Compare two policies: (i) a new transit line that cuts the round trip from two hours to one, at the same cost; and (ii) a fare subsidy that cuts the daily cost from \$30 to \$15, with the same travel time. How does each affect labour force participation, and the hours of work of someone who already works?
 
-<h2>Fall 2026</h2>
+## Question 2
 
-![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+Use consumer demand theory to analyze how each of the following affects the number of children women have, and women's labour supply.
 
-<!-- NOTE: problem numbers verified against the 2026 Solutions Manual. The
-     household production problem (2026 Problem 6, formerly 4) is dropped
-     along with household production in the slides. -->
+a) An increase in women's wages.
 
+b) A government program that cuts the price parents pay for early learning and child care (ELCC) to \$10 a day.
 
-## BFGLSS Chapter 6 Problem 2
+## Question 3
 
-The evaluation of the labour supply response to a tax cut can be quite different in a dynamic setting from what it is in a static setting. Discuss the relative impact of a permanent versus transitory tax cut on labour supply, and compare the analysis to the static model.
+For each of the following, state whether it is true, false, or uncertain, and provide an explanation (all marks come from the explanation).
 
-## BFGLSS Chapter 6 Problem 3
+a) A temporary one-year cut in income tax rates raises hours of work by less than a permanent cut of the same size, because people know the temporary cut will end.
 
-Consider the two-period dynamic labour supply model discussed in this chapter. What, if anything, happens to current labour supply if the interest rate rises from 2 percent to 10 percent?
-
-## MC1
-
-Which of the following statements concerning subsidies for child care expenses is true?
-
-a\) They change the slope of the budget line.
-
-b\) They reduce the fixed costs of working.
-
-c\) They discourage labour force participation.
-
-d\) They tend to increase the reservation wage of working.
-
-e\) They cause a strong substitution effect toward more working activity.
+b) In the two-period life-cycle model, an increase in the interest rate from 2% to 10% has no effect on how much a person works this year, because it does not change this year's wage.

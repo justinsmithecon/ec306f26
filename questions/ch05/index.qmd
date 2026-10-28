@@ -1,0 +1,30 @@
+---
+title: "Chapter 5: In-Class Questions"
+subtitle: "{{< var course.number >}} Wages and Employment, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
+---
+
+These questions cover Chapter 5, *Labour Supply and Social Insurance Programs*. They are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
+
+## Question 1
+
+Kai can earn \$1,200 a week and has no nonlabour income. An unemployment insurance (UI) program has a 12-week entrance requirement, a 55% replacement rate, and pays at most 25 weeks of benefits. Kai cannot work and collect benefits in the same week, and the year has 52 weeks.
+
+a) Draw Kai's annual potential income constraint with and without UI. Calculate Kai's income under UI from working 11, 12, 27, and 40 weeks, and the net amount Kai gains from each extra week of work beyond 27 weeks.
+
+b) Three other workers face the same wage and the same program. Without UI, Ana would work 8 weeks a year, Ben 20 weeks, and Carmen 45 weeks. Predict how UI changes each person's weeks of work, using income and substitution effects. What does this imply for the unemployment rate?
+
+## Question 2
+
+For each of the following, state whether it is true, false, or uncertain, and provide an explanation (all marks come from the explanation).
+
+a) Two workers' compensation programs pay injured workers a share of the earnings they lose, so benefits fall as the worker earns more. The program that replaces 90% of lost earnings gives a stronger incentive to return to work than the one that replaces 60%.
+
+b) A tribunal that awards a fully disabled worker their lost earnings plus their medical costs leaves the worker exactly as well off as before the injury.

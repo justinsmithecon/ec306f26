@@ -1,83 +1,30 @@
 ---
-format: 
-  revealjs:
-    theme: [default, hygge.scss]
-    center-title-slide: false
-    slide-number: true
-    height: 900
-    width: 1600
-    chalkboard:
-      theme: whiteboard
-      src: drawings.json
-    post-render: "scripts/decktape.sh"
-editor: visual
+title: "Chapter 4: In-Class Questions"
+subtitle: "{{< var course.number >}} Wages and Employment, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
 ---
 
-<h1>Chapter 4: Labour Supply and Income Support Programs — In-Class Questions</h1>
+These questions cover Chapter 4, *Labour Supply and Income Support Programs*. They are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
 
-<hr>
+## Question 1
 
-<h2>EC306- Wages and Employment</h2>
+A province's social assistance program pays a single adult \$800 a month and reduces the benefit by \$1 for every \$1 earned. The province reforms the program: recipients may now keep the first \$300 a month they earn before any benefit is clawed back, and the basic benefit is cut to \$700 a month. Consider a person who can earn \$15 an hour.
 
-<h2>Justin Smith</h2>
+a) Draw this person's monthly budget constraint before and after the reform. Label the income at zero hours of work, and the hours of work at each kink in the constraint.
 
-<h2>Wilfrid Laurier University</h2>
+b) Predict how the reform affects the hours of work of (i) a recipient who was not working before the reform, and (ii) someone who was working 60 hours a month and not collecting social assistance. Explain using income and substitution effects.
 
-<h2>Fall 2026</h2>
+## Question 2
 
-![](/files/img/hexEC306.png){.absolute top="275" left="900" width="550"}
+A province introduces a refundable working income credit. It pays nothing until annual earnings reach \$2,000. Above that, it pays 25 cents per dollar earned until the credit reaches its maximum of \$1,500. The credit stays at \$1,500 until earnings reach \$20,000, and is then reduced by 10 cents for every dollar earned above \$20,000.
 
-<!-- NOTE: problem and review-question numbers verified against the 2026
-     Solutions Manual. -->
+a) Find the credit paid to workers earning \$5,000, \$15,000, and \$28,000 a year. For each worker, is the credit's effect on hours of work positive, negative, or ambiguous? Explain.
 
-
-## BFGLSS Chapter 4 Review Question 2
-
-Use the basic model of labour supply diagram to illustrate the following cases where an individual is
-
-a\) Unwilling to go on social assistance because the benefit payment is too low
-
-## BFGLSS Chapter 4 Review Question 2
-
-b\) Indifferent between social assistance as their sole income and work
-
-## BFGLSS Chapter 4 Review Question 2
-
-c\) Induced to move off social assistance because of an increase in wages
-
-## BFGLSS Chapter 4 Review Question 2
-
-d\) Induced to move off social assistance because of a change in preferences between income and leisure
-
-## BFGLSS Chapter 4 Review Question 2
-
-e\) Induced to move off social assistance by a reduction of the 100 percent implicit tax on earnings
-
-## BFGLSS Chapter 4 Problem 6
-
-The different programs discussed in this chapter often have ambiguous effects on work effort. It is, nonetheless, possible to compare the work incentives of two programs by looking at what happens when the individual is indifferent between two programs. Use this approach to compare the work incentives of the following two pairs of programs. In both cases use graphs to show the hours of work chosen under the two programs by an individual who is indifferent between them:
-
-a\) Canada Workers Benefit compared to perfectly targeted social assistance
-
-## BFGLSS Chapter 4 Problem 6
-
-b\) Wage subsidy compared to a negative income tax
-
-## BFGLSS Chapter 4 Problem 3
-
-Use the basic model of labour supply to illustrate that (if we hold the post-subsidy income of the recipients constant or the size of the subsidy constant) a negative income tax will involve more adverse work incentives than a wage subsidy would.
-
-## MC1
-
-Suppose that a worker says that due to a refundable tax benefit, it appears to her that working pays more than it used to, and so she wants to work longer hours. What type of effect is involved?
-
-a\) Only a substitution effect
-
-b\) Only an income effect
-
-c\) Both a substitution and an income effect
-
-d\) A reservation wage effect
-
-e\) No impact on incentives at all
-
+b) A critic argues that the credit is bad policy because it reduces the hours of most of the people who receive it. Explain what the credit does to labour force participation, and why that matters for evaluating the critique.
