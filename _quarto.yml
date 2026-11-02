@@ -56,9 +56,9 @@ website:
               file: content/ch05.qmd
             - text: "6. Labour Supply and Early Career Decisions"
               file: content/ch06.qmd
+            - text: "7. Labour Supply and Later Career Decisions"
+              file: content/ch07.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "7. Labour Supply and Later Career Decisions"
-            #   file: content/ch07.qmd
             # - text: "8. Labour Demand"
             #   file: content/ch08.qmd
             # - text: "9. Labour Demand in Global Markets"
