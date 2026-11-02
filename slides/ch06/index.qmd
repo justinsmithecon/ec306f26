@@ -475,7 +475,8 @@ Two separate pieces: provincial law protects the job, and a federal or Quebec pr
 
 - Job protection makes returning to work after a birth more rewarding, so early-career work pays off more
 - [Baker & Milligan (2008):]{.fg style="color: #555;"} Canada's introduction and expansion of job-protected leave
-  - Leaves of 17–18 weeks didn't increase mothers' time at home, but [fewer quit]{.fg style="color: #5cb85c;"} and more [returned to their pre-birth employer]{.fg style="color: #5cb85c;"}
+  - Leaves of 17–18 weeks didn't increase mothers' time at home, because most were already taking that much time off anyway
+  - Instead, [fewer quit]{.fg style="color: #5cb85c;"} and more [returned to their pre-birth employer]{.fg style="color: #5cb85c;"}
   - Longer leaves, up to 70 weeks, did increase time at home, along with job continuity
 - Paid benefits soften the income loss in the months after a birth, which encourages longer&nbsp;leaves
   - Very long leaves may [slow career advancement]{.fg style="color: #c7254e;"} (Dahl & Løken 2024)
