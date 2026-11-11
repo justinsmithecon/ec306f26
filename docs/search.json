@@ -2762,7 +2762,7 @@
     "href": "slides/ch08/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nUnderstand how firms decide how much labour to employ\nCompare short-run vs. long-run labour demand decisions\nExplain why labour demand is downward sloping\nLearn factors that affect the elasticity of labour demand\nDistinguish between workers and hours as an input into production\nAdd costs that are independent of hours worked (quasi-fixed costs)"
+    "text": "Goals of This Section\nIn this section we will:\n\nExplain why the demand for labour is a derived demand\nShow how a firm chooses employment in the short run, when its capital is fixed\nUse isoquants and isocost lines to find the cheapest mix of capital and labour\nSplit the long-run response to a wage increase into substitution and scale effects\nIdentify what makes labour demand more or less elastic, and what the estimates show\nExplain why adding workers and adding hours are different, and what quasi-fixed costs explain\n\n\nChapters 3 to 6 were the supply side: whether people work and how much. Now we turn to the other side of the market: how much labour firms want to hire, and how that depends on the wage.\nAfter this chapter we go to Chapter 10, which uses the capital–labour model from this chapter to think about technology. The isoquant and isocost tools are worth getting comfortable with now."
   },
   {
     "objectID": "slides/ch08/index.html#background-1",
@@ -3097,8 +3097,8 @@
     "objectID": "slides/ch08/index.html#examples-of-quasi-fixed-costs",
     "href": "slides/ch08/index.html#examples-of-quasi-fixed-costs",
     "title": "EC306 - Wages and Employment",
-    "section": "Examples of Quasi-fixed Costs",
-    "text": "Examples of Quasi-fixed Costs\nHiring costs:\n\nRecruiting, interviewing, and training are costly\nIncurred when a worker is hired regardless of hours worked\nFirms generally try to minimize hiring costs by retaining workers\n\nTermination costs:\n\nSeverance pay, legal fees, and administrative costs\nInitially depend on time with company, but have a maximum so become fixed\nFirms may be reluctant to lay off workers because of these costs"
+    "section": "Examples of Quasi-Fixed Costs",
+    "text": "Examples of Quasi-Fixed Costs\n\nHiring: recruiting, interviewing and training a new worker, whatever hours they go on to work\nExpected termination: a new hire may turn out to be a poor match, and letting them go has costs too\nPayroll taxes with a ceiling: employer contributions to the CPP and EI stop once a worker’s earnings pass a ceiling, so extra hours from that worker add no tax\nEmployment standards legislation: after a minimum length of service, workers qualify for paid holidays and notice of termination\nBenefits per employee: life, medical and dental plans often cost a set amount per person\n\n\n\n\n\n\n\nNot Quasi-Fixed\n\n\nCosts that scale with pay, like pension contributions set as a share of earnings, or vacation pay. They cost the same whether the extra labour comes from more workers or more hours\n\n\n\n\nRecurring quasi-fixed costs come every period (payroll taxes); nonrecurring ones come once (hiring, orientation, dismissal)\n\n\nCorrection to the book: it describes EI contributions as having a weekly earnings ceiling. EI premiums are charged on insurable earnings up to an annual maximum: $68,900 in 2026, at a rate of 1.63% for employees and 1.4 times the employee premium for employers, outside Quebec (Canada Revenue Agency, “EI premium rates and maximums”, canada.ca). The weekly maximum in EI is on benefits, not premiums. The point about the ceiling still holds: once a worker’s earnings for the year pass it, extra hours add no EI premium."
   },
   {
     "objectID": "slides/ch08/index.html#examples-of-quasi-fixed-costs-1",
@@ -3301,7 +3301,7 @@
     "href": "slides/ch08/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\nLabour demand:\n\nIn the short run firms hire to the point where the wage equals the value of the marginal product\nIn the long run they minimize cost, and a wage change has scale and substitution effects\nLong-run demand is more elastic than short-run demand\nElasticity depends on substitutes, the elasticity of output demand, and the labour cost share\nQuasi-fixed costs make workers and hours imperfect substitutes, and explain overtime, labour hoarding, and segmented workforces"
+    "text": "Summary\n\n\nShort run:\n\nWith capital fixed, firms hire until \\(MRP_N = W\\). Product market power lowers \\(MRP_N\\), so firms hire less\n\nLong run:\n\nFirms find the cheapest mix where \\(MRTS = W/r\\), then choose output. A wage increase has a substitution and a scale effect; both cut labour, while capital can go either way\n\nShort run versus long run:\n\nThe long-run response is usually larger, because the firm can also substitute away from labour\n\n\nElasticity:\n\nFour Hicks-Marshall rules: substitutes, the supply of substitutes, demand for output, and labour’s share of cost. Most estimates are between 0 and −1\n\nWorkers versus hours:\n\nQuasi-fixed costs make adding workers costlier than adding hours. They help explain overtime, temp agencies and labour hoarding"
   },
   {
     "objectID": "slides/ch06/index.html#goals-of-this-section-1",
@@ -5161,21 +5161,36 @@
     "href": "content/ch08.html",
     "title": "Labour Demand",
     "section": "",
-    "text": "BFGLSS Chapter 8"
+    "text": "BFGLSS Chapter 8",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "8. Labour Demand"
+    ]
   },
   {
     "objectID": "content/ch08.html#readings",
     "href": "content/ch08.html#readings",
     "title": "Labour Demand",
     "section": "",
-    "text": "BFGLSS Chapter 8"
+    "text": "BFGLSS Chapter 8",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "8. Labour Demand"
+    ]
   },
   {
     "objectID": "content/ch08.html#slides",
     "href": "content/ch08.html#slides",
     "title": "Labour Demand",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "8. Labour Demand"
+    ]
   },
   {
     "objectID": "content/ch10.html",
@@ -10325,5 +10340,320 @@
     "title": "EC306 - Wages and Employment",
     "section": "iClicker Question",
     "text": "iClicker Question\nSuppose OAS were paid only to seniors who did no paid work at all. Compared with today’s OAS, which is most likely?\nA) No change in work, since the OAS amount is the same either way\nB) Some seniors who would have worked a few hours stop entirely, since a little work would cost them the whole OAS\nC) Fewer people working full time, but no change for people working a few hours\nD) Lower OAS spending, with no effect on anyone’s decision to work\nE) The same effect on work as today’s GIS clawback\n\nAnswer: B. Paying OAS only to people who don’t work puts a notch in the budget constraint: the first hour of work costs the whole OAS payment. Someone who wanted to work a few hours would lose more in OAS than they’d earn, so stopping entirely is better. It’s the 100% clawback of social assistance from Chapter 4, only steeper. C has it backwards: part-time workers lose the most relative to what they earn. E: the GIS takes back 50 cents per dollar, gradually; this takes everything at once. D: spending would fall, but behaviour changes too. For people who keep working, losing OAS removes its income effect, so they may work a little more than today, but the participation effect is the main one. Before 2012 the CPP had a milder rule like this, the work-cessation test: to start a pension before 65, you had to stop working, or nearly so, when you started it. Problem 3 is about a retirement test."
+  },
+  {
+    "objectID": "slides/ch08/index.html#labour-is-a-derived-demand",
+    "href": "slides/ch08/index.html#labour-is-a-derived-demand",
+    "title": "EC306 - Wages and Employment",
+    "section": "Labour Is a Derived Demand",
+    "text": "Labour Is a Derived Demand\n\nFirms don’t want workers for their own sake. They want what workers help produce\nDemand for construction workers comes from demand for new buildings, roads and bridges\n\n\n\n\n\n\n\nKey Definition\n\n\nDerived demand: demand for a factor of production (an input such as labour, machinery or energy) that comes from demand for the goods and services it helps produce\n\n\n\n\nFirms usually aim to maximize profit. Some instead produce a set level of output at the lowest cost\nWhat limits them:\n\nProduct demand: what consumers will buy, and at what price\nInput prices: what labour, capital and other inputs cost\nTechnology: the production function, which says how much output each mix of inputs makes\n\n\n\nThis is why labour demand depends so much on what is happening in product markets. When demand for cars falls, auto plants lay off workers even though nothing about the workers has changed.\nThe “set level of output at lowest cost” case is mostly the public sector: hospitals, schools, government departments. With output fixed, a wage increase has a substitution effect but no scale effect."
+  },
+  {
+    "objectID": "slides/ch08/index.html#short-run-long-run-and-wage-takers",
+    "href": "slides/ch08/index.html#short-run-long-run-and-wage-takers",
+    "title": "EC306 - Wages and Employment",
+    "section": "Short Run, Long Run, and Wage Takers",
+    "text": "Short Run, Long Run, and Wage Takers\n\n\n\n\n\n\nKey Definitions\n\n\nShort run: the period in which the firm has committed to its capital, such as a factory and its machines, so capital is fixed\nLong run: the period over which the firm can adjust all of its inputs, including capital\n\n\n\n\nHow much calendar time each one covers differs a lot across industries\nIn this chapter the labour market is perfectly competitive\n\nEach firm is too small to affect the wage, so it takes the market wage as given: it is a wage taker\nAs with labour supply, the aim is the link between the wage and the quantity of labour, other things held constant\n\nFirms that can set the wage, because they face an upward-sloping labour supply curve (monopsony), come in Chapter 12\n\n\nA coffee shop can add an espresso machine in a week. A steel mill or a mine takes years. The short run and long run are about what is fixed, not a set number of months."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-firms-short-run-problem",
+    "href": "slides/ch08/index.html#the-firms-short-run-problem",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Firm’s Short-Run Problem",
+    "text": "The Firm’s Short-Run Problem\n\n\n\n\n\n\nKey Definition\n\n\nShort run: the period in which the firm has committed to its capital, such as a factory and its machines, so capital is fixed\n\n\n\n\nOne firm makes one output, \\(Q\\), with two inputs, capital \\(K\\) and labour \\(N\\), using a production function:\n\n\\[Q = F(K, N)\\]\n\nMore of either input always raises output, but by less and less as you add more of it: diminishing marginal returns\nIn the short run capital is fixed at \\(K_0\\), so the only choice is \\(N\\)\n\nFor now, \\(N\\) is total hours: workers × average hours. Workers versus hours comes in the last section\n\nThe labour market is competitive: each firm takes the market wage as given, so it is a wage taker\nThe rule: keep adding labour as long as the next unit adds more to revenue than to costs\n\n\nThe production function is Equation 8.1. The rule is the familiar one from introductory micro, produce until marginal revenue equals marginal cost, applied to the labour input instead of output.\nThe long run, when the firm can adjust every input, capital included, comes in the next section. How much calendar time each covers differs a lot by industry: a coffee shop can add an espresso machine in a week, while a steel mill or a mine takes years. The short run and long run are about what is fixed, not a set number of months.\nFirms that can set the wage, because they face an upward-sloping labour supply curve (monopsony), come in Chapter 12.\nIn calculus terms, profit is π(N) = pF(K₀, N) − WN − rK₀. Setting dπ/dN = 0 gives p × MPP_N = W, which is where the next slide ends up. You won’t need the calculus."
+  },
+  {
+    "objectID": "slides/ch08/index.html#marginal-revenue-product-of-labour",
+    "href": "slides/ch08/index.html#marginal-revenue-product-of-labour",
+    "title": "EC306 - Wages and Employment",
+    "section": "Marginal Revenue Product of Labour",
+    "text": "Marginal Revenue Product of Labour\n\n\n\n\n\n\nKey Definitions\n\n\nMarginal physical product of labour (\\(MPP_N\\)): the extra output from one more unit of labour\nMarginal revenue product of labour (\\(MRP_N\\)): the extra revenue from one more unit of labour\n\n\n\n\n\\(MRP_N\\) multiplies the extra output by the extra revenue each unit of output brings, \\(MR_Q\\):\n\n\\[MRP_N = MR_Q \\times MPP_N = p \\times MPP_N\\]\n\nA firm that takes its output price as given gets \\(MR_Q = p\\) for every unit\n\\(MPP_N\\) falls as \\(N\\) rises because each worker has less capital to work with\n\nAdd diggers to a fence job without adding shovels, and each extra digger adds fewer post holes\n\n\n\n\n\n\n\n\nProfit-Maximizing Rule\n\n\nHire labour until \\(MRP_N = W\\). In a competitive labour market, one more unit of labour costs the wage\n\n\n\n\nEquation 8.2.\nNotation: this edition writes MPP_N for the marginal physical product, where older versions of these slides used MP_N, and it no longer uses the term “value of marginal product” (VMP). For a firm that takes its output price as given, MRP_N and VMP are the same thing."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-short-run-labour-demand-curve",
+    "href": "slides/ch08/index.html#the-short-run-labour-demand-curve",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Short-Run Labour Demand Curve",
+    "text": "The Short-Run Labour Demand Curve\n\n\n\n\n\nThe short-run demand curve is the falling part of the \\(MRP_N\\) curve\n\nAt \\(W_0\\) the firm hires \\(N_0\\); if the wage rises to \\(W_1\\), it cuts back to \\(N_1\\)\n\nIt slopes down because of diminishing marginal returns, not because later hires are worse workers\n\nEvery worker here is the same; each new one just has less capital to work with\n\nShut-down rule: if the wage is above the average revenue product, \\(ARP_N\\), at the best \\(N\\), revenue doesn’t cover variable costs and the firm closes, even in the short run\n\n\n\nThe book calls the “worse workers” explanation a common misconception. In real firms later hires may be less productive, but the model doesn’t need that to get a downward-sloping curve.\nMRP_N can rise at very low N, say when a machine runs best with two operators, so the demand curve is only the falling part. ARP_N is revenue per unit of labour, pQ/N. In the graph, W₁ is where MRP crosses ARP at its peak: at any higher wage, the wage is above revenue per worker and the firm is better off closing. Capital is already paid for in the short run, so it doesn’t enter the decision to operate."
+  },
+  {
+    "objectID": "slides/ch08/index.html#product-market-power",
+    "href": "slides/ch08/index.html#product-market-power",
+    "title": "EC306 - Wages and Employment",
+    "section": "Product Market Power",
+    "text": "Product Market Power\n\nLabour demand is derived from product demand, so the structure of the product market matters\nA firm with market power can raise its price without losing all its customers\n\nA patent keeps competitors out; a product people see as different keeps buyers loyal\nA monopolist, the only seller, is the extreme case\n\nTo sell one more unit it must cut the price on every unit it sells, so \\(MR_Q\\) is below \\(p\\), and falls as output rises\n\n\n\n\n\n\n\nExample\n\n\nA firm has to cut its price from $200 to $190 to sell an 11th unit\n\nThe 11th unit brings in $190\nThe first 10 units each bring in $10 less: −$100\nSo \\(MR_Q\\) = $190 − $100 = $90, well below the price\n\n\n\n\n\nThis assumes the firm can’t price discriminate, that is, charge different buyers different prices. If it could, it wouldn’t have to cut the price on the first 10 units."
+  },
+  {
+    "objectID": "slides/ch08/index.html#market-power-lowers-labour-demand",
+    "href": "slides/ch08/index.html#market-power-lowers-labour-demand",
+    "title": "EC306 - Wages and Employment",
+    "section": "Market Power Lowers Labour Demand",
+    "text": "Market Power Lowers Labour Demand\n\n\n\n\n\n\n\n\n\n\n\n\n\nA firm with market power, like a monopolist, must cut its price on every unit to sell one more, so \\(MR_Q &lt; p\\), and \\(MR_Q\\) falls as output rises\nSo \\(MRP_N = MR_Q \\times MPP_N\\) falls for two reasons, and is lower at every \\(N\\)\nAt the same wage the firm hires less labour, produces less, charges a higher price, and earns economic profit\n\n\n\n\n\n\n\nWarning\n\n\nLess competition in product markets means lower labour demand\n\n\n\n\n\nThe curves are made up for illustration. Output is Q = 20N^0.7. The competitive firm sells every unit at $10; the monopolist faces demand p = 10 − 0.01Q. At a wage of 60, the competitive firm hires about 17 units of labour and the monopolist about 9.\nIf product markets become less competitive over time, labour demand falls, which lowers wages and employment in the labour markets those firms hire in.\nWhy MR is below the price: a firm that has to cut its price from $200 to $190 to sell an 11th unit gains $190 on that unit but loses $10 on each of the first 10, so MR_Q = $190 − $100 = $90. Market power comes from things like a patent, or a product buyers see as different. This assumes the firm can’t price discriminate."
+  },
+  {
+    "objectID": "slides/ch08/index.html#two-steps-to-long-run-demand",
+    "href": "slides/ch08/index.html#two-steps-to-long-run-demand",
+    "title": "EC306 - Wages and Employment",
+    "section": "Two Steps to Long-Run Demand",
+    "text": "Two Steps to Long-Run Demand\n\n\n\n\n\n\nKey Definition\n\n\nLong run: the period over which the firm can adjust all of its inputs, including capital\n\n\n\n\nThe best amount of labour depends on how much capital the firm has, and the best amount of capital depends on how much labour it has\nSo the firm has to choose \\(K\\) and \\(N\\) together. We split that into two steps:\n\n\nCost minimization: find the cheapest mix of \\(K\\) and \\(N\\) that produces a given output, \\(Q_0\\)\nProfit maximization: choose the output level that maximizes profit\n\n\nTogether, the two steps show how long-run labour demand responds to the wage\nSame setup as before: two inputs, one output, a competitive labour market, identical workers\n\n\nFirms don’t literally decide in two steps. Splitting it up is just a way to solve a hard problem in pieces. Step 1 also matters on its own, because some organizations, like hospitals and school boards, really do take their output as given and only minimize cost."
+  },
+  {
+    "objectID": "slides/ch08/index.html#isoquants",
+    "href": "slides/ch08/index.html#isoquants",
+    "title": "EC306 - Wages and Employment",
+    "section": "Isoquants",
+    "text": "Isoquants\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nIsoquant: all the combinations of capital and labour that produce the same output\n\n\n\n\nIsoquants further from the origin mean more output: \\(Q_1 &gt; Q_0\\)\nLike indifference curves in Chapter 3, they show a third dimension, output, on a flat graph\nThe shape shows how easily capital and labour substitute for each other:\n\nLinear: perfect substitutes, e.g. a robot that always does exactly one worker’s job\nL-shaped: perfect complements, e.g. digging a hole takes one worker and one shovel\nIn between: most technologies, e.g. two diggers taking turns with one shovel\n\n\n\n\nThe L-shaped case is sometimes called Leontief technology. A second shovel does nothing without a second worker, and a second worker does nothing without a second shovel. In the in-between case, the second digger still adds something by taking turns, so less time is spent leaning on the shovel.\nThe everyday version: accountants with spreadsheets need fewer hours than accountants with calculators to do the same work. More capital, less labour, same output."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-marginal-rate-of-technical-substitution",
+    "href": "slides/ch08/index.html#the-marginal-rate-of-technical-substitution",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Marginal Rate of Technical Substitution",
+    "text": "The Marginal Rate of Technical Substitution\n\n\n\n\n\n\nKey Definition\n\n\nMarginal rate of technical substitution (MRTS): the slope of the isoquant; how much capital the firm can give up for one more unit of labour while keeping output the same\n\n\n\n\\[MRTS = \\frac{MPP_N}{MPP_K}\\]\n\nIf one more unit of labour adds as much output as 3 units of capital, the firm can give up 3 units of capital for it\nThe MRTS diminishes as you move down an isoquant\n\nSwapping labour in for capital lowers \\(MPP_N\\) and raises \\(MPP_K\\), so the ratio falls\n\nThe harder the inputs are to substitute, the faster the MRTS falls and the more curved the isoquant\n\nLinear isoquant: the MRTS never changes\nL-shaped isoquant: the MRTS jumps at the corner\n\n\n\nEquation 8.3. “Technical” separates it from the marginal rate of substitution along a consumer’s indifference curve in Chapter 3. Diminishing MRTS comes straight from diminishing marginal returns to each input.\nUp in the top-left of an isoquant, where capital is plentiful and labour scarce, it takes a lot of capital to replace a little labour. Down in the bottom-right, a little capital replaces a lot of labour."
+  },
+  {
+    "objectID": "slides/ch08/index.html#isocost-lines",
+    "href": "slides/ch08/index.html#isocost-lines",
+    "title": "EC306 - Wages and Employment",
+    "section": "Isocost Lines",
+    "text": "Isocost Lines\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nIsocost line: all the combinations of capital and labour that cost the firm the same amount\n\n\n\n\\[C = rK + WN \\quad\\Rightarrow\\quad K = \\frac{C}{r} - \\frac{W}{r}N\\]\n\n\\(W\\) is the wage. \\(r\\) is the price of capital, best thought of as its opportunity cost: what the owners could earn on their next-best investment\nSlope \\(= -W/r\\), the price of labour relative to capital\n\n\\(r = 100\\) and \\(W = 20\\): one more unit of capital costs the same as 5 units of labour, so the slope is \\(-0.2\\)\nIf \\(W\\) rises to 50, the slope is \\(-0.5\\): a higher wage makes the line steeper\n\nLines further out cost more: \\(C_1 &gt; C_0\\)\n\n\n\nEquation 8.4. Isocost lines are always straight, because the firm pays the same price for every unit of each input. If capital and financial markets are competitive, the firm has no more say over r than it does over W.\nThe graphs in this section label the wage with a small w. It’s the same W."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-cost-minimizing-mix-of-capital-and-labour",
+    "href": "slides/ch08/index.html#the-cost-minimizing-mix-of-capital-and-labour",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Cost-Minimizing Mix of Capital and Labour",
+    "text": "The Cost-Minimizing Mix of Capital and Labour\n\n\n\n\n\nTo make \\(Q_0\\) as cheaply as possible, find the point on the \\(Q_0\\) isoquant that sits on the lowest isocost line\nThat’s where the isocost line just touches the isoquant, at \\((K_0, N_0)\\)\nAny other point on \\(Q_0\\) is on a higher isocost line, so it costs more\n\n\n\n\n\n\n\nCost-Minimizing Condition\n\n\n\\[MRTS = \\frac{MPP_N}{MPP_K} = \\frac{W}{r}\\]\nThe rate at which the firm can swap capital for labour in production equals the rate at which the market swaps them\n\n\n\n\n\nEquation 8.5. Same logic as the consumer’s tangency in Chapter 3, with the isoquant in place of the indifference curve and the isocost line in place of the budget line.\nOne difference to keep in mind: a consumer’s budget is fixed, but a firm’s spending isn’t. It depends on how much the firm decides to produce."
+  },
+  {
+    "objectID": "slides/ch08/index.html#why-the-tangency-is-the-cheapest-point",
+    "href": "slides/ch08/index.html#why-the-tangency-is-the-cheapest-point",
+    "title": "EC306 - Wages and Employment",
+    "section": "Why the Tangency Is the Cheapest Point",
+    "text": "Why the Tangency Is the Cheapest Point\n\nRearrange the condition: \\(\\dfrac{MPP_N}{W} = \\dfrac{MPP_K}{r}\\)\n\nThe last dollar spent on each input must add the same output\n\nExample: \\(W = 20\\), \\(r = 100\\), \\(MPP_N = 5\\), \\(MPP_K = 10\\)\n\nA dollar on labour adds \\(5/20 = 0.25\\) units of output; a dollar on capital adds \\(10/100 = 0.10\\)\nMove $100 from capital to labour: lose 10 units of output, gain \\(5 \\times 5 = 25\\)\nSame cost, more output, so this mix wasn’t the cheapest way to make \\(Q_0\\)\nKeep shifting: \\(MPP_N\\) falls and \\(MPP_K\\) rises until the two ratios are equal\n\nThis condition gives labour demand for a given output\n\nIn the short run the rule was \\(MRP_N = W\\); here it’s \\(MPP_N / MPP_K = W/r\\)\nBoth tie what labour is paid to how productive it is\nThat’s why economists look first at productivity to explain why some workers earn more than others\n\n\n\nThis replaces the Cobb-Douglas cost-minimization derivation from older versions of these slides. You won’t need the Lagrangian. You do need to be able to explain why the firm moves toward the tangency.\nMoving $100 from capital buys one fewer unit of capital, which loses MPP_K = 10 units of output, and 5 more units of labour, each adding MPP_N = 5. The book calls this the firm’s conditional labour demand: conditional on producing Q₀. The next step drops that condition."
+  },
+  {
+    "objectID": "slides/ch08/index.html#a-wage-increase-makes-the-old-mix-too-expensive",
+    "href": "slides/ch08/index.html#a-wage-increase-makes-the-old-mix-too-expensive",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Wage Increase Makes the Old Mix Too Expensive",
+    "text": "A Wage Increase Makes the Old Mix Too Expensive\n\n\n\n\n\nThe wage rises from \\(W_0\\) to \\(W_1\\); the price of capital stays at \\(r_0\\)\nIsocost lines get steeper: the slope is now \\(-W_1/r_0\\)\nBuying the old mix \\((K_0, N_0)\\) now costs \\(C_1\\), more than \\(C_0\\)\nThe new isocost line isn’t tangent to the isoquant at that point, so it’s no longer the cheapest way to make \\(Q_0\\)\nAnd \\(Q_0\\) itself may no longer be the profit-maximizing output\nTwo questions: how much does the firm now produce, and with what mix?\n\n\n\nThis is panel (a) of the book’s Figure 8.3.\nWill total cost end up higher or lower? It could go either way. Producing less saves money, while the higher wage costs more. That’s another difference from the consumer, whose budget is fixed: a firm’s spending is chosen along with its output."
+  },
+  {
+    "objectID": "slides/ch08/index.html#a-wage-increase-lowers-output",
+    "href": "slides/ch08/index.html#a-wage-increase-lowers-output",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Wage Increase Lowers Output",
+    "text": "A Wage Increase Lowers Output\n\nSuppose the firm sells in a perfectly competitive product market\nA higher wage raises the firm’s marginal cost at every level of output\nAt the old price, the firm would cut output a lot, from \\(Q_0\\) to \\(Q_2\\), where \\(MC_1 = P_0\\)\nBut every firm in the industry faces the same wage, so they all cut back\n\nIndustry supply shifts left, and the price rises from \\(P_0\\) to \\(P_1\\)\nThe higher price makes back some of the cut: each firm ends up at \\(Q_1\\), between \\(Q_2\\) and \\(Q_0\\)\n\nNet result: a higher product price, and less output for the firm and the industry\nWith less competitive product markets the size of the effect changes, but not its direction\n\n\nDraw the book’s Figure 8.4(a) on the chalkboard: the firm on the left, with horizontal price lines at P₀ and P₁ and marginal cost curves MC₀ and MC₁; the industry on the right, with supply shifting from S₀ to S₁ along a downward-sloping demand curve.\nCorrection to the book: in Figure 8.4, the panel labelled “(a) Firm” holds both the firm and the industry graphs, and the panel labelled “(b) Industry” actually shows a firm with market power, with its own MR and demand curves. The caption doesn’t describe panel (b)."
+  },
+  {
+    "objectID": "slides/ch08/index.html#deriving-the-long-run-labour-demand-curve",
+    "href": "slides/ch08/index.html#deriving-the-long-run-labour-demand-curve",
+    "title": "EC306 - Wages and Employment",
+    "section": "Deriving the Long-Run Labour Demand Curve",
+    "text": "Deriving the Long-Run Labour Demand Curve\n\n\n\n\n\n\n\nA higher wage raises marginal cost, so the firm produces less. Prices rise a little as the whole industry cuts back, but output still falls\nAt \\(W_1\\) the firm moves to a lower isoquant, \\(Q_1\\), and picks the tangency with the steeper isocost line. It uses less labour: \\(N_1 &lt; N_0\\)\n\\((W_0, N_0)\\) and \\((W_1, N_1)\\) are two points on the long-run labour demand curve; other wages trace out the rest\nThe curve holds the price of capital, technology and product demand constant. A change in any of those shifts the whole curve\n\n\nThe output step is the book’s Figure 8.4, worth sketching on the chalkboard. At the old price P₀ the firm would cut output from Q₀ to Q₂, where MC₁ = P₀. But every firm faces the higher wage, so industry supply shifts left and the price rises to P₁, and each firm ends at Q₁, between Q₂ and Q₀. With less competitive product markets the size of the effect changes, not its direction. Correction to the book: in Figure 8.4 the panel labelled “(a) Firm” holds both the firm and the industry graphs, and the panel labelled “(b) Industry” actually shows a firm with market power.\nCorrection to the book: the text describing Figure 8.3(b) calls the new isoquant Q₂ in one sentence and Q₁ in the next. The figure labels it Q₁, as these slides do.\nWhat happens to capital? In this graph it rises, from K₀ to K₁. That isn’t guaranteed, as the next slide shows."
+  },
+  {
+    "objectID": "slides/ch08/index.html#substitution-and-scale-effects",
+    "href": "slides/ch08/index.html#substitution-and-scale-effects",
+    "title": "EC306 - Wages and Employment",
+    "section": "Substitution and Scale Effects",
+    "text": "Substitution and Scale Effects\n\n\n\n\n\n\n\n\n\n\nKey Definitions\n\n\nSubstitution effect: the change in labour from the change in relative input prices, with output held at \\(Q_0\\): \\(N_0 \\rightarrow N_S\\)\nScale effect: the change in labour from the change in output: \\(N_S \\rightarrow N_1\\)\n\n\n\n\nLabour: the substitution effect always cuts it, and the scale effect normally does too, so long-run labour demand slopes down\nCapital: the substitution effect raises it and the scale effect lowers it, so the net effect is ambiguous. In this graph it rises: \\(K_1 &gt; K_0\\)\n\n\n\nThese two effects are why long-run labour demand slopes down. When labour gets more expensive, firms switch toward the input that is now relatively cheaper, and they produce less because their costs went up.\nReading the graph: the substitution effect is the move along Q₀ to the point where the slope equals the new −W₁/r₀ (the blue line). The scale effect is the move from there to the new best point on Q₁ (the red line).\n“Normally”: the scale effect cuts labour when labour is a normal input, one the firm uses less of when output falls. Even if labour were an inferior input, the substitution effect would win (Nagatani 1978), so labour demand always slopes down. With more than two inputs, a wage increase can also cut the use of another input, which is then a price complement to labour rather than a price substitute. That idea comes back in Chapter 10."
+  },
+  {
+    "objectID": "slides/ch08/index.html#labour-falls-capital-could-go-either-way",
+    "href": "slides/ch08/index.html#labour-falls-capital-could-go-either-way",
+    "title": "EC306 - Wages and Employment",
+    "section": "Labour Falls; Capital Could Go Either Way",
+    "text": "Labour Falls; Capital Could Go Either Way\n\n\n\n\n\n\nKey Definitions\n\n\nNormal input: an input the firm uses less of when output falls\nInferior input: an input the firm uses more of when output falls\n\n\n\n\nLabour: the substitution effect always cuts labour when the wage rises\n\nIf labour is a normal input, the scale effect cuts it too, so the two effects reinforce each other\nEven if labour were inferior, the substitution effect wins (Nagatani 1978)\nSo labour demand slopes down in the short run and the long run: a true law of demand\n\nCapital: the two effects pull in opposite directions\n\nSubstitution effect: more capital, to replace the dearer labour. Scale effect: less capital, because output falls\nThe net effect is ambiguous. In the graph capital rises, \\(K_1 &gt; K_0\\)\n\nWith more than two inputs, a wage increase can cut the use of another input too. That input is then a price complement to labour, rather than a price substitute (Chapter 10)\n\n\nWith only two inputs, the substitution effect on the other input has to be positive: to keep making Q₀ with less labour, the firm must use more capital. With more inputs that’s no longer guaranteed. If machines and the technicians who run them are used together, a raise for technicians could reduce the demand for machines. That idea comes back in Chapter 10."
+  },
+  {
+    "objectID": "slides/ch08/index.html#short-run-and-long-run-responses",
+    "href": "slides/ch08/index.html#short-run-and-long-run-responses",
+    "title": "EC306 - Wages and Employment",
+    "section": "Short-Run and Long-Run Responses",
+    "text": "Short-Run and Long-Run Responses\n\n\n\n\n\nShort run: capital is fixed at \\(K_0\\), so there’s a scale effect but no substitution effect. The firm moves along \\(MRP(K = K_0)\\) from \\(N_0\\) to \\(N_0'\\)\nLong run: the firm also adjusts capital. In this graph it ends up with less, \\(K_1\\), so each worker is less productive and the short-run curve shifts left to \\(MRP(K = K_1)\\). Employment falls to \\(N_1\\)\nSo the long-run response is usually larger, and long-run demand more elastic\nBut not always: if the firm instead ends up with more capital, that raises \\(MPP_N\\) and softens the scale effect\n\nIn theory the long-run response could then be smaller. It’s unusual, but the book doesn’t rule it out\n\n\n\n\nThe graph shows the usual case. In the substitution-and-scale graph earlier, capital rose instead. Either can happen, and which way the short-run curve shifts depends on it.\nA caution if you go further in economics: for a single firm that takes both its output price and its input prices as given, a standard result (the Le Chatelier principle) says the long-run response can’t be smaller than the short-run one. So the book’s exception needs something extra, such as the output price changing too. Don’t lose sleep over it: the evidence later in this chapter finds long-run elasticities larger than short-run ones.\nOrganizations that minimize the cost of a fixed output, such as governments, Crown corporations, schools and hospitals, have a substitution effect but no scale effect. Their labour demand slopes down but is less elastic than a profit-maximizing firm’s. Their spending still rises with the wage, but by less than if they kept the old mix. Example: a hospital facing a raise for its cleaning staff can’t cut its patient load, but it can contract out the cleaning or buy floor-cleaning machines."
+  },
+  {
+    "objectID": "slides/ch08/index.html#labour-demand-under-cost-minimization",
+    "href": "slides/ch08/index.html#labour-demand-under-cost-minimization",
+    "title": "EC306 - Wages and Employment",
+    "section": "Labour Demand under Cost Minimization",
+    "text": "Labour Demand under Cost Minimization\n\nPrivate-sector firms are assumed to maximize profit\nMany organizations have other goals: governments, Crown corporations, schools, hospitals\n\nTheir output is set by budgets, mandates or politics\nBut they may still try to produce it at the lowest cost\n\nWith output fixed, a wage increase has a substitution effect only, and no scale effect\n\nTheir labour demand still slopes down, but it’s less elastic than a profit-maximizing firm’s\n\nTheir total spending still rises, but by less than if they kept the old mix of inputs\n\nIn the substitution-and-scale graph, that’s the move from \\(N_0\\) to \\(N_S\\) along \\(Q_0\\)\n\n\n\nIn the substitution-and-scale graph, the blue isocost line, tangent at N_S, cuts the vertical axis higher than the original line through N₀, so it costs more to make Q₀ at the new wage. But keeping the old mix would cost even more.\nExample: a hospital facing a raise for its cleaning staff can’t cut its patient load, but it can contract out the cleaning or buy floor-cleaning machines."
+  },
+  {
+    "objectID": "slides/ch08/index.html#why-the-elasticity-matters",
+    "href": "slides/ch08/index.html#why-the-elasticity-matters",
+    "title": "EC306 - Wages and Employment",
+    "section": "Why the Elasticity Matters",
+    "text": "Why the Elasticity Matters\n\n\n\n\n\n\n\n\n\n\n\n\n\nMinimum wages and pay equity laws push wages up. Theory says that costs jobs\nHow many depends on the elasticity of demand for labour\n\n\n\n\n\n\n\nKey Definition\n\n\nElasticity of demand for labour: the percentage change in labour demanded when the wage rises 1%: \\(\\%\\Delta N / \\%\\Delta W\\)\n\n\n\n\nIn the graph the wage rises 20%:\n\nLess elastic: employment falls 8%, an elasticity of −0.4\nMore elastic: employment falls 30%, an elasticity of −1.5\n\n\n\n\nPay equity laws require firms to pay equally productive women and men the same. There may be offsetting benefits of these policies that the simple model misses. Whether the job losses are worth it is a policy judgment, but you can’t make it without knowing the elasticity.\nFrom a common starting point, the steeper curve is the less elastic one. The numbers are my own example."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-hicks-marshall-rules",
+    "href": "slides/ch08/index.html#the-hicks-marshall-rules",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Hicks-Marshall Rules",
+    "text": "The Hicks-Marshall Rules\n\nWhat makes labour demand more or less elastic? Marshall set out four rules, which Hicks (1963) formalized\nEach one works through the substitution effect or the scale effect\n\n\n\n\n\n\n\n\n\nRule\nLabour demand is less elastic when…\nWorks mainly through\n\n\n\n\nAvailability of substitute inputs\nOther inputs are hard to substitute for labour\nSubstitution effect\n\n\nElasticity of supply of substitute inputs\nThe supply of those substitutes is inelastic\nSubstitution effect\n\n\nElasticity of demand for output\nDemand for the product is inelastic\nScale effect\n\n\nShare of labour costs in total costs\nLabour is a small share of total cost\nScale effect\n\n\n\n\nFlip each condition to get the cases where labour demand is more elastic\n\n\nThese are often called the Hicks-Marshall rules of derived demand. The next slide gives an example of each. When a union or a minimum wage law raises pay, these rules tell you where job losses will be small and where they’ll be large."
+  },
+  {
+    "objectID": "slides/ch08/index.html#availability-of-substitute-inputs",
+    "href": "slides/ch08/index.html#availability-of-substitute-inputs",
+    "title": "EC306 - Wages and Employment",
+    "section": "Availability of Substitute Inputs",
+    "text": "Availability of Substitute Inputs\n\nIf other inputs can’t easily replace labour, demand is inelastic\n\nIsoquants are very curved, so a change in relative prices barely changes the mix\nWith L-shaped isoquants, there’s no substitution at all\n\nWhy substitution can be hard:\n\nTechnology: some kinds of labour are essential to production\nInstitutions: a union contract may restrict outsourcing or labour-saving technology\nTime: in the short run, switching to cheaper inputs may not be possible\n\nRobots and AI now do tasks once done only by people, from building the walls of houses to lifting residents out of bed in nursing homes\n\nThat makes isoquants more linear and long-run labour demand more elastic (Chapter 10)\n\n\n\nJobs that are truly essential to production are getting rarer in every sector. That’s a big part of the story in Chapter 10."
+  },
+  {
+    "objectID": "slides/ch08/index.html#how-substitutable-are-workers",
+    "href": "slides/ch08/index.html#how-substitutable-are-workers",
+    "title": "EC306 - Wages and Employment",
+    "section": "How Substitutable Are Workers?",
+    "text": "How Substitutable Are Workers?\n\nThe substitutes for a worker include other workers, not just machines\n\nPilots and flight attendants share a workplace, but a flight attendant can’t fly the plane\nIn retail or fast food, managers often come up through the ranks and are easier to replace\n\nJäger & Heining (2022): use the unexpected death of an employee as a natural experiment\n\nCan the firm cover the job with existing coworkers, or must it hire someone new?\n\nFindings:\n\nFirms usually hire a new worker into the same job, so coworkers are poor substitutes\nFirms also raise the pay of the remaining coworkers, to keep them while they cover some of the work. The raises are largest in similar jobs, like an assistant manager covering for a manager\n\n\n\n\n\n\n\n\nTakeaway\n\n\nThere is some substitution among coworkers, but it’s imperfect, so labour demand is relatively inelastic\n\n\n\n\nThis is the book’s Exhibit 8.1. A death is a surprise to the firm and isn’t caused by anything else going on there, which is what makes it a good natural experiment.\nThe chapter text dates the study 2019; the book’s reference list gives the 2022 NBER working paper, which is the version cited here."
+  },
+  {
+    "objectID": "slides/ch08/index.html#supply-of-substitutes-and-demand-for-output",
+    "href": "slides/ch08/index.html#supply-of-substitutes-and-demand-for-output",
+    "title": "EC306 - Wages and Employment",
+    "section": "Supply of Substitutes and Demand for Output",
+    "text": "Supply of Substitutes and Demand for Output\n\n\nElasticity of supply of substitute inputs\n\nIf many firms switch to the same substitute, they bid up its price\nIf its supply is inelastic, the price rises a lot, which chokes off substitution\nExample: a patented robot made by one supplier that can’t scale up production quickly\nSo inelastic supply of substitutes means inelastic labour demand\n\n\nElasticity of demand for output\n\nA wage increase raises costs and prices, and cuts output\nIf product demand is inelastic, firms pass costs on to consumers without losing many sales: a small scale effect, and inelastic labour demand\nLikely inelastic: nonresidential construction where zoned land is scarce; tariff-protected industries; public services with few alternatives\nLikely elastic: clothing and personal computers, where competing products are everywhere\n\n\n\nThe construction example: if commercially zoned lots are scarce, builders face little competition, so higher construction wages show up as higher prices rather than fewer projects."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-importance-of-being-unimportant",
+    "href": "slides/ch08/index.html#the-importance-of-being-unimportant",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Importance of Being Unimportant",
+    "text": "The Importance of Being Unimportant\n\nIf labour is a small share of total costs, a raise barely moves total cost\n\nOutput hardly changes, so the scale effect is small and labour demand is inelastic\nThe firm can absorb the cost or pass it on to consumers\n\nSmall share: airline pilots; cleaning staff at a large bank\n\nTheir raises barely matter to the employer, so the threat of job loss does little to hold back their wage demands\n\nLarge share: government workers; university faculty\n\nPay is most of what it costs to run a ministry or a university, so demand is more elastic, and that may hold back wage demands\n\n\n\n\n\n\n\n\nThe Fine Print\n\n\nHicks (1963) showed this rule holds only when consumers can switch away from the product more easily than the firm can switch away from labour: the elasticity of demand for output must exceed the elasticity of substitution between inputs\n\n\n\n\nThe name is a joke. Being an unimportant part of costs is important for bargaining power."
+  },
+  {
+    "objectID": "slides/ch08/index.html#estimates-of-the-elasticity-of-labour-demand",
+    "href": "slides/ch08/index.html#estimates-of-the-elasticity-of-labour-demand",
+    "title": "EC306 - Wages and Employment",
+    "section": "Estimates of the Elasticity of Labour Demand",
+    "text": "Estimates of the Elasticity of Labour Demand\nMost estimates lie between 0 and −1: labour demand is inelastic, but it clearly slopes down\n\n\nHamermesh’s range comes from his review of mostly US private-sector studies, and −0.30 is his best guess. Lichter et al.’s point is the median of 151 studies, 87% of which fall between 0 and −1. Beaudry et al.’s city-industry estimate is plotted at −1; the book describes it as close to −1. Gordon reports a range, not a single estimate.\nWhat the studies say. Hamermesh (1993): a best guess of −0.30, about half from the substitution effect and half from the scale effect. Lichter et al. (2015), a meta-analysis of 151 studies: a median of −0.55, with elasticities growing over time (consistent with labour-saving technology), smaller for more skilled labour, and larger in the long run than the short run. Beaudry, Green and Sand (2018): −0.3 across cities but close to −1 for one industry within a city, because the other industries keep hiring at the old wage; they put it down to how hard it is to find workers in a tight market. Canada: Gordon (1996), −0.1 to −0.3 for all of manufacturing, 1961–1986; Card (1990), −0.62 in unionized manufacturing contracts; Currie (1991), about −0.55 for Ontario school teachers."
+  },
+  {
+    "objectID": "slides/ch08/index.html#what-the-evidence-shows",
+    "href": "slides/ch08/index.html#what-the-evidence-shows",
+    "title": "EC306 - Wages and Employment",
+    "section": "What the Evidence Shows",
+    "text": "What the Evidence Shows\n\nHamermesh (1993): a best guess of −0.30, so a 1% raise cuts employment by about a third of 1%\n\nAbout half of that comes from the substitution effect and half from the scale effect\n\nLichter et al. (2015): a meta-analysis, which pools the results of 151 studies\n\nMedian −0.55, with 87% of estimates between 0 and −1\nElasticities have grown over time, consistent with labour-saving technology\nSmaller for more skilled labour; larger in the long run than the short run\n\nBeaudry et al. (2018): −0.3 for employment across cities, but close to −1 for one industry within a city\n\nRaise wages in one industry while the others keep hiring at the old wage, and that industry loses more workers\n\nCanada: similar results\n\nGordon (1996): −0.1 to −0.3 for all of manufacturing, 1961–1986\nCard (1990): −0.62 in unionized manufacturing, from contract-level data\nCurrie (1991): about −0.55 for Ontario school teachers\n\n\n\nDifferent countries, industries, technologies and decades, and yet the estimates paint a remarkably consistent picture.\nBeaudry, Green and Sand put their result down to how hard it is to find workers in a tight labour market. That’s a search problem, which the book takes up much later."
+  },
+  {
+    "objectID": "slides/ch08/index.html#workers-and-hours-are-not-the-same",
+    "href": "slides/ch08/index.html#workers-and-hours-are-not-the-same",
+    "title": "EC306 - Wages and Employment",
+    "section": "Workers and Hours Are Not the Same",
+    "text": "Workers and Hours Are Not the Same\n\nSo far, more hours from existing workers and more workers were the same thing. Two reasons they aren’t:\nIn production: they’re imperfect substitutes\n\nTo add 40 hours a week, a firm could give 5 workers an extra 8-hour Saturday shift, or hire one new full-time worker\nTired workers favour the new hire; learning by doing favours the experienced ones\n\nIn costs:\n\nVariable costs rise with total hours, however they’re added: wages, and benefits set as a share of pay, like pension contributions or vacation pay\nOther costs come per worker\n\n\n\n\n\n\n\n\nKey Definition\n\n\nQuasi-fixed costs: labour costs paid per employee that don’t depend, or barely depend, on hours worked. They’re pure if completely independent of hours, and mixed if they rise with both workers and hours, but not equally\n\n\n\n\nEither way, quasi-fixed costs make changing the number of workers relatively costly compared with changing hours."
+  },
+  {
+    "objectID": "slides/ch08/index.html#hiring-as-an-investment",
+    "href": "slides/ch08/index.html#hiring-as-an-investment",
+    "title": "EC306 - Wages and Employment",
+    "section": "Hiring as an Investment",
+    "text": "Hiring as an Investment\n\nQuasi-fixed costs raise the cost of adding a worker compared with having existing workers put in more hours\n\n\n\n\n\n\n\nKey Definitions\n\n\nExtensive margin of adjustment: changing the number of workers\nIntensive margin of adjustment: changing hours per worker\n\n\n\n\nFirms want to spread fixed costs over as many hours and years as possible, especially for skilled workers, whose training costs the most\nA firm hires until the present value of what a new worker adds equals the present value of what they cost:\n\n\\[H + \\sum_{t=0}^{T} \\frac{W_t}{(1+r)^t} = \\sum_{t=0}^{T} \\frac{MRP_t}{(1+r)^t}\\]\n\n\\(H\\) is the hiring cost, including training, paid when the worker starts (\\(t = 0\\)); \\(r\\) is the discount rate; \\(T\\) is how long the worker is expected to stay\n\n\nEquation 8.6. Like any investment: hire if the present value of the returns at least covers the present value of the costs. The new worker doesn’t have to pay for themselves every period, only over the whole time they’re expected to stay. Present value works just as it did in Chapter 6.\nCareful: r here is the firm’s discount rate, not the price of capital from the isocost line. Older versions of these slides split hiring and training into H and T; this edition folds both into H."
+  },
+  {
+    "objectID": "slides/ch08/index.html#what-the-hiring-condition-implies",
+    "href": "slides/ch08/index.html#what-the-hiring-condition-implies",
+    "title": "EC306 - Wages and Employment",
+    "section": "What the Hiring Condition Implies",
+    "text": "What the Hiring Condition Implies\n\nHiring depends on expectations: how long the worker will stay, future wages, and future demand for the product\nTo pay back \\(H\\), a worker’s \\(MRP\\) has to be above the wage in most future periods:\n\n\\[\\sum_{t=0}^{T} \\frac{MRP_t}{(1+r)^t} &gt; \\sum_{t=0}^{T} \\frac{W_t}{(1+r)^t}\\]\n\nExample, with no discounting: hiring cost $12,000; wage $50,000 a year; \\(MRP\\) $56,000 a year\n\n\n\n\n\n\n\n\n\n\n\nExpected tenure\nHiring cost\nTotal wages\nTotal MRP\nProfit from the hire\n\n\n\n\n1 year\n$12,000\n$50,000\n$56,000\n−$6,000\n\n\n2 years\n$12,000\n$100,000\n$112,000\n$0\n\n\n3 years\n$12,000\n$150,000\n$168,000\n$6,000\n\n\n4 years\n$12,000\n$200,000\n$224,000\n$12,000\n\n\n\n\nThe firm won’t fill a job it expects to last less than 2 years. Discounting pushes that point out further\n\n\nEquation 8.7. The table is my own example.\nCorrection to the book: the text says the hiring costs are on the left-hand side of Equation 8.7, but H doesn’t appear in 8.7. It’s what 8.6 implies when H is positive.\nThat gap between MRP and the wage comes back when we get to layoffs: it’s what protects workers when demand drops."
+  },
+  {
+    "objectID": "slides/ch08/index.html#overtime-outsourcing-and-gig-work",
+    "href": "slides/ch08/index.html#overtime-outsourcing-and-gig-work",
+    "title": "EC306 - Wages and Employment",
+    "section": "Overtime, Outsourcing, and Gig Work",
+    "text": "Overtime, Outsourcing, and Gig Work\n\nQuasi-fixed costs help explain several things we see in labour markets\nOvertime: firms pay time-and-a-half for extra hours instead of hiring, because a new hire brings hiring and training costs\nTemporary help agencies and outsourcing: the agency or contractor does the hiring and training, so firms skip quasi-fixed costs for short spells. Canada’s employment services industry grew 10.6% a year from 1991 to 2015, against 2.1% for all jobs\nThe gig economy: Uber’s drivers are generally treated as independent contractors, not employees\n\nNo hiring costs or benefits, and the drivers supply the capital: their own cars\nMore on the gig economy in Chapter 10\n\n\n\nCloser to home: Laurier doesn’t employ most of the people who clean its buildings. It contracts with a cleaning company, which carries the hiring, training and benefit costs.\nTemp agencies are the book’s Exhibit 8.2. In 2019, 208,000 Canadians (1.2% of the workforce) and 3.6 million Americans (2.4%) worked for employment services firms, mostly temp agencies. Houseman (2001) lists the reasons firms give: filling a vacancy until a permanent hire starts, covering for an absent employee, extra help when business picks up unexpectedly, and saving on wage and benefit costs. All of them tie back to quasi-fixed costs: for a short spell, paying full hiring and training costs doesn’t pay. The limit is that a firm that needs a stable, loyal workforce can’t rely on temps for everything."
+  },
+  {
+    "objectID": "slides/ch08/index.html#temporary-help-agencies",
+    "href": "slides/ch08/index.html#temporary-help-agencies",
+    "title": "EC306 - Wages and Employment",
+    "section": "Temporary Help Agencies",
+    "text": "Temporary Help Agencies\n\nMore people work through temporary help agencies and other nonstandard arrangements\n\n2019: 208,000 Canadians (1.2% of the workforce) and 3.6 million Americans (2.4%) worked for employment services firms, mostly temp agencies\nJobs in those firms grew 10.6% a year in Canada from 1991 to 2015, against 2.1% for all jobs\n\nHouseman (2001): the reasons firms give\n\nFilling a vacancy until a permanent hire starts; covering for an absent employee\nExtra help when business picks up unexpectedly; saving on wage and benefit costs\n\nAll of these tie back to quasi-fixed costs. For a short spell, paying full hiring and training costs doesn’t pay (Equation 8.6)\n\nThe agency does the hiring and training, so agencies are a market response to quasi-fixed costs\nTemp workers also don’t get the benefits regular employees get\n\nThe limit: a firm that needs a stable, loyal, productive workforce can’t rely on temps for everything\n\n\nThis is the book’s Exhibit 8.2."
+  },
+  {
+    "objectID": "slides/ch08/index.html#layoffs-and-labour-hoarding",
+    "href": "slides/ch08/index.html#layoffs-and-labour-hoarding",
+    "title": "EC306 - Wages and Employment",
+    "section": "Layoffs and Labour Hoarding",
+    "text": "Layoffs and Labour Hoarding\n\n\n\nSource: Benjamin et al. (2026), Figure 8.7\n\n\n\n\n\n\n\nKey Definition\n\n\nLabour hoarding: keeping workers on the payroll through a downturn even though current output doesn’t need them\n\n\n\n\n(a) No hiring costs: the firm hires where \\(MRP = W_0\\). When demand falls to \\(MRP_1\\), it lays workers off\n(b) Hiring cost \\(H\\): the firm hires only where \\(MRP - H = W_0\\), so at \\(N_0\\) the worker’s \\(MRP_0\\) is above \\(W_0\\) by a buffer\n\\(H\\) is already spent, so when demand falls to \\(MRP_1\\) the firm keeps all \\(N_0\\) workers as long as \\(MRP_1\\) still covers \\(W_0\\)\nSkilled workers cost more to hire and train, so they have a bigger buffer and lower layoff rates\n\n\n\nThe hiring cost is a sunk cost: it can’t be recovered, so it shouldn’t drive the layoff decision. What matters is whether keeping the worker is worth more than letting them go, given what it would cost to hire someone again once demand recovers. Hoarding is most likely when the drop looks temporary, or when laid-off workers might not be available to recall.\nRead panel (a) as low-skilled workers and panel (b) as high-skilled workers. Correction to the book: the caption of Figure 8.7 states the condition for keeping employment at N₀ in a garbled form, with MRP₁ on both sides. The point is that employment stays at N₀ as long as MRP₁ at N₀ still covers W₀.\nCOVID-19 (the book’s Exhibit 8.3): Canadians aged 20–64 absent from their job rose from 1.3 million in February 2020 to over 3 million in April 2020, so firms were hoarding close to 2 million workers, and most were recalled in the following months (Lemieux et al. 2020). The Canada Emergency Wage Subsidy covered up to 75% of wages for employers whose revenue fell at least 30% (the test was lower for March 2020 and later moved to a sliding scale). Other evidence is indirect: productivity usually falls in recessions, which diminishing returns wouldn’t predict unless firms hold on to workers, and Aizcorbe (1992) finds that US car plants in 1978–1985 kept up to 5% more workers than production needed.\nQuasi-fixed costs also help explain segmentation: a protected sector with stable jobs and an unprotected sector that sheds workers in downturns, because trained insiders aren’t interchangeable with outsiders. Firms that avoid hiring may also push for longer hours and harder work; big law firms work associates very long hours instead of hiring more, because a new associate is so expensive to recruit and train. Work sharing, a four-day week at the same output, needs 25% more workers, so it adds quasi-fixed costs and employers resist. Correction to the book: it says 20%, but going from five days to four cuts each worker’s hours by 20%, so covering the same hours takes 5/4 = 1.25 times as many workers. (New hires would be 20% of the larger workforce.)"
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-hiring-cost-buffer",
+    "href": "slides/ch08/index.html#the-hiring-cost-buffer",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Hiring-Cost Buffer",
+    "text": "The Hiring-Cost Buffer\n\n\n\nSource: Benjamin et al. (2026), Figure 8.7\n\n\n(a) No fixed costs: the firm hires where \\(MRP = W_0\\), at \\(N_0^*\\). When demand falls to \\(MRP_1\\), employment falls to \\(N_0^1\\)\n(b) Hiring cost \\(H\\): the firm hires only where \\(MRP - H = W_0\\), at \\(N_0\\), fewer than \\(N_0^*\\)\n\nAt \\(N_0\\), \\(MRP_0\\) is above \\(W_0\\) by the buffer\nWhen demand falls to \\(MRP_1\\), the firm keeps all \\(N_0\\) workers as long as \\(MRP_1\\) at \\(N_0\\) is still at least \\(W_0\\)\n\\(H\\) is already spent, so it no longer enters the layoff decision\n\nRead panel (a) as low-skilled workers and panel (b) as high-skilled workers: higher hiring costs, a bigger buffer, fewer layoffs\n\n\n\nCorrection to the book: the caption of Figure 8.7 states the condition for keeping employment at N₀ in a garbled form, with MRP₁ on both sides. The point is that employment stays at N₀ as long as MRP₁ at N₀ still covers W₀, because the hiring cost can’t be recovered."
+  },
+  {
+    "objectID": "slides/ch08/index.html#labour-hoarding-in-the-covid-19-crisis",
+    "href": "slides/ch08/index.html#labour-hoarding-in-the-covid-19-crisis",
+    "title": "EC306 - Wages and Employment",
+    "section": "Labour Hoarding in the COVID-19 Crisis",
+    "text": "Labour Hoarding in the COVID-19 Crisis\n\nMost evidence of labour hoarding is indirect:\n\nSkilled workers are less likely to be unemployed, but they may just work in firms the business cycle hits less\nProductivity usually falls in recessions. With diminishing returns it should rise as firms cut labour, unless firms are holding on to workers with little to do\n\nAizcorbe (1992): US car assembly plants, 1978–1985, kept up to 5% more workers than their production needed\nCOVID-19: Canadians aged 20–64 absent from their job rose from 1.3 million in February 2020 to over 3 million in April 2020\n\nFirms were hoarding close to 2 million workers. Employment fell enormously (Lemieux et al. 2020), but most of those out of work were recalled in the following months\n\nPolicy: the UK, Denmark and Canada paid wage subsidies to keep workers on payrolls\n\nThe Canada Emergency Wage Subsidy (CEWS) covered up to 75% of wages for employers whose revenue fell at least 30%\n\n\n\nThis is the book’s Exhibit 8.3. The absence counts come from the Labour Force Survey. If quasi-fixed costs didn’t matter, firms would have had little reason to keep that many people attached to their jobs.\nThe CEWS revenue test was lower for March 2020, and the program later moved to a sliding scale."
+  },
+  {
+    "objectID": "slides/ch08/index.html#segmentation-effort-and-work-sharing",
+    "href": "slides/ch08/index.html#segmentation-effort-and-work-sharing",
+    "title": "EC306 - Wages and Employment",
+    "section": "Segmentation, Effort, and Work Sharing",
+    "text": "Segmentation, Effort, and Work Sharing\n\nSegmentation: quasi-fixed costs can split the labour market in two\n\nA protected sector, where jobs are stable over the business cycle\nAn unprotected sector, where firms shed workers in downturns\nOnce trained, insiders aren’t interchangeable with otherwise identical outsiders, so outsiders struggle to get in\n\nMore from existing workers: firms that avoid hiring may push for longer hours, and for harder work, a greater intensity of effort\n\nLike labour supply, labour demand has a quantity and a quality dimension\n\nWork sharing: a four-day week at the same output needs 25% more workers\n\nEven at the same wage, those new hires bring quasi-fixed costs, so labour costs rise and employers resist\n\n\n\nBig law firms are a good example of the intensive margin. They work associates very long hours instead of hiring more associates, because recruiting and training a new associate is so expensive.\nCorrection to the book: it says moving to a four-day week while keeping production would require hiring 20 percent more workers. Going from five days to four cuts each worker’s hours by 20%, so covering the same total hours takes 5/4 = 1.25 times as many workers: 25% more. (New hires would make up 20% of the larger workforce.)"
+  },
+  {
+    "objectID": "slides/ch08/index.html#references",
+    "href": "slides/ch08/index.html#references",
+    "title": "EC306 - Wages and Employment",
+    "section": "References",
+    "text": "References\n\nAizcorbe, A. (1992). Procyclical labour productivity, increasing returns to labour and labour hoarding in car assembly plant employment. Economic Journal, 102(413), 860–873.\nBeaudry, P., Green, D. A., & Sand, B. M. (2018). In search of labor demand. American Economic Review, 108(9), 2714–2757.\nBenjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., & Skuterud, M. (2026). Labour Market Economics, 2026 Release. McGraw Hill. Chapter 8 and figure bank.\nCanada Revenue Agency. (2026). EI premium rates and maximums. canada.ca.\nCard, D. (1990). Unexpected inflation, real wages, and employment determination in union contracts. American Economic Review, 80(4), 669–688.\nCurrie, J. (1991). Employment determination in a unionized public-sector labor market: The case of Ontario’s school teachers. Journal of Labor Economics, 9(1), 45–66.\nGordon, S. (1996). Using mixtures of flexible forms to estimate factor demand elasticities. Canadian Journal of Economics, 29, 717–736."
+  },
+  {
+    "objectID": "slides/ch08/index.html#references-cont.",
+    "href": "slides/ch08/index.html#references-cont.",
+    "title": "EC306 - Wages and Employment",
+    "section": "References (cont.)",
+    "text": "References (cont.)\n\nHamermesh, D. S. (1993). Labor demand. Princeton University Press.\nHicks, J. R. (1963). The theory of wages (2nd ed.). Macmillan.\nHouseman, S. N. (2001). Why employers use flexible staffing arrangements: Evidence from an establishment survey. Industrial and Labor Relations Review, 55(1), 149–170.\nJäger, S., & Heining, J. (2022). How substitutable are workers? Evidence from worker deaths. NBER Working Paper No. 30629.\nLemieux, T., Milligan, K., Schirle, T., & Skuterud, M. (2020). Initial impacts of the COVID-19 pandemic on the Canadian labour market. Canadian Public Policy, 46(S1), S55–S65.\nLichter, A., Peichl, A., & Siegloch, S. (2015). The own-wage elasticity of labor demand: A meta-regression analysis. European Economic Review, 80, 94–119.\nNagatani, K. (1978). Substitution and scale effects in factor demands. Canadian Journal of Economics, 11(3), 521–527."
+  },
+  {
+    "objectID": "slides/ch08/index.html#iclicker-question",
+    "href": "slides/ch08/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA bakery sells bread in a competitive market. Demand for bread falls, and the price drops from $5 to $4 a loaf. The wage and the bakery’s equipment don’t change. The bakery’s short-run labour demand curve:\nA) Doesn’t change, because the wage didn’t change\nB) Shifts left, because each worker’s marginal revenue product falls\nC) Shifts left, because each worker now produces fewer loaves\nD) Stays put, and the bakery moves down along it to fewer workers\nE) Shifts right, because the bakery must sell more loaves to cover its costs\n\nAnswer: B. Labour demand is a derived demand: MRP_N = p × MPP_N, and p fell by 20%, so what each worker adds to revenue falls by 20% at every N. The curve shifts left, and at the same wage the bakery hires fewer bakers.\nC is the tempting one. The bakers make just as many loaves as before, so their marginal physical product hasn’t changed; what changed is what each loaf is worth. D confuses a shift with a movement along the curve: moving along it takes a change in the wage. A: the curve says how many workers the firm wants at each wage, and that changed even though the wage didn’t. E has it backwards: a lower price makes each extra loaf less worth producing, not more."
+  },
+  {
+    "objectID": "slides/ch08/index.html#iclicker-question-1",
+    "href": "slides/ch08/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAt a firm’s current mix of inputs, \\(MPP_N = 8\\) and \\(MPP_K = 20\\). The wage is \\(W = 25\\) and the price of capital is \\(r = 50\\). To make the same output for less, the firm should:\nA) Use more labour and less capital, because labour is the cheaper input\nB) Use more capital and less labour, because capital’s marginal product is higher\nC) Use more capital and less labour, because the last dollar spent on capital adds more output\nD) Keep its current mix, because it is already producing that output\nE) Use more labour and less capital, because the MRTS (0.4) is below \\(W/r\\) (0.5)\n\nAnswer: C. A dollar on labour adds 8/25 = 0.32 units of output; a dollar on capital adds 20/50 = 0.40. Moving spending from labour to capital makes the same output for less, and the firm keeps moving until the two ratios are equal.\nA compares only prices: labour is cheaper per unit, but it’s also less productive. B compares only marginal products and gets the direction right by luck. If r were 100, capital would add 20/100 = 0.20 per dollar, and the firm should use more labour despite capital’s higher MPP. E has the right comparison but reads it backwards: MRTS = MPP_N/MPP_K = 0.4 is below W/r = 0.5, so labour’s productivity relative to capital is lower than its price relative to capital, and the firm should use less labour. D: producing Q₀ isn’t enough; it has to be the cheapest way to produce it."
+  },
+  {
+    "objectID": "slides/ch08/index.html#iclicker-question-2",
+    "href": "slides/ch08/index.html#iclicker-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAfter a minimum wage increase, a burger chain (a) installs ordering kiosks and (b) closes some locations, because its higher prices cut its sales. These are:\nA) (a) the substitution effect, (b) the scale effect\nB) (a) the scale effect, (b) the substitution effect\nC) Both substitution effects\nD) Both scale effects\nE) (a) the substitution effect, (b) the income effect\n\nAnswer: A. Kiosks replace workers with capital because labour got more expensive relative to capital. That’s the substitution effect, which holds output fixed. Closing locations because higher costs pushed prices up and sales down is the scale effect.\nE carries the income effect over from labour supply. Firms don’t have one; the closest thing is the scale effect, which works through output rather than income. B swaps the two definitions."
+  },
+  {
+    "objectID": "slides/ch08/index.html#iclicker-question-3",
+    "href": "slides/ch08/index.html#iclicker-question-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich group of workers likely faces the least elastic labour demand?\nA) Sewing-machine operators at a clothing maker that competes with imports\nB) Cashiers at a grocery chain that can install self-checkouts\nC) Call-centre agents, whose wages are 70% of the firm’s costs\nD) Maintenance electricians at an oil refinery\nE) Warehouse pickers whose firm can lease picking robots from many competing suppliers\n\nAnswer: D. Every Hicks-Marshall rule points toward inelastic demand for refinery electricians. They’re essential and hard to replace. Labour is a tiny share of a refinery’s costs next to crude oil. And demand for gasoline is inelastic, at least in the short run.\nEach other option breaks one rule. A: demand for the product is elastic, because imports are close substitutes. B: a substitute for labour is available. C: labour is a large share of costs, so a raise moves total costs, prices and output a lot. E: the substitute is in elastic supply, so firms can switch to it without bidding up its price."
+  },
+  {
+    "objectID": "slides/ch08/index.html#iclicker-question-4",
+    "href": "slides/ch08/index.html#iclicker-question-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province requires employers to provide dental coverage costing $2,000 per employee per year, whatever hours the employee works. To produce the same output, firms will most likely:\nA) Use fewer workers, each working longer hours\nB) Use more part-time workers, to spread the cost across more people\nC) Keep the same workers and hours, because labour costs rise either way\nD) Cut every worker’s hours, because the coverage raises the cost of each hour worked\nE) Lay off their most experienced workers, because they cost the most\n\nAnswer: A. The coverage is a quasi-fixed cost: it’s paid per worker, not per hour. That raises the cost of adding workers relative to adding hours, so firms shift toward the intensive margin: fewer workers, longer hours, more overtime.\nD treats it as a variable cost, but an extra hour from an existing worker costs exactly what it did before. B gets it backwards: more people means paying the $2,000 more times, which is why part-time workers become relatively expensive. C misses that the cost rises only with the number of workers. E: the coverage costs the same for every worker whatever their pay, and experienced workers carry more sunk hiring and training costs, so they’re the last ones a firm wants to lose."
+  },
+  {
+    "objectID": "slides/ch08/index.html#the-rules-in-practice",
+    "href": "slides/ch08/index.html#the-rules-in-practice",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Rules in Practice",
+    "text": "The Rules in Practice\n\nSubstitutes: labour is hard to replace when it’s essential to production, when a union contract limits outsourcing or new technology, or in the short run. Robots and AI make it easier to replace, which makes demand more elastic (Chapter 10)\nSupply of substitutes: a patented robot made by one supplier that can’t scale up gets more expensive as firms switch to it, which limits substitution\nDemand for output: where buyers have few alternatives, like construction on scarce zoned land, tariff-protected industries or public services, firms pass higher costs on and lose few sales. Clothing and computers are the opposite\nLabour’s share of cost: a raise for airline pilots or a bank’s cleaners barely moves total cost, so their demand is inelastic. For government workers and university faculty, pay is most of the cost, so demand is more elastic\n\n\nThe share rule is sometimes called “the importance of being unimportant”: being a small part of costs gives workers bargaining power, because the threat of job loss does little to hold back their wage demands. Hicks (1963) showed it holds only when consumers can switch away from the product more easily than the firm can switch away from labour, that is, when the elasticity of demand for output exceeds the elasticity of substitution between inputs.\nEvidence on substitutes (the book’s Exhibit 8.1): Jäger and Heining (2022) use the unexpected death of an employee as a natural experiment. Firms usually hire a replacement into the same job rather than spread the work across coworkers, and they raise the pay of the remaining coworkers, most in similar jobs. Workers are imperfect substitutes, so labour demand is relatively inelastic. The chapter text dates the study 2019; the book’s reference list gives the 2022 NBER working paper.\nThe construction example: if commercially zoned lots are scarce, builders face little competition, so higher construction wages show up as higher prices rather than fewer projects."
   }
 ]
