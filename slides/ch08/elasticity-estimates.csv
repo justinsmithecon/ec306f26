@@ -1,0 +1,8 @@
+study,group,setting,low,high,point
+Hamermesh (1993),Other countries,"Review, mostly US private sector",-0.75,-0.15,-0.30
+Lichter et al. (2015),Other countries,"Meta-analysis of 151 studies, median",NA,NA,-0.55
+Beaudry et al. (2018),Other countries,"Cities, all industries",NA,NA,-0.30
+Beaudry et al. (2018),Other countries,One industry within a city,NA,NA,-1.00
+Gordon (1996),Canada,"Manufacturing, 1961–1986",-0.30,-0.10,NA
+Card (1990),Canada,Unionized manufacturing contracts,NA,NA,-0.62
+Currie (1991),Canada,Ontario school teachers,NA,NA,-0.55
