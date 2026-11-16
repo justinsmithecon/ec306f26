@@ -61,11 +61,12 @@ website:
             #   file: content/ch07.qmd
             - text: "8. Labour Demand"
               file: content/ch08.qmd
-            # Hidden until material is checked — uncomment to restore
+            # Skipped in Fall 2026 to make up time — uncomment to restore
             # - text: "9. Labour Demand in Global Markets"
             #   file: content/ch09.qmd
-            # - text: "10. Labour Demand and Technology"
-            #   file: content/ch10.qmd
+            - text: "10. Labour Demand and Technology"
+              file: content/ch10.qmd
+            # Hidden until material is checked — uncomment to restore
             # - text: "11. Competitive Labour Markets"
             #   file: content/ch11.qmd
             # - text: "12. Imperfectly Competitive Labour Markets"
