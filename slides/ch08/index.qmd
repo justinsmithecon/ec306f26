@@ -502,15 +502,15 @@ E carries the income effect over from labour supply. Firms don't have one; the c
 
 :::: {.column width="50%"}
 - [Short run:]{.fg style="color: #555;"} capital is fixed at $K_0$, so there's a scale effect but no substitution effect. The firm moves along $MRP(K = K_0)$ from $N_0$ to&nbsp;$N_0'$
-- [Long run:]{.fg style="color: #555;"} the firm also adjusts capital. In this graph it ends up with less, $K_1$, so each worker is less productive and the short-run curve shifts left to $MRP(K = K_1)$. Employment falls [to $N_1$]{style="white-space: nowrap;"}
+- [Long run:]{.fg style="color: #555;"} the firm also adjusts capital. In this graph it switches toward capital, $K_1 > K_0$, and the new capital takes over some of the workers' tasks, so the short-run curve shifts left to $MRP(K = K_1)$. Employment falls [to $N_1$]{style="white-space: nowrap;"}
 - So the long-run response is usually larger, and long-run demand [more elastic]{.fg style="color: #2780e3;"}
-- [But not always:]{.fg style="color: #555;"} if the firm instead ends up with more capital, that raises $MPP_N$ and softens the scale effect
+- [But not always:]{.fg style="color: #555;"} as capital increases, it may instead make workers more productive. That raises $MPP_N$ and labour demand, softening the initial&nbsp;effect
   - In theory the long-run response could then be smaller. It's unusual, but the book doesn't rule it&nbsp;out
 ::::
 ::::
 
 ::: {.notes}
-The graph shows the usual case. In the substitution-and-scale graph earlier, capital rose instead. Either can happen, and which way the short-run curve shifts depends on it.
+The graph uses the same K₁ as the substitution-and-scale graph earlier, where capital rose. Which way the short-run curve shifts depends on what the extra capital does to labour: if it takes over workers' tasks, each worker adds less and the curve shifts left; if it makes workers more productive, the curve shifts right.
 
 A caution if you go further in economics: for a single firm that takes both its output price and its input prices as given, a standard result (the Le Chatelier principle) says the long-run response can't be smaller than the short-run one. So the book's exception needs something extra, such as the output price changing too. Don't lose sleep over it: the evidence later in this chapter finds long-run elasticities larger than short-run ones.
 
