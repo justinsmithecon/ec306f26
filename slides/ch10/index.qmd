@@ -256,7 +256,7 @@ We skipped Chapter 9, which covers trade. All you need here is that imports comp
 - [The evidence:]{.fg style="color: #555;"} capital and workers with a postsecondary education are [p-complements]{.fg style="color: #2780e3;"}. Capital and less-educated workers are [p-substitutes]{.fg style="color: #2780e3;"}
   - Capital is easier to substitute for less-skilled labour, and skilled workers are needed to run the new&nbsp;capital
 - Wage gaps widened most where [personal computers]{.fg style="color: #2780e3;"} spread fastest, across industries and across firms within the same&nbsp;industry
-- [A warning:]{.fg style="color: #555;"} workers who use computers earn 10 to 15% more, but workers who use pencils earn nearly as large a premium. Following the same workers as they start using a computer shows a real effect, but a smaller&nbsp;one
+- [A warning:]{.fg style="color: #555;"} workers who use computers earn 10 to 15% more, but workers who use pencils earn nearly as large a premium, so much of the gap reflects who gets a computer, not what it does. Following the same workers as they start using a computer shows a real effect, but a smaller&nbsp;one
 
 ::: {.notes}
 The p-complement and p-substitute results come from studies that split workers by whether they have a postsecondary education (Hamermesh 1993; Johnson 1997; Autor, Katz and Krueger 1998). The link to computers comes from comparisons across industries and across firms (Krueger 1993; Berman, Bound and Griliches 1994).
