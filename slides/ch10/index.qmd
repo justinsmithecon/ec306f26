@@ -36,7 +36,7 @@ In this section we will:
 
 - Explain how technology moved Canadian jobs from farms to factories to services
 - Show why cheaper capital can raise demand for some workers and lower it for others
-- Compare skill-biased technological change and job polarization as explanations for changing&nbsp;wages
+- Compare two explanations for changing wages: skill-biased technological change, and computers replacing routine&nbsp;tasks
 - Weigh the early evidence on broadband, robots, gig platforms and&nbsp;AI
 
 ::: {.notes}
@@ -313,11 +313,11 @@ Goos and Manning (2007) named the pattern for Britain, "lousy and lovely jobs". 
 - Computers are poor at [nonroutine]{.fg style="color: #2780e3;"} tasks:
   - [Cognitive:]{.fg style="color: #555;"} problem-solving, creativity and managing people, mostly in high-skill jobs
   - [Manual:]{.fg style="color: #555;"} flexible, in-person work that needs physical presence or emotional intelligence, mostly in [low-skill&nbsp;jobs]{style="white-space: nowrap;"}
-- SBTC sorts [workers by education]{.fg style="color: #2780e3;"}. Polarization sorts [jobs by task]{.fg style="color: #2780e3;"}
+- SBTC sorts [workers by education]{.fg style="color: #2780e3;"}. The routine-task explanation sorts [jobs by task]{.fg style="color: #2780e3;"}, which is why the middle&nbsp;shrinks
 - Industries that computerized most shifted most from routine to nonroutine work, at every education&nbsp;level
 
 ::: {.notes}
-The task framework is from Autor, Levy and Murnane (2003). The evidence that the most computerized industries shifted most away from routine tasks, and toward nonroutine analytic and interactive tasks, is from Autor et al. (2003), Autor and Dorn (2013), Goos, Manning and Salomons (2014), and Michaels, Natraj and Van Reenen (2014).
+The task framework is from Autor, Levy and Murnane (2003). The literature calls this explanation routine-biased technological change (Goos, Manning and Salomons 2014), to set it beside SBTC: polarization is the pattern, and routine-task replacement is the explanation. It also accounts for much of the rising university premium, since computers complement the nonroutine cognitive work graduates do.The evidence that the most computerized industries shifted most away from routine tasks, and toward nonroutine analytic and interactive tasks, is from Autor et al. (2003), Autor and Dorn (2013), Goos, Manning and Salomons (2014), and Michaels, Natraj and Van Reenen (2014).
 
 "At every education level" is what makes this different from SBTC. Among the least educated, for example, employment and real wages fell for production workers in factories and on construction sites, but rose for service workers like food servers, cleaners, beauticians, home health aides and child care workers. Technology affects labour demand in a more nuanced way than the SBTC story suggests.
 :::
