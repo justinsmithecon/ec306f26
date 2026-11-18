@@ -19,3 +19,7 @@ The slides are embedded in this page, and you can scroll through them with the a
 ```
 
 </div>
+
+## Additional Information
+
+- David Autor's [Why Are There Still So Many Jobs? The History and Future of Workplace Automation](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3) (*Journal of Economic Perspectives*, 2015) is a nice non-technical discussion of the labour market effects of automation

@@ -406,7 +406,7 @@ Newer methods point the same way. Gaggl and Wright (2017) study a UK tax break f
 - Four technologies where the evidence has started to come in: broadband internet, robots, gig platforms, and&nbsp;AI
 
 ::: {.notes}
-Sorting technologies into neat groups is hard, because new ideas build on old ones. These four stand out because they get the most attention, and the most worry, in the popular press. The question for each is the one from the theory section: which workers' tasks does it substitute for, and which does it complement?
+Sorting technologies into neat groups is hard, because new ideas build on old ones. These four stand out because they get the most attention, and the most worry, in the popular press. The question for each is the one from the theory section: which workers' tasks does it substitute for, and which does it complement? Gig platforms are the exception: they change how work is organized and contracted, not which tasks machines do.
 :::
 
 ## Broadband Internet {.smaller}
@@ -431,7 +431,7 @@ The Norway study is Akerman, Gaarder and Mogstad (2015). The staggered rollout i
   - [17 countries, 1993–2007:]{.fg style="color: #555;"} productivity [rose]{.fg style="color: #5cb85c;"} and total employment barely changed, but low-skilled workers' share of hours [fell]{.fg style="color: #c7254e;"}. Skill-biased, not polarizing
   - [US local labour markets, 1990–2007:]{.fg style="color: #555;"} places more exposed to robots had [lower employment and wages]{.fg style="color: #c7254e;"}
   - [US patents, 1976–2014:]{.fg style="color: #555;"} automation [raised]{.fg style="color: #5cb85c;"} local employment overall, because new service jobs outnumbered lost routine manufacturing&nbsp;jobs
-- Which effect wins is the substitution-versus-scale question from earlier in the&nbsp;chapter
+- Workers whose tasks robots take over are [p-substitutes]{.fg style="color: #2780e3;"}: they gain only if the scale effect wins. Those who run the robots are [p-complements]{.fg style="color: #2780e3;"} and gain for&nbsp;sure
 
 ::: {.notes}
 Graetz and Michaels (2018) cover industries in 17 countries, a period when the price of robots of equivalent quality fell by about 80%. Robots raised labour productivity without much change in total employment, but shifted hours away from the least skilled. That fits SBTC, not polarization, because the least skilled lose most. The book gives their period as 1993 to 2017. The published paper covers 1993 to 2007.
@@ -451,6 +451,7 @@ Robots in health care, warehouses, farming, construction and transport are all i
 :::
 
 - Online platforms made gig work easy to find: Uber and Lyft, Uber Eats and SkipTheDishes, Amazon Mechanical Turk and&nbsp;TaskRabbit
+- Platforms don't automate or augment tasks. They change [how work is organized]{.fg style="color: #2780e3;"}: they make it cheap to match workers to customers task by task, without an employment&nbsp;contract
 - [Concern:]{.fg style="color: #555;"} firms can call workers contractors to [avoid]{.fg style="color: #c7254e;"} payroll taxes, minimum wages, benefits, severance and&nbsp;unions
   - In June 2024 the federal government introduced legislation putting the burden of proof on employers to show a worker is a contractor. BC and Ontario followed in 2024 and&nbsp;2025
 - [Size:]{.fg style="color: #555;"} 5.5% of Canadian workers in 2005 and 8.2% in 2016, counting all freelancers in tax data. Platform work alone is only about&nbsp;0.5%
