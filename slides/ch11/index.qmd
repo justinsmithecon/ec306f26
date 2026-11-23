@@ -445,14 +445,13 @@ A is the tempting one: it reads "equally productive" as "doing the same job". D 
 - Labour markets are defined by [occupation]{.fg style="color: #2780e3;"}, not industry. Drivers deliver food or clothes; banks and schools both hire IT&nbsp;technicians
   - So a firm can have power where it sells, but be one of many where it&nbsp;hires
 - From [Chapter&nbsp;8]{.fg style="color: #555;"}: a [monopolist]{.fg style="color: #2780e3;"} restricts its output to raise its price. Less output needs less labour, and $MRP_N = MR_Q \times MPP_N$ is below $p \times MPP_N$ at every&nbsp;$N$
-- Market labour demand adds up firms' demands, so more product market power means [lower labour demand]{.fg style="color: #c7254e;"}
-- If product markets become less competitive over time, labour demand falls:
+- The monopolist is still a [wage taker]{.fg style="color: #2780e3;"}: if it pays less than the going wage, its workers leave. It pays the going wage, but hires [less labour]{.fg style="color: #c7254e;"} than a competitive firm&nbsp;would
+- One monopolist can't move the market wage. But if product markets become [less competitive]{.fg style="color: #2780e3;"} across the economy, market labour demand&nbsp;falls:
   - Wages fall more if labour supply is [inelastic]{.fg style="color: #2780e3;"}
   - Jobs fall more if labour supply is [elastic]{.fg style="color: #2780e3;"}
-- But a monopolist [can't mark down the wage]{.fg style="color: #2780e3;"}. If it pays less than the going wage, its workers&nbsp;leave
 
 ::: {.notes}
-Who is on which side. The owners keep the monopoly profit. Workers in that occupation lose through lower demand for their labour, which shows up as a lower market wage or fewer jobs. They don't lose through a markdown at their own firm: the firm still pays the going wage, because it's one of many employers hiring that kind of worker.
+Who is on which side. The owners keep the monopoly profit. The monopolist's own workers aren't paid less: the firm pays the going wage, because it's one of many employers hiring that kind of worker. Workers in the occupation lose only when product market power is widespread among the firms that hire them. Then market labour demand, the sum of those firms' demands, falls, and that shows up as a lower market wage or fewer jobs.
 
 The same logic holds for any firm with some power over its price, including the monopolistic competition and oligopoly cases from introductory economics: MR_Q is below the price, so labour demand is lower than it would be if the firm took its price as given. Chapter 8's slide "Market Power Lowers Labour Demand" has the graph.
 
@@ -479,20 +478,19 @@ A is the classic mistake: power in the product market isn't power over the wage.
 
 ## Rent Sharing {.smaller}
 
-- A monopolist that pays the going wage keeps all its monopoly profit, or [rent]{.fg style="color: #2780e3;"}
-- But workers often get a share. Unions bargain for one ([Chapter&nbsp;16]{.fg style="color: #555;"}), and even non-union workers earn more where profits are&nbsp;higher
+- [In the model:]{.fg style="color: #555;"} a monopolist pays the going wage and keeps all its monopoly profit, or [rent]{.fg style="color: #2780e3;"}
+- [In the data:]{.fg style="color: #555;"} workers often get a share. Unions bargain for one ([Chapter&nbsp;16]{.fg style="color: #555;"}), and even non-union workers earn more where profits are&nbsp;higher
 
 ::: {.callout-important}
 ## Key Definition
 **[Rent sharing]{.fg style="color: #2780e3;"}**: workers in competitive labour markets capturing part of the profit their employer earns from product market&nbsp;power
 :::
 
-- [Hard to measure:]{.fg style="color: #555;"} higher pay at profitable firms could reflect more productive workers, or jobs that are worse in ways the data&nbsp;miss
-- So researchers use changes in profits that the workers didn't cause:
+- [Hard to measure:]{.fg style="color: #555;"} higher pay at profitable firms could reflect better workers, or worse jobs the data miss. So researchers use changes in profits that the workers didn't&nbsp;cause:
   - [US bank deregulation:]{.fg style="color: #555;"} as states let competing banks in, bank wages [fell]{.fg style="color: #c7254e;"}, 12% for men and 3% for&nbsp;women
   - [Patents:]{.fg style="color: #555;"} where patents were granted rather than rejected, workers got about 30% of the extra profit, more for men and the highest&nbsp;paid
   - [UK firms:]{.fg style="color: #555;"} strong rent sharing, but much less in the 2000s than in the 1980s and&nbsp;1990s
-- [Why it matters:]{.fg style="color: #555;"} pay depends on the employer's profits, not just productivity. That breaks implication&nbsp;2
+- [Why it matters:]{.fg style="color: #555;"} equally productive workers earn more at more profitable firms. That breaks implication 2, equal pay for equal work, and suggests firms have some room to set pay ([Chapter&nbsp;12]{.fg style="color: #555;"})
 
 ::: {.notes}
 Blanchflower, Oswald and Sanfey (1996) and Hildreth and Oswald (1997) find that non-union workers earn more in industries and firms where profits are higher.
@@ -506,6 +504,8 @@ Bell, Bukowski and Machin (2024) find strong rent sharing in British firms, but 
 A slip in the book: it says Bell et al. follow "Black and Strahan's approach" of comparing firms that did and didn't receive patents. Black and Strahan used bank deregulation; comparing firms that did and didn't get patents is Kline et al.'s design.
 
 Why it matters, in one line: in a perfectly competitive labour market, a firm's profits shouldn't affect what it pays, because the market sets the wage. Rent sharing is evidence that firms have some room to set pay, which is Chapter 12's question.
+
+Contrast with the welder clicker: a compensating differential is a pay gap the competitive model predicts, because the jobs differ. Rent sharing is a pay gap for the same work, which the model doesn't predict.
 :::
 
 # Working with Supply and Demand
