@@ -176,6 +176,22 @@ Drawing straight lines between the table's rows puts the equilibrium at about \$
 The book calls Smith the world's earliest economic thinker, which overstates it; he's usually called the founder of modern economics.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+Walmart in Kapuskasing installs self-checkouts and now wants 300 fewer cashier hours at every wage. What happens at Tim&nbsp;Hortons?
+
+A\) Nothing, because Tim Hortons' demand for cashiers hasn't changed\
+B) The market wage falls, and Tim Hortons hires more cashier hours\
+C) The market wage falls, and Tim Hortons hires fewer cashier hours\
+D) Walmart's wage falls, but the other stores' wages stay the same\
+E) The wage stays the same, and 300 hours of unemployment last
+
+::: {.notes}
+Answer: B. Walmart's cut lowers market demand, so at the old wage there's a surplus of cashier hours. Cashiers compete for work, and the market wage falls until supply equals demand again. Tim Hortons' own demand curve hasn't moved, but it takes the market wage as given, so at the lower wage it hires more hours: a movement along its demand curve. Total cashier hours in town still fall.
+
+C is the tempting one: it reads the lower wage as Tim Hortons wanting fewer cashiers, a shift, when it's a movement along the curve. A and D forget that a competitive market has one wage: if Walmart paid less than the other stores, its cashiers would leave. E skips wage competition; the surplus doesn't last.
+:::
+
 ## Efficient, but Not Necessarily Fair
 
 ::: {.callout-important}
@@ -296,6 +312,22 @@ The book's version for Toronto: if drivers' supply is less elastic than demand, 
 Review Question 3 at the end of the chapter (robot vacuums and residential cleaners) runs exactly this logic in reverse, so leave it to them.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+A new college in Montreal starts graduating hundreds of extra hairdressers a year. People barely get more haircuts when prices fall, so the demand for hairdressers is inelastic. In the Greater Montreal market for&nbsp;hairdressers:
+
+A\) The wage falls a lot, and employment rises a little\
+B) The wage falls a little, and employment rises a lot\
+C) The wage and employment both fall\
+D) The wage doesn't change, because the demand for hairdressers hasn't changed\
+E) Employment doesn't change, because the demand for hairdressers hasn't changed
+
+::: {.notes}
+Answer: A. More graduates shift supply to the right. At the old wage there's a surplus, and the wage falls. With inelastic demand, salons hire only a few more hours even when the wage falls a lot, so most of the shift shows up in the wage. It's the rule from the last slide, run from the other side: a supply shift splits between the wage and employment according to the elasticity of demand.
+
+B is the rule backwards: it's what happens when demand is elastic. D and E confuse a shift of demand with a movement along it. The demand curve hasn't moved, but salons hire more hours as the wage falls. C treats more supply as less.
+:::
+
 # Implications of the Competitive Market Equilibrium
 
 ## Implication 1: No Lasting Unemployment or Shortages {.smaller}
@@ -389,6 +421,22 @@ On the first point, Chapter 15 shows that many wage differentials are very persi
 On the fourth, economists don't think most labour markets are perfectly competitive. There's no consensus on whether the model is still a good enough approximation, and a fast-growing literature asks how much power employers have to set wages. Chapter 12 reviews it.
 :::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+Two equally skilled welders in Alberta. One works at remote oil sands sites, on two-week rotations away from home, for \$55 an hour. The other works in an Edmonton fabrication shop for \$38 an hour. What does this gap tell us about the competitive&nbsp;model?
+
+A\) It contradicts implication 2: equally productive workers should earn the same wage\
+B) It fits the model: the higher wage makes up for the worse working conditions\
+C) It fits the model only if the oil sands welder is more productive\
+D) The market is still adjusting, and the gap will close over time\
+E) It shows that the oil sands employer has the power to set wages
+
+::: {.notes}
+Answer: B. This is a compensating wage differential. Implication 2 is about the same work, and these jobs differ in ways workers care about: weeks away from home, remote camps. If the two jobs paid the same, welders would choose Edmonton, oil sands employers would face a shortage, and competition would push their wage up until the gap made up for the rotation. So the gap is what the competitive model predicts.
+
+A is the tempting one: it reads "equally productive" as "doing the same job". D expects the gap to close, but a compensating gap is part of the equilibrium, so it lasts. C: the stem says they're equally skilled, and the gap doesn't need a productivity difference. E: no wage-setting power is needed, since many employers competing for welders produce this gap. Employer power is Chapter 12's question.
+:::
+
 # Imperfect Competition in the Product Market
 
 ## Product Market Power Lowers Labour Demand {.smaller}
@@ -410,6 +458,22 @@ The same logic holds for any firm with some power over its price, including the 
 The split between wages and jobs is the elasticity rule from the last section: lower demand with inelastic supply mostly cuts wages, and with elastic supply mostly cuts jobs.
 
 The book adds that there are reasons a firm with product market power may pay more than the going wage. That's the next slide. Review Question 5 and Problem 4 at the end of the chapter work through this, so leave the details to them.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+A city gives one company the only licence to run taxis. It hires drivers in a market that also includes ride-hailing, delivery and courier firms. In the competitive model, compared with many competing taxi companies, the licensed&nbsp;company:
+
+A\) Pays its drivers less than the going wage, because it has monopoly power\
+B) Pays the going wage, but hires fewer drivers\
+C) Pays more than the going wage, because it earns monopoly profit\
+D) Pays the going wage, and hires the same number of drivers\
+E) Hires more drivers, because its profits let it expand
+
+::: {.notes}
+Answer: B. The company has power where it sells rides, but it's one of many employers where it hires drivers. If it paid less than the going wage, its drivers would leave for ride-hailing or delivery jobs. A monopolist restricts output to raise its price, so it carries fewer passengers and needs fewer drivers: lower labour demand at the going wage.
+
+A is the classic mistake: power in the product market isn't power over the wage. D forgets that less output needs less labour. E gets it backwards, since a monopolist restricts output. C is wrong in the competitive model, where the market sets the wage. But hold onto it: the next slide shows that in practice, workers often do get a share of the profit.
 :::
 
 ## Rent Sharing {.smaller}
@@ -636,6 +700,22 @@ A correction to the book. It says that the more willing workers are to work at l
 On the short run. Chapter 8 showed that firms can't swap capital for labour quickly, so labour demand is less elastic in the short run and f is closer to zero. If labour supply is also less elastic in the short run, that prediction may not hold. In the end, who bears a payroll tax is an empirical question, which is the next slide.
 
 When firms bear part of the tax, they can absorb it in lower profits or pass it on to consumers through higher prices.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+In a labour market, supply is $N^S = a + 2w$ and demand is $N^D = c - 4w$. The government puts a payroll tax of \$3 an hour on employers. In the new equilibrium, the wage workers&nbsp;receive:
+
+A\) Doesn't change, because employers pay the tax\
+B) Falls by \$1\
+C) Falls by \$2\
+D) Falls by \$3\
+E) Rises by \$1
+
+::: {.notes}
+Answer: C. With the tax, demand becomes N = c − 4(w + 3). Setting supply equal to demand: a + 2w = c − 4w − 12, so 6w = c − a − 12 and w = (c − a)/6 − 2. Before the tax, w = (c − a)/6, so the wage falls by \$2. Or use the formula from the last slide: workers' share is −f/(b − f) = 4/(2 + 4) = 2/3, and 2/3 of \$3 is \$2. Firms now pay w + 3, which is \$1 more than before.
+
+A confuses statutory incidence, who sends the money to the government, with economic incidence. B swaps the two shares: \$1 is what firms bear. D is right only if supply is perfectly inelastic (b = 0), which is close to what Deslauriers et al. find on the next slide. E is the change in what firms pay, not in what workers get.
 :::
 
 ## Evidence: Workers Bear Most of the Tax {.smaller}

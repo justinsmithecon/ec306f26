@@ -11033,5 +11033,40 @@
     "title": "EC306 - Wages and Employment",
     "section": "References (cont.)",
     "text": "References (cont.)\n\nGruber, J. (1997). The incidence of payroll taxation: Evidence from Chile. Journal of Labor Economics, 15(3, Part 2), S72–S101.\nHildreth, A. K. G., & Oswald, A. J. (1997). Rent-sharing and wages: Evidence from company and establishment panels. Journal of Labor Economics, 15(2), 318–337.\nKesselman, J. R. (1996). Payroll taxes in the finance of social security. Canadian Public Policy, 22(2), 162–179.\nKline, P., Petkova, N., Williams, H., & Zidar, O. (2019). Who profits from patents? Rent-sharing at innovative firms. Quarterly Journal of Economics, 134(3), 1343–1404.\nStatistics Canada. (2025). Labour force characteristics by sex and detailed age group, annual (Table 14-10-0327-01). Labour Force Survey."
+  },
+  {
+    "objectID": "slides/ch11/index.html#iclicker-question",
+    "href": "slides/ch11/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWalmart in Kapuskasing installs self-checkouts and now wants 300 fewer cashier hours at every wage. What happens at Tim Hortons?\nA) Nothing, because Tim Hortons’ demand for cashiers hasn’t changed\nB) The market wage falls, and Tim Hortons hires more cashier hours\nC) The market wage falls, and Tim Hortons hires fewer cashier hours\nD) Walmart’s wage falls, but the other stores’ wages stay the same\nE) The wage stays the same, and 300 hours of unemployment last\n\nAnswer: B. Walmart’s cut lowers market demand, so at the old wage there’s a surplus of cashier hours. Cashiers compete for work, and the market wage falls until supply equals demand again. Tim Hortons’ own demand curve hasn’t moved, but it takes the market wage as given, so at the lower wage it hires more hours: a movement along its demand curve. Total cashier hours in town still fall.\nC is the tempting one: it reads the lower wage as Tim Hortons wanting fewer cashiers, a shift, when it’s a movement along the curve. A and D forget that a competitive market has one wage: if Walmart paid less than the other stores, its cashiers would leave. E skips wage competition; the surplus doesn’t last."
+  },
+  {
+    "objectID": "slides/ch11/index.html#iclicker-question-1",
+    "href": "slides/ch11/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA new college in Montreal starts graduating hundreds of extra hairdressers a year. People barely get more haircuts when prices fall, so the demand for hairdressers is inelastic. In the Greater Montreal market for hairdressers:\nA) The wage falls a lot, and employment rises a little\nB) The wage falls a little, and employment rises a lot\nC) The wage and employment both fall\nD) The wage doesn’t change, because the demand for hairdressers hasn’t changed\nE) Employment doesn’t change, because the demand for hairdressers hasn’t changed\n\nAnswer: A. More graduates shift supply to the right. At the old wage there’s a surplus, and the wage falls. With inelastic demand, salons hire only a few more hours even when the wage falls a lot, so most of the shift shows up in the wage. It’s the rule from the last slide, run from the other side: a supply shift splits between the wage and employment according to the elasticity of demand.\nB is the rule backwards: it’s what happens when demand is elastic. D and E confuse a shift of demand with a movement along it. The demand curve hasn’t moved, but salons hire more hours as the wage falls. C treats more supply as less."
+  },
+  {
+    "objectID": "slides/ch11/index.html#iclicker-question-2",
+    "href": "slides/ch11/index.html#iclicker-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nTwo equally skilled welders in Alberta. One works at remote oil sands sites, on two-week rotations away from home, for $55 an hour. The other works in an Edmonton fabrication shop for $38 an hour. What does this gap tell us about the competitive model?\nA) It contradicts implication 2: equally productive workers should earn the same wage\nB) It fits the model: the higher wage makes up for the worse working conditions\nC) It fits the model only if the oil sands welder is more productive\nD) The market is still adjusting, and the gap will close over time\nE) It shows that the oil sands employer has the power to set wages\n\nAnswer: B. This is a compensating wage differential. Implication 2 is about the same work, and these jobs differ in ways workers care about: weeks away from home, remote camps. If the two jobs paid the same, welders would choose Edmonton, oil sands employers would face a shortage, and competition would push their wage up until the gap made up for the rotation. So the gap is what the competitive model predicts.\nA is the tempting one: it reads “equally productive” as “doing the same job”. D expects the gap to close, but a compensating gap is part of the equilibrium, so it lasts. C: the stem says they’re equally skilled, and the gap doesn’t need a productivity difference. E: no wage-setting power is needed, since many employers competing for welders produce this gap. Employer power is Chapter 12’s question."
+  },
+  {
+    "objectID": "slides/ch11/index.html#iclicker-question-3",
+    "href": "slides/ch11/index.html#iclicker-question-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA city gives one company the only licence to run taxis. It hires drivers in a market that also includes ride-hailing, delivery and courier firms. In the competitive model, compared with many competing taxi companies, the licensed company:\nA) Pays its drivers less than the going wage, because it has monopoly power\nB) Pays the going wage, but hires fewer drivers\nC) Pays more than the going wage, because it earns monopoly profit\nD) Pays the going wage, and hires the same number of drivers\nE) Hires more drivers, because its profits let it expand\n\nAnswer: B. The company has power where it sells rides, but it’s one of many employers where it hires drivers. If it paid less than the going wage, its drivers would leave for ride-hailing or delivery jobs. A monopolist restricts output to raise its price, so it carries fewer passengers and needs fewer drivers: lower labour demand at the going wage.\nA is the classic mistake: power in the product market isn’t power over the wage. D forgets that less output needs less labour. E gets it backwards, since a monopolist restricts output. C is wrong in the competitive model, where the market sets the wage. But hold onto it: the next slide shows that in practice, workers often do get a share of the profit."
+  },
+  {
+    "objectID": "slides/ch11/index.html#iclicker-question-4",
+    "href": "slides/ch11/index.html#iclicker-question-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn a labour market, supply is \\(N^S = a + 2w\\) and demand is \\(N^D = c - 4w\\). The government puts a payroll tax of $3 an hour on employers. In the new equilibrium, the wage workers receive:\nA) Doesn’t change, because employers pay the tax\nB) Falls by $1\nC) Falls by $2\nD) Falls by $3\nE) Rises by $1\n\nAnswer: C. With the tax, demand becomes N = c − 4(w + 3). Setting supply equal to demand: a + 2w = c − 4w − 12, so 6w = c − a − 12 and w = (c − a)/6 − 2. Before the tax, w = (c − a)/6, so the wage falls by $2. Or use the formula from the last slide: workers’ share is −f/(b − f) = 4/(2 + 4) = 2/3, and 2/3 of $3 is $2. Firms now pay w + 3, which is $1 more than before.\nA confuses statutory incidence, who sends the money to the government, with economic incidence. B swaps the two shares: $1 is what firms bear. D is right only if supply is perfectly inelastic (b = 0), which is close to what Deslauriers et al. find on the next slide. E is the change in what firms pay, not in what workers get."
   }
 ]
