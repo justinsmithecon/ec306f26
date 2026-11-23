@@ -87,7 +87,6 @@ So when the wage rises in this chapter, read it as: the nominal wage rose relati
 - [Market supply:]{.fg style="color: #555;"} add up the hours every worker offers at each wage
   - Some cut their hours at high wages, when the income effect wins ([Chapter&nbsp;3]{.fg style="color: #555;"})
   - But higher wages also pull new workers in, the extensive margin, so market supply keeps&nbsp;rising
-- From \$18 to \$22, the elasticity of market demand is about −0.5 and of market supply about&nbsp;0.26
 
 ::: {.notes}
 The full tables in the book run from \$10 to \$30 (Tables 11.1 and 11.2). The numbers are made up for the example. When the wage rises from \$18 to \$22, market demand falls from 5,130 to 4,630 hours: a 20% wage rise (measured from the midpoint) cuts hours by about 10%, an elasticity of about −0.5. As in Chapter 8, that is substitution (self-checkout machines replacing cashiers) and scale (stores cutting their opening hours as labour gets dearer). Market supply rises from 5,320 to 5,610 hours, an elasticity of about 0.26.
@@ -178,18 +177,20 @@ The book calls Smith the world's earliest economic thinker, which overstates it;
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Walmart in Kapuskasing installs self-checkouts and now wants 300 fewer cashier hours at every wage. What happens at Tim&nbsp;Hortons?
+Self-checkouts get cheap, and the grocery and big-box stores in Kapuskasing install them. Each wants fewer cashier hours at every wage. A local coffee shop doesn't use self-checkouts. What happens at the coffee&nbsp;shop?
 
-A\) Nothing, because Tim Hortons' demand for cashiers hasn't changed\
-B) The market wage falls, and Tim Hortons hires more cashier hours\
-C) The market wage falls, and Tim Hortons hires fewer cashier hours\
-D) Walmart's wage falls, but the other stores' wages stay the same\
-E) The wage stays the same, and 300 hours of unemployment last
+A\) Nothing, because the coffee shop's demand for cashiers hasn't changed\
+B) The market wage falls, and the coffee shop hires more cashier hours\
+C) The market wage falls, and the coffee shop hires fewer cashier hours\
+D) Wages fall at the stores with self-checkouts, but not at the coffee shop\
+E) The wage stays the same, and the unemployed cashiers stay unemployed
 
 ::: {.notes}
-Answer: B. Walmart's cut lowers market demand, so at the old wage there's a surplus of cashier hours. Cashiers compete for work, and the market wage falls until supply equals demand again. Tim Hortons' own demand curve hasn't moved, but it takes the market wage as given, so at the lower wage it hires more hours: a movement along its demand curve. Total cashier hours in town still fall.
+Answer: B. With many stores cutting back, market demand for cashiers falls, so at the old wage there's a surplus of cashier hours. Cashiers compete for work, and the market wage falls until supply equals demand again. The coffee shop's own demand curve hasn't moved, but it takes the market wage as given, so at the lower wage it hires more hours: a movement along its demand curve. Total cashier hours in town still fall.
 
-C is the tempting one: it reads the lower wage as Tim Hortons wanting fewer cashiers, a shift, when it's a movement along the curve. A and D forget that a competitive market has one wage: if Walmart paid less than the other stores, its cashiers would leave. E skips wage competition; the surplus doesn't last.
+C is the tempting one: it reads the lower wage as the coffee shop wanting fewer cashiers, a shift, when it's a movement along the curve. A and D forget that a competitive market has one wage: if the stores with self-checkouts paid less than the coffee shop, their cashiers would leave for it. E skips wage competition; the surplus doesn't last.
+
+Why many stores and not one: each firm is a wage taker, too small to move the market wage on its own. It takes a change that hits many firms at once to shift market demand enough to move the wage.
 :::
 
 ## Efficient, but Not Necessarily Fair
@@ -550,7 +551,7 @@ Linear curves have a constant slope but not a constant elasticity: the supply el
 - Same answer from the formula, with $a = 60$, $b = 1$, $c = 120$, $f = -2$: $w^* = \dfrac{60 - 120}{-2 - 1} = 20$
 - [Cheaper child care:]{.fg style="color: #555;"} supply rises by 6 hours at every wage, so $N^S = 66 + w$
   - $66 + w = 120 - 2w$, so $w^* = 18$ and $N^* = 84$: more employment at a lower&nbsp;wage
-- Elasticities at the equilibrium: supply $1 \times \dfrac{20}{80} = 0.25$, demand $-2 \times \dfrac{20}{80} = -0.5$. Close to the cashier&nbsp;market
+- Elasticities at the equilibrium: supply $1 \times \dfrac{20}{80} = 0.25$, demand $-2 \times \dfrac{20}{80} = -0.5$
 
 ::: {.notes}
 Employment from the formula: N* = (af − bc)/(f − b) = (60 × (−2) − 1 × 120)/(−3) = −240/−3 = 80.
@@ -677,7 +678,7 @@ The key lesson: the tax falls on workers even though the law puts it entirely on
 
 ## Solving for the Equilibrium with the Tax {.smaller}
 
-- With the tax, an hour of work costs the firm $w + T$, so labour demand depends on $w + T$ instead of&nbsp;$w$
+- $w$ is the [wage workers receive]{.fg style="color: #2780e3;"}, and $w + T$ is what an hour costs the firm. Supply depends on $w$, and demand depends on&nbsp;$w + T$
 
 :::: columns
 :::: {.column width="45%"}
@@ -685,8 +686,8 @@ The key lesson: the tax falls on workers even though the law puts it entirely on
 
 - Supply: $N^S = 60 + w$
 - Demand with a \$6 tax: $N^D = 120 - 2(w + 6)$
-- Set them equal: $60 + w = 108 - 2w$, so $3w = 48$
-  - Workers get $w_1 = 16$
+- Set them equal: $60 + w = 108 - 2w$
+  - $3w = 48$, so workers get $w_1 = 16$
   - Firms pay $w_1 + T = 22$
   - Hours: $N_1 = 60 + 16 = 76$
 ::::
