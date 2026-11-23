@@ -66,9 +66,9 @@ website:
             #   file: content/ch09.qmd
             - text: "10. Labour Demand and Technology"
               file: content/ch10.qmd
+            - text: "11. Competitive Labour Markets"
+              file: content/ch11.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "11. Competitive Labour Markets"
-            #   file: content/ch11.qmd
             # - text: "12. Imperfectly Competitive Labour Markets"
             #   file: content/ch12.qmd
             # - text: "14. Human Capital Theory"

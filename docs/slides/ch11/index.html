@@ -157,439 +157,893 @@ Fall 2026
 <h2>Goals of This Section</h2>
 <p>In this section we will:</p>
 <ul>
-<li>Bring together demand and supply to determine wages and employment</li>
-<li>Discuss the effect of market power in the goods market on equilibrium wages and employment</li>
-<li>Work with linear supply and demand functions</li>
-<li>Analyze the incidence of a payroll tax</li>
+<li>Show how wage competition sets the wage and employment in a competitive labour market</li>
+<li>Use shifts in supply and demand to explain changes in wages and employment</li>
+<li>Ask whether unemployment, and unequal pay for similar workers, mean the model is&nbsp;wrong</li>
+<li>See how product market power affects labour demand, and when workers share in&nbsp;profits</li>
+<li>Solve a linear model for the equilibrium, and find out who really pays a payroll&nbsp;tax</li>
 </ul>
+<aside class="notes">
+<p>This chapter puts the labour supply model from Chapter 3 and the labour demand model from Chapter 8 together in one market. The first half asks how a competitive market sets the wage, and whether real labour markets look like that. The second half adds product market power, then uses a simple linear model to answer a policy question: are payroll taxes “job killers”? Hold that question; the answer comes at the end.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="introduction" class="title-slide slide level1">
 <h1>Introduction</h1>
 
 </section>
-<section id="introduction-1" class="slide level2">
-<h2>Introduction</h2>
+<section id="bringing-supply-and-demand-together" class="slide level2 smaller">
+<h2>Bringing Supply and Demand Together</h2>
 <ul>
-<li>We have analyzed labour demand and supply separately in detail</li>
-<li><span class="fg" style="color: #2780e3;">Equilibrium wage and employment</span> is determined by the interaction of the two</li>
-<li>Market power plays an important role
-<ul>
-<li>In both goods markets and labour markets</li>
-</ul></li>
-<li>With a full understanding on how wages and employment are determined, we can analyze policies</li>
-<li>The <span class="fg" style="color: #2780e3;">minimum wage</span> is one of the most prominent labour market policies
-<ul>
-<li>In theory, it leads to unemployment</li>
-<li>The evidence is more mixed</li>
-</ul></li>
+<li>Labour supply from <span class="fg" style="color: #555;">Chapter&nbsp;3</span> and labour demand from <span class="fg" style="color: #555;">Chapter&nbsp;8</span> together set the wage and employment in one labour&nbsp;market</li>
+<li>A labour market is <span class="fg" style="color: #2780e3;">one occupation in one area</span>: hairdressers in Greater Montreal, carpenters in Metro&nbsp;Vancouver</li>
 </ul>
-</section></section>
-<section>
-<section id="competitive-firms" class="title-slide slide level1">
-<h1>Competitive Firms</h1>
-
-</section>
-<section id="introduction-2" class="slide level2">
-<h2>Introduction</h2>
-<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Assumptions</strong></p>
+<p><strong>Key Definitions</strong></p>
 </div>
 <div class="callout-content">
-<p>We start with firms that are <span class="fg" style="color: #5cb85c;">competitive in both goods and labour markets</span></p>
-<ul>
-<li>Firms take the market wage as given</li>
-<li>They take the market price as given</li>
-<li>Competition means they are too small to influence either</li>
-</ul>
+<p><strong><span class="fg" style="color: #2780e3;">Perfectly competitive labour market</span></strong>: switching employers costs workers nothing, and hiring or dismissing workers costs firms&nbsp;nothing</p>
+<p><strong><span class="fg" style="color: #2780e3;">Real wage</span></strong>: the nominal wage divided by the price of what workers buy, <span class="math inline">\(w = W/P\)</span></p>
 </div>
 </div>
 </div>
 <ul>
-<li>We analyze the equilibrium wage and employment for a <span class="fg" style="color: #2780e3;">homogeneous</span> type of labour
-<ul>
-<li>All workers are the same</li>
-</ul></li>
+<li>So everyone takes the wage as given. A firm that pays even a little less than the going wage loses all its workers to a&nbsp;rival</li>
+<li>We start with competitive product markets too, and relax that later in the&nbsp;chapter</li>
+<li>The wage in this chapter is the <span class="fg" style="color: #2780e3;">real wage</span>, what the wage buys. We write it <span class="math inline">\(w\)</span>; the <span class="fg" style="color: #555;">Chapter&nbsp;8</span> slides used <span class="math inline">\(W\)</span> for the nominal&nbsp;wage</li>
 </ul>
-</section>
-<section id="market-demand-and-supply" class="slide level2">
-<h2>Market Demand and Supply</h2>
-<ul>
-<li>The <span class="fg" style="color: #2780e3;">market demand and supply</span> are the sum of the individual firms’ demand and supply at each wage</li>
-<li>Here we determine the demand and supply curve for a single labour market
-<ul>
-<li>Could be a specific occupation in a specific region</li>
-<li>Example: electricians in Ontario, professors in Canada, etc.</li>
-<li>How the market is defined depends on context</li>
-<li>But it is for a single type of labour</li>
-</ul></li>
-</ul>
-</section>
-<section id="market-demand-and-supply-1" class="slide level2">
-<h2>Market Demand and Supply</h2>
-<ul>
-<li>Example is two firms with different elasticities of demand
-<ul>
-<li>Each firm demand curve is their value of marginal product</li>
-<li>Firms may face different product prices if they sell different things (but hire the same labour)</li>
-</ul></li>
-<li>Each firm faces the same wage in the labour market
-<ul>
-<li>They perceive the supply curve as <span class="fg" style="color: #5cb85c;">horizontal in the long run</span></li>
-<li>They take the wage as given and can get as much labour as they want at that wage</li>
-<li>Market supply is upward sloping</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Market demand</span> is horizontal sum of individual demands
-<ul>
-<li>Add up the quantities demanded at each wage for each firm</li>
-<li>Repeat for all wages</li>
-</ul></li>
-</ul>
-</section>
-<section id="market-demand-and-supply-2" class="slide level2">
-<h2>Market Demand and Supply</h2>
+<aside class="notes">
+<p>Chapter 12 relaxes competition on the buyers’ side of the labour market (monopsony), and Chapter 16 on the sellers’ side (unions). Relaxing it matters a lot for policies like the minimum wage.</p>
+<p>Why the real wage. Workers care about what their pay buys, so labour supply depends on W/P, where P is the price of the things workers consume. Firms care about the wage relative to the price of what they sell: Chapter 8’s hiring rule p × MPP_N = W can be written MPP_N = W/p, where p is the firm’s own output price. Those are two different prices. And the workers in one market buy different things, and the firms in it sell different things. The book gets around this by assuming a single average price P, measured like the CPI, stands in for all of them. Adding up many workers and firms into one supply curve and one demand curve takes strong assumptions; the book calls this the “aggregation problem” and sets it aside, and so will we. It gets trickier still when a firm has product market power, since then its price depends on how much it sells.</p>
+<p>So when the wage rises in this chapter, read it as: the nominal wage rose relative to the average price of what people buy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="competitive-market-equilibrium" class="title-slide slide level1">
+<h1>Competitive Market Equilibrium</h1>
 
-<img data-src="images/marketd.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="firm-demand-and-supply-in-the-short-run" class="slide level2">
-<h2>Firm Demand and Supply in the Short Run</h2>
-<ul>
-<li>Above we analyzed the longer run
-<ul>
-<li>Firms can get as much labour as they want at the going wage</li>
-</ul></li>
-<li>In the <span class="fg" style="color: #c7254e;">short run</span>, firms may face an upward sloping supply curve
-<ul>
-<li>They have to pay higher wages to attract more workers</li>
-<li>This could be because of contracts, or other frictions</li>
-</ul></li>
-<li>If demand rises, they would pay higher wages to attract workers</li>
-<li>But because wages are high, over the long term more workers enter the market
-<ul>
-<li>Short run supply shifts out</li>
-<li>Wage falls back down to long run level</li>
-</ul></li>
-</ul>
 </section>
-<section id="firm-demand-and-supply-in-the-short-run-1" class="slide level2">
-<h2>Firm Demand and Supply in the Short Run</h2>
-
-<img data-src="images/srun.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="section" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Think About It</strong></p>
-<p>If a new technology increases labour demand in a competitive market, what happens to wages and employment in the short run versus the long run? Why do the outcomes differ?</p>
+<section id="adding-up-firms-and-workers" class="slide level2 smaller">
+<h2>Adding Up Firms and Workers</h2>
+<ul>
+<li>Kapuskasing is a town of about 8,000 people in northern Ontario. Many retailers there hire&nbsp;cashiers</li>
+<li><span class="fg" style="color: #555;">Market demand:</span> add up the hours every firm wants at each wage</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 21%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Hourly wage</th>
+<th style="text-align: center;">Tim Hortons</th>
+<th style="text-align: center;">Walmart</th>
+<th style="text-align: center;">Canadian Tire</th>
+<th style="text-align: center;">All firms in town</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">$18</td>
+<td style="text-align: center;">440</td>
+<td style="text-align: center;">720</td>
+<td style="text-align: center;">980</td>
+<td style="text-align: center;">5,130</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">$22</td>
+<td style="text-align: center;">340</td>
+<td style="text-align: center;">650</td>
+<td style="text-align: center;">870</td>
+<td style="text-align: center;">4,630</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Firms want different amounts because their <span class="math inline">\(MRP_N\)</span> differs, for example because they have different&nbsp;capital</li>
+<li>Each firm is small, so it takes the market wage as given and hires until <span class="math inline">\(MRP_N\)</span> equals&nbsp;it</li>
+<li><span class="fg" style="color: #555;">Market supply:</span> add up the hours every worker offers at each wage
+<ul>
+<li>Some cut their hours at high wages, when the income effect wins (<span class="fg" style="color: #555;">Chapter&nbsp;3</span>)</li>
+<li>But higher wages also pull new workers in, the extensive margin, so market supply keeps&nbsp;rising</li>
+</ul></li>
+<li>From $18 to $22, the elasticity of market demand is about −0.5 and of market supply about&nbsp;0.26</li>
+</ul>
+<aside class="notes">
+<p>The full tables in the book run from $10 to $30 (Tables 11.1 and 11.2). The numbers are made up for the example. When the wage rises from $18 to $22, market demand falls from 5,130 to 4,630 hours: a 20% wage rise (measured from the midpoint) cuts hours by about 10%, an elasticity of about −0.5. As in Chapter 8, that is substitution (self-checkout machines replacing cashiers) and scale (stores cutting their opening hours as labour gets dearer). Market supply rises from 5,320 to 5,610 hours, an elasticity of about 0.26.</p>
+<p>On the supply side, the book follows three workers. Melanie and Alain work fewer hours once the wage passes $26, where the income effect wins for them. Emma doesn’t work at low wages and joins as the wage rises. Adding up over everyone in town, the new entrants outweigh the people cutting back, so market supply slopes up.</p>
+<p>For the board, the book’s Figure 11.1: draw two firms, one with steep labour demand and one with flat labour demand, each facing a horizontal line at the market wage w_c.&nbsp;That line is each firm’s labour supply: it can hire as many workers as it wants at w_c, and none for less. Market demand adds the firms’ quantities at each wage, a horizontal sum, and market demand and supply together set w_c.</p>
+<p>Two slips in the book’s tables. Table 11.1 prints market demand at $10 as 6,639; the text uses 6,630, which is what makes the shortage at $10 come to 2,110 hours, so the chart on the next slide uses 6,630. Table 11.2 has Emma working 9 hours at $14 and none at $18, which doesn’t fit the text’s story that higher wages draw her in. Neither affects the market supply column.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="wage-competition-clears-the-market" class="slide level2 smaller">
+<h2>Wage Competition Clears the Market</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="825"></p>
+</figure>
 </div>
+</div>
+</div>
+</div><div class="column" style="width:42%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Equilibrium wage</span></strong>: the wage at which the quantity of labour demanded equals the quantity&nbsp;supplied</p>
+</div>
+</div>
+</div>
+<ul>
+<li><span class="fg" style="color: #555;">At $22:</span> a <span class="fg" style="color: #c7254e;">surplus</span> of 980 hours. Workers short of hours offer to work for less, and the wage&nbsp;falls</li>
+<li><span class="fg" style="color: #555;">At $10:</span> a <span class="fg" style="color: #c7254e;">shortage</span> of 2,110 hours. Firms bid workers away from each other, and the wage&nbsp;rises</li>
+<li>Competition stops only at equilibrium: here between $14 and $18, closer to&nbsp;$18</li>
+<li>Adam Smith’s <span class="fg" style="color: #2780e3;">invisible hand</span>: no one sets the wage. Competition&nbsp;does</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>Name who competes with whom. When jobs are scarce, workers compete with each other; when workers are scarce, firms compete with each other.</p>
+<p>Why the wage settles: each move shrinks the gap. A lower wage cuts the hours offered and raises the hours wanted.</p>
+<p>The book’s stories. At $22, Melanie can’t get the hours she wants, so she offers Walmart her 44 hours a week at $18. She’s just as productive as any other cashier in town, so Walmart cuts its costs and raises its profit by taking the offer. Other underemployed workers follow. The lower wage makes some workers cut their hours (Alain, perhaps) and some stop working (Emma), and makes firms want more hours. At $18 the surplus is down to 190 hours. At $10 it runs the other way: Canadian Tire puts up a sign offering $14, and since jobs are identical and switching is free, cashiers move. Other stores follow to keep their workers. At $14 the shortage is down to 870 hours.</p>
+<p>Drawing straight lines between the table’s rows puts the equilibrium at about $17.30 and 5,250 hours, but the table only tells us it’s between $14 and $18.</p>
+<p>The book calls Smith the world’s earliest economic thinker, which overstates it; he’s usually called the founder of modern economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="efficient-but-not-necessarily-fair" class="slide level2">
+<h2>Efficient, but Not Necessarily Fair</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">First Theorem of Welfare Economics</span></strong>: a competitive equilibrium is <span class="fg" style="color: #5cb85c;">efficient</span>. No other wage makes firms and workers, taken together, better&nbsp;off</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Efficient is not the same as fair
+<ul>
+<li>If supply is large or demand weak, the equilibrium wage can fall <span class="fg" style="color: #c7254e;">below what someone needs to live on</span></li>
+<li>Employers can still do well in that market</li>
+</ul></li>
+<li>Raising the wage with a <span class="fg" style="color: #2780e3;">minimum wage</span> helps equity, but risks some of that&nbsp;efficiency</li>
+<li>That <span class="fg" style="color: #2780e3;">efficiency–equity trade-off</span> is at the heart of debates over how far governments should rely on markets to divide up&nbsp;income</li>
+<li>Minimum wages come back in <span class="fg" style="color: #555;">Chapter&nbsp;12</span>, once firms have some power to set&nbsp;wages</li>
+</ul>
+<aside class="notes">
+<p>What “efficient” means here. Each hour of work is worth its MRP_N to the firm and costs the wage, so the firm gains the difference. The worker gets the wage but would have worked for anything above their reservation wage, so the worker gains that difference. At the equilibrium wage, every hour that’s worth more to a firm than to the worker who supplies it gets worked, and no other hour does. At any other wage, the short side of the market decides how much gets hired, some of those mutually beneficial hours go unworked, and the total gain is smaller.</p>
+<p>The book draws these gains in Figure 11.1: the firms’ gain is the triangle between the demand curve and the wage, and the workers’ gain is the triangle between the wage and the supply curve. We’ll keep to the words; the areas are for a public finance course.</p>
+<p>The point to land: efficiency is about the size of the total gain, not who gets it. A market can be efficient and still leave workers poor.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="change-in-supply-or-demand" class="title-slide slide level1">
+<h1>Change in Supply or Demand</h1>
+
+</section>
+<section id="delivery-drivers-in-toronto-after-the-pandemic" class="slide level2 smaller">
+<h2>Delivery Drivers in Toronto After the Pandemic</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="825"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:42%;">
+<ul>
+<li><span class="fg" style="color: #555;">Supply shifts right, 1 to 2:</span> record numbers of international students arrived in 2022, and from October 2022 they could work more than 20 hours a week off campus. Flexible delivery work suits&nbsp;them</li>
+<li><span class="fg" style="color: #555;">Demand shifts right, 2 to 3:</span> shopping and restaurant meals moved online, and retailers bought delivery&nbsp;vehicles
+<ul>
+<li>Every vehicle needs a driver, so more vehicles raise each driver’s <span class="math inline">\(MPP_N\)</span>, and demand for drivers&nbsp;rises</li>
+</ul></li>
+<li>More supply alone <span class="fg" style="color: #c7254e;">lowers</span> the wage; more demand alone <span class="fg" style="color: #5cb85c;">raises</span> it</li>
+<li>Together: <span class="fg" style="color: #5cb85c;">employment rises</span>, and here the real wage ends where it&nbsp;started</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>How the book sets this up, which we’re leaving off the slide. Coming out of the pandemic, prices rose fast: 8.1% over the year to June 2022, the highest inflation in Canada in 40 years. Nominal wages in most markets didn’t keep up, so the real wage W/P fell below equilibrium, and a real wage below equilibrium means firms want more hours than workers offer. The book ties this to the more than 1 million job vacancies Statistics Canada reported in 2022. That step is a story about sticky nominal wages, which sits outside the competitive model: in the model a shortage gets competed away. One slip in the book’s version: it says rising prices raised firms’ MRP_N. That’s true in dollars, but the curves here are drawn against the real wage, and when all prices rise together the real labour demand curve doesn’t move. The shortage comes from the real wage falling, a movement along the curves. (The book also dates the 1 million vacancies to July 2022 here and to June 2022 in the next section.)</p>
+<p>In the book’s telling, the supply shift is what kept the shortage from bidding the wage back up, and the demand shift then pushed it back up, restoring the original real wage with more drivers employed.</p>
+<p>Delivery drivers are a good example of a market defined by occupation: drivers for Amazon and for Uber Eats are in the same labour market. Self-driving delivery vehicles are still rare, which is why the vans and the drivers go together.</p>
+<p>The book stresses that this is simplified. The two shifts overlapped in time, so the real wage may have barely moved while employment grew. And the shifts don’t have to be the same size, which is the next slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="does-the-wage-or-employment-move-more" class="slide level2 smaller">
+<h2>Does the Wage or Employment Move More?</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 43%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Shift</th>
+<th style="text-align: center;">Wage</th>
+<th style="text-align: center;">Employment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Demand rises</td>
+<td style="text-align: center;">↑</td>
+<td style="text-align: center;">↑</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Supply rises</td>
+<td style="text-align: center;">↓</td>
+<td style="text-align: center;">↑</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Both rise</td>
+<td style="text-align: center;">Depends on which shift is bigger</td>
+<td style="text-align: center;">↑</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>How a shift splits between the wage and jobs depends on the <span class="fg" style="color: #2780e3;">elasticity</span> of the other&nbsp;curve
+<ul>
+<li>Demand rises and supply is <span class="fg" style="color: #2780e3;">inelastic</span>: few extra workers come forward, so the wage rises a lot and employment a&nbsp;little</li>
+<li>Demand rises and supply is <span class="fg" style="color: #2780e3;">elastic</span>: mostly more jobs, with little change in the&nbsp;wage</li>
+</ul></li>
+<li>In Toronto: if drivers’ supply was inelastic, or the demand shift was the bigger one, the wage ended <span class="fg" style="color: #5cb85c;">above</span> where it&nbsp;started</li>
+<li>This logic comes back twice today, with product market power and with payroll&nbsp;taxes</li>
+</ul>
+<aside class="notes">
+<p>Why elasticity decides it. Inelastic supply means a steep supply curve: to get many more hours, firms have to raise the wage a lot, so most of a demand increase shows up in the wage. With elastic supply, a small wage rise brings out lots of extra hours, so most of it shows up in employment. The same works from the other side: a supply increase lowers the wage a lot when labour demand is inelastic.</p>
+<p>The book’s version for Toronto: if drivers’ supply is less elastic than demand, redraw the supply curve steeper, and the demand increase pushes the wage above w₁. Employers would have had to offer bigger raises to attract more drivers.</p>
+<p>Review Question 3 at the end of the chapter (robot vacuums and residential cleaners) runs exactly this logic in reverse, so leave it to them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="implications-of-the-competitive-market-equilibrium" class="title-slide slide level1">
+<h1>Implications of the Competitive Market Equilibrium</h1>
+
+</section>
+<section id="implication-1-no-lasting-unemployment-or-shortages" class="slide level2 smaller">
+<h2>Implication 1: No Lasting Unemployment or Shortages</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="825"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:42%;">
+<ul>
+<li><span class="fg" style="color: #555;">The model:</span> competition continues until the market clears, so neither unemployment nor shortages&nbsp;last</li>
+<li><span class="fg" style="color: #555;">The data:</span> Canada’s unemployment rate has never come close to zero since the Labour Force Survey began in&nbsp;1976
+<ul>
+<li>Its lowest annual rate was 5.3%, in 2022</li>
+</ul></li>
+<li>Shortages are real too: job vacancies passed 1 million in 2022, as baby boomers&nbsp;retire</li>
+<li>Unemployed workers and unfilled jobs at the same time. Is the model&nbsp;wrong?</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>This slide is the facts. The next two slides give the explanations.</p>
+<p>The model’s claim is about the long run: given enough time, wages adjust until the market clears. The data say unemployment never goes away. In recent years, the bigger worry for Canadian policymakers has been the opposite problem, labour shortages, as baby boomers retire.</p>
+<p>The book says the monthly unemployment rate has never been below 4.5%, a low it puts in December 2022. I couldn’t confirm that figure, so the chart uses annual averages from the Labour Force Survey file we used in Chapter 2. Monthly rates move around more than annual averages, so the monthly low is below 5.3%; the point doesn’t depend on the exact number.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="implication-2-equal-pay-for-equally-productive-workers" class="slide level2 smaller">
+<h2>Implication 2: Equal Pay for Equally Productive Workers</h2>
+<ul>
+<li><span class="fg" style="color: #555;">The model:</span> workers doing the same work in the same market earn the same&nbsp;wage</li>
+<li><span class="fg" style="color: #555;">Example:</span> Hearst is 96&nbsp;km west of Kapuskasing. Suppose Kapuskasing pays cashiers more, workers know it, and getting there is&nbsp;free
+<ul>
+<li>Hearst cashiers offer to work in Kapuskasing for a bit less than Kapuskasing cashiers get, so the Kapuskasing wage&nbsp;falls</li>
+<li>Hearst loses cashiers, so Hearst stores raise wages to keep them</li>
+<li>This continues until the two wages are equal</li>
+</ul></li>
+<li><span class="fg" style="color: #555;">Evidence that fits:</span> Alberta’s resource boom after 2003 raised wages as far away as Newfoundland. The option of commuting to an Alberta job let workers bargain for more at home (Green et al.&nbsp;2019)</li>
+<li><span class="fg" style="color: #555;">Evidence that doesn’t:</span> Costco has long paid its cashiers more than Walmart, and gender and racial pay gaps have lasted for&nbsp;decades</li>
+</ul>
+<aside class="notes">
+<p>The book’s thought experiment imagines a free high-speed train between the two towns, so moving costs nothing.</p>
+<p>Green, Morissette, Sand and Snoddy (2019) is the evidence that fits. Long-distance commuting to the Alberta oil fields gave labourers in Newfoundland a new outside option, so Newfoundland employers had to raise wages to keep them. One high-wage job in Alberta helped not just the person who took it, but the many workers who could have taken it and used it to bargain for more where they were. Why it matters: competition links labour markets thousands of kilometres apart, and that is exactly the force that’s supposed to wipe out wage gaps.</p>
+<p>The evidence that doesn’t fit: Costco and Walmart hire cashiers in the same towns. And wage gaps for women and some racialized groups have lasted despite decades of policy aimed at them. Chapter 15 covers these gaps.</p>
+<p>Note the condition in the title: equally productive. The next slide picks that up.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="is-the-model-wrong-or-are-the-data" class="slide level2 smaller">
+<h2>Is the Model Wrong, or Are the Data?</h2>
+<ul>
+<li><span class="fg" style="color: #555;">Markets in motion:</span> supply and demand shift constantly, so the data may be snapshots of markets on their way to a new equilibrium. But wage gaps last too long for that to be the whole&nbsp;story</li>
+<li><span class="fg" style="color: #555;">Unemployed at what wage?</span> Someone counted as unemployed may want more than the market wage. A firm with a vacancy may be offering less. Surveys don’t ask about wages, and no one is unemployed <span class="fg" style="color: #2780e3;">at</span> the market&nbsp;wage</li>
+<li><span class="fg" style="color: #555;">Workers and jobs differ:</span> in skills and work ethic, and in stress, flexibility, benefits and safety. Our data miss much of&nbsp;this</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Compensating wage differentials</span></strong>: wage differences that make up for differences in the non-wage features of&nbsp;jobs</p>
+</div>
+</div>
+</div>
+<ul>
+<li><span class="fg" style="color: #555;">Not perfectly competitive:</span> licences for doctors and engineers, minimum wages and unions, imperfect information, and the costs of changing jobs or&nbsp;hiring</li>
+<li>The real question: is the model a <span class="fg" style="color: #2780e3;">good enough approximation</span>? <span class="fg" style="color: #555;">Chapter&nbsp;12</span> asks whether employers have power to set&nbsp;wages</li>
+</ul>
+<aside class="notes">
+<p>These are explanations, not facts. The first three say the model may be fine and the data are measuring something else; the fourth says the model’s assumptions don’t hold exactly.</p>
+<p>Board sketch for the second point. On the supply curve, the workers to the right of equilibrium employment have reservation wages above w<em>. If one of them looks for work and doesn’t find a job at a wage they’d accept, the Labour Force Survey counts them as unemployed, but they aren’t willing to work at w</em>. Likewise, firms on the demand curve to the right of equilibrium would hire only at a wage below w*, and their unfilled vacancies show up in the vacancy data. Statistics Canada doesn’t ask either group what wage they’d accept or pay. So the data can pick up these parts of the curves, and that isn’t inconsistent with no unemployment and no shortage at the market wage.</p>
+<p>On the first point, Chapter 15 shows that many wage differentials are very persistent, too persistent to be explained by markets adjusting.</p>
+<p>On the fourth, economists don’t think most labour markets are perfectly competitive. There’s no consensus on whether the model is still a good enough approximation, and a fast-growing literature asks how much power employers have to set wages. Chapter 12 reviews it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="imperfect-competition-in-the-product-market" class="title-slide slide level1">
 <h1>Imperfect Competition in the Product Market</h1>
 
 </section>
-<section id="monopoly" class="slide level2">
-<h2>Monopoly</h2>
+<section id="product-market-power-lowers-labour-demand" class="slide level2 smaller">
+<h2>Product Market Power Lowers Labour Demand</h2>
+<ul>
+<li>Labour markets are defined by <span class="fg" style="color: #2780e3;">occupation</span>, not industry. Drivers deliver food or clothes; banks and schools both hire IT&nbsp;technicians
+<ul>
+<li>So a firm can have power where it sells, but be one of many where it&nbsp;hires</li>
+</ul></li>
+<li>From <span class="fg" style="color: #555;">Chapter&nbsp;8</span>: a <span class="fg" style="color: #2780e3;">monopolist</span> restricts its output to raise its price. Less output needs less labour, and <span class="math inline">\(MRP_N = MR_Q \times MPP_N\)</span> is below <span class="math inline">\(p \times MPP_N\)</span> at every&nbsp;<span class="math inline">\(N\)</span></li>
+<li>Market labour demand adds up firms’ demands, so more product market power means <span class="fg" style="color: #c7254e;">lower labour demand</span></li>
+<li>If product markets become less competitive over time, labour demand falls:
+<ul>
+<li>Wages fall more if labour supply is <span class="fg" style="color: #2780e3;">inelastic</span></li>
+<li>Jobs fall more if labour supply is <span class="fg" style="color: #2780e3;">elastic</span></li>
+</ul></li>
+<li>But a monopolist <span class="fg" style="color: #2780e3;">can’t mark down the wage</span>. If it pays less than the going wage, its workers&nbsp;leave</li>
+</ul>
+<aside class="notes">
+<p>Who is on which side. The owners keep the monopoly profit. Workers in that occupation lose through lower demand for their labour, which shows up as a lower market wage or fewer jobs. They don’t lose through a markdown at their own firm: the firm still pays the going wage, because it’s one of many employers hiring that kind of worker.</p>
+<p>The same logic holds for any firm with some power over its price, including the monopolistic competition and oligopoly cases from introductory economics: MR_Q is below the price, so labour demand is lower than it would be if the firm took its price as given. Chapter 8’s slide “Market Power Lowers Labour Demand” has the graph.</p>
+<p>The split between wages and jobs is the elasticity rule from the last section: lower demand with inelastic supply mostly cuts wages, and with elastic supply mostly cuts jobs.</p>
+<p>The book adds that there are reasons a firm with product market power may pay more than the going wage. That’s the next slide. Review Question 5 and Problem 4 at the end of the chapter work through this, so leave the details to them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="rent-sharing" class="slide level2 smaller">
+<h2>Rent Sharing</h2>
+<ul>
+<li>A monopolist that pays the going wage keeps all its monopoly profit, or <span class="fg" style="color: #2780e3;">rent</span></li>
+<li>But workers often get a share. Unions bargain for one (<span class="fg" style="color: #555;">Chapter&nbsp;16</span>), and even non-union workers earn more where profits are&nbsp;higher</li>
+</ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Monopoly</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="fg" style="color: #2780e3;">Monopoly:</span> a single seller with market power — the ability to set prices above marginal cost</p>
+<p><strong><span class="fg" style="color: #2780e3;">Rent sharing</span></strong>: workers in competitive labour markets capturing part of the profit their employer earns from product market&nbsp;power</p>
 </div>
 </div>
 </div>
 <ul>
-<li>For a monopolist, the labour demand curve is where wage equals marginal revenue product: <span class="math display">\[w = MR \times MPP_N\]</span></li>
-<li>For a monopolist, <span class="fg" style="color: #c7254e;">marginal revenue is less than price</span>
+<li><span class="fg" style="color: #555;">Hard to measure:</span> higher pay at profitable firms could reflect more productive workers, or jobs that are worse in ways the data&nbsp;miss</li>
+<li>So researchers use changes in profits that the workers didn’t cause:
 <ul>
-<li>Because to sell more, they have to lower price on all units sold</li>
-<li>So marginal revenue product is less than value of marginal product (<span class="math inline">\(VMP\)</span>)</li>
+<li><span class="fg" style="color: #555;">US bank deregulation:</span> as states let competing banks in, bank wages <span class="fg" style="color: #c7254e;">fell</span>, 12% for men and 3% for&nbsp;women</li>
+<li><span class="fg" style="color: #555;">Patents:</span> where patents were granted rather than rejected, workers got about 30% of the extra profit, more for men and the highest&nbsp;paid</li>
+<li><span class="fg" style="color: #555;">UK firms:</span> strong rent sharing, but much less in the 2000s than in the 1980s and&nbsp;1990s</li>
 </ul></li>
+<li><span class="fg" style="color: #555;">Why it matters:</span> pay depends on the employer’s profits, not just productivity. That breaks implication&nbsp;2</li>
 </ul>
-</section>
-<section id="monopoly-2" class="slide level2">
-<h2>Monopoly</h2>
-
-<img data-src="images/monopolist.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="monopoly-3" class="slide level2">
-<h2>Monopoly</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Warning</strong></p>
-</div>
-<div class="callout-content">
-<p>Monopolists raise the price of their product above the competitive level, which decreases output — so they demand <span class="fg" style="color: #c7254e;">fewer workers</span> than a competitive firm in the same market</p>
-</div>
-</div>
-</div>
-<ul>
-<li>Note that power in the product market does not mean power in the labour market
-<ul>
-<li>The firm is still one of many hiring workers in a particular labour market</li>
-</ul></li>
-</ul>
-</section>
-<section id="monopolistic-competition-and-oligopoly" class="slide level2">
-<h2>Monopolistic Competition and Oligopoly</h2>
-<ul>
-<li>Many markets are neither perfectly competitive nor pure monopoly</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Monopolistic competition:</span></p>
-<ul>
-<li>Many firms selling differentiated products</li>
-<li>Each firm has some market power because of product differentiation</li>
-<li>Can set prices above marginal cost</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Oligopoly:</span></p>
-<ul>
-<li>A few firms dominate the market</li>
-<li>Each firm has significant market power</li>
-<li>But must consider reactions of competitors when setting prices</li>
-</ul>
-</section>
-<section id="monopolistic-competition-and-oligopoly-1" class="slide level2">
-<h2>Monopolistic Competition and Oligopoly</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>In both cases, demand for labour is based on marginal revenue product — which is less than VMP — so firms hire fewer workers than in competitive markets</p>
-</div>
-</div>
-</div>
-</section>
-<section id="additional-details" class="slide level2">
-<h2>Additional Details</h2>
-<ul>
-<li>All of the previous analysis assumes that labour markets are perfectly competitive
-<ul>
-<li>Firms can hire all labour they want at the given wage</li>
-</ul></li>
-<li>That is not always the case in reality when firms have power in the product market
-<ul>
-<li>Employees may unionize</li>
-<li>Firms may hire a large number of the market’s workers</li>
-</ul></li>
-<li>In these cases, firms may not face a perfectly elastic supply curve for labour</li>
-<li>Later we will analyze imperfect competition in the labour market</li>
-</ul>
-</section>
-<section id="section-1" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Discussion</strong></p>
-<p>Why might a monopolist pay lower wages than a competitive firm, even if both firms hire workers from the same labour market?</p>
-</div>
+<aside class="notes">
+<p>Blanchflower, Oswald and Sanfey (1996) and Hildreth and Oswald (1997) find that non-union workers earn more in industries and firms where profits are higher.</p>
+<p>Black and Strahan (2001). Until the mid-1970s, US regulations kept banks out of each other’s markets. Over the next 25 years, states removed those barriers at different times, so researchers can compare states that had deregulated with states that hadn’t yet. Average wages of bank employees fell after deregulation, so some of the rents that regulation created had been going to workers. The bigger fall for men suggests the rents were shared more with men.</p>
+<p>Kline, Petkova, Williams and Zidar (2019) compare US firms whose patent applications were approved with similar firms whose applications were rejected. Approval raised profits and wages; workers captured about 30% of the increase in profits that came from the patent. The share was bigger for men and for the highest-paid employees. Their explanation is that these workers are costly for the firm to replace, which isn’t what a perfectly competitive labour market would predict, since there every worker can be replaced at the going wage.</p>
+<p>Bell, Bukowski and Machin (2024) find strong rent sharing in British firms, but it fell a lot over time: workers in the 2000s benefited less from their employers’ success than workers in the 1980s and 1990s. They can’t say what changed in how firms set pay.</p>
+<p>A slip in the book: it says Bell et al.&nbsp;follow “Black and Strahan’s approach” of comparing firms that did and didn’t receive patents. Black and Strahan used bank deregulation; comparing firms that did and didn’t get patents is Kline et al.’s design.</p>
+<p>Why it matters, in one line: in a perfectly competitive labour market, a firm’s profits shouldn’t affect what it pays, because the market sets the wage. Rent sharing is evidence that firms have some room to set pay, which is Chapter 12’s question.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="math-of-labour-market-equilibrium" class="title-slide slide level1">
-<h1>Math of Labour Market Equilibrium</h1>
+<section id="working-with-supply-and-demand" class="title-slide slide level1">
+<h1>Working with Supply and Demand</h1>
 
 </section>
-<section id="introduction-3" class="slide level2">
-<h2>Introduction</h2>
+<section id="solving-for-the-equilibrium" class="slide level2 smaller">
+<h2>Solving for the Equilibrium</h2>
 <ul>
-<li>We know that market equilibrium is where demand and supply are equal</li>
-<li>You can do that graphically or mathematically</li>
-<li>In this section we cover both</li>
-<li>To make the math easier, we use <span class="fg" style="color: #2780e3;">linear demand and supply curves</span>
-<ul>
-<li>This is just for simplicity — the same principles apply with non-linear curves</li>
-</ul></li>
+<li>To judge a policy, we often need numbers: what does it do to the wage, and to&nbsp;employment?</li>
 </ul>
-</section>
-<section id="demand-and-supply-functions" class="slide level2">
-<h2>Demand and Supply Functions</h2>
-<p><span class="fg" style="color: #2780e3;">Variables in the model:</span></p>
-<ul>
-<li>Demand: <span class="math inline">\(N^D = f(w, Z)\)</span>
-<ul>
-<li><span class="math inline">\(Z\)</span> is a list of other factors affecting demand</li>
-</ul></li>
-<li>Supply: <span class="math inline">\(N^S = g(w, X)\)</span>
-<ul>
-<li><span class="math inline">\(X\)</span> is a list of other factors affecting supply</li>
-</ul></li>
-</ul>
-<p><span class="fg" style="color: #555;">Exogenous variables</span> (<span class="math inline">\(Z\)</span> and <span class="math inline">\(X\)</span>) shift the curves:</p>
-<ul>
-<li>Examples: technology, prices of other inputs, preferences, demographics</li>
-<li>Determined <span class="fg" style="color: #c7254e;">outside</span> the model</li>
-</ul>
-<p><span class="fg" style="color: #555;">Endogenous variables</span> (<span class="math inline">\(N^D\)</span>, <span class="math inline">\(N^S\)</span>, and <span class="math inline">\(w\)</span>):</p>
-<ul>
-<li>Determined <span class="fg" style="color: #5cb85c;">within</span> the model</li>
-</ul>
-</section>
-<section id="demand-and-supply-functions-1" class="slide level2">
-<h2>Demand and Supply Functions</h2>
-<p>Assume the demand and supply functions are <span class="fg" style="color: #2780e3;">linear</span>:</p>
-<ul>
-<li>Demand: <span class="math inline">\(N^D = a + b w\)</span> (where <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span> are constants)</li>
-<li>Supply: <span class="math inline">\(N^S = c + f w\)</span> (where <span class="math inline">\(c\)</span>, <span class="math inline">\(f\)</span> are constants)</li>
-</ul>
-<p>To find equilibrium, set demand equal to supply:</p>
-<p><span class="math display">\[a + b w^* = c + f w^*\]</span></p>
-</section>
-<section id="demand-and-supply-functions-2" class="slide level2">
-<h2>Demand and Supply Functions</h2>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Equilibrium Solutions</strong></p>
-</div>
-<div class="callout-content">
-<p>Equilibrium wage: <span class="math display">\[w^* = \frac{c - a}{b - f}\]</span></p>
-<p>Equilibrium employment: <span class="math display">\[N^* = \frac{b c - a f }{b - f}\]</span></p>
-</div>
-</div>
-</div>
-<p>Use these equations to analyze how changes in exogenous variables affect equilibrium:</p>
-<ul>
-<li>Changing <span class="math inline">\(a\)</span> shifts the demand curve (e.g., increase in product price)</li>
-<li>Changing <span class="math inline">\(c\)</span> shifts the supply curve (e.g., increase in population)</li>
-</ul>
-</section>
-<section id="demand-and-supply-functions-3" class="slide level2">
-<h2>Demand and Supply Functions</h2>
-<p>To draw the demand and supply curves, we need <span class="math inline">\(w\)</span> on the left side:</p>
-<p>Rearranging the demand function: <span class="math display">\[w = \frac{N^D - a}{b}\]</span></p>
-<p>Rearranging the supply function: <span class="math display">\[w = \frac{N^S - c}{f}\]</span></p>
-</section>
-<section id="demand-and-supply-functions-4" class="slide level2">
-<h2>Demand and Supply Functions</h2>
-
-<img data-src="images/dands.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="payroll-tax" class="slide level2">
-<h2>Payroll Tax</h2>
-<ul>
-<li>We can use this model to analyze various policies</li>
-<li>One common policy is a <span class="fg" style="color: #2780e3;">payroll tax on employers</span>
-<ul>
-<li>Examples: Canada Pension Plan (CPP), Employment Insurance (EI)</li>
-</ul></li>
-<li>These are typically a percentage of wages paid by employers</li>
-<li>We will analyze a fixed amount per hour for simplicity: suppose the tax is <span class="math inline">\(T\)</span> per hour</li>
-<li>This drives a “wedge” between the wage paid by employers and the wage received by workers:</li>
-</ul>
-<p><span class="math display">\[w_r = w_e - T\]</span></p>
-</section>
-<section id="payroll-tax-1" class="slide level2">
-<h2>Payroll Tax</h2>
-<p>The demand function is: <span class="math display">\[w_e = \frac{N^D - a}{b} \]</span></p>
-<p>The supply function is: <span class="math display">\[w_r = \frac{N^S - c}{f}\]</span></p>
-</section>
-<section id="payroll-tax-2" class="slide level2">
-<h2>Payroll Tax</h2>
-<p>Substitute into the equilibrium price equation and set quantity demanded equal to quantity supplied:</p>
-<p><span class="math display">\[\frac{N^* - c}{f} = \frac{N^* - a}{b} - T \]</span></p>
-<p>Rearranging to solve for equilibrium employment:</p>
-<p><span class="math display">\[N^* = \frac{b c - a f - b f T}{b - f} \]</span></p>
-</section>
-<section id="payroll-tax-3" class="slide level2">
-<h2>Payroll Tax</h2>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Equilibrium Wages Under Payroll Tax</strong></p>
-</div>
-<div class="callout-content">
-<p>Wage received by workers: <span class="math display">\[w_r^* = \frac{c-a}{b-f} - \frac{b}{b-f} T \]</span></p>
-<p>Wage paid by employers: <span class="math display">\[w_e^* = \frac{c-a}{b-f} - \frac{f}{b-f} T \]</span></p>
-</div>
-</div>
-</div>
-</section>
-<section id="payroll-tax-4" class="slide level2">
-<h2>Payroll Tax</h2>
-
-<img data-src="images/payroll.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="payroll-tax-5" class="slide level2">
-<h2>Payroll Tax</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tax Incidence</strong></p>
+<p><strong>Key Definitions</strong></p>
 </div>
 <div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Endogenous variables</span></strong>: determined inside the model, here <span class="math inline">\(w\)</span>, <span class="math inline">\(N^S\)</span> and&nbsp;<span class="math inline">\(N^D\)</span></p>
+<p><strong><span class="fg" style="color: #2780e3;">Exogenous variables</span></strong>: taken as given from outside the model. <span class="math inline">\(X\)</span> shifts supply and <span class="math inline">\(Z\)</span> shifts&nbsp;demand</p>
+<p><strong><span class="fg" style="color: #2780e3;">Reduced form</span></strong>: equations that give each endogenous variable in terms of the exogenous&nbsp;ones</p>
+</div>
+</div>
+</div>
+<p><span class="math display">\[N^S = a + bw + \delta X, \quad b &gt; 0 \qquad\qquad N^D = c + fw + \theta Z, \quad f &lt; 0\]</span></p>
 <ul>
-<li><span class="fg" style="color: #2780e3;">Statutory incidence:</span> who is legally responsible for paying the tax (here: firms)</li>
-<li><span class="fg" style="color: #2780e3;">Economic incidence:</span> who actually bears the burden of the tax (here: shared between firms and workers)</li>
+<li>Set <span class="math inline">\(N^S = N^D\)</span> and solve for the reduced form:</li>
 </ul>
-</div>
-</div>
-</div>
-<p>Economic incidence depends on <span class="fg" style="color: #2780e3;">elasticities of supply and demand</span>:</p>
+<p><span class="math display">\[w^* = \frac{a-c}{f-b} + \frac{\delta}{f-b}X - \frac{\theta}{f-b}Z \qquad\qquad N^* = \frac{af-bc}{f-b} + \frac{f\delta}{f-b}X - \frac{b\theta}{f-b}Z\]</span></p>
 <ul>
-<li>More elastic supply → workers bear <span class="fg" style="color: #5cb85c;">less</span> of the tax burden</li>
-<li>More elastic demand → firms bear <span class="fg" style="color: #5cb85c;">less</span> of the tax burden</li>
+<li><span class="fg" style="color: #555;">Example:</span> if <span class="math inline">\(X\)</span> is the cost of child care, <span class="math inline">\(\delta &lt; 0\)</span>. Cheaper child care raises <span class="math inline">\(N^*\)</span> and lowers&nbsp;<span class="math inline">\(w^*\)</span></li>
 </ul>
+<aside class="notes">
+<p>The derivation, for the board: a + bw + δX = c + fw + θZ, so (b − f)w = c − a + θZ − δX. Dividing through, and writing the denominator as f − b, gives the wage equation. Put w* back into the supply equation to get N*. Note that f − b is negative, since f &lt; 0 and b &gt; 0.</p>
+<p>The two equations on the slide are linear supply and demand. In the child care example, cheaper child care lowers parents’ reservation wages and raises labour supply, so N* rises and w* falls.</p>
+<p>The child care example with signs. Raising X by one unit changes w* by δ/(f − b), which is positive, since both δ and f − b are negative. It changes N* by fδ/(f − b), which is negative: fδ is positive and f − b is negative. So cutting child care costs lowers the wage and raises employment. The wage falls because more labour supply creates a surplus at the old wage, and workers compete the wage down.</p>
+<p>Three slips in the book’s version of this section. First, its general form (equation 11.1) puts Z in supply and X in demand, and its linear version (11.2) swaps them; we use 11.2 throughout. Second, it writes the effects of cheaper child care as fδ/(f − b) &gt; 0 on employment and δ/(f − b) &lt; 0 on the wage. With δ &lt; 0, f &lt; 0 and f − b &lt; 0, those two expressions have the opposite signs; the effects of a one-unit cut are −fδ/(f − b) &gt; 0 and −δ/(f − b) &lt; 0. Its conclusions are right. Third, it says the demand curve’s slope is 1/b and its intercept −a/b. With w on the vertical axis, those are the supply curve’s; demand’s slope is 1/f and its intercept −c/f.&nbsp;It looks like a leftover from the previous edition, which wrote demand as a + bw.</p>
+<p>Linear curves have a constant slope but not a constant elasticity: the supply elasticity is b × w/N and the demand elasticity f × w/N, which change as you move along the curve. Researchers often have elasticity estimates from other studies, so they use log-linear curves instead: log N^S = λ + η log w + δX and log N^D = α + β log w + θZ. Then η is the supply elasticity and β the demand elasticity, the same at every point, and the model solves exactly as in the linear case. The book says the elasticities are “β and η, respectively”, which reverses them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="evidence" class="slide level2">
-<h2>Evidence</h2>
-<div class="callout callout-note callout-titled callout-style-default">
+<section id="a-worked-example" class="slide level2">
+<h2>A Worked Example</h2>
+<ul>
+<li>Supply: <span class="math inline">\(N^S = 60 + w\)</span>. Demand: <span class="math inline">\(N^D = 120 - 2w\)</span></li>
+<li>Set them equal: <span class="math inline">\(60 + w = 120 - 2w\)</span>, so <span class="math inline">\(3w = 60\)</span>
+<ul>
+<li><span class="math inline">\(w^* = 20\)</span> and <span class="math inline">\(N^* = 80\)</span></li>
+</ul></li>
+<li>Same answer from the formula, with <span class="math inline">\(a = 60\)</span>, <span class="math inline">\(b = 1\)</span>, <span class="math inline">\(c = 120\)</span>, <span class="math inline">\(f = -2\)</span>: <span class="math inline">\(w^* = \dfrac{60 - 120}{-2 - 1} = 20\)</span></li>
+<li><span class="fg" style="color: #555;">Cheaper child care:</span> supply rises by 6 hours at every wage, so <span class="math inline">\(N^S = 66 + w\)</span>
+<ul>
+<li><span class="math inline">\(66 + w = 120 - 2w\)</span>, so <span class="math inline">\(w^* = 18\)</span> and <span class="math inline">\(N^* = 84\)</span>: more employment at a lower&nbsp;wage</li>
+</ul></li>
+<li>Elasticities at the equilibrium: supply <span class="math inline">\(1 \times \dfrac{20}{80} = 0.25\)</span>, demand <span class="math inline">\(-2 \times \dfrac{20}{80} = -0.5\)</span>. Close to the cashier&nbsp;market</li>
+</ul>
+<aside class="notes">
+<p>Employment from the formula: N* = (af − bc)/(f − b) = (60 × (−2) − 1 × 120)/(−3) = −240/−3 = 80.</p>
+<p>To draw it with w on the vertical axis: supply is w = N − 60 and demand is w = 60 − N/2.</p>
+<p>Keep these numbers handy: the payroll tax slides use them.</p>
+<p>Problem 3 at the end of the chapter works a similar example with different numbers, so leave that one to them.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="application-incidence-of-a-payroll-tax" class="title-slide slide level1">
+<h1>Application: Incidence of a Payroll Tax</h1>
+
+</section>
+<section id="are-payroll-taxes-job-killers" class="slide level2 smaller">
+<h2>Are Payroll Taxes Job Killers?</h2>
+<div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Empirical Findings on Payroll Taxes</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Pure payroll tax</span></strong>: a tax on employers in proportion to their total wage bill. British Columbia, Manitoba, Ontario, Quebec, and Newfoundland and Labrador have&nbsp;one</p>
+</div>
+</div>
+</div>
 <ul>
-<li>In the long run, <span class="fg" style="color: #c7254e;">workers bear most of the burden</span> through lower wages</li>
-<li>Employment effects are <span class="fg" style="color: #5cb85c;">small</span></li>
+<li>More common are CPP/QPP and EI premiums, workers’ compensation, and some provincial health levies. Your pay stub splits these between you and your employer, at least on&nbsp;paper</li>
+<li>Critics call payroll taxes <span class="fg" style="color: #c7254e;">job killers</span>: they raise the cost of&nbsp;hiring</li>
+<li><span class="fg" style="color: #555;">The model:</span> employers pay a tax of <span class="math inline">\(T\)</span> per hour. The firm pays <span class="math inline">\(w + T\)</span>: <span class="math inline">\(w\)</span> to the worker and <span class="math inline">\(T\)</span> to the&nbsp;government</li>
+<li><span class="fg" style="color: #555;">Step by step:</span>
+<ul>
+<li>The most a firm will pay a worker for the <span class="math inline">\(N\)</span>th hour is now <span class="math inline">\(MRP_N - T\)</span></li>
+<li>So the demand curve, measured in the wage workers get, shifts <span class="fg" style="color: #2780e3;">down by exactly <span class="math inline">\(T\)</span></span> at every&nbsp;<span class="math inline">\(N\)</span></li>
+<li>At the old wage, firms want fewer hours: a <span class="fg" style="color: #c7254e;">surplus</span> of workers. Wage competition pushes the wage down until supply equals demand&nbsp;again</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Ontario’s version is the Employer Health Tax. British Columbia’s, under the same name, started in 2019 and is missing from the book’s list.</p>
+<p>Why the shift is exactly T. Before the tax, the Nth hour was worth MRP_N to the firm, so that was the most it would pay for it. With the tax, that hour costs w + T, so the most the firm will now pay the worker is MRP_N − T. That’s true at every N, so the whole demand curve, drawn against the wage workers receive, drops by T. In the linear model from the last section, demand becomes N^D = c + f(w + T) + θZ.</p>
+<p>The critics’ argument assumes the firm’s cost goes up by the full T. The question for the next slide is whether it does, once the wage adjusts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="who-really-pays" class="slide level2 smaller">
+<h2>Who Really Pays?</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="825"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:42%;">
+<ul>
+<li><span class="fg" style="color: #555;">Before the tax:</span> point A. Wage 20, 80 hours</li>
+<li><span class="fg" style="color: #555;">After a $6 tax:</span> point B. Workers get 16, firms pay <span class="math inline">\(16 + 6 = 22\)</span>, and hours fall to&nbsp;76</li>
+<li>Workers bear <span class="math inline">\(\dfrac{20 - 16}{6} = \dfrac{2}{3}\)</span> of the tax, through a <span class="fg" style="color: #c7254e;">lower wage</span></li>
+<li>Firms bear <span class="math inline">\(\dfrac{22 - 20}{6} = \dfrac{1}{3}\)</span>, through a <span class="fg" style="color: #c7254e;">higher cost of labour</span></li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definitions</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Tax incidence</span></strong>: who bears a tax</p>
+<ul>
+<li><span class="fg" style="color: #555;">Statutory:</span> who is legally required to pay it. Here,&nbsp;employers</li>
+<li><span class="fg" style="color: #555;">Economic:</span> who actually ends up worse off. Here, shared, mostly&nbsp;workers</li>
 </ul>
 </div>
 </div>
 </div>
+</div></div>
+<aside class="notes">
+<p>Walk through the graph. At A, before the tax, the wage is 20 and 80 hours are worked. The tax drops demand by 6 at every N. If the wage stayed at 20, firms would want only N′ = 68 hours, but workers still offer 80: a surplus of 12. Workers compete, the wage falls, and the market settles at B: workers get 16, the firm pays 16 + 6 = 22, and 76 hours are worked.</p>
+<p>In the book’s letters: BD is the full tax, T. BC, from 16 up to 20, is the part workers bear through the lower wage. CD, from 20 up to 22, is the part firms bear through the higher cost of each hour. Workers’ share is BC/BD.</p>
+<p>The key lesson: the tax falls on workers even though the law puts it entirely on employers. Who fills in the forms doesn’t decide who pays.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="section-2" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Think About It</strong></p>
-<p>A payroll tax is legally imposed on employers, yet economists say workers bear most of the burden in the long run. What mechanism causes the tax burden to shift from employers to workers over time?</p>
-</div>
+<section id="elasticities-decide-the-split" class="slide level2 smaller">
+<h2>Elasticities Decide the Split</h2>
+<ul>
+<li>In general, the tax moves the wage to <span class="math inline">\(w_1 = w_0 + \dfrac{f}{b - f}\,T\)</span>, so workers’ share is <span class="math inline">\(\dfrac{-f}{b - f}\)</span></li>
+<li>With <span class="math inline">\(T = 6\)</span>, and every case starting from <span class="math inline">\(w = 20\)</span> and 80 hours:</li>
+</ul>
+<table class="caption-top">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 13%">
+<col style="width: 21%">
+<col style="width: 7%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Case</th>
+<th style="text-align: center;"><span class="math inline">\(b\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f\)</span></th>
+<th style="text-align: center;">Workers get</th>
+<th style="text-align: center;">Firms pay (<span class="math inline">\(w + T\)</span>)</th>
+<th style="text-align: center;">Hours</th>
+<th style="text-align: center;">Workers’ share</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Inelastic supply</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">−2</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">76</td>
+<td style="text-align: center;">2/3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Elastic supply</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">−2</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">72</td>
+<td style="text-align: center;">1/3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Inelastic demand (short run)</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">−0.5</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">1/3</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="fg" style="color: #555;">Inelastic supply:</span> workers keep working at a lower wage, so they <span class="fg" style="color: #c7254e;">bear more</span> of the tax, and <span class="fg" style="color: #5cb85c;">fewer jobs are&nbsp;lost</span></li>
+<li><span class="fg" style="color: #555;">Elastic supply:</span> workers leave when the wage falls, so firms bear more, through lower profits or higher prices, and <span class="fg" style="color: #c7254e;">more jobs are&nbsp;lost</span></li>
+<li><span class="fg" style="color: #555;">Short run vs.&nbsp;long run:</span> labour demand is less elastic in the short run (<span class="fg" style="color: #555;">Chapter&nbsp;8</span>), so firms bear more at first and fewer jobs are lost. Over time, more of the tax shifts to&nbsp;workers</li>
+</ul>
+<aside class="notes">
+<p>Check each row with the formula. −f/(b − f) = 2/(1 + 2) = 2/3; 2/(4 + 2) = 1/3; 0.5/(1 + 0.5) = 1/3. The elastic-supply row uses supply N = 4w, and the short-run row uses demand N = 90 − 0.5w; both pass through w = 20 and N = 80, so the three cases start from the same place.</p>
+<p>The book’s own example: b = 3 and f = −1, so workers bear a quarter of the tax.</p>
+<p>A correction to the book. It says that the more willing workers are to work at lower wages, the steeper the labour supply curve and the bigger b. A steeper supply curve means a smaller b: b is how much N changes when w changes, so on a graph with w on the vertical axis the slope is 1/b. A bigger b means workers bear less. The book’s conclusion, that workers who keep working at lower wages bear more of the tax, is right.</p>
+<p>On the short run. Chapter 8 showed that firms can’t swap capital for labour quickly, so labour demand is less elastic in the short run and f is closer to zero. If labour supply is also less elastic in the short run, that prediction may not hold. In the end, who bears a payroll tax is an empirical question, which is the next slide.</p>
+<p>When firms bear part of the tax, they can absorb it in lower profits or pass it on to consumers through higher prices.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="evidence-workers-bear-most-of-the-tax" class="slide level2 smaller">
+<h2>Evidence: Workers Bear Most of the Tax</h2>
+<ul>
+<li><span class="fg" style="color: #555;">Why it’s hard to measure:</span> rate changes are usually small, like 4% to 5% of payroll. And governments may raise rates when labour markets are strong, which makes the taxes look good for&nbsp;jobs</li>
+<li><span class="fg" style="color: #555;">Chile, 1981</span> (Gruber 1997): privatizing public pensions cut the average employer rate from 30% to 8.5%. Almost all of the cut went into higher wages, with little change in&nbsp;employment</li>
+<li><span class="fg" style="color: #555;">Canada</span> (Deslauriers et al.&nbsp;2021): linked tax records for workers and their employers, using rates that differ with payroll size and Manitoba’s 2007 cut for medium-sized&nbsp;firms
+<ul>
+<li>No effect on employment or output: the tax was passed <span class="fg" style="color: #c7254e;">entirely to workers</span> as lower&nbsp;wages</li>
+<li>In the model, <span class="math inline">\(b\)</span> is close to zero, so workers’ share is close to one. That fits the small supply elasticities in <span class="fg" style="color: #555;">Chapter&nbsp;3</span></li>
+</ul></li>
+<li>Earlier Canadian evidence agrees: job losses are small in the long run (Kesselman&nbsp;1996)</li>
+<li>So payroll taxes <span class="fg" style="color: #5cb85c;">aren’t job killers</span>, but <span class="fg" style="color: #2780e3;">workers pay them</span>, through lower wages. In return they get the pensions and EI the taxes&nbsp;fund</li>
+</ul>
+<aside class="notes">
+<p>Why reverse causality matters: if governments raise payroll taxes when the labour market is strong, a naive comparison would show higher taxes alongside higher wages and employment. It would be wrong to conclude that the taxes raised them.</p>
+<p>Gruber (1997), the book’s Exhibit 11.1. Before 1981, Chile’s pay-as-you-go pension system, like the CPP/QPP, was funded by payroll taxes averaging 30% on employers and 12% on employees. In May 1981 Chile switched to individual savings accounts, and the average employer rate fell to 8.5%, with workers’ own contributions making up the rest. At the same time, the government ordered firms to raise nominal wages by 18%, but inflation was running at 25%, so the raw numbers don’t show whether real wages rose because of the tax cut. Gruber used firm-level data and compared firms that the change should have affected differently. Why it’s convincing: the change was huge, and it came from pension reform, not from the state of the labour market.</p>
+<p>Deslauriers, Dostie, Gagné and Paré link workers’ income tax records to their employers’ corporate tax records. The book’s text dates the study 2024, but its reference list and the journal give 2021 (Canadian Journal of Economics). Why it matters: it’s recent Canadian data, and the result is the extreme case of the model, where workers bear the whole tax.</p>
+<p>Kesselman (1996) reviews the Canadian evidence on the payroll taxes that fund public pensions: some job losses in the short run perhaps, small ones in the long run, and the tax falls mostly on workers.</p>
+<p>Who is on which side: the law puts the tax on employers; the economics puts most of it on workers. Problem 5 at the end of the chapter takes this a step further: if workers value the benefits a payroll tax pays for, their supply curve shifts too.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="summary" class="title-slide slide level1">
 <h1>Summary</h1>
 
 </section>
-<section id="summary-1" class="slide level2">
+<section id="summary-1" class="slide level2 smaller">
 <h2>Summary</h2>
-<p><span class="fg" style="color: #2780e3;">Competitive labour markets:</span></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Competitive market equilibrium:</span></p>
 <ul>
-<li>Market demand and supply jointly determine the wage and employment level</li>
-<li>The competitive firm takes that wage as given</li>
-<li>Product market power lowers the wage below the value of the marginal product</li>
-<li>A payroll tax is shared between workers and firms according to the relative elasticities of supply and demand</li>
+<li>Wage competition moves the wage to where supply equals demand. The result is efficient, but not necessarily&nbsp;fair</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Changes in supply or demand:</span></p>
+<ul>
+<li>Shifts change the wage and employment. Elasticities decide which moves&nbsp;more</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Implications of the competitive model:</span></p>
+<ul>
+<li>No lasting unemployment, and equal pay for equal workers. The data don’t fit neatly, because of how we measure, differences between workers and jobs, and imperfect&nbsp;competition</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Imperfect competition in the product market:</span></p>
+<ul>
+<li>Product market power lowers labour demand. A monopolist still pays the going wage, but workers often share its&nbsp;profits</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Working with supply and demand:</span></p>
+<ul>
+<li>Linear supply and demand can be solved for the equilibrium wage and&nbsp;employment</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Payroll taxes:</span></p>
+<ul>
+<li>Who bears a payroll tax depends on elasticities. The evidence says workers bear most of it, and job losses are&nbsp;small</li>
+</ul>
+</div></div>
+</section>
+<section id="references" class="slide level2 smaller">
+<h2>References</h2>
+<ul>
+<li>Bell, B., Bukowski, P., &amp; Machin, S. (2024). The decline in rent sharing. <em>Journal of Labor Economics</em>, <span style="white-space: nowrap;">42(3), 683–716.</span></li>
+<li>Benjamin, D., Foley, K., Gunderson, M., Lemieux, T., Schirle, T., &amp; Skuterud, M. (2026). <em>Labour Market Economics</em>, 2026 Release. McGraw Hill. Chapter&nbsp;11.</li>
+<li>Black, S. E., &amp; Strahan, P. E. (2001). The division of the spoils: Rent-sharing and discrimination in a regulated industry. <em>American Economic Review</em>, 91(4), 814–831.</li>
+<li>Blanchflower, D. G., Oswald, A. J., &amp; Sanfey, P. (1996). Wages, profits, and rent-sharing. <em>Quarterly Journal of Economics</em>, 111(1), 227–251.</li>
+<li>Deslauriers, J., Dostie, B., Gagné, R., &amp; Paré, J. (2021). Estimating the impacts of payroll taxes: Evidence from Canadian employer-employee tax data. <em>Canadian Journal of Economics</em>, 54(4), 1609–1637.</li>
+<li>Green, D. A., Morissette, R., Sand, B. M., &amp; Snoddy, I. (2019). Economy-wide spillovers from booms: Long-distance commuting and the spread of wage effects. <em>Journal of Labor Economics</em>, 37(S2), S643–S687.</li>
+</ul>
+</section>
+<section id="references-cont." class="slide level2 smaller">
+<h2>References (cont.)</h2>
+<ul>
+<li>Gruber, J. (1997). The incidence of payroll taxation: Evidence from Chile. <em>Journal of Labor Economics</em>, 15(3, Part 2), S72–S101.</li>
+<li>Hildreth, A. K. G., &amp; Oswald, A. J. (1997). Rent-sharing and wages: Evidence from company and establishment panels. <em>Journal of Labor Economics</em>, 15(2), 318–337.</li>
+<li>Kesselman, J. R. (1996). Payroll taxes in the finance of social security. <em>Canadian Public Policy</em>, 22(2), 162–179.</li>
+<li>Kline, P., Petkova, N., Williams, H., &amp; Zidar, O. (2019). Who profits from patents? Rent-sharing at innovative firms. <em>Quarterly Journal of Economics</em>, 134(3), 1343–1404.</li>
+<li>Statistics Canada. (2025). <em>Labour force characteristics by sex and detailed age group, annual</em> (Table 14-10-0327-01). Labour Force Survey.</li>
 </ul>
 
 
@@ -811,6 +1265,44 @@ Fall 2026
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
