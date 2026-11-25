@@ -157,201 +157,182 @@ Fall 2026
 <h2>Goals of This Section</h2>
 <p>In this section we will:</p>
 <ul>
-<li>Discuss trends in educational attainment in Canada</li>
-<li>Introduce Human Capital Theory of education investment</li>
-<li>Introduce the Signalling Model of education investment</li>
-<li>Discuss empirical methods to estimate returns to schooling</li>
-<li>Review empirical evidence on returns to schooling</li>
-<li>Discuss job training</li>
+<li>See how education is related to employment and unemployment in&nbsp;Canada</li>
+<li>Treat schooling as an investment, and find the best amount using present values and the internal rate of&nbsp;return</li>
+<li>Explain how education can raise pay by signalling ability, even if it adds no&nbsp;skills</li>
+<li>Estimate the return to schooling, and see how economists deal with ability&nbsp;bias</li>
+<li>Look at early childhood education, social returns, and the link between education and&nbsp;inequality</li>
+<li>Ask who pays for job training, and whether government training programs&nbsp;work</li>
 </ul>
+<aside class="notes">
+<p>Two lectures. Lecture 1 is the theory: schooling as an investment, then signalling. Lecture 2 is the evidence, early childhood, social returns, inequality, and training.</p>
+<p>The notation follows the textbook: I is annual earnings, ΔI the gain from more schooling, D the direct cost, r the interest rate, irr the internal rate of return, S years of schooling, and EXP experience.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="introduction" class="title-slide slide level1">
 <h1>Introduction</h1>
 
 </section>
-<section id="educational-attainment-ages-2544" class="slide level2">
-<h2>Educational Attainment, Ages 25–44</h2>
+<section id="educational-attainment-by-sex-ages-2544" class="slide level2">
+<h2>Educational Attainment by Sex, Ages 25–44</h2>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="1344" class="r-stretch"><aside class="notes">
+<p>Among 25 to 44 year olds, the share with a university degree rose from 16% in 1990 to 45% in 2025. Women passed men in the late 1990s (for good from 1999), and the gap is now 12 points: 51% of women and 39% of men have a degree. The share with 8 or fewer years of school fell from about 6% to about 1%.</p>
+<p>The textbook’s Figure 14.1 shows the same divergence by sex. One reason to come back to: estimated returns to schooling are higher for women than for men (about 15% versus 10% a year in the book’s Table 14.2).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="unemployment-rate-by-education-ages-2544" class="slide level2">
 <h2>Unemployment Rate by Education, Ages 25–44</h2>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
-<section id="participation-rate-by-education-ages-2544" class="slide level2">
-<h2>Participation Rate by Education, Ages 25–44</h2>
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
-<section id="section" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Discussion</strong></p>
-<p>The data show that university degree holders have higher participation rates and lower unemployment rates than those with less education. Why might we observe these patterns even during economic downturns — is it purely a productivity story, or could other factors be at play?</p>
-</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>Degree holders have the lowest unemployment rate, and the gap widens in recessions. In 2009, 5.2% of university graduates were unemployed against 9.8% of high school graduates; in 2020, 6.7% against 11.7%. In 2025, 5.4% against 8.2%.</p>
+<p>Participation follows the same pattern: in 2025, 92% of degree holders aged 25 to 44 were in the labour force, against 82% of high school graduates and 61% of those with 8 or fewer years of school.</p>
+<p>Is this all productivity? Human capital theory says education makes people more productive. Signalling says it identifies people who were already more productive. And people who get more education may differ in other ways. Both theories come next, and lecture 2 asks what the data say.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="human-capital-theory" class="title-slide slide level1">
 <h1>Human Capital Theory</h1>
 
 </section>
-<section id="human-capital-theory-1" class="slide level2">
-<h2>Human Capital Theory</h2>
+<section id="education-as-an-investment" class="slide level2 smaller">
+<h2>Education as an Investment</h2>
 <ul>
-<li>Firms often invest in <span class="fg" style="color: #2780e3;">physical capital</span> (e.g., machines, tools, buildings)
-<ul>
-<li>Incur some cost today to invest in capital</li>
-<li>Boosts the productive ability of workers</li>
-<li>Increases the output flow in the future</li>
-</ul></li>
-<li>Decision to invest is made by comparing costs to benefits
-<ul>
-<li>Invest if benefits outweigh costs</li>
-<li>Costs are usually upfront, while benefits occur slowly over time</li>
-</ul></li>
+<li>Firms invest in <span class="fg" style="color: #2780e3;">physical capital</span>: they pay now for machines that raise output later, and invest when the benefits outweigh the&nbsp;costs</li>
 </ul>
-</section>
-<section id="human-capital-theory-2" class="slide level2">
-<h2>Human Capital Theory</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Human Capital</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="fg" style="color: #2780e3;">Human Capital:</span> an individual’s stock of productive skills, knowledge, and abilities</p>
-<ul>
-<li>People incur upfront costs for education, training, etc.</li>
-<li>Training improves productivity, and therefore income</li>
-<li>Individuals earn higher income streams in the future</li>
-</ul>
+<p><strong><span class="fg" style="color: #2780e3;">Human capital</span></strong>: the skills, knowledge and abilities that make a person productive. People pay now, in tuition and forgone earnings, for higher earnings&nbsp;later</p>
 </div>
 </div>
 </div>
-<p>We study investments in human capital in a similar way to physical capital</p>
-</section>
-<section id="human-capital-theory-3" class="slide level2">
-<h2>Human Capital Theory</h2>
-<p>Human capital investments involve some special considerations:</p>
-<p><span class="fg" style="color: #2780e3;">Non-wage benefits:</span></p>
 <ul>
-<li>Consumption value of education</li>
-<li>Differences in risk of unemployment in downturns</li>
-</ul>
-<p><span class="fg" style="color: #c7254e;">Financing:</span></p>
+<li>Human capital differs from physical capital in three&nbsp;ways:
 <ul>
-<li>More difficult to finance education investments — no collateral</li>
+<li><span class="fg" style="color: #555;">Non-money benefits:</span> school can be enjoyable, and more educated workers face less unemployment&nbsp;risk</li>
+<li><span class="fg" style="color: #555;">Financing:</span> you can’t offer your future skills as collateral for a&nbsp;loan</li>
+<li><span class="fg" style="color: #555;">Private vs.&nbsp;social:</span> education can benefit other people too, and some of its costs to the student are transfers rather than costs to&nbsp;society</li>
+</ul></li>
 </ul>
-<p><span class="fg" style="color: #2780e3;">Social versus private costs/benefits:</span></p>
-<ul>
-<li>Private costs and benefits are specific to the individual</li>
-<li>But there may be social costs and benefits as well (e.g., positive externalities from education)</li>
-</ul>
+<aside class="notes">
+<p>Benefits of education come in two kinds: investment benefits (higher earnings later) and consumption benefits (enjoying learning now). This chapter treats schooling mainly as an investment.</p>
+<p>The private vs.&nbsp;social distinction comes back in lecture 2, with real costs vs.&nbsp;transfer costs.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="private-investments-in-education" class="title-slide slide level1">
-<h1>Private Investments In Education</h1>
+<section id="private-investment-in-education" class="title-slide slide level1">
+<h1>Private Investment in Education</h1>
 
 </section>
-<section id="introduction-1" class="slide level2">
-<h2>Introduction</h2>
-<ul>
-<li>The human capital investment decision boils down to comparing <span class="fg" style="color: #2780e3;">lifetime income streams</span>
-<ul>
-<li>Different streams of income are associated with different levels of schooling</li>
-<li>Higher levels of schooling usually lead to higher income streams</li>
-</ul></li>
-<li>We will outline a process to decide which stream to choose</li>
-</ul>
-<p>To make the model tractable, we assume:</p>
-<ol type="1">
-<li>No direct utility or disutility from schooling</li>
-<li>Hours of work are held fixed</li>
-<li>Certainty of income streams</li>
-<li>Individuals can borrow and lend at interest rate <span class="math inline">\(r\)</span></li>
-</ol>
-</section>
-<section id="attending-university" class="slide level2">
-<h2>Attending University</h2>
-<ul>
-<li>Suppose we want to analyze whether it is financially worthwhile to attend university
-<ul>
-<li>Start from the perspective of an 18-year-old high school graduate</li>
-<li>This student is deciding whether or not to attend university</li>
-<li>Students who do not attend university move immediately into the workforce</li>
-</ul></li>
-<li>The graph on next slide depicts two income streams:
-<ul>
-<li><span class="fg" style="color: #555;">Black line:</span> university path</li>
-<li><span class="fg" style="color: #2780e3;">Blue line:</span> high school path</li>
-<li><span class="fg" style="color: #c7254e;">Red and yellow:</span> costs of attending university</li>
-<li><span class="fg" style="color: #5cb85c;">Green:</span> benefits of university education</li>
-</ul></li>
-</ul>
-</section>
-<section id="attending-university-1" class="slide level2">
-<h2>Attending University</h2>
+<section id="comparing-income-streams" class="slide level2 smaller">
+<h2>Comparing Income Streams</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="images/clipboard-3559324769.png"></p>
-</div>
-</div>
-</div>
+<p><img data-src="images/clipboard-3559324769.png" style="width:100.0%"></p>
 </div><div class="column" style="width:50%;">
 <ul>
-<li><span class="fg" style="color: #c7254e;">Direct costs</span> are in red: books, fees, tuition</li>
-<li><span class="fg" style="color: #f0ad4e;">Foregone wages</span> are in yellow: income not earned during university</li>
-<li><span class="fg" style="color: #5cb85c;">Net wage gains</span> are in green: earnings of university grad above high school grad</li>
+<li>An 18-year-old high school graduate decides whether to go to&nbsp;university</li>
+<li>Going has <span class="fg" style="color: #c7254e;">direct costs</span> (tuition, books) and the <span class="fg" style="color: #f0ad4e;">earnings forgone</span> while in&nbsp;school</li>
+<li>The payoff is <span class="fg" style="color: #5cb85c;">higher earnings</span> for the rest of a working&nbsp;life</li>
+<li>Each path is an <span class="fg" style="color: #2780e3;">age-earnings profile</span>: earnings rise with age at a decreasing rate, as workers keep learning on the&nbsp;job</li>
+<li>Go if the present value of the green area beats the present value of the red and yellow&nbsp;areas</li>
 </ul>
-<p>Beneficial to attend if <span class="fg" style="color: #5cb85c;">present value of green</span> exceeds present value of yellow plus red</p>
 </div></div>
+<aside class="notes">
+<p>The textbook’s simplifying assumptions: no utility or disutility from school itself, fixed hours of work, income streams known with certainty, and the ability to borrow and lend at the interest rate r (“perfect capital markets”). Relaxing these comes later.</p>
+<p>The book’s Figure 14.3 has three streams (leave school at 16, finish high school at 18, finish university at 22), with costs and benefits shown as areas a to f.&nbsp;This figure shows only the university choice.</p>
+<p>The profiles are concave because people keep investing in skills through on-the-job learning, with diminishing returns to experience. More education shifts the whole profile up, though graduates may start below workers their age with more experience.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="attending-university-2" class="slide level2">
-<h2>Attending University</h2>
+<section id="the-present-value-of-each-path" class="slide level2 smaller">
+<h2>The Present Value of Each Path</h2>
 <ul>
-<li>People will choose the level of schooling that maximizes the <span class="fg" style="color: #2780e3;">net present value of lifetime earnings</span></li>
-<li>Express the present value of earnings for a high school graduate as:</li>
+<li>Work from age 18 until retirement at age <span class="math inline">\(T\)</span>, earning <span class="math inline">\(I\)</span> a year, with interest rate&nbsp;<span class="math inline">\(r\)</span>:</li>
 </ul>
-<p><span class="math display">\[PV = \frac{Y}{(1+r)^0} + \frac{Y}{(1+r)^1} + \ldots + \frac{Y}{(1+r)^{T-18}}\]</span></p>
-<p>Where:</p>
+<p><span class="math display">\[PV = I + \frac{I}{1+r} + \dots + \frac{I}{(1+r)^{T-18}} \approx I + \frac{I}{r}\]</span></p>
 <ul>
-<li><span class="math inline">\(Y\)</span> = annual earnings of high school graduate</li>
-<li><span class="math inline">\(r\)</span> = interest rate</li>
-<li><span class="math inline">\(T\)</span> = expected retirement age</li>
+<li>One more year of school: pay direct costs <span class="math inline">\(D\)</span>, earn nothing that year, then earn <span class="math inline">\(I + \Delta I\)</span> every year&nbsp;after:</li>
 </ul>
-</section>
-<section id="attending-university-3" class="slide level2">
-<h2>Attending University</h2>
-<p>We can approximate the present value of earnings for a high school graduate as:</p>
-<p><span class="math display">\[PV \approx Y + \frac{Y}{r} \]</span></p>
-<p>(Approximation works if <span class="math inline">\(T\)</span> is long enough)</p>
-<p>Now consider a person who attends <span class="fg" style="color: #2780e3;">one year of university</span>:</p>
+<p><span class="math display">\[PV^* \approx \frac{I + \Delta I}{r} - D\]</span></p>
 <ul>
-<li>Incurs direct costs <span class="math inline">\(D\)</span> in the first year and earns no income in that year</li>
-<li>Every year they work, they gain an amount <span class="math inline">\(\Delta Y\)</span> above the high school graduate</li>
+<li>The net gain from the extra&nbsp;year:</li>
 </ul>
+<p><span class="math display">\[PV^* - PV \approx \frac{\Delta I}{r} - (I + D)\]</span></p>
+<aside class="notes">
+<p>The approximation treats each stream as lasting forever, which is close when retirement is far away. At r = 5% and 45 working years, the exact sum of discount factors is about 18, against 1/r = 20.</p>
+<p>The book also assumes earnings are flat with age, which keeps the formula simple. Letting earnings grow changes the numbers but not the logic.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="attending-university-4" class="slide level2">
-<h2>Attending University</h2>
-<p>Their income stream is:</p>
-<p><span class="math display">\[PV^* = \frac{-D}{(1+r)^0} + \frac{Y + \Delta Y}{(1+r)^1} + \ldots + \frac{Y + \Delta Y}{(1+r)^{T-18}}\]</span></p>
-<p>Which can be approximated as:</p>
-<p><span class="math display">\[PV^* \approx -D + \frac{Y + \Delta Y}{r} \]</span></p>
-<p>The <span class="fg" style="color: #2780e3;">net present value</span> of attending this additional year of university is:</p>
-<p><span class="math display">\[NPV = PV^* - PV \approx -(D + Y) + \frac{\Delta Y}{r} \]</span></p>
-</section>
-<section id="attending-university-5" class="slide level2">
-<h2>Attending University</h2>
+<section id="the-investment-condition" class="slide level2 smaller">
+<h2>The Investment Condition</h2>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -361,143 +342,167 @@ Fall 2026
 <p><strong>Investment Condition</strong></p>
 </div>
 <div class="callout-content">
-<p>Attending university for one year is worthwhile if:</p>
-<p><span class="math display">\[NPV &gt; 0 \implies \frac{\Delta Y}{r} &gt; D + Y \]</span></p>
-<p>A person will continue attending more years of schooling until <span class="math inline">\(MB = MC\)</span>:</p>
-<p><span class="math display">\[ \frac{\Delta Y}{r} = D + Y \]</span></p>
+<ul>
+<li><span class="fg" style="color: #555;">Marginal benefit:</span> <span class="math inline">\(MB = \Delta I / r\)</span>, the present value of the earnings&nbsp;gain</li>
+<li><span class="fg" style="color: #555;">Marginal cost:</span> <span class="math inline">\(MC = I + D\)</span>, forgone earnings plus direct&nbsp;costs</li>
+</ul>
+<p>Another year of school is worth it if <span class="math inline">\(MB &gt; MC\)</span>. Keep going until</p>
+<p><span class="math display">\[\frac{\Delta I}{r} = I + D\]</span></p>
 </div>
 </div>
 </div>
+<ul>
+<li><span class="fg" style="color: #555;">Example:</span> a year of school means giving up <span class="math inline">\(I = \$30{,}000\)</span> and paying <span class="math inline">\(D = \$10{,}000\)</span>, and it raises earnings by <span class="math inline">\(\Delta I = \$3{,}000\)</span> a year&nbsp;after</li>
+<li>At <span class="math inline">\(r = 5\%\)</span>: <span class="math inline">\(MB = \$3{,}000 / 0.05 = \$60{,}000\)</span>, more than <span class="math inline">\(MC = \$40{,}000\)</span>. Stay in&nbsp;school</li>
+</ul>
+<aside class="notes">
+<p>The same example comes back on the internal rate of return slide.</p>
+<p>Ask the room: what interest rate would make this person indifferent? MB = MC when 3,000/r = 40,000, so r = 7.5%. That’s the internal rate of return.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="attending-university-6" class="slide level2">
-<h2>Attending University</h2>
+<section id="marginal-benefit-equals-marginal-cost" class="slide level2 smaller">
+<h2>Marginal Benefit Equals Marginal Cost</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="images/clipboard-18368519.png"></p>
+<div class="column" style="width:55%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="768"></p>
+</figure>
 </div>
 </div>
 </div>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:45%;">
 <ul>
-<li><span class="fg" style="color: #5cb85c;">Marginal benefit curve</span> is downward sloping
-<ul>
-<li>Each additional year of schooling yields a smaller increase in wages</li>
-</ul></li>
-<li><span class="fg" style="color: #c7254e;">Marginal cost curve</span> is upward sloping
-<ul>
-<li>Each additional year of schooling incurs higher direct costs, foregone wages, psychic costs</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Optimum is where MB = MC</span></li>
+<li><span class="fg" style="color: #2780e3;">MB falls</span> with more schooling: each year adds less to earnings, and there are fewer working years left to collect the&nbsp;gain</li>
+<li><span class="fg" style="color: #2780e3;">MC rises</span>: forgone earnings <span class="math inline">\(I\)</span> grow with each year of school, and university charges tuition where high school is&nbsp;free</li>
+<li>The <span class="fg" style="color: #2780e3;">optimal schooling</span> <span class="math inline">\(S^*\)</span> is where <span class="math inline">\(MB = MC\)</span></li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>The curves are made up for illustration; this is panel (a) of the book’s Figure 14.4.</p>
+<p>Different people have different curves. Someone who learns quickly has a higher MB curve and chooses more schooling. Someone with high-paying alternatives, or who finds school unpleasant, has a higher MC curve and chooses less.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="attending-university-7" class="slide level2">
-<h2>Attending University</h2>
-<p>Another way to look at the schooling decision: the <span class="fg" style="color: #2780e3;">internal rate of return (IRR)</span></p>
-<ul>
-<li>The IRR is the interest rate that makes the NPV of an investment equal to zero</li>
-<li>In our setup, the IRR satisfies:</li>
-</ul>
-<p><span class="math display">\[ 0 = -(D + Y) + \frac{\Delta Y}{IRR} \]</span></p>
-<p>Rearranging gives:</p>
-<p><span class="math display">\[ IRR = \frac{\Delta Y}{D + Y} \]</span></p>
-<p>The IRR is the <span class="fg" style="color: #2780e3;">percentage return</span> on the investment in schooling</p>
-</section>
-<section id="attending-university-8" class="slide level2">
-<h2>Attending University</h2>
-<ul>
-<li>The alternative to attending university is to invest <span class="math inline">\(D + Y\)</span> at market interest rate <span class="math inline">\(r\)</span>
-<ul>
-<li>Opportunity cost of investing in schooling is <span class="math inline">\(r\)</span></li>
-</ul></li>
-<li>If the <span class="fg" style="color: #5cb85c;">IRR exceeds <span class="math inline">\(r\)</span></span>, then investing in schooling is worthwhile</li>
-<li>A person would continue to attend more years of schooling until:</li>
-</ul>
-<p><span class="math display">\[ IRR = r \implies \frac{\Delta Y}{D + Y} = r \]</span></p>
-</section>
-<section id="attending-university-9" class="slide level2">
-<h2>Attending University</h2>
+<section id="the-internal-rate-of-return" class="slide level2 smaller">
+<h2>The Internal Rate of Return</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img data-src="images/clipboard-1015808942.png"></p>
+<div class="column" style="width:55%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="768"></p>
+</figure>
 </div>
 </div>
 </div>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:45%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Key Definition</strong></p>
+</div>
+<div class="callout-content">
+<p><strong><span class="fg" style="color: #2780e3;">Internal rate of return</span></strong> (<span class="math inline">\(irr\)</span>): the interest rate that makes the net present value of the investment&nbsp;zero</p>
+</div>
+</div>
+</div>
 <ul>
-<li>Market interest rate is <span class="math inline">\(r\)</span> (horizontal line)</li>
-<li><span class="fg" style="color: #5cb85c;">Internal rate of return IRR</span> is decreasing in schooling
-<ul>
-<li>Each additional year of schooling yields a smaller wage increase</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Optimum is where IRR = r</span></li>
-<li>Yields same optimal schooling level as the MB = MC method</li>
+<li>Setting <span class="math inline">\(\Delta I / irr = I + D\)</span> gives <span class="math inline">\(irr = \dfrac{\Delta I}{I + D}\)</span></li>
+<li>Invest while <span class="math inline">\(irr &gt; r\)</span>, the <span class="fg" style="color: #2780e3;">opportunity cost</span> of the money. Stop where <span class="math inline">\(irr = r\)</span>, at the same&nbsp;<span class="math inline">\(S^*\)</span></li>
+<li><span class="fg" style="color: #555;">Example:</span> <span class="math inline">\(irr = 3{,}000 / 40{,}000 = 7.5\%\)</span>, above <span class="math inline">\(r = 5\%\)</span>, so stay in&nbsp;school</li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>This is panel (b) of the book’s Figure 14.4. The irr falls with schooling for the same two reasons: the gain ΔI shrinks, and the cost I + D grows.</p>
+<p>The alternative to spending I + D on school is to invest it at the interest rate r. So the comparison is: does school return more than the bank?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="comparative-statics" class="slide level2">
-<h2>Comparative Statics</h2>
-<p>We can use this framework to analyze how policy and parameter changes affect schooling decisions:</p>
-<ul>
-<li><span class="fg" style="color: #5cb85c;">Decrease in direct costs <span class="math inline">\(D\)</span></span> (e.g., government introduces tuition subsidies)
-<ul>
-<li>Decreases marginal cost of schooling → <span class="fg" style="color: #5cb85c;">increases optimal schooling</span></li>
-</ul></li>
-<li><span class="fg" style="color: #5cb85c;">Decrease in market interest rate <span class="math inline">\(r\)</span></span> (e.g., due to monetary policy)
-<ul>
-<li>Increases present value of future earnings → <span class="fg" style="color: #5cb85c;">increases optimal schooling</span></li>
-</ul></li>
-</ul>
+<section id="iclicker-question" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Priya can take a one-year program. Tuition and books cost $8,000, and she would give up a $32,000 job for the year. After it, she would earn $3,000 a year more for the rest of her career. She can borrow or save at 8%. Using the approximations from class, what should she&nbsp;do?</p>
+<p>A) Enroll, because the return of 37.5% beats the 8% interest rate<br>
+B) Enroll, because she earns $3,000 more every year for the rest of her career<br>
+C) Don’t enroll, because the return of 7.5% is below the 8% interest rate<br>
+D) Don’t enroll, because $3,000 a year is less than the $40,000 cost<br>
+E) Enroll, because the return of 9.4% beats the 8% interest rate</p>
+<aside class="notes">
+<p>Answer: C. irr = ΔI/(I + D) = 3,000/(32,000 + 8,000) = 7.5%, below r = 8%. MB and MC give the same answer: MB = 3,000/0.08 = $37,500, less than MC = $40,000. At 7% interest she would enroll.</p>
+<p>A divides by tuition alone (3,000/8,000) and forgets forgone earnings. That’s the most common mistake: the biggest cost of school is usually the pay you give up. E divides by forgone earnings alone (3,000/32,000) and forgets tuition. B ignores costs and discounting altogether. D gets the right decision for the wrong reason: it compares a yearly gain with a one-time cost, and over a career $3,000 a year adds up to far more than $40,000 before discounting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="comparative-statics-1" class="slide level2">
-<h2>Comparative Statics</h2>
+<section id="what-changes-the-decision" class="slide level2 smaller">
+<h2>What Changes the Decision</h2>
 <ul>
-<li><span class="fg" style="color: #c7254e;">More progressive income tax</span> (higher taxes on high earners)
-<ul>
-<li>Decreases after-tax earnings gain <span class="math inline">\(\Delta Y\)</span> → <span class="fg" style="color: #c7254e;">decreases optimal schooling</span></li>
-</ul></li>
-<li><span class="fg" style="color: #c7254e;">Increase in pay for high school jobs</span> (e.g., oil sector boom)
-<ul>
-<li>Increases earnings of high school graduates <span class="math inline">\(Y\)</span></li>
-<li>Raises the opportunity cost of attending school → <span class="fg" style="color: #c7254e;">decreases optimal schooling</span></li>
-</ul></li>
+<li><span class="fg" style="color: #555;">Age:</span> invest early. The young give up less pay, and have more years to collect the&nbsp;return</li>
+<li><span class="fg" style="color: #555;">Time out of the labour force:</span> people who expect to be in and out of work collect the gain for fewer years, so they invest&nbsp;less</li>
+<li><span class="fg" style="color: #555;">Student loans or tuition subsidies:</span> they lower the cost of borrowing or <span class="math inline">\(D\)</span>, so <span class="fg" style="color: #2780e3;">more&nbsp;schooling</span></li>
+<li><span class="fg" style="color: #555;">A more progressive income tax:</span> it shrinks the after-tax gain <span class="math inline">\(\Delta I\)</span> more than the after-tax cost, so <span class="fg" style="color: #2780e3;">less&nbsp;schooling</span></li>
+<li><span class="fg" style="color: #555;">Better pay in jobs that need no degree:</span> as in an oil boom, it raises forgone earnings <span class="math inline">\(I\)</span>, so <span class="fg" style="color: #2780e3;">less&nbsp;schooling</span></li>
+<li><span class="fg" style="color: #555;">A lower interest rate:</span> it raises the present value of future gains, so <span class="fg" style="color: #2780e3;">more&nbsp;schooling</span></li>
 </ul>
+<aside class="notes">
+<p>The first two are the book’s main implications of the theory. The tax and student loan examples are its comparative statics. A progressive tax hits the high-income stream (university) harder than the low-income one.</p>
+<p>Oil booms: there is Canadian evidence that Alberta’s resource booms, by raising pay for young workers without degrees, pulled some young men out of school.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="complications" class="slide level2">
-<h2>Complications</h2>
-<p><span class="fg" style="color: #2780e3;">Information asymmetries:</span></p>
-<ul>
-<li>Students may not know the true costs and benefits of schooling</li>
-<li>May lead to under- or over-investment</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Disutility of schooling:</span></p>
-<ul>
-<li>Students may dislike attending school — adds to marginal cost</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Different degrees have different returns:</span></p>
-<ul>
-<li>Some fields lead to higher earnings than others</li>
-<li>Students must choose not only how much schooling, but what type</li>
-</ul>
-</section>
-<section id="complications-1" class="slide level2">
-<h2>Complications</h2>
+<section id="financing-and-other-complications" class="slide level2 smaller">
+<h2>Financing and Other Complications</h2>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -507,286 +512,287 @@ Fall 2026
 <p><strong>Credit Constraints</strong></p>
 </div>
 <div class="callout-content">
-<p>A major complication is <span class="fg" style="color: #c7254e;">financing</span>:</p>
 <ul>
-<li>Many students cannot afford the upfront costs of schooling</li>
-<li>May not be able to borrow against future earnings</li>
-<li>Leads to <span class="fg" style="color: #c7254e;">under-investment in schooling</span> compared to the optimal level</li>
+<li>The model assumes <span class="fg" style="color: #2780e3;">perfect capital markets</span>: anyone can borrow at <span class="math inline">\(r\)</span> against future&nbsp;earnings</li>
+<li>In reality, students can’t easily borrow that way: there’s no collateral, and a bank can’t repossess a&nbsp;degree</li>
+<li>So some students <span class="fg" style="color: #c7254e;">invest too little</span>, even when the return beats the interest&nbsp;rate</li>
 </ul>
 </div>
 </div>
 </div>
+<ul>
+<li><span class="fg" style="color: #555;">Income-contingent loans:</span> repayments rise with later income, so graduates who earn little repay little. Australia has used this since&nbsp;1989</li>
+<li><span class="fg" style="color: #555;">Debt aversion:</span> some students avoid loans even when borrowing would pay&nbsp;off</li>
+<li><span class="fg" style="color: #555;">Risk and information:</span> returns are uncertain, and risk-averse students invest less. Students may also misjudge costs and returns, especially if no one in their family went to&nbsp;university</li>
+<li><span class="fg" style="color: #555;">Field of study:</span> returns differ widely by program, so the choice is what to study as well as how&nbsp;much</li>
+</ul>
+<aside class="notes">
+<p>The book’s Exhibit 14.1 discusses new ways to finance higher education, including Australia’s income-contingent loans (Riddell 2003). Canada’s student loan Repayment Assistance Plan also ties repayments to income after graduation.</p>
+<p>Risk: the model assumed income streams are known. In reality, a degree’s payoff depends on the field, the economy, and on technology (the book mentions AI changing which skills pay). Education is also hard to diversify: you can’t spread your human capital over many investments. Debt aversion is from Field (2009); the book spells it “Fields”.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="section-1" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Think About It</strong></p>
-<p>Suppose the government introduces a large tuition subsidy that covers 80% of university costs, but simultaneously raises the top marginal income tax rate. What is the net effect on optimal schooling in the human capital model?</p>
-</div>
+<section id="iclicker-question-1" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>A recession cuts pay and hours this year for 18-year-olds who go straight to work. It doesn’t change what anyone will earn in later years. In the human capital model from class, what happens to college and university&nbsp;enrolment?</p>
+<p>A) It rises, because students give up less pay, so the cost of school falls<br>
+B) It doesn’t change, because what graduates will earn later hasn’t changed<br>
+C) It falls, because families have less money to pay tuition<br>
+D) It falls, because a recession lowers the return to all investments<br>
+E) It rises, because the earnings gain from school, <span class="math inline">\(\Delta I\)</span>, rises</p>
+<aside class="notes">
+<p>Answer: A. The marginal cost of school is MC = I + D, and I, the pay given up while in school, fell. So MC falls at every level of schooling and S* rises. Enrolment does tend to rise in recessions. This is the mirror image of the oil-boom bullet.</p>
+<p>C is a credit-constraint story. It’s real, but the basic model assumes students can borrow at r; in practice the two effects pull in opposite directions. B forgets that forgone earnings are a cost. D: the return to school depends on ΔI, I and D, and only I changed. E: ΔI is the gap in later earnings, which the stem says hasn’t changed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="signalling" class="title-slide slide level1">
 <h1>Signalling</h1>
 
 </section>
-<section id="introduction-2" class="slide level2">
-<h2>Introduction</h2>
+<section id="human-capital-or-signalling" class="slide level2 smaller">
+<h2>Human Capital or Signalling?</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Human Capital vs.&nbsp;Signalling</strong></p>
+<p><strong>Two Explanations for Why Education Pays</strong></p>
 </div>
 <div class="callout-content">
-<p>Two competing explanations for why education raises wages:</p>
 <ul>
-<li><span class="fg" style="color: #5cb85c;">Human Capital model:</span> education increases productivity; employers pay accordingly</li>
-<li><span class="fg" style="color: #2780e3;">Signalling model:</span> education reveals (rather than creates) productivity — it acts as a signal of worker ability</li>
+<li><span class="fg" style="color: #2780e3;">Human capital:</span> education raises productivity, and pay&nbsp;follows</li>
+<li><span class="fg" style="color: #2780e3;">Signalling:</span> education reveals productivity that was already&nbsp;there</li>
 </ul>
 </div>
 </div>
 </div>
-<p>Key assumptions of the <strong>signalling model</strong>:</p>
 <ul>
-<li>Education may not increase productivity</li>
-<li>Instead, it reveals productivity to employers</li>
-<li>People invest in education only to signal their ability to employers</li>
+<li>Employers can’t see a new hire’s <span class="fg" style="color: #2780e3;">productivity</span>. Workers know their own ability, but can’t credibly tell the&nbsp;employer</li>
+<li>With no information, firms pay everyone the average&nbsp;productivity</li>
+<li>Under the right conditions, education acts as a <span class="fg" style="color: #2780e3;">signal</span>: high-ability workers get it, and employers pay them&nbsp;more</li>
+<li>Education can then raise pay even if it adds no skills at&nbsp;all</li>
 </ul>
+<aside class="notes">
+<p>The signalling model is due to Michael Spence. The book calls this “education as a filter,” and also uses the word screening: employers use education to sort job applicants.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="model" class="slide level2">
-<h2>Model</h2>
-<p>The basics of the model:</p>
-<ul>
-<li>Employers <span class="fg" style="color: #c7254e;">do not observe productivity</span> until after a worker is hired</li>
-<li>Employees know their own ability but find it difficult to credibly reveal it to employers</li>
-<li>Without knowing productivity, firms pay employees according to <span class="fg" style="color: #555;">average productivity</span> in the population</li>
-<li>Under certain conditions, obtaining education can serve as a <span class="fg" style="color: #2780e3;">signal of productivity</span>, allowing workers to be paid accordingly</li>
-</ul>
-</section>
-<section id="model-1" class="slide level2">
-<h2>Model</h2>
-<div class="callout callout-important callout-titled callout-style-default">
+<section id="when-education-can-signal-ability" class="slide level2 smaller">
+<h2>When Education Can Signal Ability</h2>
+<div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>When Does Education Signal Ability?</strong></p>
+<p><strong>Conditions for a Signal</strong></p>
 </div>
 <div class="callout-content">
-<p>For education to be informative about ability:</p>
 <ul>
-<li>It must be <span class="fg" style="color: #c7254e;">costly to acquire</span></li>
-<li>It must be <span class="fg" style="color: #c7254e;">sufficiently more costly</span> for low-ability individuals than for high-ability individuals
-<ul>
-<li>Otherwise, low-ability workers might find it profitable to <em>fake</em> high ability</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Employers’ beliefs must be confirmed</span> in the future — otherwise, they will update their wage offers</li>
+<li>Education must be <span class="fg" style="color: #2780e3;">costly</span> to&nbsp;get</li>
+<li>It must be <span class="fg" style="color: #2780e3;">more costly for low-ability workers</span>. Otherwise they would get it too, and fake high&nbsp;ability</li>
+<li>Employers’ beliefs must be <span class="fg" style="color: #2780e3;">confirmed</span> once they see workers on the job, or they will change their wage&nbsp;offers</li>
 </ul>
 </div>
 </div>
 </div>
-<p>Given the conditions above, education helps solve an information problem — it correctly reveals ability through educational attainment, and workers are paid according to their true productivity</p>
-</section>
-<section id="model-2" class="slide level2">
-<h2>Model</h2>
-<p>Assume that:</p>
 <ul>
-<li>There are two types of workers: <span class="fg" style="color: #c7254e;">low ability (L)</span> and <span class="fg" style="color: #5cb85c;">high ability (H)</span></li>
-<li>A fraction <span class="math inline">\(q\)</span> are Type L, and <span class="math inline">\((1 - q)\)</span> are Type H</li>
+<li>When these hold, education sorts workers by ability, and each is paid what they&nbsp;produce</li>
+<li>Why would school cost low-ability students more? It takes them more effort, more time, and more stress to get the same&nbsp;credential</li>
 </ul>
-<p><span class="fg" style="color: #c7254e;">Type L workers:</span></p>
-<ul>
-<li>Cost of education: <span class="math inline">\(c_L(s) = s\)</span></li>
-<li>Marginal Product (MP): <span class="math inline">\(1\)</span></li>
-</ul>
-<p><span class="fg" style="color: #5cb85c;">Type H workers:</span></p>
-<ul>
-<li>Cost of education: <span class="math inline">\(c_H(s) = \frac{s}{2}\)</span></li>
-<li>Marginal Product (MP): <span class="math inline">\(2\)</span></li>
-</ul>
+<aside class="notes">
+<p>The costs here include effort and psychic costs, not just tuition.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="model-3" class="slide level2">
-<h2>Model</h2>
+<section id="a-two-type-model" class="slide level2 smaller">
+<h2>A Two-Type Model</h2>
 <ul>
-<li>Employees know their own ability, but employers do not</li>
-<li>Employers form <em>beliefs</em> about employee ability based on observed education levels</li>
-<li>If there were <span class="fg" style="color: #c7254e;">no way to signal ability</span>, firms would offer everyone the same wage
-<ul>
-<li>The wage equals the <span class="fg" style="color: #555;">average productivity</span>:</li>
-</ul></li>
+<li>Two types of workers, and employers can’t tell them&nbsp;apart:</li>
 </ul>
-<p><span class="math display">\[\bar{w} = 1 \cdot q + 2 \cdot (1 - q) = 2 - q\]</span></p>
-</section>
-<section id="model-4" class="slide level2">
-<h2>Model</h2>
-<p>Example: 50% Low-Ability Workers (<span class="math inline">\(q = 0.5\)</span>):</p>
-<p><span class="math display">\[\bar{w} = 2 - q = 1.5\]</span></p>
-<p>Recall that:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="fg" style="color: #555;">Low ability (L):</span></p>
 <ul>
-<li>Type L workers produce <span class="math inline">\(MP = 1\)</span></li>
-<li>Type H workers produce <span class="math inline">\(MP = 2\)</span></li>
+<li>Marginal product: <span class="math inline">\(1\)</span></li>
+<li>Cost of <span class="math inline">\(s\)</span> years of school: <span class="math inline">\(c_L(s) = s\)</span></li>
 </ul>
-<p>Therefore:</p>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #555;">High ability (H):</span></p>
 <ul>
-<li><span class="fg" style="color: #5cb85c;">Type L is paid <strong>more</strong> than they produce</span></li>
-<li><span class="fg" style="color: #c7254e;">Type H is paid <strong>less</strong> than they produce</span></li>
-<li>On average, total pay equals total production</li>
+<li>Marginal product: <span class="math inline">\(2\)</span></li>
+<li>Cost of <span class="math inline">\(s\)</span> years of school: <span class="math inline">\(c_H(s) = s/2\)</span></li>
 </ul>
-</section>
-<section id="model-5" class="slide level2">
-<h2>Model</h2>
-<p>Suppose employers observe education and form beliefs about how it relates to ability. One possible set of employer beliefs:</p>
+</div></div>
 <ul>
-<li>Workers with education <span class="math inline">\(s &gt; s^*\)</span> are <span class="fg" style="color: #5cb85c;">Type H</span></li>
-<li>Workers with education <span class="math inline">\(s \le s^*\)</span> are <span class="fg" style="color: #c7254e;">Type L</span></li>
-<li><span class="math inline">\(s^*\)</span> is some cutoff level of education</li>
+<li>Employers believe that anyone with at least <span class="math inline">\(s^*\)</span> years of school is type H, and&nbsp;pay</li>
 </ul>
-<p>Firms pay wages according to the believed type:</p>
-<p><span class="math display">\[w =
-\begin{cases}
-2, &amp; \text{if } s &gt; s^* \\
-1, &amp; \text{if } s \le s^*
-\end{cases}\]</span></p>
-</section>
-<section id="model-6" class="slide level2">
-<h2>Model</h2>
-<p>Workers decide how much education to acquire. A worker of type <span class="math inline">\(t\)</span> maximizes utility:</p>
-<p><span class="math display">\[U_t(s) = w(s) - c_t(s)\]</span></p>
+<p><span class="math display">\[w(s) = \begin{cases} 2 &amp; \text{if } s \ge s^* \\ 1 &amp; \text{if } s &lt; s^* \end{cases}\]</span></p>
 <ul>
-<li>All workers can obtain <span class="math inline">\(U_t(s) = 1\)</span> by acquiring <strong>no education</strong>
-<ul>
-<li>Therefore, the payoff to acquiring any education must satisfy <span class="math inline">\(U_t(s) \ge 1\)</span></li>
-</ul></li>
-<li>Workers will never find it useful to obtain <strong>more than</strong> <span class="math inline">\(s^*\)</span> years of education
-<ul>
-<li>Doing so increases costs without increasing payoffs</li>
-</ul></li>
-<li>Thus, the decision is binary: either <strong>0</strong> or <span class="math inline">\(s^*\)</span> years of education</li>
+<li>Each worker chooses <span class="math inline">\(s\)</span> to maximize <span class="math inline">\(w(s) - c(s)\)</span>. More than <span class="math inline">\(s^*\)</span> costs more but pays no more, so each worker picks either <span class="math inline">\(0\)</span> or&nbsp;<span class="math inline">\(s^*\)</span></li>
 </ul>
+<aside class="notes">
+<p>Without any signal, everyone is paid the average marginal product. If a fraction q of workers are type L, the wage is 1·q + 2(1 − q) = 2 − q. With q = 0.5, everyone earns 1.5: type L is paid more than they produce and type H less. That’s why type H wants a way to stand out.</p>
+<p>Here education adds nothing to productivity at all. That’s deliberate: it shows education can pay even with no human capital.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="model-7" class="slide level2">
-<h2>Model</h2>
-<p><span class="fg" style="color: #5cb85c;">Type H Workers:</span></p>
-<p><span class="math display">\[U_H(0) = w(0) - c_H(0) = 1 - 0 = 1\]</span></p>
-<p><span class="math display">\[U_H(s^*) = w(s^*) - c_H(s^*) = 2 - \frac{s^*}{2}\]</span></p>
-<p>A Type H worker will acquire <span class="math inline">\(s^*\)</span> years of education if <span class="math inline">\(U_H(s^*) &gt; U_H(0)\)</span>:</p>
-<p><span class="math display">\[2 - \frac{s^*}{2} &gt; 1 \implies s^* &lt; 2\]</span></p>
-</section>
-<section id="model-8" class="slide level2">
-<h2>Model</h2>
-<p><span class="fg" style="color: #c7254e;">Type L Workers:</span></p>
-<p><span class="math display">\[U_L(0) = w(0) - c_L(0) = 1 - 0 = 1\]</span></p>
-<p><span class="math display">\[U_L(s^*) = w(s^*) - c_L(s^*) = 2 - s^*\]</span></p>
-<p>A Type L worker will acquire <span class="math inline">\(s^*\)</span> years of education if <span class="math inline">\(U_L(s^*) &gt; U_L(0)\)</span>:</p>
-<p><span class="math display">\[2 - s^* &gt; 1 \implies s^* &lt; 1\]</span></p>
-</section>
-<section id="model-9" class="slide level2">
-<h2>Model</h2>
+<section id="who-gets-educated" class="slide level2 smaller">
+<h2>Who Gets Educated?</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:48%;">
+<ul>
+<li><span class="fg" style="color: #555;">Type H</span> gets <span class="math inline">\(s^*\)</span> if <span class="math inline">\(2 - \frac{s^*}{2} &gt; 1\)</span>, that is, if&nbsp;<span class="math inline">\(s^* &lt; 2\)</span></li>
+<li><span class="fg" style="color: #555;">Type L</span> gets <span class="math inline">\(s^*\)</span> if <span class="math inline">\(2 - s^* &gt; 1\)</span>, that is, if&nbsp;<span class="math inline">\(s^* &lt; 1\)</span></li>
+</ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>When Does Education Separate Types?</strong></p>
+<p><strong>A Separating Equilibrium</strong></p>
 </div>
 <div class="callout-content">
+<p>If <span class="math inline">\(1 &lt; s^* &lt; 2\)</span>, only type H gets educated. Employers’ beliefs are confirmed, so education <span class="fg" style="color: #2780e3;">reveals each worker’s type</span></p>
+</div>
+</div>
+</div>
 <ul>
-<li>If <span class="math inline">\(s^* &lt; 1\)</span>: both types acquire education <span class="math inline">\(s^*\)</span> — signal is <span class="fg" style="color: #c7254e;"><strong>not informative</strong></span></li>
-<li>If <span class="math inline">\(s^* &gt; 2\)</span>: both types acquire <strong>no education</strong> — signal is <span class="fg" style="color: #c7254e;"><strong>not informative</strong></span></li>
-<li>If <span class="math inline">\(1 &lt; s^* &lt; 2\)</span>: Type H obtains <span class="math inline">\(s^*\)</span>, Type L obtains none — education <span class="fg" style="color: #5cb85c;"><strong>reveals worker type</strong></span></li>
+<li>If <span class="math inline">\(s^* &lt; 1\)</span> both types get educated, and if <span class="math inline">\(s^* &gt; 2\)</span> neither does. Either way, the signal tells employers&nbsp;nothing</li>
 </ul>
-</div>
-</div>
-</div>
+</div></div>
+<aside class="notes">
+<p>Read the graph as wage minus cost. At s*, type H gets 2 minus a small cost, and type L gets 2 minus a cost that wipes out the gain over the wage of 1 they’d get with no school.</p>
+<p>A separating equilibrium: the types make different choices, so education separates them. A pooling equilibrium: everyone makes the same choice, so education reveals nothing. Any s* between 1 and 2 works, and the one with s* just above 1 wastes the least on schooling.</p>
+<p>Can everyone be worse off? With no signal, everyone earns 2 − q. With signalling, type L earns 1, and type H nets 2 − s<em>/2, which is worse whenever s</em> &gt; 2q. With q = 0.5, type H is worse off in every separating equilibrium. Type H would rather nobody signalled, but no single worker can stop.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="model-10" class="slide level2">
-<h2>Model</h2>
-<p><span class="fg" style="color: #2780e3;">Equilibrium</span> occurs when <span class="math inline">\(s^*\)</span> lies <strong>between 1 and 2</strong>:</p>
+<section id="iclicker-question-2" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Change one thing in the signalling model: school is now cheaper for type H, with <span class="math inline">\(c_H(s) = s/3\)</span>. Type L’s cost is still <span class="math inline">\(c_L(s) = s\)</span>, and the wages are still 1 and 2. Which cutoffs <span class="math inline">\(s^*\)</span> now separate the two&nbsp;types?</p>
+<p>A) <span class="math inline">\(1 &lt; s^* &lt; 2\)</span><br>
+B) <span class="math inline">\(1 &lt; s^* &lt; 3\)</span><br>
+C) <span class="math inline">\(0 &lt; s^* &lt; 3\)</span><br>
+D) <span class="math inline">\(2 &lt; s^* &lt; 3\)</span><br>
+E) <span class="math inline">\(s^* &lt; 1\)</span></p>
+<aside class="notes">
+<p>Answer: B. Type H gets s* if 2 − s<em>/3 &gt; 1, so s</em> &lt; 3. Type L still avoids it if 2 − s* &lt; 1, so s* &gt; 1.</p>
+<p>A is the answer from the slide, not updated. C forgets that type L must not want s*: below 1, both types get educated and the signal is useless. D counts only the newly added range. E is where both types get educated, a pooling outcome.</p>
+<p>The point: the bigger the cost gap between the types, the wider the range of signals that work.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-signalling-implies" class="slide level2 smaller">
+<h2>What Signalling Implies</h2>
 <ul>
-<li>This is an equilibrium because beliefs based on this strategy are <strong>correct</strong></li>
-<li>A firm can only maintain beliefs if they are <strong>validated</strong> by observed behaviour</li>
-<li>Any <span class="math inline">\(s^*\)</span> between <strong>1 and 2</strong> will satisfy equilibrium conditions
+<li>Both theories predict the same thing: <span class="fg" style="color: #2780e3;">more educated workers earn more</span>. That makes them hard to tell apart in the&nbsp;data</li>
+<li>For the individual, education pays either way. The difference is for&nbsp;society:
 <ul>
-<li>The equilibrium with the <strong>highest welfare</strong> is the one closer to <span class="math inline">\(s^* = 1\)</span></li>
+<li>Under <span class="fg" style="color: #2780e3;">human capital</span>, education raises what workers&nbsp;produce</li>
+<li>Under <span class="fg" style="color: #2780e3;">signalling</span>, it only sorts workers, and the resources spent on it are a <span class="fg" style="color: #c7254e;">social waste</span></li>
 </ul></li>
+<li>Under signalling, subsidizing education is mainly a <span class="fg" style="color: #2780e3;">transfer to high-ability workers</span>, who get the subsidized&nbsp;signal</li>
+<li>Sorting still has some value: it helps match workers to the jobs that suit&nbsp;them</li>
 </ul>
-<p><span class="fg" style="color: #5cb85c;">Separating equilibrium:</span> different types choose different education levels</p>
-<p><span class="fg" style="color: #555;">Pooling equilibrium:</span> everyone gets the same education level (no signalling occurs)</p>
-</section>
-<section id="model-11" class="slide level2">
-<h2>Model</h2>
-
-<img data-src="images/clipboard-3697593668.png" class="r-stretch"></section>
-<section id="model-12" class="slide level2">
-<h2>Model</h2>
-<p>Sometimes everyone is <span class="fg" style="color: #c7254e;">worse off</span> under the separating equilibrium:</p>
-<ul>
-<li>Recall in the pooling equilibrium, nobody gets education — everyone is paid <span class="math inline">\(\bar{w} = 2 - q\)</span></li>
-<li>Under the separating equilibrium:
-<ul>
-<li><span class="fg" style="color: #c7254e;">Type L are paid <span class="math inline">\(1\)</span></span> — worse off unless <span class="math inline">\(q = 1\)</span></li>
-<li><span class="fg" style="color: #c7254e;">Type H have a net payoff of <span class="math inline">\(2 - \frac{s^*}{2}\)</span></span> — worse off if <span class="math inline">\(s^* &gt; 2q\)</span></li>
-</ul></li>
-<li>In our previous example where <span class="math inline">\(q = 0.5\)</span>: Type H individuals are worse off for any <span class="math inline">\(s^* &gt; 1\)</span></li>
-</ul>
-</section>
-<section id="model-13" class="slide level2">
-<h2>Model</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Key Ideas of the Signalling Model</strong></p>
-</div>
-<div class="callout-content">
-<ul>
-<li>Depending on firm beliefs about the relationship between education and ability, it may be worthwhile to acquire education</li>
-<li>There must be a difference in the <span class="fg" style="color: #2780e3;">cost of acquiring education</span> for high- and low-ability workers</li>
-<li>If firms’ beliefs are not confirmed, they are not sustainable in equilibrium</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="section-2" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Think About It</strong></p>
-<p>In the signalling model, what would happen if a new technology made it costless for employers to observe worker productivity before hiring? Would anyone still invest in education under the signalling framework?</p>
-</div>
+<aside class="notes">
+<p>So the policy case for subsidizing education rests on how much of the return is human capital. Lecture 2 looks at evidence on that: credentials matter, and the best estimates put signalling at a minority of the return.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<!-- Lecture 2 -->
 </section></section>
 <section>
-<section id="estimating-returns-to-schooling" class="title-slide slide level1">
-<h1>Estimating Returns to Schooling</h1>
+<section id="estimating-the-returns-to-schooling" class="title-slide slide level1">
+<h1>Estimating the Returns to Schooling</h1>
 
 </section>
-<section id="introduction-3" class="slide level2">
-<h2>Introduction</h2>
-<ul>
-<li>We studied two theories of private education investment
-<ul>
-<li>These theories explain why individuals might invest in education</li>
-</ul></li>
-<li>Empirical economists estimate the size of the return using data</li>
-<li>We will study how empirical economists approach estimation
-<ul>
-<li>Mostly based on the <span class="fg" style="color: #2780e3;">Human Capital Earnings Function</span></li>
-</ul></li>
-<li>Results from existing research:
-<ul>
-<li>Rates of return to additional education are large</li>
-<li>Some evidence they are rising over time</li>
-<li>Returns are mostly attributed to human capital, but there is some evidence of signalling effects</li>
-</ul></li>
-</ul>
-</section>
-<section id="the-human-capital-earnings-function" class="slide level2">
+<section id="the-human-capital-earnings-function" class="slide level2 smaller">
 <h2>The Human Capital Earnings Function</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -794,95 +800,58 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Mincer Equation</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
-<p>Most estimates of the return to education are based on the <span class="fg" style="color: #2780e3;">Human Capital Earnings Function</span> (also known as the Mincer Equation):</p>
-<p><span class="math display">\[\ln Y = \beta_0 + \beta_1\,schl + \beta_2\,exp + \beta_3\,exp^{2} + \epsilon\]</span></p>
-<p>Where:</p>
+<p>The <strong><span class="fg" style="color: #2780e3;">human capital earnings function</span></strong> relates log earnings to years of schooling <span class="math inline">\(S\)</span> and experience&nbsp;<span class="math inline">\(EXP\)</span>:</p>
+<p><span class="math display">\[\ln I = \alpha + rS + \beta_1 EXP + \beta_2 EXP^2 + \varepsilon\]</span></p>
+</div>
+</div>
+</div>
 <ul>
-<li><span class="math inline">\(Y\)</span> is some measure of earnings, income, or wages</li>
-<li><span class="math inline">\(schl\)</span> is years of schooling</li>
-<li><span class="math inline">\(exp\)</span> is potential experience: <span class="math inline">\(exp = age - schl - 5\)</span></li>
+<li>With small direct costs, <span class="math inline">\(irr = \Delta I / I\)</span>, and <span class="math inline">\(\Delta I / I \approx \Delta \ln I\)</span>. So the coefficient on <span class="math inline">\(S\)</span> is the <span class="fg" style="color: #2780e3;">return to schooling</span>: the percent rise in earnings per extra&nbsp;year</li>
+<li>It’s written <span class="math inline">\(r\)</span> because people invest until <span class="math inline">\(irr = r\)</span></li>
+<li><span class="math inline">\(EXP\)</span> is <span class="fg" style="color: #2780e3;">potential experience</span>: years since leaving school. The square lets the age-earnings profile curve&nbsp;down</li>
+<li>Estimated across many workers at one point in time, usually with&nbsp;OLS</li>
 </ul>
-</div>
-</div>
-</div>
+<aside class="notes">
+<p>This is the book’s equation (14.9). It’s also called the Mincer equation, after Jacob Mincer.</p>
+<p>Why logs: if a year of school raises earnings by the same percentage at any level of earnings, then log earnings rise linearly with schooling.</p>
+<p>The book defines potential experience as EXP = age − S − 5. It’s used because most data sets don’t record actual work experience.</p>
+<p>The book’s Table 14.2 estimates this equation with 2022 Canadian Income Survey data: about 10% a year for men and 15% for women.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="the-human-capital-earnings-function-1" class="slide level2">
-<h2>The Human Capital Earnings Function</h2>
-<p>The Mincer equation uses the <span class="fg" style="color: #2780e3;">natural logarithm of <span class="math inline">\(Y\)</span></span> as the dependent variable</p>
-<p>When we use the natural log, coefficients measure the <span class="fg" style="color: #2780e3;">percent change</span> in the dependent variable per unit change in the independent variable:</p>
-<p><span class="math display">\[\beta_{1} = \frac{\partial \ln Y}{\partial schl} = \frac{\partial \ln Y}{\partial Y} \cdot \frac{\partial Y}{\partial schl} = \frac{1}{Y} \cdot \frac{\partial Y}{\partial schl}\]</span></p>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Interpretation of <span class="math inline">\(\beta_1\)</span></strong></p>
-</div>
-<div class="callout-content">
-<p><span class="math inline">\(\beta_{1}\)</span> is interpreted as the <span class="fg" style="color: #2780e3;">internal rate of return (IRR)</span> — the percent change in yearly earnings per additional year of schooling</p>
-</div>
-</div>
-</div>
-</section>
-<section id="the-human-capital-earnings-function-2" class="slide level2">
-<h2>The Human Capital Earnings Function</h2>
-<p>One way to estimate this equation is to use <span class="fg" style="color: #2780e3;">Ordinary Least Squares (OLS)</span> regression</p>
-<p>Two main data sources in Canada:</p>
-<p><span class="fg" style="color: #2780e3;">Canadian Census:</span></p>
-<ul>
-<li>Large sample sizes</li>
-<li>Detailed information on education and income</li>
-<li>Only conducted every 5 years</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Labour Force Survey (LFS):</span></p>
-<ul>
-<li>Monthly survey</li>
-<li>Smaller sample sizes</li>
-<li>Less detailed information on education and income</li>
-</ul>
-</section>
-<section id="hourly-earnings-by-years-of-education-ages-2544" class="slide level2">
-<h2>Hourly Earnings by Years of Education, Ages 25–44</h2>
+<section id="log-earnings-and-years-of-schooling-ages-2544" class="slide level2">
+<h2>Log Earnings and Years of Schooling, Ages 25–44</h2>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
-<section id="the-human-capital-earnings-function-3" class="slide level2">
-<h2>The Human Capital Earnings Function</h2>
-<ul>
-<li>Graph above shows data on schooling and hourly earnings from the LFS in September 2025 (black dots) and the fitted OLS regression line (blue line)</li>
-<li>There is a clear <span class="fg" style="color: #5cb85c;">positive relationship</span> between schooling and earnings</li>
-</ul>
-<p>Issues with this graph:</p>
-<ul>
-<li>Does not control for experience</li>
-<li>Education data not actually stored in years of schooling
-<ul>
-<li>Actually stored in categories (e.g., high school graduate, some university, university degree)</li>
-<li>Categories converted to approximate years</li>
-</ul></li>
-</ul>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>Each dot is an employee aged 25 to 44 in the September 2025 Labour Force Survey, and the line is the OLS fit. The slope, about 6.4%, is the return to a year of schooling, with nothing else controlled. Here I is hourly earnings rather than annual earnings; the slope reads the same way.</p>
+<p>Two problems with this picture. It doesn’t control for experience. And the LFS records education in categories (high school graduate, bachelor’s degree, and so on), which are converted here to approximate years.</p>
+<p>The next slide fixes both: it controls for age, and uses the categories directly.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="the-human-capital-earnings-function-4" class="slide level2">
-<h2>The Human Capital Earnings Function</h2>
-<p>A more accurate approach:</p>
-<ul>
-<li>Run the <span class="fg" style="color: #2780e3;">full Mincer equation regression</span>
-<ul>
-<li>Control for experience or age</li>
-</ul></li>
-<li>Use <span class="fg" style="color: #2780e3;">categorical education variables</span> instead of years of schooling
-<ul>
-<li>Omit one group as the “reference category”</li>
-<li>Coefficients measure the percent difference in earnings relative to the reference category</li>
-</ul></li>
-<li>Slide below shows results from a Mincer equation regression using September LFS data</li>
-</ul>
-</section>
-<section id="the-human-capital-earnings-function-5" class="slide level2">
-<h2>The Human Capital Earnings Function</h2>
+<section id="earnings-by-education-relative-to-high-school-graduates" class="slide level2">
+<h2>Earnings by Education Relative to High School Graduates</h2>
 <div class="cell">
 <div class="cell-output-display">
 <!-- preamble start -->
@@ -891,25 +860,25 @@ Fall 2026
 
     <script>
       // Create table-specific functions using external factory
-      const tableFns_v3wzb4fqa7dmf3ukkkfu = TinyTable.createTableFunctions("tinytable_v3wzb4fqa7dmf3ukkkfu");
+      const tableFns_zicuytmks577ujafuyoi = TinyTable.createTableFunctions("tinytable_zicuytmks577ujafuyoi");
       // tinytable span after
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '9', j: 2 }, { i: '9', j: 3 } ], css_id: 'tinytable_css_z2h56z8lwc3qdwh4lf03',}, 
-          { positions: [ { i: '6', j: 2 }, { i: '6', j: 3 } ], css_id: 'tinytable_css_ropkepeos386ea3onx49',}, 
-          { positions: [ { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '7', j: 2 }, { i: '8', j: 2 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '5', j: 3 }, { i: '7', j: 3 }, { i: '8', j: 3 } ], css_id: 'tinytable_css_vtcob2vdvvncqvim82db',}, 
-          { positions: [ { i: '0', j: 2 }, { i: '0', j: 3 } ], css_id: 'tinytable_css_9aqak0skbfxv132fj4jg',}, 
-          { positions: [ { i: '9', j: 1 } ], css_id: 'tinytable_css_exvx3w21et3ilnrgkqfr',}, 
-          { positions: [ { i: '6', j: 1 } ], css_id: 'tinytable_css_1uoaknazi1cxjp3050md',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '5', j: 1 }, { i: '7', j: 1 }, { i: '8', j: 1 } ], css_id: 'tinytable_css_vycfnr3yq7dtqckag21f',}, 
-          { positions: [ { i: '0', j: 1 } ], css_id: 'tinytable_css_jlfsjrp1i41qnf417q4x',}, 
+          { positions: [ { i: '9', j: 2 }, { i: '9', j: 3 } ], css_id: 'tinytable_css_axqabe3brnikl0vqnez7',}, 
+          { positions: [ { i: '6', j: 2 }, { i: '6', j: 3 } ], css_id: 'tinytable_css_5kt4atly6ndf45v2yvx2',}, 
+          { positions: [ { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '7', j: 2 }, { i: '8', j: 2 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '5', j: 3 }, { i: '7', j: 3 }, { i: '8', j: 3 } ], css_id: 'tinytable_css_iixf925zsu1jrqfbr6pl',}, 
+          { positions: [ { i: '0', j: 2 }, { i: '0', j: 3 } ], css_id: 'tinytable_css_qj47gblbhdkujsuczjns',}, 
+          { positions: [ { i: '9', j: 1 } ], css_id: 'tinytable_css_jef258cjt19wik9i8q25',}, 
+          { positions: [ { i: '6', j: 1 } ], css_id: 'tinytable_css_4mtv29i5n2x6vlfammz3',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '5', j: 1 }, { i: '7', j: 1 }, { i: '8', j: 1 } ], css_id: 'tinytable_css_hjlks3w9uqsqvgdkhueg',}, 
+          { positions: [ { i: '0', j: 1 } ], css_id: 'tinytable_css_bu5plk9k6cnejuz8at1l',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  tableFns_v3wzb4fqa7dmf3ukkkfu.styleCell(cell.i, cell.j, group.css_id);
+                  tableFns_zicuytmks577ujafuyoi.styleCell(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -918,17 +887,17 @@ Fall 2026
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.css">
     <style>
     /* tinytable css entries after */
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_z2h56z8lwc3qdwh4lf03, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_z2h56z8lwc3qdwh4lf03 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_ropkepeos386ea3onx49, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_ropkepeos386ea3onx49 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_vtcob2vdvvncqvim82db, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_vtcob2vdvvncqvim82db { text-align: center }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_9aqak0skbfxv132fj4jg, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_9aqak0skbfxv132fj4jg {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_exvx3w21et3ilnrgkqfr, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_exvx3w21et3ilnrgkqfr {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_1uoaknazi1cxjp3050md, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_1uoaknazi1cxjp3050md {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_vycfnr3yq7dtqckag21f, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_vycfnr3yq7dtqckag21f { text-align: left }
-    #tinytable_v3wzb4fqa7dmf3ukkkfu td.tinytable_css_jlfsjrp1i41qnf417q4x, #tinytable_v3wzb4fqa7dmf3ukkkfu th.tinytable_css_jlfsjrp1i41qnf417q4x {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_axqabe3brnikl0vqnez7, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_axqabe3brnikl0vqnez7 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_5kt4atly6ndf45v2yvx2, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_5kt4atly6ndf45v2yvx2 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_iixf925zsu1jrqfbr6pl, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_iixf925zsu1jrqfbr6pl { text-align: center }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_qj47gblbhdkujsuczjns, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_qj47gblbhdkujsuczjns {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: center }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_jef258cjt19wik9i8q25, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_jef258cjt19wik9i8q25 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.08em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_4mtv29i5n2x6vlfammz3, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_4mtv29i5n2x6vlfammz3 {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_hjlks3w9uqsqvgdkhueg, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_hjlks3w9uqsqvgdkhueg { text-align: left }
+    #tinytable_zicuytmks577ujafuyoi td.tinytable_css_bu5plk9k6cnejuz8at1l, #tinytable_zicuytmks577ujafuyoi th.tinytable_css_bu5plk9k6cnejuz8at1l {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: var(--tt-line-color); --line-color-left: var(--tt-line-color); --line-color-right: var(--tt-line-color); --line-color-top: var(--tt-line-color); --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.08em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%; ; text-align: left }
     </style>
     <div class="container">
-      <table class="tinytable" id="tinytable_v3wzb4fqa7dmf3ukkkfu" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="tinytable" id="tinytable_zicuytmks577ujafuyoi" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         
         <thead>
               <tr>
@@ -990,8 +959,24 @@ Fall 2026
 <!-- hack to avoid NA insertion in last line -->
 </div>
 </div>
+<aside class="notes">
+<p>Log hourly earnings regressed on education categories and age group, separately for men and women, all ages, September 2025 LFS. Each coefficient is the log gap relative to high school graduates of the same age group (standard errors in brackets).</p>
+<p>Multiply by 100 for an approximate percent. For big gaps, e^b − 1 is more accurate: a coefficient of 0.5 means about 65% more.</p>
+<p>The gaps for degrees are larger for women than for men, which matches the book’s Table 14.2.</p>
+<p>Data sources: the Census has large samples and detailed education and income, but runs every five years. The LFS is monthly, with smaller samples and less detail.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ability-bias" class="slide level2">
+<section id="ability-bias" class="slide level2 smaller">
 <h2>Ability Bias</h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -999,43 +984,46 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Ability Bias</strong></p>
+<p><strong>Key Definition</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="fg" style="color: #c7254e;">Ability bias:</span> higher-ability people choose more schooling but would earn higher wages even without schooling</p>
+<p><strong><span class="fg" style="color: #2780e3;">Ability bias</span></strong>: people with more ability tend to get more schooling, and would earn more even without it. So OLS credits schooling with part of the return to&nbsp;ability</p>
+</div>
+</div>
+</div>
 <ul>
-<li>OLS estimate reflects both the <span class="fg" style="color: #2780e3;">return to schooling</span> and the <span class="fg" style="color: #c7254e;">return to ability</span></li>
-<li>Ability bias is thought to be <span class="fg" style="color: #c7254e;">positive</span> → OLS <span class="fg" style="color: #c7254e;">overestimates</span> the return to schooling</li>
+<li>The bias is usually thought to be positive, so OLS would <span class="fg" style="color: #c7254e;">overstate</span> the return to schooling. But it can go either way, because ability has more than one&nbsp;dimension</li>
+<li>The ideal fix is an experiment that randomly assigns schooling, which isn’t&nbsp;possible</li>
+<li>Instead, economists look for a <span class="fg" style="color: #2780e3;">natural experiment</span>: something that changes schooling in a way unrelated to ability, “as good as randomly&nbsp;assigned”</li>
 </ul>
-</div>
-</div>
-</div>
+<aside class="notes">
+<p>Ability here means anything unobserved that raises earnings: talent, motivation, family background, connections. The book writes the simple model as ln I = α + βS + ε, where unobserved talent sits in ε and is correlated with S.</p>
+<p>Why it can go either way: someone with a talent for skilled trades may earn well as a plumber with less schooling, while someone with academic talent becomes a lawyer. If the omitted ability goes with less schooling, OLS understates the return. Clicker 4 is a case like that.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ability-bias-2" class="slide level2">
-<h2>Ability Bias</h2>
-<p>Suppose the true earnings equation is:</p>
-<p><span class="math display">\[\ln Y = \beta_{0} + \beta_1 schl + \beta_2 abil + \epsilon\]</span></p>
-<p>Where <span class="math inline">\(\epsilon\)</span> has <span class="math inline">\(E[\epsilon \mid schl, abil] = 0\)</span></p>
-<p>Assume schooling increases with ability:</p>
-<p><span class="math display">\[abil = \alpha_0 + \alpha_1 schl + v\]</span></p>
-<p>with <span class="math inline">\(v\)</span> uncorrelated with <span class="math inline">\(schl\)</span></p>
-</section>
-<section id="ability-bias-3" class="slide level2">
-<h2>Ability Bias</h2>
-<p>If we estimate a regression <span class="fg" style="color: #c7254e;">omitting ability</span>:</p>
-<p><span class="math display">\[\ln Y = \tilde{\beta}_1 schl + e\]</span></p>
-<p>The OLS coefficient on schooling equals:</p>
-<p><span class="math display">\[\tilde{\beta}_s = \frac{Cov(lnY, s)}{Var(s)}\]</span></p>
-</section>
-<section id="ability-bias-4" class="slide level2">
-<h2>Ability Bias</h2>
-<p>Plug <span class="math inline">\(\ln Y = \beta_1 schl + \beta_2 abil + \epsilon\)</span> into the formula for <span class="math inline">\(\tilde{\beta}_s\)</span>:</p>
-<p><span class="math display">\[\tilde{\beta}_s = \frac{Cov(\beta_{0} + \beta_1 schl + \beta_2 abil + \epsilon, schl)}{Var(schl)}\]</span></p>
-<p>Because <span class="math inline">\(\beta_0\)</span> is constant and <span class="math inline">\(\epsilon\)</span> is uncorrelated with <span class="math inline">\(schl\)</span>:</p>
-<p><span class="math display">\[\tilde{\beta}_s = \frac{\beta_1 Var(schl) + \beta_2 Cov(abil, schl)}{Var(schl)} = \beta_1 + \beta_2 \alpha_1\]</span></p>
-</section>
-<section id="ability-bias-5" class="slide level2">
-<h2>Ability Bias</h2>
+<section id="the-size-of-the-bias" class="slide level2 smaller">
+<h2>The Size of the Bias</h2>
+<ul>
+<li>Suppose log earnings depend on schooling and ability&nbsp;<span class="math inline">\(A\)</span>:</li>
+</ul>
+<p><span class="math display">\[\ln I = \alpha + \beta S + \gamma A + \varepsilon\]</span></p>
+<ul>
+<li>And ability is related to&nbsp;schooling:</li>
+</ul>
+<p><span class="math display">\[A = \delta_0 + \delta_1 S + v\]</span></p>
+<ul>
+<li>Leave <span class="math inline">\(A\)</span> out, and OLS&nbsp;estimates:</li>
+</ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1045,122 +1033,190 @@ Fall 2026
 <p><strong>The Bias Formula</strong></p>
 </div>
 <div class="callout-content">
-<p><span class="math display">\[\tilde{\beta}_s = \underbrace{\beta_1}_{\text{true return}} + \underbrace{\beta_2 \alpha_1}_{\text{ability bias}}\]</span></p>
-<p>The ability bias <span class="math inline">\(\beta_2 \alpha_1\)</span> depends on:</p>
+<p><span class="math display">\[\tilde{\beta} = \underbrace{\beta}_{\text{true return}} + \underbrace{\gamma\,\delta_1}_{\text{ability bias}}\]</span></p>
+</div>
+</div>
+</div>
 <ul>
-<li><span class="math inline">\(\beta_2\)</span>: the earnings return to ability</li>
-<li><span class="math inline">\(\alpha_1\)</span>: the relationship between ability and schooling</li>
+<li>If ability raises earnings (<span class="math inline">\(\gamma &gt; 0\)</span>) and goes with more schooling (<span class="math inline">\(\delta_1 &gt; 0\)</span>), OLS overstates the&nbsp;return</li>
 </ul>
-<p>If both are positive → ability bias is positive → <span class="fg" style="color: #c7254e;">OLS overestimates the return to schooling</span></p>
-</div>
-</div>
-</div>
+<aside class="notes">
+<p>Derivation: the OLS slope is Cov(ln I, S)/Var(S). Substitute the true model: Cov(α + βS + γA + ε, S) = β Var(S) + γ Cov(A, S), since ε is unrelated to S. Divide by Var(S), and note that Cov(A, S)/Var(S) = δ₁, the slope from regressing A on S. So the OLS estimate is β + γδ₁.</p>
+<p>This is the general omitted variable bias formula, applied to ability.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="addressing-ability-bias" class="slide level2">
-<h2>Addressing Ability Bias</h2>
-<p>Economists have developed methods to address ability bias:</p>
-<p><span class="fg" style="color: #2780e3;">Twin Studies:</span></p>
-<ul>
-<li>Compare earnings of identical twins with different schooling levels</li>
-<li>Presumably, twins have the same level of ability — comparing them avoids ability bias</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Instrumental Variables (IV):</span></p>
-<ul>
-<li>Method that isolates variation in schooling unrelated to ability</li>
-<li>E.g., changes in compulsory schooling laws, proximity to university</li>
-<li>These changes affect schooling but are unrelated to ability</li>
-</ul>
+<section id="iclicker-question-3" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Some 18-year-olds can step into a well-paid family business. They skip university, and the business lets them earn more for the rest of their lives. A study regresses log earnings on schooling and leaves out “has a family business.” Its estimated return to schooling&nbsp;is:</p>
+<p>A) Too high, as with ability bias<br>
+B) Too high, because the business raises earnings<br>
+C) Unbiased, because a family business isn’t ability<br>
+D) Too low, because the business raises earnings but goes with less schooling<br>
+E) Unbiased, because the effect of the business averages out across people</p>
+<aside class="notes">
+<p>Answer: D. In the bias formula, γ &gt; 0 (the business raises earnings) but δ₁ &lt; 0 (people with a business get less schooling), so γδ₁ &lt; 0 and OLS understates the return.</p>
+<p>A and B pattern-match: omitted variable bias isn’t always upward. Its sign is the product of the two signs. C: “ability” stands in for anything left out that is related to both schooling and earnings. E: the effect doesn’t average out, because it’s correlated with schooling.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="twin-studies" class="slide level2">
-<h2>Twin Studies</h2>
+<section id="natural-experiments" class="slide level2 smaller">
+<h2>Natural Experiments</h2>
+<ul>
+<li><span class="fg" style="color: #555;">Compulsory schooling laws:</span> students must stay in school until a set age, so birth month and the law decide how long some&nbsp;stay
+<ul>
+<li><span class="fg" style="color: #2780e3;">Angrist and Krueger (1991)</span>, US: about <span class="fg" style="color: #2780e3;">7.5%</span> a year for men. But birth month also affects how old a child is relative to classmates, which matters on its own (Bedard and Dhuey&nbsp;2006)</li>
+<li><span class="fg" style="color: #2780e3;">Oreopoulos (2006)</span>, school-leaving laws in Canada and the UK: <span class="fg" style="color: #2780e3;">10% or&nbsp;more</span>. <span class="fg" style="color: #2780e3;">Devereux and Hart (2010)</span> find smaller returns for the&nbsp;UK</li>
+</ul></li>
+<li><span class="fg" style="color: #555;">College proximity:</span> growing up near a college makes it cheaper to go. <span class="fg" style="color: #2780e3;">Card (1995)</span>: OLS gives 7.5%, proximity gives about&nbsp;<span class="fg" style="color: #2780e3;">14%</span></li>
+</ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Ashenfelter and Rouse (1998)</strong></p>
+<p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<ul>
-<li>Used data on identical twins in the US (collected at a Twins festival)</li>
-<li><span class="fg" style="color: #c7254e;">OLS estimate:</span> biased return of about <strong>11%</strong> per year</li>
-<li><span class="fg" style="color: #5cb85c;">Twin differences estimate:</span> return of about <strong>7%</strong> per year</li>
-<li>Suggests <span class="fg" style="color: #2780e3;">ability bias of about 4 percentage points</span></li>
-</ul>
+<p>Natural experiments mostly give returns as large as OLS, or larger. So ability bias looks <span class="fg" style="color: #2780e3;">small</span>: the book concludes it was&nbsp;“exaggerated”</p>
 </div>
 </div>
 </div>
+<aside class="notes">
+<p>Why could these estimates be larger than OLS? Schooling is measured with error, which biases OLS down. And a natural experiment measures the return for the people it pushes into more school, often people who faced high costs and had high returns at the margin (Card 2001).</p>
+<p>These are returns at particular margins: compulsory schooling laws move people around high school completion, and proximity moves people into college.</p>
+<p>Twin studies are another approach, not in this chapter: Ashenfelter and Rouse (1998) compared identical twins with different schooling and found returns of roughly 7 to 9% a year, below the 11% from OLS on the same data.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="compulsory-schooling" class="slide level2">
-<h2>Compulsory Schooling</h2>
+<section id="canadas-school-entry-and-leaving-laws-by-province" class="slide level2">
+<h2>Canada’s School Entry and Leaving Laws, by Province</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/schlaws_oreop.png" class="quarto-figure quarto-figure-center" height="760"></p>
+</figure>
+</div>
+<aside class="notes">
+<p>From Oreopoulos (2006). Solid lines are the minimum school-leaving age, and dashed lines the maximum age for starting school. Provinces raised the leaving age at different times, so otherwise similar people born a few years apart, or in different provinces, faced different minimum schooling. That variation has nothing to do with their ability.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="credentials-and-signalling-in-the-data" class="slide level2 smaller">
+<h2>Credentials and Signalling in the Data</h2>
 <ul>
-<li>Another method: use changes in <span class="fg" style="color: #2780e3;">compulsory schooling laws</span> as an instrument for schooling</li>
-<li>Several US states have a minimum school leaving age (generally around 16 years old)</li>
-<li>Students born earlier in the year can leave school earlier
-<ul>
-<li>Someone born in January can leave earlier than someone born in December of the same year</li>
-<li>On average, people born later in the year have more schooling</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Angrist and Krueger (1991)</span> use this variation to estimate returns to schooling
-<ul>
-<li>Estimate a return of about <strong>7–10%</strong> per year of schooling</li>
-</ul></li>
+<li>Under pure human capital, a diploma adds nothing beyond the years of learning it&nbsp;took</li>
+<li><span class="fg" style="color: #2780e3;">Ferrer and Riddell (2002)</span>, Canada: people with the same years of schooling earn more if they finished the <span class="fg" style="color: #2780e3;">credential</span>. That’s consistent with&nbsp;signalling</li>
+<li>If employers learn ability over time, signals should matter less as a career goes on (<span class="fg" style="color: #2780e3;">Altonji and&nbsp;Pierret</span>)</li>
+<li><span class="fg" style="color: #2780e3;">Aryal et al.&nbsp;(2019)</span>: about <span class="fg" style="color: #2780e3;">30%</span> of the return to schooling is signalling, and the share falls with&nbsp;experience</li>
+<li>So both theories have support, and most of the return looks like human&nbsp;capital</li>
 </ul>
-</section>
-<section id="compulsory-schooling-1" class="slide level2">
-<h2>Compulsory Schooling</h2>
-<ul>
-<li>Canada has maximum school entry laws and minimum school leaving laws
-<ul>
-<li>Over time, students mandated to enter school earlier and leave later</li>
-<li>This increases average schooling levels, <span class="fg" style="color: #5cb85c;">unrelated to ability</span></li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Oreopoulos (2006)</span> uses this variation to estimate returns to schooling in Canada
-<ul>
-<li>Finds that an additional year of compulsory schooling increases earnings by about <strong>7–12%</strong></li>
-</ul></li>
-</ul>
-</section>
-<section id="compulsory-schooling-2" class="slide level2">
-<h2>Compulsory Schooling</h2>
+<aside class="notes">
+<p>The book’s Exhibit 14.2: Altonji (1995) found that taking more academic high school courses (science, math, English instead of shop or physical education) barely raises later earnings. If employers pay for skills, course content should matter. If they read the credential as a signal, finishing matters more than what you took. That evidence leans toward signalling.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="early-childhood-education" class="title-slide slide level1">
+<h1>Early Childhood Education</h1>
 
-<img data-src="images/schlaws_oreop.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="signalling-1" class="slide level2">
-<h2>Signalling</h2>
-<ul>
-<li>All studies cited so far have attributed returns to schooling to <span class="fg" style="color: #2780e3;">human capital accumulation</span></li>
-<li>Some studies have attempted to separate human capital from signalling effects</li>
-<li><span class="fg" style="color: #2780e3;">Ferrer and Riddell (2002)</span> use Canadian data to estimate credential effects
-<ul>
-<li>Look at people with same years of schooling, but different credentials</li>
-<li>E.g., someone with a high school diploma versus someone with the same years but did not graduate</li>
-</ul></li>
-<li><span class="fg" style="color: #5cb85c;">Find that obtaining the credential does matter</span> — consistent with some signalling</li>
-</ul>
 </section>
-<section id="section-3" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Discussion</strong></p>
-<p>Twin studies and IV studies both estimate returns to schooling of about 7–10%, which is lower than the OLS estimate. Does this mean ability bias is the whole story, or could there be biases working in the opposite direction that partially offset it?</p>
+<section id="investing-early" class="slide level2 smaller">
+<h2>Investing Early</h2>
+<ul>
+<li>Human capital theory says invest early: the payoff lasts longer, and forgone earnings are&nbsp;lower</li>
+<li>Early skills make later learning more productive (Cunha et al.&nbsp;2010). Children from disadvantaged families are already behind when they start&nbsp;school</li>
+<li><span class="fg" style="color: #2780e3;">Perry Preschool</span> (US, 1960s): disadvantaged children randomly assigned to intensive preschool had more education, higher earnings, and less crime as adults. But it was small and&nbsp;costly</li>
+<li><span class="fg" style="color: #2780e3;">Head Start</span> (US, much larger): mixed results, and many gains fade as children grow&nbsp;up</li>
+<li><span class="fg" style="color: #2780e3;">Quebec’s $5-a-day child care</span> (universal): no positive effect on children’s outcomes, even later in life (Baker et al.&nbsp;2008,&nbsp;2019)</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>That matters for the national child care system Canada began funding in 2021. The clearest gains so far come from intensive programs <span class="fg" style="color: #2780e3;">targeted at disadvantaged children</span></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Early and later investments are complements: a teenager who missed early investments finds it harder and costlier to catch up.</p>
+<p>Parents and neighbourhoods still matter a lot for educational attainment, even after controlling for skills measured in the teen years (Foley 2012). And comprehensive support for youth in very low-income neighbourhoods can raise high school graduation and earnings, and reduce crime, later in life (Lavecchia et al.&nbsp;2024).</p>
+<p>Quebec’s program also raised mothers’ employment, a labour supply effect. The finding here is about the children.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="social-returns-to-education" class="title-slide slide level1">
 <h1>Social Returns to Education</h1>
 
 </section>
-<section id="social-returns-to-education-1" class="slide level2">
+<section id="social-returns-to-education-1" class="slide level2 smaller">
 <h2>Social Returns to Education</h2>
 <ul>
-<li>Most discussion so far has focused on <span class="fg" style="color: #2780e3;">private returns</span> to education (returns to the individual)</li>
-<li>We know there are <span class="fg" style="color: #5cb85c;">positive externalities</span> to society as a whole:
-<ul>
-<li>States/provinces with higher average education have higher earnings in excess of the private return</li>
-<li>More highly educated immigrants in STEM have a positive effect on productivity of other workers</li>
-<li>More highly educated populations have <span class="fg" style="color: #5cb85c;">lower crime rates</span>, <span class="fg" style="color: #5cb85c;">better health outcomes</span>, <span class="fg" style="color: #5cb85c;">more civic participation</span></li>
-</ul></li>
+<li><span class="fg" style="color: #2780e3;">Private</span> costs and benefits fall on the student. <span class="fg" style="color: #2780e3;">Social</span> costs and benefits count&nbsp;everyone</li>
+<li><span class="fg" style="color: #555;">Real costs vs.&nbsp;transfers:</span> society counts <span class="fg" style="color: #2780e3;">real costs</span>, the resources used up (teachers’ time, buildings, the output students don’t produce). <span class="fg" style="color: #2780e3;">Transfer costs</span>, like a tuition subsidy, move money between people and drop out of the social&nbsp;total</li>
+<li><span class="fg" style="color: #555;">Spillovers:</span> workers earn more in cities with more educated workers (Moretti), and educated STEM immigrants raise other workers’ productivity (Peri et&nbsp;al.)</li>
+<li><span class="fg" style="color: #555;">Benefits outside the job:</span> less crime (Lochner and Moretti), more civic participation (Milligan et al.), and longer lives (Lleras-Muney)</li>
+<li><span class="fg" style="color: #555;">But the evidence is mixed:</span> there are no clear spillovers from high school, college spillovers may be confined to the 1980s, and newer studies find weaker benefits outside the&nbsp;job</li>
 </ul>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
@@ -1168,74 +1224,121 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Policy Implication</strong></p>
+<p><strong>Policy</strong></p>
 </div>
 <div class="callout-content">
-<p>Because social returns exceed private returns, there is a rationale for <span class="fg" style="color: #2780e3;">public subsidies to education</span></p>
+<p>Spillovers are a case for <span class="fg" style="color: #2780e3;">public subsidies</span> for education. If education is mostly a signal, the case is&nbsp;weaker</p>
 </div>
 </div>
 </div>
+<aside class="notes">
+<p>Measuring spillovers is hard: productive cities attract educated workers, so the link could run the other way.</p>
+<p>The mixed evidence: Acemoglu and Angrist, and Ciccone and Peri, find no spillovers from high school; Sand finds college spillovers mainly in the 1980s; and Clark and Royer, and Stephens and Yang, find weaker effects of schooling outside the labour market than earlier studies did.</p>
+<p>The social return could also be lower than the private one. If education is partly a signal, some of the private gain comes at other workers’ expense.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="iclicker-question-4" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>Ontario pays $6,000 of each university student’s tuition out of tax revenue. When we add up the social cost of a year of university, the $6,000&nbsp;subsidy:</p>
+<p>A) Lowers the social cost by $6,000, because students pay less<br>
+B) Adds $6,000 to the social cost, on top of the cost of running the university<br>
+C) Doesn’t count, because it only moves money from taxpayers to students<br>
+D) Is the only part of tuition that counts as a social cost<br>
+E) Lowers the social cost, because taxpayers spread it across many people</p>
+<aside class="notes">
+<p>Answer: C. Social costs are real costs: instructors’ time, buildings, and the output students don’t produce while in school. The subsidy is a transfer from taxpayers to students.</p>
+<p>A confuses private and social cost: the student’s private cost falls by $6,000, but the social cost doesn’t change. B double-counts: the resources the subsidy pays for are already counted once. D: tuition paid by the student is also just a payment for those same resources. E: spreading a cost across more people doesn’t make it smaller.</p>
+<p>So a subsidy raises the private return to school, but not the social return.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="education-and-inequality" class="title-slide slide level1">
 <h1>Education and Inequality</h1>
 
 </section>
-<section id="education-and-inequality-1" class="slide level2">
+<section id="education-and-inequality-1" class="slide level2 smaller">
 <h2>Education and Inequality</h2>
 <ul>
-<li>Earnings inequality has increased in many countries over the past few decades</li>
-<li>In Canada:
+<li>Earnings inequality in Canada rose in the 1980s and 1990s, and has been fairly stable&nbsp;since</li>
+<li>Two possible sources:
 <ul>
-<li>Rose over the 80s and 90s</li>
-<li>Has been stable since</li>
+<li>A rising <span class="fg" style="color: #2780e3;">return to education</span>: the gap between education groups&nbsp;widens</li>
+<li>More <span class="fg" style="color: #2780e3;">inequality within education groups</span>: workers with the same education drift&nbsp;apart</li>
 </ul></li>
+<li>In Canada, most of the rise came from <span class="fg" style="color: #2780e3;">within</span> education groups. The university premium rose modestly, about 5 points for men from 1980 to 2005 (Boudarbat et&nbsp;al.)</li>
+<li><span class="fg" style="color: #555;">Explanations for higher returns:</span> <span class="fg" style="color: #2780e3;">technological change</span> favouring skilled, non-routine work (<span class="fg" style="color: #555;">Chapter&nbsp;10</span>), and <span class="fg" style="color: #2780e3;">trade and globalization</span></li>
+<li><span class="fg" style="color: #555;">Polarization:</span> in the US, both jobs and wages polarized. In Canada, jobs did but wages didn’t (Green and&nbsp;Sand)</li>
+<li><span class="fg" style="color: #555;">Unions:</span> their decline widened wage inequality, but didn’t raise the return to schooling (DiNardo and&nbsp;Lemieux)</li>
+<li>Since the mid-2000s, the resource boom and higher minimum wages narrowed wage gaps in several provinces (Fortin and&nbsp;Lemieux)</li>
 </ul>
-<p>Two sources of rising inequality:</p>
-<ul>
-<li><span class="fg" style="color: #2780e3;">Returns to schooling</span>: college premium has grown</li>
-<li><span class="fg" style="color: #2780e3;">Inequality within education groups</span>: growing wage dispersion even among equally-educated workers</li>
-</ul>
-<p>In Canada, much of the rise is related to <span class="fg" style="color: #555;">inequality within education groups</span></p>
+<aside class="notes">
+<p>Younger cohorts: Beaudry and Green found that each new cohort entered the labour market at lower earnings than earlier ones, at every education level, while earnings grew with experience at about the same rate. That’s a cohort effect, not a rising premium for the young.</p>
+<p>Supply matters too. In the 1970s the large, well-educated baby-boom cohorts entered the labour market and held down the university premium, though Dooley found demographics alone can’t explain all of the narrowing.</p>
+<p>Polarization: employment grew at the top and bottom of the skill distribution and shrank in the middle, as routine jobs were automated (Autor et al.). In the US, wages followed. In Canada, Green and Sand found that employment polarized but wages didn’t.</p>
+<p>At the very top, the income share of the top 1% rose sharply, and education matters there too: about two-thirds of the top 1% have a bachelor’s degree, against about a fifth of all workers (Lemieux and Riddell).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="education-and-inequality-2" class="slide level2">
-<h2>Education and Inequality</h2>
-
-<img data-src="images/ineq1.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="education-and-inequality-3" class="slide level2">
-<h2>Education and Inequality</h2>
-
-<img data-src="images/ineq2.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="education-and-inequality-4" class="slide level2">
-<h2>Education and Inequality</h2>
-<p>Why has the return to education increased?</p>
-<p><span class="fg" style="color: #2780e3;">Skill-Biased Technological Change:</span></p>
-<ul>
-<li>New technologies increase demand for skilled workers</li>
-<li>Increases the wage premium for higher education</li>
-<li>Thought to be the major driver in the 1980s</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Globalization:</span></p>
-<ul>
-<li>Increased trade and outsourcing</li>
-<li>Reduces demand for lower-skilled workers locally</li>
-</ul>
-<p><span class="fg" style="color: #2780e3;">Institutional Changes:</span></p>
-<ul>
-<li>Decline in unionization, changes in labour market policies</li>
-<li>Negatively affects bargaining power of lower-skilled workers</li>
-</ul>
+<section id="top-10-income-share-in-canada-19762021" class="slide level2">
+<h2>Top 10% Income Share in Canada, 1976–2021</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ineq1.png" class="quarto-figure quarto-figure-center" height="760"></p>
+</figure>
+</div>
+<aside class="notes">
+<p>The share of income going to the top 10% of Canadians, before taxes and transfers (market income) and after. Market income shares rose from about 26% in the late 1980s to about 30% by 2000, then levelled off. Taxes and transfers took about 4 points off the top share in the late 1980s, and 6 to 7 points since about 2000.</p>
+<p>This is income inequality, which is broader than wage inequality: it includes investment income, and it’s measured across families, not workers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="training" class="title-slide slide level1">
 <h1>Training</h1>
 
 </section>
-<section id="introduction-4" class="slide level2">
-<h2>Introduction</h2>
+<section id="general-and-specific-training" class="slide level2 smaller">
+<h2>General and Specific Training</h2>
 <ul>
-<li>Formal schooling is one way to develop human capital</li>
-<li>Another important way is through <span class="fg" style="color: #2780e3;">job training</span></li>
+<li>Workers keep building human capital <span class="fg" style="color: #2780e3;">on the job</span>, after their schooling&nbsp;ends</li>
 </ul>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
@@ -1243,246 +1346,178 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Types of Training</strong></p>
+<p><strong>Key Definitions</strong></p>
 </div>
 <div class="callout-content">
-<ul>
-<li><span class="fg" style="color: #5cb85c;">General Training:</span> skills that are useful at many firms</li>
-<li><span class="fg" style="color: #2780e3;">Specific Training:</span> skills that are only useful at a specific firm</li>
-</ul>
+<p><strong><span class="fg" style="color: #2780e3;">General training</span></strong>: skills valued at many&nbsp;firms</p>
+<p><strong><span class="fg" style="color: #2780e3;">Specific training</span></strong>: skills valued only at the firm that provides&nbsp;them</p>
 </div>
 </div>
 </div>
-<p>Training helps develop skills that increase human capital — in this section we evaluate the economics of job training</p>
-</section>
-<section id="who-pays-for-job-training" class="slide level2">
-<h2>Who Pays for Job Training</h2>
 <ul>
-<li>It is not uncommon for firms to pay for job training
-<ul>
-<li>Some companies provide training to all employees</li>
-<li>Others fund things like MBA programs</li>
-</ul></li>
-<li>Under what circumstances would the firm pay versus the individual?</li>
-<li>The answer <span class="fg" style="color: #2780e3;">differs for general versus specific training</span></li>
+<li>Who pays for training, the worker or the firm? It depends on whether the worker can take the skills to another&nbsp;employer</li>
+<li>Most training is a mix. Skills can be specific to an industry, an occupation, or a set of tasks rather than to one&nbsp;firm</li>
 </ul>
+<aside class="notes">
+<p>Examples: learning to use spreadsheets or to weld is general. Learning a company’s own software or procedures is specific.</p>
+<p>This is Becker’s analysis of training.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="who-pays-for-job-training-1" class="slide level2">
-<h2>Who Pays for Job Training</h2>
-<p><span class="fg" style="color: #5cb85c;">General training:</span> employees fund training themselves</p>
-<ul>
-<li>General training increases productivity at <span class="fg" style="color: #5cb85c;">many firms</span>
-<ul>
-<li>Employees can take skills to other firms</li>
-</ul></li>
-<li>Firms offer higher wages to employees with general training (very similar to schooling)</li>
-<li>But <span class="fg" style="color: #c7254e;">employees fund the training themselves</span>
-<ul>
-<li>Pay for it as long as lifetime wage increase exceeds the cost of training</li>
-</ul></li>
-</ul>
-</section>
-<section id="who-pays-for-job-training-2" class="slide level2">
-<h2>Who Pays for Job Training</h2>
+<section id="general-training-the-worker-pays" class="slide level2 smaller">
+<h2>General Training: The Worker Pays</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
+<div class="cell">
+<div class="cell-output-display">
+<div>
 <figure>
-<p><img data-src="images/costsbenefitstrain.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="768"></p>
 </figure>
 </div>
 </div>
 </div>
-</div>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">General training illustrated:</span></p>
 <ul>
-<li>Without training: employee earns wage <span class="math inline">\(W_a\)</span> (equals VMP without training)</li>
-<li>Employee who gets training:
-<ul>
-<li>Earns lower wage <span class="math inline">\(VMP_t\)</span> <span class="fg" style="color: #c7254e;">during training</span></li>
-<li>Earns higher wage <span class="math inline">\(VMP^*\)</span> <span class="fg" style="color: #5cb85c;">after training</span></li>
-</ul></li>
-<li>Worth it for employee if present value of wage increase exceeds cost of training</li>
+<li>Trained workers are more productive <span class="fg" style="color: #2780e3;">at every firm</span>, so other firms will bid their wage up to&nbsp;<span class="math inline">\(VMP^*\)</span></li>
+<li>A firm that paid for the training couldn’t get it back: the worker would leave, or demand the higher&nbsp;wage</li>
+<li>So the worker pays, by accepting a wage of <span class="math inline">\(VMP_t\)</span> <span class="fg" style="color: #c7254e;">during training</span>, below the <span class="math inline">\(W_a\)</span> they could earn&nbsp;untrained</li>
+<li>They earn <span class="math inline">\(VMP^*\)</span> <span class="fg" style="color: #5cb85c;">after training</span>. Worth it if the present value of the gain beats the&nbsp;cost</li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>This is just like paying for school: the worker gives up earnings now for higher earnings later. Apprenticeships and medical residencies work this way: low pay during training, high pay after.</p>
+<p>A minimum wage can get in the way, by stopping workers from paying for training with a lower wage.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="who-pays-for-job-training-3" class="slide level2">
-<h2>Who Pays for Job Training</h2>
-<p><span class="fg" style="color: #2780e3;">Specific training:</span> firms pay</p>
-<ul>
-<li>Specific training only increases productivity <span class="fg" style="color: #c7254e;">at one firm</span>
-<ul>
-<li>Skills not transferable to other firms</li>
-</ul></li>
-<li><span class="fg" style="color: #5cb85c;">Company would pay</span> if benefits exceed costs
-<ul>
-<li>Benefits: higher productivity of employee</li>
-<li>Costs: wages paid during training period</li>
-</ul></li>
-<li>Would not have to pay higher wages — there is <span class="fg" style="color: #5cb85c;">no competition</span> for workers with this specific skill</li>
-</ul>
-</section>
-<section id="who-pays-for-job-training-4" class="slide level2">
-<h2>Who Pays for Job Training</h2>
+<section id="specific-training-the-firm-pays" class="slide level2 smaller">
+<h2>Specific Training: The Firm Pays</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
+<div class="cell">
+<div class="cell-output-display">
+<div>
 <figure>
-<p><img data-src="images/costsbenefitstrain.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-9-1.png" width="768"></p>
 </figure>
 </div>
 </div>
 </div>
-</div>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Specific training illustrated:</span></p>
 <ul>
-<li>Before and after training: employee earns wage <span class="math inline">\(W_a\)</span></li>
-<li><span class="fg" style="color: #c7254e;">Firm costs</span> during training: <span class="math inline">\(W_a - VMP_t\)</span></li>
-<li><span class="fg" style="color: #5cb85c;">Firm benefits</span> after training: <span class="math inline">\(VMP^* - W_a\)</span></li>
-<li>Worth it if present value of benefits exceeds present value of costs</li>
+<li>Specific skills raise productivity <span class="fg" style="color: #2780e3;">only at this firm</span>, so other firms won’t pay more for&nbsp;them</li>
+<li>The firm can pay <span class="math inline">\(W_a\)</span> throughout, and pay for the training&nbsp;itself:
+<ul>
+<li><span class="fg" style="color: #c7254e;">Cost</span> during training: <span class="math inline">\(W_a - VMP_t\)</span></li>
+<li><span class="fg" style="color: #5cb85c;">Benefit</span> after training: <span class="math inline">\(VMP^* - W_a\)</span></li>
+</ul></li>
+<li>The risk: if the worker <span class="fg" style="color: #c7254e;">quits</span> after training, the firm loses its&nbsp;investment</li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>The firm invests if the present value of the benefit beats the present value of the cost, just like any other investment.</p>
+<p>The worker has no reason to stay: they earn W_a here or anywhere else.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="who-pays-for-job-training-5" class="slide level2">
-<h2>Who Pays for Job Training</h2>
-<p><span class="fg" style="color: #2780e3;">Shared investment</span> — happens when there is a risk of the individual leaving after training:</p>
-<ul>
-<li>Firms pay below <span class="math inline">\(W_a\)</span> during the training period (but still above the VMP during training)</li>
-<li>Pay above <span class="math inline">\(W_a\)</span> after training (but below the employee’s VMP)</li>
-<li>In this way, employee and employer <span class="fg" style="color: #2780e3;">share the costs and benefits</span></li>
-</ul>
-</section>
-<section id="who-pays-for-job-training-6" class="slide level2">
-<h2>Who Pays for Job Training</h2>
+<section id="sharing-the-cost-of-specific-training" class="slide level2 smaller">
+<h2>Sharing the Cost of Specific Training</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
+<div class="cell">
+<div class="cell-output-display">
+<div>
 <figure>
-<p><img data-src="images/specifictrain.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-10-1.png" width="768"></p>
 </figure>
 </div>
 </div>
 </div>
-</div>
 </div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Shared specific training:</span></p>
-<p>During training period:</p>
 <ul>
-<li><span class="fg" style="color: #c7254e;">Employee cost:</span> earning less than <span class="math inline">\(W_a\)</span></li>
-<li><span class="fg" style="color: #c7254e;">Employer cost:</span> paying above VMP</li>
-</ul>
-<p>After training period:</p>
+<li>To keep trained workers, the firm and worker <span class="fg" style="color: #2780e3;">share</span> the&nbsp;investment:
 <ul>
-<li><span class="fg" style="color: #5cb85c;">Employee benefit:</span> earning more than <span class="math inline">\(W_a\)</span></li>
-<li><span class="fg" style="color: #5cb85c;">Employer benefit:</span> paying below VMP</li>
+<li>During training, the wage <span class="math inline">\(W_t\)</span> is below <span class="math inline">\(W_a\)</span> but above&nbsp;<span class="math inline">\(VMP_t\)</span></li>
+<li>After training, the wage <span class="math inline">\(W^*\)</span> is above <span class="math inline">\(W_a\)</span> but below&nbsp;<span class="math inline">\(VMP^*\)</span></li>
+</ul></li>
+<li>Now both lose if the job ends. Specific skills act as <span class="fg" style="color: #2780e3;">glue</span>: fewer quits, fewer layoffs, and longer job&nbsp;tenure</li>
+<li>Training is really gradual, so wages rise smoothly with tenure, but the logic is the&nbsp;same</li>
 </ul>
 </div></div>
+<aside class="notes">
+<p>The worker quits less because they earn more here than elsewhere. The firm lays off less because the worker produces more than they’re paid.</p>
+<p>Firms also use contracts: some require trainees to repay training costs if they leave within a year or two.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="who-pays-for-job-training-7" class="slide level2">
-<h2>Who Pays for Job Training</h2>
-<ul>
-<li>For illustrative purposes, we have depicted training as a one-time event
-<ul>
-<li>In reality, training is often ongoing throughout a worker’s career</li>
-<li>Workers may receive multiple types of training at different times</li>
-<li>Firms may have formal training programs or informal on-the-job training</li>
-</ul></li>
-<li>A more gradual training leads to smoother curves — but the lesson is still the same</li>
-</ul>
+<section id="iclicker-question-5" class="slide level2" data-background-color="#f0f4f8">
+<h2>iClicker Question</h2>
+<p>A trucking company trains new hires for a commercial driver’s licence, which every trucking company requires. In the training model from class, who pays for the training, and&nbsp;how?</p>
+<p>A) The firm, because it chose to offer the training<br>
+B) The firm and the worker share it, as with specific training<br>
+C) The firm, which gets its money back by paying trained drivers less than their VMP<br>
+D) The government, because the training is general<br>
+E) The worker, by accepting lower pay during training</p>
+<aside class="notes">
+<p>Answer: E. Any trucking company will hire a licensed driver, so the licence is general training: rivals would bid a trained driver’s wage up to VMP*. The firm can’t get its money back, so the worker pays, through low pay while training.</p>
+<p>A: offering the training isn’t the same as paying for it. C applies the specific-training logic: paying below VMP after training would just send the driver to a rival. D: governments do fund some training, but that’s not the model’s answer. B: sharing only makes sense when the skills are worth more at this firm than elsewhere.</p>
+<p>In practice, trucking firms that advertise “free” licence training usually make drivers stay a year or repay the cost. So the worker pays after all.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="who-pays-for-job-training-8" class="slide level2">
-<h2>Who Pays for Job Training</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-layout-panel" data-layout="[[-1], [1], [-1]]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/earngrowth.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<p><span class="fg" style="color: #2780e3;">Gradual shared training:</span></p>
+<section id="government-training-programs" class="slide level2 smaller">
+<h2>Government Training Programs</h2>
 <ul>
-<li>Lesson is still the same</li>
-<li><span class="fg" style="color: #c7254e;">Costs gradually fall</span> over time during training</li>
-<li><span class="fg" style="color: #5cb85c;">Benefits gradually grow</span></li>
-<li>Worth it for employer and employee if benefits exceed costs</li>
-</ul>
-</div></div>
-</section>
-<section id="training-and-government" class="slide level2">
-<h2>Training and Government</h2>
-<p>Governments often subsidize job training programs. Several rationales for public funding:</p>
-<ul>
-<li><span class="fg" style="color: #2780e3;">Positive externalities</span> from a more productive workforce</li>
-<li>Individuals may <span class="fg" style="color: #c7254e;">underinvest due to credit constraints</span></li>
-<li><span class="fg" style="color: #c7254e;">Imperfect information</span> about training benefits</li>
-</ul>
-<p>Some current government funding initiatives:</p>
-<ul>
-<li><span class="fg" style="color: #555;">Canada-Ontario Job Grant</span>: funds businesses to train employees</li>
-<li><span class="fg" style="color: #555;">NPower Canada:</span> registered charity providing tech training, funded by government</li>
-</ul>
-</section>
-<section id="training-and-government-1" class="slide level2">
-<h2>Training and Government</h2>
-<ul>
-<li>An active area of labour economics is <span class="fg" style="color: #2780e3;">program evaluation</span> — evaluating the effectiveness of government training programs</li>
-<li>In some cases, people are <span class="fg" style="color: #5cb85c;">randomly allocated</span> to training programs
-<ul>
-<li>Can directly compare outcomes of those who received training to those who did not</li>
-<li>Identifies the causal effect of training</li>
-</ul></li>
-<li>In most cases, people <span class="fg" style="color: #c7254e;">self-select</span> into training programs
-<ul>
-<li>People in training and comparison groups differ in many ways besides training</li>
-<li>Makes it difficult to isolate the effect of training itself</li>
-</ul></li>
-</ul>
-</section>
-<section id="training-and-government-2" class="slide level2">
-<h2>Training and Government</h2>
-<p>Program evaluation uses econometric techniques to address selection issues:</p>
-<ul>
-<li><span class="fg" style="color: #2780e3;">Difference-in-Differences (DiD):</span> compare changes in outcomes over time between treatment and control groups</li>
-<li><span class="fg" style="color: #2780e3;">Propensity Score Matching (PSM):</span> match individuals in treatment and control groups based on observable characteristics</li>
-<li><span class="fg" style="color: #2780e3;">Instrumental Variables (IV):</span> use external factors that affect training participation but not outcomes directly</li>
+<li><span class="fg" style="color: #2780e3;">Active labour market programs</span>: government training, job-search help, and wage subsidies for the&nbsp;unemployed</li>
+<li>The case for them: credit constraints, poor information about training, and&nbsp;spillovers</li>
+<li>Evaluating them is hard. Trainees <span class="fg" style="color: #c7254e;">select themselves</span>, and many enrol after an unusual drop in earnings that would have bounced back anyway (<span class="fg" style="color: #2780e3;">mean reversion</span>)</li>
+<li>The best evidence comes from randomized experiments, or careful comparison&nbsp;groups</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -1490,56 +1525,60 @@ Fall 2026
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Evidence from Program Evaluation</strong></p>
+<p><strong>What the Evidence Shows</strong></p>
 </div>
 <div class="callout-content">
-<ul>
-<li>U.S. training programs have <span class="fg" style="color: #5cb85c;">positive results</span> for young women from poorer backgrounds</li>
-<li>But <span class="fg" style="color: #c7254e;">no effect for men</span></li>
-<li>More successful programs emphasize <span class="fg" style="color: #2780e3;">human capital investment</span> over job search assistance</li>
-</ul>
+<p>A review of many programs (Card et al.) finds small effects at first, and <span class="fg" style="color: #5cb85c;">positive effects after two or three years</span>. Effects are largest for <span class="fg" style="color: #2780e3;">women</span> and the <span class="fg" style="color: #2780e3;">long-term unemployed</span>, and programs that build human capital do better than job-search help in the long&nbsp;run</p>
 </div>
 </div>
 </div>
-</section>
-<section id="section-4" class="slide level2" data-background-color="#f0f4f8">
-<h2></h2>
-<div style="text-align: center; font-size: 1.3em;">
-<p><strong>Think About It</strong></p>
-<p>A tech company pays for an employee’s MBA degree. Under the general vs.&nbsp;specific training framework, who should pay for this training, and why? What does it suggest if the firm requires the employee to stay for two years after completing the degree?</p>
-</div>
+<aside class="notes">
+<p>Examples in Ontario: the Canada-Ontario Job Grant pays employers to train workers, and NPower Canada runs government-funded tech training.</p>
+<p>Methods for non-experimental evaluations: difference-in-differences, matching on observed characteristics, and instrumental variables. The book also discusses Canadian evaluations (Ci et al.).</p>
+<p>Mean reversion is why simple before-and-after comparisons overstate training effects: someone who enrols at a low point would usually recover anyway.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="summary" class="title-slide slide level1">
 <h1>Summary</h1>
 
 </section>
-<section id="summary-1" class="slide level2">
+<section id="summary-1" class="slide level2 smaller">
 <h2>Summary</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Schooling as an investment:</span></p>
 <ul>
-<li><span class="fg" style="color: #2780e3;">Education is an investment in human capital</span> — increases productivity and earnings potential</li>
-<li>The <span class="fg" style="color: #5cb85c;">Human Capital model</span> explains schooling decisions based on costs and benefits
-<ul>
-<li>People invest in schooling until marginal benefit equals marginal cost</li>
-</ul></li>
-<li>The <span class="fg" style="color: #2780e3;">Signalling model</span> emphasizes education as a signal of ability
-<ul>
-<li>Education reveals productivity to employers rather than creating it</li>
-</ul></li>
+<li>People invest until <span class="math inline">\(\Delta I / r = I + D\)</span>, or until <span class="math inline">\(irr = r\)</span></li>
+<li>Credit constraints, taxes, and pay in jobs that need no degree all shift the&nbsp;choice</li>
 </ul>
-</section>
-<section id="summary-2" class="slide level2">
-<h2>Summary</h2>
+<p><span class="fg" style="color: #2780e3;">Signalling:</span></p>
 <ul>
-<li>Empirical estimates of <span class="fg" style="color: #2780e3;">returns to schooling are around 7–10% per year</span>
-<ul>
-<li>Ability bias may lead to overestimation; twin and IV studies correct for this</li>
-</ul></li>
-<li><span class="fg" style="color: #2780e3;">Job training</span> is another important way to develop human capital
-<ul>
-<li>General training funded by workers; specific training funded by firms; often shared</li>
-</ul></li>
+<li>Education can raise pay by revealing ability, as long as it costs low-ability workers more. It pays the individual either way, but its value to society&nbsp;differs</li>
 </ul>
+</div><div class="column" style="width:50%;">
+<p><span class="fg" style="color: #2780e3;">Evidence:</span></p>
+<ul>
+<li>Returns to schooling in Canada are about 10 to 15% a year. Natural experiments suggest ability bias is&nbsp;small</li>
+<li>Credentials matter too, so part of the return is&nbsp;signalling</li>
+<li>Early childhood investments matter, and targeted programs show the clearest&nbsp;gains</li>
+</ul>
+<p><span class="fg" style="color: #2780e3;">Training:</span></p>
+<ul>
+<li>Workers pay for general training. Firms and workers share specific&nbsp;training</li>
+<li>Government training programs pay off after a few&nbsp;years</li>
+</ul>
+</div></div>
 
 
 </section></section>

@@ -68,11 +68,12 @@ website:
               file: content/ch10.qmd
             - text: "11. Competitive Labour Markets"
               file: content/ch11.qmd
-            # Hidden until material is checked — uncomment to restore
+            # Skipped in Fall 2026 to make up time — uncomment to restore
             # - text: "12. Imperfectly Competitive Labour Markets"
             #   file: content/ch12.qmd
-            # - text: "14. Human Capital Theory"
-            #   file: content/ch14.qmd
+            - text: "14. Human Capital Theory"
+              file: content/ch14.qmd
+            # Hidden until material is checked — uncomment to restore
             # - text: "15. Wage Differentials Among Diverse Population Groups"
             #   file: content/ch15.qmd
               

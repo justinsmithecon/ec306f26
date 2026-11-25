@@ -4746,21 +4746,36 @@
     "href": "content/ch14.html",
     "title": "Human Capital Theory: Applications to Education and Training",
     "section": "",
-    "text": "BFGLSS Chapter 14"
+    "text": "BFGLSS Chapter 14",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "14. Human Capital Theory"
+    ]
   },
   {
     "objectID": "content/ch14.html#readings",
     "href": "content/ch14.html#readings",
     "title": "Human Capital Theory: Applications to Education and Training",
     "section": "",
-    "text": "BFGLSS Chapter 14"
+    "text": "BFGLSS Chapter 14",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "14. Human Capital Theory"
+    ]
   },
   {
     "objectID": "content/ch14.html#slides",
     "href": "content/ch14.html#slides",
     "title": "Human Capital Theory: Applications to Education and Training",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "14. Human Capital Theory"
+    ]
   },
   {
     "objectID": "content/ch11.html",
@@ -6753,7 +6768,7 @@
     "href": "slides/ch14/index.html#goals-of-this-section-1",
     "title": "EC306 - Wages and Employment",
     "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nDiscuss trends in educational attainment in Canada\nIntroduce Human Capital Theory of education investment\nIntroduce the Signalling Model of education investment\nDiscuss empirical methods to estimate returns to schooling\nReview empirical evidence on returns to schooling\nDiscuss job training"
+    "text": "Goals of This Section\nIn this section we will:\n\nSee how education is related to employment and unemployment in Canada\nTreat schooling as an investment, and find the best amount using present values and the internal rate of return\nExplain how education can raise pay by signalling ability, even if it adds no skills\nEstimate the return to schooling, and see how economists deal with ability bias\nLook at early childhood education, social returns, and the link between education and inequality\nAsk who pays for job training, and whether government training programs work\n\n\nTwo lectures. Lecture 1 is the theory: schooling as an investment, then signalling. Lecture 2 is the evidence, early childhood, social returns, inequality, and training.\nThe notation follows the textbook: I is annual earnings, ΔI the gain from more schooling, D the direct cost, r the interest rate, irr the internal rate of return, S years of schooling, and EXP experience."
   },
   {
     "objectID": "slides/ch14/index.html#educational-attainment-ages-2544",
@@ -6767,7 +6782,7 @@
     "href": "slides/ch14/index.html#unemployment-rate-by-education-ages-2544",
     "title": "EC306 - Wages and Employment",
     "section": "Unemployment Rate by Education, Ages 25–44",
-    "text": "Unemployment Rate by Education, Ages 25–44"
+    "text": "Unemployment Rate by Education, Ages 25–44\n\n\nDegree holders have the lowest unemployment rate, and the gap widens in recessions. In 2009, 5.2% of university graduates were unemployed against 9.8% of high school graduates; in 2020, 6.7% against 11.7%. In 2025, 5.4% against 8.2%.\nParticipation follows the same pattern: in 2025, 92% of degree holders aged 25 to 44 were in the labour force, against 82% of high school graduates and 61% of those with 8 or fewer years of school.\nIs this all productivity? Human capital theory says education makes people more productive. Signalling says it identifies people who were already more productive. And people who get more education may differ in other ways. Both theories come next, and lecture 2 asks what the data say."
   },
   {
     "objectID": "slides/ch14/index.html#participation-rate-by-education-ages-2544",
@@ -7040,7 +7055,7 @@
     "href": "slides/ch14/index.html#the-human-capital-earnings-function",
     "title": "EC306 - Wages and Employment",
     "section": "The Human Capital Earnings Function",
-    "text": "The Human Capital Earnings Function\n\n\n\n\n\n\nMincer Equation\n\n\nMost estimates of the return to education are based on the Human Capital Earnings Function (also known as the Mincer Equation):\n\\[\\ln Y = \\beta_0 + \\beta_1\\,schl + \\beta_2\\,exp + \\beta_3\\,exp^{2} + \\epsilon\\]\nWhere:\n\n\\(Y\\) is some measure of earnings, income, or wages\n\\(schl\\) is years of schooling\n\\(exp\\) is potential experience: \\(exp = age - schl - 5\\)"
+    "text": "The Human Capital Earnings Function\n\n\n\n\n\n\nKey Definition\n\n\nThe human capital earnings function relates log earnings to years of schooling \\(S\\) and experience \\(EXP\\):\n\\[\\ln I = \\alpha + rS + \\beta_1 EXP + \\beta_2 EXP^2 + \\varepsilon\\]\n\n\n\n\nWith small direct costs, \\(irr = \\Delta I / I\\), and \\(\\Delta I / I \\approx \\Delta \\ln I\\). So the coefficient on \\(S\\) is the return to schooling: the percent rise in earnings per extra year\nIt’s written \\(r\\) because people invest until \\(irr = r\\)\n\\(EXP\\) is potential experience: years since leaving school. The square lets the age-earnings profile curve down\nEstimated across many workers at one point in time, usually with OLS\n\n\nThis is the book’s equation (14.9). It’s also called the Mincer equation, after Jacob Mincer.\nWhy logs: if a year of school raises earnings by the same percentage at any level of earnings, then log earnings rise linearly with schooling.\nThe book defines potential experience as EXP = age − S − 5. It’s used because most data sets don’t record actual work experience.\nThe book’s Table 14.2 estimates this equation with 2022 Canadian Income Survey data: about 10% a year for men and 15% for women."
   },
   {
     "objectID": "slides/ch14/index.html#the-human-capital-earnings-function-1",
@@ -7089,7 +7104,7 @@
     "href": "slides/ch14/index.html#ability-bias",
     "title": "EC306 - Wages and Employment",
     "section": "Ability Bias",
-    "text": "Ability Bias\n\n\n\n\n\n\nAbility Bias\n\n\nAbility bias: higher-ability people choose more schooling but would earn higher wages even without schooling\n\nOLS estimate reflects both the return to schooling and the return to ability\nAbility bias is thought to be positive → OLS overestimates the return to schooling"
+    "text": "Ability Bias\n\n\n\n\n\n\nKey Definition\n\n\nAbility bias: people with more ability tend to get more schooling, and would earn more even without it. So OLS credits schooling with part of the return to ability\n\n\n\n\nThe bias is usually thought to be positive, so OLS would overstate the return to schooling. But it can go either way, because ability has more than one dimension\nThe ideal fix is an experiment that randomly assigns schooling, which isn’t possible\nInstead, economists look for a natural experiment: something that changes schooling in a way unrelated to ability, “as good as randomly assigned”\n\n\nAbility here means anything unobserved that raises earnings: talent, motivation, family background, connections. The book writes the simple model as ln I = α + βS + ε, where unobserved talent sits in ε and is correlated with S.\nWhy it can go either way: someone with a talent for skilled trades may earn well as a plumber with less schooling, while someone with academic talent becomes a lawyer. If the omitted ability goes with less schooling, OLS understates the return. Clicker 4 is a case like that."
   },
   {
     "objectID": "slides/ch14/index.html#ability-bias-2",
@@ -7173,14 +7188,14 @@
     "href": "slides/ch14/index.html#social-returns-to-education-1",
     "title": "EC306 - Wages and Employment",
     "section": "Social Returns to Education",
-    "text": "Social Returns to Education\n\nMost discussion so far has focused on private returns to education (returns to the individual)\nWe know there are positive externalities to society as a whole:\n\nStates/provinces with higher average education have higher earnings in excess of the private return\nMore highly educated immigrants in STEM have a positive effect on productivity of other workers\nMore highly educated populations have lower crime rates, better health outcomes, more civic participation\n\n\n\n\n\n\n\n\nPolicy Implication\n\n\nBecause social returns exceed private returns, there is a rationale for public subsidies to education"
+    "text": "Social Returns to Education\n\nPrivate costs and benefits fall on the student. Social costs and benefits count everyone\nReal costs vs. transfers: society counts real costs, the resources used up (teachers’ time, buildings, the output students don’t produce). Transfer costs, like a tuition subsidy, move money between people and drop out of the social total\nSpillovers: workers earn more in cities with more educated workers (Moretti), and educated STEM immigrants raise other workers’ productivity (Peri et al.)\nBenefits outside the job: less crime (Lochner and Moretti), more civic participation (Milligan et al.), and longer lives (Lleras-Muney)\nBut the evidence is mixed: there are no clear spillovers from high school, college spillovers may be confined to the 1980s, and newer studies find weaker benefits outside the job\n\n\n\n\n\n\n\nPolicy\n\n\nSpillovers are a case for public subsidies for education. If education is mostly a signal, the case is weaker\n\n\n\n\nMeasuring spillovers is hard: productive cities attract educated workers, so the link could run the other way.\nThe mixed evidence: Acemoglu and Angrist, and Ciccone and Peri, find no spillovers from high school; Sand finds college spillovers mainly in the 1980s; and Clark and Royer, and Stephens and Yang, find weaker effects of schooling outside the labour market than earlier studies did.\nThe social return could also be lower than the private one. If education is partly a signal, some of the private gain comes at other workers’ expense."
   },
   {
     "objectID": "slides/ch14/index.html#education-and-inequality-1",
     "href": "slides/ch14/index.html#education-and-inequality-1",
     "title": "EC306 - Wages and Employment",
     "section": "Education and Inequality",
-    "text": "Education and Inequality\n\nEarnings inequality has increased in many countries over the past few decades\nIn Canada:\n\nRose over the 80s and 90s\nHas been stable since\n\n\nTwo sources of rising inequality:\n\nReturns to schooling: college premium has grown\nInequality within education groups: growing wage dispersion even among equally-educated workers\n\nIn Canada, much of the rise is related to inequality within education groups"
+    "text": "Education and Inequality\n\nEarnings inequality in Canada rose in the 1980s and 1990s, and has been fairly stable since\nTwo possible sources:\n\nA rising return to education: the gap between education groups widens\nMore inequality within education groups: workers with the same education drift apart\n\nIn Canada, most of the rise came from within education groups. The university premium rose modestly, about 5 points for men from 1980 to 2005 (Boudarbat et al.)\nExplanations for higher returns: technological change favouring skilled, non-routine work (Chapter 10), and trade and globalization\nPolarization: in the US, both jobs and wages polarized. In Canada, jobs did but wages didn’t (Green and Sand)\nUnions: their decline widened wage inequality, but didn’t raise the return to schooling (DiNardo and Lemieux)\nSince the mid-2000s, the resource boom and higher minimum wages narrowed wage gaps in several provinces (Fortin and Lemieux)\n\n\nYounger cohorts: Beaudry and Green found that each new cohort entered the labour market at lower earnings than earlier ones, at every education level, while earnings grew with experience at about the same rate. That’s a cohort effect, not a rising premium for the young.\nSupply matters too. In the 1970s the large, well-educated baby-boom cohorts entered the labour market and held down the university premium, though Dooley found demographics alone can’t explain all of the narrowing.\nPolarization: employment grew at the top and bottom of the skill distribution and shrank in the middle, as routine jobs were automated (Autor et al.). In the US, wages followed. In Canada, Green and Sand found that employment polarized but wages didn’t.\nAt the very top, the income share of the top 1% rose sharply, and education matters there too: about two-thirds of the top 1% have a bachelor’s degree, against about a fifth of all workers (Lemieux and Riddell)."
   },
   {
     "objectID": "slides/ch14/index.html#education-and-inequality-2",
@@ -7306,7 +7321,7 @@
     "href": "slides/ch14/index.html#summary-1",
     "title": "EC306 - Wages and Employment",
     "section": "Summary",
-    "text": "Summary\n\nEducation is an investment in human capital — increases productivity and earnings potential\nThe Human Capital model explains schooling decisions based on costs and benefits\n\nPeople invest in schooling until marginal benefit equals marginal cost\n\nThe Signalling model emphasizes education as a signal of ability\n\nEducation reveals productivity to employers rather than creating it"
+    "text": "Summary\n\n\nSchooling as an investment:\n\nPeople invest until \\(\\Delta I / r = I + D\\), or until \\(irr = r\\)\nCredit constraints, taxes, and pay in jobs that need no degree all shift the choice\n\nSignalling:\n\nEducation can raise pay by revealing ability, as long as it costs low-ability workers more. It pays the individual either way, but its value to society differs\n\n\nEvidence:\n\nReturns to schooling in Canada are about 10 to 15% a year. Natural experiments suggest ability bias is small\nCredentials matter too, so part of the return is signalling\nEarly childhood investments matter, and targeted programs show the clearest gains\n\nTraining:\n\nWorkers pay for general training. Firms and workers share specific training\nGovernment training programs pay off after a few years"
   },
   {
     "objectID": "slides/ch14/index.html#summary-2",
@@ -11075,5 +11090,236 @@
     "title": "EC306 - Wages and Employment",
     "section": "Solving for the Equilibrium with the Tax",
     "text": "Solving for the Equilibrium with the Tax\n\n\\(w\\) is the wage workers receive, and \\(w + T\\) is what an hour costs the firm. Supply depends on \\(w\\), and demand depends on \\(w + T\\)\n\n\n\nWith the numbers:\n\nSupply: \\(N^S = 60 + w\\)\nDemand with a $6 tax: \\(N^D = 120 - 2(w + 6)\\)\nSet them equal: \\(60 + w = 108 - 2w\\)\n\n\\(3w = 48\\), so workers get \\(w_1 = 16\\)\nFirms pay \\(w_1 + T = 22\\)\nHours: \\(N_1 = 60 + 16 = 76\\)\n\n\n\nIn general:\n\nSupply: \\(N^S = a + bw\\). Demand: \\(N^D = c + f(w + T)\\)\nSet them equal: \\((b - f)\\,w = c - a + fT\\)\n\n\\[w_1 = \\frac{c - a}{b - f} + \\frac{f}{b - f}\\,T = w_0 + \\frac{f}{b - f}\\,T\\]\n\n\\(w_0\\) is the wage with no tax. Since \\(f &lt; 0\\), the tax lowers the wage workers get\nWorkers bear \\(\\dfrac{-f}{b - f}\\) of the tax, and firms bear \\(\\dfrac{b}{b - f}\\)\n\n\n\nThis is the algebra behind the graph on the last slide: A is the no-tax equilibrium, B is where the numbers on the left end up.\nWhy demand depends on w + T. The firm hires until the cost of an hour equals what the hour brings in. With the tax, the cost of an hour is w + T, so the firm hires the same hours at wage w with the tax as it would have hired at wage w + T without it. That’s the shift down by exactly T from the earlier slide, in algebra.\nCheck the shares with the numbers: b = 1 and f = −2, so workers bear 2/(1 + 2) = 2/3 of the $6, or $4 (20 down to 16), and firms bear 1/3, or $2 (20 up to 22). The two shares always add to one.\nEmployment, if anyone asks: N₁ = a + b·w₁ = N₀ + (bf/(b − f))·T, which is negative since f &lt; 0. Here (1 × −2)/3 × 6 = −4, so 80 hours fall to 76.\nWe leave out the supply and demand shifters, X and Z, because the tax doesn’t change them; they’re part of w₀."
+  },
+  {
+    "objectID": "slides/ch14/index.html#educational-attainment-by-sex-ages-2544",
+    "href": "slides/ch14/index.html#educational-attainment-by-sex-ages-2544",
+    "title": "EC306 - Wages and Employment",
+    "section": "Educational Attainment by Sex, Ages 25–44",
+    "text": "Educational Attainment by Sex, Ages 25–44\n\n\nAmong 25 to 44 year olds, the share with a university degree rose from 16% in 1990 to 45% in 2025. Women passed men in the late 1990s (for good from 1999), and the gap is now 12 points: 51% of women and 39% of men have a degree. The share with 8 or fewer years of school fell from about 6% to about 1%.\nThe textbook’s Figure 14.1 shows the same divergence by sex. One reason to come back to: estimated returns to schooling are higher for women than for men (about 15% versus 10% a year in the book’s Table 14.2)."
+  },
+  {
+    "objectID": "slides/ch14/index.html#education-as-an-investment",
+    "href": "slides/ch14/index.html#education-as-an-investment",
+    "title": "EC306 - Wages and Employment",
+    "section": "Education as an Investment",
+    "text": "Education as an Investment\n\nFirms invest in physical capital: they pay now for machines that raise output later, and invest when the benefits outweigh the costs\n\n\n\n\n\n\n\nKey Definition\n\n\nHuman capital: the skills, knowledge and abilities that make a person productive. People pay now, in tuition and forgone earnings, for higher earnings later\n\n\n\n\nHuman capital differs from physical capital in three ways:\n\nNon-money benefits: school can be enjoyable, and more educated workers face less unemployment risk\nFinancing: you can’t offer your future skills as collateral for a loan\nPrivate vs. social: education can benefit other people too, and some of its costs to the student are transfers rather than costs to society\n\n\n\nBenefits of education come in two kinds: investment benefits (higher earnings later) and consumption benefits (enjoying learning now). This chapter treats schooling mainly as an investment.\nThe private vs. social distinction comes back in lecture 2, with real costs vs. transfer costs."
+  },
+  {
+    "objectID": "slides/ch14/index.html#comparing-income-streams",
+    "href": "slides/ch14/index.html#comparing-income-streams",
+    "title": "EC306 - Wages and Employment",
+    "section": "Comparing Income Streams",
+    "text": "Comparing Income Streams\n\n\n\n\n\nAn 18-year-old high school graduate decides whether to go to university\nGoing has direct costs (tuition, books) and the earnings forgone while in school\nThe payoff is higher earnings for the rest of a working life\nEach path is an age-earnings profile: earnings rise with age at a decreasing rate, as workers keep learning on the job\nGo if the present value of the green area beats the present value of the red and yellow areas\n\n\n\nThe textbook’s simplifying assumptions: no utility or disutility from school itself, fixed hours of work, income streams known with certainty, and the ability to borrow and lend at the interest rate r (“perfect capital markets”). Relaxing these comes later.\nThe book’s Figure 14.3 has three streams (leave school at 16, finish high school at 18, finish university at 22), with costs and benefits shown as areas a to f. This figure shows only the university choice.\nThe profiles are concave because people keep investing in skills through on-the-job learning, with diminishing returns to experience. More education shifts the whole profile up, though graduates may start below workers their age with more experience."
+  },
+  {
+    "objectID": "slides/ch14/index.html#the-present-value-of-each-path",
+    "href": "slides/ch14/index.html#the-present-value-of-each-path",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Present Value of Each Path",
+    "text": "The Present Value of Each Path\n\nWork from age 18 until retirement at age \\(T\\), earning \\(I\\) a year, with interest rate \\(r\\):\n\n\\[PV = I + \\frac{I}{1+r} + \\dots + \\frac{I}{(1+r)^{T-18}} \\approx I + \\frac{I}{r}\\]\n\nOne more year of school: pay direct costs \\(D\\), earn nothing that year, then earn \\(I + \\Delta I\\) every year after:\n\n\\[PV^* \\approx \\frac{I + \\Delta I}{r} - D\\]\n\nThe net gain from the extra year:\n\n\\[PV^* - PV \\approx \\frac{\\Delta I}{r} - (I + D)\\]\n\nThe approximation treats each stream as lasting forever, which is close when retirement is far away. At r = 5% and 45 working years, the exact sum of discount factors is about 18, against 1/r = 20.\nThe book also assumes earnings are flat with age, which keeps the formula simple. Letting earnings grow changes the numbers but not the logic."
+  },
+  {
+    "objectID": "slides/ch14/index.html#the-investment-condition",
+    "href": "slides/ch14/index.html#the-investment-condition",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Investment Condition",
+    "text": "The Investment Condition\n\n\n\n\n\n\nInvestment Condition\n\n\n\nMarginal benefit: \\(MB = \\Delta I / r\\), the present value of the earnings gain\nMarginal cost: \\(MC = I + D\\), forgone earnings plus direct costs\n\nAnother year of school is worth it if \\(MB &gt; MC\\). Keep going until\n\\[\\frac{\\Delta I}{r} = I + D\\]\n\n\n\n\nExample: a year of school means giving up \\(I = \\$30{,}000\\) and paying \\(D = \\$10{,}000\\), and it raises earnings by \\(\\Delta I = \\$3{,}000\\) a year after\nAt \\(r = 5\\%\\): \\(MB = \\$3{,}000 / 0.05 = \\$60{,}000\\), more than \\(MC = \\$40{,}000\\). Stay in school\n\n\nThe same example comes back on the internal rate of return slide.\nAsk the room: what interest rate would make this person indifferent? MB = MC when 3,000/r = 40,000, so r = 7.5%. That’s the internal rate of return."
+  },
+  {
+    "objectID": "slides/ch14/index.html#marginal-benefit-equals-marginal-cost",
+    "href": "slides/ch14/index.html#marginal-benefit-equals-marginal-cost",
+    "title": "EC306 - Wages and Employment",
+    "section": "Marginal Benefit Equals Marginal Cost",
+    "text": "Marginal Benefit Equals Marginal Cost\n\n\n\n\n\n\n\n\n\n\n\n\n\nMB falls with more schooling: each year adds less to earnings, and there are fewer working years left to collect the gain\nMC rises: forgone earnings \\(I\\) grow with each year of school, and university charges tuition where high school is free\nThe optimal schooling \\(S^*\\) is where \\(MB = MC\\)\n\n\n\nThe curves are made up for illustration; this is panel (a) of the book’s Figure 14.4.\nDifferent people have different curves. Someone who learns quickly has a higher MB curve and chooses more schooling. Someone with high-paying alternatives, or who finds school unpleasant, has a higher MC curve and chooses less."
+  },
+  {
+    "objectID": "slides/ch14/index.html#the-internal-rate-of-return",
+    "href": "slides/ch14/index.html#the-internal-rate-of-return",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Internal Rate of Return",
+    "text": "The Internal Rate of Return\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Definition\n\n\nInternal rate of return (\\(irr\\)): the interest rate that makes the net present value of the investment zero\n\n\n\n\nSetting \\(\\Delta I / irr = I + D\\) gives \\(irr = \\dfrac{\\Delta I}{I + D}\\)\nInvest while \\(irr &gt; r\\), the opportunity cost of the money. Stop where \\(irr = r\\), at the same \\(S^*\\)\nExample: \\(irr = 3{,}000 / 40{,}000 = 7.5\\%\\), above \\(r = 5\\%\\), so stay in school\n\n\n\nThis is panel (b) of the book’s Figure 14.4. The irr falls with schooling for the same two reasons: the gain ΔI shrinks, and the cost I + D grows.\nThe alternative to spending I + D on school is to invest it at the interest rate r. So the comparison is: does school return more than the bank?"
+  },
+  {
+    "objectID": "slides/ch14/index.html#what-changes-the-decision",
+    "href": "slides/ch14/index.html#what-changes-the-decision",
+    "title": "EC306 - Wages and Employment",
+    "section": "What Changes the Decision",
+    "text": "What Changes the Decision\n\nAge: invest early. The young give up less pay, and have more years to collect the return\nTime out of the labour force: people who expect to be in and out of work collect the gain for fewer years, so they invest less\nStudent loans or tuition subsidies: they lower the cost of borrowing or \\(D\\), so more schooling\nA more progressive income tax: it shrinks the after-tax gain \\(\\Delta I\\) more than the after-tax cost, so less schooling\nBetter pay in jobs that need no degree: as in an oil boom, it raises forgone earnings \\(I\\), so less schooling\nA lower interest rate: it raises the present value of future gains, so more schooling\n\n\nThe first two are the book’s main implications of the theory. The tax and student loan examples are its comparative statics. A progressive tax hits the high-income stream (university) harder than the low-income one.\nOil booms: there is Canadian evidence that Alberta’s resource booms, by raising pay for young workers without degrees, pulled some young men out of school."
+  },
+  {
+    "objectID": "slides/ch14/index.html#financing-and-other-complications",
+    "href": "slides/ch14/index.html#financing-and-other-complications",
+    "title": "EC306 - Wages and Employment",
+    "section": "Financing and Other Complications",
+    "text": "Financing and Other Complications\n\n\n\n\n\n\nCredit Constraints\n\n\n\nThe model assumes perfect capital markets: anyone can borrow at \\(r\\) against future earnings\nIn reality, students can’t easily borrow that way: there’s no collateral, and a bank can’t repossess a degree\nSo some students invest too little, even when the return beats the interest rate\n\n\n\n\n\nIncome-contingent loans: repayments rise with later income, so graduates who earn little repay little. Australia has used this since 1989\nDebt aversion: some students avoid loans even when borrowing would pay off\nRisk and information: returns are uncertain, and risk-averse students invest less. Students may also misjudge costs and returns, especially if no one in their family went to university\nField of study: returns differ widely by program, so the choice is what to study as well as how much\n\n\nThe book’s Exhibit 14.1 discusses new ways to finance higher education, including Australia’s income-contingent loans (Riddell 2003). Canada’s student loan Repayment Assistance Plan also ties repayments to income after graduation.\nRisk: the model assumed income streams are known. In reality, a degree’s payoff depends on the field, the economy, and on technology (the book mentions AI changing which skills pay). Education is also hard to diversify: you can’t spread your human capital over many investments. Debt aversion is from Field (2009); the book spells it “Fields”."
+  },
+  {
+    "objectID": "slides/ch14/index.html#human-capital-or-signalling",
+    "href": "slides/ch14/index.html#human-capital-or-signalling",
+    "title": "EC306 - Wages and Employment",
+    "section": "Human Capital or Signalling?",
+    "text": "Human Capital or Signalling?\n\n\n\n\n\n\nTwo Explanations for Why Education Pays\n\n\n\nHuman capital: education raises productivity, and pay follows\nSignalling: education reveals productivity that was already there\n\n\n\n\n\nEmployers can’t see a new hire’s productivity. Workers know their own ability, but can’t credibly tell the employer\nWith no information, firms pay everyone the average productivity\nUnder the right conditions, education acts as a signal: high-ability workers get it, and employers pay them more\nEducation can then raise pay even if it adds no skills at all\n\n\nThe signalling model is due to Michael Spence. The book calls this “education as a filter,” and also uses the word screening: employers use education to sort job applicants."
+  },
+  {
+    "objectID": "slides/ch14/index.html#when-education-can-signal-ability",
+    "href": "slides/ch14/index.html#when-education-can-signal-ability",
+    "title": "EC306 - Wages and Employment",
+    "section": "When Education Can Signal Ability",
+    "text": "When Education Can Signal Ability\n\n\n\n\n\n\nConditions for a Signal\n\n\n\nEducation must be costly to get\nIt must be more costly for low-ability workers. Otherwise they would get it too, and fake high ability\nEmployers’ beliefs must be confirmed once they see workers on the job, or they will change their wage offers\n\n\n\n\n\nWhen these hold, education sorts workers by ability, and each is paid what they produce\nWhy would school cost low-ability students more? It takes them more effort, more time, and more stress to get the same credential\n\n\nThe costs here include effort and psychic costs, not just tuition."
+  },
+  {
+    "objectID": "slides/ch14/index.html#a-two-type-model",
+    "href": "slides/ch14/index.html#a-two-type-model",
+    "title": "EC306 - Wages and Employment",
+    "section": "A Two-Type Model",
+    "text": "A Two-Type Model\n\nTwo types of workers, and employers can’t tell them apart:\n\n\n\nLow ability (L):\n\nMarginal product: \\(1\\)\nCost of \\(s\\) years of school: \\(c_L(s) = s\\)\n\n\nHigh ability (H):\n\nMarginal product: \\(2\\)\nCost of \\(s\\) years of school: \\(c_H(s) = s/2\\)\n\n\n\nEmployers believe that anyone with at least \\(s^*\\) years of school is type H, and pay\n\n\\[w(s) = \\begin{cases} 2 & \\text{if } s \\ge s^* \\\\ 1 & \\text{if } s &lt; s^* \\end{cases}\\]\n\nEach worker chooses \\(s\\) to maximize \\(w(s) - c(s)\\). More than \\(s^*\\) costs more but pays no more, so each worker picks either \\(0\\) or \\(s^*\\)\n\n\nWithout any signal, everyone is paid the average marginal product. If a fraction q of workers are type L, the wage is 1·q + 2(1 − q) = 2 − q. With q = 0.5, everyone earns 1.5: type L is paid more than they produce and type H less. That’s why type H wants a way to stand out.\nHere education adds nothing to productivity at all. That’s deliberate: it shows education can pay even with no human capital."
+  },
+  {
+    "objectID": "slides/ch14/index.html#who-gets-educated",
+    "href": "slides/ch14/index.html#who-gets-educated",
+    "title": "EC306 - Wages and Employment",
+    "section": "Who Gets Educated?",
+    "text": "Who Gets Educated?\n\n\n\n\n\n\n\n\n\n\n\n\n\nType H gets \\(s^*\\) if \\(2 - \\frac{s^*}{2} &gt; 1\\), that is, if \\(s^* &lt; 2\\)\nType L gets \\(s^*\\) if \\(2 - s^* &gt; 1\\), that is, if \\(s^* &lt; 1\\)\n\n\n\n\n\n\n\nA Separating Equilibrium\n\n\nIf \\(1 &lt; s^* &lt; 2\\), only type H gets educated. Employers’ beliefs are confirmed, so education reveals each worker’s type\n\n\n\n\nIf \\(s^* &lt; 1\\) both types get educated, and if \\(s^* &gt; 2\\) neither does. Either way, the signal tells employers nothing\n\n\n\nRead the graph as wage minus cost. At s*, type H gets 2 minus a small cost, and type L gets 2 minus a cost that wipes out the gain over the wage of 1 they’d get with no school.\nA separating equilibrium: the types make different choices, so education separates them. A pooling equilibrium: everyone makes the same choice, so education reveals nothing. Any s* between 1 and 2 works, and the one with s* just above 1 wastes the least on schooling.\nCan everyone be worse off? With no signal, everyone earns 2 − q. With signalling, type L earns 1, and type H nets 2 − s/2, which is worse whenever s &gt; 2q. With q = 0.5, type H is worse off in every separating equilibrium. Type H would rather nobody signalled, but no single worker can stop."
+  },
+  {
+    "objectID": "slides/ch14/index.html#what-signalling-implies",
+    "href": "slides/ch14/index.html#what-signalling-implies",
+    "title": "EC306 - Wages and Employment",
+    "section": "What Signalling Implies",
+    "text": "What Signalling Implies\n\nBoth theories predict the same thing: more educated workers earn more. That makes them hard to tell apart in the data\nFor the individual, education pays either way. The difference is for society:\n\nUnder human capital, education raises what workers produce\nUnder signalling, it only sorts workers, and the resources spent on it are a social waste\n\nUnder signalling, subsidizing education is mainly a transfer to high-ability workers, who get the subsidized signal\nSorting still has some value: it helps match workers to the jobs that suit them\n\n\nSo the policy case for subsidizing education rests on how much of the return is human capital. Lecture 2 looks at evidence on that: credentials matter, and the best estimates put signalling at a minority of the return."
+  },
+  {
+    "objectID": "slides/ch14/index.html#log-earnings-and-years-of-schooling-ages-2544",
+    "href": "slides/ch14/index.html#log-earnings-and-years-of-schooling-ages-2544",
+    "title": "EC306 - Wages and Employment",
+    "section": "Log Earnings and Years of Schooling, Ages 25–44",
+    "text": "Log Earnings and Years of Schooling, Ages 25–44\n\n\nEach dot is an employee aged 25 to 44 in the September 2025 Labour Force Survey, and the line is the OLS fit. The slope, about 6.4%, is the return to a year of schooling, with nothing else controlled. Here I is hourly earnings rather than annual earnings; the slope reads the same way.\nTwo problems with this picture. It doesn’t control for experience. And the LFS records education in categories (high school graduate, bachelor’s degree, and so on), which are converted here to approximate years.\nThe next slide fixes both: it controls for age, and uses the categories directly."
+  },
+  {
+    "objectID": "slides/ch14/index.html#earnings-by-education-relative-to-high-school-graduates",
+    "href": "slides/ch14/index.html#earnings-by-education-relative-to-high-school-graduates",
+    "title": "EC306 - Wages and Employment",
+    "section": "Earnings by Education Relative to High School Graduates",
+    "text": "Earnings by Education Relative to High School Graduates\n\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                 \n                Men\n                Women\n              \n        \n        \n        \n                \n                  0–8 years\n                  -0.125 (0.019)\n                  -0.178 (0.024)\n                \n                \n                  Some high school\n                  -0.073 (0.010)\n                  -0.103 (0.012)\n                \n                \n                  Some postsecondary\n                  0.065 (0.012)\n                  0.076 (0.012)\n                \n                \n                  Postsecondary certificate\n                  0.163 (0.007)\n                  0.141 (0.007)\n                \n                \n                  Bachelor's degree\n                  0.296 (0.008)\n                  0.366 (0.007)\n                \n                \n                  Graduate degree\n                  0.397 (0.009)\n                  0.485 (0.009)\n                \n                \n                  Num.Obs.\n                  28560\n                  28320\n                \n                \n                  R2\n                  0.268\n                  0.296\n                \n                \n                  RMSE\n                  0.40\n                  0.37\n                \n        \n      \n    \n\n\n\n\nLog hourly earnings regressed on education categories and age group, separately for men and women, all ages, September 2025 LFS. Each coefficient is the log gap relative to high school graduates of the same age group (standard errors in brackets).\nMultiply by 100 for an approximate percent. For big gaps, e^b − 1 is more accurate: a coefficient of 0.5 means about 65% more.\nThe gaps for degrees are larger for women than for men, which matches the book’s Table 14.2.\nData sources: the Census has large samples and detailed education and income, but runs every five years. The LFS is monthly, with smaller samples and less detail."
+  },
+  {
+    "objectID": "slides/ch14/index.html#the-size-of-the-bias",
+    "href": "slides/ch14/index.html#the-size-of-the-bias",
+    "title": "EC306 - Wages and Employment",
+    "section": "The Size of the Bias",
+    "text": "The Size of the Bias\n\nSuppose log earnings depend on schooling and ability \\(A\\):\n\n\\[\\ln I = \\alpha + \\beta S + \\gamma A + \\varepsilon\\]\n\nAnd ability is related to schooling:\n\n\\[A = \\delta_0 + \\delta_1 S + v\\]\n\nLeave \\(A\\) out, and OLS estimates:\n\n\n\n\n\n\n\nThe Bias Formula\n\n\n\\[\\tilde{\\beta} = \\underbrace{\\beta}_{\\text{true return}} + \\underbrace{\\gamma\\,\\delta_1}_{\\text{ability bias}}\\]\n\n\n\n\nIf ability raises earnings (\\(\\gamma &gt; 0\\)) and goes with more schooling (\\(\\delta_1 &gt; 0\\)), OLS overstates the return\n\n\nDerivation: the OLS slope is Cov(ln I, S)/Var(S). Substitute the true model: Cov(α + βS + γA + ε, S) = β Var(S) + γ Cov(A, S), since ε is unrelated to S. Divide by Var(S), and note that Cov(A, S)/Var(S) = δ₁, the slope from regressing A on S. So the OLS estimate is β + γδ₁.\nThis is the general omitted variable bias formula, applied to ability."
+  },
+  {
+    "objectID": "slides/ch14/index.html#natural-experiments",
+    "href": "slides/ch14/index.html#natural-experiments",
+    "title": "EC306 - Wages and Employment",
+    "section": "Natural Experiments",
+    "text": "Natural Experiments\n\nCompulsory schooling laws: students must stay in school until a set age, so birth month and the law decide how long some stay\n\nAngrist and Krueger (1991), US: about 7.5% a year for men. But birth month also affects how old a child is relative to classmates, which matters on its own (Bedard and Dhuey 2006)\nOreopoulos (2006), school-leaving laws in Canada and the UK: 10% or more. Devereux and Hart (2010) find smaller returns for the UK\n\nCollege proximity: growing up near a college makes it cheaper to go. Card (1995): OLS gives 7.5%, proximity gives about 14%\n\n\n\n\n\n\n\nNote\n\n\nNatural experiments mostly give returns as large as OLS, or larger. So ability bias looks small: the book concludes it was “exaggerated”\n\n\n\n\nWhy could these estimates be larger than OLS? Schooling is measured with error, which biases OLS down. And a natural experiment measures the return for the people it pushes into more school, often people who faced high costs and had high returns at the margin (Card 2001).\nThese are returns at particular margins: compulsory schooling laws move people around high school completion, and proximity moves people into college.\nTwin studies are another approach, not in this chapter: Ashenfelter and Rouse (1998) compared identical twins with different schooling and found returns of roughly 7 to 9% a year, below the 11% from OLS on the same data."
+  },
+  {
+    "objectID": "slides/ch14/index.html#canadas-school-entry-and-leaving-laws-by-province",
+    "href": "slides/ch14/index.html#canadas-school-entry-and-leaving-laws-by-province",
+    "title": "EC306 - Wages and Employment",
+    "section": "Canada’s School Entry and Leaving Laws, by Province",
+    "text": "Canada’s School Entry and Leaving Laws, by Province\n\n\n\n\n\n\nFrom Oreopoulos (2006). Solid lines are the minimum school-leaving age, and dashed lines the maximum age for starting school. Provinces raised the leaving age at different times, so otherwise similar people born a few years apart, or in different provinces, faced different minimum schooling. That variation has nothing to do with their ability."
+  },
+  {
+    "objectID": "slides/ch14/index.html#credentials-and-signalling-in-the-data",
+    "href": "slides/ch14/index.html#credentials-and-signalling-in-the-data",
+    "title": "EC306 - Wages and Employment",
+    "section": "Credentials and Signalling in the Data",
+    "text": "Credentials and Signalling in the Data\n\nUnder pure human capital, a diploma adds nothing beyond the years of learning it took\nFerrer and Riddell (2002), Canada: people with the same years of schooling earn more if they finished the credential. That’s consistent with signalling\nIf employers learn ability over time, signals should matter less as a career goes on (Altonji and Pierret)\nAryal et al. (2019): about 30% of the return to schooling is signalling, and the share falls with experience\nSo both theories have support, and most of the return looks like human capital\n\n\nThe book’s Exhibit 14.2: Altonji (1995) found that taking more academic high school courses (science, math, English instead of shop or physical education) barely raises later earnings. If employers pay for skills, course content should matter. If they read the credential as a signal, finishing matters more than what you took. That evidence leans toward signalling."
+  },
+  {
+    "objectID": "slides/ch14/index.html#investing-early",
+    "href": "slides/ch14/index.html#investing-early",
+    "title": "EC306 - Wages and Employment",
+    "section": "Investing Early",
+    "text": "Investing Early\n\nHuman capital theory says invest early: the payoff lasts longer, and forgone earnings are lower\nEarly skills make later learning more productive (Cunha et al. 2010). Children from disadvantaged families are already behind when they start school\nPerry Preschool (US, 1960s): disadvantaged children randomly assigned to intensive preschool had more education, higher earnings, and less crime as adults. But it was small and costly\nHead Start (US, much larger): mixed results, and many gains fade as children grow up\nQuebec’s $5-a-day child care (universal): no positive effect on children’s outcomes, even later in life (Baker et al. 2008, 2019)\n\n\n\n\n\n\n\nNote\n\n\nThat matters for the national child care system Canada began funding in 2021. The clearest gains so far come from intensive programs targeted at disadvantaged children\n\n\n\n\nEarly and later investments are complements: a teenager who missed early investments finds it harder and costlier to catch up.\nParents and neighbourhoods still matter a lot for educational attainment, even after controlling for skills measured in the teen years (Foley 2012). And comprehensive support for youth in very low-income neighbourhoods can raise high school graduation and earnings, and reduce crime, later in life (Lavecchia et al. 2024).\nQuebec’s program also raised mothers’ employment, a labour supply effect. The finding here is about the children."
+  },
+  {
+    "objectID": "slides/ch14/index.html#top-10-income-share-in-canada-19762021",
+    "href": "slides/ch14/index.html#top-10-income-share-in-canada-19762021",
+    "title": "EC306 - Wages and Employment",
+    "section": "Top 10% Income Share in Canada, 1976–2021",
+    "text": "Top 10% Income Share in Canada, 1976–2021\n\n\n\n\n\n\nThe share of income going to the top 10% of Canadians, before taxes and transfers (market income) and after. Market income shares rose from about 26% in the late 1980s to about 30% by 2000, then levelled off. Taxes and transfers took about 4 points off the top share in the late 1980s, and 6 to 7 points since about 2000.\nThis is income inequality, which is broader than wage inequality: it includes investment income, and it’s measured across families, not workers."
+  },
+  {
+    "objectID": "slides/ch14/index.html#general-and-specific-training",
+    "href": "slides/ch14/index.html#general-and-specific-training",
+    "title": "EC306 - Wages and Employment",
+    "section": "General and Specific Training",
+    "text": "General and Specific Training\n\nWorkers keep building human capital on the job, after their schooling ends\n\n\n\n\n\n\n\nKey Definitions\n\n\nGeneral training: skills valued at many firms\nSpecific training: skills valued only at the firm that provides them\n\n\n\n\nWho pays for training, the worker or the firm? It depends on whether the worker can take the skills to another employer\nMost training is a mix. Skills can be specific to an industry, an occupation, or a set of tasks rather than to one firm\n\n\nExamples: learning to use spreadsheets or to weld is general. Learning a company’s own software or procedures is specific.\nThis is Becker’s analysis of training."
+  },
+  {
+    "objectID": "slides/ch14/index.html#general-training-the-worker-pays",
+    "href": "slides/ch14/index.html#general-training-the-worker-pays",
+    "title": "EC306 - Wages and Employment",
+    "section": "General Training: The Worker Pays",
+    "text": "General Training: The Worker Pays\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrained workers are more productive at every firm, so other firms will bid their wage up to \\(VMP^*\\)\nA firm that paid for the training couldn’t get it back: the worker would leave, or demand the higher wage\nSo the worker pays, by accepting a wage of \\(VMP_t\\) during training, below the \\(W_a\\) they could earn untrained\nThey earn \\(VMP^*\\) after training. Worth it if the present value of the gain beats the cost\n\n\n\nThis is just like paying for school: the worker gives up earnings now for higher earnings later. Apprenticeships and medical residencies work this way: low pay during training, high pay after.\nA minimum wage can get in the way, by stopping workers from paying for training with a lower wage."
+  },
+  {
+    "objectID": "slides/ch14/index.html#specific-training-the-firm-pays",
+    "href": "slides/ch14/index.html#specific-training-the-firm-pays",
+    "title": "EC306 - Wages and Employment",
+    "section": "Specific Training: The Firm Pays",
+    "text": "Specific Training: The Firm Pays\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpecific skills raise productivity only at this firm, so other firms won’t pay more for them\nThe firm can pay \\(W_a\\) throughout, and pay for the training itself:\n\nCost during training: \\(W_a - VMP_t\\)\nBenefit after training: \\(VMP^* - W_a\\)\n\nThe risk: if the worker quits after training, the firm loses its investment\n\n\n\nThe firm invests if the present value of the benefit beats the present value of the cost, just like any other investment.\nThe worker has no reason to stay: they earn W_a here or anywhere else."
+  },
+  {
+    "objectID": "slides/ch14/index.html#sharing-the-cost-of-specific-training",
+    "href": "slides/ch14/index.html#sharing-the-cost-of-specific-training",
+    "title": "EC306 - Wages and Employment",
+    "section": "Sharing the Cost of Specific Training",
+    "text": "Sharing the Cost of Specific Training\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo keep trained workers, the firm and worker share the investment:\n\nDuring training, the wage \\(W_t\\) is below \\(W_a\\) but above \\(VMP_t\\)\nAfter training, the wage \\(W^*\\) is above \\(W_a\\) but below \\(VMP^*\\)\n\nNow both lose if the job ends. Specific skills act as glue: fewer quits, fewer layoffs, and longer job tenure\nTraining is really gradual, so wages rise smoothly with tenure, but the logic is the same\n\n\n\nThe worker quits less because they earn more here than elsewhere. The firm lays off less because the worker produces more than they’re paid.\nFirms also use contracts: some require trainees to repay training costs if they leave within a year or two."
+  },
+  {
+    "objectID": "slides/ch14/index.html#government-training-programs",
+    "href": "slides/ch14/index.html#government-training-programs",
+    "title": "EC306 - Wages and Employment",
+    "section": "Government Training Programs",
+    "text": "Government Training Programs\n\nActive labour market programs: government training, job-search help, and wage subsidies for the unemployed\nThe case for them: credit constraints, poor information about training, and spillovers\nEvaluating them is hard. Trainees select themselves, and many enrol after an unusual drop in earnings that would have bounced back anyway (mean reversion)\nThe best evidence comes from randomized experiments, or careful comparison groups\n\n\n\n\n\n\n\nWhat the Evidence Shows\n\n\nA review of many programs (Card et al.) finds small effects at first, and positive effects after two or three years. Effects are largest for women and the long-term unemployed, and programs that build human capital do better than job-search help in the long run\n\n\n\n\nExamples in Ontario: the Canada-Ontario Job Grant pays employers to train workers, and NPower Canada runs government-funded tech training.\nMethods for non-experimental evaluations: difference-in-differences, matching on observed characteristics, and instrumental variables. The book also discusses Canadian evaluations (Ci et al.).\nMean reversion is why simple before-and-after comparisons overstate training effects: someone who enrols at a low point would usually recover anyway."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question",
+    "href": "slides/ch14/index.html#iclicker-question",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nPriya can take a one-year program. Tuition and books cost $8,000, and she would give up a $32,000 job for the year. After it, she would earn $3,000 a year more for the rest of her career. She can borrow or save at 8%. Using the approximations from class, what should she do?\nA) Enroll, because the return of 37.5% beats the 8% interest rate\nB) Enroll, because she earns $3,000 more every year for the rest of her career\nC) Don’t enroll, because the return of 7.5% is below the 8% interest rate\nD) Don’t enroll, because $3,000 a year is less than the $40,000 cost\nE) Enroll, because the return of 9.4% beats the 8% interest rate\n\nAnswer: C. irr = ΔI/(I + D) = 3,000/(32,000 + 8,000) = 7.5%, below r = 8%. MB and MC give the same answer: MB = 3,000/0.08 = $37,500, less than MC = $40,000. At 7% interest she would enroll.\nA divides by tuition alone (3,000/8,000) and forgets forgone earnings. That’s the most common mistake: the biggest cost of school is usually the pay you give up. E divides by forgone earnings alone (3,000/32,000) and forgets tuition. B ignores costs and discounting altogether. D gets the right decision for the wrong reason: it compares a yearly gain with a one-time cost, and over a career $3,000 a year adds up to far more than $40,000 before discounting."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question-1",
+    "href": "slides/ch14/index.html#iclicker-question-1",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA recession cuts pay and hours this year for 18-year-olds who go straight to work. It doesn’t change what anyone will earn in later years. In the human capital model from class, what happens to college and university enrolment?\nA) It rises, because students give up less pay, so the cost of school falls\nB) It doesn’t change, because what graduates will earn later hasn’t changed\nC) It falls, because families have less money to pay tuition\nD) It falls, because a recession lowers the return to all investments\nE) It rises, because the earnings gain from school, \\(\\Delta I\\), rises\n\nAnswer: A. The marginal cost of school is MC = I + D, and I, the pay given up while in school, fell. So MC falls at every level of schooling and S* rises. Enrolment does tend to rise in recessions. This is the mirror image of the oil-boom bullet.\nC is a credit-constraint story. It’s real, but the basic model assumes students can borrow at r; in practice the two effects pull in opposite directions. B forgets that forgone earnings are a cost. D: the return to school depends on ΔI, I and D, and only I changed. E: ΔI is the gap in later earnings, which the stem says hasn’t changed."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question-2",
+    "href": "slides/ch14/index.html#iclicker-question-2",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nChange one thing in the signalling model: school is now cheaper for type H, with \\(c_H(s) = s/3\\). Type L’s cost is still \\(c_L(s) = s\\), and the wages are still 1 and 2. Which cutoffs \\(s^*\\) now separate the two types?\nA) \\(1 &lt; s^* &lt; 2\\)\nB) \\(1 &lt; s^* &lt; 3\\)\nC) \\(0 &lt; s^* &lt; 3\\)\nD) \\(2 &lt; s^* &lt; 3\\)\nE) \\(s^* &lt; 1\\)\n\nAnswer: B. Type H gets s* if 2 − s/3 &gt; 1, so s &lt; 3. Type L still avoids it if 2 − s* &lt; 1, so s* &gt; 1.\nA is the answer from the slide, not updated. C forgets that type L must not want s*: below 1, both types get educated and the signal is useless. D counts only the newly added range. E is where both types get educated, a pooling outcome.\nThe point: the bigger the cost gap between the types, the wider the range of signals that work."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question-3",
+    "href": "slides/ch14/index.html#iclicker-question-3",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSome 18-year-olds can step into a well-paid family business. They skip university, and the business lets them earn more for the rest of their lives. A study regresses log earnings on schooling and leaves out “has a family business.” Its estimated return to schooling is:\nA) Too high, as with ability bias\nB) Too high, because the business raises earnings\nC) Unbiased, because a family business isn’t ability\nD) Too low, because the business raises earnings but goes with less schooling\nE) Unbiased, because the effect of the business averages out across people\n\nAnswer: D. In the bias formula, γ &gt; 0 (the business raises earnings) but δ₁ &lt; 0 (people with a business get less schooling), so γδ₁ &lt; 0 and OLS understates the return.\nA and B pattern-match: omitted variable bias isn’t always upward. Its sign is the product of the two signs. C: “ability” stands in for anything left out that is related to both schooling and earnings. E: the effect doesn’t average out, because it’s correlated with schooling."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question-4",
+    "href": "slides/ch14/index.html#iclicker-question-4",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nOntario pays $6,000 of each university student’s tuition out of tax revenue. When we add up the social cost of a year of university, the $6,000 subsidy:\nA) Lowers the social cost by $6,000, because students pay less\nB) Adds $6,000 to the social cost, on top of the cost of running the university\nC) Doesn’t count, because it only moves money from taxpayers to students\nD) Is the only part of tuition that counts as a social cost\nE) Lowers the social cost, because taxpayers spread it across many people\n\nAnswer: C. Social costs are real costs: instructors’ time, buildings, and the output students don’t produce while in school. The subsidy is a transfer from taxpayers to students.\nA confuses private and social cost: the student’s private cost falls by $6,000, but the social cost doesn’t change. B double-counts: the resources the subsidy pays for are already counted once. D: tuition paid by the student is also just a payment for those same resources. E: spreading a cost across more people doesn’t make it smaller.\nSo a subsidy raises the private return to school, but not the social return."
+  },
+  {
+    "objectID": "slides/ch14/index.html#iclicker-question-5",
+    "href": "slides/ch14/index.html#iclicker-question-5",
+    "title": "EC306 - Wages and Employment",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA trucking company trains new hires for a commercial driver’s licence, which every trucking company requires. In the training model from class, who pays for the training, and how?\nA) The firm, because it chose to offer the training\nB) The firm and the worker share it, as with specific training\nC) The firm, which gets its money back by paying trained drivers less than their VMP\nD) The government, because the training is general\nE) The worker, by accepting lower pay during training\n\nAnswer: E. Any trucking company will hire a licensed driver, so the licence is general training: rivals would bid a trained driver’s wage up to VMP*. The firm can’t get its money back, so the worker pays, through low pay while training.\nA: offering the training isn’t the same as paying for it. C applies the specific-training logic: paying below VMP after training would just send the driver to a rival. D: governments do fund some training, but that’s not the model’s answer. B: sharing only makes sense when the skills are worth more at this firm than elsewhere.\nIn practice, trucking firms that advertise “free” licence training usually make drivers stay a year or repay the cost. So the worker pays after all."
   }
 ]
