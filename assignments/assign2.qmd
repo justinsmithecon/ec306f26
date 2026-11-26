@@ -1,0 +1,119 @@
+---
+title: "Assignment 2"
+---
+
+## Description
+
+Human capital theory says that education pays because it is an
+investment in skills, and that the payoff can be measured as a
+percentage return on each year of school. In this assignment you will
+use the records of over 30,000 Canadian wage earners from Statistics
+Canada's Canadian Income Survey, the same survey the textbook uses for
+its estimates in Table 14.2. You will draw age-earnings profiles,
+estimate the human capital earnings function for men and for women, and
+see how leaving a variable out of a regression biases the estimated
+return to schooling, which is the problem behind ability bias.
+
+The assignment is designed to give you practice working with survey
+microdata in R, and to show how economists estimate the return to
+schooling and what can go wrong. It is marked on whether you make an
+honest attempt at each question, not on whether your answers are right.
+
+**Due: Friday, December 4, 2026 at 9:00pm.**
+
+::: callout-important
+## Download both files into the same folder
+
+[{{< fa solid file-export >}} `ec306assign2.qmd`](/assignments/files/ec306assign2.qmd){download="ec306assign2.qmd"}
+— the assignment questions, as a Quarto document you write your answers
+into
+
+[{{< fa solid file-export >}} `ec306assign2.csv`](/assignments/files/ec306assign2.csv){download="ec306assign2.csv"}
+— the data
+:::
+
+## Instructions
+
+The questions are in the Quarto document above. Open it in RStudio and
+press **Render** before you change anything: it should produce a PDF. If
+it does not, fix that first, using the [Introduction to R and
+Quarto](/content/introtor.qmd) page.
+
+Then read the description of the data in the document carefully, and
+work through the three questions, writing your R code in the chunks
+provided and your answers in the text below each question. The hints
+under each question point to sections of the [Introduction to R and
+Quarto](/content/introtor.qmd) page, which has a worked example of each
+step. The sections "Turning categories into numbers", "Line graphs of
+results you have calculated" and "Using a coefficient in a calculation"
+are new since Assignment 1. Each question
+has a **Comment on the results** paragraph, just above the answer
+space, that says what your written answer must cover. Tables must be
+made with `modelsummary()` or `datasummary_df()`, and graphs must have
+readable axis labels. Do not copy and paste, or screenshot, console
+output.
+
+## The data
+
+The data are an extract from the public use microdata file of
+Statistics Canada's [Canadian Income
+Survey](https://www150.statcan.gc.ca/n1/en/catalogue/72M0003X), 2022.
+Each row is one person aged 25 to 64: 38,367 people in all, with 8 of
+the file's variables. The variables keep Statistics Canada's own names
+and codes. They cover the person's province, age group, sex, education
+and immigrant status, and their wages and hours of work in 2022. The
+Quarto document describes every variable.
+
+Source: Adapted from Statistics Canada, Canadian Income Survey, 2022,
+Public Use Microdata File (catalogue 72M0003X). This does not
+constitute an endorsement by Statistics Canada of this product.
+
+## Submission
+
+Submit **the PDF produced by rendering your `.qmd` file** to the
+Gradescope assignment called **Assignment 2**, by the due date. When you
+upload it, match each question to the page it is on. Only the PDF is
+marked, so check that your code, tables, graphs and written answers all
+appear in it.
+
+A document that does not render cannot produce a PDF, so render after
+every question, not only at the end. If you cannot get a chunk to work,
+add this line at the top of the chunk, just below its label:
+
+```
+#| error: true
+```
+
+The document will then render, with the error showing in your PDF. Code
+that tries to answer the question still counts as an attempt (see
+Marking), so submit what you have.
+
+## Marking
+
+The assignment is worth 5% of your final grade.
+
+-   **5%**: an honest attempt at all three questions.
+-   **2.5%**: an honest attempt at one or two of the questions.
+-   **0**: no honest attempt at any question.
+
+An honest attempt at a question has two parts. First, R code that tries
+to do what the question asks; it counts even if it gives an error or the
+wrong table or graph. Second, a written answer that responds to what
+the question's **Comment on the results** paragraph asks. Mistakes in
+your code, numbers or reasoning don't cost you anything. Empty code
+chunks, placeholder text, or a written answer that doesn't respond to
+what the question asks do not count as an attempt. Your statement on the use of generative AI is required.
+
+## Generative AI
+
+You may use generative AI for this assignment, but you must say how you
+used it. The document has a section at the end for this. Failing to
+disclose its use is academic misconduct.
+
+## Plagiarism
+
+This is an independent assignment, which I expect you to complete on
+your own. It is plagiarism to copy someone else's work verbatim, which
+includes R code. Any work you submit should be yours only. However, you
+are encouraged to talk to each other to try to figure out how to do the
+assignment.

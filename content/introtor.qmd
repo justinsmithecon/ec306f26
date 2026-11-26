@@ -726,6 +726,33 @@ spaces and punctuation included: `"university"` would match nobody. Run
 `count()` on the original variable first to see how its categories are
 spelled.
 
+#### Turning categories into numbers
+
+Sometimes each category of a variable needs its own number, such as the
+years of schooling that go with each level of education. `case_when()`
+does this. Each line inside it is a condition, then `~`, then the value
+to give everyone for whom the condition is true. This is how `yrschool`
+in `lfs` was made:
+
+```{r}
+lfs <- lfs |>
+  mutate(
+    yrschool = case_when(
+      educ == "Less than HS" ~ 10,
+      educ == "High school"  ~ 12,
+      educ == "College"      ~ 14,
+      educ == "University"   ~ 16
+    )
+  )
+
+count(lfs, educ, yrschool)
+```
+
+`case_when()` checks the conditions in order and uses the first one
+that is true. Anyone who matches none of them gets `NA`, so use
+`count()` to check that every category got a number. The conditions can
+compare numbers too, such as `code == 3` or `age < 30`.
+
 ### `summarise()` — boil the data down
 
 `summarise()` collapses a whole dataset into a single row of summary
@@ -949,6 +976,54 @@ ggplot(rates, aes(x = educ, y = lfp_rate, fill = factor(female))) +
   labs(x = "Education", y = "Participation rate", fill = NULL)
 ```
 
+### Line graphs of results you have calculated
+
+When the variable on the horizontal axis is a number, such as age, a
+line graph shows the pattern better than bars. Here are average wages
+by age group for workers with and without a university degree,
+separately for men and women. `case_when()` first puts each person in a
+ten-year age group, labelled by roughly its middle age:
+
+```{r}
+#| message: false
+profiles <- lfs |>
+  mutate(
+    agegrp = case_when(
+      age < 30 ~ 25,
+      age < 40 ~ 35,
+      age < 50 ~ 45,
+      age < 65 ~ 57
+    )
+  ) |>
+  group_by(female, university, agegrp) |>
+  summarise(mean_wage = mean(wage))
+```
+
+`geom_line()` joins the points from left to right, and `geom_point()`
+marks each one. Mapping `factor(university)` to `colour` draws a
+separate line for each value, and `scale_colour_discrete()` replaces the
+0 and 1 in the legend with words, as `scale_fill_discrete()` did for
+the bars. `facet_wrap(~ female)` draws a separate panel for each value
+of `female`, and `labeller = as_labeller()` replaces the 0 and 1 in the
+panel titles with words:
+
+```{r}
+#| label: fig-wage-profiles
+#| fig-cap: "Average wages by age, degree and sex"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(profiles, aes(x = agegrp, y = mean_wage, colour = factor(university))) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~ female, labeller = as_labeller(c("0" = "Men", "1" = "Women"))) +
+  scale_colour_discrete(labels = c("No degree", "University degree")) +
+  labs(x = "Age", y = "Average hourly wage ($)", colour = NULL)
+```
+
+If the numbers on an axis are large, R may write them as `1e+05`.
+Adding `scale_y_continuous(labels = scales::label_comma())` writes
+100,000 instead.
+
 ::: callout-important
 ## Assignment graphs need labels
 
@@ -1050,6 +1125,39 @@ modelsummary(
 ```
 
 This is the format your assignments should use.
+
+### Using a coefficient in a calculation
+
+`coef()` returns a named vector, so you can pick out one coefficient by
+putting its name, in quotes, in square brackets. The name is the one
+shown in the regression output:
+
+```{r}
+coef(model1)["yrschool"]
+```
+
+Store coefficients under names of your own, and you can calculate with
+them. Here is how much the return to schooling changes when age and sex
+are added to the regression:
+
+```{r}
+b_short <- coef(model1)["yrschool"]
+b_long  <- coef(model2)["yrschool"]
+b_short - b_long
+```
+
+To present numbers like these, put them in a data frame with
+`data.frame()`, one column for each kind of number, and give it to
+`datasummary_df()`:
+
+```{r}
+returns <- data.frame(
+  model  = c("Schooling only", "With controls"),
+  return = c(b_short, b_long)
+)
+
+datasummary_df(returns, fmt = 3)
+```
 
 # Part 2: Quarto
 

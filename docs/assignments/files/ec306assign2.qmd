@@ -1,0 +1,339 @@
+---
+title: "EC306 Assignment 2: What Is a Year of School Worth?"
+author: "Your name, your student number"
+date: today
+format:
+  pdf:
+    fig-width: 6
+    fig-height: 3.5
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \floatplacement{figure}{H}
+execute:
+  message: false
+  warning: false
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Put this file and ec306assign2.csv in the SAME folder.
+  2. Open this file in RStudio and press Render. It should produce a PDF
+     before you have written anything. If it does not, fix that first.
+  3. Write your code in the chunks provided and your answers where it
+     says "Write your answer here." Render after every question.
+  4. When you are finished, upload the PDF this file produces to the
+     Gradescope assignment "Assignment 2". Only the PDF is marked.
+-->
+
+## Background
+
+Human capital theory treats education as an investment. A year of
+school costs tuition and the earnings you give up while you study, and
+it pays off in higher earnings for the rest of your working life. In
+class we measured the payoff with the **human capital earnings
+function**:
+
+$$
+\ln I = \alpha + rS + \beta_1 EXP + \beta_2 EXP^2 + \varepsilon
+$$
+
+Here $I$ is earnings, $S$ is years of schooling, and $EXP$ is potential
+experience, the number of years since the person left school. When the
+direct costs of schooling are small, the coefficient $r$ is the return
+to schooling: the approximate percentage increase in earnings from one
+more year of school. The textbook's Table 14.2 estimates this equation
+with data from Statistics Canada's Canadian Income Survey for 2022. It
+finds a return of 10.3% for men and 15.2% for women.
+
+In this assignment you will use the public use microdata file of the
+same survey. You will draw age-earnings profiles, estimate the human
+capital earnings function for men and for women, and see how leaving a
+variable out of the regression biases the estimate of $r$. That is the
+problem behind ability bias.
+
+## The data
+
+The data come from the public use microdata file of Statistics Canada's
+Canadian Income Survey (CIS) for 2022. Each row is one person aged 25 to
+64: 38,367 people in all. The file keeps 8 of the survey's variables,
+with Statistics Canada's own names and codes. Income is for the 2022
+calendar year.
+
+Read these notes before you start.
+
+-   **No weights.** The survey sampled some kinds of people more
+    heavily than others, and Statistics Canada provides weights to
+    correct for that. To keep things simple, this file leaves the
+    weights out, and you will treat every person the same. Your results
+    will show the same patterns as the textbook's, but your numbers will
+    differ a little from its Table 14.2.
+-   **Employees only.** `ALHRWK` counts hours at all jobs, including
+    self-employment, so for a self-employed person `WGSAL / ALHRWK`
+    would not be an hourly wage. The file therefore leaves out everyone
+    with income from self-employment. It also leaves out people who
+    report wages but no hours of work, and people whose immigrant status
+    is not known.
+-   **Broad categories.** To protect the people in the survey, the
+    public file records age in five-year groups and education in four
+    broad levels, and it rounds income amounts.
+
+| Variable | Description |
+|:-----------|:----------------------------------------------------------|
+| `PERSONID` | Person identifier |
+| `PROV` | Province: 10 Newfoundland and Labrador, 11 Prince Edward Island, 12 Nova Scotia, 13 New Brunswick, 24 Quebec, 35 Ontario, 46 Manitoba, 47 Saskatchewan, 48 Alberta, 59 British Columbia |
+| `AGEGP` | Age group: 6 25 to 29, 7 30 to 34, 8 35 to 39, 9 40 to 44, 10 45 to 49, 11 50 to 54, 12 55 to 59, 13 60 to 64 |
+| `SEX` | 1 male, 2 female |
+| `HLEV2G` | Highest level of education: 1 less than high school, 2 high school graduate, 3 postsecondary certificate or diploma below a university degree, 4 university degree, 9 not stated |
+| `IMMST` | Immigrant status: 1 immigrant, 2 non-immigrant |
+| `WGSAL` | Wages and salaries in 2022, before taxes and deductions, in dollars. 0 for people with no wages |
+| `ALHRWK` | Hours worked in 2022, at all jobs. 9996 for people who did not work |
+
+Source: Adapted from Statistics Canada, Canadian Income Survey, 2022,
+Public Use Microdata File (catalogue 72M0003X). This does not
+constitute an endorsement by Statistics Canada of this product.
+
+## Instructions
+
+-   Write your R code in the chunks provided. You can add more chunks if
+    you need them.
+-   Tables and graphs must be presentable: use `modelsummary()` for
+    regression tables and `datasummary_df()` for other tables, and give
+    every graph readable axis labels.
+-   The hints under each question point to sections of the R tutorial,
+    the Introduction to R and Quarto page on the course website. Each
+    section has a worked example of the step the hint describes, using
+    different data.
+-   Render the document after each question, not only at the end. If
+    you cannot get a chunk to work, add the line `#| error: true` at
+    the top of the chunk, just below its label. The document will then
+    render with the error showing, and code that tries to answer the
+    question still counts as an attempt.
+-   Every written answer goes under **Answer:**, and what it must cover
+    is set out just above, under **Comment on the results**.
+-   The assignment is marked on whether you make an honest attempt at
+    each question, not on whether your answers are right. The
+    assignment page on the course website gives the details.
+
+## Setup
+
+Do not change this chunk or the next one.
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(modelsummary)
+```
+
+```{r}
+#| label: load-data
+cis <- read_csv("ec306assign2.csv")
+
+head(cis)
+```
+
+## Question 1: Age-Earnings Profiles
+
+**(a)** Prepare the data. Save each step back into `cis`.
+
+-   Keep only the people who had wages and salaries in 2022 (`WGSAL`
+    greater than 0) and whose education is known (`HLEV2G` is not 9).
+-   Create `S`, years of schooling: 10 for less than high school, 12 for
+    a high school graduate, 14 for a postsecondary certificate or
+    diploma, and 16 for a university degree.
+-   Create `age`, the middle of the person's age group, with this code:
+    `cis <- cis |> mutate(age = 27 + 5 * (AGEGP - 6))`. It gives 27 for
+    ages 25 to 29, 32 for 30 to 34, and so on up to 62 for 60 to 64.
+-   Create `EXP`, potential experience, as `age - S - 5`, which is the
+    textbook's definition, and `EXP2`, the square of `EXP`.
+-   Create `lnearn`, the log of `WGSAL`.
+
+*Hints.*
+
+-   Conditions in `filter()` separated by commas must all hold, and `!=`
+    means "is not equal to". See "`filter()` — keep some rows" in the R
+    tutorial.
+-   `case_when()` gives each level of `HLEV2G` its own number of years.
+    See "Turning categories into numbers" in the R tutorial.
+-   `EXP^2` is the square of `EXP`, and `log()` takes logs. See
+    "`mutate()` — create variables" in the R tutorial.
+-   To check your work, `nrow(cis)` should be 30,310, and
+    `count(cis, HLEV2G, S)` should show one value of `S` for each level
+    of education.
+
+```{r}
+#| label: q1a
+# Prepare cis here.
+
+```
+
+**(b)** For each combination of `SEX`, `HLEV2G` and `age`, calculate
+average wages and salaries (`WGSAL`). Store the result in a data frame
+called `q1`. Then graph the averages for men and for women, with age on
+the horizontal axis and one line for each level of education. You can
+put men and women in two panels of one graph, or make a separate graph
+for each. You do not need a table for this question: the graphs present
+the averages.
+
+*Hints.*
+
+-   Put all three variables in `group_by()`. See "Grouping by two
+    variables" in the R tutorial.
+-   Give `q1` to `ggplot()`, not `cis`. `geom_line()` draws the lines,
+    and mapping `factor(HLEV2G)` to `colour` gives each level of
+    education its own line. Replace the codes in the legend with words.
+    See "Line graphs of results you have calculated" in the R tutorial,
+    which also shows how to stop R writing large numbers as `1e+05`.
+-   For two panels, add `facet_wrap()` and replace the codes in the
+    panel titles with words, as in the tutorial. For separate graphs,
+    use `filter()` to give `ggplot()` only the men's rows of `q1`, then
+    only the women's, and use `title =` in `labs()` to say which graph
+    is which.
+
+```{r}
+#| label: q1b
+
+```
+
+**Comment on the results.** Describe how average earnings change with
+age, and how the profiles differ by education. Do they have the shape
+that human capital theory predicts?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 2: The Human Capital Earnings Function
+
+**(a)** Estimate the human capital earnings function
+
+$$
+\ln I = \alpha + rS + \beta_1 EXP + \beta_2 EXP^2 + \varepsilon
+$$
+
+with `lnearn` as $\ln I$, separately for men and for women. Store the
+results as `men_earn` and `women_earn`.
+
+Then add `lnwage`, the log of the hourly wage `WGSAL / ALHRWK`, to
+`cis`, and estimate the same equation with `lnwage` in place of
+`lnearn`, again for men and for women. Store the results as `men_wage`
+and `women_wage`.
+
+Present all four regressions in one table, with column headings that
+say which is which.
+
+*Hints.*
+
+-   Add `lnwage` to `cis` first. Then use `filter()` to save the men in
+    a data frame called `men` and the women in one called `women`; you
+    will use them again in Question 3. See "`filter()` — keep some rows"
+    in the R tutorial.
+-   Estimate each regression with `lm()`, using `EXP2` for
+    $EXP^2$: for example, `lm(lnearn ~ S + EXP + EXP2, data = men)`.
+    See "Regression" in the R tutorial.
+-   `modelsummary()` accepts a list of models, and the names you give
+    the elements of the list become the column headings. Add `fmt = 4`
+    to show four decimal places, so that the small coefficient on
+    `EXP2` does not round to almost nothing. See "Presenting results" in
+    the R tutorial.
+
+```{r}
+#| label: q2
+
+```
+
+**Comment on the results.** What is the return to schooling in annual
+earnings for men and for women, and how does it compare with the
+textbook's 10.3% and 15.2%? The return in annual earnings minus the
+return in hourly wages is the return in hours worked. What does that
+suggest about why women's return is higher?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 3: Leaving a Variable Out
+
+In class we saw that if log earnings depend on schooling and ability
+$A$,
+
+$$
+\ln I = \alpha + \beta S + \gamma A + \varepsilon,
+$$
+
+and ability is related to schooling, $A = \delta_0 + \delta_1 S + v$,
+then a regression that leaves $A$ out estimates
+$\tilde{\beta} = \beta + \gamma\delta_1$. You cannot check this with
+ability, because the survey does not measure it. But the formula holds
+for any variable left out of a regression, so you can watch it work
+with one that is in the data: immigrant status.
+
+When the regression has other variables in it too, as yours does,
+$\gamma$ is the coefficient on the left-out variable in the regression
+that includes it, and $\delta_1$ is the coefficient on $S$ in a
+regression of the left-out variable on $S$ and the other variables.
+
+**(a)** Add `immigrant` to `men` and to `women`: 1 if `IMMST` is 1, and
+0 otherwise. Then, for men and for women, estimate:
+
+-   the **long regression**: `lnearn` on `S`, `EXP`, `EXP2` and
+    `immigrant`. Store the results as `men_long` and `women_long`.
+-   the **auxiliary regression**: `immigrant` on `S`, `EXP` and `EXP2`.
+    Store the results as `men_aux` and `women_aux`.
+
+Present the four regressions in one table. The regressions from
+Question 2 that leave `immigrant` out, `men_earn` and `women_earn`, are
+the **short regressions**.
+
+*Hints.*
+
+-   `as.numeric()` turns a comparison into a 1 or 0. See "Dummy
+    variables" in the R tutorial.
+-   The table works the same way as in Question 2.
+
+```{r}
+#| label: q3a
+
+```
+
+**(b)** For men and for women, pull out these four numbers:
+
+-   `r_short`: the coefficient on `S` in the short regression;
+-   `r_long`: the coefficient on `S` in the long regression;
+-   `gamma`: the coefficient on `immigrant` in the long regression;
+-   `delta`: the coefficient on `S` in the auxiliary regression.
+
+Then calculate `r_long + gamma * delta`. Present the results in a table
+with one row for men and one for women.
+
+*Hints.*
+
+-   `coef(men_long)["S"]` is the coefficient on `S` in `men_long`. See
+    "Using a coefficient in a calculation" in the R tutorial.
+-   Put the numbers in a data frame with `data.frame()`, with one column
+    for each number, and present it with `datasummary_df()`. See "A
+    dataset is vectors side by side" and "Tables" in the R tutorial.
+
+```{r}
+#| label: q3b
+
+```
+
+**Comment on the results.** Does leaving out immigrant status make the
+estimated return to schooling too high or too low? Explain using the
+signs of `gamma` and `delta`. If ability were the left-out variable
+instead, which way would you expect the bias to go, and why?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Use of generative AI
+
+If you used a generative AI tool for any part of this assignment, name
+the tool and describe what you used it for. If you did not use one, say
+so.
+
+*Write your statement here.*

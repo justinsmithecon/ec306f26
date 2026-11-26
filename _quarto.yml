@@ -13,6 +13,8 @@ project:
     - assignments/files/ec306assign1.csv
     - assignments/files/ec306assign1-key.qmd
     - assignments/files/ec306assign1-key.pdf
+    - assignments/files/ec306assign2.qmd
+    - assignments/files/ec306assign2.csv
  
 
 website:
@@ -90,6 +92,8 @@ website:
           contents:
             - text: "Assignment 1"
               file: assignments/assign1.qmd          
+            - text: "Assignment 2"
+              file: assignments/assign2.qmd
               
 format:
   html:
